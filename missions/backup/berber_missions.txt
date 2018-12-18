@@ -1,0 +1,84 @@
+han_formation = {
+
+	slot = 1
+	generic = yes
+	ai = yes
+	
+	potential = {
+		culture_group = maghrebi
+	}
+	has_country_shield = yes
+	
+	berber_buildup = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			army_size_percentage = 1.0
+			navy_size_percentage = 1.0
+			num_of_admirals = 1
+			num_of_generals = 1
+		}
+		
+		effect = {
+			upper_andalucia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	conquer_granda = {
+		icon = mission_arabian_fort
+		required_missions = { berber_buildup }
+		position = 3
+		
+		provinces_to_highlight = {
+			area = upper_andalucia_area
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			upper_andalucia_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			add_prestige = 15
+			toledo_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lower_andalucia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			alentejo_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			valencia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}

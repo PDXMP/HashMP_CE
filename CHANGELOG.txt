@@ -1,0 +1,146 @@
+COMBAT:
+* Land Attrition cap raised to 10% max and Naval Attrition 10% max (Don't stack 200 mercs to siege.)
+* +1 attrition in Arid and Arctic.
+* Blockades now remove 100% trade power rather than 75%, and doubled war exhaustion. (Get a navy if it pisses you off.)
+* Forts no longer take a building slot. (It was really screwing tall players.)
+* Mercenaries reduced to 15/25% of force limit from 30/30% of force limit.
+* It now takes 20 days rather than 36 to unload troops to hostile land.
+
+ECONOMY:
+* Development cost reduced to 45 from 50 (but institution gained reduced by 10% to 4.5 from 5.0 to compensate)
+* Tier 2 production building reduced to +85%.
+* Renaissance now -10% dev cost, from -5% dev -5% build cost.
+* Manufactories institution now +10% production efficiency from +10% goods produced. 
+
+CAVALRY:
+Cavalry now more powerful overall.
+*Cavalry gets 0.40 shock at tech 6, and at tech 8, rather than 0.8 shock at tech 8.
+*Cavalry gain an additional 0.2 cav shock at tech 12.
+*Eastern, Chinese, Muslim, African, and Indian last-tech Cavalry now have better pip allotment (more fire defense.)
+*Tech 23 Ottoman Cavalry have fire defense rather than fire offense.
+*Tech 14 Indian Cavalry have fire defense rather than fire offense.
+*Tech 28 Ottoman Cavalry have 19 pips (Like Muslim Cav.)
+*Cossack estate is only 10% cav combat now from 20%.
+
+MISC:
+* You can create Client States in overseas regions. (Lets you do some historical stuff.)
+* Rebels slightly buffed per military tech. Should be roughly the same at game start. (Late game rebels no longer literally pointless, just 90% pointless.)
+* NATIONALIST rebels now drastically increased likeliness to spawn, only take 2 years to "win" and accepting a culture/having a culture in your primary group no longer block their rise.
+* Annul treaties now lasts 20 years, transfer trade power now 50% warscore. (More viable peace deals.) Forced access and fleet basing costs reduced as well.
+* All republics now have 4 year election cycles, and Merchant republic aristocrat faction gives 10% moral. 
+* All events EXCEPT ETHIOPIA's reduced to 10% morale and 5% discipline max.
+* Idea group limit reduced to 40% from 50%. 
+
+SUBJECTS:
+* Marches now have 10% military tech cost reduction.
+* Subjects get +1 base income.
+
+IDEAS
+* COMPLETELY OVERHAULED. LOOK DOWN BELOW FOR FULL INFORMATION.
+* https://docs.google.com/spreadsheets/d/1439mHixE-l1IjBJQ2aZqu9Wf7sADVbrk3RQux0iI4Ic/edit?usp=sharing IDEA GROUPS
+* https://docs.google.com/spreadsheets/d/1DZ24osBOpLMxBAywZ25erfY9AQ73iBL3v7TRuAdU8Is/edit?usp=sharing POLICIES
+
+GOVERNMENTS:
+* Oligarchic Republic National tax modifier increased to +10%
+* Free cities now get an additional +15% Land and naval force limit
+* Prussian Monarchy revamped to be much weaker, now gives 25% manpower recovery/force limit/maintenance reduction, no discipline.
+* Trade Cities (spawned from merchant republics) now have -50% idea cost, and -20% dev cost.
+
+
+MAJOR COUNTRY IDEA CHANGES:
+* France now has 10% Cav combat instead of +1 Diplo Rep, Diplo Rep replaces Diplomatic Upkeep. Morale nerfed to 15%. 10% Heavy ship combat.
+* England now has 10% naval moral, but 5% more infantry combat. (Stop sitting on your island.)
+* Spain's Morale reduced to 10%, but sailors increased to 20% from 10%.
+* Austria now has 5% discipline and a 10% tax modifier instead of heir chance.
+* Netherlands Ideas now have 15% siege instead of 10%, and 10% fire damage reduction in addition to damage.
+
+COUNTRY IDEAS
+* Italy ideas now have 10% dev cost reduction instead 50% better relations over time, 10% infantry combat and 5% discipline instead of 15% infantry combat.
+* Bohemian ideas no longer have hostile core creation, but rather 10% artillery combat. (Bohemia no longer has plot armor.)
+* Venice and Genoa now have 10% merc discipline.
+* Savoy now has 15% morale.
+* German ideas and German Minor ideas all buffed slightly to have a military effect. 
+* Danish ideas now have 5% discipline, and 2.5% extra durability, as well as trade ship power.
+* Aragon ideas now have 0.5 yearly army tradition.
+* Hungary now has 25% force limit at the end of their ideas.
+* Novgorod has 10% infantry combat on their fifth idea.
+* Bavaria now has 10% build cost reduction instead of heir chance, and 10 morale instead of -10% stability cost.
+* Palatinate has 25% force limit instead of stability cost, 5% discipline instead of diplomatic relations, and 50% support rebels from 20%. 
+* Divine Ideas now have 10% morale instead of national garrison growth.
+* Saxony now has 10% infantry combat instead of heir chance.
+* Provence now has 5% discipline finisher instead of +1 prestige.
+* Hessian ideas completely revamped.
+* Brittany now has 15% morale instead of hostile core creation.
+
+THE BIG THREE CHANGES:
+* Prussia now has 10% morale of armies instead of 20%, but 10% dev cost instead of AE reduction, 5% dev cost reduction at end removed for +3 tolerance of heretics.
+* Sweden military reforms event nerfed.
+* Poland down to 20% cav combat, 10% morale from 15%.
+
+NOT EUROPE COUNTRIES
+* Jaunpur has 10% manpower in addition, as well as a 10% morale event.
+* Bengal has a 10% morale event, as well as 35% total manpower.
+* Bahmanis now has 5% discipline on their legitimacy idea.
+* Dai Viet no longer hostile core creation, now 5% discipline.
+* Ayutthaya now has 5% ship durability, 20% naval force limit, and 10% infantry combat.
+* Berbers/Mamluks/Persia buffed to 15% Cav Combat. 
+* Persia now starts released with a medium king.
+* Berbers also get 50% cavalry flanking.
+* Egypt now tech 10, same effects of Arabia (so less Green.) Ottomans also Red now.
+* Indian Sultanates a little better.
+* Georgian ideas now have 10% morale instead of heir chance.
+* Ethiopia has 10% tax instead of heir chance, and 2.5% discipline, and 25% manpower instead of attrition reduction in traditions.
+* Korea now has 10% dev cost and 20% institution spread instead of 5% tech cost, and 10% durability instead of 5%.
+
+COLONIAL NATIONS IDEAS (done to make colonies that break free actually not shitty.)
+* USA now has -1 army tradition decay, 2.5% discipline, and an additional 10% development cost reduction. 
+* Brazil 50% envoy travel time instead of 25%, 15% infantry combat instead of 10%, 15% tax modifier instead of 10%. 
+* Mexico now has 20% manpower recovery speed instead of 15%, and 1.5 yearly inflation reduction instead of 1. 
+* Canada 10% goods produced instead of reduced ship cost, and 1.5 yearly naval tradition instead of 1. Also their singing lumberjacks now do +10% damage, also 5% moral. 
+* Quebec has 15% goods produced instead of 10%, and 5% reduced cost of ideas.
+
+"FUN" COUNTRY CHANGES (Meaning not really that important.)
+* Songhai returned to 1 yearly army tradition because Paradox hates fun. 
+* Knights get 1 yearly army tradition too. See above.
+* Denmark now has 3% discipline on their first idea, 10% light ship power on their second idea, 20% more trade power from ships on their naval force limit, and -10% liberty desire on their unrest.
+* Hordes now have +3 tolerance of heathens rather than AE reduction, and regiment cost reduction instead of maintenance. (Not super relevant but if people wanted to play hordes the generic ideas are better now.)
+* Punjab now has 10% infantry combat, and moral, but goes down to 10% production efficiency. CAUSE SIKH. WHAT A SIKH CHANGE. 
+* Chinese breakout states now have 5% discipline instead of infantry combat, -10% admin tech cost instead of -5%, and 35% manpower.
+* Latin ideas (for italian minors.) now have 10% infantry combat instead of garrison size, 10% idea cost instead of 5%, and 10% defensiveness instead of 5%. 
+
+POLICIES 
+* Masive rework on policies, too many to list. Look in game to see differences. Military policies decreased in effectiveness.
+* Policies now cost 0 monarch points.
+
+ADVISOR STUFF
+* Commandant event only gives 5% discipline now.
+* Army organizer gives 15%  force limit
+* Master recruiter gives 15% manpower now
+* Grand Captain gives 15% land maintenance rather than 10%
+
+RELIGION (religions much better balanced overall.)
+* Counter Reformation no longer reduces tech or idea cost but gives 1 less missionary.
+* All religions now have defender of the faith.
+* Catholicism now has 5% morale instead of -1 tolerance of heretics. 1.5 yearly papal influence instead of 0.5 base. Proclaim Holy War now has 15% reinforcement speed.
+* Confuscianism and it's Tengri bonus now 10% TOTAL tech cost reduction.
+* Offensive wars now remove 0 Karma, Karma is only lost from taking land now.
+* Buddhist religions with Karma have -10% idea cost reduction instead of +1 diplo reputation.
+* Max tolerance of heathens/heretics is now 4 rather than 3. (it was way too easy to clip in to the max tolerance with only 2 bonuses and legitmacy)
+* Switzerland and Netherlands get bonus fervor generation. 
+* Protestant loses naval morale. CeeGee.
+* Reformed loses +1 advisor and instead gives -5% dev cost, and gives +10% goods produced instead of +1 diplomatic reputation.
+* Free core event (If an enemy controls a province that is of his religion and not of yours that borders him during war) now significantly more likely the lower tolerance you have. (Still has a MTTH of like 150 years if you have 0+ tolerance.)
+
+AI
+* AI will no longer take stupid idea groups while a vassal. (Maritime, Influence, Diplomatic, Trade, Expansion, Exploration.)
+
+TRADE GOODS
+* Grain is now 10% manpower instead of 0.5 force limit, trading-in bonus remains the same.	
+* Wool gains the old Grain force limit effects.
+* Spices are now 10% trade power instead of 20% hostile core creation
+* Iron is now -10% build cost instead of -20% build time
+* Fish is now 10% less ship recruitment speed.
+
+OPINION MODIFIERS
+* violated_tordesillas now decays at -5 from -1. 
+* Pirated now decays at -10 from -5. 

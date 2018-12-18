@@ -1,0 +1,71 @@
+############# LIMITS TARIFFS BY EVENT
+############# BECAUSE PARADOX HARDCODED IT
+############# GREAT JOB, GUYS
+############# BY TORNADOWATCH
+
+namespace = TornadoTariffs 
+
+# Tariffs Too High
+country_event = {
+	id = TornadoTariffs.1
+	title = "Tornado_Tariffs.EVTNAME1"
+	desc = "tornado_tariffs.EVTDESC1"
+	picture = HARBOUR_eventPicture
+	
+	
+	hidden = yes 
+	
+	trigger = {
+		any_subject_country = {
+			is_colonial_nation_of = ROOT
+			tariff_value = 0.76
+		}
+	}
+	
+	immediate = {
+		random_country = {
+			limit = {
+				is_colonial_nation_of = ROOT
+				tariff_value = 0.75
+			}
+			hidden_effect = {
+				country_event = { id = TornadoTariffs.2 days = 1 }
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "colonial_nation.EVTOPTA1"	# HARD FIRE: Reduce tariffs
+		ai_chance = { factor = 50 }
+	}
+	
+}
+
+country_event = {
+	id = TornadoTariffs.2
+	title = "Tornado_Tariffs2.EVTNAME1"
+	desc = "tornado_tariffs2.EVTDESC1"
+	picture = HARBOUR_eventPicture
+	
+	hidden = yes 
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		add_tariff_value = -0.05
+	}
+	
+	option = {
+		name = "colonial_nation.EVTOPTA1"	# HARD FIRE: Reduce tariffs
+		ai_chance = { factor = 50 }
+	}
+}
+	
