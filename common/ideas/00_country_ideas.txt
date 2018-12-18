@@ -215,7 +215,7 @@ RUS_ideas = {
 SPA_ideas = {
 	start = {
 		land_morale = 0.15
-		artillery_fire = 1
+		artillery_power = 0.1
 	}
 	
 	bonus = {
@@ -243,7 +243,7 @@ SPA_ideas = {
 	}
 	spa_casa_de_contracion = {
 		envoy_travel_time = -0.33
-		global_tariffs = 0.15
+		global_tariffs = 0.10
 	}
 	spa_cortes = { 
 		possible_dip_policy = 1
