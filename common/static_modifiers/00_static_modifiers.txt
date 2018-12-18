@@ -890,6 +890,7 @@ luck = {
 	stability_cost_modifier = -0.10
 	global_institution_spread = 0.1
 	monthly_splendor = 1
+
 	#economy
 	mercenary_cost = -0.25
 	embracement_cost = -0.2
@@ -900,11 +901,11 @@ luck = {
 	manpower_recovery_speed = 0.25
 	defensiveness = 0.1
 	siege_ability = 0.05
-	
+
 	#diplomacy
 	spy_offence = 0.1
 	improve_relation_modifier = 0.25
-	
+
 	#government
 	global_unrest = -1
 	republican_tradition = 0.5
@@ -948,6 +949,7 @@ territory_very_hard_difficulty = { # Penalties for territories on very hard diff
 territory_ai_difficulty = { #Penalties for territories owned by AI regardless of difficulty.
 	yearly_corruption = 0.02
 }
+
 prestige = {
 	global_trade_power = 0.15			#+15/-15 total bonus from prestige.
 	land_morale = 0.125
@@ -1201,14 +1203,12 @@ autonomy_decreased = {
 
 revolution_target = {
 	global_manpower_modifier = 0.10
-	land_morale = 0.10
-	war_exhaustion = -0.15
+	war_exhaustion = -0.05
 	unjustified_demands = -0.5
-	land_maintenance_modifier = -0.15
-	naval_maintenance_modifier = -0.15
-	land_forcelimit_modifier = 0.4
-	naval_forcelimit_modifier = 0.4
-	papal_influence = -100
+	land_maintenance_modifier = -0.2
+	naval_maintenance_modifier = -0.2
+	land_forcelimit_modifier = 0.3
+	naval_forcelimit_modifier = 0.3
 }
 
 dishonoured_alliance =  {

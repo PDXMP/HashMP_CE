@@ -456,32 +456,32 @@ submission_to_emperor = {
 ######################################
 # Counter Revolution
 ######################################
-counter_revolution = {
-	potential = {
-		revolution_target_exists = yes
-		is_revolution_target = no
-	}
-
-	trigger = {
-		capital_scope = { continent = europe }
-		revolution_target_exists = yes
-		is_revolution_target = no
-		is_free_or_tributary_trigger = yes
-		NOT = {
-			revolution_target = {
-				war_with = ROOT
-			}
-			revolution_target = {
-				truce_with = ROOT
-			} 
-		}
-		government = monarchy
-	}
-
-	prestige = -5
-	stability_cost_modifier = 0.3
-	global_unrest = 5
-}
+#counter_revolution = {
+#	potential = {
+#		revolution_target_exists = yes
+#		is_revolution_target = no
+#	}
+#
+#	trigger = {
+#		capital_scope = { continent = europe }
+#		revolution_target_exists = yes
+#		is_revolution_target = no
+#		is_free_or_tributary_trigger = yes
+#		NOT = {
+#			revolution_target = {
+#				war_with = ROOT
+#			}
+#			revolution_target = {
+#				truce_with = ROOT
+#			} 
+#		}
+#		government = monarchy
+#	}
+#
+#	prestige = -5
+#	stability_cost_modifier = 0.3
+#	global_unrest = 5
+#}
 
 
 
@@ -506,9 +506,9 @@ reaction = {
 
 	}
 
-	prestige = 10
+	prestige = 1
 	stability_cost_modifier = -0.1
-	global_unrest = -10
+	global_unrest = -1
 }
 
 ######################################
