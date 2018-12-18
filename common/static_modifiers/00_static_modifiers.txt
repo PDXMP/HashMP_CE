@@ -493,7 +493,6 @@ left_trade_company = {
 scorched_earth = {
 	local_hostile_movement_speed = -0.50
 	local_hostile_attrition = 1
-	max_attrition = 5
 }
 ##########################################################################
 # Global Static Modifiers
