@@ -1,7 +1,8 @@
 #2950 - Buhera
 
-owner = ZIM
-controller = ZIM
+owner = RZW
+controller = RZW
+add_core = RZW
 add_core = ZIM
 culture = shona
 religion = shamanism
