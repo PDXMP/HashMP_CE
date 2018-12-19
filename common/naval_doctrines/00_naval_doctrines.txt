@@ -31,7 +31,7 @@ merchant_navy =
 	}
 
 	country_modifier = {
-		global_ship_trade_power = 0.33
+		global_ship_trade_power = 0.25
 	}
 	
 	button_gfx = 3
