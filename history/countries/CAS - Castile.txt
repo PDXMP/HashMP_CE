@@ -7,6 +7,7 @@ religion = catholic
 technology_group = western
 historical_rival = GRA
 historical_friend = POR
+historical_friend = ARA
 capital = 219 # Toledo
 national_focus = MIL
 
