@@ -22,7 +22,7 @@ ENG_ideas = {
 	free = yes		#will be added at load.
 	
 	royal_navy = {
-		navy_tradition = 0.5
+		navy_tradition = 0.25
 		heavy_ship_power = 0.10
 	}
 	eltham_ordinance = {
@@ -53,7 +53,7 @@ GBR_ideas = {
 	}
 
 	bonus = {
-		navy_tradition = 1
+		navy_tradition = 0.5
 	}
 	
 	trigger = {

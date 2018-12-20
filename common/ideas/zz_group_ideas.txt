@@ -745,7 +745,6 @@ malayan_empire_ideas = {
 	start = {
 		discipline = 0.05
 		global_ship_cost = -0.1
-		trade_steering = 0.1
 	}
 	
 	bonus = {
@@ -771,7 +770,7 @@ malayan_empire_ideas = {
 		idea_cost = -0.10
 	}
 	trading_fleets = {
-		naval_maintenance_modifier = -0.2
+		light_ship_cost = -0.1
 		sailor_maintenance_modifer = -0.10
 	}
 	heirs_of_pasai = {
