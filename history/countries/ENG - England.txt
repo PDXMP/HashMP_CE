@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = english_monarchy
-mercantilism = 25
+mercantilism = 10
 technology_group = western
 primary_culture = english
 add_accepted_culture = gascon
