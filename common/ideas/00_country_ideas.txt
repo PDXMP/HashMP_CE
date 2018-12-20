@@ -12813,6 +12813,7 @@ TUN_ideas = {
 	}
 	dual_diplomacy = {
 		diplomatic_upkeep = 1
+		vassal_forcelimit_bonus = 1
 	}
 	corsairs = {
 		navy_tradition = 1
@@ -12826,7 +12827,7 @@ TUN_ideas = {
 		leader_naval_fire = 1
 	}
 	tun_export_monopolies = {
-		global_own_trade_power = 0.2
+		global_own_trade_power = 0.25
 		trade_efficiency = 0.1
 	}
 	tun_caliphate = {
