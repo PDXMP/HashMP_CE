@@ -10509,3 +10509,11 @@ mor_looks_outward = {
 mor_looks_inward = {
 	local_development_cost = -0.2
 }
+
+##################################################
+# HashMP
+##################################################
+
+basic_polders = {
+	local_development_cost = -0.05
+}
