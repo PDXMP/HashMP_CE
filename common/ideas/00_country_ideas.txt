@@ -818,7 +818,7 @@ PER_ideas = {
 
 BUR_Ideas = {
 	start = {
-		land_morale = 0.1
+		merc_maintenance_modifier = -0.25
 		diplomatic_upkeep = 2
 	}
 	
@@ -834,12 +834,12 @@ BUR_Ideas = {
 	golden_fleece = {
 		prestige = 1
 	}
+	compagnies_ordonnance = {
+		land_morale = 0.1
+	}
 	freedom_of_worship = {
 		diplomatic_reputation = 1
 		diplomatic_annexation_cost = -0.15
-	}
-	compagnies_ordonnance = {
-		merc_maintenance_modifier = -0.25
 	}
 	bur_estates_general = {
 		possible_mercenaries = 0.5
@@ -849,9 +849,11 @@ BUR_Ideas = {
 	}
 	integrated_towns = {
 		trade_efficiency = 0.10
+		global_own_trade_power = 0.10
 	}
 	bur_regimental_system = {
 		global_manpower_modifier = 0.25
+		global_sailors_modifier = 0.10
 	}
 }
 
