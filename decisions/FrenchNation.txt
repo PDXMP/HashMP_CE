@@ -31,6 +31,7 @@ country_decisions = {
 					ai = no
 				}
 			}
+			always = no
 		}
 		provinces_to_highlight = {
 			OR = {
