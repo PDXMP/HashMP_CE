@@ -285,8 +285,8 @@ defensive_ideas = {
 		land_maintenance_modifier = -0.05
 	}
 	defensive_mentality = {
-		defensiveness = 0.2
-		fort_maintenance_modifier = -0.1
+		defensiveness = 0.1
+		fort_maintenance_modifier = -0.2
 	}
 	supply_trains = {
 		shock_damage_received = -0.05
