@@ -866,7 +866,7 @@ NEconomy = {
 	GOLD_MINE_SIZE = 40,							-- Base income from gold mines
 	GOLD_MINE_DEPLETION_THRESHOLD = 1,				-- Gold mines above production level or above can be depleted
 	GOLD_MINE_DEPLETION_CHANCE = 0.1,					-- Chance of gold mine being depleted (yearly, per production above threshold)
-	GOLD_MINE_SIZE_PRIMITIVES = 4,					-- Gold income for very slow techgroups
+	GOLD_MINE_SIZE_PRIMITIVES = 4,						-- Gold income for very slow techgroups
 	TRADE_POWER_HOME_BONUS = 0.1,
 	TRADE_POWER_HOME_BONUS_MAX = 1,
 	AUTONOMY_AT_DIPLO_ANNEX = 60,					-- Autonomy added when diplo-annexing
@@ -962,7 +962,7 @@ NEconomy = {
 
 NMilitary = {
 	SLACKEN_AP_DROP = 0.05,
-	SLACKEN_MANPOWER_INCREASE = 1.75,
+	SLACKEN_MANPOWER_INCREASE = 1.6,
 	
 
 	ARMY_DRILL_YEARLY_DECAY = -2.5,					-- Loss from not Drilling
