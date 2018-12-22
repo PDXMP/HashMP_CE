@@ -957,250 +957,250 @@ gond_kingdom = {
 }
 
 #Hereditary vs Nobility
-enforce_privileges_reform = {
-	icon = "people_walking"
-	allow_normal_conversion = yes
-	modifiers = {
-		global_manpower_modifier = 0.15
-	}
-}
-
-quash_noble_power_reform = {
-	icon = "king_2"
-	allow_normal_conversion = yes
-	modifiers = {
-		global_tax_modifier = 0.1
-	}
-}
-
-enforce_trader_privileges_reform = {
-	icon = "paper_money_map"
-	allow_normal_conversion = yes
-	potential = {
-		is_reform_available = plutocratic_reform
-		OR = {
-			technology_group = indian
-			technology_group = muslim
-			technology_group = chinese
-			technology_group = east_african
-		}
-	}
-	trigger = {
-		has_reform = plutocratic_reform
-	}
-	modifiers = {
-		trade_range_modifier = 0.3
-		trade_efficiency = 0.05
-	}
-}
-
-bengali_reform = {
-	icon = "merchant_ship"
-	allow_normal_conversion = yes
-	potential = {
-		primary_culture = bengali
-		religion_group = muslim
-	}
-	modifiers = {
-		merchants = 1
-		trade_efficiency = 0.1
-	}
-}
-
-sufi_syncretism_reform = {
-	icon = "muslim"
-	allow_normal_conversion = yes
-	potential = {
-		primary_culture = bengali
-		religion_group = muslim
-	}
-	modifiers = {
-		global_missionary_strength = 0.01
-		development_cost = -0.05
-	}
-}
-
-poligar_reform = {
-	icon = "indian_crown"
-	allow_normal_conversion = yes
-	potential = {
-		technology_group = indian
-		OR = {
-			culture_group = dravidian
-			primary_culture = oriya
-			primary_culture = sinhala
-		}
-	}
-	modifiers = {
-		infantry_power = 0.1
-		development_cost = -0.05
-	}
-}
-
-khalsa_reform = {
-	icon = "strength_of_the_khalsa"
-	allow_normal_conversion = yes
-	potential = {
-		religion = sikhism
-	}
-	modifiers = {
-		tolerance_heathen = 1
-		tolerance_heretic = 1
-		land_morale = 0.05
-	}
-}
-
-deccani_society_reform = {
-	icon = "noble_indian"
-	allow_normal_conversion = yes
-	potential = {
-		technology_group = indian
-		religion_group = muslim
-		OR = {
-			culture_group = dravidian
-			primary_culture = marathi
-		}
-	}
-	modifiers = {
-		free_dip_policy = 1
-	}
-}
-
+#enforce_privileges_reform = {
+#	icon = "people_walking"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		global_manpower_modifier = 0.15
+#	}
+#}
+#
+#quash_noble_power_reform = {
+#	icon = "king_2"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		global_tax_modifier = 0.1
+#	}
+#}
+#
+#enforce_trader_privileges_reform = {
+#	icon = "paper_money_map"
+#	allow_normal_conversion = yes
+#	potential = {
+#		is_reform_available = plutocratic_reform
+#		OR = {
+#			technology_group = indian
+#			technology_group = muslim
+#			technology_group = chinese
+#			technology_group = east_african
+#		}
+#	}
+#	trigger = {
+#		has_reform = plutocratic_reform
+#	}
+#	modifiers = {
+#		trade_range_modifier = 0.3
+#		trade_efficiency = 0.05
+#	}
+#}
+#
+#bengali_reform = {
+#	icon = "merchant_ship"
+#	allow_normal_conversion = yes
+#	potential = {
+#		primary_culture = bengali
+#		religion_group = muslim
+#	}
+#	modifiers = {
+#		merchants = 1
+#		trade_efficiency = 0.1
+#	}
+#}
+#
+#sufi_syncretism_reform = {
+#	icon = "muslim"
+#	allow_normal_conversion = yes
+#	potential = {
+#		primary_culture = bengali
+#		religion_group = muslim
+#	}
+#	modifiers = {
+#		global_missionary_strength = 0.01
+#		development_cost = -0.05
+#	}
+#}
+#
+#poligar_reform = {
+#	icon = "indian_crown"
+#	allow_normal_conversion = yes
+#	potential = {
+#		technology_group = indian
+#		OR = {
+#			culture_group = dravidian
+#			primary_culture = oriya
+#			primary_culture = sinhala
+#		}
+#	}
+#	modifiers = {
+#		infantry_power = 0.1
+#		development_cost = -0.05
+#	}
+#}
+#
+#khalsa_reform = {
+#	icon = "strength_of_the_khalsa"
+#	allow_normal_conversion = yes
+#	potential = {
+#		religion = sikhism
+#	}
+#	modifiers = {
+#		tolerance_heathen = 1
+#		tolerance_heretic = 1
+#		land_morale = 0.05
+#	}
+#}
+#
+#deccani_society_reform = {
+#	icon = "noble_indian"
+#	allow_normal_conversion = yes
+#	potential = {
+#		technology_group = indian
+#		religion_group = muslim
+#		OR = {
+#			culture_group = dravidian
+#			primary_culture = marathi
+#		}
+#	}
+#	modifiers = {
+#		free_dip_policy = 1
+#	}
+#}
+#
 #Bureaucracy:
-
-centralize_reform = {
-	icon = "paper_with_seal_3"
-	allow_normal_conversion = yes
-	modifiers = {
-		global_autonomy = -0.05
-	}
-}
-
-decentralize_reform = {
-	icon = "map"
-	allow_normal_conversion = yes
-	modifiers = {
-		num_accepted_cultures = 2
-	}
-}
-
-sidhi_recruitment = {
-	icon = "siddhi_recruitment"
-	allow_normal_conversion = yes
-	potential = {
-		technology_group = indian
-		religion_group = muslim
-		OR = {
-			culture_group = dravidian
-			primary_culture = marathi
-		}
-	}
-	modifiers = {
-		fort_maintenance_modifier = -0.1
-		max_states = 2
-	}
-}
-
-mansabdari_reform = {
-	icon = "noble_muslim"
-	allow_normal_conversion = yes
-	potential = {
-		tag = MUG
-		NOT = { map_setup = map_setup_random }
-	}
-	modifiers = {
-		army_tradition_decay = -0.003
-		max_states = 3
-	}
-}
-
+#
+#centralize_reform = {
+#	icon = "paper_with_seal_3"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		global_autonomy = -0.05
+#	}
+#}
+#
+#decentralize_reform = {
+#	icon = "map"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		num_accepted_cultures = 2
+#	}
+#}
+#
+#sidhi_recruitment = {
+#	icon = "siddhi_recruitment"
+#	allow_normal_conversion = yes
+#	potential = {
+#		technology_group = indian
+#		religion_group = muslim
+#		OR = {
+#			culture_group = dravidian
+#			primary_culture = marathi
+#		}
+#	}
+#	modifiers = {
+#		fort_maintenance_modifier = -0.1
+#		max_states = 2
+#	}
+#}
+#
+#mansabdari_reform = {
+#	icon = "noble_muslim"
+#	allow_normal_conversion = yes
+#	potential = {
+#		tag = MUG
+#		NOT = { map_setup = map_setup_random }
+#	}
+#	modifiers = {
+#		army_tradition_decay = -0.003
+#		max_states = 3
+#	}
+#}
+#
 #Growth of Administration
-
-clergy_in_administration_reform = {
-	icon = "religious_leader"
-	allow_normal_conversion = yes
-	modifiers = {
-		free_adm_policy = 1
-		#Extra loyalty
-	}
-}
-
-of_noble_bearing_reform = {
-	icon = "nobleman"
-	allow_normal_conversion = yes
-	potential = {
-		NOT = {
-			has_estate = estate_maratha
-			technology_group = indian
-			NOT = { has_estate = estate_nobles }
-		}
-		NOT = {
-			has_estate = estate_rajput
-			technology_group = indian
-			NOT = { has_estate = estate_nobles }
-		}
-	}
-	modifiers = {
-		leader_cost = -0.1
-		#Extra Loyalty
-	}
-}
-
-meritocratic_focus_reform = {
-	icon = "merchant"
-	allow_normal_conversion = yes
-	modifiers = {
-		advisor_cost = -0.1
-	}
-}
-
-dakhni_culture_reform = {
-	icon = "indian_crown"
-	allow_normal_conversion = yes
-	potential = {
-		technology_group = indian
-		religion_group = muslim
-		OR = {
-			culture_group = dravidian
-			primary_culture = marathi
-		}
-	}
-	modifiers = {
-		state_maintenance_modifier = -0.2
-	}
-}
-
-zabt_reform = {
-	icon = "general_eastern_administrative"
-	allow_normal_conversion = yes
-	potential = {
-		tag = MUG
-	}
-	modifiers = {
-		max_states = 3
-	}
-}
-
+#
+#clergy_in_administration_reform = {
+#	icon = "religious_leader"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		free_adm_policy = 1
+#		#Extra loyalty
+#	}
+#}
+#
+#of_noble_bearing_reform = {
+#	icon = "nobleman"
+#	allow_normal_conversion = yes
+#	potential = {
+#		NOT = {
+#			has_estate = estate_maratha
+#			technology_group = indian
+#			NOT = { has_estate = estate_nobles }
+#		}
+#		NOT = {
+#			has_estate = estate_rajput
+#			technology_group = indian
+#			NOT = { has_estate = estate_nobles }
+#		}
+#	}
+#	modifiers = {
+#		leader_cost = -0.1
+#		#Extra Loyalty
+#	}
+#}
+#
+#meritocratic_focus_reform = {
+#	icon = "merchant"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		advisor_cost = -0.1
+#	}
+#}
+#
+#dakhni_culture_reform = {
+#	icon = "indian_crown"
+#	allow_normal_conversion = yes
+#	potential = {
+#		technology_group = indian
+#		religion_group = muslim
+#		OR = {
+#			culture_group = dravidian
+#			primary_culture = marathi
+#		}
+#	}
+#	modifiers = {
+#		state_maintenance_modifier = -0.2
+#	}
+#}
+#
+#zabt_reform = {
+#	icon = "general_eastern_administrative"
+#	allow_normal_conversion = yes
+#	potential = {
+#		tag = MUG
+#	}
+#	modifiers = {
+#		max_states = 3
+#	}
+#}
+#
 #deliberative_assembly
-
+#
 # parliamentary_reform defined in common file
-
-royal_decree_reform = {
-	icon = "king"
-	allow_normal_conversion = yes
-	modifiers = {
-		max_absolutism = 5
-	}
-}
-
-aristocratic_court_reform = {
-	icon = "soldiers_2"
-	allow_normal_conversion = yes
-	modifiers = {
-		army_tradition_decay = -0.005
-	}
-}
-
+#
+#royal_decree_reform = {
+#	icon = "king"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		max_absolutism = 5
+#	}
+#}
+#
+#aristocratic_court_reform = {
+#	icon = "soldiers_2"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		army_tradition_decay = -0.005
+#	}
+#}
+#
 states_general_reform = {
 	icon = "states_general"
 	allow_normal_conversion = yes
@@ -1244,51 +1244,51 @@ states_general_reform = {
 	}
 }
 
-general_estates_reform = {
-	icon = "paper_with_seal"
-	allow_normal_conversion = yes
-	modifiers = {
-		production_efficiency = 0.1
-	}
-}
-
+#general_estates_reform = {
+#	icon = "paper_with_seal"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		production_efficiency = 0.1
+#	}
+#}
+#
 #absolute_rule_vs_constitutional
-
-letat_cest_moi_reform = {
-	icon = "queen"
-	allow_normal_conversion = yes
-	modifiers = {
-		max_states = 5
-	}
-}
-
-regional_representation_reform = {
-	icon = "assembly_hall"
-	allow_normal_conversion = yes
-	modifiers = {
-		min_autonomy_in_territories = -0.10
-	}
-}
-
+#
+#letat_cest_moi_reform = {
+#	icon = "queen"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		max_states = 5
+#	}
+#}
+#
+#regional_representation_reform = {
+#	icon = "assembly_hall"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		min_autonomy_in_territories = -0.10
+#	}
+#}
+#
 #separation_of_power
-
-political_absolutism_reform = {
-	icon = "judge"
-	allow_normal_conversion = yes
-	modifiers = {
-		max_absolutism = 5
-		yearly_absolutism = 0.1
-	}
-}
-
-legislative_houses_reform = {
-	icon = "parliament_hall"
-	allow_normal_conversion = yes
-	modifiers = {
-		possible_adm_policy = 1
-	}
-}
-
+#
+#political_absolutism_reform = {
+#	icon = "judge"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		max_absolutism = 5
+#		yearly_absolutism = 0.1
+#	}
+#}
+#
+#legislative_houses_reform = {
+#	icon = "parliament_hall"
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		possible_adm_policy = 1
+#	}
+#}
+#
 become_a_republic_reform = {
 	icon = "parliament_highlighted"
 	allow_normal_conversion = yes
