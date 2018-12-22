@@ -1,7 +1,7 @@
 
 monarchy = {
 	reform_levels = {
-		feudalism_vs_autocracy = {
+		feudalism_vs_autocracy = { #Power Structures
 			reforms = {
 				feudalism_reform
 				autocracy_reform
@@ -29,7 +29,7 @@ monarchy = {
 				revolutionary_empire_reform
 			}
 		}
-		hereditary_vs_nobility = {
+		hereditary_vs_nobility = { #Noble Privileges
 			reforms = {
 				enforce_privileges_reform
 				quash_noble_power_reform
@@ -42,7 +42,7 @@ monarchy = {
 				mughal_government
 			}
 		}
-		bureaucracy = {
+		bureaucracy = { #Bureaucracy
 			reforms = {
 				centralize_reform
 				decentralize_reform
@@ -51,7 +51,7 @@ monarchy = {
 				council_of_the_indies_reform
 			}
 		}
-		growth_of_administration = {
+		growth_of_administration = { #Improvements in Government
 			reforms = {
 				clergy_in_administration_reform
 				of_noble_bearing_reform
@@ -62,7 +62,7 @@ monarchy = {
 				governmental_purbias_register_reform
 			}
 		}
-		deliberative_assembly = {
+		deliberative_assembly = { #Role of Religion
 			reforms = {
 				parliamentary_reform
 				royal_decree_reform
@@ -71,13 +71,13 @@ monarchy = {
 				states_general_reform
 			}
 		}
-		absolute_rule_vs_constitutional = {
+		absolute_rule_vs_constitutional = { #Imperial Tutelage
 			reforms = {
 				letat_cest_moi_reform
 				regional_representation_reform
 			}
 		}
-		separation_of_power = {
+		separation_of_power = { #Modernization
 			reforms = {
 				political_absolutism_reform
 				legislative_houses_reform
