@@ -1201,49 +1201,49 @@ gond_kingdom = {
 #	}
 #}
 #
-states_general_reform = {
-	icon = "states_general"
-	allow_normal_conversion = yes
-
-	trigger = {
-		NOT = { is_lesser_in_union = yes }
-		is_emperor = no
-	}
-
-	modifiers = {
-		stability_cost_modifier = -0.1
-	}
-
-	ai = {
-		factor = 0 # AI should never pick this
-	}
-
-	removed_effect = {
-		country_event = { id = dutch_republic.33 }
-	}
-
-	conditional = {
-		allow = { has_dlc = "Res Publica" }
-		queen = no
-		heir = no
-		duration = 4
-		has_term_election = yes
-		states_general_mechanic = {
-			statists = {
-				diplomatic_reputation = 1
-				global_unrest = -1
-				legitimacy = -0.5
-			}
-
-			monarchists = {
-				prestige = 0.5
-				manpower_recovery_speed = 0.1
-				legitimacy = 0.5
-			}
-		}
-	}
-}
-
+#states_general_reform = {
+#	icon = "states_general"
+#	allow_normal_conversion = yes
+#
+#	trigger = {
+#		NOT = { is_lesser_in_union = yes }
+#		is_emperor = no
+#	}
+#
+#	modifiers = {
+#		stability_cost_modifier = -0.1
+#	}
+#
+#	ai = {
+#		factor = 0 # AI should never pick this
+#	}
+#
+#	removed_effect = {
+#		country_event = { id = dutch_republic.33 }
+#	}
+#
+#	conditional = {
+#		allow = { has_dlc = "Res Publica" }
+#		queen = no
+#		heir = no
+#		duration = 4
+#		has_term_election = yes
+#		states_general_mechanic = {
+#			statists = {
+#				diplomatic_reputation = 1
+#				global_unrest = -1
+#				legitimacy = -0.5
+#			}
+#
+#			monarchists = {
+#				prestige = 0.5
+#				manpower_recovery_speed = 0.1
+#				legitimacy = 0.5
+#			}
+#		}
+#	}
+#}
+#
 #general_estates_reform = {
 #	icon = "paper_with_seal"
 #	allow_normal_conversion = yes
@@ -1289,38 +1289,38 @@ states_general_reform = {
 #	}
 #}
 #
-become_a_republic_reform = {
-	icon = "parliament_highlighted"
-	allow_normal_conversion = yes
-	trigger = {
-		NOT = { has_government_attribute_short_desc = locked_government_type }
-		is_emperor = no
-		NOT = { is_lesser_in_union = yes }
-	}
-	effect = {
-		set_country_flag = populists_in_government
-		lose_reforms = 3
-		change_government_via_reform = republic
-	}
-	ai = {
-		factor = 0
-	}
-}
-
-install_theocratic_government_reform = {
-	icon = "pope_highlighted"
-	allow_normal_conversion = yes
-	trigger = {
-		NOT = { has_government_attribute_short_desc = locked_government_type }
-		is_emperor = no
-		NOT = { is_lesser_in_union = yes }
-	}
-	effect = {
-		set_country_flag = populists_in_government
-		lose_reforms = 6
-		change_government_via_reform = theocracy
-	}
-	ai = {
-		factor = 0
-	}
-}
+#become_a_republic_reform = {
+#	icon = "parliament_highlighted"
+#	allow_normal_conversion = yes
+#	trigger = {
+#		NOT = { has_government_attribute_short_desc = locked_government_type }
+#		is_emperor = no
+#		NOT = { is_lesser_in_union = yes }
+#	}
+#	effect = {
+#		set_country_flag = populists_in_government
+#		lose_reforms = 3
+#		change_government_via_reform = republic
+#	}
+#	ai = {
+#		factor = 0
+#	}
+#}
+#
+#install_theocratic_government_reform = {
+#	icon = "pope_highlighted"
+#	allow_normal_conversion = yes
+#	trigger = {
+#		NOT = { has_government_attribute_short_desc = locked_government_type }
+#		is_emperor = no
+#		NOT = { is_lesser_in_union = yes }
+#	}
+#	effect = {
+#		set_country_flag = populists_in_government
+#		lose_reforms = 6
+#		change_government_via_reform = theocracy
+#	}
+#	ai = {
+#		factor = 0
+#	}
+#}
