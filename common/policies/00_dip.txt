@@ -766,8 +766,8 @@ cultural_understanding = {
 		full_idea_group = spy_ideas
 	}	
 	
-	siege_ability = 0.15
-	defensiveness = 0.15
+	siege_ability = 0.2
+	defensiveness = 0.1
 	
 	ai_will_do = {
 		factor = 1

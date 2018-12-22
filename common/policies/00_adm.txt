@@ -235,8 +235,8 @@ privy_council_establishment_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	defensiveness = 0.15
-	yearly_corruption = -0.1
+	defensiveness = 0.1
+	yearly_corruption = -0.15
 	
 	ai_will_do = {
 		factor = 1

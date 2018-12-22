@@ -272,7 +272,7 @@ superior_fortification_act = {
 		full_idea_group = defensive_ideas
 	}
 	
-	defensiveness = 0.15
+	defensiveness = 0.1
 	fire_damage_received = -0.05
 
 	ai_will_do = {
@@ -847,8 +847,8 @@ local_militias = {
 		full_idea_group = defensive_ideas
 	}	
 	
-	war_exhaustion = -0.03
-	defensiveness = 0.15
+	war_exhaustion = -0.04
+	defensiveness = 0.1
 	
 	ai_will_do = {
 		factor = 1
