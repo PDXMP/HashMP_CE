@@ -1078,6 +1078,7 @@ absolutism = {
 low_army_professionalism = {
 	mercenary_cost = -0.15
 	merc_maintenance_modifier = -0.15
+	reinforce_cost_modifier = 0.1
 }
 
 high_army_professionalism = {
