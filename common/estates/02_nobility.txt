@@ -185,13 +185,6 @@ estate_nobles =
 		}
 		influence = -10
 	}
-	influence_modifier = {
-		desc = desci_t5_np_1
-		trigger = {
-			has_reform = t5_lp_1
-		}
-		influence = 10
-	}
 	
 	# Influence modifiers from Events:
 	influence_modifier = {
