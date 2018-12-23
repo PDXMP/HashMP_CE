@@ -1,4 +1,4 @@
-name="HashMP Multiplayer Mod"
+name="HashMP CE Multiplayer Mod"
 path="mod/HashMP_CE"
 tags={
 	"Multiplayer"
