@@ -299,7 +299,7 @@ t6_lp_1 = { #Diplomatic Training
 ###Shared Path
 
 t6_sp_1 = { #Administrative Training
-	icon = "judge"
+	icon = "man_on_podium"
 	allow_normal_conversion = yes
 	modifiers = {
 		monarch_admin_power = 1
