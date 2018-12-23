@@ -52,7 +52,7 @@ t2_lp_2 = { #Balanced Government
 		free_dip_policy = 1
 	}
 }
-t2_np_ind1 = { #Dakhni Cultural Reforms
+t2_lp_ind1 = { #Dakhni Cultural Reforms
 	icon = "people_walking"
 	allow_normal_conversion = yes
 	potential = {
@@ -229,7 +229,7 @@ t6_lp_1 = { #Diplomatic Training
 
 ###Shared Path
 
-t6_lp_1 = { #Administrative Training
+t6_sp_1 = { #Administrative Training
 	icon = "people_walking"
 	allow_normal_conversion = yes
 	modifiers = {

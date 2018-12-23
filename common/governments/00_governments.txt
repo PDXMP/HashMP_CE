@@ -31,58 +31,85 @@ monarchy = {
 		}
 		hereditary_vs_nobility = { #Noble Privileges
 			reforms = {
-				enforce_privileges_reform
-				quash_noble_power_reform
-				enforce_trader_privileges_reform
-				bengali_reform
-				sufi_syncretism_reform
-				poligar_reform
-				khalsa_reform
-				deccani_society_reform
+#				enforce_privileges_reform
+#				quash_noble_power_reform
+#				enforce_trader_privileges_reform
+#				bengali_reform
+#				sufi_syncretism_reform
+#				poligar_reform
+#				khalsa_reform
+#				deccani_society_reform
 				mughal_government
+				t2_np_1
+				t2_np_2
+				t2_np_ind1
+				t2_lp_1
+				t2_lp_2
+				t2_lp_ind1
 			}
 		}
 		bureaucracy = { #Bureaucracy
 			reforms = {
-				centralize_reform
-				decentralize_reform
-				sidhi_recruitment
-				mansabdari_reform
-				council_of_the_indies_reform
+#				centralize_reform
+#				decentralize_reform
+#				sidhi_recruitment
+#				mansabdari_reform
+#				council_of_the_indies_reform
+				t3_np_1
+				t3_np_2
+				t3_np_ind1
+				t3_lp_1
+				t3_lp_2
+				t3_lp_ind1
 			}
 		}
 		growth_of_administration = { #Improvements in Government
 			reforms = {
-				clergy_in_administration_reform
-				of_noble_bearing_reform
-				meritocratic_focus_reform
-				dakhni_culture_reform
-				zabt_reform
-				permanent_marathas_council_reform
-				governmental_purbias_register_reform
+#				clergy_in_administration_reform
+#				of_noble_bearing_reform
+#				meritocratic_focus_reform
+#				dakhni_culture_reform
+#				zabt_reform
+#				permanent_marathas_council_reform
+#				governmental_purbias_register_reform
+				t4_sp_1
+				t4_sp_2
+				t4_sp_3
 			}
 		}
 		deliberative_assembly = { #Role of Religion
 			reforms = {
-				parliamentary_reform
-				royal_decree_reform
-				aristocratic_court_reform
-				general_estates_reform
-				states_general_reform
+#				parliamentary_reform
+#				royal_decree_reform
+#				aristocratic_court_reform
+#				general_estates_reform
+#				states_general_reform
+				t5_np_1
+				t5_np_2
+				t5_lp_1
+				t5_sp_1
 			}
 		}
 		absolute_rule_vs_constitutional = { #Imperial Tutelage
 			reforms = {
-				letat_cest_moi_reform
-				regional_representation_reform
+#				letat_cest_moi_reform
+#				regional_representation_reform
+				t6_np_1
+				t6_lp_1
+				t6_sp_1
 			}
 		}
 		separation_of_power = { #Modernization
 			reforms = {
-				political_absolutism_reform
-				legislative_houses_reform
-				become_a_republic_reform
-				install_theocratic_government_reform
+#				political_absolutism_reform
+#				legislative_houses_reform
+#				become_a_republic_reform
+#				install_theocratic_government_reform
+				t7_np_1
+				t7_np_2
+				t7_lp_1
+				t7_lp_2
+				t7_sp_1
 			}
 		}
 	}
