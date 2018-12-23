@@ -325,7 +325,7 @@ t7_np_1 = { #Noble Regiments
 	modifiers = {
 		land_morale = 0.1
 		prestige_from_land = 0.5
-		global_unrest = 1
+		global_unrest = 2
 	}
 }
 t7_np_2 = { #Aristocratic Military Leadership
