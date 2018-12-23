@@ -183,6 +183,14 @@ estate_church =
 		}		
 		influence = -10
 	}
+	influence_modifier = {
+		desc = desci_t5_sp_1
+		trigger = {
+			has_reform = t5_sp_1
+		}	
+		influence = 10
+	}
+
 	
 	# Loyalty modifiers
 	loyalty_modifier = {
@@ -280,6 +288,14 @@ estate_church =
 			full_idea_group = religious_ideas
 		}
 		loyalty = 10
+	}
+
+	loyalty_modifier = {
+		desc = descl_t5_sp_1
+		trigger = {
+			has_reform = t5_sp_1
+		}	
+		loyalty = 5
 	}
 	
 	custom_name = {

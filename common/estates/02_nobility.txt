@@ -171,6 +171,27 @@ estate_nobles =
 		}		
 		influence = 10
 	}
+	influence_modifier = {
+		desc = desci_t2_np_1
+		trigger = {
+			has_reform = t2_np_1
+		}
+		influence = 10
+	}
+	influence_modifier = {
+		desc = desci_t2_lp_1
+		trigger = {
+			has_reform = t2_lp_1
+		}
+		influence = -10
+	}
+	influence_modifier = {
+		desc = desci_t5_np_1
+		trigger = {
+			has_reform = t5_lp_1
+		}
+		influence = 10
+	}
 	
 	# Influence modifiers from Events:
 	influence_modifier = {
@@ -288,6 +309,13 @@ estate_nobles =
 			full_idea_group = aristocracy_ideas
 		}
 		loyalty = 10
+	}
+	loyalty_modifier = {
+		desc = descl_t5_lp_1
+		trigger = {
+			has_reform = t5_lp_1
+		}
+		loyalty = 5
 	}
 	
 	#Alternative naming of estates

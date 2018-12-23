@@ -221,6 +221,13 @@ estate_burghers =
 		}	
 		influence = -40
 	}
+	influence_modifier = {
+		desc = desci_t3_lp_2
+		trigger = {
+			has_reform = t3_lp_2
+		}
+		influence = 5
+	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
@@ -245,6 +252,13 @@ estate_burghers =
 		desc = EST_VAL_MERITOCRATIC_RECRUITMENT_LOY
 		trigger = {
 			has_reform = meritocratic_focus_reform
+		}
+		loyalty = 5
+	}
+	loyalty_modifier = {
+		desc = descl_t3_lp_2
+		trigger = {
+			has_reform = t3_lp_2
 		}
 		loyalty = 5
 	}
