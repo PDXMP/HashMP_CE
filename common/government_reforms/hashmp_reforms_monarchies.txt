@@ -73,6 +73,12 @@ t2_lp_ind1 = { #Dakhni Cultural Reforms
 t3_np_1 = { #Border Militias
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_np_1
+			has_reform = t2_np_2
+		}
+	}
 	modifiers = {
 		fort_maintenance_modifier = -0.1
 		recover_army_morale_speed = 0.1		
@@ -81,6 +87,12 @@ t3_np_1 = { #Border Militias
 t3_np_2 = { #Well-Advised Army
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_np_1
+			has_reform = t2_np_2
+		}
+	}
 	modifiers = {
 		mil_advisor_cost = -0.15
 	}
@@ -88,6 +100,12 @@ t3_np_2 = { #Well-Advised Army
 t3_np_ind1 = { #Siddhi Recruitment
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_np_ind1
+			has_reform = t2_np_2
+		}
+	}
 	potential = {
 		technology_group = indian
 	}
@@ -102,6 +120,12 @@ t3_np_ind1 = { #Siddhi Recruitment
 t3_lp_1 = { #Centralized Bureaucracy
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_lp_1
+			has_reform = t2_lp_2
+		}
+	}
 	modifiers = {
 		global_autonomy = -0.05
 		production_efficiency = 0.05
@@ -110,6 +134,12 @@ t3_lp_1 = { #Centralized Bureaucracy
 t3_lp_2 = { #Meritocratic Recruitment
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_lp_1
+			has_reform = t2_lp_2
+		}
+	}
 	modifiers = {
 		advisor_cost = -0.1
 	}
@@ -117,6 +147,13 @@ t3_lp_2 = { #Meritocratic Recruitment
 t3_lp_ind1 = { #Deccani Merchant Elites
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_lp_1
+			has_reform = t2_lp_2
+			has_reform = t2_lp_ind1
+		}
+	}
 	potential = {
 		technology_group = indian
 	}
@@ -166,6 +203,13 @@ t4_sp_3 = { #Professional Soldiers
 t5_np_1 = { #Nobles of the Robe
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t3_np_1
+			has_reform = t3_np_2
+			has_reform = t3_np_ind1
+		}
+	}
 	modifiers = {
 		leader_cost = -0.1
 		free_leader_pool = 1
@@ -174,6 +218,13 @@ t5_np_1 = { #Nobles of the Robe
 t5_np_2 = { #Political Absolutism
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t3_np_1
+			has_reform = t3_np_2
+			has_reform = t3_np_ind1
+		}
+	}
 	modifiers = {
 		yearly_absolutism = 0.2
 		max_absolutism = 10
@@ -185,6 +236,13 @@ t5_np_2 = { #Political Absolutism
 t5_lp_1 = { #Minority Representation
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t3_lp_1
+			has_reform = t3_lp_2
+			has_reform = t3_lp_ind1
+		}
+	}
 	modifiers = {
 		tolerance_heretic = 1
 		tolerance_own = 1
@@ -211,6 +269,12 @@ t5_sp_1 = { #Administrative Clergy
 t6_np_1 = { #Military Training
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t5_np_1
+			has_reform = t5_np_2
+		}
+	}
 	modifiers = {
 		monarch_military_power = 1
 	}
@@ -222,6 +286,11 @@ t6_np_1 = { #Military Training
 t6_lp_1 = { #Diplomatic Training
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t5_lp_1
+		}
+	}
 	modifiers = {
 		monarch_diplomatic_power = 1
 	}
@@ -246,6 +315,13 @@ t6_sp_1 = { #Administrative Training
 t7_np_1 = { #Noble Regiments
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t5_np_1
+			has_reform = t5_np_2
+			has_reform = t6_np_1
+		}
+	}
 	modifiers = {
 		land_morale = 0.1
 		prestige_from_land = 0.5
@@ -255,6 +331,13 @@ t7_np_1 = { #Noble Regiments
 t7_np_2 = { #Aristocratic Military Leadership
 	icon = "people_walking"
 	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t5_np_1
+			has_reform = t5_np_2
+			has_reform = t6_np_1
+		}
+	}
 	modifiers = {
 		leader_land_fire = 1
 		army_tradition = 0.5
@@ -271,6 +354,10 @@ t7_lp_1 = { #Parliamentarianism
 	}
 	
 	trigger = {
+		OR = {
+			has_reform = t5_lp_1
+			has_reform = t6_lp_1
+		}
 		if = {
 			limit = { NOT = { has_dlc = "Mandate of Heaven" } }
 			NOT = { has_reform = celestial_empire }
@@ -287,6 +374,10 @@ t7_lp_2 = { #Republican Government Reform
 	icon = "parliament_highlighted"
 	allow_normal_conversion = yes
 	trigger = {
+		OR = {
+			has_reform = t5_lp_1
+			has_reform = t6_lp_1
+		}
 		NOT = { has_government_attribute_short_desc = locked_government_type }
 		is_emperor = no
 		NOT = { is_lesser_in_union = yes }
@@ -309,6 +400,7 @@ t7_sp_1 = { #Theocratic Government Reform
 	icon = "pope_highlighted"
 	allow_normal_conversion = yes
 	trigger = {
+		has_reform = t5_sp_1
 		NOT = { has_government_attribute_short_desc = locked_government_type }
 		is_emperor = no
 		NOT = { is_lesser_in_union = yes }
