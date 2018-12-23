@@ -17,14 +17,14 @@ t2_np_1 = { #Strengthen Noble Privilege
 	}
 }
 t2_np_2 = { #Militarized Society
-	icon = "people_walking"
+	icon = "strength_of_the_khalsa"
 	allow_normal_conversion = yes
 	modifiers = {
 		free_mil_policy = 1
 	}
 }
 t2_np_ind1 = { #Empower Pulgars
-	icon = "people_walking"
+	icon = "indian_crown"
 	allow_normal_conversion = yes
 	potential = {
 		technology_group = indian
@@ -38,7 +38,7 @@ t2_np_ind1 = { #Empower Pulgars
 ###Liberty Path
 
 t2_lp_1 = { #Curtail Nobility
-	icon = "people_walking"
+	icon = "king_2"
 	allow_normal_conversion = yes
 	modifiers = {
 		global_tax_modifier = 0.1
@@ -46,14 +46,14 @@ t2_lp_1 = { #Curtail Nobility
 	}
 }
 t2_lp_2 = { #Balanced Government
-	icon = "people_walking"
+	icon = "paper_money_map"
 	allow_normal_conversion = yes
 	modifiers = {
 		free_dip_policy = 1
 	}
 }
 t2_lp_ind1 = { #Dakhni Cultural Reforms
-	icon = "people_walking"
+	icon = "noble_indian"
 	allow_normal_conversion = yes
 	potential = {
 		technology_group = indian
@@ -71,7 +71,7 @@ t2_lp_ind1 = { #Dakhni Cultural Reforms
 ###Nobility Path
 
 t3_np_1 = { #Border Militias
-	icon = "people_walking"
+	icon = "peasant_republic"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -85,7 +85,7 @@ t3_np_1 = { #Border Militias
 	}
 }
 t3_np_2 = { #Well-Advised Army
-	icon = "people_walking"
+	icon = "soldiers"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -98,7 +98,7 @@ t3_np_2 = { #Well-Advised Army
 	}
 }
 t3_np_ind1 = { #Siddhi Recruitment
-	icon = "people_walking"
+	icon = "siddhi_recruitment"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -118,7 +118,7 @@ t3_np_ind1 = { #Siddhi Recruitment
 ###Liberty Path
 
 t3_lp_1 = { #Centralized Bureaucracy
-	icon = "people_walking"
+	icon = "paper_with_seal_3"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -132,7 +132,7 @@ t3_lp_1 = { #Centralized Bureaucracy
 	}
 }
 t3_lp_2 = { #Meritocratic Recruitment
-	icon = "people_walking"
+	icon = "map"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -145,7 +145,7 @@ t3_lp_2 = { #Meritocratic Recruitment
 	}
 }
 t3_lp_ind1 = { #Deccani Merchant Elites
-	icon = "people_walking"
+	icon = "merchant_ship"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -170,7 +170,7 @@ t3_lp_ind1 = { #Deccani Merchant Elites
 ###Shared Path
 
 t4_sp_1 = { #Standing Armies
-	icon = "people_walking"
+	icon = "soldiers_5"
 	allow_normal_conversion = yes
 	modifiers = {
 		global_regiment_cost = -0.05
@@ -178,7 +178,7 @@ t4_sp_1 = { #Standing Armies
 	}
 }
 t4_sp_2 = { #Innovative Society
-	icon = "people_walking"
+	icon = "assembly_hall"
 	allow_normal_conversion = yes
 	modifiers = {
 		technology_cost = -0.05
@@ -186,7 +186,7 @@ t4_sp_2 = { #Innovative Society
 	}
 }
 t4_sp_3 = { #Professional Soldiers
-	icon = "people_walking"
+	icon = "soldiers_2"
 	allow_normal_conversion = yes
 	modifiers = {
 		drill_gain_modifier = 0.25
@@ -201,7 +201,7 @@ t4_sp_3 = { #Professional Soldiers
 ###Nobility Path
 
 t5_np_1 = { #Nobles of the Robe
-	icon = "people_walking"
+	icon = "nobleman"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -216,7 +216,7 @@ t5_np_1 = { #Nobles of the Robe
 	}
 }
 t5_np_2 = { #Political Absolutism
-	icon = "people_walking"
+	icon = "queen"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -234,7 +234,7 @@ t5_np_2 = { #Political Absolutism
 ###Liberty Path
 
 t5_lp_1 = { #Minority Representation
-	icon = "people_walking"
+	icon = "constitution"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -253,7 +253,7 @@ t5_lp_1 = { #Minority Representation
 ###Shared Path
 
 t5_sp_1 = { #Administrative Clergy
-	icon = "people_walking"
+	icon = "religious_leader"
 	allow_normal_conversion = yes
 	modifiers = {
 		free_adm_policy = 1
@@ -267,7 +267,7 @@ t5_sp_1 = { #Administrative Clergy
 ###Nobility Path
 
 t6_np_1 = { #Military Training
-	icon = "people_walking"
+	icon = "castle"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -284,7 +284,7 @@ t6_np_1 = { #Military Training
 
 
 t6_lp_1 = { #Diplomatic Training
-	icon = "people_walking"
+	icon = "merchant"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -299,7 +299,7 @@ t6_lp_1 = { #Diplomatic Training
 ###Shared Path
 
 t6_sp_1 = { #Administrative Training
-	icon = "people_walking"
+	icon = "judge"
 	allow_normal_conversion = yes
 	modifiers = {
 		monarch_admin_power = 1
@@ -313,7 +313,7 @@ t6_sp_1 = { #Administrative Training
 ###Nobility Path
 
 t7_np_1 = { #Noble Regiments
-	icon = "people_walking"
+	icon = "soldiers_6"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
@@ -329,7 +329,7 @@ t7_np_1 = { #Noble Regiments
 	}
 }
 t7_np_2 = { #Aristocratic Military Leadership
-	icon = "people_walking"
+	icon = "feudal_theocracy"
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
