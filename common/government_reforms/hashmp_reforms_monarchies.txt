@@ -1,3 +1,251 @@
+
+
+
+
+########
+#Tier 2
+########
+
+###Nobility Path
+
+t2_np_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t2_np_2 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t2_np_ind1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+###Liberty Path
+
+t2_lp_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t2_lp_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t2_np_ind1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+########
+#Tier 3
+########
+
+###Nobility Path
+
+t3_np_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t3_np_2 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t3_np_ind1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+###Liberty Path
+
+t3_lp_2 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t3_lp_2 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t3_lp_ind1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+########
+#Tier 4
+########
+
+###Shared Path
+
+t4_sp_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t4_sp_2 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t4_sp_3 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+########
+#Tier 5
+########
+
+###Nobility Path
+
+t5_np_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t5_np_2 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+###Liberty Path
+
+t5_lp_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+###Shared Path
+
+t5_sp_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+########
+#Tier 6
+########
+
+###Nobility Path
+
+t6_np_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t6_np_2 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+###Liberty Path
+
+t6_lp_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t6_lp_2 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+########
+#Tier 7
+########
+
+###Nobility Path
+
+t7_np_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+t7_np_2 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+###Liberty Path
+
+t7_lp_1 = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.15
+	}
+}
+
+# parliamentary_reform goes here
+
 become_a_republic_reform = {
 	icon = "parliament_highlighted"
 	allow_normal_conversion = yes
