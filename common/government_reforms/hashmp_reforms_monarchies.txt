@@ -320,6 +320,9 @@ t7_np_1 = { #Noble Regiments
 			has_reform = t5_np_1
 			has_reform = t5_np_2
 			has_reform = t6_np_1
+			has_reform = t3_np_1
+			has_reform = t3_np_2
+			has_reform = t3_np_ind1
 		}
 	}
 	modifiers = {
@@ -336,6 +339,9 @@ t7_np_2 = { #Aristocratic Military Leadership
 			has_reform = t5_np_1
 			has_reform = t5_np_2
 			has_reform = t6_np_1
+			has_reform = t3_np_1
+			has_reform = t3_np_2
+			has_reform = t3_np_ind1
 		}
 	}
 	modifiers = {
@@ -357,6 +363,9 @@ t7_lp_1 = { #Parliamentarianism
 		OR = {
 			has_reform = t5_lp_1
 			has_reform = t6_lp_1
+			has_reform = t3_lp_1
+			has_reform = t3_lp_2
+			has_reform = t3_lp_ind1
 		}
 		if = {
 			limit = { NOT = { has_dlc = "Mandate of Heaven" } }
