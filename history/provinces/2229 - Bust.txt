@@ -1,7 +1,7 @@
 #2229 - Bust
 
-owner = SIS
-controller = SIS
+owner = AFG
+controller = AFG
 culture = afghani
 religion = sunni
 capital = "Bust"

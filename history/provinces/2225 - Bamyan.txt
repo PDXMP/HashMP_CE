@@ -1,7 +1,7 @@
 #2225 - Bamyan
 
-owner = TIM
-controller = TIM
+owner = AFG
+controller = AFG
 culture = afghani
 religion = shiite
 capital = "Bamyan"

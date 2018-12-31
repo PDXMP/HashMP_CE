@@ -1,7 +1,7 @@
 #449 - Ghor
 
-owner = TIM
-controller = TIM
+owner = AFG
+controller = AFG
 culture = afghani
 religion = sunni
 capital = "Ahangaran"
