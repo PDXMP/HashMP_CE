@@ -5822,7 +5822,7 @@ malay = {
 	}
 }
 
-thai = { 
+southeastasian_group = { 
 	graphical_culture = asiangfx
 
 	central_thai = {
@@ -5904,14 +5904,6 @@ thai = {
 			"Thou Umma" "Thin Bohme"
 		}
 	}
-	
-	dynasty_names = {
-		"Mangrai" "Chaochetton" "Phra Ruang" "Champassak"
-	}
-}
-mon_khmer = { 
-	graphical_culture = asiangfx
-
 	khmer = {
 		primary = KHM
 		dynasty_names = {
@@ -5950,8 +5942,10 @@ mon_khmer = {
 		female_names = {
 			"Kim Anh" "Thuy Tram" "Bich Ngoc" "Phuong Nga" "Thanh Thao"
 		}
+	}	
+	dynasty_names = {
+		"Mangrai" "Chaochetton" "Phra Ruang" "Champassak"
 	}
-
 }
 
 burman = {
