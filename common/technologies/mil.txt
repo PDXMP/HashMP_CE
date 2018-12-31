@@ -444,6 +444,8 @@ technology = {
 	military_tactics 	= 	0.25
 	
 	infantry_shock 		=	0.5
+	
+	supply_limit 		= 	0.5
 }
 
 technology = {
@@ -475,6 +477,8 @@ technology = {
 	cavalry_shock		=	1.0
 	military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
+	
+	supply_limit 		= 	0.5
 
 	enable = swedish_arme_blanche	
 	enable = french_dragoon		
