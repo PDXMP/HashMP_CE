@@ -3,7 +3,6 @@ country_decisions = {
 	brazil_nation = {
 		major = yes
 		potential = {
-			always = no
 			NOT = { has_country_flag = changed_from_colonial_nation }
 			was_never_end_game_tag_trigger = yes
 			is_nomad = no
@@ -74,6 +73,7 @@ country_decisions = {
 	por_flee_to_brazil = {
 		major = yes
 		potential = {
+			always = no
 			NOT = { has_country_flag = changed_from_colonial_nation }
 			NOT = { has_country_flag = fled_to_brazil }
 			was_never_end_game_tag_trigger = yes
