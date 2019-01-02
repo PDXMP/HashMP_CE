@@ -10515,5 +10515,5 @@ mor_looks_inward = {
 ##################################################
 
 basic_polders = {
-	local_development_cost = -0.05
+	local_development_cost = -0.30
 }
