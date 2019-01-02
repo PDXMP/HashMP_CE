@@ -5993,7 +5993,7 @@ sce_search_quivira = {
 }
 el_dorado_mod = {
 	trade_goods_size_modifier = 0.5
-	cs_only_local_development_cost = -0.2
+	local_development_cost = -0.2
 	local_unrest = -3
 }
 sce_life_water = {
@@ -6008,28 +6008,28 @@ sce_cibola_silver = {
 sce_sierradelaplata_quartz = {
 	local_tax_modifier = 0.5
 	local_institution_spread = 1
-	cs_only_local_development_cost = -0.2
+	local_development_cost = -0.2
 }
 sce_golden_cups = {
 	local_production_efficiency = 0.25
 	local_tax_modifier = 0.25
 	local_build_cost = -0.5
-	cs_only_local_development_cost = -0.2
+	local_development_cost = -0.2
 }
 sce_norumbega_abandoned = {
-	cs_only_local_development_cost = -0.2
+	local_development_cost = -0.2
 	province_trade_power_modifier = 0.5
 	trade_goods_size_modifier = 0.5
 }
 sce_saguenay_abandoned = {
 	trade_goods_size_modifier = 0.25
 	province_trade_power_modifier = 0.25
-	cs_only_local_development_cost = -0.2
+	local_development_cost = -0.2
 }
 sce_city_of_caesars = {
 	province_trade_power_modifier = 1
 	trade_goods_size_modifier = 0.5
-	cs_only_local_development_cost = -0.2
+	local_development_cost = -0.2
 }
 sce_quivira = {
 	prestige = 0.5
