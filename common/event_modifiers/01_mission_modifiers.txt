@@ -541,7 +541,7 @@ the_darien_scheme = {
 }
 
 nova_scotia_modifier = {
-	global_tariffs = 0.15
+	global_tariffs = 0.1
 }
 cod_boom = {
 	trade_goods_size = 2.0
@@ -779,7 +779,7 @@ gen_asia_holding_mod = {
 gen_america_holding_mod = {
 	global_colonial_growth = 20
 	colonist_placement_chance = 0.02
-	global_tariffs = 0.15
+	global_tariffs = 0.1
 }
 
 gen_indian_holding_mod = {
@@ -1937,7 +1937,7 @@ fortified_navarra = {
 }
 
 viceroyalty_of_new_spain = {
-	global_tariffs = 0.15
+	global_tariffs = 0.1
 }
 
 spa_native_reductions = {
