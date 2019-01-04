@@ -64,7 +64,30 @@ t_free_colonist = {
 	
 	colonists = 1
 }
-		
+
+###########################################
+# CN Limiters
+###########################################
+
+t_player_cn = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		OR = {
+			ai = yes
+			was_player = yes
+		}
+	}
+
+	land_forcelimit_modifier = -0.5
+	naval_forcelimit_modifier = -0.5
+	possible_mercenaries = -0.5
+	development_cost = 0.2
+	mercenary_cost = 0.25
+	merc_maintenance_modifier = 0.25
+}
+
 ###########################################
 # Discovery of the East Indian trade route.
 ###########################################
