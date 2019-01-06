@@ -4,3 +4,7 @@
  malayan_empire_ideas_bonus:0 "Malayan Empire Ambition"
  basic_polders:0 "Polders"
  desc_basic_polders:0 "This province has had its wetlands extensively drained to make way for farmland."
+ h_combat_janissary_decadence_title:0 "Combat Janissary Decadence"
+ h_combat_janissary_decadence_desc:0 "Following extensive government reforms, the Sultan is in a position to combat decadence of the Janissary corps. Entask the elite Sipahis with whipping them into shape."
+ h_janissary_decadence:0 "Curtailed Janissary Decadence"
+ h_janissary_decadence_desc:0 "Our Sipahis were successful in restoring discipline to the Janissary corps."
