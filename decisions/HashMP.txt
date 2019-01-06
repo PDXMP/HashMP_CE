@@ -3,6 +3,9 @@ country_decisions = {
 	h_combat_janissary_decadence = {
 		potential = {
 			tag = TUR
+			NOT = {
+				has_country_modifier = h_janissary_decadence
+			}
 		}
 		allow = {
 			tag = TUR
