@@ -10523,4 +10523,5 @@ basic_polders = {
 h_janissary_decadence = {
 	is_janissary_modifier = yes
 	discipline = 0.05
+	land_maintenance_modifier = 0.10
 }

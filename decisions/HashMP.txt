@@ -7,6 +7,8 @@ country_decisions = {
 		allow = {
 			tag = TUR
 			janissary_percentage = 0.1
+			stability = 1
+			mil_power = 100
 			OR = {
 				has_reform = t7_lp_1
 				has_reform = t7_np_1
@@ -14,8 +16,10 @@ country_decisions = {
 			}
 		}
 		effect = {
+			add_mil_power = -100
+			add_years_of_income = -0.5
 			add_country_modifier = {
-				name = "janissary_decadence"
+				name = "h_janissary_decadence"
 				duration = -1
 			}
 		}
