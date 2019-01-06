@@ -10519,3 +10519,8 @@ mor_looks_inward = {
 basic_polders = {
 	local_development_cost = -0.30
 }
+
+h_janissary_decadence = {
+	is_janissary_modifier = yes
+	discipline = 0.05
+}

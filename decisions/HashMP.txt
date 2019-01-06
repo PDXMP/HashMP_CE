@@ -1,0 +1,22 @@
+country_decisions = {
+
+	h_combat_janissary_decadence = {
+		potential = {
+			tag = TUR
+		}
+		allow = {
+			tag = TUR
+			janissary_percentage = 0.1
+			OR = {
+				has_reform = t7_lp_1
+				has_reform = t7_np_1
+				has_reform = t7_np_2
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "janissary_decadence"
+				duration = -1
+			}
+		}
+	}
