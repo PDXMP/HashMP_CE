@@ -1,5 +1,9 @@
 #701 - Ordos
 
+latent_trade_goods = {
+	coal
+}
+
 owner = CSH
 controller = CSH
 add_core = CSH

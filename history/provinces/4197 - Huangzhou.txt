@@ -1,5 +1,9 @@
 #4197 - Huangzhou
 
+latent_trade_goods = {
+	coal
+}
+
 owner = CXI
 controller = CXI
 add_core = CXI

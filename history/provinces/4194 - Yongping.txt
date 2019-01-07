@@ -1,5 +1,9 @@
 #4194 - Yongping
 
+latent_trade_goods = {
+	coal
+}
+
 owner = JIN
 controller = JIN
 add_core = JIN
