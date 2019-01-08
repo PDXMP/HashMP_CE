@@ -3,6 +3,7 @@ add_government_reform = oligarchy_reform
 government_rank = 1
 technology_group = western
 religion = catholic
+elector = yes
 primary_culture = swiss
 capital = 165 # Bern
 add_army_professionalism = 0.1
