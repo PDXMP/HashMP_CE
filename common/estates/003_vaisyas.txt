@@ -52,18 +52,18 @@ estate_vaisyas = {
 	# These scale with loyalty & power
 	country_modifier_happy = {
 		advisor_cost = -0.1
-		production_efficiency = 0.33
+		production_efficiency = 0.25
 	}
 	country_modifier_neutral = {
-		production_efficiency = 0.33
+		production_efficiency = 0.25
 	}	
 	country_modifier_angry = {
-		production_efficiency = -0.33
+		production_efficiency = -0.25
 	}
 	
 	# These do not scale, but only applied in provinces owned by the estate
 	province_modifier_happy = {
-		trade_value_modifier = 0.2
+		trade_value_modifier = 0.1
 		local_development_cost = -0.2
 	}
 	province_modifier_neutral = {
