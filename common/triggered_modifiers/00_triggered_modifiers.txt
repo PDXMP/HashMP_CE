@@ -60,6 +60,7 @@ t_free_colonist = {
 	trigger = {
 		capital_scope = { continent = europe }
 		has_institution = new_world_i
+		was_player = yes
 	}
 	
 	colonists = 1
