@@ -87,8 +87,8 @@ t_player_cn = {
 	development_cost = 0.25
 	mercenary_cost = 0.33
 	merc_maintenance_modifier = 0.33
-	manpower_recovery_speed = -0.2
-	sailors_recovery_speed = -0.2
+	manpower_recovery_speed = -0.25
+	sailors_recovery_speed = -0.25
 }
 
 t_cn_army_1 = {
@@ -102,9 +102,9 @@ t_cn_army_1 = {
 		}
 		army_size = 60
 	}
-	reinforce_cost_modifier = 0.08
-	reinforce_speed = -0.08
-	global_regiment_cost = 0.05
+	reinforce_cost_modifier = 0.1
+	reinforce_speed = -0.1
+	global_regiment_cost = 0.06
 }
 
 t_cn_army_2 = {
@@ -118,9 +118,9 @@ t_cn_army_2 = {
 		}
 		army_size = 120
 	}
-	reinforce_cost_modifier = 0.08
-	reinforce_speed = -0.08
-	global_regiment_cost = 0.05
+	reinforce_cost_modifier = 0.1
+	reinforce_speed = -0.1
+	global_regiment_cost = 0.06
 }
 
 t_cn_army_3 = {
@@ -134,9 +134,9 @@ t_cn_army_3 = {
 		}
 		army_size = 180
 	}
-	reinforce_cost_modifier = 0.08
-	reinforce_speed = -0.08
-	global_regiment_cost = 0.05
+	reinforce_cost_modifier = 0.1
+	reinforce_speed = -0.1
+	global_regiment_cost = 0.06
 }
 
 t_cn_army_4 = {
@@ -150,9 +150,9 @@ t_cn_army_4 = {
 		}
 		army_size = 240
 	}
-	reinforce_cost_modifier = 0.08
-	reinforce_speed = -0.08
-	global_regiment_cost = 0.05
+	reinforce_cost_modifier = 0.1
+	reinforce_speed = -0.1
+	global_regiment_cost = 0.06
 }
 
 t_cn_army_5 = {
@@ -166,9 +166,9 @@ t_cn_army_5 = {
 		}
 		army_size = 300
 	}
-	reinforce_cost_modifier = 0.08
-	reinforce_speed = -0.08
-	global_regiment_cost = 0.05
+	reinforce_cost_modifier = 0.1
+	reinforce_speed = -0.1
+	global_regiment_cost = 0.06
 }
 
 t_cn_navy_1 = {
@@ -180,12 +180,12 @@ t_cn_navy_1 = {
 			ai = yes
 			was_player = yes
 		}
-		navy_size = 50
+		navy_size = 40
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
 	global_ship_cost = 0.08
-	naval_maintenance_modifier = 0.04
+	naval_maintenance_modifier = 0.06
 }
 
 t_cn_navy_2 = {
@@ -197,12 +197,12 @@ t_cn_navy_2 = {
 			ai = yes
 			was_player = yes
 		}
-		navy_size = 100
+		navy_size = 80
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
 	global_ship_cost = 0.08
-	naval_maintenance_modifier = 0.04
+	naval_maintenance_modifier = 0.06
 }
 
 t_cn_navy_3 = {
@@ -214,15 +214,32 @@ t_cn_navy_3 = {
 			ai = yes
 			was_player = yes
 		}
-		navy_size = 150
+		navy_size = 120
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
 	global_ship_cost = 0.08
-	naval_maintenance_modifier = 0.04
+	naval_maintenance_modifier = 0.06
 }
 
 t_cn_navy_4 = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		OR = {
+			ai = yes
+			was_player = yes
+		}
+		navy_size = 160
+	}
+	sailor_maintenance_modifer = 0.1
+	global_ship_recruit_speed = 0.1
+	global_ship_cost = 0.08
+	naval_maintenance_modifier = 0.06
+}
+
+t_cn_navy_5 = {
 	potential = {
 		is_colonial_nation = yes
 	}
@@ -236,24 +253,7 @@ t_cn_navy_4 = {
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
 	global_ship_cost = 0.08
-	naval_maintenance_modifier = 0.04
-}
-
-t_cn_navy_5 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
-		navy_size = 250
-	}
-	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.1
-	global_ship_cost = 0.08
-	naval_maintenance_modifier = 0.04
+	naval_maintenance_modifier = 0.06
 }
 
 ###########################################
