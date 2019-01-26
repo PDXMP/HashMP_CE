@@ -635,7 +635,7 @@ inflation = {
 	advisor_cost = 0.01						#1% for each inflation step
 	mercenary_cost = 0.01					#1% for each inflation step
 	fort_maintenance_modifier = 0.01		#1% for each inflation step
-	possible_mercenaries = -0.02			#1% for each inflation step
+	possible_mercenaries = -0.01			#1% for each inflation step
 	mercenary_discipline = -0.001			#1% for each inflation step
 }
 
