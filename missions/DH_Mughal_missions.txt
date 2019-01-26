@@ -486,11 +486,9 @@ mug_land_assesement = {
 			if = {
 				limit = { government = monarchy }
 				OR = {
-					has_reform = zabt_reform
-					has_reform = dakhni_culture_reform
-					has_reform = meritocratic_focus_reform
-					has_reform = of_noble_bearing_reform
-					has_reform = clergy_in_administration_reform
+					has_reform = t4_sp_1
+					has_reform = t4_sp_2
+					has_reform = t4_sp_3
 				}
 			}
 			else_if = {
