@@ -195,8 +195,9 @@ t4_sp_3 = { #Professional Soldiers
 	icon = "soldiers_2"
 	allow_normal_conversion = yes
 	modifiers = {
-		drill_gain_modifier = 0.25
-		drill_decay_modifier = -0.25
+		drill_gain_modifier = 0.33
+		drill_decay_modifier = -0.33
+		global_regiment_cost = 0.05
 	}
 }
 
