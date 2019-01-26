@@ -165,7 +165,7 @@ t3_lp_ind1 = { #Deccani Merchant Elites
 	}
 	modifiers = {
 		merchants = 1
-		trade_range_modifier = 0.25
+		trade_range_modifier = 0.33
 	}
 }
 
