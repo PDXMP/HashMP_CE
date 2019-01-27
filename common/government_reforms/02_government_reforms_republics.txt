@@ -94,7 +94,7 @@ venice_merchants_reform = {
 	modifiers = {
 		max_absolutism = -50
 		merchants = 1
-		yearly_corruption = -0.1
+		yearly_corruption = -0.05
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -227,7 +227,7 @@ presidential_despot_reform = {
 	legacy_equivalent = republican_dictatorship
 
 	modifiers = {
-		global_autonomy = -0.075
+		global_autonomy = -0.05
 		tolerance_heathen = 1
 		land_morale = 0.1
 	}
@@ -782,7 +782,8 @@ republicanism_reform = {
 		}
 	}
 	modifiers = {
-		republican_tradition = 0.2
+		republican_tradition = 0.1
+		global_own_trade_power = 0.1
 	}
 }
 
@@ -863,7 +864,7 @@ lottery_reform = {
 		NOT = { has_reform = venice_merchants_reform }
 	}
 	modifiers = {
-		yearly_corruption = -0.1
+		yearly_corruption = -0.05
 	}
 	custom_attributes = {
 		lottery_election = yes
@@ -895,7 +896,7 @@ union_of_states_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		global_trade_power = 0.1
-		yearly_corruption = -0.1
+		yearly_corruption = -0.05
 	}
 }
 
@@ -907,7 +908,6 @@ presidential_reform = {
 	icon = "man_on_podium"
 	allow_normal_conversion = yes
 	modifiers = {
-		war_exhaustion = -0.03
 		diplomatic_upkeep = 2
 		diplomatic_reputation = 2
 	}
