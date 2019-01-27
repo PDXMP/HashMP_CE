@@ -1250,9 +1250,10 @@ gen_indian_sikh = {
 				army_tradition = 50
 			}
 			else = {
-				AND = {
-					has_reform = misl_confederacy_reform
-					has_reform = khalsa_reform
+				has_reform = misl_confederacy_reform
+				OR = {
+					has_reform = t2_np_ind1
+					has_reform = t2_lp_ind1
 				}
 			}
 		}
