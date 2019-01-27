@@ -54,7 +54,10 @@ wooden_wall =
 {
 	can_select = {
 		is_primitive = no
-		culture_group = british
+		OR = {
+			tag = GBR
+			tag = ENG
+		}
 	}
 
 	country_modifier = {
@@ -68,13 +71,10 @@ grand_armada =
 {
 	can_select = {
 		is_primitive = no
-		NOT = {
-			OR = {
-				primary_culture = portugese
-				primary_culture = brazilian
-			}
+		OR = {
+			tag = CAS
+			tag = SPA
 		}
-		culture_group = iberian
 	}
 
 	country_modifier = {
@@ -88,10 +88,7 @@ portuguese_marines =
 {
 	can_select = {
 		is_primitive = no
-		OR = {
-			primary_culture = portugese
-			primary_culture = brazilian
-		}
+		tag = POR
 	}
 
 	country_modifier = {
