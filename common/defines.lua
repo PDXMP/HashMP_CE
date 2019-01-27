@@ -1989,6 +1989,7 @@ NGovernment = {
 	LEGACY_NATIVES_REFORM_REPUBLIC_SPONSOR = "oligarchic_republic",
 	LEGACY_NATIVES_REFORM_MONARCHY_SPONSOR = "despotic_monarchy",
 	LEGACY_NATIVES_REFORM_THEOCRACY_SPONSOR = "theocratic_government",
+	LEADER_AS_MONARCH_TRADITION = 30, -- How much tradition leaders will get when generated for
 },
 
 }
