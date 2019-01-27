@@ -1,0 +1,39 @@
+########################################
+# Custom events for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
+namespace = hashmp
+
+# Takab Gold Mine
+
+country_event = {
+	id = hashmp.1
+	title = hashmp.1.t
+	desc = hashmp.1.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 2212 #Zanjan
+		tag = PER
+		2212 = {
+			NOT = { trade_goods = gold }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = hashmp.1.a
+		2212 = {
+			change_trade_goods = gold
+			add_base_production = 3
+		}
+	}
+	
+}
