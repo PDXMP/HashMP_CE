@@ -22,7 +22,7 @@ ENG_ideas = {
 	free = yes		#will be added at load.
 	
 	royal_navy = {
-		navy_tradition = 0.25
+		navy_tradition = 0.2
 		heavy_ship_power = 0.10
 	}
 	eltham_ordinance = {
@@ -32,7 +32,7 @@ ENG_ideas = {
 		diplomatic_upkeep = 1
 	}
 	navigation_acts = {
-		trade_efficiency = 0.1
+		light_ship_cost = -0.1
 	}
 	eng_red_coats = {
 		discipline = 0.05
@@ -53,7 +53,7 @@ GBR_ideas = {
 	}
 
 	bonus = {
-		navy_tradition = 0.5
+		navy_tradition = 0.4
 	}
 	
 	trigger = {
@@ -69,7 +69,8 @@ GBR_ideas = {
 		global_colonial_growth = 20
 	}
 	british_merchant_navy = {
-		trade_efficiency = 0.10
+		light_ship_cost = -0.1
+		global_ship_recruit_speed = -0.1
 	}
 	gbr_the_royal_society = {
 		technology_cost = -0.05
