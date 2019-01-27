@@ -353,7 +353,7 @@ trade_depot = {
 	
 	modifier = {
 		province_trade_power_modifier = 1
-		trade_value_modifier = 0.075
+		trade_value_modifier = 0.05
 	}
 	
 	ai_will_do = {
