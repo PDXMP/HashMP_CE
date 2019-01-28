@@ -341,7 +341,7 @@ administrative_missions = {
 				name = "proto_industrialization"
 				duration = 9125
 			}
-			add_years_of_income = 1.5
+			add_treasury = 2000
 		}
 	}
 	imperial_ambition_mission = {
