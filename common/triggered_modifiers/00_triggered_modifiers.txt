@@ -75,10 +75,7 @@ t_player_cn = {
 		is_colonial_nation = yes
 	}
 	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
+		was_player = yes
 	}
 
 	land_forcelimit_modifier = -0.5
