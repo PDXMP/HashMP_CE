@@ -83,7 +83,7 @@ company_warehouse = {
 	}
 
 	area_modifier = {
-		local_production_efficiency = 0.25
+		local_production_efficiency = 0.2
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -104,7 +104,7 @@ company_depot = {
 	}
 
 	area_modifier = {
-		local_production_efficiency = 0.5
+		local_production_efficiency = 0.4
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -151,11 +151,11 @@ brokers_office = {
 	cost = 300.0
 
 	company_province_area_modifier = {
-		local_production_efficiency = 0.25
+		local_production_efficiency = 0.2
 	}
 
 	area_modifier = {
-		trade_goods_size = 0.15
+		trade_goods_size = 0.1
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -172,11 +172,11 @@ brokers_exchange = {
 	cost = 600.0
 
 	company_province_area_modifier = {
-		local_production_efficiency = 0.5
+		local_production_efficiency = 0.4
 	}
 
 	area_modifier = {
-		trade_goods_size = 0.3
+		trade_goods_size = 0.2
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -202,7 +202,7 @@ property_appraiser = {
 	}
 	
 	owner_company_region_modifier = {
-		trade_steering = 0.5
+		trade_steering = 0.33
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -223,11 +223,11 @@ settlements = {
 	cost = 300.0
 
 	company_province_area_modifier = {
-		local_tax_modifier = 0.25
+		local_tax_modifier = 0.2
 	}
 
 	area_modifier = {
-		local_development_cost = -0.075
+		local_development_cost = -0.05
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -244,11 +244,11 @@ district = {
 	cost = 600.0
 
 	company_province_area_modifier = {
-		local_tax_modifier = 0.5
+		local_tax_modifier = 0.4
 	}
 
 	area_modifier = {
-		local_development_cost = -0.15
+		local_development_cost = -0.1
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -299,8 +299,8 @@ company_administration = {
 	cost = 300.0
 	
 	company_province_area_modifier = {
-		local_manpower_modifier = 0.25
-		local_sailors_modifier = 0.25
+		local_manpower_modifier = 0.2
+		local_sailors_modifier = 0.2
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -317,8 +317,8 @@ military_administration = {
 	cost = 600.0
 	
 	company_province_area_modifier = {
-		local_manpower_modifier = 0.5
-		local_sailors_modifier = 0.5
+		local_manpower_modifier = 0.4
+		local_sailors_modifier = 0.4
 	}
 	
 	ai_global_worth = { factor = 0 }
