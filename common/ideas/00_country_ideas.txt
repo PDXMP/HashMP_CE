@@ -79,7 +79,8 @@ GBR_ideas = {
 		discipline = 0.05
 	}
 	british_industrialization = {
-		global_trade_goods_size_modifier = 0.10
+		production_efficiency = 0.10
+		build_cost = -0.05
 	}
 	britanna_rules_the_waves = {
 		leader_naval_manuever = 1
