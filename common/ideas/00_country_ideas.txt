@@ -12811,7 +12811,7 @@ TUN_ideas = {
 	}
 	free = yes
 	tun_catalan_guard = {
-		mercenary_discipline = 0.05
+		discipline = 0.05
 		infantry_power = 0.1
 	}
 	dual_diplomacy = {
