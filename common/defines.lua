@@ -416,9 +416,9 @@ NCountry = {
 	ELECTIVE_FOREIGN_MONARCH_MIN_BONUS = 0,		-- The minimum change that is applied to foreigns heirs in elective monarchy
 	ELECTIVE_FOREIGN_MONARCH_MAX_BONUS = 0,		-- The maximum change that is applied to foreigns heirs in elective monarchy
 	ABDICATE_LEGITIMACY_THRESHOLD = 50,
-	ABDICATE_AGE_THRESHOLD = 60,
-	ABDICATE_RULING_LENGTH_THRESHOLD = 20,
-	ABDICATE_LEGITIMACY_HIT = -20,
+	ABDICATE_AGE_THRESHOLD = 50,
+	ABDICATE_RULING_LENGTH_THRESHOLD = 15,
+	ABDICATE_LEGITIMACY_HIT = -15,
 	ABDICATE_PRESTIGE_HIT = -50,
 
 
