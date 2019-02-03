@@ -514,7 +514,8 @@ production_quota_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	global_trade_goods_size_modifier = 0.20
+	production_efficiency = 0.10
+	global_trade_goods_size_modifier = 0.10
 
 	ai_will_do = {
 		factor = 1
@@ -766,8 +767,8 @@ cultural_understanding = {
 		full_idea_group = spy_ideas
 	}	
 	
-	siege_ability = 0.2
-	defensiveness = 0.1
+	siege_ability = 0.15
+	defensiveness = 0.15
 	
 	ai_will_do = {
 		factor = 1

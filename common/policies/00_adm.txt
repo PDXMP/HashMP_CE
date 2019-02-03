@@ -472,7 +472,7 @@ enforce_religious_law = {
 	}
 
 	global_tax_modifier = 0.10
-	siege_ability = 0.15
+	siege_ability = 0.1
 
 	ai_will_do = {
 		factor = 1

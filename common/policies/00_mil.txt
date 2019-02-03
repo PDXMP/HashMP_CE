@@ -359,7 +359,7 @@ the_field_agent_act = {
 	}
 	
 	spy_offence = 0.30
-	siege_ability = 0.15
+	artillery_cost = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -385,7 +385,7 @@ anti_heresy_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	siege_ability = 0.15
+	siege_ability = 0.1
 	land_morale = 0.05
 
 	ai_will_do = {
