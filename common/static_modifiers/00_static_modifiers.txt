@@ -1092,7 +1092,7 @@ in_golden_era = {
 }
 
 absolutism = {
-	administrative_efficiency = 0.3
+	administrative_efficiency = 0.2
 	discipline = 0.05
 	core_decay_on_your_own = -0.5
 }
