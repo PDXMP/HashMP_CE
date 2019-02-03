@@ -263,7 +263,7 @@ NDiplomacy = {
 	PEACE_COST_DEMAND_CAPITAL_MULT = 1.2,
 
 	PO_TRADE_POWER_AMOUNT = 0.5,						-- Transfer 50% of trade power on peace option
-	PO_HUMILIATE_PRESTIGE_HIT = 25,
+	PO_HUMILIATE_PRESTIGE_HIT = 30,
 	PO_HUMILIATE_POWER_GAIN = 100,
 	MAX_ANNEX_SIZE = 10000, 						-- _DDEF_MAX_ANNEX_SIZE_ (Max number of provinces that can be annexed at once)
 
