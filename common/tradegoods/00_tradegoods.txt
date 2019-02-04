@@ -729,6 +729,7 @@ iron = {
 			NOT = { area = maryland_area }
 			NOT = { area = ofaie_area }
 			NOT = { province_id = 18 }
+			is_random_new_world = no
 		}
 		modifier = {
 			factor = 1.2
