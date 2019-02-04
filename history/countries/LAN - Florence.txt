@@ -11,7 +11,7 @@ historical_friend = PAP
 
 1421.1.1 = {
 	monarch = {
-		name = "Giovanni I"
+		name = "Giovanni"
 		dynasty = "de' Medici"
 		adm = 3
 		dip = 4
