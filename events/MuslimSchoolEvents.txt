@@ -761,7 +761,7 @@ country_event = {
 			factor = 33
 			modifier = {
 				factor = 3
-				NOT = { legitimacy = 0.65 }
+				NOT = { legitimacy = 65 }
 			}
 		}
 		trigger = {
@@ -900,6 +900,7 @@ country_event = {
 				name = "new_madrassah"
 				duration = 3650
 			}
+			set_province_flag = new_madrassah_flag
 		}
 	}
 }
@@ -2196,6 +2197,7 @@ country_event = {
 				}
 			}
 		}
+		NOT = { has_country_modifier = muslim_playing_court_event_timer }
 	}
 	
 	immediate = {
@@ -2209,6 +2211,11 @@ country_event = {
 					NOT = { has_province_modifier = ruler_overriding_ulema }
 				}
 				save_event_target_as = shiites_here
+			}
+			add_country_modifier = {
+				name = muslim_playing_court_event_timer
+				duration = 4880
+				hidden = yes
 			}
 		}
 	}
@@ -2274,6 +2281,7 @@ country_event = {
 			has_owner_religion = yes
 			NOT = { has_province_modifier = upset_lodges }
 		}
+		NOT = { has_country_modifier = taqiyya_event_timer }
 	}
 	
 	immediate = {
@@ -2286,6 +2294,11 @@ country_event = {
 					NOT = { has_province_modifier = upset_lodges }
 				}
 				save_event_target_as = shiites_here
+			}
+			add_country_modifier = {
+				name = taqiyya_event_timer
+				duration = 4880
+				hidden = yes
 			}
 		}
 	}
@@ -2369,6 +2382,7 @@ country_event = {
 			NOT = { has_province_modifier = agreed_with_mufti }
 			NOT = { has_province_modifier = disagreed_with_mufti }
 		}
+		NOT = { has_country_modifier = mufti_event_timer }
 	}
 	
 	immediate = {
@@ -2382,6 +2396,11 @@ country_event = {
 					NOT = { has_province_modifier = disagreed_with_mufti }
 				}
 				save_event_target_as = protest_province
+			}
+			add_country_modifier = {
+				name = mufti_event_timer
+				duration = 4880
+				hidden = yes
 			}
 		}
 	}
@@ -2836,6 +2855,9 @@ country_event = {
 			add_base_tax = 1
 			add_base_production = 1
 			area = {
+				limit = {
+					owned_by = ROOT
+				}
 				add_province_modifier = {
 					name = "expanded_madrasah"
 					duration = 7300
@@ -2851,6 +2873,9 @@ country_event = {
 		add_prestige = 10 #You get Prestige regardless for the famous scholarship.
 		event_target:madrasa_province = {
 			area = {
+				limit = {
+					owned_by = ROOT
+				}
 				add_province_modifier = {
 					name = "hampered_expansion_of_madrasah"
 					duration = 3650
@@ -3301,7 +3326,6 @@ country_event = {
 		custom_tooltip = muslim_school_events.21.a.tt #From now on the religious establishment will react more strongly to impious conduct of the [Root.Monarch.GetTitle].
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = "estate_church"
 			}
 			custom_tooltip = muslim_school_events.21.a.ttb 
