@@ -389,6 +389,18 @@ on_new_monarch = {
 	}
 	if = {
 		limit = {
+			has_consort_regency = no
+			any_owned_province = {
+				has_province_modifier = home_of_consort
+			}
+		}
+		random_owned_province = {
+			limit = { has_province_modifier = home_of_consort }
+			remove_province_modifier = home_of_consort
+		}
+	}
+	if = {
+		limit = {
 			NOT = { has_dlc = "Mandate of Heaven" }
 			has_country_modifier = the_mandate_of_heaven
 			NOT = { legitimacy = 80 }
@@ -452,6 +464,10 @@ on_new_consort = {
 		limit = { has_ruler_flag = consort_had_affection_of_ruler }
 		clr_ruler_flag = consort_had_affection_of_ruler
 	}
+	if = {
+		limit = { has_country_modifier = sought_after_bachelor }
+		remove_country_modifier = sought_after_bachelor
+	}
 }
 
 # country
@@ -467,6 +483,10 @@ on_monarch_death = {
 			clr_country_flag = albrecht_achilles_flag #Just to be sure
 			kill_heir = yes #If Albrecht Achilles dies in Ansbach he will also be dead in Brandenburg, will appear as normal death of heir to BRA.
 		}
+	}
+	if = {
+		limit = { has_country_modifier = sought_after_bachelor }
+		remove_country_modifier = sought_after_bachelor
 	}
 	events = {
 		flavor_tus.16 #Savanorola Leaves This World
@@ -576,15 +596,15 @@ on_diplomatic_annex = {
 on_heir_death = {
 	if = {
 		limit = { has_country_flag = heir_dip_education }
-		clr_ruler_flag = heir_dip_education
+		clr_country_flag = heir_dip_education
 	}
 	if = {
 		limit = { has_country_flag = heir_mil_education }
-		clr_ruler_flag = heir_mil_education
+		clr_country_flag = heir_mil_education
 	}
 	if = {
 		limit = { has_country_flag = heir_adm_education }
-		clr_ruler_flag = heir_adm_education
+		clr_country_flag = heir_adm_education
 	}
 	if = {
 		limit = { has_ruler_flag = well_advised_tutored_heir }
@@ -657,15 +677,15 @@ on_queen_death = {
 		clr_ruler_flag = refused_to_help_spouses_family
 	}
 	if = {
-		limit = { has_ruler_flag = lowborn_consort }
+		limit = { has_ruler_flag = has_lowborn_consort }
 		random_owned_province = {
 			limit = { has_province_modifier = home_of_consort }
 			remove_province_modifier = home_of_consort
 		}
 	}
 	if = {
-		limit = { has_ruler_flag = lowborn_consort }
-		clr_ruler_flag = lowborn_consort
+		limit = { has_ruler_flag = has_lowborn_consort }
+		clr_ruler_flag = has_lowborn_consort
 	}
 	if = {
 		limit = { has_country_modifier = consort_adm_advice }
@@ -863,6 +883,16 @@ on_annexed = {
 			limit = { is_emperor_of_china = yes }
 			dismantle_empire_of_china = yes
 			set_global_flag = empire_of_china_dismantled
+		}
+		if = {
+			limit = { has_country_modifier = legatus_natus }
+			remove_country_modifier = legatus_natus
+			set_global_flag = no_legatus_natus
+		}
+		if = {
+			limit = { has_country_modifier = primas_germaniae }
+			remove_country_modifier = primas_germaniae
+			set_global_flag = no_primas_germaniae
 		}
 	}
 }
@@ -1350,7 +1380,6 @@ on_bi_yearly_pulse = {
 		100 = randomeventsstapehordes.13
 		100 = randomeventsstapehordes.14
 		100 = randomeventsstapehordes.17
-		100 = randomeventsstapehordes.18
 		100 = randomeventsstapehordes.19
 		100 = randomeventsstapehordes.20
 		100 = randomeventsstapehordes.21

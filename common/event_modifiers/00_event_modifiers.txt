@@ -1446,6 +1446,7 @@ rebel_sentiment = {
 
 conversion_zeal = {
 	global_heretic_missionary_strength = 0.10
+	missionary_maintenance_cost = -0.33
 }
 
 religious_zeal_at_conv = {
@@ -10511,6 +10512,18 @@ mor_looks_outward = {
 mor_looks_inward = {
 	local_development_cost = -0.2
 }
+
+oe_jesuit_unrest = {
+	local_unrest = 3
+}
+
+mufti_event_timer = {}
+
+taqiyya_event_timer = {}
+
+muslim_playing_court_event_timer = {}
+
+converted_natives_colony_timer = {}
 
 ##################################################
 # HashMP

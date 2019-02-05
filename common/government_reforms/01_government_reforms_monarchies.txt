@@ -438,6 +438,10 @@ prussian_monarchy = {
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
+				tag = GER
+				have_had_reform = prussian_monarchy
+			}
+			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = prussian_monarchy
 			}
@@ -561,7 +565,6 @@ mamluk_government = {
 		}
 	}
 	legacy_equivalent = mamluk_government_legacy
-	heir = no
 	queen = no
 
 	valid_for_nation_designer = yes
@@ -586,6 +589,7 @@ mamluk_government = {
 		government_abilities = {
 			mamluk_mechanic
 		}
+		heir = no
 		foreign_slave_rulers = yes
 	}
 }
@@ -635,19 +639,11 @@ mughal_government = {
 	icon = "peacock_throne"
 	allow_normal_conversion = yes
 	potential = {
-		OR = {
-			AND = {
-				tag = MUG
-				NOT = { map_setup = map_setup_random }
-			}
-			AND = {
-				is_playing_custom_nation = yes
-				have_had_reform = mughal_government
-			}
+		AND = {
+			tag = MUG
+			NOT = { map_setup = map_setup_random }
 		}
 	}
-	valid_for_nation_designer = yes
-	nation_designer_cost = 60
 	lock_level_when_selected = yes
 	legacy_equivalent = feudal_monarchy
 
@@ -750,9 +746,9 @@ mughal_government = {
 		mande = {
 			tolerance_heretic = 1
 		}
-		mon_khmer = {
-			build_cost = -0.05
-		}
+#		mon_khmer = {
+#			build_cost = -0.05
+#		}
 		pacific = {
 			global_sailors_modifier = 0.1
 		}
@@ -774,7 +770,7 @@ mughal_government = {
 		tartar = {
 			cavalry_cost = -0.15
 		}
-		thai = {
+		southeastasian_group = {
 			development_cost = -0.05
 		}
 		tibetan_group = {
@@ -1300,7 +1296,7 @@ gond_kingdom = {
 #	effect = {
 #		set_country_flag = populists_in_government
 #		lose_reforms = 3
-#		change_government_via_reform = republic
+#		change_government = republic
 #	}
 #	ai = {
 #		factor = 0
@@ -1318,7 +1314,7 @@ gond_kingdom = {
 #	effect = {
 #		set_country_flag = populists_in_government
 #		lose_reforms = 6
-#		change_government_via_reform = theocracy
+#		change_government = theocracy
 #	}
 #	ai = {
 #		factor = 0

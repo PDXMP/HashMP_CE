@@ -401,7 +401,7 @@ t7_lp_2 = { #Republican Government Reform
 	effect = {
 		set_country_flag = populists_in_government
 		lose_reforms = 3
-		change_government_via_reform = republic
+		change_government = republic
 	}
 	ai = {
 		factor = 0
@@ -424,7 +424,7 @@ t7_sp_1 = { #Theocratic Government Reform
 	effect = {
 		set_country_flag = populists_in_government
 		lose_reforms = 6
-		change_government_via_reform = theocracy
+		change_government = theocracy
 	}
 	ai = {
 		factor = 0
@@ -444,7 +444,7 @@ become_a_republic_reform = {
 	effect = {
 		set_country_flag = populists_in_government
 		lose_reforms = 3
-		change_government_via_reform = republic
+		change_government = republic
 	}
 	ai = {
 		factor = 0
@@ -462,7 +462,7 @@ install_theocratic_government_reform = {
 	effect = {
 		set_country_flag = populists_in_government
 		lose_reforms = 6
-		change_government_via_reform = theocracy
+		change_government = theocracy
 	}
 	ai = {
 		factor = 0

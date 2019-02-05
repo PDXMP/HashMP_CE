@@ -133,30 +133,38 @@ estate_jains = {
 		}
 		modifier = {
 			factor = 0.1
-			num_of_owned_provinces_with = {
-				value = 1
-				has_estate = estate_jains
+			owner = {
+				num_of_owned_provinces_with = {
+					value = 1
+					has_estate = estate_jains
+				}
 			}
 		}
 		modifier = {
 			factor = 0.1
-			num_of_owned_provinces_with = {
-				value = 2
-				has_estate = estate_jains
+			owner = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_estate = estate_jains
+				}
 			}
 		}
 		modifier = {
 			factor = 0.1
-			num_of_owned_provinces_with = {
-				value = 3
-				has_estate = estate_jains
+			owner = {
+				num_of_owned_provinces_with = {
+					value = 3
+					has_estate = estate_jains
+				}
 			}
 		}
 		modifier = {
 			factor = 0
-			num_of_owned_provinces_with = {
-				value = 4
-				has_estate = estate_jains
+			owner = {
+				num_of_owned_provinces_with = {
+					value = 4
+					has_estate = estate_jains
+				}
 			}
 		}
 	}	
