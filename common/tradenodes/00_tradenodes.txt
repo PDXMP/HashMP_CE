@@ -90,15 +90,15 @@ patagonia={
 }
 amazonas_node={
 	location=2935
-	outgoing={
-		name="brazil"
-		path={
-			1529 1530 1531 
-		}
-		control={
-			2087.000000 866.000000 2168.000000 834.000000 
-		}
-	}
+#	outgoing={
+#		name="brazil"
+#		path={
+#			1529 1530 1531 
+#		}
+#		control={
+#			2087.000000 866.000000 2168.000000 834.000000 
+#		}
+#	}
 	outgoing={
 		name="carribean_trade"
 		path={
@@ -1494,12 +1494,20 @@ lima={
 brazil={
 	location=1531
 	outgoing={
-		name="ivory_coast"
+		name="ivory_coast"	
 		path={
 			1596 1597 1586 1585 1466 
 		}
 		control={
 			2333.000000 600.000000 2480.000000 657.000000 2624.000000 550.000000 2788.000000 549.000000 
+		}
+	}
+	outgoing={
+		name="amazonas_node"
+		path={
+			1531 1530 1529 2935
+		}
+		control={
 		}
 	}
 	members={
