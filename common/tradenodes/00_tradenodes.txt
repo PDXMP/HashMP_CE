@@ -1624,7 +1624,7 @@ ivory_coast={
 tunis={
 	location=341
 	color={
-		146 134 57 
+		165 120 60
 	}
 	outgoing={
 		name="sevilla"
