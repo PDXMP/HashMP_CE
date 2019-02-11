@@ -5,7 +5,6 @@ government_rank = 1
 mercantilism = 25
 primary_culture = tuscan
 religion = catholic
-elector = yes
 technology_group = western
 capital = 116 # Firenze
 historical_friend = PAP
