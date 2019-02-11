@@ -875,7 +875,6 @@ GEN_Ideas = {
 
 	overhauled_bureaucracy = {
 		global_tax_modifier = 0.1
-		land_maintenance_modifier = -0.1
 	}
 	standardisation_of_designs = {
 		development_cost = -0.1
@@ -1840,12 +1839,12 @@ DAI_ideas = {
 
 SAV_ideas = {
 	start = {
-		diplomatic_upkeep = 1
+		possible_mercenaries = 0.25
 		infantry_power = 0.10
 	}
 	
 	bonus = {
-		global_tax_modifier = 0.10
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -1858,28 +1857,29 @@ SAV_ideas = {
 	
 	repel_the_french = {
 		defensiveness = 0.2
-		land_morale = 0.10
+		land_morale = 0.15
 	}
 	the_shroud_of_turin = {
-		papal_influence = 2
-		prestige = 0.5
+		advisor_cost = -0.1
+		prestige = 1
 	}
 	sav_mercenary_tradition = {
-		merc_maintenance_modifier = -0.25
-		possible_condottieri = 0.5
+		army_tradition_decay = -0.01
 	}
 	crush_the_vaudois = {
-		global_missionary_strength = 0.02
-		land_morale = 0.05
+		global_heretic_missionary_strength = 0.03
+		culture_conversion_cost = -0.1
 	}
 	savoyard_flexibility = {
 		idea_cost = -0.1
+		num_accepted_cultures = 1
 	}
 	alpine_tolls = {
-   		global_prov_trade_power_modifier = 0.20
+   		global_prov_trade_power_modifier = 0.25
 	}
 	savoyard_legitimacy = {
-		legitimacy = 1   
+		legitimacy = 1
+		republican_tradition = 0.1
 	}
 }
 
