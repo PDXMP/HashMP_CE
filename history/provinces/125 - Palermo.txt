@@ -12,7 +12,7 @@ base_manpower = 4
 capital = "Palermo"
 is_city = yes
 add_core = SIC
-add_core = NAP
+add_claim = NAP
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
@@ -21,11 +21,11 @@ extra_cost = 8
 center_of_trade = 1
 
 
-1409.7.25 = {
-	owner = ARA
-	controller = ARA
-	add_core = ARA
-} # Martin I inherits Sicily from his son
+#1409.7.25 = {
+#	owner = ARA
+#	controller = ARA
+#	add_core = ARA
+#} # Martin I inherits Sicily from his son
 1516.1.23 = {	owner = SPA
 	controller = SPA
 	add_core = SPA
