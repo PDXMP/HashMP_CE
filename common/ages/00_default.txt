@@ -757,20 +757,21 @@ age_of_revolutions = {
 		}
 		ab_same_contine_lib_desire = {
 			modifier = {
-				reduced_liberty_desire_on_same_continent = 25
+				global_supply_limit_modifier = 1
+				land_attrition = -0.2
 			}
-			ai_will_do = {
-				factor = 15
-				modifier = {
-					factor = 0
-					NOT = {
-						any_subject_country = {
-							liberty_desire = 30
-							same_continent = ROOT
-						}
-					}
-				}
-			}
+			#ai_will_do = {
+			#	factor = 15
+			#	modifier = {
+			#		factor = 0
+			#		NOT = {
+			#			any_subject_country = {
+			#				liberty_desire = 30
+			#				same_continent = ROOT
+			#			}
+			#		}
+			#	}
+			#}
 		}
 		ab_pru_military = {
 			allow = {
