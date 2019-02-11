@@ -1,7 +1,7 @@
 #1871 - Wallis
 
-owner = SAV
-controller = SAV
+owner = SWI
+controller = SWI
 culture = swiss
 religion = catholic
 capital = "Sion"
@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 1
 is_city = yes
 estate = estate_church
-add_core = SAV
+#add_core = SAV
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
