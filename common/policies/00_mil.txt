@@ -513,7 +513,7 @@ local_army_organisation = {
 		full_idea_group = defensive_ideas
 	}
 
-	garrison_size = 0.30
+	movement_speed = 0.1
 	reinforce_speed = 0.20
 
 	ai_will_do = {
