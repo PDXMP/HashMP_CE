@@ -1,7 +1,7 @@
 #286 - Azow
 
-owner = GEN
-controller = GEN
+owner = CRI
+controller = CRI
 culture = crimean
 religion = sunni
 hre = no
@@ -11,7 +11,7 @@ trade_goods = slaves
 base_manpower = 3
 capital = "Tana"
 is_city = yes
-add_core = GEN
+add_core = CRI
 
 
 
