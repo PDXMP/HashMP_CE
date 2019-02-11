@@ -877,7 +877,7 @@ GEN_Ideas = {
 		global_tax_modifier = 0.1
 	}
 	standardisation_of_designs = {
-		development_cost = -0.1
+		global_ship_recruit_speed = -0.1
 	}
 	lessons_of_chiogga = {
 		galley_power = 0.10
