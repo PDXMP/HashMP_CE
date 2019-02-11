@@ -78,7 +78,7 @@ grand_armada =
 	}
 
 	country_modifier = {
-		treasure_fleet_income = 0.5
+		treasure_fleet_income = 0.33
 	}
 
 	button_gfx = 6
