@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = hessian
 add_accepted_culture = bavarian
 religion = catholic
-elector = yes
+#elector = yes
 technology_group = western
 capital = 77	# Pfalz
 
