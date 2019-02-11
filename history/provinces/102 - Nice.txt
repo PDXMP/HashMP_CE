@@ -1,8 +1,8 @@
 #102 - Nice
 
-owner = SAV
-controller = SAV
-add_core = SAV
+owner = GEN
+controller = GEN
+add_core = GEN
 culture = ligurian
 religion = catholic
 hre = yes
