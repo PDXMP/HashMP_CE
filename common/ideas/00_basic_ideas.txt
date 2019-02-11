@@ -731,28 +731,28 @@ expansion_ideas = {
 	important = yes
 
 	bonus = {
- 		cb_on_overseas = yes
-		max_states = 5
+ 		land_attrition = -0.15
+		max_states = 7
 	}
 
 	additional_colonists = {
-		colonists = 1
+		caravan_power = 0.33
 	}
 	organised_recruiting = {
 		core_creation = -0.25
 	}
 	additional_diplomats = {
-		diplomats = 1
+		min_autonomy_in_territories = -0.1
 	}
 	faster_colonists = {
 		global_unrest = -2
 	}
 	improved_shipyards  = {
-		manpower_recovery_speed = 0.10
-		land_forcelimit_modifier = 0.10
+		manpower_recovery_speed = 0.15
+		land_forcelimit_modifier = 0.1
 	}
 	competetive_merchants  = {
-		global_trade_power = 0.2
+		global_own_trade_power = 0.2
 	}
 	additional_merchants = {
 		merchants = 1 
