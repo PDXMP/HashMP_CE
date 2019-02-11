@@ -55,7 +55,7 @@ age_of_discovery = {
 					controlled_by = owner
 					is_core = ROOT
 				}
-				amount = 5
+				amount = 4
 			}
 		}
 		obj_30_development_city = {
