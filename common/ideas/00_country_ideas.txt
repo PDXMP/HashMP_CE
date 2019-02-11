@@ -862,45 +862,42 @@ BUR_Ideas = {
 
 GEN_Ideas = {
 	start = {
-		trade_efficiency = 0.15
-		interest = -1
+		infantry_power = 0.10
+		possible_mercenaries = 0.25
 	}
 	
 	bonus = {
-		naval_maintenance_modifier = -0.2
+		fire_damage = 0.1
 	}
 	
 	trigger = {
 		tag = GEN
 	}
 	free = yes
-	
-	reunited_genoa = {
-		stability_cost_modifier = -0.10
-		justify_trade_conflict_cost = -0.10
-		mercenary_discipline = 0.10
-	}
-	lessons_of_chiogga = {
-		naval_morale = 0.10
-		sunk_ship_morale_hit_recieved = -0.15
-	}	
-	genoese_trade = {
-		global_foreign_trade_power = 0.10
-		global_sailors_modifier = 0.25
-	}
-	the_genoese_arsenal = {
-		galley_cost = -0.33
-		possible_condottieri = 0.5
-	}
+
 	overhauled_bureaucracy = {
 		global_tax_modifier = 0.1
-		possible_mercenaries = 0.10
-	}
-	the_office_of_grand_admiral = {
-		naval_forcelimit_modifier = 0.25
+		land_maintenance_modifier = -0.1
 	}
 	standardisation_of_designs = {
-		global_ship_recruit_speed = -0.10
+		development_cost = -0.1
+	}
+	lessons_of_chiogga = {
+		galley_power = 0.10
+		sunk_ship_morale_hit_recieved = -0.1
+	}
+	the_genoese_arsenal = {
+		build_cost = -0.10
+	}	
+	reunited_genoa = {
+		stability_cost_modifier = -0.1
+	}
+	genoese_trade = {
+		global_trade_power = 0.1
+	}
+	the_office_of_grand_admiral = {
+		army_tradition_decay = -0.01
+		navy_tradition_decay = -0.01
 	}
 }
 
