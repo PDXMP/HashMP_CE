@@ -206,7 +206,7 @@
  obj_100_development:0 "Developed Nation"
  obj_100_development_desc:0 "Reach a total of at least 100 development in your nation."
  obj_5_centers_of_trade:0 "Control Centers of Trade"
- obj_5_centers_of_trade_desc:1 "Own, control and core at least five provinces with level 2 or higher centers of trade."
+ obj_5_centers_of_trade_desc:1 "Own, control and core at least four provinces with level 2 or higher centers of trade."
  obj_30_development_city:0 "A Large City"
  obj_30_development_city_desc:0 "Own and control a core province with at least §Y30§! development."
  obj_30_development_city_tooltip:0 "Cored Province with §Y30§! development\n"
