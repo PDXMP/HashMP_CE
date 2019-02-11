@@ -48,7 +48,7 @@ hofgericht = {
 gemeinerpfennig = {
 	empire = hre
 	member = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.075
 		build_cost = -0.1
 	}
 	emperor = {
@@ -82,7 +82,7 @@ landfriede = {
 erbkaisertum = {
 	empire = hre
 	member = {
-		development_cost = -0.1
+		development_cost = -0.075
 	}
 	emperor = {
 		development_cost = -0.1
