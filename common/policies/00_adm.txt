@@ -1005,7 +1005,8 @@ visionary_thinkers = {
 		full_idea_group = quality_ideas
 	}	
 	
-	army_tradition = 1.0
+	army_tradition = 0.5
+	idea_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
