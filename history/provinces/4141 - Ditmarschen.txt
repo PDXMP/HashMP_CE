@@ -1,8 +1,8 @@
 #4141 - Ditmarschen
 
-owner = DAN
-controller = DAN
-add_core = DAN
+owner = DTT
+controller = DTT
+add_core = DTT
 culture = hannoverian
 religion = catholic
 hre = yes
