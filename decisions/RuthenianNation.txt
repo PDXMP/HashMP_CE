@@ -10,13 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			tag = LIT
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }			
 			NOT = { exists = UKR }
-			OR = {
-				primary_culture = byelorussian
-				primary_culture = ruthenian
-			}
 			OR = {
 				ai = no
 				AND = {
@@ -78,6 +75,10 @@ country_decisions = {
 					owns_core_province = 283		#Zaporozhie -eastern/southern center of rebellions
 					dip = 5
 				}
+			}
+			OR = {
+				primary_culture = byelorussian
+				primary_culture = ruthenian
 			}
 		}
 		effect = {
