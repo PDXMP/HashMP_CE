@@ -331,7 +331,7 @@ t_hre_strongemperor = {
 		}
 	}
 	imperial_authority = 0.1
-	imperial_authority_value = 0.05
+	imperial_authority_value = 0.03
 }
 
 
@@ -927,7 +927,7 @@ hre_dominant_catholic = {
 	legitimacy = 0.25
 	tolerance_own = 1
 	global_missionary_strength = 0.01
-	imperial_authority = 0.25
+	imperial_authority = 0.1
 }
 
 hre_dominant_protestant = {
@@ -950,7 +950,7 @@ hre_dominant_protestant = {
 	legitimacy = 0.25
 	tolerance_own = 1
 	global_missionary_strength = 0.01
-	imperial_authority = 0.25
+	imperial_authority = 0.1
 }
 
 ######################################
