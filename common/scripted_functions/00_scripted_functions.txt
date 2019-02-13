@@ -165,7 +165,19 @@ is_possible_hre_province = {
 		potential = {
 		}
 		allow = {
-			continent = europe
+			OR = {
+				region = low_countries_region
+				region = italy_region
+				region = north_german_region
+				region = south_german_region
+				area = jutland_area
+				area = denmark_area
+				area = west_prussia_area
+				area = east_prussia_area
+				area = lorraine_area
+				province_id = 193 #franche comte
+				province_id = 205 #savoie
+			}
 		}
 	}
 }

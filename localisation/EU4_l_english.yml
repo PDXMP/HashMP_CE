@@ -4524,7 +4524,7 @@
  POLICY_POSSIBLE:0 "When fully unlocked, this idea group gives access to the following policies, each depending on another Idea Group finished as well."
  NO_POSSIBLE_POLICIES_AT_ALL:0 "There are no possible policies to enact right now. You can unlock policies to enact by completing idea groups."
  TRADER_CHANGE:0 "Change"
- APH_ONLY_EUROPE:0 "You can only add provinces on the European Continent"
+ APH_ONLY_EUROPE:0 "You can only add Germany, Italy, Denmark, Lorraine, and Prussia to the HRE.
  POWER_INC_TO_HERE:2 "This fleet will add §Y$POW$§! trade power to §Y$NODE$§!.\nThis will increase our trade value from §Y$CURRENTINCOME$§!¤ to §Y$INCOME$§!¤ (§Y$INCOMEDIFFERENCE$§!¤ gain), while this fleet costs §R$MAIN$§!¤ in maintenance.\nTotal change will be $PROFIT$¤ $DIR$.\n"
  DIR_PROF:0 "profit"
  DIR_LOSS:0 "loss"
