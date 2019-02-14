@@ -291,7 +291,7 @@ t_hre_elector_2 = {
 	}
 	ae_impact = -0.15
 	manpower_recovery_speed = 0.125
-	land_morale = 0.05
+	land_morale = 0.075
 	advisor_cost = -0.125
 	global_manpower = 7
 }
