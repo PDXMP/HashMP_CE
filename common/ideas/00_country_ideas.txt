@@ -1857,7 +1857,7 @@ SAV_ideas = {
 	
 	repel_the_french = {
 		defensiveness = 0.2
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 	the_shroud_of_turin = {
 		advisor_cost = -0.1
