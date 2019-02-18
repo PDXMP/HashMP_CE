@@ -675,7 +675,7 @@ HAB_ideas = {
 	}
 	fugger_banks = {
 		inflation_reduction = 0.05
-		interest = -1
+		interest = -0.5
 	}
 	habsburg_dominance = {
 		land_morale = 0.10
@@ -1251,7 +1251,7 @@ HSA_ideas = {
 		global_prov_trade_power_modifier = 0.20
 	}
 	the_hansa_bank = {
-		interest = -1
+		interest = -0.5
 	}
 }
 
@@ -2444,7 +2444,7 @@ TUS_ideas = {
 		possible_condottieri = 0.5
 	}
 	tuscan_banking = {
-		interest = -1
+		interest = -0.5
 	}
 	tuscan_arts = {
 		prestige = 1
@@ -4557,7 +4557,7 @@ GOT_ideas = {
 		naval_forcelimit_modifier = 0.33
 	}
 	found_visby_bank = {
-		interest = -1
+		interest = -0.5
 	}
 }
 
