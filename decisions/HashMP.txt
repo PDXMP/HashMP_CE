@@ -26,3 +26,45 @@ country_decisions = {
 			}
 		}
 	}
+	h_ruler_tutor = {
+		potential = {
+			ai = no
+			NOT = { has_country_flag = h_tutor_flag }
+			OR = {
+				government = monarchy
+				government = theocracy
+			}
+		}
+		allow = {
+			OR = {
+				NOT = {
+					adm = 3
+					dip = 3
+					mil = 3
+				}
+				NOT = {
+					adm = 4
+					dip = 2
+					mil = 2
+				}
+				NOT = {
+					adm = 2
+					dip = 4
+					mil = 2
+				}
+				NOT = {
+					adm = 2
+					dip = 2
+					mil = 4
+				}
+			}
+		}
+		effect = {
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+			add_years_of_income = -0.5
+			set_country_flag = h_tutor_flag
+		}
+	}
+}
