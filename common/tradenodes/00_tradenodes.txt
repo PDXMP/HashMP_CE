@@ -1866,6 +1866,7 @@ rheinland={
 #	}
 	members={
 		56 72 74 75 77 78 79 80 81 82 83 84 85 86 1760 1761 1869 1870 1876 1878 1880 2973 2975 166 1873 2972 1762 66 67 
+		165 1867 1871 #romandie_area
 	}
 }
 panama={
@@ -2150,7 +2151,7 @@ champagne={
 		177 178 179 184 4389 #loire_area
 		181 186 4390 #champagne_area
 		187 188 189 #lorraine_area
-		165 1867 1871 #romandie_area
+		#165 1867 1871 #romandie_area
 		91 92 93 94 1866 #wallonia_area
 		1742 2974 #luxemburg_liege_area
 		191 192 193 1877 4392 #bourgogne_area
