@@ -660,6 +660,7 @@ bankruptcy = {
 	possible_mercenaries = -1.0
 	stability_cost_modifier = 0.5
 	defensiveness = -0.4
+	reduced_liberty_desire = -10
 }
 
 
