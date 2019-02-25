@@ -20,9 +20,9 @@ country_decisions = {
 				}
 			}
 			OR = {
-				dominant_culture = ligurian
-				dominant_culture = sardinian
-				dominant_culture = piedmontese
+				primary_culture = ligurian
+				primary_culture = sardinian
+				primary_culture = piedmontese
 			}
 		}
 		provinces_to_highlight = {
