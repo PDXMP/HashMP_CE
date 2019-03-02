@@ -1861,7 +1861,6 @@ SAV_ideas = {
 		land_morale = 0.1
 	}
 	the_shroud_of_turin = {
-		advisor_cost = -0.1
 		prestige = 1
 	}
 	sav_mercenary_tradition = {
