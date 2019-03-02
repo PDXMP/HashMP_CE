@@ -30,32 +30,64 @@ country_decisions = {
 		potential = {
 			ai = no
 			NOT = { has_country_flag = h_tutor_flag }
-			OR = {
-				government = monarchy
-				government = theocracy
+			NOT = {
+				government = republic
 			}
 		}
 		allow = {
-			OR = {
-				NOT = {
-					adm = 3
-					dip = 3
-					mil = 3
-				}
-				NOT = {
-					adm = 4
-					dip = 2
-					mil = 2
-				}
-				NOT = {
-					adm = 2
-					dip = 4
-					mil = 2
-				}
-				NOT = {
-					adm = 2
-					dip = 2
-					mil = 4
+			custom_trigger_tooltip = {
+				tooltip = h_ruler_tutor_tooltip
+				OR = {
+					NOT = {
+						adm = 3
+						dip = 3
+						mil = 3
+					}
+					NOT = {
+						adm = 4
+						dip = 2
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 4
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 2
+						mil = 4
+					}
+					NOT = {
+						adm = 4
+						dip = 2
+						mil = 3
+					}
+					NOT = {
+						adm = 4
+						dip = 3
+						mil = 2
+					}
+					NOT = {
+						adm = 3
+						dip = 4
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 4
+						mil = 3
+					}
+					NOT = {
+						adm = 2
+						dip = 3
+						mil = 4
+					}
+					NOT = {
+						adm = 3
+						dip = 2
+						mil = 4
+					}
 				}
 			}
 		}
