@@ -1059,8 +1059,8 @@ MAM_ideas = {
 
 NAP_ideas = {
 	start = {
+		global_tax_modifier = 0.1
 		global_institution_spread = 0.1 #University of Naples, Angevine Heritage, Academies, centre of Neapolitan renaissance.
-		trade_efficiency = 0.1 #One of the main trade port of the mediterrenean for much of the timeframe
 	}
 	
 	bonus = {
@@ -1071,18 +1071,19 @@ NAP_ideas = {
 		tag = NAP
 	}
 	free = yes
-	
+
+	crush_the_barons = {
+		land_morale = 0.1
+	}
 	consolidate_the_royal_domain = {
 		global_trade_goods_size_modifier = 0.1
+		trade_efficiency = 0.1 #One of the main trade port of the mediterrenean for much of the timeframe
 	}
 	academia_pontaniana = {
 		technology_cost = -0.10
 	}
 	encouraged_city_living = {
 		development_cost = -0.1 #Often among the largest cities of Europe
-	}
-	crush_the_barons = {
-		land_morale = 0.1
 	}
 	expanded_arsenale = {
 		global_ship_cost = -0.1
