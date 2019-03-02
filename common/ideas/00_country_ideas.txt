@@ -470,12 +470,11 @@ TUR_ideas = {
 VEN_ideas = {
 	start = {
 		shock_damage_received = -0.10
-		global_trade_power = 0.1
+		global_sailors_modifier = 0.20
 	}
 	
 	bonus = {
 		galley_power = 0.15
-		mercenary_discipline = 0.05
 	}
 	
 	trigger = {
@@ -485,20 +484,20 @@ VEN_ideas = {
 	
 	venetian_arsenal = {
 		naval_forcelimit_modifier = 0.25
-		galley_cost = -0.20
 	}
 	printing_industry = {
 		diplomats = 1
 	}
 	stato_da_mar = {
 		trade_efficiency = 0.1
+		global_trade_power = 0.1
 	}
 	state_inquisition = {
 		global_spy_defence = 0.3
 	}
 	conscription = {
 		naval_maintenance_modifier = -0.2
-		global_sailors_modifier = 0.20
+		galley_cost = -0.20
 	}
 	defend_the_law = {
 		stability_cost_modifier = -0.1
