@@ -15,3 +15,6 @@
  t_hre_elector_2:0 "Respected Elector"
  t_hre_elector_3:0 "Marshal of the Empire"
  t_hre_strongemperor:0 "Suitable Emperor"
+ h_ruler_tutor_title:0 "Educate Ruler"
+ h_ruler_tutor_desc:0 "Our ruler is somewhat unsuited to the task of ruling our country. Utilize our limited resources to teach them the art of governance."
+ h_ruler_tutor_tooltip:0 "Ruler has less than 7 total skill"
