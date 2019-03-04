@@ -597,10 +597,10 @@ age_of_absolutism = {
 				tag = NED
 			}
 			modifier = {
-				yearly_corruption = -0.2
-				global_colonial_growth = 20
-				core_creation = -0.15
-				range = 1.0
+				ship_durability = 0.05
+				light_ship_power = 0.1
+				global_ship_recruit_speed = -0.2
+				global_foreign_trade_power = 0.2
 			}
 			ai_will_do = {
 				factor = 100
