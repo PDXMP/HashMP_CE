@@ -444,8 +444,8 @@ gc_spain_2_b = {
 		}
 		effect = {
 			define_conquistador = {
-				shock = 5
-				fire = 5
+				shock = 3
+				fire = 3
 				manuever = 6
 				siege = 1
 				name = "Hern�n Cort�s"

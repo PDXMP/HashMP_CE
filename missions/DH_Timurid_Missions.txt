@@ -219,7 +219,7 @@ dh_tim_india = {
 				define_general = {
 					name = "Nadir Quli Beg"
 					fire = 3
-					shock = 5
+					shock = 4
 					manuever = 5
 					siege = 1
 					trait = master_of_arms_personality
@@ -229,8 +229,8 @@ dh_tim_india = {
 				limit = { is_year = 1650 }
 				define_general = {
 					name = "Aurangzîb Timurid"
-					shock = 5
-					fire = 5
+					shock = 3
+					fire = 4
 					manuever = 2
 					siege = 0
 					trait = master_of_arms_personality
@@ -240,8 +240,8 @@ dh_tim_india = {
 				limit = { is_year = 1600 }
 				define_general = {
 					name = "Akbar Timurid"
-					shock = 4
-					fire = 4
+					shock = 3
+					fire = 3
 					manuever = 2
 					siege = 2
 					trait = master_of_arms_personality
@@ -251,10 +251,10 @@ dh_tim_india = {
 				limit = { is_year = 1550 }
 				define_general = {
 					name = "Humayun Timurid"
-					shock = 4
-					fire = 4
-					manuever = 2
-					siege = 2
+					shock = 3
+					fire = 3
+					manuever = 0
+					siege = 3
 					trait = master_of_arms_personality
 				}
 			}
@@ -264,8 +264,8 @@ dh_tim_india = {
 					name = "Babur Timurid"
 					shock = 5
 					fire = 5
-					manuever = 3
-					siege = 1
+					manuever = 0
+					siege = 0
 					trait = master_of_arms_personality
 				}
 			}
@@ -273,7 +273,7 @@ dh_tim_india = {
 				limit = { is_year = 1450 }
 				define_general = {
 					name = "Abu Said Timurid"
-					shock = 5
+					shock = 4
 					fire = 4
 					manuever = 3
 					siege = 1
@@ -284,9 +284,9 @@ dh_tim_india = {
 				define_general = {
 					name = "Abu Said Timurid"
 					shock = 5
-					fire = 4
-					manuever = 3
-					siege = 1
+					fire = 2
+					manuever = 2
+					siege = 0
 					trait = master_of_arms_personality
 				}
 			}

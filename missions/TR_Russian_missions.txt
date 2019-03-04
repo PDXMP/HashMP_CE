@@ -1553,8 +1553,8 @@ tr_siberia_missions = {
 			add_dip_power = 100
 			define_conquistador = {
 				name = "Yermak Timofeyevich"
-				shock = 6
-				fire = 6
+				shock = 3
+				fire = 3
 				manuever = 5
 				siege = 0
 			}
@@ -1586,7 +1586,7 @@ tr_siberia_missions = {
 				name = "Vitus Bering"
 				fire = 4
 				shock = 2
-				manuever = 5
+				manuever = 4
 			}
 			if = {
 				limit = {
