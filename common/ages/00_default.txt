@@ -230,7 +230,8 @@ age_of_discovery = {
 				culture_group = latin
 			}
 			modifier = {
-				infantry_power = 0.10
+				mercenary_discipline = 0.05
+				possible_mercenaries = 0.1
 				merc_maintenance_modifier = -0.25
 			}
 			ai_will_do = {
