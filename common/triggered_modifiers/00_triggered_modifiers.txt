@@ -266,7 +266,7 @@ t_hre_elector_1 = {
 		is_elector = yes
 		is_emperor = no
 		NOT = {
-			hre_reform_level = 2
+			hre_reform_level = 3
 		}
 		NOT = {
 			total_development = 500
@@ -287,9 +287,9 @@ t_hre_elector_2 = {
 	trigger = {
 		is_elector = yes
 		is_emperor = no
-		hre_reform_level = 2
+		hre_reform_level = 3
 		NOT = {
-			hre_reform_level = 4
+			hre_reform_level = 5
 		}
 		NOT = {
 			total_development = 500
@@ -310,7 +310,7 @@ t_hre_elector_3 = {
 	trigger = {
 		is_elector = yes
 		is_emperor = no
-		hre_reform_level = 4
+		hre_reform_level = 5
 		NOT = {
 			total_development = 500
 		}
