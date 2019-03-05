@@ -1,5 +1,9 @@
 #2757 - Kaffa
 
+latent_trade_goods = {
+	coal
+}
+
 owner = KAF
 controller = KAF
 add_core = KAF
