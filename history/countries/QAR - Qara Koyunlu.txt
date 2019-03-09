@@ -80,7 +80,7 @@ religious_school = ismaili_school
 		claim = 95
 		adm = 2
 		dip = 1
-		mil = 0
+		mil = 1
 	}
 }
 
@@ -90,6 +90,6 @@ religious_school = ismaili_school
 		dynasty = "Qara Qoyunlu"
 		adm = 2
 		dip = 1
-		mil = 0
+		mil = 1
 	}
 }
