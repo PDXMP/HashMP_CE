@@ -5843,7 +5843,7 @@ arw_preparing_defences = {
 }
 
 joined_league_war = {
-	army_tradition = 0.5
+	army_tradition = 0.25
 	mil_tech_cost_modifier = -0.05
 }
 
