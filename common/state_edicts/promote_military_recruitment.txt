@@ -8,7 +8,7 @@ edict_promote_military_recruitment = {
 	}
 	
 	modifier = {
-		local_manpower_modifier = 0.35
+		local_manpower_modifier = 0.25
 	}
 	
 	color = {  188 90 27  }
