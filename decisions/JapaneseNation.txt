@@ -4,8 +4,47 @@ country_decisions = {
 	unite_japan = {
 		major = yes
 		potential = {
-			ai = yes
-			was_player = no
+			OR = {
+				tag = AKM
+				tag = AMA
+				tag = ANU
+				tag = AKT
+				tag = ASA
+				tag = ASK
+				tag = CBA
+				tag = CSK
+				tag = DTE
+				tag = HTK
+				tag = HJO
+				tag = HSK
+				tag = IKE
+				tag = IMG
+				tag = ISK
+				tag = ITO
+				tag = KKC
+				tag = KTB
+				tag = KNO
+				tag = MAE
+				tag = MRI
+				tag = RFR
+				tag = RYU
+				tag = ODA
+				tag = OGS
+				tag = OTM
+				tag = OUC
+				tag = STK
+				tag = SBA
+				tag = SMZ
+				tag = SMZ
+				tag = SHN
+				tag = TKD
+				tag = TKI
+				tag = TKG
+				tag = TTI
+				tag = UES
+				tag = UTN
+				tag = YMN
+			}
 			NOT = { tag = JAP }
 			NOT = { has_country_flag = formed_japan_flag }
 			was_never_end_game_tag_trigger = yes
@@ -23,6 +62,7 @@ country_decisions = {
 			NOT = { owned_by = ROOT }
 		}
 		allow = {
+			has_switched_nation = no
 			NOT = { exists = JAP }
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
@@ -72,14 +112,54 @@ country_decisions = {
 	united_japan = {
 		major = yes
 		potential = {
-			ai = yes
-			was_player = no
+			OR = {
+				tag = AKM
+				tag = AMA
+				tag = ANU
+				tag = AKT
+				tag = ASA
+				tag = ASK
+				tag = CBA
+				tag = CSK
+				tag = DTE
+				tag = HTK
+				tag = HJO
+				tag = HSK
+				tag = IKE
+				tag = IMG
+				tag = ISK
+				tag = ITO
+				tag = KKC
+				tag = KTB
+				tag = KNO
+				tag = MAE
+				tag = MRI
+				tag = RFR
+				tag = RYU
+				tag = ODA
+				tag = OGS
+				tag = OTM
+				tag = OUC
+				tag = STK
+				tag = SBA
+				tag = SMZ
+				tag = SMZ
+				tag = SHN
+				tag = TKD
+				tag = TKI
+				tag = TKG
+				tag = TTI
+				tag = UES
+				tag = UTN
+				tag = YMN
+			}
 			has_reform = shogunate
 			NOT = { has_country_flag = formed_japan_flag }
 			was_never_end_game_tag_trigger = yes
 			NOT = { exists = JAP }
 		}
 		allow = {
+			has_switched_nation = no
 			NOT = { exists = JAP }
 			is_free_or_tributary_trigger = yes
 			owns = 1020
@@ -118,8 +198,47 @@ country_decisions = {
 	united_japan_daimyo = {
 		major = yes
 		potential = {
-			ai = yes
-			was_player = no
+			OR = {
+				tag = AKM
+				tag = AMA
+				tag = ANU
+				tag = AKT
+				tag = ASA
+				tag = ASK
+				tag = CBA
+				tag = CSK
+				tag = DTE
+				tag = HTK
+				tag = HJO
+				tag = HSK
+				tag = IKE
+				tag = IMG
+				tag = ISK
+				tag = ITO
+				tag = KKC
+				tag = KTB
+				tag = KNO
+				tag = MAE
+				tag = MRI
+				tag = RFR
+				tag = RYU
+				tag = ODA
+				tag = OGS
+				tag = OTM
+				tag = OUC
+				tag = STK
+				tag = SBA
+				tag = SMZ
+				tag = SMZ
+				tag = SHN
+				tag = TKD
+				tag = TKI
+				tag = TKG
+				tag = TTI
+				tag = UES
+				tag = UTN
+				tag = YMN
+			}
 			NOT = { tag = JAP }
 			NOT = { has_country_flag = formed_japan_flag }
 			was_never_end_game_tag_trigger = yes
@@ -135,6 +254,7 @@ country_decisions = {
 			NOT = { owned_by = ROOT }
 		}
 		allow = {
+			has_switched_nation = no
 			NOT = { exists = JAP }
 			is_free_or_tributary_trigger = yes
 			owns = 1020
