@@ -9,6 +9,9 @@ government_rank = 3
 capital = 454 # Samarkand
 historical_rival = DLH
 historical_rival = MUL
+historical_rival = SHY
+historical_rival = AFG
+historical_rival = QAR
 religious_school = hanafi_school
 
 1370.1.1 = {
