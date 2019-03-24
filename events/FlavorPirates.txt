@@ -15,6 +15,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
+		was_player = no
 		NOT = { exists = NSS }
 		has_global_flag = golden_age_of_piracy
 		OR = {
@@ -147,6 +148,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
+		was_player = no
 		not = { exists = LIB }
 		capital_scope = {
 			continent = africa
@@ -286,6 +288,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
+		was_player = no
 		not = { exists = SLE }
 		218 = {
 			owner = {
@@ -419,6 +422,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
+		was_player = no
 		is_year = 1515
 		NOT = { is_year = 1542 }
 		NOT = { exists = TET }
@@ -546,6 +550,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
+		was_player = no
 		NOT = { exists = PRY }
 		has_global_flag = golden_age_of_piracy
 		OR = {
@@ -693,6 +698,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
+		was_player = no
 		NOT = { exists = TOR }
 		489 = {
 			OR = {
