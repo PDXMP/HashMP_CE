@@ -27,6 +27,7 @@ country_decisions = {
 				government = monarchy
 				government = republic
 			}
+			always = no
 			NOT = { num_of_cities = 7 }
 			NOT = {
 				any_owned_province = {
