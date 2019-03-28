@@ -252,7 +252,7 @@ t5_lp_1 = { #Minority Representation
 	}
 	modifiers = {
 		tolerance_heretic = 1
-		tolerance_own = 1
+		tolerance_heathen = 1
 		num_accepted_cultures = 2
 	}
 }
@@ -263,6 +263,7 @@ t5_sp_1 = { #Administrative Clergy
 	icon = "religious_leader"
 	allow_normal_conversion = yes
 	modifiers = {
+		tolerance_own = 1
 		free_adm_policy = 1
 	}
 }
@@ -283,7 +284,7 @@ t6_np_1 = { #Military Training
 		}
 	}
 	modifiers = {
-		monarch_military_power = 1
+		possible_mil_policy = 1
 	}
 }
 
@@ -299,7 +300,8 @@ t6_lp_1 = { #Diplomatic Training
 		}
 	}
 	modifiers = {
-		monarch_diplomatic_power = 1
+		possible_dip_policy = 1
+		free_dip_policy = 1
 	}
 }
 
@@ -309,8 +311,9 @@ t6_sp_1 = { #Administrative Training
 	icon = "man_on_podium"
 	allow_normal_conversion = yes
 	modifiers = {
-		monarch_admin_power = 1
-		}
+		possible_adm_policy = 1
+		free_adm_policy = 1
+	}
 }
 
 ########
