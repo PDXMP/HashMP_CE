@@ -336,6 +336,10 @@ t_hre_strongemperor = {
 					tag = HAB
 					total_development = 150
 				}
+				AND = {
+					tag = AHU
+					total_development = 150
+				}
 			}
 		}
 	}
