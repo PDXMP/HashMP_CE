@@ -10538,3 +10538,8 @@ h_janissary_decadence = {
 	discipline = 0.05
 	land_maintenance_modifier = 0.10
 }
+
+h_dual_monarchy = {
+	promote_culture_cost = -0.2
+	num_accepted_cultures = 1
+}
