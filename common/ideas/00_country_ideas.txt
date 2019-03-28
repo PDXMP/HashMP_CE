@@ -463,6 +463,7 @@ TUR_ideas = {
 	}
 	imperial_school_of_naval_engineering = {
 		global_ship_cost = -0.1
+		ship_durability = 0.05
 	}
 }
 
