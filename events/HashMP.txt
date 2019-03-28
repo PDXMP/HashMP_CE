@@ -37,3 +37,57 @@ country_event = {
 	}
 	
 }
+
+country_event = {
+	id = hashmp.2
+	title = hashmp.2.t
+	desc = hashmp.2.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		tag = HAB
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = hashmp.2.a
+		add_opinion = {
+			who = LIE
+			modifier = h_dutch_minors_defiant
+		}
+		add_opinion = {
+			who = GEL
+			modifier = h_dutch_minors_defiant
+		}
+		add_opinion = {
+			who = UTR
+			modifier = h_dutch_minors_defiant
+		}
+		add_opinion = {
+			who = FRI
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = LIE
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = GEL
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = UTR
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = FRI
+			modifier = h_dutch_minors_defiant
+		}
+	}
+}

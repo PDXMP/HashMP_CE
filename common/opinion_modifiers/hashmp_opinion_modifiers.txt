@@ -3,3 +3,8 @@
 #
 # by Foffy123
 ########################################
+
+h_dutch_minors_defiant = {
+	opinion = -250
+	yearly_decay = 4
+}
