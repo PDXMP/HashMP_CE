@@ -1836,12 +1836,12 @@ DAI_ideas = {
 
 SAV_ideas = {
 	start = {
-		possible_mercenaries = 0.25
+		defensiveness = 0.15
 		infantry_power = 0.10
 	}
 	
 	bonus = {
-		discipline = 0.05
+		army_tradition_decay = -0.01
 	}
 	
 	trigger = {
@@ -1853,14 +1853,13 @@ SAV_ideas = {
 	free = yes		#will be added at load.
 	
 	repel_the_french = {
-		defensiveness = 0.2
 		land_morale = 0.1
 	}
 	the_shroud_of_turin = {
 		prestige = 1
 	}
 	sav_mercenary_tradition = {
-		army_tradition_decay = -0.01
+		possible_mercenaries = 0.25
 	}
 	crush_the_vaudois = {
 		global_heretic_missionary_strength = 0.03
@@ -1868,10 +1867,9 @@ SAV_ideas = {
 	}
 	savoyard_flexibility = {
 		idea_cost = -0.1
-		num_accepted_cultures = 1
 	}
 	alpine_tolls = {
-   		global_prov_trade_power_modifier = 0.25
+   		global_prov_trade_power_modifier = 0.2
 	}
 	savoyard_legitimacy = {
 		legitimacy = 1
