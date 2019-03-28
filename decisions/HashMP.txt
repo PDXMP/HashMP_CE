@@ -1,3 +1,9 @@
+########################################
+# Custom decisions for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
 country_decisions = {
 
 	h_combat_janissary_decadence = {
