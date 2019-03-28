@@ -1,0 +1,5 @@
+########################################
+# Opinion modifiers for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
