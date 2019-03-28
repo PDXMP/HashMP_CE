@@ -313,9 +313,9 @@ estate_nobles =
 		loyalty = 10
 	}
 	loyalty_modifier = {
-		desc = descl_t5_lp_1
+		desc = desci_t5_np_1
 		trigger = {
-			has_reform = t5_lp_1
+			has_reform = t5_np_1
 		}
 		loyalty = 5
 	}
