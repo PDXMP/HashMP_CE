@@ -20,7 +20,7 @@ bur_conquest = {
 				tooltip = bur_subjects.tooltip
 				NOT = {
 					any_subject_country = {
-						liberty_desire = 1
+						liberty_desire = 25
 					}
 				}
 			}
