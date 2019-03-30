@@ -162,12 +162,12 @@ malayan_empire_ideas = { #Malayan empire
 
 AHU_ideas = {
 	start = {
-		diplomatic_upkeep = 2
+		land_morale = 0.10
 		global_tax_modifier = 0.1
 	}
 	
 	bonus = {
-		discipline = 0.05
+		diplomatic_upkeep = 2
 	}
 	
 	trigger = {
@@ -189,11 +189,12 @@ AHU_ideas = {
 		production_efficiency = 0.1
 	}
 	ahu_5 = {
-		land_morale = 0.10
-		recover_army_morale_speed = 0.05
+		infantry_power = 0.10
+		discipline = 0.05
 	}
 	ahu_6 = {
 		manpower_recovery_speed = 0.15
+		recover_army_morale_speed = 0.05
 	}
 	ahu_7 = {
 		no_religion_penalty = yes
