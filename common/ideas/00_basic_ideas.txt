@@ -47,6 +47,10 @@ aristocracy_ideas = {
 			factor = 5
 			technology_group = muslim
 		}
+		modifier = {
+			factor = 0
+			is_colonial_nation = yes
+		}
 	}
 }
 
@@ -175,6 +179,10 @@ religious_ideas = {
 		modifier = {
 			factor = 0
 			has_idea_group = humanist_ideas
+		}
+		modifier = {
+			factor = 0
+			is_colonial_nation = yes
 		}
 	}
 }
@@ -460,7 +468,7 @@ exploration_ideas = {
 			is_vassal = yes
 		}
 		modifier = {
-			factor = 0
+			factor = 5
 			is_colonial_nation = yes
 		}
 		modifier = {
@@ -469,7 +477,10 @@ exploration_ideas = {
 		}
 		modifier = {
 			factor = 0
-			is_subject = yes
+			AND = {
+				NOT = { is_colonial_nation = yes }
+				is_subject = yes
+			}
 		}		
 		modifier = {
 			factor = 0
@@ -646,6 +657,14 @@ maritime_ideas = {
 				has_reform = black_market_consortium_government
 			}
 		}
+		modifier = {
+			factor = 5
+			AND = {
+				num_of_ports = 15
+				is_colonial_nation = yes
+			}
+		}
+				
 	}
 }
 
@@ -723,6 +742,10 @@ quantity_ideas = {
 
 	ai_will_do = {
 		factor = 6.5
+		modifier = {
+			factor = 5
+			is_colonial_nation = yes
+		}
 	}
 }
 
@@ -765,13 +788,13 @@ expansion_ideas = {
 			factor = 0
 			is_vassal = yes
 		}
-		modifier = {
-			factor = 5
-			OR = {
-				has_idea_group = exploration_ideas
-				is_colonial_nation = yes
-			}
-		}
+		#modifier = {
+		#	factor = 5
+		#	OR = {
+		#		has_idea_group = exploration_ideas
+		#		is_colonial_nation = yes
+		#	}
+		#}
 		modifier = {
 			factor = 1
 			NOT = { has_idea_group = exploration_ideas }
@@ -865,6 +888,10 @@ humanist_ideas = {
 		modifier = {
 			factor = 0
 			has_idea_group = religious_ideas
+		}
+		modifier = {
+			factor = 5
+			is_colonial_nation = yes
 		}
 	}
 }
