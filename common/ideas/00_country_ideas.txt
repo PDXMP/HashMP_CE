@@ -2247,7 +2247,7 @@ ORI_ideas = {
 		trade_efficiency = 0.1
 	}
 	heritage_of_the_sadhabas = {
-		naval_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.25
 	}
 }
 
