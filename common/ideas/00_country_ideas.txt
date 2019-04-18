@@ -12112,7 +12112,7 @@ BHA_ideas = {
 HIN_ideas = {
 	start = {
 		max_states = 5
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.15
 	}
 	bonus = {
 		discipline = 0.05
@@ -12123,8 +12123,7 @@ HIN_ideas = {
 	free = yes
 	
 	hin_sepahi = {
-		infantry_power = 0.15
-		cavalry_power = 0.15
+		infantry_power = 0.1
 	}
 	hin_persianate_court = {
 		advisor_cost = -0.1
