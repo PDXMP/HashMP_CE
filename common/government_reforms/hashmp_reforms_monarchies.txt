@@ -132,7 +132,7 @@ t3_lp_1 = { #Centralized Bureaucracy
 	}
 	modifiers = {
 		global_autonomy = -0.05
-		production_efficiency = 0.05
+		production_efficiency = 0.075
 	}
 }
 t3_lp_2 = { #Meritocratic Recruitment
