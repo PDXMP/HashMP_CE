@@ -506,7 +506,7 @@ NCountry = {
 	RANDOM_LUCKY_SLOW_TECH_PENALTY = 0.33,			-- Extra penalty on tech groups with more than 75% penalty when rolling for random lucky (lower = more penalty)
 
 	PLAYER_CAN_MOVE_FIXED_CAPITAL = 1,				-- Controls whether player can move capital even if capital is fixed
-	DEVELOPMENT_ON_CONTINENT_FOR_NEW_CAPITAL = 0.5,	-- How many percent of your development needs to be on the other continent to move your capital there
+	DEVELOPMENT_ON_CONTINENT_FOR_NEW_CAPITAL = 0.33,	-- How many percent of your development needs to be on the other continent to move your capital there
 
 
 	EXPLORE_COAST_EVENT_CHANCE = 2,			-- Chance (in %) of getting an event when exploring coasts
