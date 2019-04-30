@@ -11,6 +11,7 @@ base_tax = 3
 base_production = 4 #Many productive Mines. Main Source of Ottoman Silver in 1444.
 base_manpower = 3
 is_city = yes
+fort_15th = yes
 add_core = TUR
 add_core = BUL
 add_core = SER
