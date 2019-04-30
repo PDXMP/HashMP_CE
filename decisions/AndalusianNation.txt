@@ -78,6 +78,10 @@ country_decisions = {
 			}
 		}
 		allow = {
+			OR = {
+				tag = TUN
+				tag = MOR
+			}
 			NOT = { exists = ADU }
 			is_nomad = no
 			is_free_or_tributary_trigger = yes
