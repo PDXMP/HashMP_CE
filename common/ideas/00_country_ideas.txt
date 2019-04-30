@@ -12787,7 +12787,7 @@ ASU_ideas = {
 
 ADU_ideas = {
 	start = {
-		land_morale = 0.15 
+		land_morale = 0.1
 		global_ship_trade_power = 0.25 
 	}
 
@@ -12801,7 +12801,8 @@ ADU_ideas = {
 	free = yes        #will be added at load.
     
 	adu_stand_against_the_reconquista = {
-		fire_damage_received = -0.15
+		fire_damage_received = -0.1
+		defensiveness = 0.1
 	}
 	adu_taifa_adminstration = {
 		vassal_forcelimit_bonus = 1
@@ -12821,7 +12822,6 @@ ADU_ideas = {
 		colonists = 1
 	}
 	adu_al_awasim = {
-		defensiveness = 0.1
-		rival_border_fort_maintenance = -0.25
+		discipline = 0.05
 	}
 }
