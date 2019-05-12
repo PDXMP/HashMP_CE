@@ -810,8 +810,10 @@ age_of_revolutions = {
 		}
 		ab_austria_rep = {
 			allow = {
-				tag = HAB
-				tag = AHU
+				OR = {
+					tag = HAB
+					tag = AHU
+				}
 			}
 			modifier = {
 				artillery_power = 0.15
