@@ -53,7 +53,7 @@ GBR_ideas = {
 	}
 
 	bonus = {
-		navy_tradition = 0.4
+		navy_tradition = 0.5
 	}
 	
 	trigger = {
@@ -66,7 +66,7 @@ GBR_ideas = {
 		max_states = 3
 	}
 	city_upon_a_hill = {
-		global_colonial_growth = 20
+		global_colonial_growth = 25
 	}
 	british_merchant_navy = {
 		light_ship_cost = -0.1
