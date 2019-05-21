@@ -597,11 +597,11 @@ positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
 }
 
 negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mandate
-	global_trade_goods_size_modifier = -0.5
-	fire_damage_received = 0.5
-	shock_damage_received = 0.5
+	global_trade_goods_size_modifier = -0.1
+	fire_damage_received = 0.1
+	shock_damage_received = 0.1
 	global_unrest = 5
-	possible_mercenaries = -1
+	possible_mercenaries = -0.33
 }
 
 lost_mandate_of_heaven = {
