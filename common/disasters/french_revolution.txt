@@ -47,9 +47,17 @@ french_revolution = {
 			NOT = { num_of_loans = 25 }
 		}	
 		modifier = {
+			factor = 0.5
+			absolutism = 70
+		}
+		modifier = {
+			factor = 1
+			absolutism = 80
+		}
+		modifier = {
 			factor = 1
 			num_of_loans = 25
-		}	
+		}
 		modifier = {
 			factor = 2
 			is_bankrupt = yes
