@@ -1089,6 +1089,9 @@ country_event = {
 		define_heir = { #Old is now a pretender
 			male = yes
 			age = 15
+			ADM = 1
+			DIP = 1
+			MIL = 1
 			dynasty = original_dynasty
 		}
 	}
