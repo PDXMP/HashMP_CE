@@ -4,6 +4,12 @@ technology_group = indian
 religion = sunni
 primary_culture = avadhi
 capital = 555	# Jaunpur
+historical_rival = DLH
+historical_rival = SRH
+historical_rival = BNG
+historical_rival = MER
+historical_rival = BAH
+historical_rival = VIJ
 fixed_capital = 555 # Cannot move capital away from this province & no power cost to move to it
 religious_school = hanafi_school
 
