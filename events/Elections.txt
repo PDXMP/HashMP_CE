@@ -562,6 +562,9 @@ country_event = {
 	option = {
 		name = elections.720.a
 		define_ruler = {
+			    adm = 1
+				dip = 1
+				mil = 1
 		}
 		change_statists_vs_orangists = -0.33
 	
@@ -571,6 +574,9 @@ country_event = {
 		name = elections.720.b
 		define_ruler = {
 			dynasty = "van Oranje"
+			adm = 1
+			dip = 1
+			mil = 1
 		}
 		change_statists_vs_orangists = 0.33
 	}
@@ -580,6 +586,9 @@ country_event = {
 		name = elections.720.c
 		define_ruler = {
 			dynasty = "historic_dynasty" # Will pick one weighted by how many rulers a family has had
+			adm = 1
+			dip = 1
+			mil = 1
 		}
 		change_statists_vs_orangists = 0.33
 	}

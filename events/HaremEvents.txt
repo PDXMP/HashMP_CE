@@ -137,7 +137,9 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
-			ADM = 1
+			ADM = 2
+			DIP = 1
+			MIL = 1
 			max_random_dip = 5
 			age = 10
 		}
@@ -161,7 +163,9 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
-			MIL = 1
+			ADM = 1
+			DIP = 1
+			MIL = 2
 			max_random_dip = 5
 			age = 10
 		}
@@ -185,7 +189,9 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
-			ADM = 1
+			ADM = 2
+			DIP = 1
+			MIL = 1
 			max_random_mil = 5
 			age = 10
 		}
@@ -209,7 +215,9 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
-			MIL = 1
+			ADM = 1
+			DIP = 1
+			MIL = 2
 			max_random_adm = 5
 			age = 10
 		}
@@ -233,7 +241,9 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
-			DIP = 1
+			ADM = 1
+			DIP = 2
+			MIL = 1
 			max_random_mil = 5
 			age = 10
 		}
@@ -279,7 +289,9 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
-			DIP = 1
+			ADM = 1
+			DIP = 2
+			MIL = 1
 			max_random_adm = 5
 			age = 10
 		}
@@ -300,6 +312,9 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
+			ADM = 1
+			DIP = 1
+			MIL = 1
 			age = 10
 		}
 	}
@@ -322,9 +337,9 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
-			DIP = 1
-			MIL = 1
-			ADM = 1
+			ADM = 3
+			DIP = 3
+			MIL = 3
 			age = 10
 		}
 	}
@@ -347,6 +362,9 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
+			ADM = 1
+			DIP = 1
+			MIL = 1
 			age = 10
 		}
 	}
@@ -367,9 +385,9 @@ country_event = {
 			dynasty = original_dynasty
 			male = yes
 			age = 10
-			ADM = 1
-			DIP = 1
-			MIL = 1
+			ADM = 2
+			DIP = 2
+			MIL = 2
 		}
 	}
 }
@@ -389,9 +407,12 @@ country_event = {
 				dynasty = original_dynasty
 				male = yes
 				age = 25
-				max_random_adm = 3
-				max_random_mil = 3
-				max_random_dip = 3
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				max_random_adm = 4
+				max_random_mil = 4
+				max_random_dip = 4
 			}
 		}
 	}
@@ -598,6 +619,9 @@ country_event = {
 			dynasty = original_dynasty
 			age = 15
 			male = yes
+			ADM = 1
+			DIP = 1
+			MIL = 1
 		}
 	}
 }
@@ -1113,6 +1137,9 @@ country_event = {
 			define_heir = {
 				dynasty = original_dynasty
 				male = yes
+				ADM = 1
+				DIP = 1
+				MIL = 1
 				age = 15
 			}
 		}
@@ -1197,7 +1224,9 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			age = 25
-			MIL = 1
+			ADM = 1
+			DIP = 1
+			MIL = 2
 			male = yes
 			claim = 65
 		}
@@ -1294,6 +1323,9 @@ country_event = {
 			male = yes
 			claim = 60
 			age = 15
+			ADM = 1
+			DIP = 1
+			MIL = 1
 			dynasty = original_dynasty
 		}
 	}
@@ -1609,7 +1641,9 @@ province_event = {
 				dynasty = original_dynasty
 				male = yes
 				age = 20
-				ADM = 1
+				ADM = 2
+				DIP = 1
+				MIL = 1
 				claim = 60
 			}
 		}
