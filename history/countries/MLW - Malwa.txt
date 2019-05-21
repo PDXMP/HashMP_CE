@@ -4,6 +4,12 @@ primary_culture = malvi
 religion = sunni
 technology_group = indian
 capital = 526	# Mandu
+historical_rival = DLH
+historical_rival = SRH
+historical_rival = BNG
+historical_rival = MER
+historical_rival = BAH
+historical_rival = VIJ
 add_accepted_culture = rajput
 religious_school = hanafi_school
  
