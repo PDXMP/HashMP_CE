@@ -83,9 +83,12 @@ country_event = {
 		}
 		define_ruler = {
 			dynasty = ROOT #Uncles, or other relatives were by far the most likely coup-makers
+			ADM = 1
+			DIP = 1
+			MIL = 1
 		}
 		kill_heir = yes
-		add_horde_unity = -25
+		add_horde_unity = -10
 	}
 }
 
