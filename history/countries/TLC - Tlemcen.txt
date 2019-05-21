@@ -8,6 +8,7 @@ historical_rival = CAS
 historical_rival = SPA
 historical_rival = TUN
 historical_rival = MOR
+historical_rival = POR
 fixed_capital = 336 # Cannot move capital away from this province & no power cost to move to it
 religious_school = maliki_school
 
