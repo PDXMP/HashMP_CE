@@ -4,6 +4,10 @@ technology_group = muslim
 religion = sunni
 primary_culture = berber
 capital = 336 # Tlemcen
+historical_rival = CAS
+historical_rival = SPA
+historical_rival = TUN
+historical_rival = MOR
 fixed_capital = 336 # Cannot move capital away from this province & no power cost to move to it
 religious_school = maliki_school
 
