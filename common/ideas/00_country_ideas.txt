@@ -1375,8 +1375,8 @@ VIJ_ideas = {
 
 AYU_ideas = {
 	start = {
-		religious_unity = 0.20
-		num_accepted_cultures = 1
+		religious_unity = 0.25
+		infantry_power = 0.10
 	}
 	
 	bonus = {
@@ -1390,26 +1390,28 @@ AYU_ideas = {
 	
 	white_elephant = {
 		global_tax_modifier = 0.10
+		global_autonomy = -0.05
+	}
+	phrai_luang = {
+		global_unrest = -1
+		num_accepted_cultures = 1
 	}
 	corvee_system = {
-		global_manpower_modifier = 0.10
+		global_manpower_modifier = 0.1
 	}
 	ayu_foreign_mercenaries = {
-		merc_maintenance_modifier = -0.15
+		possible_mercenaries = 0.25
 	}
 	ayu_embassies = {
 		diplomats = 1
 	}
 	trading_links = {
 		trade_efficiency = 0.10
+		global_own_trade_power = 0.1
 	}
 	personal_executions = {
 		ship_durability = 0.05
-		naval_forcelimit_modifier = 0.20
-	}
-	phrai_luang = {
-		global_unrest = -1
-		infantry_power = 0.10
+		naval_forcelimit_modifier = 0.25
 	}
 }
 
