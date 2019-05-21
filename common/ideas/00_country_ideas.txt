@@ -217,7 +217,7 @@ RUS_ideas = {
 SPA_ideas = {
 	start = {
 		land_morale = 0.15
-		artillery_power = 0.1
+		missionaries = 1
 	}
 	
 	bonus = {
