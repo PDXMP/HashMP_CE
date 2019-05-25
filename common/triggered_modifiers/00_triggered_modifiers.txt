@@ -77,9 +77,7 @@ t_player_cn = {
 	trigger = {
 		was_player = yes
 	}
-
-	land_forcelimit_modifier = -0.33
-	naval_forcelimit_modifier = -0.5
+	naval_forcelimit_modifier = -0.33
 	possible_mercenaries = -0.5
 	development_cost = 0.2
 	mercenary_cost = 0.33
