@@ -349,7 +349,6 @@ march_bonus = {
 	land_maintenance_modifier = -0.20
 	mil_tech_cost_modifier  = -0.1
 	idea_cost = -0.10
-	yearly_corruption = -0.10
 }
 
 same_culture_group = {
