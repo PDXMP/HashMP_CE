@@ -262,131 +262,131 @@ province_event = {
 #}
 
 
-# Plague at the Siege of [Province] [Attacker]
-country_event = {
-	id = aow_events.6
-	title = "aow_events.6.t"
-	desc = "aow_events.6.d"
-	picture = SIEGE_eventPicture
-
-	is_triggered_only = yes
-
-	# Evacuate
-	option = {
-		name = "aow_events.6.a"
-		custom_tooltip = aow_events.5.a.tt
-		FROM = {
-			add_province_modifier = {
-				name = "attacker_evacuated_siege"
-				duration = 170
-				hidden = yes
-			}
-		}
-	}
-
-	# Don't evacuate
-	option = {
-		name = "aow_events.6.b"
-		custom_tooltip = "aow_events.6.b.tt"
-	}
-}
+## Plague at the Siege of [Province] [Attacker]
+#country_event = {
+#	id = aow_events.6
+#	title = "aow_events.6.t"
+#	desc = "aow_events.6.d"
+#	picture = SIEGE_eventPicture
+#
+#	is_triggered_only = yes
+#
+#	# Evacuate
+#	option = {
+#		name = "aow_events.6.a"
+#		custom_tooltip = aow_events.5.a.tt
+#		FROM = {
+#			add_province_modifier = {
+#				name = "attacker_evacuated_siege"
+#				duration = 170
+#				hidden = yes
+#			}
+#		}
+#	}
+#
+#	# Don't evacuate
+#	option = {
+#		name = "aow_events.6.b"
+#		custom_tooltip = "aow_events.6.b.tt"
+#	}
+#}
 
 # [Defender] Evacuate Siege
-country_event = {
-	id = aow_events.7
-	title = "aow_events.7.t"
-	desc = "aow_events.7.d"
-	picture = SIEGE_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		FROM = {
-			has_province_modifier = defender_evacuated_siege
-			NOT = { has_province_modifier = attacker_evacuated_siege }
-		}
-	}
-
-	# Their walls will crumble!
-	option = {
-		name = "aow_events.7.a"
-		FROM = { change_siege = 10 }
-	}
-}
+#country_event = {
+#	id = aow_events.7
+#	title = "aow_events.7.t"
+#	desc = "aow_events.7.d"
+#	picture = SIEGE_eventPicture
+#
+#	is_triggered_only = yes
+#
+#	trigger = {
+#		FROM = {
+#			has_province_modifier = defender_evacuated_siege
+#			NOT = { has_province_modifier = attacker_evacuated_siege }
+#		}
+#	}
+#
+#	# Their walls will crumble!
+#	option = {
+#		name = "aow_events.7.a"
+#		FROM = { change_siege = 10 }
+#	}
+#}
 
 # Attackers Evacuate Siege
-country_event = {
-	id = aow_events.8
-	title = "aow_events.8.t"
-	desc = "aow_events.8.d"
-	picture = SIEGE_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		FROM = {
-			has_province_modifier = attacker_evacuated_siege
-			NOT = { has_province_modifier = defender_evacuated_siege }
-		}
-	}
-
-	# Their forces will perish!
-	option = {
-		name = "aow_events.8.a"
-		FROM = { change_siege = -10 }
-	}
-}
+#country_event = {
+#	id = aow_events.8
+#	title = "aow_events.8.t"
+#	desc = "aow_events.8.d"
+#	picture = SIEGE_eventPicture
+#
+#	is_triggered_only = yes
+#
+#	trigger = {
+#		FROM = {
+#			has_province_modifier = attacker_evacuated_siege
+#			NOT = { has_province_modifier = defender_evacuated_siege }
+#		}
+#	}
+#
+#	# Their forces will perish!
+#	option = {
+#		name = "aow_events.8.a"
+#		FROM = { change_siege = -10 }
+#	}
+#}
 
 
 # Plague Grows Worse [Defender]
-province_event = {
-	id = aow_events.9
-	title = "aow_events.9.t"
-	desc = "aow_events.9.d"
-	picture = PLAGUE_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		NOT = { has_province_modifier = defender_evacuated_siege }
-		NOT = { has_province_modifier = attacker_evacuated_siege }
-	}
-
-	# We are both fools
-	option = {
-		name = "aow_events.9.a"
-		remove_province_modifier = plague_at_siege
-		add_province_modifier = {
-			name = "lingering_plague"
-			duration = 1095
-		}
-	}
-}
+#province_event = {
+#	id = aow_events.9
+#	title = "aow_events.9.t"
+#	desc = "aow_events.9.d"
+#	picture = PLAGUE_eventPicture
+#
+#	is_triggered_only = yes
+#
+#	trigger = {
+#		NOT = { has_province_modifier = defender_evacuated_siege }
+#		NOT = { has_province_modifier = attacker_evacuated_siege }
+#	}
+#
+#	# We are both fools
+#	option = {
+#		name = "aow_events.9.a"
+#		remove_province_modifier = plague_at_siege
+#		add_province_modifier = {
+#			name = "lingering_plague"
+#			duration = 1095
+#		}
+#	}
+#}
 
 # Plague Grows Worse [Attacker]
-country_event = {
-	id = aow_events.10
-	title = "aow_events.10.t"
-	desc = "aow_events.10.d"
-	picture = PLAGUE_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		FROM = {
-			NOT = { has_province_modifier = defender_evacuated_siege }
-			NOT = { has_province_modifier = attacker_evacuated_siege }
-		}
-	}
-
-	# We are both fools
-	option = {
-		name = "aow_events.9.a"
-		FROM = {
-			custom_tooltip = "aow_events.10.a.tt"
-		}
-	}
-}
+#country_event = {
+#	id = aow_events.10
+#	title = "aow_events.10.t"
+#	desc = "aow_events.10.d"
+#	picture = PLAGUE_eventPicture
+#
+#	is_triggered_only = yes
+#
+#	trigger = {
+#		FROM = {
+#			NOT = { has_province_modifier = defender_evacuated_siege }
+#			NOT = { has_province_modifier = attacker_evacuated_siege }
+#		}
+#	}
+#
+#	# We are both fools
+#	option = {
+#		name = "aow_events.9.a"
+#		FROM = {
+#			custom_tooltip = "aow_events.10.a.tt"
+#		}
+#	}
+#}
 
 # Spread of Pestilence
 province_event = {
@@ -425,7 +425,7 @@ country_event = {
 
 	trigger = {
 		is_at_war = yes
-		num_of_mercenaries = 1
+		num_of_mercenaries = 15
 		NOT = { has_country_modifier = curtailed_mercenaries }
 		any_known_country = {
 			war_with = ROOT
@@ -892,6 +892,7 @@ country_event = {
 				religion = ROOT
 				NOT = { religion = owner }
 				religion_group = owner
+				NOT = { is_religious_center_province = yes }
 				NOT = { has_province_modifier = religious_center}
 			}
 		}
@@ -910,6 +911,7 @@ country_event = {
 				religion = ROOT
 				NOT = { religion = owner }
 				religion_group = owner
+				NOT = { is_religious_center_province = yes }
 				NOT = { has_province_modifier = religious_center}
 			}
 			change_siege = -2
@@ -925,6 +927,7 @@ country_event = {
 				religion = ROOT
 				NOT = { religion = owner }
 				religion_group = owner
+				NOT = { is_religious_center_province = yes }
 				NOT = { has_province_modifier = religious_center}
 			}
 			tooltip = {
@@ -979,18 +982,6 @@ province_event = {
 	mean_time_to_happen = {
 		months = 640
 		modifier = {
-			factor = 0.5
-			owner = { tolerance_to_this = -3 }
-		}
-		modifier = {
-			factor = 0.5
-			owner = { tolerance_to_this = -2 }
-		}
-		modifier = {
-			factor = 0.5
-			owner = { tolerance_to_this = -1 }
-		}
-		modifier = {
 			factor = 1.5
 			owner = { tolerance_to_this = 0 }
 		}
@@ -998,6 +989,13 @@ province_event = {
 			factor = 2.0
 			owner = { tolerance_to_this = 1 }
 		}
+	}
+
+	# We will reward loyalty with respect.
+	option = {
+		name = "aow_events.25.a"
+		trigger = { is_capital = no }
+		add_local_autonomy = 30
 	}
 
 	# We will not accept disloyalty.
@@ -1082,11 +1080,13 @@ province_event = {
 			}
 		}
 		
+		NOT = { is_religious_center_province = yes }
 		NOT = { has_province_modifier = religious_center }
 		any_neighbor_province = {
 			owned_by = ROOT
 			religion = owner
 			is_reformation_center = no
+			NOT = { is_religious_center_province = yes }
 			NOT = { has_province_modifier = religious_center }
 		}
 	}
@@ -1107,6 +1107,7 @@ province_event = {
 						owned_by = ROOT
 						religion = owner
 						is_reformation_center = no
+						NOT = { is_religious_center_province = yes }
 						NOT = { has_province_modifier = religious_center }
 					}
 					change_religion = ROOT
@@ -1190,7 +1191,6 @@ province_event = {
 		NOT = { religion = confucianism }
 		NOT = { religion = buddhism }
 		NOT = { religion = mahayana }
-		NOT = { religion = vajrayana }
 		has_siege = no
 		controlled_by = owner
 		any_neighbor_province = {
@@ -1727,6 +1727,14 @@ country_event = {
 		}
 	}
 
+	immediate = {
+		check_if_non_state_advisor_effect = { #Hidden, must be followed by erase_advisor_flags_effect
+			chance_of_primary = 75 #Not percentages!
+			chance_of_tertiary = 5
+			chance_of_secondary = 25
+		}
+	}
+	
 	# 
 	option = {
 		name = "aow_events.43.a"
@@ -1777,7 +1785,15 @@ country_event = {
 
 	option = {
 		name = "aow_events.43.b"
-		create_advisor = spymaster
+		generate_advisor_of_type_and_semi_random_religion_effect = {
+			advisor_type=spymaster
+			advisor_type_if_not_state=spymaster
+			scaled_skill = yes
+			discount=yes
+		}
+	}
+	after = {
+		erase_advisor_flags_effect = yes
 	}
 }
 
@@ -1889,6 +1905,7 @@ province_event = {
 		any_neighbor_province = {
 			NOT = { religion_group = christian }
 		}
+		NOT = { owner = { has_country_modifier = distrusts_heathens } }
 	}
 
 	mean_time_to_happen = {
@@ -1924,8 +1941,14 @@ country_event = {
 		religion = catholic
 		NOT = { tag = PAP }
 		OR = {
-			advisor = theologian
-			advisor = inquisitor
+			employed_advisor = {
+				type = theologian
+				religion = catholic
+			}
+			employed_advisor = {
+				type = inquisitor
+				religion = catholic
+			}
 		}
 		NOT = { num_of_cardinals = 7 }
 		NOT = { total_number_of_cardinals = 49 }
@@ -1981,8 +2004,13 @@ country_event = {
 		name = "aow_events.49.a"
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
+				NOT = {
+					has_estate_influence_modifier = {
+						estate = estate_church
+						modifier = EST_VAL_CARDINAL_IN_ADMINISTRATION
+					}
+				}
 			}
 			add_estate_influence_modifier = {
 				estate = estate_church
@@ -2065,6 +2093,7 @@ country_event = {
 		any_neighbor_country = {
 			num_of_cardinals = 1
 		}
+		NOT = { has_country_modifier = blackmailing_cardinal }
 	}
 
 	mean_time_to_happen = {
