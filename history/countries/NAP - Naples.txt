@@ -178,7 +178,8 @@ capital = 121 # Napoli
 	}		
 }
 
-1709.12.22 = { government = despotic_monarchy }
+1709.12.22 = { government = monarchy
+add_government_reform = autocracy_reform }
 
 1713.9.22 = {
 	monarch = {
@@ -192,7 +193,9 @@ capital = 121 # Napoli
 	}
 }
 
-1734.6.2 = { government = enlightened_despotism government_rank = 1 }
+1734.6.2 = { government = monarchy
+# add_government_reform = letat_cest_moi_reform 
+government_rank = 1 }
 
 1734.6.2 = {
 	monarch = {
