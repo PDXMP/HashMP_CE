@@ -181,7 +181,8 @@ national_focus = DIP
 
 1480.1.1 = { leader = {	name = "Diogo Cão"             	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1486.1.1 } }
 
-1481.1.1 = { government = despotic_monarchy }
+1481.1.1 = { government = monarchy
+add_government_reform = autocracy_reform }
 
 1481.8.29 = {
 	monarch = {
@@ -504,7 +505,7 @@ national_focus = DIP
 		
 1655.1.1 = { leader = {	name = "Álvares Botelho"       	type = admiral	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1680.1.1 } }
 
-1656.11.7 = { government = administrative_monarchy } 
+1656.11.7 = { set_legacy_government = administrative_monarchy } 
 
 1656.11.7 = {
 	monarch = {
@@ -601,7 +602,8 @@ national_focus = DIP
 
 1700.1.1 = { leader = {	name = "António Luís de Sousa"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1720.1.1 } }
 
-1706.12.11 = { government = despotic_monarchy }
+1706.12.11 = { government = monarchy
+add_government_reform = autocracy_reform }
 
 1706.12.11 = {
 	monarch = {
@@ -653,7 +655,9 @@ national_focus = DIP
 	}
 }
 
-1750.8.2 = { government = enlightened_despotism }
+1750.8.2 = { government = monarchy
+# add_government_reform = letat_cest_moi_reform 
+}
 
 1750.8.2 = {
 	monarch = {
