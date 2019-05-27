@@ -107,6 +107,12 @@ country_event = {
 	option = {
 		name = flavor_nap.3.a
 		add_prestige = 10
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_country_modifier = {
 			name = "nap_renaissance_culture"
 			duration = 7300
@@ -115,6 +121,12 @@ country_event = {
 	option = {
 		name = flavor_nap.3.b
 		add_legitimacy = 10
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
 		add_country_modifier = {
 			name = "nap_renaissance_glory"
 			duration = 7300
