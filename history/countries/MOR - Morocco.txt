@@ -32,7 +32,7 @@ religious_school = maliki_school
 	}
 }
 
-1420.1.1 = {
+1444.1.1 = {
 	monarch = {
 		name = "Abdalhaqq II"
 		dynasty = "Marinid"
