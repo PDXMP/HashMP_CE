@@ -18,7 +18,9 @@ country_event = {
 	
 	trigger = {
 		owns = 2212 #Zanjan
-		tag = PER
+		OR = {
+			tag = MUG
+			tag = PER
 		2212 = {
 			NOT = { trade_goods = gold }
 		}
