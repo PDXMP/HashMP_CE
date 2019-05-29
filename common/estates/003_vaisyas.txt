@@ -67,7 +67,7 @@ estate_vaisyas = {
 		local_development_cost = -0.2
 	}
 	province_modifier_neutral = {
-		trade_value_modifier = 0.2
+		trade_value_modifier = 0.1
 	}		
 	province_modifier_angry = {
 		local_unrest = 5
