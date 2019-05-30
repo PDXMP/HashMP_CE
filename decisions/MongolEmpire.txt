@@ -30,6 +30,15 @@ country_decisions = {
 					}
 					NOT = { owned_by = ROOT }
 				}
+				AND = {
+					OR = {
+						region = khorasan_region
+						region = persia_region
+					}
+					NOT = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
 			}
 		}
 		allow = {
