@@ -100,63 +100,63 @@ country_decisions = {
 		}
 	}
 	
-	restore_ilkhanate_decision_march = {
-		major = yes
-		potential = {
-			normal_or_historical_nations = yes
-			owns = 4338
-			OR = {
-				tag = YUA
-				tag = GLH
-				tag = MGE
-			}
-			NOT = { has_country_flag = restored_ilkhanate_decision_flag }
-			NOT = { has_mission = mission_conquer_persia_tatars }
-			NOT = { exists = ILK }
-			NOT = {
-				capital_scope = {
-					region = persia_region
-				}
-			}
-		}
-		provinces_to_highlight = {
-			region = persia_region
-			NOT = { owned_by = ROOT }
-		}
-		allow = {
-			is_free_or_tributary_trigger = yes
-			is_at_war = no
-			persia_region = {
-				type = all
-				owned_by = ROOT
-			}
-		}
-		effect = {
-			set_country_flag = restored_ilkhanate_decision_flag
-			persia_region = {
-				limit = {
-					owned_by = ROOT
-				}
-				add_core = ILK
-			}
-			release = ILK
-			create_march = ILK
-			ILK = {
-				change_government = monarchy
-				set_legacy_government = despotic_monarchy
-				change_primary_culture = ROOT
-				change_religion = ROOT
-				define_ruler = {
-					dynasty = ROOT
-					culture = ROOT
-					religion = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+#	restore_ilkhanate_decision_march = {
+#		major = yes
+#		potential = {
+#			normal_or_historical_nations = yes
+#			owns = 4338
+#			OR = {
+#				tag = YUA
+#				tag = GLH
+#				tag = MGE
+#			}
+#			NOT = { has_country_flag = restored_ilkhanate_decision_flag }
+#			NOT = { has_mission = mission_conquer_persia_tatars }
+#			NOT = { exists = ILK }
+#			NOT = {
+#				capital_scope = {
+#					region = persia_region
+#				}
+#			}
+#		}
+#		provinces_to_highlight = {
+#			region = persia_region
+#			NOT = { owned_by = ROOT }
+#		}
+#		allow = {
+#			is_free_or_tributary_trigger = yes
+#			is_at_war = no
+#			persia_region = {
+#				type = all
+#				owned_by = ROOT
+#			}
+#		}
+#		effect = {
+#			set_country_flag = restored_ilkhanate_decision_flag
+#			persia_region = {
+#				limit = {
+#					owned_by = ROOT
+#				}
+#				add_core = ILK
+#			}
+#			release = ILK
+#			create_march = ILK
+#			ILK = {
+#				change_government = monarchy
+#				set_legacy_government = despotic_monarchy
+#				change_primary_culture = ROOT
+#				change_religion = ROOT
+#				define_ruler = {
+#					dynasty = ROOT
+#					culture = ROOT
+#					religion = ROOT
+#				}
+#			}
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
 	
 	restore_ilkhanate_decision = {
 		major = yes
