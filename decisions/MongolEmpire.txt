@@ -10,6 +10,7 @@ country_decisions = {
 				tag = ILK
 				was_never_end_game_tag_trigger = yes
 			}
+			has_reform = steppe_horde
 			NOT = { has_country_flag = mongol_empire_flag }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
