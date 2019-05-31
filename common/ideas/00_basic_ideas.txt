@@ -208,7 +208,7 @@ spy_ideas = {
 		global_spy_defence = 0.33
 	}	
 	additional_loyalist_recruitment = {
-		war_taxes_cost_modifier = -0.1
+		war_taxes_cost_modifier = -0.5
 		global_own_trade_power = 0.15
 	}
 	claim_fabrication = {
