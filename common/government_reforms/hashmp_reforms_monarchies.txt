@@ -12,7 +12,7 @@ t2_np_1 = { #Strengthen Noble Privilege
 	icon = "people_walking"
 	allow_normal_conversion = yes
 	modifiers = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.125
 		stability_cost_modifier = 0.1
 	}
 }
@@ -41,7 +41,7 @@ t2_lp_1 = { #Curtail Nobility
 	icon = "king_2"
 	allow_normal_conversion = yes
 	modifiers = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.15
 		trade_efficiency = 0.05
 	}
 }
@@ -60,7 +60,7 @@ t2_lp_ind1 = { #Dakhni Cultural Reforms
 	}
 	modifiers = {
 		state_maintenance_modifier = -0.2
-		max_states = 2
+		max_states = 3
 	}
 }
 
@@ -132,7 +132,7 @@ t3_lp_1 = { #Centralized Bureaucracy
 	}
 	modifiers = {
 		global_autonomy = -0.05
-		production_efficiency = 0.075
+		production_efficiency = 0.1
 	}
 }
 t3_lp_2 = { #Meritocratic Recruitment
@@ -197,7 +197,7 @@ t4_sp_3 = { #Professional Soldiers
 	modifiers = {
 		drill_gain_modifier = 0.33
 		drill_decay_modifier = -0.33
-		global_regiment_cost = 0.05
+		global_regiment_cost = 0.025
 	}
 }
 
@@ -233,7 +233,7 @@ t5_np_2 = { #Political Absolutism
 		}
 	}
 	modifiers = {
-		yearly_absolutism = 0.2
+		yearly_absolutism = 0.25
 		max_absolutism = 10
 	}
 }
