@@ -205,7 +205,7 @@ tribe_becomes_monarchy_reform = {
 	allow_normal_conversion = yes
 	effect = {
 		set_country_flag = populists_in_government
-		lose_reforms = 4
+		lose_reforms = 2
 		if = {
 			limit = {
 				technology_group = nomad_group
@@ -251,7 +251,7 @@ tribe_becomes_republic_reform = {
 	}
 	effect = {
 		set_country_flag = populists_in_government
-		lose_reforms = 4
+		lose_reforms = 2
 		if = {
 			limit = {
 				technology_group = nomad_group
@@ -297,7 +297,7 @@ tribe_becomes_theocracy_reform = {
 	}
 	effect = {
 		set_country_flag = populists_in_government
-		lose_reforms = 4
+		lose_reforms = 2
 		if = {
 			limit = {
 				technology_group = nomad_group
