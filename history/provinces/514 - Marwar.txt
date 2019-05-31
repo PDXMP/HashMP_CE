@@ -25,14 +25,14 @@ discovered_by = chinese
 	controller = MER
 	add_core = MER
 } #Conquered by Mewar after Rathore, Sisodiya cooperation breaks down in plots and murder.
-1444.1.1 = {
-	revolt = {
-		size = 1
-		type = nationalist_rebels
-		leader = "Jodha Rathore"
-	}
-	controller = REB
-} #During the period between 1438 and 1459 Jodha made several attempts to retake his ancestral lands.
+#1444.1.1 = {
+#	revolt = {
+#		size = 1
+#		type = nationalist_rebels
+#		leader = "Jodha Rathore"
+#	}
+#	controller = REB
+#} #During the period between 1438 and 1459 Jodha made several attempts to retake his ancestral lands.
 1459.1.1 = {
 	capital = "Jodphur"
 	controller = MAW
