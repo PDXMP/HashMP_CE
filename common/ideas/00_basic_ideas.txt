@@ -171,7 +171,7 @@ religious_ideas = {
 	}
 	inquisition = {
 		global_heretic_missionary_strength = 0.02
-		enforce_religion_cost = -0.30
+		enforce_religion_cost = -0.50
 	}
 
 	ai_will_do = {
@@ -257,7 +257,7 @@ offensive_ideas = {
 		artillery_bonus_vs_fort = 1
 	}
 	grand_army = {
-		land_forcelimit_modifier = 0.2
+		land_forcelimit_modifier = 0.15
 		global_regiment_recruit_speed = -0.25
 	}
 	napoleonic_warfare = {
@@ -375,7 +375,7 @@ economic_ideas = {
 		global_tax_modifier = 0.15
 	}
 	organised_construction = {
-		build_cost = -0.1
+		build_cost = -0.05
 	}
 	national_bank = {
 		inflation_reduction = 0.1
@@ -820,7 +820,7 @@ administrative_ideas = {
 	}
 
 	organised_mercenary_payment = {
-		global_prov_trade_power_modifier = 0.15
+		global_prov_trade_power_modifier = 0.20
 	}
 	adaptability = {
 		merchants = 1
@@ -904,18 +904,19 @@ influence_ideas = {
 	}
 
 	tribute_system = {
-		unjustified_demands = -0.5
-		reduced_liberty_desire = 15
-	}
-	establish_cadet_branches = {
 		dip_tech_cost_modifier = -0.1
 		dip_advisor_cost = -0.20
+	}
+	establish_cadet_branches = {
+		unjustified_demands = -0.5
+		reduced_liberty_desire = 15
 	}
 	integrated_elites = {
 		diplomatic_upkeep = 2
 	}
 	state_propaganda = {
 		can_fabricate_for_vassals = yes
+		diplomats = 1
 	}
 	diplomatic_influence = {
 		merc_maintenance_modifier = -0.25
