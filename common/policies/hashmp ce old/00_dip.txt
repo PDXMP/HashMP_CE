@@ -16,7 +16,7 @@ the_statute_of_monopolies = {
 		full_idea_group = economic_ideas
 	}
 
-	interest = -0.25
+	production_efficiency = 0.10
 	trade_efficiency = 0.10
 
 
@@ -92,6 +92,7 @@ convoy_system = {
 	}
 	
 	leader_naval_manuever = 1
+	ship_durability = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -145,7 +146,7 @@ the_importation_act = {
 		full_idea_group = administrative_ideas
 	}
 	
-	trade_efficiency = 0.15
+	trade_efficiency = 0.20
 	
 	ai_will_do = {
 		factor = 1
@@ -171,6 +172,7 @@ colonial_expansions = {
 	}		
 
 	global_colonial_growth = 20
+	min_autonomy_in_territories = -0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -209,7 +211,7 @@ beneficial_neglect = {
 
 
 restrictions_for_colonies = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = exploration_ideas
@@ -225,12 +227,7 @@ restrictions_for_colonies = {
 		full_idea_group = religious_ideas
 	}
 
-	liberty_desire_from_subject_development = -0.25
-	papal_influence = 1
-	devotion = 0.25
-	monthly_fervor_increase = 0.125
-	church_power_modifier = 0.1
-	monthly_karma = 0.125
+	colonists = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -327,6 +324,7 @@ new_naval_tactis = {
 	}
 
 	leader_naval_manuever = 1
+	light_ship_power = 0.15
 
 
 	ai_will_do = {
@@ -355,7 +353,7 @@ trade_connection_policy = {
 		full_idea_group = trade_ideas
 	}
 
-	global_own_trade_power = 0.3
+	global_foreign_trade_power = 0.3
 	merchants = 1
 	
 	ai_will_do = {
@@ -402,7 +400,7 @@ nobles_in_navy_act = {
 		full_idea_group = maritime_ideas
 	}
 
-	admiral_cost = -0.33
+	privateer_efficiency = 0.20
 	navy_tradition_decay = -0.01
 
 	ai_will_do = {
@@ -432,8 +430,8 @@ naval_secrecy_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	native_assimilation = 0.5
-	naval_maintenance_modifier = -0.1
+	naval_morale = 0.10
+	global_spy_defence = 0.20
 
 	ai_will_do = {
 		factor = 1
@@ -491,7 +489,7 @@ cloth_quality_edict = {
 		full_idea_group = quality_ideas
 	}
 	
-	trade_efficiency = 0.1
+	trade_efficiency = 0.20
 
 	ai_will_do = {
 		factor = 1
@@ -501,7 +499,7 @@ cloth_quality_edict = {
 
 
 production_quota_act = {
-	monarch_power = MIL
+	monarch_power = DIP
 	potential = {
 		has_idea_group = trade_ideas
 		has_idea_group = quantity_ideas
@@ -516,8 +514,8 @@ production_quota_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	production_efficiency = 0.05
-	global_regiment_cost = -0.1
+	production_efficiency = 0.10
+	global_trade_goods_size_modifier = 0.10
 
 	ai_will_do = {
 		factor = 1
@@ -541,7 +539,7 @@ encouragement_of_merchant_navy = {
 	}
 	
 	trade_efficiency = 0.10
-	trade_steering = 0.25
+	trade_steering = 0.20
 
 	ai_will_do = {
 		factor = 1
@@ -568,7 +566,7 @@ trade_kontor_network = {
 		full_idea_group = trade_ideas
 	}
 	
-	global_trade_power = 0.1
+	global_regiment_cost = -0.1
 	merchants = 1
 
 	ai_will_do = {
@@ -577,7 +575,7 @@ trade_kontor_network = {
 }
 
 colonial_companies_act = {
-	monarch_power = DIP
+	monarch_power = MIL
 	potential = {
 		has_idea_group = exploration_ideas
 		has_idea_group = plutocracy_ideas
@@ -592,7 +590,7 @@ colonial_companies_act = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	colonists = 1
+	global_manpower_modifier = 0.30
 
 	ai_will_do = {
 		factor = 1
@@ -615,8 +613,8 @@ protected_shipping_lanes = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	global_ship_cost = -0.1
-	global_ship_recruit_speed = -0.1
+	global_ship_cost = -0.15
+	light_ship_power = 0.15
 
 	ai_will_do = {
 		factor = 1
@@ -645,7 +643,7 @@ church_sponsored_guilds = {
 		full_idea_group = trade_ideas
 	}
 	
-	center_of_trade_upgrade_cost = -0.5
+	institution_spread_from_true_faith = 0.50
 	
 	ai_will_do = {
 		factor = 1
@@ -673,6 +671,7 @@ chaplains_of_the_fleet = {
 	}
 	
 	naval_morale = 0.10
+	global_ship_trade_power = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -682,7 +681,7 @@ chaplains_of_the_fleet = {
 
 
 taxation_with_representation = {
-	monarch_power = MIL
+	monarch_power = ADM
 	potential = {
 		has_idea_group = expansion_ideas
 		has_idea_group = plutocracy_ideas
@@ -697,7 +696,7 @@ taxation_with_representation = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	manpower_recovery_speed = 0.1
+	global_manpower_modifier = 0.10
 	production_efficiency = 0.10
 
 	ai_will_do = {
@@ -768,7 +767,7 @@ cultural_understanding = {
 		full_idea_group = spy_ideas
 	}	
 	
-	war_exhaustion = -0.05
+	global_unrest = -1
 	defensiveness = 0.15
 	
 	ai_will_do = {
@@ -793,8 +792,8 @@ the_foreign_aid_act = {
 		full_idea_group = influence_ideas
 	}	
 	
-	diplomats = 1
-	vassal_forcelimit_bonus = 0.5
+	diplomatic_upkeep = 1
+	diplomatic_reputation = 1
 		
 	
 	ai_will_do = {
@@ -819,7 +818,7 @@ cultural_unity = {
 		full_idea_group = religious_ideas
 	}	
 	
-	warscore_cost_vs_other_religion = -0.1
+	culture_conversion_cost = -0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -844,8 +843,8 @@ fleet_surgeons = {
 		full_idea_group = maritime_ideas
 	}	
 	
-	global_tax_modifier = 0.15
-	sunk_ship_morale_hit_recieved = -0.25
+	global_tax_modifier = 0.10
+	sunk_ship_morale_hit_recieved = -0.33
 	
 	
 	ai_will_do = {
@@ -870,8 +869,8 @@ overseas_embassies = {
 		full_idea_group = offensive_ideas
 	}	
 	
-	movement_speed_onto_off_boat_modifier = -0.25
-	infantry_power = 0.1
+	fire_damage = 0.05
+	naval_morale = 0.075
 	
 	ai_will_do = {
 		modifier = {
@@ -883,7 +882,7 @@ overseas_embassies = {
 }
 
 skilled_cartographers = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = naval_ideas
@@ -899,7 +898,8 @@ skilled_cartographers = {
 		full_idea_group = quality_ideas
 	}	
 	
-	siege_blockade_progress = 1
+	heavy_ship_power = 0.05
+	shock_damage = 0.075
 
 	ai_will_do = {
 		factor = 1
@@ -923,7 +923,8 @@ fortified_trading_posts = {
 		full_idea_group = aristocracy_ideas
 	}	
 	
-	capture_ship_chance = 0.33
+	naval_tradition_from_battle = 1.0
+	prestige_from_naval = 1.0
 	
 	ai_will_do = {
 		factor = 1
@@ -947,7 +948,7 @@ the_integrated_administration_act = {
 		full_idea_group = quality_ideas
 	}	
 	
-	drill_decay_modifier = -0.1
+	global_trade_power = 0.1
 	liberty_desire_from_subject_development = -0.25
 	
 	ai_will_do = {
@@ -977,7 +978,7 @@ the_cooperation_act = {
 	}	
 	
 	leader_naval_fire = 1
-	global_trade_goods_size_modifier = 0.05
+	global_trade_goods_size_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -1005,7 +1006,7 @@ full_sovereignty_act = {
 		full_idea_group = influence_ideas
 	}	
 	
-	vassal_forcelimit_bonus = 0.5
+	vassal_forcelimit_bonus = 1.0
 	reduced_liberty_desire = 10
 	
 	ai_will_do = {
