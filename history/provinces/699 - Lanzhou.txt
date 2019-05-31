@@ -6,11 +6,11 @@ add_core = CSH
 culture = xibei
 religion = confucianism
 capital = "Lanzhou"
-trade_goods = grain
+trade_goods = silk
 hre = no
 base_tax = 6 
 base_production = 6
-base_manpower = 3
+base_manpower = 6
 is_city = yes
 add_core = CSH
 
