@@ -248,7 +248,6 @@ country_event = {
 	option = {
 		name = flavor_mor.8.a #Abdicate
 		ai_chance = { factor = 50 }
-		add_stability = -2
 		define_ruler = {
 			name = "Muhammad I"
 			dynasty = "Wattasid"
