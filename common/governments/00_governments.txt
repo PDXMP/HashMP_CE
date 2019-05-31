@@ -362,6 +362,13 @@ tribal = {
 				retain_tribal_hierarchy_reform
 			}
 		}
+		h_tribal_ascension = {
+			reforms = {
+				t5_tp_1
+				t5_tp_2
+				t5_tp_3
+			}
+		}
 		tribal_reformation = {
 			reforms = {
 				tribe_becomes_monarchy_reform
