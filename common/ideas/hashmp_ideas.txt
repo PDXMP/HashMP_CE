@@ -66,7 +66,7 @@ WUU_ideas = { #Wu
 		advisor_cost = -0.15
 	}
 	WUU_3 = {
-		production_efficiency = 0.15
+		production_efficiency = 0.1
 	}
 	WUU_4 = {
 		prestige = 1
@@ -89,7 +89,7 @@ YUE_ideas = { #Yue
 	}
 	
 	bonus = {
-		land_forcelimit_modifier = 0.35
+		land_forcelimit_modifier = 0.33
 	}
 	
 	trigger = {
