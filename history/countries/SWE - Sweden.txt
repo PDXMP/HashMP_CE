@@ -5,6 +5,7 @@ unit_type = western
 primary_culture = swedish
 religion = catholic
 add_accepted_culture = finnish
+add_accepted_culture = danish
 capital = 1	#Stockholm
 
 1443.6.20 = {
