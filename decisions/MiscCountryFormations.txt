@@ -175,10 +175,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			OR = {
-				is_elector = yes
-				NOT = { is_part_of_hre = yes }
-			}
+			is_elector = yes
 			capital_scope = {
 				area = westphalia_area
 			}
