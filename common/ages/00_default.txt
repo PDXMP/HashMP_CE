@@ -111,6 +111,10 @@ age_of_discovery = {
 				custom_tooltip = feudal_de_jure_law
 				set_country_flag = feudal_de_jure_law
 			}
+			modifier = {
+				war_exhaustion = -0.03
+				global_autonomy = -0.025
+			}
 			ai_will_do = {
 				factor = 10
 			}
