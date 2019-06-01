@@ -23,6 +23,7 @@ country_decisions = {
 				}
 			}
 			is_colonial_nation = no
+			always = no
 			OR = {
 				is_former_colonial_nation = no
 				AND = {
