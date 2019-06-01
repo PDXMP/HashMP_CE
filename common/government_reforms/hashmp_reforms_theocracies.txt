@@ -1,0 +1,27 @@
+########
+#Tier 5
+########
+
+t5_cp_1 = { #
+	icon = "constitution"
+	allow_normal_conversion = yes
+	modifiers = {
+		culture_conversion_cost = -0.25
+	}
+}
+t5_cp_2 = { #
+	icon = "man_on_podium"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_missionary_strength = 0.02
+		missionary_maintenance_cost = -0.25
+	}
+}
+t5_cp_3 = { #
+	icon = "king_2"
+	allow_normal_conversion = yes
+	modifiers = {
+		prestige = 1
+		prestige_decay = -0.01
+	}
+}
