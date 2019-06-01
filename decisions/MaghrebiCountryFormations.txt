@@ -5,6 +5,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
+			ai = yes
 			NOT = { has_country_flag = formed_morocco_flag }
 			OR = {
 				ai = no
@@ -138,6 +139,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
+			ai = yes
 			NOT = { has_country_flag = formed_algiers_flag }
 			OR = {
 				ai = no
@@ -288,6 +290,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
+			ai = yes
 			NOT = { has_country_flag = formed_tunisia_flag }
 			OR = {
 				ai = no
@@ -394,6 +397,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
+			ai = yes
 			NOT = { has_country_flag = formed_tripoli_flag }
 			OR = {
 				ai = no
