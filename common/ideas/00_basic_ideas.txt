@@ -837,11 +837,12 @@ administrative_ideas = {
 		state_maintenance_modifier = -0.25
 	}
 	administrative_efficiency_idea = {
-		reinforce_speed = 0.2
+		reinforce_speed = 0.25
 		reinforce_cost_modifier = -0.1
 	}
 	civil_servants = {
 		advisor_pool = 2
+		advisor_cost = -0.1
 	}
 
 	ai_will_do = {
