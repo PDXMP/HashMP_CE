@@ -23,7 +23,7 @@ country_decisions = {
 					NOT = { exists = TUS }
 				}
 			}
-			primary_culture = tuscan
+			tag = LAN
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -53,6 +53,7 @@ country_decisions = {
 			}
 		}
 		allow = {
+			has_switched_nation = no
 			adm_tech = 10
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
