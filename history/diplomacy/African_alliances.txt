@@ -54,7 +54,7 @@ vassal = {
 #	second = FZA
 #	start_date = 1444.1.1
 #	end_date = 1558.1.1
-}
+#}
 
 # Tlemcen vassal of the Hafsids
 vassal = {
