@@ -259,6 +259,7 @@ country_decisions = {
 			NOT = { exists = GRE }
 			primary_culture = greek
 			is_colonial_nation = no
+			always = no
 			OR = {
 				ai = no
 				AND = {
