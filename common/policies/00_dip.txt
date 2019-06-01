@@ -697,7 +697,7 @@ taxation_with_representation = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	manpower_recovery_speed = 0.1
+	manpower_recovery_speed = 0.15
 	production_efficiency = 0.10
 
 	ai_will_do = {
