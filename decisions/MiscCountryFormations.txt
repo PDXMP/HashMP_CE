@@ -391,6 +391,7 @@ country_decisions = {
 			NOT = { tag = TUR }
 			NOT = { tag = BYZ }
 			NOT = { exists = ICE }
+			always = no
 			is_colonial_nation = no		
 			OR = {
 				is_former_colonial_nation = no
