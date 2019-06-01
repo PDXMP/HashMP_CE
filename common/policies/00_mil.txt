@@ -838,7 +838,7 @@ local_militias = {
 		full_idea_group = defensive_ideas
 	}	
 	
-	land_morale = 0.05
+	land_morale = 0.075
 	recover_army_morale_speed = 0.1
 	
 	ai_will_do = {
