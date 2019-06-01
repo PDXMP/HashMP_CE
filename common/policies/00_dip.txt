@@ -870,8 +870,8 @@ overseas_embassies = {
 		full_idea_group = offensive_ideas
 	}	
 	
-	movement_speed_onto_off_boat_modifier = -0.25
-	infantry_power = 0.1
+	movement_speed_onto_off_boat_modifier = -0.33
+	infantry_power = 0.075
 	
 	ai_will_do = {
 		modifier = {
