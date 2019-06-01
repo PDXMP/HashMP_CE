@@ -533,7 +533,7 @@ hired_adventurers_act = {
 		full_idea_group = exploration_ideas
 	}
 
-	global_manpower_modifier = 0.1
+	global_manpower_modifier = 0.15
 	global_colonial_growth = 15
 
 	ai_will_do = {
@@ -624,7 +624,7 @@ the_naval_supremacy_act = {
 	}	
 	
 	naval_forcelimit_modifier = 0.15
-	global_ship_cost = -0.05
+	global_ship_cost = -0.075
 
 	
 	ai_will_do = {

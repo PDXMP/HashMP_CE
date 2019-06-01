@@ -516,7 +516,7 @@ production_quota_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	production_efficiency = 0.05
+	production_efficiency = 0.075
 	global_regiment_cost = -0.1
 
 	ai_will_do = {
