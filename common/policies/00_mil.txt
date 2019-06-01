@@ -353,7 +353,7 @@ the_field_agent_act = {
 	}
 	
 	spy_offence = 0.30
-	artillery_cost = -0.1
+	artillery_cost = -0.15
 
 	ai_will_do = {
 		factor = 1
