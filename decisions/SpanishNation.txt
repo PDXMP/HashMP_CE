@@ -90,6 +90,11 @@ country_decisions = {
 			owns_core_province = 219	# Toledo
 			owns_core_province = 220	# Valencia
 			owns_core_province = 223	# Granada
+			OR = {
+				tag = POR
+				tag = ARA
+				tag = CAS
+			}
 			iberia_region = {
 				type = all
 				NOT = { owner = { religion_group = muslim } }
