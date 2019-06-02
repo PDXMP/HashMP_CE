@@ -50,19 +50,19 @@ country_decisions = {
 						mil = 3
 					}
 					NOT = {
-						adm = 4
+						adm = 5
 						dip = 2
 						mil = 2
 					}
 					NOT = {
 						adm = 2
-						dip = 4
+						dip = 5
 						mil = 2
 					}
 					NOT = {
 						adm = 2
 						dip = 2
-						mil = 4
+						mil = 5
 					}
 					NOT = {
 						adm = 4
