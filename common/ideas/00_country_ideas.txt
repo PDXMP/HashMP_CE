@@ -12025,7 +12025,7 @@ DEC_ideas = {
 		land_forcelimit_modifier = 0.2
 	}
 	dec_modernize_the_sarf_e_khas = {
-		discipline = 0.05
+		manpower_recovery_speed = 0.1
 	}
 	dec_jewels_of_the_nizams = {
 		diplomatic_reputation = 1
