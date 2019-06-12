@@ -889,7 +889,6 @@ GEN_Ideas = {
 		global_trade_power = 0.1
 	}
 	the_office_of_grand_admiral = {
-		army_tradition_decay = -0.01
 		navy_tradition_decay = -0.01
 	}
 }
@@ -1864,15 +1863,15 @@ SAV_ideas = {
 	sav_mercenary_tradition = {
 		possible_mercenaries = 0.25
 	}
-	crush_the_vaudois = {
-		global_heretic_missionary_strength = 0.03
-		culture_conversion_cost = -0.1
-	}
 	savoyard_flexibility = {
 		idea_cost = -0.1
 	}
 	alpine_tolls = {
-   		global_prov_trade_power_modifier = 0.2
+   		global_prov_trade_power_modifier = 0.25
+	}
+	crush_the_vaudois = {
+		global_heretic_missionary_strength = 0.03
+		culture_conversion_cost = -0.1
 	}
 	savoyard_legitimacy = {
 		legitimacy = 1
