@@ -12149,12 +12149,12 @@ HIN_ideas = {
 
 RJP_ideas = {
 	start = {
-		free_mil_policy = 1
+		infantry_power = 0.1
 		land_morale = 0.1
 	}
 
 	bonus = {
-		discipline = 0.05
+		free_mil_policy = 1
 	}
 	
 	trigger = {
