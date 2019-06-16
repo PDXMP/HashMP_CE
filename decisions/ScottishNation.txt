@@ -16,8 +16,8 @@ country_decisions = {
 			NOT = { tag = PAP }
 			NOT = { tag = GBR }
 			OR = {
-				primary_culture = scottish
-				primary_culture = highland_scottish
+				tag = HSC
+				tag = LOI
 			}
 			is_colonial_nation = no
 			OR = {
@@ -41,6 +41,7 @@ country_decisions = {
 			}
 		}
 		allow = {
+			has_switched_nation = no
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
