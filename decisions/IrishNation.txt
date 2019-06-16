@@ -13,7 +13,20 @@ country_decisions = {
 			NOT = { exists = IRE }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
-			primary_culture = irish
+			OR = {
+				tag = TRY
+				tag = TYR
+				tag = ULS
+				tag = SLN
+				tag = FLY
+				tag = MTH
+				tag = KID
+				tag = MNS
+				tag = CNN
+				tag = DMS
+				tag = MCM
+				tag = ORD
+				tag = LEI
 			OR = {
 				ai = no
 				AND = {
@@ -40,6 +53,7 @@ country_decisions = {
 			NOT = { owned_by = ROOT }
 		}
 		allow = {
+			has_switched_nation = no
 			adm_tech = 10
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
