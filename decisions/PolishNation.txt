@@ -18,7 +18,6 @@ country_decisions = {
 					NOT = { exists = POL }
 					num_of_cities = 6
 				}
-			always = no
 			}
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
