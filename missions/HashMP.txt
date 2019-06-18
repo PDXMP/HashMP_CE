@@ -1,0 +1,5 @@
+########################################
+# Custom missions for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
