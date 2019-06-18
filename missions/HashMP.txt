@@ -3,3 +3,88 @@
 #
 # by Foffy123
 ########################################
+
+china_conquest = { #by hashinshin
+	slot = 1
+	generic = yes
+	ai = yes
+	potential = {
+		culture_group = east_asian
+	}
+	has_country_shield = yes
+	
+	conquer_china = {
+		icon = mission_secure_hajj_ports
+		provinces_to_highlight = {
+			or = {
+			region = north_china_region
+			area = south_jiangsu_area
+			area = south_anhui_area
+			area = zhejiang_area
+			area = jiangxi_area
+			area = hunan_area
+			area = fujian_area
+			area = east_guangdong_area
+			area = guangxi_area
+			area = west_guangdong_area
+			area = huguang_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		position = 1
+		trigger = {
+			north_china_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_jiangsu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_anhui_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			zhejiang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jiangxi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hunan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			fujian_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_guangdong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			guangxi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			west_guangdong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			huguang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "united_china"
+				duration = -1
+			}
+		}
+	}
+}
