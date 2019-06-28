@@ -3,35 +3,37 @@
 
 default_ideas = {
 	start = {
-		stability_cost_modifier = -0.10
-		advisor_cost = -0.1
+		technology_cost = -0.10
+		advisor_cost = -0.15
 	}
 	
 	bonus = {
-		global_tax_modifier = 0.10
+		infantry_power = 0.1
 	}
 	
 	free = yes
 	
 	increase_discipline = {
-		discipline = 0.025
+		discipline = 0.05
 	}
 	increase_taxation = {
-		global_tax_modifier = 0.05
+		global_tax_income = 36
 	}	
 	cheaper_mercenaries = {
+		mercenary_cost = -0.1
 		merc_maintenance_modifier = -0.10
 	}
 	increased_trade_power = {
-		global_trade_power = 0.05
+		global_trade_power = 0.1
 	}
 	increased_manpower = {
-		global_manpower_modifier = 0.05
+		global_manpower_modifier = 0.2
+		global_manpower = 5
 	}
 	increased_trade_steering = {
-		trade_steering = 0.05
+		trade_steering = 0.2
 	}
 	increased_production_income = {
-		production_efficiency = 0.05
+		production_efficiency = 0.1
 	}
 }
