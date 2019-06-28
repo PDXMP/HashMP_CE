@@ -1665,12 +1665,12 @@ country_event = {
 		is_subject = no
 		has_regency = yes
 		NOT = { has_reform = celestial_empire }
-		LIT = {
-			exists = yes
-			is_subject = no
-			NOT = { junior_union_with = POL }
-			dynasty = "Jagiellon"
-		}
+		#LIT = {
+		#	exists = yes
+		#	is_subject = no
+		#	NOT = { junior_union_with = POL }
+		#	dynasty = "Jagiellon"
+		#}
 		NOT = { is_year = 1450 }
 	}
 	
@@ -1679,18 +1679,18 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 6
 		modifier = {
 			factor = 0.1
-			is_year = 1447
+			is_year = 1446
 		}
 		modifier = {
 			factor = 0.01
-			is_year = 1448
+			is_year = 1447
 		}
 		modifier = {
 			factor = 0.001
-			is_year = 1449
+			is_year = 1448
 		}
 	}
 	
@@ -1717,9 +1717,10 @@ country_event = {
 			factor = 25
 		}
 		define_ruler = {
-			DIP = 4
-			ADM = 4
-			MIL = 4
+			DIP = 6
+			ADM = 6
+			MIL = 6
+			age = 18
 			claim = 100
 			culture = polish
 		}
@@ -1729,12 +1730,12 @@ country_event = {
 			}
 			change_statists_vs_orangists = 1
 		}
-		LIT = {
-			add_opinion = {
-				who = ROOT
-				modifier = lit_denied_birthright
-			}
-		}
+		#LIT = {
+		#	add_opinion = {
+		#		who = ROOT
+		#		modifier = lit_denied_birthright
+		#	}
+		#}
 	}
 }
 
