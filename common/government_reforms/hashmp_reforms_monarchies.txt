@@ -197,7 +197,7 @@ t4_sp_3 = { #Professional Soldiers
 	modifiers = {
 		drill_gain_modifier = 0.33
 		drill_decay_modifier = -0.33
-		global_regiment_cost = 0.025
+		#global_regiment_cost = 0.025
 	}
 }
 
