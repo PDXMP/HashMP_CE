@@ -2101,10 +2101,7 @@ GRA_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = GRA
-			tag = ADU
-		}
+		tag = GRA
 	}
 	free = yes
 	
