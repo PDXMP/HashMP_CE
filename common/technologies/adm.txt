@@ -259,7 +259,7 @@ technology = { #Modern Bureaucracy
 
 	administrative_efficiency = 0.075
 	development_efficiency = 0.05
-	max_states = 5
+	max_states = 6
 }
 
 technology = { #Rotherham Plough
@@ -293,7 +293,7 @@ technology = { #Revolutionary Ideals
 	
 	revolutionary_republic = yes
 	revolutionary_empire = yes
-	max_states = 5
+	max_states = 6
 }
 
 technology = { #Four Field Rotation
