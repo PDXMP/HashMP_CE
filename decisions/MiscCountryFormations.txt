@@ -37,10 +37,15 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 53	# Lüneburg
-				province_id = 54	# Stade
-				province_id = 1758	# Hannover
-				province_id = 2971	# Hoya
+				province_id = 53	 # Lüneburg
+				province_id = 54	 # Stade
+				province_id = 55     # Oldenburg
+				province_id = 56     # Osnabruck
+				province_id = 57     # Braunschweig
+				province_id = 1874   # Bremen
+				province_id = 1931   # Ostfriesland
+				province_id = 1758	 # Hannover
+				province_id = 2971	 # Hoya
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -53,8 +58,13 @@ country_decisions = {
 			is_nomad = no
 			is_at_war = no
 			is_elector = yes
-			owns_core_province = 53	# Lüneburg
-			owns_core_province = 54	# Stade
+			owns_core_province = 53	    # Lüneburg
+			owns_core_province = 54	    # Stade
+			owns_core_province = 55     # Oldenburg
+			owns_core_province = 56     # Osnabruck
+			owns_core_province = 57     # Braunschweig
+			owns_core_province = 1874   # Bremen
+			owns_core_province = 1931   # Ostfriesland
 			owns_core_province = 1758	# Hannover
 			owns_core_province = 2971	# Hoya
 		}
@@ -64,29 +74,31 @@ country_decisions = {
 			}
 			change_tag = HAN
 			1758 = {
-				add_base_tax = 1
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			every_province = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					OR = {
-						#province_id = 53 # Luneburg
-						#province_id = 54 # Stade
-						province_id = 55 # Oldenburg
-						province_id = 56 # Osnabruck
-						province_id = 57 # Brunswick
-						#province_id = 1758 # Hannover
-						province_id = 1874 #Bremen
-						province_id = 1931 # East Frisia
-						#province_id = 2971 # Hoya
-					}
-				}
-				add_permanent_claim = HAN
-			}
+			#every_province = {
+			#	limit = {
+			#		NOT = { owned_by = ROOT }
+			#		OR = {
+			#			#province_id = 53 # Luneburg
+			#			#province_id = 54 # Stade
+			#			province_id = 55 # Oldenburg
+			#			province_id = 56 # Osnabruck
+			#			province_id = 57 # Brunswick
+			#			#province_id = 1758 # Hannover
+			#			province_id = 1874 #Bremen
+			#			province_id = 1931 # East Frisia
+			#			#province_id = 2971 # Hoya
+			#		}
+			#	}
+			#	add_permanent_claim = HAN
+			#}
 			set_country_flag = formed_hannover_flag
 			add_prestige = 25
 			if = {
