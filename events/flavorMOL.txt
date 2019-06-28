@@ -90,7 +90,7 @@ country_event = {
 	option = { # Polish March
 		name = "flavor_mol.2.a"
 		ai_chance = {
-			factor = 65
+			factor = 100
 		}
 		set_global_flag = mol_polish_march
 		define_ruler = {
@@ -118,80 +118,80 @@ country_event = {
 			modifier = loyal_voidode
 		}
 	}
-	option = { # Hungarian March
-		name = "flavor_mol.2.b"
-		trigger = {
-			HUN = {
-				exists = yes
-				is_subject = no
-				NOT = { war_with = ROOT }
-			}
-		}
-		ai_chance = {
-			factor = 20
-		}
-		set_global_flag = mol_hungarian_march
-		define_ruler = {
-			name = "Petru"
-			dynasty = "Musat"
-			age = 45
-			claim = 100
-		}
-		if = {
-			limit = {
-				has_states_general_mechanic = yes
-			}
-			change_statists_vs_orangists = 1
-		}
-		HUN = {
-			hidden_effect = {
-				country_event = { 
-					id = flavor_mol.4
-					days = 3
-				}
-			}
-			tooltip = {
-				create_march = MOL
-			}
-		}
-		add_opinion = {
-			who = HUN
-			modifier = loyal_voidode
-		}
-		hidden_effect = {
-			POL = {
-				country_event = {
-					id = flavor_mol.3
-					days = 3
-				}
-			}
-		}
-	}
-	option = { # Independence
-		name = "flavor_mol.2.c"
-		ai_chance = {
-			factor = 15
-		}
-		add_opinion = {
-			who = POL
-			modifier = resisted_polish_interference
-		}
-		random_owned_province = {
-			spawn_rebels = {
-				size = 1
-				type = pretender_rebels
-				leader = "Roman Musat"
-			}
-		}
-		hidden_effect = {
-			POL = {
-				country_event = {
-					id = flavor_mol.3
-					days = 3
-				}
-			}
-		}
-	}
+	#option = { # Hungarian March
+	#	name = "flavor_mol.2.b"
+	#	trigger = {
+	#		HUN = {
+	#			exists = yes
+	#			is_subject = no
+	#			NOT = { war_with = ROOT }
+	#		}
+	#	}
+	#	ai_chance = {
+	#		factor = 20
+	#	}
+	#	set_global_flag = mol_hungarian_march
+	#	define_ruler = {
+	#		name = "Petru"
+	#		dynasty = "Musat"
+	#		age = 45
+	#		claim = 100
+	#	}
+	#	if = {
+	#		limit = {
+	#			has_states_general_mechanic = yes
+	#		}
+	#		change_statists_vs_orangists = 1
+	#	}
+	#	HUN = {
+	#		hidden_effect = {
+	#			country_event = { 
+	#				id = flavor_mol.4
+	#				days = 3
+	#			}
+	#		}
+	#		tooltip = {
+	#			create_march = MOL
+	#		}
+	#	}
+	#	add_opinion = {
+	#		who = HUN
+	#		modifier = loyal_voidode
+	#	}
+	#	hidden_effect = {
+	#		POL = {
+	#			country_event = {
+	#				id = flavor_mol.3
+	#				days = 3
+	#			}
+	#		}
+	#	}
+	#}
+	#option = { # Independence
+	#	name = "flavor_mol.2.c"
+	#	ai_chance = {
+	#		factor = 0
+	#	}
+	#	add_opinion = {
+	#		who = POL
+	#		modifier = resisted_polish_interference
+	#	}
+	#	random_owned_province = {
+	#		spawn_rebels = {
+	#			size = 1
+	#			type = pretender_rebels
+	#			leader = "Roman Musat"
+	#		}
+	#	}
+	#	hidden_effect = {
+	#		POL = {
+	#			country_event = {
+	#				id = flavor_mol.3
+	#				days = 3
+	#			}
+	#		}
+	#	}
+	#}
 }
 
 # Poland reacts to Moldavian decision
@@ -256,23 +256,23 @@ country_event = {
 }
 
 # For Hungary
-country_event = {
-	id = flavor_mol.4
-	title = "flavor_mol.EVTNAME4"
-	desc = "flavor_mol.EVTDESC4"
-	picture = SEJM_eventPicture
-	
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "flavor_mol.4.a"
-		add_prestige = 10
-		create_march = MOL
-		add_opinion = {
-			who = MOL
-			modifier = loyal_voidode
-		}
-	}
-}
+#country_event = {
+#	id = flavor_mol.4
+#	title = "flavor_mol.EVTNAME4"
+#	desc = "flavor_mol.EVTDESC4"
+#	picture = SEJM_eventPicture
+#	
+#	fire_only_once = yes
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "flavor_mol.4.a"
+#		add_prestige = 10
+#		create_march = MOL
+#		add_opinion = {
+#			who = MOL
+#			modifier = loyal_voidode
+#		}
+#	}
+#}
