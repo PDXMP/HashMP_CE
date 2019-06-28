@@ -233,7 +233,7 @@ t5_np_2 = { #Political Absolutism
 		}
 	}
 	modifiers = {
-		yearly_absolutism = 0.25
+		yearly_absolutism = 0.3
 		max_absolutism = 10
 	}
 }
