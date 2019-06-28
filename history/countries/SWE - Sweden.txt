@@ -10,24 +10,24 @@ capital = 1	#Stockholm
 
 1443.6.20 = {
 	monarch = {
-		name = "Karl VIII"
-		dynasty = "Bonde"
-		birth_date = 1409.10.5
-		adm = 2
+		name = "Johan"
+		dynasty = "Vasa"
+		birth_date = 1426.1.1
+		adm = 3
 		dip = 2
 		mil = 5
-		leader = {	name = "Karl VIII"   type = general	fire = 2	shock = 2	manuever = 3	siege = 0 }
+		#leader = {	name = "Karl VIII"   type = general	fire = 2	shock = 2	manuever = 3	siege = 0 }
 	}
 	queen = {
 		country_of_origin = SWE
-		name = "Katarina"
-		dynasty = "Gumsehuvud"
-		birth_date = 1418.1.1
+		name = "Birgitta"
+		dynasty = "Sture"
+		birth_date = 1425.1.1
 		death_date = 1451.1.1
 		female = yes
-		adm = 2
-		dip = 2
-		mil = 2
+		adm = 3
+		dip = 3
+		mil = 3
 	}
 }
 
