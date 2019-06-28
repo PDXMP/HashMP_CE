@@ -118,6 +118,7 @@ categories =  {
 			2021 870 4635 868 2478 869 871 4637
 			
 			112 #Venice farmlands from Coastline
+			4149 4142 #Kolding and Ostjylland farmlands from Grassland
 		}		
 	}
 	
