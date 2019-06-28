@@ -486,22 +486,22 @@ VEN_ideas = {
 	venetian_arsenal = {
 		naval_forcelimit_modifier = 0.25
 	}
-	printing_industry = {
-		diplomats = 1
-	}
 	stato_da_mar = {
 		trade_efficiency = 0.1
 		global_trade_power = 0.1
-	}
-	state_inquisition = {
-		global_spy_defence = 0.3
 	}
 	conscription = {
 		naval_maintenance_modifier = -0.2
 		galley_cost = -0.20
 	}
+	printing_industry = {
+		diplomats = 1
+	}
+	state_inquisition = {
+		global_spy_defence = 0.3
+	}
 	defend_the_law = {
-		stability_cost_modifier = -0.1
+		stability_cost_modifier = -0.15
 	}
 	provveditori_ai_beni_inculti = {
 		development_cost = -0.10
