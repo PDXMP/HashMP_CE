@@ -116,6 +116,8 @@ categories =  {
 			4529 4531 # Romania
 			
 			2021 870 4635 868 2478 869 871 4637
+			
+			112 #Venice farmlands from Coastline
 		}		
 	}
 	
@@ -544,7 +546,7 @@ categories =  {
 		terrain_override = {
 			957 962 2554 2561 2578 #n am
 			
-			112
+			#Venice 112
 			487 492 497 498 499 500 501 502
 			982 
 			
