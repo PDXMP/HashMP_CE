@@ -658,7 +658,7 @@ bankruptcy = {
 	idea_cost = 0.5
 	possible_mercenaries = -1.0
 	stability_cost_modifier = 0.5
-	defensiveness = -0.4
+	defensiveness = -0.5
 	reduced_liberty_desire = -10
 }
 
