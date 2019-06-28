@@ -98,4 +98,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1751;226;sea;1293;-1;-1;-1;-1;Ceuta-Gibraltar
 4353;4352;sea;1397;-1;-1;-1;-1;Leyte-Cebu
 4351;4352;sea;1397;-1;-1;-1;-1;Buglas-Cebu
+637;655;sea;1368;-1;-1;-1;-1;Jesselton-Palawan
+2710;2714;sea;1359;-1;-1;-1;-1;Berau-Palu
+2678;2679;sea;1360;-1;-1;-1;-1;Bangka-Belitung
+632;634;sea;1355;-1;-1;-1;-1;Sumbawa-Sumba
+2703;651;sea;1398;-1;-1;-1;-1;Lehad Datu-Sulu
+651;4354;sea;1398;-1;-1;-1;-1;Sulu-Zamboanga
+645;647;sea;1401;-1;-1;-1;-1;Buru-Ceram
+627;631;sea;1354;-1;-1;-1;-1;Blambangan-Bali
 -1;-1;;-1;-1;-1;-1;-1;-1;
