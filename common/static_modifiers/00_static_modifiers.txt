@@ -786,6 +786,7 @@ emperor = {
 	free_leader_pool = 1
 	prestige = 1
 	diplomats = 1
+	heir_chance = 0.50
 }
 
 states_in_hre = {							#bonuses for each non-free city with capital in HRE.. as emperor
