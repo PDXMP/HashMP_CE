@@ -27,6 +27,7 @@ country_decisions = {
 				tag = MCM
 				tag = ORD
 				tag = LEI
+			}
 			OR = {
 				ai = no
 				AND = {

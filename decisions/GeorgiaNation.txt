@@ -23,6 +23,7 @@ country_decisions = {
 			OR = {
 				tag = SME
 				tag = IME
+			}
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
