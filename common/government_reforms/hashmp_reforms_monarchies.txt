@@ -96,7 +96,7 @@ t3_np_2 = { #Well-Advised Army
 		}
 	}
 	modifiers = {
-		mil_advisor_cost = -0.15
+		mil_advisor_cost = -0.2
 	}
 }
 t3_np_ind1 = { #Siddhi Recruitment
