@@ -1,18 +1,18 @@
 #371 - Akureyri
 
-owner = NOR
-controller = NOR
+owner = ICE
+controller = ICE
 add_core = NOR 
 add_core = ICE
 culture = norwegian
 religion = catholic
 hre = no
-base_tax = 1 
-base_production = 1
+base_tax = 3 
+base_production = 2
 trade_goods = fish
-base_manpower = 1
+base_manpower = 2
 capital = "Akureyri"
-add_local_autonomy = 25
+#add_local_autonomy = 25
 is_city = yes	
 
 
