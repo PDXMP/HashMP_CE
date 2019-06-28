@@ -2119,10 +2119,11 @@ GRA_ideas = {
 	}
 	strait_of_gibraltar = {
 		global_own_trade_power = 0.1
-		trade_steering = 0.1
+		galley_power = 0.10
 	}
 	alhambra = {
 		build_cost = -0.1
+		development_cost = -0.1
 	}
 	moors = {
 		global_manpower_modifier = 0.25
