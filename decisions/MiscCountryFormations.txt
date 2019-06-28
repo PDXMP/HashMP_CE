@@ -16,7 +16,10 @@ country_decisions = {
 			NOT = { tag = PRU }
 			NOT = { tag = HSA }
 			NOT = { exists = HAN }
-			primary_culture = hannoverian #Westphalian
+			OR = {
+				primary_culture = hannoverian #Westphalian
+				tag = DAN
+			}
 			is_colonial_nation = no
 			OR = {
 				ai = no
