@@ -10,6 +10,8 @@ historical_rival = BNG
 historical_rival = MER
 historical_rival = BAH
 historical_rival = VIJ
+historical_rival = JNP
+historical_rival = ORI
 add_accepted_culture = rajput
 religious_school = hanafi_school
  
