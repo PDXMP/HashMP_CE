@@ -583,6 +583,9 @@ on_replace_governor = {
 
 # country
 on_bankruptcy = {
+	events = {
+		hashmp.3
+	}
 }
 
 # country (country annexing, root = target)

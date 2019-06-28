@@ -94,3 +94,21 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = hashmp.3
+	title = hashmp.3.t
+	desc = hashmp.3.d
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.3.a
+		add_country_modifier = {
+				name = "h_bankrupt_inflation"
+				duration = 7300
+		}
+	}
+}
+		

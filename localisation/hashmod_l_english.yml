@@ -42,3 +42,8 @@
  ahu_6_desc:0 "The Landsturm consisted of men aged 34 to 55 who belonged to the Austria k.k. Landsturm and the Hungarian k.u. Landsturm. The Landsturm was a reserve force intended to provide replacements for the first line units."
  ahu_7:0 "Austro-Hungarian Tolerance"
  ahu_7_desc:0 "Austria-Hungary was accepting of many religious denominations, with 5 major religious minorities representing at least 5-10% of the population."
+ h_bankrupt_inflation:0 "Financial Upheaval"
+ h_bankrupt_inflation:0 "This province has had its wetlands extensively drained to make way for farmland."
+ hashmp.3.t:0 "Banks in Chaos"
+ hashmp.3.d:0 "Our recent declaration of bankruptcy has damaged the integrity of our financial institutions."
+ hashmp.3.a:0 "Disaster!"

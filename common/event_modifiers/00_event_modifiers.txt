@@ -10543,3 +10543,7 @@ h_dual_monarchy = {
 	promote_culture_cost = -0.2
 	num_accepted_cultures = 1
 }
+
+h_bankrupt_inflation = {
+	interest = 3
+}
