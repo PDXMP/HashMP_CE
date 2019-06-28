@@ -9991,7 +9991,7 @@ TPR_ideas = {
 HAN_ideas = {
 	start = {
 		cavalry_power = 0.15
-		build_cost = -0.1
+		merchants = 1
 	}
 	bonus = {
 		discipline = 0.05
@@ -10011,6 +10011,7 @@ HAN_ideas = {
 		land_maintenance_modifier = -0.1
 	}
 	han_herrenhausen_gardens = {
+		build_cost = -0.1
 		prestige = 1
 	}
 	han_strengthen_the_meiertum = {
@@ -10018,6 +10019,7 @@ HAN_ideas = {
 	}
 	han_hanoverian_chancery = {
 		diplomatic_reputation = 1
+		diplomatic_upkeep = 1
 	}
 	han_kings_legion = {
 		fire_damage_received = -0.1
