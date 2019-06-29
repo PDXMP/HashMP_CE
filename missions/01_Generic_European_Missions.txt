@@ -67,6 +67,13 @@ gen_europe_hre = {
 		NOT = {
 			is_emperor = yes
 		}
+		NOT = {
+			OR = {
+				tag = GEN
+				tag = VEN
+				tag = SWI
+			}
+		}
 	}
 	has_country_shield = no
 	
@@ -127,6 +134,13 @@ gen_europe_hre_ban = {
 		is_part_of_hre = yes
 		NOT = {
 			is_emperor = yes
+		}
+		NOT = {
+			OR = {
+				tag = GEN
+				tag = VEN
+				tag = SWI
+			}
 		}
 	}
 	has_country_shield = no
