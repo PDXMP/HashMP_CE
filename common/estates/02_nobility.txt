@@ -21,7 +21,7 @@ estate_nobles =
 		NOT = { has_reform = peasants_republic }
 		NOT = { has_reform = american_republic }
 		NOT = { has_reform = federal_republic }
-		NOT = { has_reform = t7_lp_1 }
+		#NOT = { has_reform = t7_lp_1 }
 		if = {
 			limit = {
 				NOT = { religion_group = muslim }
@@ -42,7 +42,6 @@ estate_nobles =
 		OR = {
 			NOT = { has_dlc = "Common Sense" }
 			NOT = { has_reform = english_monarchy }
-			}
 		}
 		if = {
 			limit = {
