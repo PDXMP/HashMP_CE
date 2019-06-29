@@ -104,7 +104,7 @@ h_swi_missions = {
 	}
 	has_country_shield = yes
 
-	h_switzerland_mission_1 = {
+	h_switzerland_mission_1 = { #Guilds of Zurich
 		icon = mission_hanseatic_city
 		required_missions = { }
 		position = 1
