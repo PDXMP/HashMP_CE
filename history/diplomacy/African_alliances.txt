@@ -183,12 +183,12 @@ vassal = {
 	end_date = 1641.1.1
 }
 
-vassal = {
-	first = KON
-	second = NDO
-	start_date = 1444.1.1
-	end_date = 1556.1.1
-}
+#vassal = {
+#	first = KON
+#	second = NDO
+#	start_date = 1444.1.1
+#	end_date = 1556.1.1
+#}
 
 vassal = {
 	first = KON
