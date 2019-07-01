@@ -315,7 +315,7 @@ NED_ideas = {
 	}
 	dutch_trading_spirit = {
 		merchants = 1
-		trade_range_modifier = 0.10
+		trade_range_modifier = 0.25
 		range = 0.50
 	}
 	polders = {
@@ -331,7 +331,7 @@ NED_ideas = {
 	}
 	army_sappers = {
 		siege_ability = 0.10
-		discipline = 0.025
+		discipline = 0.03
 	}
 	platoon_fire = {
 		fire_damage = 0.1
