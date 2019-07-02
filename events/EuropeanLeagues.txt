@@ -415,6 +415,7 @@ country_event = {
 				OR = {
 					tag = FRA
 					tag = HAB
+					tag = AHU
 					tag = TUS
 					tag = MLO
 					is_emperor = yes

@@ -16,7 +16,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1550
 		NOT = { is_year = 1650 }
 		
@@ -130,7 +130,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1600
 		NOT = { is_year = 1650 }
 		exists = BOH
@@ -185,7 +185,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1600
 		NOT = { is_year = 1650 }
 		NOT = { has_country_flag = royal_letter_of_bohemia }
@@ -261,7 +261,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1600
 		NOT = { is_year = 1650 }
 		NOT = { stability = 3 }
@@ -293,7 +293,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		any_owned_province = {
 			OR = {
 				area = transdanubia_area
@@ -390,7 +390,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1700
 		NOT = { exists = SLZ }
 		religion = catholic
@@ -429,7 +429,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1741
 		NOT = { is_year = 1794 }
 		government = monarchy
@@ -466,7 +466,7 @@ country_event = {
 	picture = ADVISOR_eventPicture
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1803
 		government = monarchy
 	}
@@ -503,7 +503,7 @@ country_event = {
 	picture = ANGRY_MOB_eventPicture
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		NOT = { exists = HUN }
 		NOT = { religion = protestant }
 		any_owned_province = {
@@ -598,7 +598,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1750
 		NOT = { is_year = 1800 }
 	}
@@ -633,7 +633,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1480
 		NOT = { has_country_modifier = reichshofrat }
 	}
@@ -673,7 +673,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		NOT = { exists = HUN }
 		any_owned_province = {
 			OR = {
@@ -767,7 +767,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1650
 		NOT = { is_year = 1700 }
 		
@@ -881,7 +881,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1750
 		
 	}
@@ -922,7 +922,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1790
 		
 		any_owned_province = {
@@ -1046,7 +1046,7 @@ country_event = {
 #	
 #	fire_only_once = yes
 #	trigger = {
-#		tag = HAB
+#		OR = { tag = HAB tag = AHU }
 #		NOT = { is_year = 1500 }
 #		is_emperor = yes
 #		dynasty = "von Habsburg"
@@ -1097,7 +1097,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_emperor = yes
 		owns = 73		# Tirol
 		is_year = 1480
@@ -1130,7 +1130,7 @@ country_event = {
 	
 	fire_only_once = yes
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1500
 		NOT = { is_year = 1550 }
 		is_emperor = yes
@@ -1167,7 +1167,7 @@ country_event = {
 	
 	fire_only_once = yes
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1450
 		NOT = { is_year = 1550 }
 		owns = 1863		# Graz
@@ -1200,7 +1200,7 @@ country_event = {
 	
 	fire_only_once = yes
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1450
 		NOT = { is_year = 1550 }
 		
@@ -1231,7 +1231,7 @@ country_event = {
 	
 	
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		has_heir = no
 		has_government_attribute = heir
 		is_free_or_tributary_trigger = yes
@@ -1405,7 +1405,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1790
 		NOT = { is_year = 1821 }
 	}
@@ -1432,7 +1432,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1774
 		NOT = { is_year = 1791 }
 	}
@@ -1466,7 +1466,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		exists = FRA
 		is_year = 1490
 		NOT = { is_year = 1590 }
@@ -1596,7 +1596,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		NOT = { exists = HUN }
 		is_year = 1700
 		NOT = {
@@ -1684,7 +1684,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1480
 		NOT = { is_year = 1530 }
 	}
@@ -1718,7 +1718,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		capital = 134
 		is_year = 1575
 		NOT = { is_year = 1620 }
@@ -1752,7 +1752,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		has_country_flag = hab_had_plague_of_vienna
 		owns = 134
 		134 = { NOT = { has_province_modifier = hab_plague_of_vienna } }
@@ -1784,7 +1784,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1670
 		NOT = { is_year = 1700 }
 	}
@@ -1814,7 +1814,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1670
 		NOT = { is_year = 1700 }
 	}
@@ -1853,7 +1853,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1650
 		NOT = { is_year = 1700 }
 		owns = 133
@@ -1889,7 +1889,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		is_year = 1700
 		NOT = { is_year = 1730 }
 		owns = 90
@@ -1948,7 +1948,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = HAB
+		OR = { tag = HAB tag = AHU }
 		has_country_modifier = hab_ostende_company
 	}
 
