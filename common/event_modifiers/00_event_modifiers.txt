@@ -10540,7 +10540,7 @@ h_janissary_decadence = {
 }
 
 h_dual_monarchy = {
-	promote_culture_cost = -0.2
+	promote_culture_cost = -0.5
 	num_accepted_cultures = 1
 }
 
