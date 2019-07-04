@@ -175,15 +175,15 @@ orthodox_rebels = {
 			}
 			add_stability = -1
 		}
-		else_if = {
-			limit = {
-				NOT = { religion = orthodox }
-				dominant_religion = orthodox
-				NOT = { tag = PAP }
-			}
-			change_religion = orthodox
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = orthodox }
+		#		dominant_religion = orthodox
+		#		NOT = { tag = PAP }
+		#	}
+		#	change_religion = orthodox
+		#	force_converted = yes
+		#}
 		else_if = {
 			limit = {
 				religion = orthodox
@@ -196,7 +196,7 @@ orthodox_rebels = {
 		else_if = {
 			limit = {
 				NOT = { religion = orthodox }
-				NOT = { dominant_religion = orthodox }
+				#NOT = { dominant_religion = orthodox }
 				religion_group = christian
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
