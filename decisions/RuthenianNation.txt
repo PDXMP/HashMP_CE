@@ -76,10 +76,6 @@ country_decisions = {
 					dip = 5
 				}
 			}
-			OR = {
-				primary_culture = byelorussian
-				primary_culture = ruthenian
-			}
 		}
 		effect = {
 			280 = {
