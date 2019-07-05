@@ -2254,7 +2254,7 @@ ORI_ideas = {
 PUN_ideas = {
 	start = {
 		religious_unity = 0.25	#melting pot of religions
-		land_morale = 0.10
+		recover_army_morale_speed = 0.05
 	}
 
 	bonus = {
@@ -2285,7 +2285,7 @@ PUN_ideas = {
 		cavalry_cost = -0.10
 	}
 	reforming_the_punjabi_army = {
-		discipline = 0.05
+		land_morale = 0.15
 	}
 }
 
