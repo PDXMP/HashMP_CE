@@ -10099,9 +10099,8 @@ KHO_ideas = {
 
 TRS_ideas = {
 	start = {
-
-		cavalry_power = 0.2
-		cavalry_cost = -0.1
+		land_morale = 0.1
+		shock_damage_received = -0.1
 	}
 	bonus = {
 		idea_cost = -0.1
@@ -10112,7 +10111,7 @@ TRS_ideas = {
 	free = yes
 	
 	trs_mawarannahr = {
-		land_morale = 0.1
+		cavalry_power = 0.2
 	}
 	trs_threshold_of_paradise = {
 		prestige = 1
@@ -10124,10 +10123,10 @@ TRS_ideas = {
 		artillery_cost = -0.15
 	}
 	trs_scientific_patronage = {
-		technology_cost = -0.10
+		technology_cost = -0.05
 	}
 	trs_entrepot_of_the_silk_road = {
-		global_own_trade_power = 0.25
+		global_own_trade_power = 0.2
 	}
 	chagatai_literature = {
 		#Same as Timurids
