@@ -12220,7 +12220,7 @@ NAG_ideas = {
 MER_ideas = {
 	start = {	
 		infantry_power = 0.1
-		infantry_cost = -0.2
+		infantry_cost = -0.1
 	}
 	bonus = {
 		war_exhaustion = -0.03		
@@ -12230,20 +12230,20 @@ MER_ideas = {
 	}
 	free = yes
 	
-	mer_rajput_heartland = {
-		army_tradition_decay = -0.01
-	}
 	mer_victory_tower = {
 		prestige = 1
+	}
+	mer_rajput_heartland = {
+		legitimacy = 1
 	}
 	mer_kumbhalgarh = {
 		defensiveness = 0.15
 	}
 	mer_city_of_lakes = {
-		development_cost = -0.1
+		global_unrest = -1
 	}
 	mer_recall_purbias = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.1
 	}
 	mer_firearm_drilling = {
 		fire_damage = 0.1
