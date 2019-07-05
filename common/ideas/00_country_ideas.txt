@@ -1339,7 +1339,7 @@ VIJ_ideas = {
 	}
 	
 	bonus = {
-		possible_mercenaries = 0.33
+		possible_mercenaries = 0.25
 	}
 	
 	trigger = {
