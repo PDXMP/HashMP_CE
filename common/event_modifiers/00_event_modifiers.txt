@@ -10288,7 +10288,7 @@ rajputs_curtailed_modifier = {
 }
 
 maratha_benign_neglect = {
-	local_manpower_modifier = 0.25
+	local_manpower_modifier = 0.15
 }
 
 # Investment events
