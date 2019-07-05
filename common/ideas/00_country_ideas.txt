@@ -12161,10 +12161,10 @@ RJP_ideas = {
 		core_creation = -0.1
 	}
 	rjp_land_of_petty_princes = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.1
 	}
 	marwari_horses = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 		movement_speed = 0.1
 	}
 	rjp_purbia_legacy = {
