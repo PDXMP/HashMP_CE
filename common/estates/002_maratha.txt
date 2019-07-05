@@ -554,7 +554,7 @@ estate_maratha = {
 					}
 				}
 				define_advisor = {
-					type = commandant
+					type = recruitmaster
 					skill = 2
 					culture = marathi
 					religion = hinduism
@@ -790,7 +790,7 @@ estate_maratha = {
 			}
 			add_estate_loyalty = {
 				estate = estate_maratha
-				loyalty = 25
+				loyalty = 15
 			}
 			add_estate_influence_modifier = {
 				estate = estate_maratha
