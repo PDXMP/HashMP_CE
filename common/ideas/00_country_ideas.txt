@@ -3402,7 +3402,7 @@ AFG_ideas = {
 	}
 	
 	bonus = {
-		global_own_trade_power = 0.1
+		global_own_trade_power = 0.2
 	}
 	
 	trigger = {
@@ -3415,7 +3415,7 @@ AFG_ideas = {
 		cavalry_flanking = 0.50
 	}
 	pashtunwali = {
-		war_exhaustion_cost = -0.10
+		war_exhaustion_cost = -0.15
 	}
 	shadows_of_the_hindu_kush = {
 		defensiveness = 0.25
