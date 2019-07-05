@@ -64,7 +64,7 @@ estate_vaisyas = {
 	# These do not scale, but only applied in provinces owned by the estate
 	province_modifier_happy = {
 		trade_value_modifier = 0.1
-		local_development_cost = -0.2
+		local_development_cost = -0.1
 	}
 	province_modifier_neutral = {
 		trade_value_modifier = 0.1
