@@ -889,7 +889,7 @@ recovery_motivation = {
 	army_tradition = 1.5
 	navy_tradition = 1.5
 	global_unrest = -3
-	interest = -1
+	#interest = -1
 	horde_unity = 10
 }
 
