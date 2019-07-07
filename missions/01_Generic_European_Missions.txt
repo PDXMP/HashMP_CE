@@ -89,7 +89,7 @@ gen_europe_hre = {
 					all_elector = {
 						preferred_emperor = ROOT
 					}
-					amount = 2
+					amount = 5
 				}
 			}
 		}
