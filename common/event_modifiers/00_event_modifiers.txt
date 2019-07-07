@@ -10077,8 +10077,8 @@ marathi_poet_saint_suppressed = {
 }
 
 bargi_giri = {
-	cavalry_power = 0.15
-	movement_speed = 0.15
+	cavalry_power = 0.10
+	movement_speed = 0.10
 }
 
 marathi_expensive_horses = {
