@@ -132,31 +132,31 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			hindusthan_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			west_india_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			deccan_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			coromandel_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			add_prestige = 10
 			set_country_flag = formed_india_flag
@@ -248,31 +248,31 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			hindusthan_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			west_india_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			deccan_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			coromandel_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			set_country_flag = formed_india_flag
 			add_prestige = 10
@@ -374,31 +374,31 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			hindusthan_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			west_india_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			deccan_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			coromandel_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			set_country_flag = formed_india_flag
 			add_prestige = 10
@@ -545,31 +545,31 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			hindusthan_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			west_india_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			deccan_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			coromandel_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			set_country_flag = formed_india_flag
 			add_prestige = 10
@@ -716,31 +716,31 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			hindusthan_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			west_india_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			deccan_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			coromandel_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = BHA
+				add_claim = BHA
 			}
 			set_country_flag = formed_india_flag
 			add_prestige = 10
