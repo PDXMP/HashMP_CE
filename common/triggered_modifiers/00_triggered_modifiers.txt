@@ -91,10 +91,7 @@ t_cn_army_1 = {
 		is_colonial_nation = yes
 	}
 	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
+		was_player = yes
 		army_size = 60
 	}
 	reinforce_cost_modifier = 0.1
@@ -107,10 +104,7 @@ t_cn_army_2 = {
 		is_colonial_nation = yes
 	}
 	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
+		was_player = yes
 		army_size = 120
 	}
 	reinforce_cost_modifier = 0.1
@@ -123,10 +117,7 @@ t_cn_army_3 = {
 		is_colonial_nation = yes
 	}
 	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
+		was_player = yes
 		army_size = 180
 	}
 	reinforce_cost_modifier = 0.1
@@ -139,10 +130,7 @@ t_cn_army_4 = {
 		is_colonial_nation = yes
 	}
 	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
+		was_player = yes
 		army_size = 240
 	}
 	reinforce_cost_modifier = 0.1
@@ -155,10 +143,7 @@ t_cn_army_5 = {
 		is_colonial_nation = yes
 	}
 	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
+		was_player = yes
 		army_size = 300
 	}
 	reinforce_cost_modifier = 0.1
@@ -171,10 +156,7 @@ t_cn_navy_1 = {
 		is_colonial_nation = yes
 	}
 	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
+		was_player = yes
 		navy_size = 40
 	}
 	sailor_maintenance_modifer = 0.1
@@ -188,10 +170,7 @@ t_cn_navy_2 = {
 		is_colonial_nation = yes
 	}
 	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
+		was_player = yes
 		navy_size = 80
 	}
 	sailor_maintenance_modifer = 0.1
@@ -205,10 +184,7 @@ t_cn_navy_3 = {
 		is_colonial_nation = yes
 	}
 	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
+		was_player = yes
 		navy_size = 120
 	}
 	sailor_maintenance_modifer = 0.1
@@ -222,10 +198,7 @@ t_cn_navy_4 = {
 		is_colonial_nation = yes
 	}
 	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
+		was_player = yes
 		navy_size = 160
 	}
 	sailor_maintenance_modifer = 0.1
@@ -239,10 +212,7 @@ t_cn_navy_5 = {
 		is_colonial_nation = yes
 	}
 	trigger = {
-		OR = {
-			ai = yes
-			was_player = yes
-		}
+		was_player = yes
 		navy_size = 200
 	}
 	sailor_maintenance_modifer = 0.1
