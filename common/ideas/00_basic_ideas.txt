@@ -288,8 +288,8 @@ defensive_ideas = {
 		reinforce_speed = 0.20
 	}
 	regimental_system = {
-		land_maintenance_modifier = -0.05
-		naval_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.075
+		naval_maintenance_modifier = -0.075
 	}
 	defensive_mentality = {
 		defensiveness = 0.1
