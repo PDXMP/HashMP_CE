@@ -430,7 +430,7 @@ exploration_ideas = {
 
 	bonus = {
 		cb_on_primitives = yes
-		colonist_placement_chance = 0.05		
+		colonist_placement_chance = 0.03		
 	}
 
 	quest_for_the_new_world	= {
@@ -767,7 +767,7 @@ expansion_ideas = {
 	}
 	faster_colonists = {
 		colonists = 1
-		colonist_placement_chance = 0.05
+		colonist_placement_chance = 0.03
 	}
 	improved_shipyards  = {
 		manpower_recovery_speed = 0.1
