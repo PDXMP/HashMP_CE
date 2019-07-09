@@ -100,7 +100,7 @@ innovativeness_ideas = {
 	}
 	
 	patron_of_art  = {
-		technology_cost = -0.1
+		global_institution_spread = 0.5
 		embracement_cost = -0.25
 	}
 	pragmatism = {
@@ -108,10 +108,10 @@ innovativeness_ideas = {
 		mercenary_cost = -0.1
 	}
 	scientific_revolution = {
-		global_institution_spread = 0.5
+		technology_cost = -0.1
 	}
 	dynamic_court = {
-		possible_mercenaries = 0.35
+		possible_mercenaries = 0.25
 	}
 	resilient_state = {
 		drill_gain_modifier = 0.25
