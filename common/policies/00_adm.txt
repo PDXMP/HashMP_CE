@@ -634,7 +634,7 @@ colonial_administration_act = {
 	}
 	
 	global_colonial_growth = 15
-	colonist_placement_chance = 0.05
+	colonist_placement_chance = 0.03
 	
 	ai_will_do = {
 		factor = 1

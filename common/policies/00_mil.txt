@@ -441,7 +441,7 @@ letters_of_marque = {
 		full_idea_group = exploration_ideas
 	}
 	
-	colonist_placement_chance = 0.05
+	colonist_placement_chance = 0.03
 	naval_morale = 0.05
 	
 	ai_will_do = {
