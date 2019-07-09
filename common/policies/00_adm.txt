@@ -688,7 +688,7 @@ land_inheritance_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	global_prov_trade_power_modifier = 0.15
+	global_prov_trade_power_modifier = 0.2
 	infantry_cost = -0.075
 	
 	ai_will_do = {
