@@ -1056,8 +1056,8 @@ harbour_administration = {
 		full_idea_group = administrative_ideas
 	}	
 	
+	global_ship_repair = 0.33
 	trade_efficiency = 0.10
-	global_ship_repair = 0.3
 	
 	ai_will_do = {
 		factor = 1
