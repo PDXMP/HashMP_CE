@@ -820,7 +820,7 @@ administrative_ideas = {
 	}
 
 	organised_mercenary_payment = {
-		global_prov_trade_power_modifier = 0.20
+		global_prov_trade_power_modifier = 0.25
 	}
 	adaptability = {
 		merchants = 1
@@ -831,7 +831,7 @@ administrative_ideas = {
 	}
 	bookkeeping = {
 		stability_cost = -0.15
-		reform_progress_growth = 0.25
+		reform_progress_growth = 0.3
 	}
 	organised_mercenary_recruitment = {
 		state_maintenance_modifier = -0.25
