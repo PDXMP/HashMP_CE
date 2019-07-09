@@ -227,7 +227,7 @@ superior_supply_system = {
 }
 
 
-modern_siege_weapons = {
+the_liberation_act = {
 	monarch_power = MIL
 	
 	potential = {
@@ -244,7 +244,7 @@ modern_siege_weapons = {
 		full_idea_group = offensive_ideas
 	}
 	
-	backrow_artillery_damage = 0.1
+	land_forcelimit_modifier = 0.25
 
 	ai_will_do = {
 		factor = 1

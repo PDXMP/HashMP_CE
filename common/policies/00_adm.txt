@@ -958,7 +958,7 @@ enlightened_aristocracy = {
 	}
 }
 
-the_liberation_act = {
+modern_siege_weapons = {
 	monarch_power = MIL
 	
 	potential = {
@@ -975,7 +975,7 @@ the_liberation_act = {
 		full_idea_group = offensive_ideas
 	}	
 	
-	land_forcelimit_modifier = 0.25
+	backrow_artillery_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
