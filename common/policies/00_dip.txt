@@ -16,7 +16,7 @@ the_statute_of_monopolies = {
 		full_idea_group = economic_ideas
 	}
 
-	interest = -0.25
+	inflation_reduction = 0.05
 	trade_efficiency = 0.10
 
 
