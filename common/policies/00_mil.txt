@@ -16,7 +16,7 @@ the_provincial_taxation_system = {
 		full_idea_group = quantity_ideas
 	}
 	
-	land_maintenance_modifier = -0.05
+	land_maintenance_modifier = -0.075
 	manpower_recovery_speed = 0.15
 	
 	ai_will_do = {
