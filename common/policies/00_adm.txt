@@ -1004,7 +1004,7 @@ visionary_thinkers = {
 	}	
 	
 	army_tradition_from_battle = 0.5
-	yearly_army_professionalism = 0.002
+	yearly_army_professionalism = 0.0025
 	
 	ai_will_do = {
 		factor = 1
