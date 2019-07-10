@@ -170,6 +170,7 @@ is_possible_hre_province = {
 				region = italy_region
 				region = north_german_region
 				region = south_german_region
+				area = silesia_area
 				area = jutland_area
 				area = denmark_area
 				area = west_prussia_area
