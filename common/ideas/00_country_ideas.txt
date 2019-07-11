@@ -391,7 +391,7 @@ FRA_ideas = {
 	}
 	
 	bonus = {
-		discipline = 0.05
+		fire_damage = 0.10
 	}	
 
 	trigger = {
@@ -404,7 +404,7 @@ FRA_ideas = {
 	}
 	elan = {
 		land_morale = 0.15
-		fire_damage = 0.10
+		discipline = 0.05
 	}
 	estates_general = {
 		global_tax_modifier = 0.2
