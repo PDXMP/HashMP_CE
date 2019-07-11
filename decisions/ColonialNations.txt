@@ -4,6 +4,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			has_reform = colonial_government
+			always = no
 			NOT = { has_country_flag = colonial_assembly }
 			OR = {
 				current_age = age_of_absolutism
