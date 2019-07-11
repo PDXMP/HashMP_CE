@@ -19,6 +19,7 @@ country_decisions = {
 			OR = {
 				primary_culture = hannoverian #Westphalian
 				tag = DAN
+				tag = HES
 			}
 			is_colonial_nation = no
 			OR = {
