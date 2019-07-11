@@ -1377,6 +1377,7 @@ ruthenian_ideas = {
 		OR = {
 			primary_culture = ruthenian
 			primary_culture = byelorussian
+			tag = UKR
 		}
 	}
 	free = yes
