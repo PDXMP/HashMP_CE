@@ -186,6 +186,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
 				hidden = yes
 				culture = event_target:noble_province
 			}
@@ -193,6 +196,9 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
 				hidden = yes
 			}
 		}
@@ -270,6 +276,9 @@ country_event = {
 				define_heir = { 
 					dynasty = PREV 
 					age = 35
+					ADM = 1
+					DIP = 1
+					MIL = 1
 					culture = PREV
 					hidden = yes
 				} 
@@ -328,6 +337,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
 				hidden = yes
 				culture = event_target:burgher_province
 			}
@@ -335,6 +347,9 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
 				hidden = yes
 			}
 		}
@@ -391,6 +406,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
 				hidden = yes
 				culture = event_target:church_province
 			}
@@ -398,6 +416,9 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
 				hidden = yes
 			}
 		}
@@ -467,6 +488,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
 				hidden = yes
 				culture = event_target:church_province
 			}
@@ -474,6 +498,9 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
 				hidden = yes
 			}
 		}
@@ -521,6 +548,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
 				culture = event_target:papal_protoge_country
 				hidden = yes
 			}
@@ -528,6 +558,9 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
 				hidden = yes
 			}
 		}
@@ -561,6 +594,9 @@ country_event = {
 		}		
 		define_heir = {
 			age = 35
+			ADM = 1
+			DIP = 1
+			MIL = 1
 			hidden = yes
 		}
 		add_devotion = 10
@@ -597,6 +633,9 @@ country_event = {
 		}
 		define_heir = {
 			age = 35
+			ADM = 1
+			DIP = 1
+			MIL = 1
 			hidden = yes
 		}
 		if = { 
