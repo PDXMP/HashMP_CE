@@ -710,7 +710,7 @@ german_ideas = {
 	}
 	
 	bonus = {
-		global_manpower_modifier = 0.10
+		global_unrest = -1
 	}
 	
 	trigger = {
@@ -723,13 +723,12 @@ german_ideas = {
 	}
 	fruhlings_und_herbstmesse = {
 		global_own_trade_power = 0.10
-		trade_efficiency = 0.10
 	}
 	reichskreis = {
-		development_cost = -0.10
+		build_cost = -0.10
 	}
 	polizeiordnung = {
-		discipline = 0.05
+		global_manpower_modifier = 0.10
 	}
 	cuius_regio_eius_religio = {
 		global_missionary_strength = 0.02
