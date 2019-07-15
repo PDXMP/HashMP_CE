@@ -166,8 +166,8 @@ gen_europe_hre_ban = {
 		}
 		
 		effect = {
-			add_prestige = 10
-			add_imperial_influence = 10
+			add_prestige = 15
+			#add_imperial_influence = 10
 			add_country_modifier = {
 				name = "gen_hre_imperial_ban_mod"
 				duration = 5475
