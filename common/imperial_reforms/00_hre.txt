@@ -1,12 +1,12 @@
 reichsreform = {
 	empire = hre
 	member = {
-		global_tax_income = 12
-		global_autonomy = -0.02
+		global_tax_income = 6
+		global_autonomy = -0.025
 	}
 	emperor = {
-		global_tax_income = 24
-		global_autonomy = -0.02
+		global_tax_income = 18
+		global_autonomy = -0.025
 		global_manpower = 5
 	}
 	on_effect = {
@@ -33,14 +33,12 @@ reichsregiment = {
 hofgericht = { 
 	empire = hre
 	member = {
-		global_tax_income = 18
-		legitimacy = 0.5
-		republican_tradition = 0.1
+		global_tax_modifier = 0.075
+		build_cost = -0.075
 	}
 	emperor = {
-		global_tax_income = 36
-		legitimacy = 0.5
-		republican_tradition = 0.1
+		global_tax_modifier = 0.15
+		build_cost = -0.1
 		global_manpower = 5
 	}
 }
@@ -48,12 +46,14 @@ hofgericht = {
 gemeinerpfennig = {
 	empire = hre
 	member = {
-		global_tax_modifier = 0.075
-		build_cost = -0.1
+		global_tax_income = 12
+		legitimacy = 0.5
+		republican_tradition = 0.1
 	}
 	emperor = {
-		global_tax_modifier = 0.15
-		build_cost = -0.1
+		global_tax_income = 24
+		legitimacy = 0.5
+		republican_tradition = 0.1
 		global_manpower = 5
 	}
 }
@@ -67,7 +67,6 @@ landfriede = {
 	emperor = {
 		army_tradition = 0.5
 		prestige = 0.5
-		imperial_authority = 0.1
 		global_manpower = 5
 	}
 	on_effect = {
@@ -108,7 +107,7 @@ privilegia_de_non_appelando = {
 #	war = yes			#this may cause a war, so special AI check needed, to not lose many.
 	
 	member = {
-		infantry_power = 0.10
+		infantry_power = 0.075
 		land_morale = 0.05
 	}
 	emperor = {
