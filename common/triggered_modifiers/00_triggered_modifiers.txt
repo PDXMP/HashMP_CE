@@ -245,6 +245,7 @@ t_hre_elector_1 = {
 	land_morale = 0.05
 	advisor_cost = -0.075
 	global_manpower = 4
+	global_tax_income = 6
 }
 
 t_hre_elector_2 = {
@@ -268,6 +269,7 @@ t_hre_elector_2 = {
 	land_morale = 0.05
 	advisor_cost = -0.125
 	global_manpower = 7
+	global_tax_income = 6
 }
 
 t_hre_elector_3 = {
@@ -288,6 +290,7 @@ t_hre_elector_3 = {
 	land_morale = 0.05
 	advisor_cost = -0.15
 	global_manpower = 10
+	global_tax_income = 6
 }
 
 t_hre_strongemperor = {
