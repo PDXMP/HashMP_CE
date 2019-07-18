@@ -1,7 +1,7 @@
 #2221 - Mashhad
 
-owner = TIM
-controller = TIM
+owner = KHO
+controller = KHO
 culture = khorasani
 religion = shiite
 capital = "Mashhad"

@@ -1,7 +1,7 @@
 #4326 - Nishapur
 
-owner = TIM
-controller = TIM
+owner = KHO
+controller = KHO
 culture = khorasani
 religion = sunni
 capital = "Nishapur"
