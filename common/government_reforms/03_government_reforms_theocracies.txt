@@ -67,7 +67,7 @@ internal_mission_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		tolerance_own = 1
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.15
 	}
 }
 
