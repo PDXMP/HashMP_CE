@@ -31,17 +31,6 @@
 
 t_free_colonist = {
 	potential = {
-			NOT = { tag = TUR }
-			NOT = {
-				capital_scope = {
-					continent = asia
-				}
-			}	
-			NOT = {
-				capital_scope = {
-					continent = oceania
-				}
-			}	
 			NOT = {
 				capital_scope = {
 					continent = north_america
@@ -58,8 +47,13 @@ t_free_colonist = {
 		}
 
 	trigger = {
-		capital_scope = { continent = europe }
-		has_institution = new_world_i
+		OR = {
+			AND = {
+				capital_scope = { continent = europe }
+				has_institution = new_world_i
+			}
+			has_institution = global_trade
+		}
 		was_player = yes
 	}
 	
