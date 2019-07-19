@@ -103,13 +103,13 @@ country_decisions = {
 				}
 				add_permanent_claim = ARB
 			}
-			egypt_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					NOT = { area = lower_nubia_area }
-				}
-				add_permanent_claim = ARB
-			}
+			#egypt_region = {
+			#	limit = {
+			#		NOT = { owned_by = ROOT }
+			#		NOT = { area = lower_nubia_area }
+			#	}
+			#	add_permanent_claim = ARB
+			#}
 			arabia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
