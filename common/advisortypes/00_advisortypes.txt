@@ -36,9 +36,9 @@ natural_scientist = {
 	
 	# Bonus
 	production_efficiency = 0.10
-	
-	skill_scaled_modifier = { meritocracy = 0.5 }
-	
+
+	skill_scaled_modifier = { meritocracy = 0.5 }	
+
 	chance = {
 		factor = 1
 	}
@@ -54,9 +54,9 @@ artist = {
 	
 	# Bonus
 	stability_cost_modifier = -0.15
-	
-	skill_scaled_modifier = { meritocracy = 0.5 }
-	
+
+	skill_scaled_modifier = { meritocracy = 0.5 }	
+
 	chance = {
 		factor = 1
 	}
@@ -73,8 +73,8 @@ treasurer = {
 	# Bonus
 	global_tax_modifier = 0.1
 	
-	skill_scaled_modifier = { meritocracy = 0.5 }
-	
+	skill_scaled_modifier = { meritocracy = 0.5 }	
+
 	chance = {
 		factor = 1
 	}
@@ -257,9 +257,9 @@ diplomat = {
 	
 	# Bonus
 	improve_relation_modifier = 0.2
-		
-	skill_scaled_modifier = { meritocracy = 0.5 }
-	
+
+	skill_scaled_modifier = { meritocracy = 0.5 }	
+
 	chance = {
 		factor = 1
 	}
@@ -302,9 +302,9 @@ army_reformer = {
 	
 	# Bonus
 	land_morale = 0.10
-	
-	skill_scaled_modifier = { meritocracy = 0.5 }
-	
+
+	skill_scaled_modifier = { meritocracy = 0.5 }	
+
 	chance = {
 		factor = 1
 	}
