@@ -47,20 +47,21 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 358			#Alexandria
-				province_id = 361			#Cairo
-				province_id = 377			#Aleppo
-				province_id = 379			#Jerusalem
-				province_id = 382			#Damascus
-				province_id = 384			#Medina
-				province_id = 385			#Mecca
-				province_id = 388			#Aden
-				province_id = 390			#Sanaa
-				province_id = 392			#Al-Arid
-				province_id = 394			#Qatif
-				province_id = 400			#Muscat
-				province_id = 403			#Nizwa
-				province_id = 410			#Baghdad
+				area = medina_area
+				area = mecca_area
+				area = asir_area
+				area = tihama_al_yemen_area
+				area = upper_yemen_area
+				area = yemen_area
+				area = mahra_area
+				area = hadramut_area
+				area = bahrain_area
+				area = oman_area
+				area = pirate_coast_area
+				area = dhofar_area
+				area = mascat_area
+				area = qasim_area
+				area = yamamah_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -70,20 +71,21 @@ country_decisions = {
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
-			owns_core_province = 358			#Alexandria
-			owns_core_province = 361			#Cairo
-			owns_core_province = 377			#Aleppo
-			owns_core_province = 379			#Jerusalem
-			owns_core_province = 382			#Damascus
-			owns_core_province = 384			#Medina
-			owns_core_province = 385			#Mecca
-			owns_core_province = 388			#Aden
-			owns_core_province = 390			#Sanaa
-			owns_core_province = 392			#Al-Arid
-			owns_core_province = 394			#Qatif
-			owns_core_province = 400			#Muscat
-			owns_core_province = 403			#Nizwa
-			owns_core_province = 410			#Baghdad
+			medina_area = { type = all owned_by = ROOT }
+			mecca_area = { type = all owned_by = ROOT }
+			asir_area = { type = all owned_by = ROOT }
+			tihama_al_yemen_area = { type = all owned_by = ROOT }
+			upper_yemen_area = { type = all owned_by = ROOT }
+			yemen_area = { type = all owned_by = ROOT }
+			mahra_area = { type = all owned_by = ROOT }
+			hadramut_area = { type = all owned_by = ROOT }
+			bahrain_area = { type = all owned_by = ROOT }
+			oman_area = { type = all owned_by = ROOT }
+			pirate_coast_area = { type = all owned_by = ROOT }
+			dhofar_area = { type = all owned_by = ROOT }
+			mascat_area = { type = all owned_by = ROOT }
+			qasim_area = { type = all owned_by = ROOT }
+			yamamah_area = { type = all owned_by = ROOT }
 		}
 		effect = {
 			remove_non_electors_emperors_from_empire_effect = yes
