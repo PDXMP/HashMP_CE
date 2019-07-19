@@ -70,10 +70,7 @@ tim_reconquest_persia = {
 						}
 					}
 				}
-				OR = {
-					war_with = TIM
-					is_subject = no
-				}
+				war_with = TIM
 			}
 			else_if = {
 				limit = {
