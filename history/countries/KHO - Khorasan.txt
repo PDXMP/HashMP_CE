@@ -5,7 +5,8 @@ add_accepted_culture = persian
 religion = shiite
 technology_group = muslim
 #capital = 446	# Herat
-capital = 2214 #Astarabad
+#capital = 2214 #Astarabad
+capital = 4341 #Sari
 
 1444.1.1 = { #At start this represents Astarabad, with alegience to Babur bin Baysunkur.
 	#capital = 2214 #Astarabad
