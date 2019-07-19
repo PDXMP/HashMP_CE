@@ -599,7 +599,7 @@ negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mand
 	global_trade_goods_size_modifier = -0.1
 	fire_damage_received = 0.1
 	shock_damage_received = 0.1
-	global_unrest = 5
+	global_unrest = 3
 	possible_mercenaries = -0.33
 }
 
