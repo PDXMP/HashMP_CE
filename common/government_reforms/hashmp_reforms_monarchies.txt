@@ -500,7 +500,7 @@ become_a_republic_reform = {
 	}
 	effect = {
 		set_country_flag = populists_in_government
-		lose_reforms = 3
+		lose_reforms = 2
 		change_government = republic
 	}
 	ai = {
