@@ -8,6 +8,7 @@ religion = confucianism
 capital = "Gaizhou"
 trade_goods = fish
 hre = no
+center_of_trade = 1
 base_tax = 3 
 base_production = 3
 base_manpower = 1
