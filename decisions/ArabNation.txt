@@ -21,8 +21,29 @@ country_decisions = {
 					ai = no
 				}
 			}
-			culture_group = turko_semitic #Arabic
-			NOT = { primary_culture = turkish }
+			OR = {
+			tag = SHR
+			tag = YAS
+			tag = ORM
+			tag = OMA
+			tag = ALH
+			tag = BSR
+			tag = SHM
+			tag = NAJ
+			tag = DAW
+			tag = FAD
+			tag = ANZ
+			tag = MDA
+			tag = HED
+			tag = MFL
+			tag = RAS
+			tag = NJR
+			tag = HDR
+			tag = MHR
+			tag = ADE
+			tag = YEM
+			tag = RAS
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
