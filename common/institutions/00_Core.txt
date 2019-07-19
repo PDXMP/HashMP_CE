@@ -892,6 +892,11 @@ printing_press = {
 	
 	can_start = {
 		is_year = 1550
+		OR = {
+			continent = europe
+			continent = asia
+			continent = africa
+		}
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
@@ -1499,6 +1504,11 @@ manufactories = {
 	
 	can_start = {
 		is_year = 1650
+		OR = {
+			continent = europe
+			continent = asia
+			continent = africa
+		}
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
@@ -1969,6 +1979,11 @@ enlightenment = {
 	
 	can_start = {
 		is_year = 1700
+		OR = {
+			continent = europe
+			continent = asia
+			continent = africa
+		}
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
