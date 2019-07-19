@@ -31,9 +31,9 @@ capital = 2214 #Astarabad
 		birth_date = 1444.1.1
 		death_date = 1457.1.1
 		claim = 95
-		adm = 1
-		dip = 2
-		mil = 1
+		adm = 4
+		dip = 3
+		mil = 3
 	}
 }
 
