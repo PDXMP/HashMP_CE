@@ -856,7 +856,11 @@ administrative_ideas = {
 
 humanist_ideas = {
 	category = ADM
-
+	
+	trigger = {
+		was_player = yes
+	}
+		
 	bonus = {
 		development_cost = -0.10
 	}
@@ -885,20 +889,24 @@ humanist_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.8
-		modifier = {
-			factor = 0
-			has_idea_group = religious_ideas
-		}
-		modifier = {
-			factor = 5
-			is_colonial_nation = yes
-		}
+		factor = 0
+		#modifier = {
+		#	factor = 0
+		#	has_idea_group = religious_ideas
+		#}
+		#modifier = {
+		#	factor = 5
+		#	is_colonial_nation = yes
+		#}
 	}
 }
 
 influence_ideas = {
 	category = DIP
+	
+	trigger = {
+		was_player = yes
+	}
 
 	bonus = {
 		vassal_forcelimit_bonus = 1.0
@@ -930,15 +938,15 @@ influence_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.8
-		modifier = {
-			factor = 1.5
-			is_emperor = yes
-		}
-		modifier = {
-			factor = 2
-			num_of_vassals = 2
-		}
+		factor = 0
+		#modifier = {
+		#	factor = 1.5
+		#	is_emperor = yes
+		#}
+		#modifier = {
+		#	factor = 2
+		#	num_of_vassals = 2
+		#}
 	}
 }
 
