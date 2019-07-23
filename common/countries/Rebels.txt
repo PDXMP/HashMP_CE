@@ -9,9 +9,9 @@ historical_idea_groups = {
 	administrative_ideas
 	quantity_ideas
 	defensive_ideas	
-	humanist_ideas
+	religious_ideas
 	trade_ideas
-	quality_ideas
+	plutocracy_ideas
 	economic_ideas	
 	maritime_ideas
 }
