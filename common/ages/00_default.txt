@@ -519,9 +519,11 @@ age_of_absolutism = {
 	abilities = {
 	
 		ab_allow_edict_of_absolutism = {
-			effect = {
-				custom_tooltip = edict_of_absolutism_tt
-				set_country_flag = edict_of_absolutism
+			modifier = {
+				legitimacy = 1
+				devotion = 1
+				republican_tradition = 0.2
+				horde_unity = 1
 			}
 			ai_will_do = {
 				factor = 10
