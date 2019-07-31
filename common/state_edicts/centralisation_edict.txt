@@ -8,7 +8,6 @@ edict_centralization_effort = {
 	}
 	
 	modifier = {
-		local_autonomy = -0.03
 		local_monthly_devastation = -0.33
 	}
 	
