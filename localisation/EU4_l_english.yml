@@ -413,7 +413,7 @@
  edict_encourage_development:0 "Encourage Development"
  edict_defensive_edict:0 "Defensive Edict"
  edict_advancement_effort:0 "Advancement Effort"
- edict_centralization_effort:0 "Centralization Effort"
+ edict_centralization_effort:0 "Reconstruction Effort"
  edict_feudal_de_jure_law:0 "Feudal De Jure Law"
  edict_feudal_de_jure_law_tooltip:0 "Requires '§YFeudal De Jure Law§!' from Age of Discovery."
  edict_religion_enforced:0 "Religion Enforced"
