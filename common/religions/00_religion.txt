@@ -99,12 +99,12 @@ christian = {
 			indulgence_for_sins = {
 				cost = 50
 				potential = {
-					government = monarchy
+					#government = monarchy
 					NOT = { tag = PAP }
 				}
 				allow = {
 					NOT = { war_with = PAP }
-					NOT = { legitimacy = 100 }
+					#NOT = { legitimacy = 100 }
 					NOT = { has_country_modifier = papal_indulgence }
 				}
 				effect = {
