@@ -1,7 +1,7 @@
 #525 - Gird
 
-owner = GWA
-controller = GWA
+owner = MER
+controller = MER
 culture = vindhyan
 religion = hinduism
 capital = "Gwalior"
@@ -12,9 +12,11 @@ base_production = 3
 base_manpower = 2
 is_city = yes
 add_core = GWA
+add_core = MER
 fort_15th = yes #"Gibraltar of India"
 discovered_by = indian
-discovered_by = muslimdiscovered_by = ottoman
+discovered_by = muslim
+discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
 
