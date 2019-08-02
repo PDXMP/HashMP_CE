@@ -83,7 +83,7 @@ christian = {
 				}
 				allow = {
 					NOT = { war_with = PAP }
-					NOT = { prestige = 100 }
+					#NOT = { prestige = 100 }
 					NOT = { has_country_modifier = papal_blessing }
 				}
 				effect = {
