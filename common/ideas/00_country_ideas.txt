@@ -12234,7 +12234,7 @@ MER_ideas = {
 		prestige = 1
 	}
 	mer_rajput_heartland = {
-		legitimacy = 1
+		global_tax_modifier = 0.1
 	}
 	mer_kumbhalgarh = {
 		defensiveness = 0.15
