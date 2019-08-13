@@ -93,6 +93,10 @@ country_event = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0.5
+			is_year = 1459
+		}
 	}
 	
 	
