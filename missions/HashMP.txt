@@ -14,7 +14,7 @@ h_china_conquest = { #by hashinshin
 	has_country_shield = yes
 	
 	h_conquer_china = {
-		icon = mission_secure_hajj_ports
+		icon = mission_japanese_fort
 		provinces_to_highlight = {
 			or = {
 			region = north_china_region
