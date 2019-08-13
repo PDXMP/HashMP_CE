@@ -152,7 +152,7 @@ t_cn_navy_1 = {
 	}
 	trigger = {
 		was_player = yes
-		navy_size = 40
+		navy_size = 30
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
@@ -166,7 +166,7 @@ t_cn_navy_2 = {
 	}
 	trigger = {
 		was_player = yes
-		navy_size = 80
+		navy_size = 60
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
@@ -180,7 +180,7 @@ t_cn_navy_3 = {
 	}
 	trigger = {
 		was_player = yes
-		navy_size = 120
+		navy_size = 90
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
@@ -194,7 +194,7 @@ t_cn_navy_4 = {
 	}
 	trigger = {
 		was_player = yes
-		navy_size = 160
+		navy_size = 120
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
@@ -208,7 +208,7 @@ t_cn_navy_5 = {
 	}
 	trigger = {
 		was_player = yes
-		navy_size = 200
+		navy_size = 150
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
