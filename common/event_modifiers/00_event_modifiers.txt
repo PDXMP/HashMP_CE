@@ -10547,3 +10547,13 @@ h_dual_monarchy = {
 h_bankrupt_interest = {
 	interest = 3
 }
+
+h_qar_black_sheep_ascendant = {
+	cavalry_power = 0.1
+	manpower_recovery_speed = 0.15
+}
+
+h_qar_caucasus = {
+	global_tax_modifier = 0.2
+	tolerance_own = 2
+}
