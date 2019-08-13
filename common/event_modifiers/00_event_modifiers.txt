@@ -10554,6 +10554,6 @@ free_colonist = {
 }
 
 h_united_china = {
-	discipline = 0.025
+	discipline = 0.05
 	max_states = 10
 }
