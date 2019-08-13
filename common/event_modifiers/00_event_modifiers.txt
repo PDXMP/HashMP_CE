@@ -10553,7 +10553,7 @@ free_colonist = {
 	colonists = 1
 }
 
-united_china = {
+h_united_china = {
 	discipline = 0.025
 	max_states = 10
 }

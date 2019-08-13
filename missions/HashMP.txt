@@ -4,7 +4,7 @@
 # by Foffy123
 ########################################
 
-china_conquest = { #by hashinshin
+h_china_conquest = { #by hashinshin
 	slot = 1
 	generic = yes
 	ai = yes
@@ -13,7 +13,7 @@ china_conquest = { #by hashinshin
 	}
 	has_country_shield = yes
 	
-	conquer_china = {
+	h_conquer_china = {
 		icon = mission_secure_hajj_ports
 		provinces_to_highlight = {
 			or = {
@@ -82,7 +82,7 @@ china_conquest = { #by hashinshin
 		}
 		effect = {
 			add_country_modifier = {
-				name = "united_china"
+				name = "h_united_china"
 				duration = -1
 			}
 		}
