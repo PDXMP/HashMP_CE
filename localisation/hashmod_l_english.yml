@@ -59,3 +59,7 @@
  desc_h_qar_black_sheep_ascendant:0 "The White Sheep Turkomans are defeated. The Black Sheep rises."
  h_qar_caucasus:0 "Conquest of the Caucasus"
  desc_h_qar_caucasus:0 "The many tribes of the Caucasus now answer to us. We are learning to integrate them into our nation."
+ h_conquer_china_title:0 "Unite the Middle Kingdom"
+ h_conquer_china_desc:0 "Since the fall of the Ming Dynasty, the Middle Kingdom has been in disarray, divided among kings and warlords. The people cry out for us to bring order to the land."
+ h_united_china:0 "The Middle Kingdom"
+ desc_h_united_china:0 "Our armies have brought peace to the Middle Kingdom."
