@@ -617,7 +617,7 @@
  tribal_name:0 "Stamm"
  native_name:0 "Ureinwohner"
  MODIFIER_MIN_AUTONOMY_IN_TERRITORIES:0 "Minimale Autonomie (Territorium)"
- mechanic_has_parliament_yes:2 "Aktiviert Parlament.\nDeaktiviert den Adel-Stand."
+ mechanic_has_parliament_yes:2 "Aktiviert Parlament."
  mechanic_has_parliament_no:1 "Deaktiviert Parlament"
  MODIFIER_LEADER_COST:0 "Kosten (Anführer)"
  MODIFIER_CANDIDATE_RANDOM_BONUS:1 "Bonus für zufälligen Kandidaten"

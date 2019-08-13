@@ -607,7 +607,7 @@
  tribal_name:0 "Tribal"
  native_name:0 "Nativo"
  MODIFIER_MIN_AUTONOMY_IN_TERRITORIES:0 "Autonomía mínima de territorios"
- mechanic_has_parliament_yes:2 "Activa Parlamento.\nDesactiva estamento noble."
+ mechanic_has_parliament_yes:2 "Activa Parlamento."
  mechanic_has_parliament_no:1 "Desactiva Parlamento."
  MODIFIER_LEADER_COST:0 "Coste de líder"
  MODIFIER_CANDIDATE_RANDOM_BONUS:1 "Bonif. candidato aleatorio"

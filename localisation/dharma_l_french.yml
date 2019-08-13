@@ -617,7 +617,7 @@
  tribal_name:0 "Tribus"
  native_name:0 "Indigènes"
  MODIFIER_MIN_AUTONOMY_IN_TERRITORIES:0 "Autonomie minimale dans les possessions"
- mechanic_has_parliament_yes:2 "Permet le mécanisme du parlement.\nInterdit l'ordre de la noblesse."
+ mechanic_has_parliament_yes:2 "Permet le mécanisme du parlement."
  mechanic_has_parliament_no:1 "Ne permet pas le mécanisme du parlement."
  MODIFIER_LEADER_COST:0 "Coût des commandants"
  MODIFIER_CANDIDATE_RANDOM_BONUS:1 "Avantage pour les candidats aléatoires"
