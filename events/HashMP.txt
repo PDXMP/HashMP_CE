@@ -106,7 +106,7 @@ country_event = {
 	option = {
 		name = hashmp.3.a
 		add_country_modifier = {
-				name = "h_bankrupt_inflation"
+				name = "h_bankrupt_interest"
 				duration = 7300
 		}
 	}
