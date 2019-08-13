@@ -10544,6 +10544,6 @@ h_dual_monarchy = {
 	num_accepted_cultures = 1
 }
 
-h_bankrupt_inflation = {
+h_bankrupt_interest = {
 	interest = 3
 }
