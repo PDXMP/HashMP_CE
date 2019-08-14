@@ -18,9 +18,17 @@ country_decisions = {
 			NOT = { tag = NED }
 			NOT = { tag = HLR }
 			OR = {
-				primary_culture = dutch
-				primary_culture = flemish
+				is_elector = yes
 				tag = BUR
+				tag = FRI
+				tag = UTR
+				tag = GEL
+				tag = HOL
+				tag = BRB
+				tag = FLA
+				tag = HAI
+				tag = LUX
+				tag = LIE
 			}
 			OR = {
 				ai = no
