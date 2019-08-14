@@ -604,10 +604,9 @@ age_of_absolutism = {
 				tag = NED
 			}
 			modifier = {
-				ship_durability = 0.05
-				light_ship_power = 0.1
-				global_ship_recruit_speed = -0.2
-				global_foreign_trade_power = 0.2
+				ship_durability = 0.1
+				global_ship_recruit_speed = -0.25
+				naval_maintenance_modifier = -0.33
 			}
 			ai_will_do = {
 				factor = 100
