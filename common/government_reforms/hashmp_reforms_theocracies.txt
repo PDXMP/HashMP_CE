@@ -14,7 +14,7 @@ t5_cp_2 = { #
 	allow_normal_conversion = yes
 	modifiers = {
 		global_missionary_strength = 0.02
-		missionary_maintenance_cost = -0.25
+		missionary_maintenance_cost = -0.5
 	}
 }
 t5_cp_3 = { #
