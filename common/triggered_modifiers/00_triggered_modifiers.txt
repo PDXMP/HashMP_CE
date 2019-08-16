@@ -54,6 +54,14 @@ t_free_colonist = {
 			}
 			has_institution = global_trade
 		}
+		NOT = {
+			OR = {
+				capital_scope = { continent = north_america }
+				capital_scope = { continent = south_america }
+				capital_scope = { region = australia_region }
+				capital_scope = { region = oceanea_region }
+			}
+		}
 		was_player = yes
 	}
 	
