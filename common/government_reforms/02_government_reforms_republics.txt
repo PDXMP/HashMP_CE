@@ -1065,6 +1065,8 @@ universal_suffrage_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		num_accepted_cultures = 2
+		tolerance_heretic = 1
+		tolerance_heathen = 1
 	}
 }
 
