@@ -86,7 +86,7 @@ t_player_cn = {
 	merc_maintenance_modifier = 0.33
 	manpower_recovery_speed = -0.25
 	sailors_recovery_speed = -0.25
-	global_sailors_modifier = -0.33
+	global_sailors_modifier = -0.50
 }
 
 t_cn_army_1 = {
