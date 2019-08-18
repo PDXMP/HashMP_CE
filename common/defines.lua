@@ -971,7 +971,7 @@ NEconomy = {
 
 NMilitary = {
 	SLACKEN_AP_DROP = 0.05,
-	SLACKEN_MANPOWER_INCREASE = 1.6,
+	SLACKEN_MANPOWER_INCREASE = 1.5,
 	
 
 	ARMY_DRILL_YEARLY_DECAY = -2.5,					-- Loss from not Drilling
