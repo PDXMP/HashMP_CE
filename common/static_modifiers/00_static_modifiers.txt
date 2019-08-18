@@ -660,7 +660,7 @@ bankruptcy = {
 	merc_maintenance_modifier = 1.0
 	stability_cost_modifier = 0.5
 	defensiveness = -0.5
-	reduced_liberty_desire = -10
+	reduced_liberty_desire = -15
 }
 
 
