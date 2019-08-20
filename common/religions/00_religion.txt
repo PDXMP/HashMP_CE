@@ -63,7 +63,10 @@ christian = {
 					NOT = { tag = PAP }
 				}
 				allow = {
-					NOT = { war_with = PAP }
+					OR = {
+						NOT = { war_with = PAP }
+						PAP = { is_subject = yes }
+					}
 					NOT = { has_country_modifier = papal_sanction_for_church_taxes }
 				}
 				effect = {
@@ -82,7 +85,10 @@ christian = {
 					NOT = { tag = PAP }
 				}
 				allow = {
-					NOT = { war_with = PAP }
+					OR = {
+						NOT = { war_with = PAP }
+						PAP = { is_subject = yes }
+					}
 					#NOT = { prestige = 100 }
 					NOT = { has_country_modifier = papal_blessing }
 				}
@@ -103,7 +109,10 @@ christian = {
 					NOT = { tag = PAP }
 				}
 				allow = {
-					NOT = { war_with = PAP }
+					OR = {
+						NOT = { war_with = PAP }
+						PAP = { is_subject = yes }
+					}
 					#NOT = { legitimacy = 100 }
 					NOT = { has_country_modifier = papal_indulgence }
 				}
@@ -123,7 +132,10 @@ christian = {
 					NOT = { tag = PAP }
 				}
 				allow = {
-					NOT = { war_with = PAP }
+					OR = {
+						NOT = { war_with = PAP }
+						PAP = { is_subject = yes }
+					}
 					NOT = { stability = 3 }
 				}
 				effect = {
@@ -143,7 +155,10 @@ christian = {
 					NOT = { tag = PAP }
 				}
 				allow = {
-					NOT = { war_with = PAP }
+					OR = {
+						NOT = { war_with = PAP }
+						PAP = { is_subject = yes }
+					}
 					NOT = { has_country_modifier = usury_forgiven }
 				}
 				effect = {
@@ -167,7 +182,10 @@ christian = {
 				}
 				allow = {
 					is_at_war = yes
-					NOT = { war_with = PAP }
+					OR = {
+						NOT = { war_with = PAP }
+						PAP = { is_subject = yes }
+					}
 					NOT = { has_country_modifier = papal_sanction_for_holy_war }
 				}
 				effect = {
@@ -190,7 +208,10 @@ christian = {
 					NOT = { tag = PAP }
 				}
 				allow = {
-					NOT = { war_with = PAP }
+					OR = {
+						NOT = { war_with = PAP }
+						PAP = { is_subject = yes }
+					}
 					NOT = { has_country_modifier = papal_legate }
 				}
 				effect = {
@@ -209,7 +230,10 @@ christian = {
 					NOT = { tag = PAP }
 				}
 				allow = {
-					NOT = { war_with = PAP }
+					OR = {
+						NOT = { war_with = PAP }
+						PAP = { is_subject = yes }
+					}
 					NOT = { mercantilism = 100 }
 				}
 				effect = {
