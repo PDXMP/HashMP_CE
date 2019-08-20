@@ -81,3 +81,7 @@
  desc_h_fortified_oasis:0 "This province is dominated by a fortified oasis town."
  h_found_riyadh_title:0 "Found the City of Riyadh"
  h_found_riyadh_desc:0 "With the construction of the walled oases, the Najd has become the center of our empire in all but name. Let us construct a new capital for Arabia in Kharj. It will take the name 'Riyadh', after the gardens of the local oases."
+ hashmp.4.t:0 "Bedouin Ghazis"
+ hashmp.4.d:0 "A large group of Bedouin Ghazis has been found raiding the outskirts of Qatar, unaware that the Emir of Haasa no longer rules over the area. The local garrison commander has managed to convince them to swear fealty to us instead."
+ hashmp.4.a:0 "Promote him and outfit our own unit of Ghazis."
+ hashmp.4.b:0 "Behead them and enslave their women and children!"
