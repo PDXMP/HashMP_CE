@@ -3,7 +3,7 @@
 owner = ORM
 controller = ORM
 culture = gulf_arabic
-religion = sunni
+religion = ibadi
 capital = "Liwa"
 trade_goods = spices #Dates
 hre = no
