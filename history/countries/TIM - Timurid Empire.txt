@@ -12,6 +12,8 @@ historical_rival = MUL
 historical_rival = SHY
 historical_rival = AFG
 historical_rival = QAR
+historical_rival = KHO
+historical_rival = ORM
 religious_school = hanafi_school
 
 1370.1.1 = {
