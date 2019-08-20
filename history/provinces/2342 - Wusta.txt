@@ -1,7 +1,7 @@
 #2342 - Wusta
 
-owner = MHR
-controller = MHR
+owner = ORM
+controller = ORM
 culture = mahri_culture
 religion = sunni
 capital = "Hasik" #Curia Muria Islands
@@ -12,7 +12,8 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 add_core = MHR
-add_local_autonomy = 70
+add_core = ORM
+#add_local_autonomy = 70
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
