@@ -128,7 +128,7 @@ h_swi_missions = {
 	}
 }
 
-h_qar_missions ={
+h_qar_missions = {
 
 	slot = 1
 	generic = no
@@ -319,6 +319,273 @@ h_qar_missions ={
 			add_country_modifier = {
 				name = "h_qar_caucasus"
 				duration = 7300
+			}
+		}
+	}
+}
+
+h_orm_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential ={
+		OR = {
+			tag = ORM
+			tag = ARB
+		}
+	}
+	has_country_shield = yes
+	
+	h_orm_mission_1 = { #Secure the Gulf
+		icon = mission_market_place_with_asian_traders
+		required_missions = {  }
+		position = 1
+		provinces_to_highlight = {
+			area = bahrain_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			bahrain_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			qasim_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			yamamah_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	h_orm_mission_2 = { #Control the Najd
+		icon = mission_bedouins
+		required_missions = { h_orm_mission_1 }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = qasim_area
+				area = yamamah_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			qasim_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			yamamah_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			asir_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			tihama_al_yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			upper_yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			hadramut_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			mahra_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	h_orm_mission_3 = { #Invade Yemen
+		icon = mission_persian_soldiers
+		required_missions = { h_orm_mission_2 }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = asir_area
+				area = tihama_al_yemen_area
+				area = upper_yemen_area
+				area = yemen_area
+				area = hadramut_area
+				area = mahra_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			asir_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tihama_al_yemen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_yemen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			yemen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hadramut_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mahra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_army_tradition = 20
+			mecca_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			medina_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	h_orm_mission_4 = { #Protect the Holy Mosques
+		icon = mission_non-western_soldiers
+		required_missions = { h_orm_mission_3 }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = mecca_area
+				area = medina_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			mecca_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			medina_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+
+	h_orm_mission_5 = { #Fortify the Oases
+		icon = mission_asian_trader
+		required_missions = { h_orm_mission_4 }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = qasim_area
+				area = yamamah_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			OR = {
+				392 = { owned_by = ROOT has_building = fort_15th }
+				2337 = { owned_by = ROOT has_building = fort_15th }
+				4273 = { owned_by = ROOT has_building = fort_15th }
+				4274 = { owned_by = ROOT has_building = fort_15th }
+			}
+			OR = {
+				2335 = { owned_by = ROOT has_building = fort_15th }
+				2336 = { owned_by = ROOT has_building = fort_15th }
+				2339 = { owned_by = ROOT has_building = fort_15th }
+				4275 = { owned_by = ROOT has_building = fort_15th }
+			}
+		}
+		effect = {
+			tooltip = {
+				qasim_area = {
+					add_province_modifier = {
+						name = "h_fortified_oasis"
+					}
+				}
+				yamamah_area = {
+					add_province_modifier = {
+						name = "h_fortified_oasis"
+					}
+				}
+			}
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = qasim_area
+							area = yamamah_area
+						}
+					}
+					add_province_modifier = {
+						name = "h_fortified_oasis"
+						duration = -1
+					}
+				}
 			}
 		}
 	}
