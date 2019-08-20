@@ -785,7 +785,7 @@ malayan_ideas = {
 
 arabian_ideas = {
 	start = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.2
 		trade_efficiency = 0.10
 	}
 	
@@ -804,7 +804,7 @@ arabian_ideas = {
 	
 	arab_indian_ocean_trade = {
 		trade_steering = 0.25
-		global_sailors_modifier = 0.20
+		global_sailors_modifier = 0.25
 	}
 	arabian_horses = {
 		cavalry_cost = -0.1
