@@ -111,4 +111,38 @@ country_event = {
 		}
 	}
 }
-		
+
+country_event = {
+	id = hashmp.4
+	title = hashmp.4.t
+	desc = hashmp.4.d
+	picture = LAND_MILITARY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = ORM
+			tag = ARB
+		}
+		bahrain_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "hashmp.4.a"
+		add_years_of_income = -0.2
+		add_yearly_manpower = 2.5
+		create_general = { tradition = 40 }
+	}
+
+	option = {
+		name = "hashmp.4.b"
+		add_years_of_income = 0.7
+	}	
