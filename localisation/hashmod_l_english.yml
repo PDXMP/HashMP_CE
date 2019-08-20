@@ -79,3 +79,5 @@
  h_orm_mission_5_desc:0 "The Oases of Najd are crucial to the centralization of our growing Arabian empire. We will establish a permanent foothold in the area with the construction of walled oasis towns."
  h_fortified_oasis:0 "Fortified Oasis"
  desc_h_fortified_oasis:0 "This province is dominated by a fortified oasis town."
+ h_found_riyadh_title:0 "Found the City of Riyadh"
+ h_found_riyadh_desc:0 "With the construction of the walled oases, the Najd has become the center of our empire in all but name. Let us construct a new capital for Arabia in Kharj. It will take the name 'Riyadh', after the gardens of the local oases."
