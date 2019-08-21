@@ -1386,7 +1386,7 @@ AYU_ideas = {
 	free = yes
 	
 	white_elephant = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.15
 		global_autonomy = -0.05
 	}
 	phrai_luang = {
@@ -1394,7 +1394,8 @@ AYU_ideas = {
 		num_accepted_cultures = 1
 	}
 	corvee_system = {
-		global_manpower_modifier = 0.1
+		global_manpower_modifier = 0.2
+		global_regiment_recruit_speed = -0.10
 	}
 	ayu_foreign_mercenaries = {
 		possible_mercenaries = 0.25
@@ -1404,7 +1405,7 @@ AYU_ideas = {
 	}
 	trading_links = {
 		trade_efficiency = 0.10
-		global_own_trade_power = 0.1
+		global_own_trade_power = 0.2
 	}
 	personal_executions = {
 		ship_durability = 0.05
