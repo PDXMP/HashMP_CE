@@ -10256,7 +10256,7 @@ QAR_ideas = {
 		global_manpower_modifier = 0.25
 	}
 	qar_governor_of_azerbaijan = {
-		province_warscore_cost = -0.05
+		province_warscore_cost = -0.1
 		core_creation = -0.1
 	}
 	in_honor_of_ali = {
@@ -10267,12 +10267,13 @@ QAR_ideas = {
 	}
 	qar_freedom_with_responsibility = {
 		reduced_liberty_desire = 10
+		diplomatic_annexation_cost = -0.1
 	}
 	qar_patron_of_iranian_culture = {
 		global_unrest = -1
 	}
 	qar_irrigation_and_public_works = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.15
 	}
 }
 
