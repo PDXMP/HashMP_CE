@@ -672,11 +672,11 @@ quality_ideas = {
 		yearly_army_professionalism = 0.0025
 	}
 
-	private_to_marshal = {
-		infantry_power = 0.10
-	}
 	quality_education = {
 		army_tradition = 0.5
+	}
+	private_to_marshal = {
+		infantry_power = 0.10
 	}
 	finest_of_horses = {
 		cavalry_power = 0.10
