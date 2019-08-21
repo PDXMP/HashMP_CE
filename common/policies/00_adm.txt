@@ -440,8 +440,8 @@ the_spy_discovery_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	reinforce_cost_modifier = -0.1
-	reinforce_speed = 0.1
+	land_maintenance_modifier = -0.05
+	manpower_recovery_speed = 0.15
 
 	ai_will_do = {
 		factor = 1
