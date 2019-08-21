@@ -363,7 +363,7 @@ the_field_agent_act = {
 
 
 anti_heresy_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = religious_ideas
@@ -379,7 +379,8 @@ anti_heresy_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	leader_siege = 1
+	prestige = 1
+	global_tax_modifier = 0.15
 
 	ai_will_do = {
 		factor = 1
