@@ -58,11 +58,12 @@ plutocratic_reform = {
 	nation_designer_cost = 10
 	modifiers = {
 		merchants = 1
+		trade_efficiency = 0.05
 	}
-	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
-	}
+#	custom_attributes = {
+#		enables_plutocratic_idea_group = yes
+#		enables_aristocratic_idea_group = no
+#	}
 }
 
 grand_duchy_reform = {
