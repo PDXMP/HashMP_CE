@@ -530,6 +530,7 @@ h_orm_missions = {
 		}
 		effect = {
 			add_prestige = 10
+			add_piety = 0.25
 		}
 	}
 
