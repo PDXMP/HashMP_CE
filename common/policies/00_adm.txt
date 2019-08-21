@@ -1002,8 +1002,7 @@ visionary_thinkers = {
 		full_idea_group = quality_ideas
 	}	
 	
-	army_tradition_from_battle = 0.5
-	yearly_army_professionalism = 0.0025
+	leader_land_fire = 1
 	
 	ai_will_do = {
 		factor = 1
