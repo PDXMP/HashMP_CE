@@ -277,11 +277,11 @@ defensive_ideas = {
 		shock_damage_received = -0.1
 	}
 
-	battlefield_commisions = {
-		army_tradition = 0.5
-	}
 	military_drill = {
 		land_morale = 0.10
+	}
+	battlefield_commisions = {
+		army_tradition = 0.5
 	}
 	improved_manuever = {
 		leader_land_manuever = 1
