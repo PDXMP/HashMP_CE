@@ -552,7 +552,7 @@ encouragement_of_merchant_navy = {
 }
 
 trade_kontor_network = {
-	monarch_power = DIP
+	monarch_power = MIL
 	potential = {
 		has_idea_group = plutocracy_ideas
 		has_idea_group = trade_ideas
@@ -567,8 +567,8 @@ trade_kontor_network = {
 		full_idea_group = trade_ideas
 	}
 	
-	global_trade_power = 0.1
-	merchants = 1
+	merc_maintenance_modifier = -0.15
+	possible_mercenaries = 0.15
 
 	ai_will_do = {
 		factor = 1
