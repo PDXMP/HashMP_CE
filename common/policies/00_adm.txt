@@ -278,7 +278,7 @@ the_foreign_support_act = {
 
 
 deserteur_act = {
-	monarch_power = MIL
+	monarch_power = DIP
 
 
 	potential = {
@@ -295,7 +295,8 @@ deserteur_act = {
 		full_idea_group = quality_ideas
 	}
 
-	army_tradition_decay = -0.01
+	global_prov_trade_power_modifier = 0.15
+	yearly_corruption = -0.1
 	
 	ai_will_do = {
 		factor = 2
