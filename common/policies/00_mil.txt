@@ -45,7 +45,8 @@ the_mining_act = {
 		full_idea_group = quality_ideas
 	}
 	
-	land_morale = 0.1
+	army_tradition_from_battle = 0.5
+	yearly_army_professionalism = 0.0025
 	
 	ai_will_do = {
 		factor = 1
