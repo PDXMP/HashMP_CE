@@ -349,6 +349,7 @@ march_bonus = {
 	land_maintenance_modifier = -0.20
 	mil_tech_cost_modifier  = -0.15
 	idea_cost = -0.15
+	possible_mercenaries = -0.33
 }
 
 same_culture_group = {
@@ -1178,6 +1179,7 @@ subject_nation = {
 vassal_nation = {
 	land_maintenance_modifier = -0.20
 	yearly_corruption = -0.10
+	possible_mercenaries = -0.33
 }
 
 primitive_nation = {
