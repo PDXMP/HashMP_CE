@@ -180,3 +180,10 @@ vassal = {
 #	start_date = 1444.1.1
 #	end_date = 1521.1.1
 #}
+
+vassal = {
+	first = YUE
+	second = CHC
+	start_date = 1444.1.1
+	end_date = 1462.1.1
+}
