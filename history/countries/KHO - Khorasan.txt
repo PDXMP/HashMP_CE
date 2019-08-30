@@ -21,8 +21,8 @@ capital = 4341 #Sari
 		culture = uzbehk
 		religion = sunni
 	}
-	religion = sunni
-	religious_school = hanafi_school
+	#religion = sunni
+	religious_school = ismaili_school
 	add_piety = -0.5
 	clear_scripted_personalities = yes
 	add_ruler_personality = bold_fighter_personality
