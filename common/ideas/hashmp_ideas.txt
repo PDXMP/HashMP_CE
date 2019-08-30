@@ -200,3 +200,47 @@ AHU_ideas = {
 		no_religion_penalty = yes
 	}
 }
+
+ARB_ideas = { #Arabian Empire
+	start = {
+		development_cost = -0.10
+		land_forcelimit_modifier = 0.25
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = ARB
+	}
+	free = yes
+	
+	arb_1 = { #Indian Ocean Trade
+		trade_steering = 0.25
+		global_sailors_modifier = 0.25
+	}
+	arb_2 = { #Arabian Horsemanship
+		cavalry_cost = -0.1
+		cavalry_power = 0.2
+	}
+	arb_3 = { #Bedouin Raiders
+		hostile_attrition = 1
+		movement_speed = 0.2
+	}
+	arb_4 = { #Spreading the Prophet's Word
+		global_missionary_strength = 0.03
+	}
+	arb_5 = { #Unite the Tribes
+		land_maintenance_modifier = -0.1
+		manpower_recovery_speed = 0.2
+	}
+	arb_6 = { #Bedouin Traders
+		global_prov_trade_power_modifier = 0.1
+		trade_efficiency = 0.1
+	}
+	arb_7 = { #Arabia
+		prestige = 1
+		army_tradition = 0.5
+	}
+}
