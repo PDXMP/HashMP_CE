@@ -165,6 +165,14 @@ vassalaction = {
 			FROM = { is_at_war = no }
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_vassalize
+		potential = {
+		}
+		allow = {
+			FROM = { ai = yes }
+		}
+	}
 }
 
 abandon_union_action = {
@@ -236,18 +244,6 @@ support_independence_action = {
 		}
 		allow = {
 			always = no
-		}
-	}
-}
-		
-		
-vassalaction = {
-	condition = {
-		tooltip = h_tooltip_vassalize
-		potential = {
-		}
-		allow = {
-			FROM = { ai = yes }
 		}
 	}
 }
