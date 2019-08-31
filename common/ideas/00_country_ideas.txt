@@ -12656,13 +12656,15 @@ MOR_ideas = {
 	}
 	trans_saharan_trade = {
 		trade_efficiency = 0.1
-		caravan_power = 0.2
+		caravan_power = 0.25
 	}
 	mor_fleet = {
-		galley_power = 0.2
+		ship_durability = 0.05
+		global_ship_recruit_speed = -0.1
 	}
 	mor_pirate_republics = {
 		privateer_efficiency = 0.2
+		navy_tradition_decay = -0.01
 	}
 	mor_curb_power_of_the_tribes = {
 		global_autonomy = -0.05
