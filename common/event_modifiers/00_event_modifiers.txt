@@ -1476,7 +1476,7 @@ severe_tax_reduction = {
 
 papal_blessing = {
 	prestige = 1
-	land_morale = 0.05
+	global_missionary_strength = 0.01
 	religion = yes
 }
 
