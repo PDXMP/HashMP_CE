@@ -222,6 +222,70 @@ allianceaction = {
 			FROM = { is_colonial_nation = no }
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_many_allies
+		potential = {
+		}
+		allow = {
+			ROOT = {
+				NOT = {
+					num_of_allies = 5
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_from_many_allies
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = {
+					num_of_allies = 5
+				}
+			}
+		}
+	}
+}
+
+ask_for_march = {
+	condition = {
+		tooltip = h_tooltip_ask_march
+		potential = {
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+designate_march = {
+	condition = {
+		tooltip = h_tooltip_many_marches_noinfluence
+		potential = {
+			ROOT = { NOT = { full_idea_group = influence_ideas } }
+		}
+		allow = {
+			NOT = {
+				ROOT = {
+					march = 3
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_many_marches_influence
+		potential = {
+			ROOT = { full_idea_group = influence_ideas }
+		}
+		allow = {
+			ROOT = {
+				NOT = {
+					march = 6
+				}
+			}
+		}
+	}
 }
 
 declarewar = {

@@ -111,3 +111,7 @@
  h_tooltip_cn_espionage:0 "Colonial nations may not use espionage actions on countries that have their capital on a different continent."
  h_tooltip_cn_money:0 "Colonial nations may only give money to other colonial nations or their overlord."
  h_tooltip_money_to_cn:0 "You may not give money to colonial nations owned by other countries."
+ h_tooltip_many_allies:0 "You may have a maximum of five alliances."
+ h_tooltip_from_many_allies:0 "The target already has five alliances."
+ h_tooltip_many_marches_noinfluence:0 "You may have a maximum of three marches. Finish Influence ideas to increase the maximum to six."
+ h_tooltip_many_marches_influence:0 "You may have a maximum of six marches."
