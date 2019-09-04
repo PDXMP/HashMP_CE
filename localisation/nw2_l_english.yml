@@ -423,7 +423,7 @@
  FE_OBSERVE_DESC2:0 "Observe mode allows you to join a game without playing a country, instead you can watch what is happening in all the countries."
  FE_OBSERVE_SERVER:0 "§R- The host can't be an observer.§!"
  FE_USETI_DESC:0 "Enables or disables the Terra Incognita in the lobby. Especially useful if you don't want to spoil how the §YRandom New World§! looks like before you've discovered it."
- NOCOLONIALCOLONISENONCITYADJACENT:0 "Colonial nations can only colonize outside their colonial region if the province is adjacent to a province they already own."
+ NOCOLONIALCOLONISENONCITYADJACENT:0 ""
  OBSERVER_SELECT_COUNTRY_D:0 "You can also hold Ctrl while clicking a country on the map, or click on a player in the outliner."
  temperate:0 "Temperate"
  ALREADY_CALLED_TO_ARMS:0 "Already called to one of the active wars."
