@@ -115,3 +115,4 @@
  h_tooltip_from_many_allies:0 "The target already has five alliances."
  h_tooltip_many_marches_noinfluence:0 "You may have a maximum of three marches. Finish Influence ideas to increase the maximum to six."
  h_tooltip_many_marches_influence:0 "You may have a maximum of six marches."
+ h_tooltip_move_capital:0 "You may not move your capital to the new world."
