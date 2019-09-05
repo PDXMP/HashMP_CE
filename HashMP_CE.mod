@@ -1,5 +1,6 @@
 name="HashMP CE Multiplayer Mod"
 path="mod/HashMP_CE"
+picture = "HashMP.jpg"
 tags={
 	"Multiplayer"
 	"Balance"
