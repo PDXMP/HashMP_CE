@@ -59,7 +59,7 @@ categories =  {
 		nation_designer_cost_multiplier = 1.05
 		
 		terrain_override = {
-			104 109 108 1744
+			104 109 108 1744 1865
 			
 			45 44 1874 113 172 
 			
@@ -86,7 +86,7 @@ categories =  {
 			 243 245 248 
 			410 415 2310
 			
-			236 186 90 92 182 12 14 6 289 2407 290 279 4538
+			236 186 90 92 88 182 12 14 6 289 2407 290 279 4538
 			
 			695 696 1816 2137 690 691 2138 2139 2140 685 1821 1822 2141 2142 2145 1838 2143 2144  
 			684 2148 2149 2150 687 688 692 1836 2175 2176 671 672 682 683 2151 2172 679
@@ -99,7 +99,7 @@ categories =  {
 			
 			4384 4388 4390 4392 #France
 			
-			43 98 100 4382 4383 #Netherlands
+			43 97 98 100 4382 4383 #Netherlands
 			
 			234 235 236 238 4367 4368 4371 4375 #British isles
 			
@@ -114,11 +114,6 @@ categories =  {
 			581 4396 585 586 # Burma
 			2076 4415 4416 4428 4476 4479 4487 4489 4490 4496 4497 4510 4513 #India
 			4529 4531 # Romania
-			
-			2021 870 4635 868 2478 869 871 4637
-			
-			112 #Venice farmlands from Coastline
-			4149 4142 #Kolding and Ostjylland farmlands from Grassland
 		}		
 	}
 	
@@ -130,9 +125,8 @@ categories =  {
 		
 		movement_cost = 1.25
 		defence = 1
-		combat_width = -0.20
 		supply_limit = 4
-		local_development_cost = 0.20
+		local_development_cost = 0.2
 		nation_designer_cost_multiplier = 0.9
 		
 		terrain_override = { 
@@ -161,7 +155,6 @@ categories =  {
 		defence = 1
 		local_defensiveness = 0.1
 		local_development_cost = 0.25
-		combat_width = -0.25
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 5
 		
@@ -209,8 +202,6 @@ categories =  {
 			518 529 531 533 538 1949 2027 2030 2032 2083 2089 4414 4420 4425 4426 4427 4429 #South India
 			4552 # new for 1.28
 			2479 # Changed for 1.28
-			
-			2477
 		}
 	}
 
@@ -223,7 +214,6 @@ categories =  {
 
 		movement_cost = 1.10
 		defence = 1
-		combat_width = -0.20
 		local_development_cost = 0.15
 		nation_designer_cost_multiplier = 0.9
 		supply_limit = 6
@@ -271,8 +261,6 @@ categories =  {
 			4381 4387 4389 #France & Low Countries
 			4541 4537 4535 2963 4544 4543 4524 # New PLC provinces
 			4555 4558 # new iberia provinces 1.28
-			
-			872 2481 2484 2485 2486
 		}
 	}
 	
@@ -285,8 +273,7 @@ categories =  {
 		movement_cost = 1.5
 		defence = 2
 		local_defensiveness = 0.25
-		local_development_cost = 0.30
-		combat_width = -0.30
+		local_development_cost = 0.35
 		nation_designer_cost_multiplier = 0.75
 		supply_limit = 4
 		
@@ -295,7 +282,7 @@ categories =  {
 			139 1831 143 138 4175  #Balkans
 			158 1952 #Hungary
 			4236 #Slovakia
-			974 975 976 977 2003 2020 2480 2609 2610 2612 2613 936  #North America
+			974 975 976 977 2003 2020 2480 2481 2486 2609 2610 2612 2613 936  #North America
 			2154 2155 #East Asia
 			808 814 2825 #South America
 			452 2073 #Tibet
@@ -305,8 +292,8 @@ categories =  {
 			1787 1788
 			
 			120
-			783 794 802 824 856 857 875 878 879 880 2491 2493 2494 2495 2605 2617 2813 2817 2824 2826 2871
-			2874 2395 2396 583 587 2505 2604 2877 2873
+			783 794 802 824 856 857 871 875 878 879 880 2477 2484 2485 2491 2493 2494 2495 2605 2617 2813 2817 2824 2826 2871
+			2874 2395 2396 583 587 872 2505 2604 2877 2873
 			1180
 			
 			2371 2381 330 
@@ -339,8 +326,6 @@ categories =  {
 			4546 # new provinces 1.28
 			829 
 			4601 4602 #new provinces 1.28 mesoamerica
-			#CN Rework NA
-			#872 2481 2477 871 2484 2485 2486
 		}
 	}
 
@@ -419,8 +404,7 @@ categories =  {
 
 		movement_cost = 1.5
 		defence = 1
-		local_development_cost = 0.30
-		combat_width = -0.25
+		local_development_cost = 0.35
 		nation_designer_cost_multiplier = 0.8
 		supply_limit = 5
 		
@@ -459,7 +443,6 @@ categories =  {
 		movement_cost = 1.3
 		defence = 1
 		local_development_cost = 0.25
-		combat_width = -0.25
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 5
 
@@ -480,7 +463,6 @@ categories =  {
 			462 #Caucasus
 			362 #Egypt
 			2702 #Philippines
-			88 1865 97
 		}
 	}
 	
@@ -492,7 +474,7 @@ categories =  {
 
 		movement_cost = 1.05
 		supply_limit = 4
-		local_development_cost = 0.30
+		local_development_cost = 0.50
 		nation_designer_cost_multiplier = 0.8
 		
 		terrain_override = {
@@ -518,7 +500,7 @@ categories =  {
 		sound_type = desert
 
 		movement_cost = 1.0
-		local_development_cost = 0.30
+		local_development_cost = 0.35
 		nation_designer_cost_multiplier = 0.9		
 		supply_limit = 4
 
@@ -548,7 +530,7 @@ categories =  {
 		terrain_override = {
 			957 962 2554 2561 2578 #n am
 			
-			#Venice 112
+			112
 			487 492 497 498 499 500 501 502
 			982 
 			
@@ -593,7 +575,7 @@ categories =  {
 			2868 2878 2883 2885 2915 2917 2922 
 			750 2863
 			1178 2764 2768 2797 2798 2801 2864
-			754 755 786 862 876 1809 2492 2507 2619 2667 2846 2861 2912 2913 2921 
+			754 755 786 862 868 876 1809 2492 2507 2619 2667 2846 2861 2912 2913 2921 
 			1172 2682 2503 2068
 			
 			322
@@ -610,8 +592,6 @@ categories =  {
 			4411 4421 4435 4437 4454 4455 4456 4463 4503 4504 4505 4509 #India
 			4549 4562 4563 4564 4547 4557# new provinces 1.28
 			4628 4630 # new provinces Mesoamerica 1.28
-			#CN Rework NA
-			#868
 		}
 	}
 
@@ -626,19 +606,18 @@ categories =  {
 		defence = 1
 		local_defensiveness = 0.1
 		local_development_cost = 0.2
-		combat_width = -0.25
 		nation_designer_cost_multiplier = 0.9	
 
 		terrain_override = {
 			520 536 542 544 578 2035 2077 2079 2085 2087 2093
 			850 852 853 2018 2621 2622 2623 2626 2628 2629 2644 2646 2645 
 			588 2401 2301 324 1224 
-			2006 2019 2483 2488 2496 2501 2624
-			335 336 339 340 346 348 351 1171 1184 1185 1188 1207 1208 1211 1218 1219 1227 1751 1882 2274 2454 2458 2459 2463 
-			2464 2756 2757 2758 2762 2763 2766 2770 2771 2772 2778 2779 2781 2787 2792 2950 2951
+			869 2006 2019 2483 2488 2496 2501 2624
+			335 336 339 340 346 348 349 351 1171 1184 1185 1188 1207 1208 1211 1218 1219 1227 1751 1882 2274 2454 2458 2459 2462 2463 
+			2464 2465 2756 2757 2758 2762 2763 2766 2770 2771 2772 2778 2779 2781 2787 2792 2950 2951
 			326 329 332 418 1846 
 			2303
-			2489 2504 	 
+			2478 2489 2504 	 
 			252 784 2946 823
 			1773 127 1247
 			1766
@@ -663,8 +642,6 @@ categories =  {
 			4406 4398 # Burma
 			4422 4436 4464 #Central India
 			4561 4566 4553 # new provinces 1.28
-			#CN Rework NA
-			#869 2478
 		}
 	}
 
@@ -686,7 +663,7 @@ categories =  {
 			2279 2280 2283 2291 
 			
 			607 2374 606 605 2378 614 2386 603 612
-			484 485 883 884 887 888 894 897 900 902 915 922 923 924 926 932 942 1008 1010 2017 2513 2514 2520
+			484 485 870 883 884 887 888 894 897 900 902 915 922 923 924 926 932 942 1008 1010 2017 2021 2513 2514 2520
 			2530 2533 2535 2538 2542 2543 2546 2596 2669 2853 2888 2891 2892 2906 2907 2911 2919 2920 
 			
 			1114 1120 1122 1124 1136 1137 1143 1145 1150 1152 1154 1160 1161
@@ -699,8 +676,7 @@ categories =  {
 			2948 4034 4035 4036 4037 4038 4039 4041 4042 4043 4044 4045 4047 4048 4058 4061 4062 4064 4065 4071 4074 4075 4076 4082 4083 4091
 			4092 4093 4094 4095 4096 4097 4099 4104 4105 4106 4107 4108 #Central Africa
 			4618 4619 #Mesoamerica 1.28
-			#CN Rework NA
-			#2021 870
+			
 		}		
 	}
 	
