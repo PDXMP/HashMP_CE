@@ -32,7 +32,6 @@ client_ideas = {
 	}
 	mercenary_recruitment_center = {
 		merc_maintenance_modifier = -0.15
-		discipline = 0.05
 	}	
 	foreign_advisors_client = {
 		advisor_pool = 1
@@ -493,14 +492,17 @@ indian_muslim_ideas = {
 	sultanate_bureaucracy = {
 		stability_cost_modifier = -0.1
 	}
+	
 }
+
+
 mindanao_ideas = {
 	start = {
 		navy_tradition_decay = -0.01
 		infantry_power = 0.1
 	}
 	bonus = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.1
 	}
 	
 	trigger = {
@@ -513,7 +515,7 @@ mindanao_ideas = {
 	free = yes
 	
 	mindanao_an_islamicized_barangay = {
-		tolerance_heathen = 3
+		tolerance_heathen = 2
 	}
 	mindanao_unite_the_datus = {
 		global_tax_modifier = 0.1
@@ -523,16 +525,15 @@ mindanao_ideas = {
 	}
 	mindanao_moro_sailors = {
 		naval_maintenance_modifier = -0.2
-		sailor_maintenance_modifer = -0.1
 	}
 	mindanao_fortify_our_ports = {
 		defensiveness = 0.2
 	}
 	mindanao_guerilla_warfare = {
-		land_morale = 0.20
+		land_morale = 0.1
 	}
 	mindanao_pirates_of_mindanao = {
-		navy_tradition = 1.0
+		embargo_efficiency = 0.1	
 		privateer_efficiency = 0.25
 	}
 }
@@ -608,7 +609,7 @@ theocracy_ideas = {
 		global_missionary_strength = 0.02
 	}
 	onward_christian_soldiers = {
-		land_morale = 0.10
+		global_garrison_growth = 0.1
 		garrison_size = 0.1
 	}
 	turn_the_other_cheek = {
@@ -710,7 +711,7 @@ german_ideas = {
 	}
 	
 	bonus = {
-		global_unrest = -1
+		technology_cost = -0.05
 	}
 	
 	trigger = {
@@ -723,15 +724,16 @@ german_ideas = {
 	}
 	fruhlings_und_herbstmesse = {
 		global_own_trade_power = 0.10
+		trade_efficiency = 0.05
 	}
 	reichskreis = {
-		build_cost = -0.10
+		diplomatic_reputation = 1
 	}
 	polizeiordnung = {
-		global_manpower_modifier = 0.10
+		global_unrest = -1
 	}
 	cuius_regio_eius_religio = {
-		global_missionary_strength = 0.02
+		global_missionary_strength = 0.01
 	}
 	thurn_und_taxis = {
 		diplomatic_upkeep = 1
@@ -749,12 +751,15 @@ malayan_ideas = {
 	}
 	
 	bonus = {
-		heavy_ship_power = 0.1
+		naval_tradition_from_battle = 0.5
 	}
 	
 	trigger = {
 		religion_group = muslim
 		culture_group = malay
+		NOT = {
+			primary_culture = sumatran
+		}
 	}
 	free = yes
 	
@@ -763,17 +768,16 @@ malayan_ideas = {
 	}
 	sufi_legacy = {
 		tolerance_heathen = 2
-		land_morale = 0.10
 	}
 	mal_spice_islands = {
 		production_efficiency = 0.1
 	}
 	classical_malay = {
-		idea_cost = -0.10
+		idea_cost = -0.05
 	}
 	trading_fleets = {
 		naval_maintenance_modifier = -0.2
-		sailor_maintenance_modifer = -0.10
+		sailor_maintenance_modifer = -0.1
 	}
 	heirs_of_pasai = {
 		prestige = 1
@@ -844,18 +848,18 @@ latin_ideas = {
 	free = yes
 	
 	italian_renaissance = {
-		idea_cost = -0.10
+		idea_cost = -0.05
 	}
 	italian_condottieri = {
-		merc_maintenance_modifier = -0.25
+		merc_maintenance_modifier = -0.15
 	}
 	italian_aristocracy = {
-		land_morale = 0.10
+		enemy_core_creation = 0.25
 		global_spy_defence = 0.05
  	}
 	tracee_italienne = {
-		defensiveness = 0.10
-		infantry_power = 0.10
+		defensiveness = 0.05
+		garrison_size = 0.1
 	}
 	high_renaissance_art_and_architecture = {
 		prestige = 1
@@ -865,7 +869,7 @@ latin_ideas = {
 		spy_offence = 0.1
 	}
 	commedia_del_arte = {
-		global_manpower_modifier = 0.15
+		stability_cost_modifier = -0.10
 	}
 }
 
@@ -891,7 +895,7 @@ native_ideas = {
 	
 	
 	counting_coups = {
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 	storytelling_tradition = {
 		idea_cost = -0.1
@@ -914,7 +918,7 @@ native_ideas = {
 }
 
 
-central_indic_ideas = {
+central_indic_ideas = { #Gond Ideas
 	start = {
 		enemy_core_creation = 0.5
 		global_manpower_modifier = 0.15
@@ -955,12 +959,12 @@ central_indic_ideas = {
 
 swahili_ideas = {
 	start = {
-		global_trade_power = 0.1
+		trade_range_modifier = 0.25
 		light_ship_cost = -0.2
 	}
 
 	bonus = {
-		leader_land_shock = 1
+		global_trade_power = 0.1
 	}
 
 	trigger = {
@@ -970,19 +974,19 @@ swahili_ideas = {
 
 	swa_indian_ocean_trade = {
 		trade_efficiency = 0.1
-		sailor_maintenance_modifer = -0.10
+		sailor_maintenance_modifer = -0.1
 	}
 	monsoon_season = {
 		leader_naval_manuever = 1
 	}
 	great_mosque_of_kilwa = {
-		land_morale = 0.10
+		tolerance_own = 1
 	}
 	indian_ocean_melting_pot = {
-		idea_cost = -0.10
+		idea_cost = -0.05
 	}
 	recruit_the_unbelievers = {
-		global_manpower_modifier = 0.15
+		merc_maintenance_modifier = -0.15
 	}
 	ivory_trade = {
 		production_efficiency = 0.1
@@ -1044,8 +1048,9 @@ siberian_ideas = {
 	}
 	
 	trigger = {
-		government = siberian_native_council
+		has_reform = siberian_tribe
 	}
+
 	free = yes
 	
 	siberian_hunt_north = {
@@ -1062,11 +1067,10 @@ siberian_ideas = {
 	}
 	siberian_land_bought_with_blood = {
 		prestige_from_land = 1.0
-		land_morale = 0.10
 	}
 	siberian_raids = {
-		global_manpower_modifier = 0.25
-		reinforce_speed = 0.15
+		global_manpower_modifier = 0.15
+		reinforce_speed = 0.05
 	}
 	siberian_hunting_expansion = {
 		global_colonial_growth = 20
@@ -1343,7 +1347,7 @@ caucasus_ideas = {
 		num_accepted_cultures = 1
 	}
 	alan_mercenaries = {
-		merc_maintenance_modifier = -0.15
+		merc_maintenance_modifier = -0.10
 		possible_mercenaries = 0.15
 	}
 	caucasus_hit_and_run = {
@@ -1409,7 +1413,7 @@ ruthenian_ideas = {
 pacific_northwest_ideas = {
 	start = {
 		land_morale = 0.1
-		land_attrition = -0.20
+		land_attrition = -0.10
 	}
 	
 	bonus = {
@@ -1431,11 +1435,11 @@ pacific_northwest_ideas = {
 	}
 	
 	dugout_canoes = { 
-		trade_steering = 0.20
+		trade_range_modifier = 0.2
 	}
 	
 	totem_poles = {
-		development_cost = -0.10
+		diplomatic_reputation = 1
 	}
 	
 	potlatch_feast = {
@@ -1512,7 +1516,6 @@ shan_ideas = {
 	
 	shan_fortified_cities = {
 		defensiveness = 0.15
-		land_morale = 0.10
 	}
 	shan_wet_rice = {
 		production_efficiency = 0.10
@@ -1525,7 +1528,7 @@ shan_ideas = {
 	}
 	shan_raiders = {
 		leader_land_shock = 1
-		loot_amount = 0.50
+		loot_amount = 0.10
 	}
 	shan_chronicles = {
 		legitimacy = 1
@@ -1537,12 +1540,12 @@ shan_ideas = {
 
 chinese_ideas = {
 	start = {
-		global_manpower_modifier = 0.25
-		advisor_pool = 1
+		manpower_recovery_speed = 0.1
+		adm_tech_cost_modifier = -0.05
 	}
 	
-	bonus = {		
-		leader_land_fire = 1
+	bonus = {
+		global_manpower_modifier = 0.25
 	}
 	
 	trigger = {
@@ -1554,10 +1557,10 @@ chinese_ideas = {
 	free = yes
 	
 	keju_examination = {
-		manpower_recovery_speed = 0.20
+		advisor_pool = 1
 	}
 	scholar_gentry = {
-		advisor_cost = -0.15
+		stability_cost_modifier = -0.1
 	}
 	order_of_four_occupations = {
 		production_efficiency = 0.10
@@ -1566,7 +1569,7 @@ chinese_ideas = {
 		prestige = 1
 	}
 	firearm_training = {
-		discipline = 0.05
+		infantry_power = 0.1
 	}
 	son_of_heaven = {
 		legitimacy = 1
@@ -1590,6 +1593,7 @@ vindhyan_ideas = {
 		OR = {
 			tag = BND
 			tag = BGL
+			tag = PAN
 			AND = {
 				tag = GWA
 				NOT = { primary_culture = marathi }
@@ -1628,7 +1632,7 @@ kurdish_ideas = {
 	}
 	
 	bonus = {
-		discipline = 0.05
+		free_leader_pool = 1
 	}
 	
 	trigger = {
@@ -1699,7 +1703,7 @@ laotian_ideas = {
 
 somali_ideas = {
 	start = {
-		infantry_cost = -0.15
+		infantry_cost = -0.1
 		trade_steering = 0.15
 	}
 	
@@ -1721,11 +1725,9 @@ somali_ideas = {
 	}
 	somali_qalqads = {
 		fort_maintenance_modifier = -0.2
-		manpower_recovery_speed = 0.15
 	}
 	somali_clans = {
 		global_manpower_modifier = 0.15
-		leader_land_shock = 1
 	}
 	somali_offensive_warfare = {
 		infantry_power = 0.1
@@ -1734,10 +1736,10 @@ somali_ideas = {
 		trade_efficiency = 0.1
 	}
 	somali_corsairs_of_the_red_sea = {
-		light_ship_power = 0.2
+		light_ship_power = 0.1
 	}
 	somali_perso_arab_influx = {
-		advisor_cost = -0.15
+		advisor_cost = -0.1
 	}
 }
 
@@ -1823,8 +1825,8 @@ mayan_ideas = {
 
 moluccan_ideas = {
 	start = {
-		global_trade_goods_size_modifier = 0.2
-		infantry_power = 0.10
+		global_trade_goods_size_modifier = 0.1
+		production_efficiency = 0.1
 	}
 	
 	bonus = {
@@ -1852,7 +1854,7 @@ moluccan_ideas = {
 		global_colonial_growth = 20
 	}
 	moluccan_ally_papuan_raiders = {
-		light_ship_power = 0.25
+		light_ship_power = 0.15
 	}
 	moluccan_pragmatic_diplomacy = {
 		diplomats = 1
@@ -1861,12 +1863,12 @@ moluccan_ideas = {
 
 greek_ideas = {
 	start = {
-		galley_power = 0.1
-		defensiveness = 0.2
+		galley_cost = -0.2
+		sailor_maintenance_modifer = -0.1
 	}
 	
 	bonus = {
-		discipline = 0.05
+		core_creation = -0.1 #Megali Idea
 	}
 	
 	trigger = {
@@ -1881,7 +1883,7 @@ greek_ideas = {
 		navy_tradition = 1
 	}
 	greek_klephtic_irregulars = {
-		infantry_power = 0.15
+		infantry_power = 0.1
 	}
 	greek_phanariotes = {
 		advisor_cost = -0.1
@@ -1905,7 +1907,7 @@ nubian_ideas = {
 	}
 	
 	bonus = {
-		land_maintenance_modifier = -0.1
+		land_maintenance_modifier = -0.05
 	}
 	
 	trigger = {
@@ -1973,7 +1975,7 @@ french_culture_ideas = {
 		diplomatic_upkeep = 1
 	}
 	french_la_petite_nation = {
-		land_morale = 0.2
+		land_morale = 0.1
 	}
 }
 
@@ -2006,10 +2008,10 @@ african_great_lakes_ideas = {
 		tolerance_own = 2
 	}
 	emitwe = { #Umuheto
-		infantry_cost = -0.15
+		infantry_cost = -0.1
 	}
 	unity_of_clans = {
-		infantry_power = 0.15
+		infantry_power = 0.1
 	}
 	development_of_clientship = {
 		global_tax_modifier = 0.1
@@ -2107,7 +2109,7 @@ congolese_minor_ideas = {
 	}
 	
 	bonus = {
-		land_leader_shock = 1
+		free_leader_pool = 1
 	}
 	
 	
@@ -2257,7 +2259,7 @@ highland_scottish_ideas = {
 		prestige = 1
 	}
 }
-	
+
 deccani_muslim_ideas = {
 	start = {
 		cavalry_power = 0.1
