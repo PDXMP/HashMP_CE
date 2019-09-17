@@ -1,0 +1,5 @@
+########################################
+# Custom triggered modifiers for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
