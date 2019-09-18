@@ -1,11 +1,11 @@
-name=HashMP CE Multiplayer Mod"
+name="HashMP CE Multiplayer Mod"
 tags={
 	"Multiplayer"
 	"Balance"
 	"Gameplay"
 	"Policies"
 }
-archive="mod/HashMP_CE.zip"
+picture="HashMP.jpg"
 version="1.29"
-picture = "HashMP.jpg"
+path="mod/HashMP_CE"
 remote_file_id="1600002838"
