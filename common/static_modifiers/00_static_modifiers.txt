@@ -873,12 +873,6 @@ meritocracy = {
 	advisor_cost = -0.5
 }
 
-# Multiplied by 50 - meritocracy
-low_meritocracy = {
-	#yearly_corruption = 0.2 #i.e. 0.1 at 0 Meritocracy
-}
-
-# Scaled, multiplied by current corruption / 100
 corruption = {
 	global_spy_defence = -0.25
 	spy_offence = -0.50

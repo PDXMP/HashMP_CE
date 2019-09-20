@@ -166,21 +166,11 @@ gc_spain_1_b = {
 		}
 
 		trigger = {
-			if = {
-				limit = {
-					has_dlc = "Rights of Man"
-				}
-				484 = {
-					country_or_non_sovereign_subject_holds = ROOT
-					OR = {
-						has_building = workshop
-						has_building = counting_house
-					}
-				}
-			}
-			else = {
-				484 = {
-					country_or_non_sovereign_subject_holds = ROOT
+			484 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = workshop
+					has_building = counting_house
 				}
 			}
 			custom_trigger_tooltip = {
@@ -433,22 +423,11 @@ gc_spain_2_b = {
 		}
 
 		trigger = {
-			if = {
-				limit = {
-					has_dlc = "Rights of Man"
-				}
-				490 = {
-					country_or_non_sovereign_subject_holds = ROOT
-					OR = {
-						has_building = temple
-						has_building = cathedral
-					}
-				
-				}
-			}
-			else = {
-				490 = {
-					country_or_non_sovereign_subject_holds = ROOT
+			490 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = temple
+					has_building = cathedral
 				}
 			}
 			custom_trigger_tooltip = {
