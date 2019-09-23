@@ -226,6 +226,7 @@ republic = {
 				revolutionary_republic_reform
 				presidential_despot_reform
 				cossacks_reform
+				h_reform_dominion
 			}
 		}
 		republican_virtues = {
@@ -639,5 +640,9 @@ pre_dharma_mapping = {
 	all_mechanics = {
 		government = monarchy
 		legacy_government = despotic_monarchy
+	}
+	h_reform_dominion = {
+		government = republic
+		legacy_government = colonial_government_legacy
 	}
 }
