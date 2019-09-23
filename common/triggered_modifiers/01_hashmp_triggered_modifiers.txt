@@ -81,14 +81,13 @@ t_player_cn = {
 		was_player = yes
 		NOT = { has_reform = h_reform_dominion }
 	}
-	naval_forcelimit_modifier = -0.33
-	possible_mercenaries = -0.5
-	development_cost = 0.2
-	mercenary_cost = 0.33
-	merc_maintenance_modifier = 0.33
+	naval_forcelimit_modifier = -0.5
+	land_forcelimit_modifier = -0.25
+	possible_mercenaries = -1.0
+	development_cost = 0.3
 	manpower_recovery_speed = -0.25
 	sailors_recovery_speed = -0.25
-	global_sailors_modifier = -0.50
+	global_sailors_modifier = -1.0
 }
 
 t_player_dominion = {
@@ -99,14 +98,13 @@ t_player_dominion = {
 		was_player = yes
 		has_reform = h_reform_dominion
 	}
-	naval_forcelimit_modifier = -0.33
+	naval_forcelimit_modifier = -0.25
 	possible_mercenaries = -0.5
 	development_cost = 0.2
-	mercenary_cost = 0.33
-	merc_maintenance_modifier = 0.33
 	manpower_recovery_speed = -0.25
 	sailors_recovery_speed = -0.25
-	global_sailors_modifier = -0.50
+	global_sailors_modifier = -1.0
+}
 
 t_cn_army_1 = {
 	potential = {
