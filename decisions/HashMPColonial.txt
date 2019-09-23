@@ -22,7 +22,7 @@ country_decisions = {
 			colonial_australia = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = AUS }
 		}
@@ -61,7 +61,7 @@ country_decisions = {
 			colonial_brazil = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = BRZ }
 		}
@@ -100,7 +100,7 @@ country_decisions = {
 			colonial_california = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = CAL }
 		}
@@ -139,7 +139,7 @@ country_decisions = {
 			colonial_canada = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = CAN }
 		}
@@ -178,7 +178,7 @@ country_decisions = {
 			colonial_la_plata = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = CHL }
 		}
@@ -217,7 +217,7 @@ country_decisions = {
 			colonial_colombia = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = COL }
 		}
@@ -256,7 +256,7 @@ country_decisions = {
 			colonial_the_carribean = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = HAT }
 		}
@@ -295,7 +295,7 @@ country_decisions = {
 			colonial_la_plata = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = LAP }
 		}
@@ -334,7 +334,7 @@ country_decisions = {
 			colonial_louisiana = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = LOU }
 		}
@@ -373,7 +373,7 @@ country_decisions = {
 			colonial_mexico = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = MEX }
 		}
@@ -412,7 +412,7 @@ country_decisions = {
 			colonial_brazil = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = PRG }
 		}
@@ -451,7 +451,7 @@ country_decisions = {
 			colonial_peru = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = PEU }
 		}
@@ -490,7 +490,7 @@ country_decisions = {
 			colonial_canada = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = QUE }
 		}
@@ -529,7 +529,7 @@ country_decisions = {
 			colonial_louisiana = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = TEX }
 		}
@@ -568,7 +568,7 @@ country_decisions = {
 			colonial_mexico = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = CAM }
 		}
@@ -607,7 +607,7 @@ country_decisions = {
 			colonial_eastern_america = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = USA }
 		}
@@ -646,7 +646,7 @@ country_decisions = {
 			colonial_colombia = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = VNZ }
 		}
@@ -685,7 +685,7 @@ country_decisions = {
 			colonial_the_carribean = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = CUB }
 		}
@@ -724,7 +724,7 @@ country_decisions = {
 			colonial_eastern_america = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = NEG }
 		}
@@ -763,7 +763,7 @@ country_decisions = {
 			colonial_australia = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = NZL }
 		}
@@ -802,7 +802,7 @@ country_decisions = {
 			colonial_peru = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = BLV }
 		}
@@ -841,7 +841,7 @@ country_decisions = {
 			colonial_california = {
 				type = all
 				owned_by = ROOT
-				is_core = ROOT = ROOT
+				is_core = ROOT
 			}
 			NOT = { exists = CSC }
 		}
