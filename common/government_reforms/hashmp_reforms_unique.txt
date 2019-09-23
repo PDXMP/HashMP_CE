@@ -1,0 +1,21 @@
+h_reform_dominion = {
+	icon = "constitution"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = no
+	fixed_rank = 2
+	potential = {
+		is_colonial_nation = yes
+		has_country_flag = became_dominion
+	}
+	modifiers = {
+		global_autonomy = -0.05
+		republican_tradition = 0.1
+		max_states = 2
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	duration = 4
+}
