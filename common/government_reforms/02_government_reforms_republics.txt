@@ -636,6 +636,11 @@ colonial_government = {
 				tag = CAM
 				tag = USA
 				tag = VNZ
+				tag = CUB
+				tag = NEG
+				tag = NZL
+				tag = BLV
+				tag = CSC
 			}
 		}
 	}
