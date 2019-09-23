@@ -1,0 +1,5 @@
+NEG = "countries/NewEngland.txt"
+BLV = "countries/Bolivia.txt"
+CUB = "countries/Cuba.txt"
+NZL = "countries/NewZealand.txt"
+CSC = "countries/Columbia.txt"
