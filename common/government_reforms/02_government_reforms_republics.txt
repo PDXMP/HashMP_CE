@@ -617,6 +617,27 @@ colonial_government = {
 	fixed_rank = 1
 	potential = {
 		is_colonial_nation = yes
+		NOT = {
+			OR = {
+				tag = AUS
+				tag = BRZ
+				tag = CAL
+				tag = CAN
+				tag = CHL
+				tag = COL
+				tag = HAT
+				tag = LAP
+				tag = LOU
+				tag = MEX
+				tag = PRG
+				tag = PEU
+				tag = QUE
+				tag = TEX
+				tag = CAM
+				tag = USA
+				tag = VNZ
+			}
+		}
 	}
 	legacy_equivalent = colonial_government_legacy
 	modifiers = {
