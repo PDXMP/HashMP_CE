@@ -117,3 +117,6 @@
  h_tooltip_many_marches_influence:0 "You may have a maximum of six marches."
  h_tooltip_move_capital:0 "You may not move your capital to the new world."
  h_tooltip_cn_colonize:0 "You may not colonize provinces outside of your colonial region."
+ H_DOMINION:0 "Dominion"
+ H_PrimeMinister:0 "Prime Minister"
+ 
