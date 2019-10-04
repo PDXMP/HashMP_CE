@@ -1,7 +1,12 @@
-########################################
+z########################################
 # Custom ideas for the HashMP Multiplayer mod
 #
 # by Foffy123 and hashinshin
+########################################
+
+
+########################################
+# Starting National Ideas
 ########################################
 
 CSH_ideas = { #Shun
@@ -119,6 +124,10 @@ YUE_ideas = { #Yue
 		development_cost = -0.10
 	}
 }
+
+########################################
+# Formable National Ideas
+########################################
 
 malayan_empire_ideas = { #Malayan empire
 	start = {
@@ -243,3 +252,8 @@ ARB_ideas = { #Arabian Empire
 		army_tradition = 0.5
 	}
 }
+
+###########################################
+# Formable CN Ideas
+###########################################
+
