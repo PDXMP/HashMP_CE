@@ -257,3 +257,672 @@ ARB_ideas = { #Arabian Empire
 # Formable CN Ideas
 ###########################################
 
+# Australia
+
+AUS_ideas = { #Australia
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = AUS
+	}
+	free = yes
+	
+	aus_1 = {
+	}
+	aus_2 = {
+	}
+	aus_3 = {
+	}
+	aus_4 = {
+	}
+	aus_5 = {
+	}
+	aus_6 = {
+	}
+	aus_7 = {
+	}
+}
+
+NZL_ideas = { #New Zealand
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = NZL
+	}
+	free = yes
+	
+	nzl_1 = {
+	}
+	nzl_2 = {
+	}
+	nzl_3 = {
+	}
+	nzl_4 = {
+	}
+	nzl_5 = {
+	}
+	nzl_6 = {
+	}
+	nzl_7 = {
+	}
+}
+
+# Brazil
+
+BRZ_ideas = { #Brazil
+	start = {
+		hostile_attrition = 1
+		envoy_travel_time = -0.25
+	}
+	bonus = {
+		global_trade_goods_size_modifier = 0.1
+	}	
+	trigger = {
+		tag = BRZ
+	}
+	free = yes
+
+	governorate_general = {
+		global_tax_modifier = 0.1
+	}
+	research_of_nassau = {
+		global_institution_spread = 0.1
+	}
+	mines_of_minas_gerais = {
+		inflation_reduction = 0.1
+	}
+	halting_foreign_incursions = {
+		infantry_power = 0.1
+	}
+	entradas_and_bandeiras = {
+		core_creation = -0.15
+	}
+	inconfidencia_mineira = {
+		stability_cost_modifier = -0.1
+	}
+	old_seat_of_the_empire = {
+		legitimacy = 1
+	}
+}
+
+PRG_ideas = { #Paraguay
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = PRG
+	}
+	free = yes
+	
+	prg_1 = {
+	}
+	prg_2 = {
+	}
+	prg_3 = {
+	}
+	prg_4 = {
+	}
+	prg_5 = {
+	}
+	prg_6 = {
+	}
+	prg_7 = {
+	}
+}
+
+# Canada
+
+CAN_ideas = { #Canada
+	start = {
+		trade_efficiency = 0.1
+		land_attrition = -0.15
+	}
+	
+	bonus = {
+		republican_tradition = 0.5
+		legitimacy = 1
+	}
+	
+	trigger = {
+		tag = CAN
+	}
+	free = yes
+	
+		
+	singing_lumberjacks = {
+		production_efficiency = 0.10
+	}	
+	the_hudson_bay_company = {
+		merchants = 1
+	}
+    settling_the_interior = {
+		colonists = 1
+	}
+	the_maritimes = {
+		navy_tradition = 1
+	}
+	the_quebec_act = {
+		tolerance_heretic = 2
+	}
+	legacy_of_the_empire = {
+		trade_steering = 0.15
+	}
+	the_forests_of_canada = {
+		global_ship_cost = -0.1
+	}
+}
+
+QUE_ideas = { #Quebec
+	start = {
+		infantry_power = 0.10
+		tolerance_own = 2
+	}
+	
+	bonus = {
+		army_tradition_decay = -0.01
+	}
+	
+	trigger = {
+		tag = QUE
+	}
+	free = yes
+	
+		
+	coureurs_des_bois = {
+		global_trade_goods_size_modifier = 0.1
+	}	
+	the_seigneurial_system = {
+		global_tax_modifier = 0.15
+	}
+	relations_with_natives = {
+		diplomatic_upkeep = 1
+	}
+	fortifications_of_quebec = {
+		defensiveness = 0.15
+	}
+	college_of_quebec = {
+		global_institution_spread = 0.1
+	}
+	commissions_for_noble_sons = {
+		free_leader_pool = 1
+	}
+	jesuit_missions = {
+		global_missionary_strength = 0.01
+	}
+}
+
+# california
+
+CAL_ideas = { #California
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = CAL
+	}
+	free = yes
+	
+	cal_1 = {
+	}
+	cal_2 = {
+	}
+	cal_3 = {
+	}
+	cal_4 = {
+	}
+	cal_5 = {
+	}
+	cal_6 = {
+	}
+	cal_7 = {
+	}
+}
+
+CSC_ideas = { #Columbia
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = CSC
+	}
+	free = yes
+	
+	csc_1 = {
+	}
+	csc_2 = {
+	}
+	csc_3 = {
+	}
+	csc_4 = {
+	}
+	csc_5 = {
+	}
+	csc_6 = {
+	}
+	csc_7 = {
+	}
+}
+
+# Caribbean
+
+CUB_ideas = { #Cuba
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = CUB
+	}
+	free = yes
+	
+	cub_1 = {
+	}
+	cub_2 = {
+	}
+	cub_3 = {
+	}
+	cub_4 = {
+	}
+	cub_5 = {
+	}
+	cub_6 = {
+	}
+	cub_7 = {
+	}
+}
+
+HAT_ideas = { #Haiti
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = HAT
+	}
+	free = yes
+	
+	hat_1 = {
+	}
+	hat_2 = {
+	}
+	hat_3 = {
+	}
+	hat_4 = {
+	}
+	hat_5 = {
+	}
+	hat_6 = {
+	}
+	hat_7 = {
+	}
+}
+
+# Colombia
+
+COL_ideas = { #Colombia
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = COL
+	}
+	free = yes
+	
+	col_1 = {
+	}
+	col_2 = {
+	}
+	col_3 = {
+	}
+	col_4 = {
+	}
+	col_5 = {
+	}
+	col_6 = {
+	}
+	col_7 = {
+	}
+}
+
+# Eastern America
+
+USA_ideas = { #United States
+	start = {
+		merchants = 1
+		religious_unity = 0.2
+	}
+	
+	bonus = {
+		republican_tradition = 0.5
+	}
+	
+	trigger = {
+		tag = USA
+	}
+	free = yes
+	
+	freedom_of_religion = {
+		no_religion_penalty = yes
+	}
+	usa_bill_of_rights = {
+		global_unrest = -2
+	}
+	empire_of_liberty = {
+		colonists = 1
+	}
+	lessons_of_valley_forge = {
+		land_morale = 0.10
+	}
+	workshop_of_the_world = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	shining_city_on_a_hill = {
+		prestige = 1
+	}
+	indian_removal = {
+		cb_on_primitives = yes
+ 	}
+}
+
+NEG_ideas = { #New England
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = NEG
+	}
+	free = yes
+	
+	neg_1 = {
+	}
+	neg_2 = {
+	}
+	neg_3 = {
+	}
+	neg_4 = {
+	}
+	neg_5 = {
+	}
+	neg_6 = {
+	}
+	neg_7 = {
+	}
+}
+
+# La Plata
+
+CHL_ideas = { #Chile
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = CHL
+	}
+	free = yes
+	
+	chl_1 = {
+	}
+	chl_2 = {
+	}
+	chl_3 = {
+	}
+	chl_4 = {
+	}
+	chl_5 = {
+	}
+	chl_6 = {
+	}
+	chl_7 = {
+	}
+}
+
+LAP_ideas = { #La Plata
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = LAP
+	}
+	free = yes
+	
+	lap_1 = {
+	}
+	lap_2 = {
+	}
+	lap_3 = {
+	}
+	lap_4 = {
+	}
+	lap_5 = {
+	}
+	lap_6 = {
+	}
+	lap_7 = {
+	}
+}
+
+# Louisiana
+
+TEX_ideas = { #Texas
+	start = {	
+		fire_damage_received = -0.1
+		no_religion_penalty = yes
+	}
+	bonus = {
+		land_morale = 0.15
+	}
+	trigger = {
+		tag = TEX
+	}
+	free = yes
+	lone_star_state = {
+		prestige = 1
+	}
+	tex_revolution = {
+		fire_damage = 0.1
+	}
+	cotton_plantations = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	vaqueros = {
+		land_attrition = -0.1
+		movement_speed = 0.15
+	}
+	tex_native_frontiers = {
+		army_tradition_decay = -0.01
+	}
+	tejanos = {
+		stability_cost_modifier = -0.15
+	}
+	adelsverin = {
+		development_cost = -0.1
+	}
+}
+
+LOU_ideas = { #Louisiana
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = LOU
+	}
+	free = yes
+	
+	lou_1 = {
+	}
+	lou_2 = {
+	}
+	lou_3 = {
+	}
+	lou_4 = {
+	}
+	lou_5 = {
+	}
+	lou_6 = {
+	}
+	lou_7 = {
+	}
+}
+
+# Mexico
+
+MEX_ideas = { #Mexico
+	start = {
+		global_colonial_growth = 15
+		inflation_reduction = 0.1
+	}
+	
+	bonus = {
+		manpower_recovery_speed = 0.15
+	}
+	
+	trigger = {
+		tag = MEX
+	}
+	free = yes
+	
+		
+	rebuilding_mexico = {
+		build_cost = -0.10
+	}	
+	the_republic_of_indians = {
+		num_accepted_cultures = 1
+	}
+    peace_by_purchase = {
+		years_of_nationalism = -5
+	}
+	casa_de_las_campanas = {
+		idea_cost = -0.10
+	}
+	repartimiento = {
+		production_efficiency = 0.15
+	}
+	heroes_of_the_revolution = {
+		leader_land_shock = 1
+	}
+	grito_de_delores = {
+		land_morale = 0.10	
+	}
+}
+
+CAM_ideas = { #United Central America
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = CAM
+	}
+	free = yes
+	
+	cam_1 = {
+	}
+	cam_2 = {
+	}
+	cam_3 = {
+	}
+	cam_4 = {
+	}
+	cam_5 = {
+	}
+	cam_6 = {
+	}
+	cam_7 = {
+	}
+}
+
+# Peru
+
+BLV_ideas = { #Bolivia
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = BLV
+	}
+	free = yes
+	
+	blv_1 = {
+	}
+	blv_2 = {
+	}
+	blv_3 = {
+	}
+	blv_4 = {
+	}
+	blv_5 = {
+	}
+	blv_6 = {
+	}
+	blv_7 = {
+	}
+}
+
+PEU_ideas = { #Peru
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = PEU
+	}
+	free = yes
+	
+	peu_1 = {
+	}
+	peu_2 = {
+	}
+	peu_3 = {
+	}
+	peu_4 = {
+	}
+	peu_5 = {
+	}
+	peu_6 = {
+	}
+	peu_7 = {
+	}
+}
