@@ -737,12 +737,12 @@ LAP_ideas = { #La Plata
 # Louisiana
 
 TEX_ideas = { #Texas
-	start = {	
-		fire_damage_received = -0.1
-		no_religion_penalty = yes
+	start = {
+		global_tax_modifier = 0.15
+		free_leader_pool = 1
 	}
 	bonus = {
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 	trigger = {
 		tag = TEX
@@ -751,24 +751,25 @@ TEX_ideas = { #Texas
 	lone_star_state = {
 		prestige = 1
 	}
-	tex_revolution = {
-		fire_damage = 0.1
+	tex_revolution = { #Texas Rangers
+		shock_damage = 0.15
 	}
 	cotton_plantations = {
-		global_trade_goods_size_modifier = 0.1
+		development_cost = -0.1
 	}
 	vaqueros = {
-		land_attrition = -0.1
-		movement_speed = 0.15
+		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.40
 	}
 	tex_native_frontiers = {
-		army_tradition_decay = -0.01
+		land_attrition = -0.1
+		movement_speed = 0.15
 	}
 	tejanos = {
 		stability_cost_modifier = -0.15
 	}
 	adelsverin = {
-		development_cost = -0.1
+		technology_cost = -0.05
 	}
 }
 
