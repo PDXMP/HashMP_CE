@@ -427,10 +427,7 @@ warsubsidy = {
 			is_colonial_nation = yes
 		}
 		allow = {
-			OR = {
-				FROM = { overlord_of = ROOT }
-				FROM = { is_colonial_nation = yes }
-			}
+			FROM = { is_colonial_nation = yes }
 		}
 	}
 	condition = {
@@ -453,10 +450,7 @@ offerloan = {
 			is_colonial_nation = yes
 		}
 		allow = {
-			OR = {
-				FROM = { overlord_of = ROOT }
-				FROM = { is_colonial_nation = yes }
-			}
+			FROM = { is_colonial_nation = yes }
 		}
 	}
 	condition = {
@@ -479,10 +473,7 @@ giftaction = {
 			is_colonial_nation = yes
 		}
 		allow = {
-			OR = {
-				FROM = { overlord_of = ROOT }
-				FROM = { is_colonial_nation = yes }
-			}
+			FROM = { is_colonial_nation = yes }
 		}
 	}
 	condition = {
