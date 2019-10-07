@@ -473,7 +473,7 @@ age_of_absolutism = {
 		debase_currency = -1
 		execute_rebel_acceptance_command = -10
 		seat_in_parliament = -3
-		war_exhaustion = -1
+		#war_exhaustion = -1
 	}
 	
 	
