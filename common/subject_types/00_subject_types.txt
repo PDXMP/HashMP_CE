@@ -409,7 +409,7 @@ colony = {
 	diplomacy_subject_sprite = GFX_diplomacy_subjectcolony
 
 	# Properties:
-	transfer_trade_power = no
+	transfer_trade_power = yes
 	can_release_and_play = yes
 	uses_tariffs = yes
 	eats_overlords_colonies = yes
