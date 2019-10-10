@@ -647,7 +647,7 @@ colonial_government = {
 	legacy_equivalent = colonial_government_legacy
 	modifiers = {
 		global_autonomy = -0.05
-		embracement_cost = -0.1
+		republican_tradition = -0.2
 		max_states = 2
 	}
 
