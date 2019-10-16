@@ -2027,9 +2027,9 @@ country_event = {
 		name = "hindu_events.48.a"
 		define_heir = {
 			dynasty = "Suryavansha"
-			ADM = 4
-			DIP = 4
-			MIL = 4
+			ADM = 2
+			DIP = 2
+			MIL = 2
 			claim = 20
 		}
 		add_prestige = 10
