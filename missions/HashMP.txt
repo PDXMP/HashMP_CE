@@ -591,3 +591,355 @@ h_orm_missions = {
 		}
 	}
 }
+
+h_cn_australia_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_australia
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_australia_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_australia = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_australia_dominion_request
+		}
+	}
+}
+
+h_cn_brazil_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_brazil
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_brazil_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_brazil = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_brazil_dominion_request
+		}
+	}
+}
+
+h_cn_california_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_california
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_california_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_california = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_california_dominion_request
+		}
+	}
+}
+
+h_cn_canada_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_canada
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_canada_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_canada = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_canada_dominion_request
+		}
+	}
+}
+
+h_cn_caribbean_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_the_carribean
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_caribbean_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_the_carribean = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_caribbean_dominion_request
+		}
+	}
+}
+
+h_cn_colombia_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_colombia
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_colombia_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_colombia = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_colombia_dominion_request
+		}
+	}
+}
+
+h_cn_easternamerica_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_eastern_america
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_easternamerica_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_eastern_america = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_easternamerica_dominion_request
+		}
+	}
+}
+
+h_cn_laplata_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_la_plata
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_laplata_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_la_plata = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_laplata_dominion_request
+		}
+	}
+}
+
+h_cn_louisiana_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_louisiana
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_louisiana_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_louisiana = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_louisiana_dominion_request
+		}
+	}
+}
+
+h_cn_mexico_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_mexico
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_mexico_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_mexico = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_mexico_dominion_request
+		}
+	}
+}
+
+h_cn_peru_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_peru
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_peru_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_peru = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_peru_dominion_request
+		}
+	}
+}
