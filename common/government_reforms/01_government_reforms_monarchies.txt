@@ -650,6 +650,7 @@ mughal_government = {
 
 	modifiers = {
 		tolerance_own = 1
+		religious_unity = 0.33
 		max_states = 3
 	}
 
