@@ -341,3 +341,23 @@ t_hre_strongemperor = {
 ###########################################
 # Misc Modifiers
 ###########################################
+
+t_vassal_to_horde = {
+	potential = {
+		is_subject = yes
+		ai = yes
+	}
+	trigger = {
+		OR = {
+			overlord = { has_reform = great_mongol_state_reform }
+			overlord = { has_reform = steppe_horde }
+		}
+		OR = {
+			is_subject_of_type = client_march
+			is_subject_of_type = client_vassal
+			is_subject_of_type = vassal
+			is_subject_of_type = march
+		}
+	}
+	cav_to_inf_ratio = 0.5
+}
