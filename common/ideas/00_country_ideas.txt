@@ -1130,12 +1130,11 @@ ARA_ideas = {
 MUG_ideas = {
 	start = {
 		core_creation = -0.10
-		cavalry_power = 0.20
+		technology_cost = -0.1
 	}
 	
 	bonus = {
 		artillery_power = 0.10
-		technology_cost = -0.05
 	}
 	
 	trigger = {
@@ -1143,24 +1142,23 @@ MUG_ideas = {
 	}
 	free = yes
 	
-	an_indian_padshah = { #New name for tolerate the idol worshippers
-		tolerance_heathen = 3
-		religious_unity = 0.35
-	}
 	mansabdari_system = {
 		discipline = 0.05
 	}
 	control_of_the_ulema = {
-		global_manpower_modifier = 0.10
+		global_manpower_modifier = 0.15
 	}
 	mughal_ibadat_khana = {
 		idea_cost = -0.1
 	}
+	an_indian_padshah = {
+		free_mil_policy = 1
+	}
 	zabt_system = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.15
 	}
 	mughal_architecture = {
-		prestige = 1
+		build_cost = -0.15
 	}
 	fatawa_e_alamgiri = {
 		stability_cost_modifier = -0.10
