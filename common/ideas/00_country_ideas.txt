@@ -1090,7 +1090,7 @@ NAP_ideas = {
 
 ARA_ideas = {
 	start = {
-		galley_power = 0.2
+		galley_power = 0.1
 		trade_efficiency = 0.1
 	}
 	
