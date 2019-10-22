@@ -254,7 +254,7 @@ SPA_ideas = {
 
 CAS_ideas = {
 	start = {
-		land_morale = 0.15
+		land_morale = 0.1
 		missionaries = 1
 	}
 	bonus = {
