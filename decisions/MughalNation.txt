@@ -54,10 +54,10 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 507
-				province_id = 2075
-				province_id = 522
-				province_id = 524
+				area = sirhind_area
+				area = sind_sagar_area
+				area = lahore_area
+				area = upper_doab_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -69,12 +69,10 @@ country_decisions = {
 			NOT = { exists = MUG }
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
-			OR = {
-				owns_core_province = 507 #Lahore
-				owns_core_province = 2075 #Sirhind
-				owns_core_province = 524 #Agra
-			}
-			owns_core_province = 522 #Delhi
+			sirhind_area = { type = all is_core = ROOT owned_by = ROOT }
+			sind_sagar_area = { type = all is_core = ROOT owned_by = ROOT }
+			lahore_area = { type = all is_core = ROOT owned_by = ROOT }
+			upper_doab_area = { type = all is_core = ROOT owned_by = ROOT }
 		}
 		effect = {
 			522 = {
