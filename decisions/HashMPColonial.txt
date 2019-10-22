@@ -43,6 +43,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_australia_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -85,6 +86,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_brazil_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -127,6 +129,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_california_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -169,6 +172,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_canada_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -211,6 +215,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_laplata_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -253,6 +258,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_colombia_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -295,6 +301,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_caribbean_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -337,6 +344,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_laplata_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -379,6 +387,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_louisiana_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -421,6 +430,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_mexico_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -463,6 +473,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_brazil_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -505,6 +516,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_peru_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -547,6 +559,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_canada_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -589,6 +602,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_louisiana_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -631,6 +645,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_mexico_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -673,6 +688,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_easternamerica_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -715,6 +731,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_colombia_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -757,6 +774,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_caribbean_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -799,6 +817,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_easternamerica_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -841,6 +860,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_australia_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -883,6 +903,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_peru_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -925,6 +946,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
+			clr_country_flag = h_california_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
