@@ -20,10 +20,21 @@ country_decisions = {
 				ai = no
 			}
 			OR = {
-				culture_group = iranian
-				primary_culture = turkmeni
-				primary_culture = uzbehk
-				primary_culture = kirgiz
+				tag = KHO
+				tag = TIM
+				tag = AFG
+				tag = TRS
+				tag = SIS
+				tag = BAL
+				tag = KRM
+				tag = YZD
+				tag = QOM
+				tag = LRI
+				tag = ISF
+				tag = FRS
+				tag = TAB
+				tag = KRY
+				tag = BPI
 			}
 			OR = {
 				ai = no
