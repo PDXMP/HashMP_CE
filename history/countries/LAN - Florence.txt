@@ -6,7 +6,7 @@ primary_culture = tuscan
 religion = catholic
 technology_group = western
 capital = 116 # Firenze
-historical_friend = PAP
+add_army_professionalism = 0.05
 
 1421.1.1 = {
 	monarch = {
