@@ -9952,7 +9952,7 @@ HAN_ideas = {
 	free = yes
 	
 	han_niedersachsicher_reichskreis = {
-		state_maintenance_modifier = -0.15
+		state_maintenance_modifier = -0.2
 	}
 	han_weser_renaissance = {
 		development_cost = -0.1
