@@ -78,6 +78,7 @@ WUU_ideas = { #Wu
 	}
 	WUU_5 = {
 		land_morale = 0.10
+		naval_morale = 0.10
 	}
 	WUU_6 = {
 		legitimacy = 1
