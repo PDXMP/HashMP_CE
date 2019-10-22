@@ -1,8 +1,7 @@
 #Ibiza
 
-owner = ARA		# Alfons V of Aragon
-controller = ARA
-add_core = ARA
+owner = MJO		# Alfons V of Aragon
+controller = MJO
 add_core = MJO
 culture = catalan
 religion = catholic
