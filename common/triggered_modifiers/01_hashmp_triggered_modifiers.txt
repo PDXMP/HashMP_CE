@@ -115,8 +115,8 @@ t_cn_army_1 = {
 		army_size = 60
 	}
 	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.1
-	global_regiment_cost = 0.06
+	reinforce_speed = -0.15
+	global_regiment_cost = 0.075
 }
 
 t_cn_army_2 = {
@@ -128,8 +128,8 @@ t_cn_army_2 = {
 		army_size = 120
 	}
 	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.1
-	global_regiment_cost = 0.06
+	reinforce_speed = -0.15
+	global_regiment_cost = 0.075
 }
 
 t_cn_army_3 = {
@@ -141,8 +141,8 @@ t_cn_army_3 = {
 		army_size = 180
 	}
 	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.1
-	global_regiment_cost = 0.06
+	reinforce_speed = -0.15
+	global_regiment_cost = 0.075
 }
 
 t_cn_army_4 = {
@@ -154,8 +154,8 @@ t_cn_army_4 = {
 		army_size = 240
 	}
 	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.1
-	global_regiment_cost = 0.06
+	reinforce_speed = -0.15
+	global_regiment_cost = 0.075
 }
 
 t_cn_army_5 = {
@@ -167,8 +167,8 @@ t_cn_army_5 = {
 		army_size = 300
 	}
 	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.1
-	global_regiment_cost = 0.06
+	reinforce_speed = -0.15
+	global_regiment_cost = 0.075
 }
 
 t_cn_navy_1 = {
@@ -181,8 +181,8 @@ t_cn_navy_1 = {
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
-	global_ship_cost = 0.08
-	naval_maintenance_modifier = 0.06
+	global_ship_cost = 0.1
+	naval_maintenance_modifier = 0.075
 }
 
 t_cn_navy_2 = {
@@ -195,8 +195,8 @@ t_cn_navy_2 = {
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
-	global_ship_cost = 0.08
-	naval_maintenance_modifier = 0.06
+	global_ship_cost = 0.1
+	naval_maintenance_modifier = 0.075
 }
 
 t_cn_navy_3 = {
@@ -209,8 +209,8 @@ t_cn_navy_3 = {
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
-	global_ship_cost = 0.08
-	naval_maintenance_modifier = 0.06
+	global_ship_cost = 0.1
+	naval_maintenance_modifier = 0.075
 }
 
 t_cn_navy_4 = {
@@ -223,8 +223,8 @@ t_cn_navy_4 = {
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
-	global_ship_cost = 0.08
-	naval_maintenance_modifier = 0.06
+	global_ship_cost = 0.1
+	naval_maintenance_modifier = 0.075
 }
 
 t_cn_navy_5 = {
@@ -237,8 +237,8 @@ t_cn_navy_5 = {
 	}
 	sailor_maintenance_modifer = 0.1
 	global_ship_recruit_speed = 0.1
-	global_ship_cost = 0.08
-	naval_maintenance_modifier = 0.06
+	global_ship_cost = 0.1
+	naval_maintenance_modifier = 0.075
 }
 
 ###########################################
