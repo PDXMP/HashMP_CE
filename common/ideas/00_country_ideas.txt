@@ -2828,10 +2828,11 @@ MAL_ideas = {
 	}
 	lost_fleet_of_abubukari_ii = {
 		navy_tradition = 1.0
-		global_colonial_growth = 10
+		colonists = 1
 	}
 	seek_new_markets_for_salt = {
 		merchants = 1
+		global_colonial_growth = 20
 	}
 	west_african_slave_trade = {
 		trade_efficiency = 0.1
