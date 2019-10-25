@@ -750,7 +750,7 @@ LAP_ideas = { #La Plata
 
 TEX_ideas = { #Texas
 	start = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.1
 		free_leader_pool = 1
 	}
 	bonus = {
@@ -767,7 +767,8 @@ TEX_ideas = { #Texas
 		shock_damage = 0.15
 	}
 	cotton_plantations = {
-		development_cost = -0.1
+		production_efficiency = 0.05
+		development_cost = -0.05
 	}
 	vaqueros = {
 		cavalry_power = 0.15
@@ -778,7 +779,7 @@ TEX_ideas = { #Texas
 		movement_speed = 0.15
 	}
 	tejanos = {
-		stability_cost_modifier = -0.15
+		stability_cost_modifier = -0.1
 	}
 	adelsverin = {
 		technology_cost = -0.05
