@@ -890,7 +890,7 @@ MEX_ideas = { #Mexico
 CAM_ideas = { #United Central America
 	start = {
 		free_leader_pool = 2
-		reinforce_cost_modifier = -0.1
+		reinforce_speed = 0.2
 	}
 	
 	bonus = {
@@ -923,7 +923,7 @@ CAM_ideas = { #United Central America
 		garrison_size = 0.1
 	}
 	cam_7 = { #Militia
-		land_forcelimit_modifier = 0.2
+		land_forcelimit_modifier = 0.25
 	}
 }
 
