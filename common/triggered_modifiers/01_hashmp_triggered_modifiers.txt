@@ -80,6 +80,7 @@ t_player_cn = {
 	trigger = {
 		was_player = yes
 		NOT = { has_reform = h_reform_dominion }
+		NOT = { has_country_flag = became_dominion }
 	}
 	naval_forcelimit_modifier = -0.5
 	land_forcelimit_modifier = -0.25
@@ -96,7 +97,10 @@ t_player_dominion = {
 	}
 	trigger = {
 		was_player = yes
-		has_reform = h_reform_dominion
+		OR = {
+			has_reform = h_reform_dominion
+			has_country_flag = became_dominion
+		}
 	}
 	naval_forcelimit_modifier = -0.25
 	possible_mercenaries = -0.5
