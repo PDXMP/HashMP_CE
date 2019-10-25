@@ -1026,9 +1026,12 @@ BLV_ideas = { #Bolivia
 
 PEU_ideas = { #Peru
 	start = {
+		stability_cost_modifier = -0.1
+		land_attrition = -0.10
 	}
 	
 	bonus = {
+		global_supply_limit_modifier = 0.5
 	}
 	
 	trigger = {
@@ -1036,18 +1039,26 @@ PEU_ideas = { #Peru
 	}
 	free = yes
 	
-	peu_1 = {
+	peu_1 = { #Mountain Foundries
+		artillery_cost = -0.15
+		artillery_power = 0.075
 	}
-	peu_2 = {
+	peu_2 = { #Andes Rangers
+		movement_speed = 0.1
 	}
-	peu_3 = {
+	peu_3 = { #Blast Charges
+		siege_ability = 0.1
 	}
-	peu_4 = {
+	peu_4 = { #Loyalists
+		republican_tradition = 0.1
 	}
-	peu_5 = {
+	peu_5 = { #Sacred Valley
+		development_cost = -0.1
 	}
-	peu_6 = {
+	peu_6 = { #Faithful Unto Death
+		land_morale = 0.1
 	}
-	peu_7 = {
+	peu_7 = { #Machu Picchu
+		prestige_decay = -0.01
 	}
 }
