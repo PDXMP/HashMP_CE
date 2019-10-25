@@ -605,9 +605,12 @@ CUB_ideas = { #Cuba
 
 HAT_ideas = { #Haiti
 	start = {
+		global_manpower = 10
+		global_tax_modifier = 0.1
 	}
 	
 	bonus = {
+		discipline = 0.03
 	}
 	
 	trigger = {
@@ -615,19 +618,32 @@ HAT_ideas = { #Haiti
 	}
 	free = yes
 	
-	hat_1 = {
+	hat_1 = { #Liberty and Equality
+		stability_cost_modifier = -0.2
 	}
-	hat_2 = {
+	hat_2 = { #Breaker of Chains
+		development_cost = -0.1
 	}
-	hat_3 = {
+	hat_3 = { #First In
+		transport_cost = -0.25
+		movement_speed = 0.1
 	}
-	hat_4 = {
+	hat_4 = { #Last Out
+		land_morale = 0.1
 	}
-	hat_5 = {
+	hat_5 = { #Praise the Lord
+		papal_influence = 2
+		devotion = 0.5
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.2
+		monthly_karma = 0.25
+		monthly_piety = 0.1
 	}
-	hat_6 = {
+	hat_6 = { #Pass the Ammunition
+		global_regiment_recruit_speed = -0.25
 	}
-	hat_7 = {
+	hat_7 = { #Pave the Way
+		global_naval_barrage_cost = -0.33
 	}
 }
 
