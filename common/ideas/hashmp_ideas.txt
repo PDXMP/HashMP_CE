@@ -362,7 +362,7 @@ BRZ_ideas = { #Brazil
 		global_trade_goods_size_modifier = 0.05
 	}
 	halting_foreign_incursions = {
-		shock_damage_received = -0.1
+		fire_damage = 0.1
 	}
 	entradas_and_bandeiras = {
 		same_culture_advisor_cost = -0.1
@@ -377,9 +377,12 @@ BRZ_ideas = { #Brazil
 
 PRG_ideas = { #Paraguay
 	start = {
+		land_attrition = -0.1
+		reinforce_cost_modifier = -0.1
 	}
 	
 	bonus = {
+		land_forcelimit_modifier = 0.2
 	}
 	
 	trigger = {
@@ -387,19 +390,27 @@ PRG_ideas = { #Paraguay
 	}
 	free = yes
 	
-	prg_1 = {
+	prg_1 = { #Clearcutting
+		development_cost = -0.05
+		build_cost = -0.05
 	}
-	prg_2 = {
+	prg_2 = { #Heart of South America
+		prestige = 1
 	}
-	prg_3 = {
+	prg_3 = { #Native Recruitment
+		global_manpower_modifier = 0.1
 	}
-	prg_4 = {
+	prg_4 = { #Bandeirantes
+		army_tradition = 0.5
 	}
-	prg_5 = {
+	prg_5 = { #Rapid Industrialization
+		build_time = -0.25
 	}
-	prg_6 = {
+	prg_6 = { #Jungle Economy
+		production_efficiency = 0.1
 	}
-	prg_7 = {
+	prg_7 = { #Grease the Wheels
+		yearly_corruption = -0.1
 	}
 }
 
