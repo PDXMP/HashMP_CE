@@ -859,12 +859,12 @@ LOU_ideas = { #Louisiana
 
 MEX_ideas = { #Mexico
 	start = {
-		global_colonial_growth = 15
-		inflation_reduction = 0.1
+		adm_tech_cost_modifier = -0.1
+		hostile_attrition = 1
 	}
 	
 	bonus = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.1
 	}
 	
 	trigger = {
@@ -874,25 +874,27 @@ MEX_ideas = { #Mexico
 	
 		
 	rebuilding_mexico = {
-		build_cost = -0.10
+		build_cost = -0.05
+		development_cost = -0.05
 	}	
 	the_republic_of_indians = {
 		num_accepted_cultures = 1
 	}
     peace_by_purchase = {
-		years_of_nationalism = -5
+		global_autonomy = -0.05
 	}
 	casa_de_las_campanas = {
-		idea_cost = -0.10
+		embracement_cost = -0.1
+		prestige = 0.5
 	}
 	repartimiento = {
-		production_efficiency = 0.15
+		production_efficiency = 0.1
 	}
 	heroes_of_the_revolution = {
 		leader_land_shock = 1
 	}
 	grito_de_delores = {
-		land_morale = 0.10	
+		land_morale = 0.075
 	}
 }
 
