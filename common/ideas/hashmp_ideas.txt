@@ -669,12 +669,12 @@ HAT_ideas = { #Haiti
 
 COL_ideas = { #Colombia
 	start = {
-		global_prov_trade_power_modifier = 0.25
+		army_tradition = 0.5
 		general_cost = -0.2
 	}
 	
 	bonus = {
-		land_maintenance_modifier = -0.1
+		shock_damage_received = -0.1
 	}
 	
 	trigger = {
@@ -683,7 +683,7 @@ COL_ideas = { #Colombia
 	free = yes
 	
 	col_1 = { #Sons of Bolivar
-		army_tradition = 1
+		infantry_power = 0.1
 	}
 	col_2 = { #Gran Colombia
 		prestige_decay = -0.01
