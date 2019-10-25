@@ -877,9 +877,12 @@ MEX_ideas = { #Mexico
 
 CAM_ideas = { #United Central America
 	start = {
+		free_leader_pool = 2
+		reinforce_cost_modifier = -0.1
 	}
 	
 	bonus = {
+		yearly_corruption = -0.1
 	}
 	
 	trigger = {
@@ -887,19 +890,28 @@ CAM_ideas = { #United Central America
 	}
 	free = yes
 	
-	cam_1 = {
+	cam_1 = { #Grand Commissariat
+		land_morale = 0.1
 	}
-	cam_2 = {
+	cam_2 = { #Arm the Masses
+		infantry_power = -0.1
+		infantry_cost = -0.1
 	}
-	cam_3 = {
+	cam_3 = { #Imperial Schools
+		idea_cost = -0.1
 	}
-	cam_4 = {
+	cam_4 = { #Forced Conversion
+		culture_conversion_cost = -0.25
 	}
-	cam_5 = {
+	cam_5 = { #Highland Conscription
+		manpower_recovery_speed = 0.2
 	}
-	cam_6 = {
+	cam_6 = { #Redoubts
+		defensiveness = 0.1
+		garrison_size = 0.1
 	}
-	cam_7 = {
+	cam_7 = { #Militia
+		land_forcelimit_modifier = 0.2
 	}
 }
 
