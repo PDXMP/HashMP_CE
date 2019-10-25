@@ -669,9 +669,12 @@ HAT_ideas = { #Haiti
 
 COL_ideas = { #Colombia
 	start = {
+		global_prov_trade_power_modifier = 0.25
+		general_cost = -0.2
 	}
 	
 	bonus = {
+		land_maintenance_modifier = -0.1
 	}
 	
 	trigger = {
@@ -679,19 +682,26 @@ COL_ideas = { #Colombia
 	}
 	free = yes
 	
-	col_1 = {
+	col_1 = { #Sons of Bolivar
+		army_tradition = 1
 	}
-	col_2 = {
+	col_2 = { #Gran Colombia
+		prestige_decay = -0.01
 	}
-	col_3 = {
+	col_3 = { #Jungle Plantations
+		production_efficiency = 0.1
 	}
-	col_4 = {
+	col_4 = { #Muisca Heritage
+		num_accepted_cultures = 1
 	}
-	col_5 = {
+	col_5 = { #Little Hell
+		global_missionary_strength = 0.02
 	}
-	col_6 = {
+	col_6 = { #Patrol the Caribbean
+		global_sailors_modifier = 0.25
 	}
-	col_7 = {
+	col_7 = { #Sublime Liberty
+		republican_tradition = 0.1
 	}
 }
 
