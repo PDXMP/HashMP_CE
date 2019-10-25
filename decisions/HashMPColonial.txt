@@ -627,7 +627,7 @@ country_decisions = {
 				is_core = ROOT
 			}
 			colonial_parent = {
-				has_country_flag = h_can_enabled
+				has_country_flag = h_cam_enabled
 			}
 			NOT = { exists = CAM }
 		}
