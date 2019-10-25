@@ -498,9 +498,12 @@ QUE_ideas = { #Quebec
 
 CAL_ideas = { #California
 	start = {
+		republican_tradition = 0.1
+		tolerance_own = 1
 	}
 	
 	bonus = {
+		trade_efficiency = 0.1
 	}
 	
 	trigger = {
@@ -508,19 +511,26 @@ CAL_ideas = { #California
 	}
 	free = yes
 	
-	cal_1 = {
+	cal_1 = { #Golden Empire
+		development_cost = -0.15
 	}
-	cal_2 = {
+	cal_2 = { #Gold Rush
+		global_trade_goods_size_modifier = 0.1
 	}
-	cal_3 = {
+	cal_3 = { #Outlaw Country
+		possible_mercenaries = 0.25
 	}
-	cal_4 = {
+	cal_4 = { #City of Angels
+		advisor_cost = -0.1
 	}
-	cal_5 = {
+	cal_5 = { #Captains of Industry
+		build_cost = -0.1
 	}
-	cal_6 = {
+	cal_6 = { #Imperial Administrators
+		free_adm_policy = 1
 	}
-	cal_7 = {
+	cal_7 = { #The Bay
+		ship_recruit_speed = -0.25
 	}
 }
 
