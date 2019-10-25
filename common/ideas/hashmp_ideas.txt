@@ -341,10 +341,10 @@ NZL_ideas = { #New Zealand
 BRZ_ideas = { #Brazil
 	start = {
 		hostile_attrition = 1
-		envoy_travel_time = -0.25
+		missionaries = 1
 	}
 	bonus = {
-		global_trade_goods_size_modifier = 0.1
+		prestige_decay = -0.01
 	}	
 	trigger = {
 		tag = BRZ
@@ -352,25 +352,26 @@ BRZ_ideas = { #Brazil
 	free = yes
 
 	governorate_general = {
-		global_tax_modifier = 0.1
+		global_autonomy = -0.05
 	}
 	research_of_nassau = {
-		global_institution_spread = 0.1
+		innovativeness_gain = 0.5
 	}
 	mines_of_minas_gerais = {
-		inflation_reduction = 0.1
+		production_efficiency = 0.05
+		global_trade_goods_size_modifier = 0.05
 	}
 	halting_foreign_incursions = {
-		infantry_power = 0.1
+		shock_damage_received = -0.1
 	}
 	entradas_and_bandeiras = {
-		core_creation = -0.15
+		same_culture_advisor_cost = -0.1
 	}
 	inconfidencia_mineira = {
 		stability_cost_modifier = -0.1
 	}
 	old_seat_of_the_empire = {
-		legitimacy = 1
+		republican_tradition = 0.1
 	}
 }
 
