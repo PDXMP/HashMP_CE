@@ -457,12 +457,12 @@ CAN_ideas = { #Canada
 
 QUE_ideas = { #Quebec
 	start = {
-		manpower_recovery_speed = 0.1
+		land_attrition = -0.15
 		fire_damage = 0.10
 	}
 	
 	bonus = {
-		land_attrition = -0.2
+		movement_speed = 0.15
 	}
 	
 	trigger = {
@@ -475,7 +475,7 @@ QUE_ideas = { #Quebec
 		global_trade_goods_size_modifier = 0.1
 	}	
 	the_seigneurial_system = {
-		global_tax_modifier = 0.1
+		manpower_recovery_speed = 0.1
 	}
 	relations_with_natives = {
 		prestige = 1
@@ -485,13 +485,14 @@ QUE_ideas = { #Quebec
 		hostile_attrition = 1
 	}
 	college_of_quebec = {
-		movement_speed = 0.15
+		leader_land_shock = 1
 		leader_land_manuever = 1
 	}
 	commissions_for_noble_sons = {
 		army_tradition_decay = -0.01
 	}
 	jesuit_missions = {
+		tolerance_own = 1
 		papal_influence = 2
 		devotion = 0.5
 		monthly_fervor_increase = 0.25
