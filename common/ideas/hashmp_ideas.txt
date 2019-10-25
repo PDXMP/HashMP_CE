@@ -433,7 +433,7 @@ CAN_ideas = { #Canada
 	
 		
 	singing_lumberjacks = {
-		production_efficiency = 0.10
+		production_efficiency = 0.15
 	}	
 	the_hudson_bay_company = {
 		free_dip_policy = 1
@@ -448,7 +448,7 @@ CAN_ideas = { #Canada
 		republican_tradition = 0.1
 	}
 	legacy_of_the_empire = {
-		embracement_cost = -0.1
+		embracement_cost = -0.2
 	}
 	the_forests_of_canada = {
 		build_cost = -0.1
