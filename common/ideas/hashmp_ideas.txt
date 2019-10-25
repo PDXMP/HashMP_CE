@@ -262,9 +262,12 @@ ARB_ideas = { #Arabian Empire
 
 AUS_ideas = { #Australia
 	start = {
+		movement_speed = 0.1
+		siege_ability = 0.1
 	}
 	
 	bonus = {
+		possible_mil_policy = 1
 	}
 	
 	trigger = {
@@ -272,19 +275,26 @@ AUS_ideas = { #Australia
 	}
 	free = yes
 	
-	aus_1 = {
+	aus_1 = { #Legion of Frontiersmen
+		infantry_power = 0.15
 	}
-	aus_2 = {
+	aus_2 = { #Australian Courts
+		yearly_corruption = -0.1
 	}
-	aus_3 = {
+	aus_3 = { #Lessons of the Outback
+		hostile_attrition = 1
 	}
-	aus_4 = {
+	aus_4 = { #Dreamtime
+		stability_cost_modifier = -0.1
 	}
-	aus_5 = {
+	aus_5 = { #Kalgoorlie
+		global_trade_goods_size_modifier = 0.1
 	}
-	aus_6 = {
+	aus_6 = { #Trade Unions
+		global_unrest = -1
 	}
-	aus_7 = {
+	aus_7 = { #Australia Imperialis
+		discipline = 0.03
 	}
 }
 
