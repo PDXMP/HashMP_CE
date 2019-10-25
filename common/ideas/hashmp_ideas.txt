@@ -566,9 +566,12 @@ CSC_ideas = { #Columbia
 
 CUB_ideas = { #Cuba
 	start = {
+		naval_forcelimit = 20
+		global_missionary_strength = 0.01
 	}
 	
 	bonus = {
+		sailor_maintenance_modifer = -0.1
 	}
 	
 	trigger = {
@@ -576,19 +579,27 @@ CUB_ideas = { #Cuba
 	}
 	free = yes
 	
-	cub_1 = { 
+	cub_1 = { #Privateer Spirit
+		naval_morale = 0.10
 	}
-	cub_2 = {
+	cub_2 = { #Impressment
+		global_sailors_modifier = 0.50
 	}
-	cub_3 = {
+	cub_3 = { #The Arsenal
+		global_ship_cost = -0.1
 	}
-	cub_4 = {
+	cub_4 = { #Sugar and Slaves
+		production_efficiency = 0.1
 	}
-	cub_5 = {
+	cub_5 = { #The Crossroads
+		trade_efficiency = 0.1
+		global_prov_trade_power_modifier = 0.2
 	}
-	cub_6 = {
+	cub_6 = { #Coartacion
+		idea_cost = -0.10
 	}
-	cub_7 = {
+	cub_7 = { #The Bourbon Reforms
+		republican_tradition = 0.1
 	}
 }
 
