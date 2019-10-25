@@ -536,9 +536,12 @@ CAL_ideas = { #California
 
 CSC_ideas = { #Columbia
 	start = {
+		yearly_corruption = -0.1
+		republican_tradition = 0.1
 	}
 	
 	bonus = {
+		hostile_attrition = 1
 	}
 	
 	trigger = {
@@ -546,19 +549,26 @@ CSC_ideas = { #Columbia
 	}
 	free = yes
 	
-	csc_1 = {
+	csc_1 = { #Evergreen Forest
+		production_efficiency = 0.1
 	}
-	csc_2 = {
+	csc_2 = { #Lessons of the Frontier
+		army_tradition_decay = -0.1
 	}
-	csc_3 = {
+	csc_3 = { #Alki
+		prestige = 1
 	}
-	csc_4 = {
+	csc_4 = { #Trial By Fire
+		fire_damage_received = -0.10
 	}
-	csc_5 = {
+	csc_5 = { #Lead By Example
+		leader_land_fire = 1
 	}
-	csc_6 = {
+	csc_6 = { #Under Pressure
+		infantry_power = 0.1
 	}
-	csc_7 = {
+	csc_7 = { #War College
+		mil_tech_cost_modifier = -0.1
 	}
 }
 
