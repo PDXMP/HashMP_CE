@@ -748,9 +748,12 @@ USA_ideas = { #United States
 
 NEG_ideas = { #New England
 	start = {
+		global_tax_modifier = 0.1
+		global_institution_spread = 0.2
 	}
 	
 	bonus = {
+		build_time = -0.2
 	}
 	
 	trigger = {
@@ -758,19 +761,26 @@ NEG_ideas = { #New England
 	}
 	free = yes
 	
-	neg_1 = {
+	neg_1 = { #Grand Plantations
+		global_trade_goods_size_modifier = 0.1
 	}
-	neg_2 = {
+	neg_2 = { #Center of Innovation
+		technology_cost = -0.05
 	}
-	neg_3 = {
+	neg_3 = { #City of Guilds
+		trade_efficiency = 0.1
 	}
-	neg_4 = {
+	neg_4 = { #Melting Pot
+		num_accepted_cultures = 1
 	}
-	neg_5 = {
+	neg_5 = { #Settle the Interior
+		development_cost = -0.1
 	}
-	neg_6 = {
+	neg_6 = { #Life and Liberty
+		republican_tradition = 0.1
 	}
-	neg_7 = {
+	neg_7 = { #Manufacturing Standards
+		production_efficiency = 0.1
 	}
 }
 
