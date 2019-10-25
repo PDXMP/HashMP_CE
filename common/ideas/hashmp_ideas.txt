@@ -300,9 +300,12 @@ AUS_ideas = { #Australia
 
 NZL_ideas = { #New Zealand
 	start = {
+		republican_tradition = 0.1
+		naval_forcelimit_modifier = 0.1
 	}
 	
 	bonus = {
+		ship_durability = 0.05
 	}
 	
 	trigger = {
@@ -310,19 +313,26 @@ NZL_ideas = { #New Zealand
 	}
 	free = yes
 	
-	nzl_1 = {
+	nzl_1 = { #Polynesian Spirit
+		navy_tradition = 0.5
 	}
-	nzl_2 = {
+	nzl_2 = { #Mana
+		prestige = 1
 	}
-	nzl_3 = {
+	nzl_3 = { #Irrigation
+		development_cost = -0.1
 	}
-	nzl_4 = {
+	nzl_4 = { #Pacific's Triple Star
+		own_coast_naval_combat_bonus = 1
 	}
-	nzl_5 = {
+	nzl_5 = { #Bushrangers
+		hostile_attrition = 1
 	}
-	nzl_6 = {
+	nzl_6 = { #Bank of Issue
+		global_tax_modifier = 0.15
 	}
-	nzl_7 = {
+	nzl_7 = { #Impressment
+		global_sailors_modifier = 0.5
 	}
 }
 
