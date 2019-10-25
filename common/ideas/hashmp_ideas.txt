@@ -301,7 +301,7 @@ AUS_ideas = { #Australia
 NZL_ideas = { #New Zealand
 	start = {
 		republican_tradition = 0.1
-		naval_forcelimit_modifier = 0.1
+		naval_forcelimit_modifier = 0.2
 	}
 	
 	bonus = {
@@ -314,7 +314,7 @@ NZL_ideas = { #New Zealand
 	free = yes
 	
 	nzl_1 = { #Polynesian Spirit
-		navy_tradition = 0.5
+		navy_tradition = 1
 	}
 	nzl_2 = { #Mana
 		prestige = 1
