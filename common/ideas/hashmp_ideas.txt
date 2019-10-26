@@ -705,6 +705,44 @@ COL_ideas = { #Colombia
 	}
 }
 
+VNZ_ideas = { #Venezuela
+	start = {
+		war_exhaustion = -0.03
+	}
+	
+	bonus = {
+		land_morale = 0.1
+	}
+	
+	trigger = {
+		tag = VNZ
+	}
+	free = yes
+	
+	vnz_1 = { #Discard the Natives
+		culture_conversion_cost = -0.25
+	}
+	vnz_2 = { #Orinoco Delta
+		development_cost = -0.1
+	}
+	vnz_3 = { #Caudillos
+		yearly_corruption = -0.1
+	}
+	vnz_4 = { #Venezuelan Pride
+		republican_tradition = 0.1
+	}
+	vnz_5 = { #Imperial Colleges
+		idea_cost = -0.05
+		technology_cost = -0.05
+	}
+	vnz_6 = { #Iron Fist
+		global_unrest = -2
+	}
+	vnz_7 = { #Rule from Caracas
+		global_autonomy = -0.05
+	}
+}
+
 # Eastern America
 
 USA_ideas = { #United States
