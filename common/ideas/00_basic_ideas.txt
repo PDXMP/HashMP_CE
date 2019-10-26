@@ -601,7 +601,7 @@ maritime_ideas = {
 		sailor_maintenance_modifer = -0.1
 	}
 	grand_navy = {
-		naval_forcelimit_modifier = 0.33
+		naval_forcelimit_modifier = 0.25
 	}
 	ships_penny = {
 		global_ship_cost = -0.1
