@@ -1015,13 +1015,13 @@ BLV_ideas = { #Bolivia
 		development_cost = -0.15
 	}
 	blv_2 = { #Mines of Potosi
-		global_trade_goods_size_modifiewr = 0.15
+		global_trade_goods_size_modifiewr = 0.1
 	}
 	blv_3 = { #Dredging
 		build_cost = -0.1
 	}
 	blv_4 = { #Heirs of the Inca
-		army_tradition = 1
+		army_tradition = 0.5
 	}
 	blv_5 = { #Mountain Lessons
 		leader_land_manuever = 1
