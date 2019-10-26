@@ -827,9 +827,12 @@ NEG_ideas = { #New England
 
 CHL_ideas = { #Chile
 	start = {
+		navy_tradition = 0.5
+		hostile_attrition = 1
 	}
 	
 	bonus = {
+		global_manpower_modifier = 0.15
 	}
 	
 	trigger = {
@@ -837,19 +840,28 @@ CHL_ideas = { #Chile
 	}
 	free = yes
 	
-	chl_1 = {
+	chl_1 = { #Two Oceans
+		naval_forcelimit_modifier = 0.1
+		transport_cost = -0.25
 	}
-	chl_2 = {
+	chl_2 = { #By Right or Might
+		republican_tradition = 0.1		
 	}
-	chl_3 = {
+	chl_3 = { #Valdivian Rangers
+		movement_speed = 0.1
+		land_attrition = -0.1
 	}
-	chl_4 = {
+	chl_4 = { #Grand Conscription
+		land_forcelimit_modifier = 0.2
 	}
-	chl_5 = {
+	chl_5 = { #Spirit of the Cougar
+		reinforce_speed = 0.2
 	}
-	chl_6 = {
+	chl_6 = { #Old Banners
+		global_regiment_cost = -0.1
 	}
-	chl_7 = {
+	chl_7 = { #Insula Nostrum
+		naval_morale = 0.10
 	}
 }
 
@@ -865,9 +877,9 @@ LAP_ideas = { #La Plata
 	}
 	free = yes
 	
-	lap_1 = {
+	lap_1 = { #Wealth of the Atacama
 	}
-	lap_2 = {
+	lap_2 = { #Transverse Valleys
 	}
 	lap_3 = {
 	}
