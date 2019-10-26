@@ -1147,8 +1147,8 @@ trade_company_dominant = {
 
 large_colonial_nation = {
 	merchants = 1
-	global_trade_power = 0.05
-	naval_forcelimit = 10
+	global_trade_power = 0.03
+	naval_forcelimit = 5
 	land_forcelimit = 5
 }
 
