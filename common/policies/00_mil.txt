@@ -730,7 +730,7 @@ autonomous_estates = {
 	}	
 	
 	global_manpower_modifier = 0.10
-	vassal_forcelimit_bonus = 1.0
+	vassal_forcelimit_bonus = 0.5
 	
 	ai_will_do = {
 		factor = 1
