@@ -923,9 +923,12 @@ TEX_ideas = { #Texas
 
 LOU_ideas = { #Louisiana
 	start = {
+		state_maintenance_modifier = -0.2
+		fort_maintenance_modifier = -0.1
 	}
 	
 	bonus = {
+		prestige_decay = -0.01
 	}
 	
 	trigger = {
@@ -933,19 +936,26 @@ LOU_ideas = { #Louisiana
 	}
 	free = yes
 	
-	lou_1 = {
+	lou_1 = { #Masters of the Gulf
+		global_trade_power = 0.1
 	}
-	lou_2 = {
+	lou_2 = { #Port of New Orleans
+		light_ship_cost = -0.2
 	}
-	lou_3 = {
+	lou_3 = { #Breadbasket of America
+		global_trade_goods_size_modifier = 0.1
 	}
-	lou_4 = {
+	lou_4 = { #Voodoo
+		stability_cost_modifier = -0.1
 	}
-	lou_5 = {
+	lou_5 = { #Mississippi Watershed
+		development_cost = -0.1
 	}
-	lou_6 = {
+	lou_6 = { #Slave Labor
+		build_time = -0.25
 	}
-	lou_7 = {
+	lou_7 = { #Soldiers of Fortune
+		possible_mercenaries = 0.20
 	}
 }
 
