@@ -708,6 +708,7 @@ COL_ideas = { #Colombia
 VNZ_ideas = { #Venezuela
 	start = {
 		war_exhaustion = -0.03
+		same_culture_advisor_cost = -0.1
 	}
 	
 	bonus = {
