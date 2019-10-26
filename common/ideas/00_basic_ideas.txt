@@ -192,7 +192,7 @@ spy_ideas = {
 
 	bonus = {
 		fort_maintenance_modifier = -0.10
-		local_years_of_nationalism = -10
+		local_years_of_nationalism = -5
 	}
 
 	efficient_spies = {
