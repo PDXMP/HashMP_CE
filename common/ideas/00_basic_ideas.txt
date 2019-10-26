@@ -380,7 +380,7 @@ economic_ideas = {
 		inflation_reduction = 0.1
 	}
 	debt_and_loans = {
-		prestige = 1
+		prestige_decay = -0.01
 	}
 	centralization = {
 		global_autonomy = -0.05
