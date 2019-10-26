@@ -959,12 +959,12 @@ country_decisions = {
 			any_subject_country = {
 				has_country_flag = h_australia_dominion_request
 			}
+			NOT = { has_country_flag = h_nzl_enabled }
 		}
 		allow = {
 			any_subject_country = {
 				has_country_flag = h_australia_dominion_request
 			}
-			NOT = { has_country_flag = h_aus_enabled }
 		}
 		effect  = {
 			set_country_flag = h_aus_enabled
