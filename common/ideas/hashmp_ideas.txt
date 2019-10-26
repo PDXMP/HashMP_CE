@@ -998,9 +998,12 @@ CAM_ideas = { #United Central America
 
 BLV_ideas = { #Bolivia
 	start = {
+		land_forcelimit_modifier = 0.1
+		global_prov_trade_power_modifier = 0.2
 	}
 	
 	bonus = {
+		advisor_cost = -0.1
 	}
 	
 	trigger = {
@@ -1008,19 +1011,27 @@ BLV_ideas = { #Bolivia
 	}
 	free = yes
 	
-	blv_1 = {
+	blv_1 = { #Eternal Spring
+		development_cost = -0.15
 	}
-	blv_2 = {
+	blv_2 = { #Mines of Potosi
+		global_trade_goods_size_modifiewr = 0.15
 	}
-	blv_3 = {
+	blv_3 = { #Dredging
+		build_cost = -0.1
 	}
-	blv_4 = {
+	blv_4 = { #Heirs of the Inca
+		army_tradition = 1
 	}
-	blv_5 = {
+	blv_5 = { #Mountain Lessons
+		leader_land_manuever = 1
 	}
-	blv_6 = {
+	blv_6 = { #Overland Caravans
+		merchants = 1
+		trade_efficiency = 0.1
 	}
-	blv_7 = {
+	blv_7 = { #Unity is Strength
+		republican_tradition = 0.1
 	}
 }
 
