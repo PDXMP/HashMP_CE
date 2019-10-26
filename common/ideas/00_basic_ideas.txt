@@ -30,7 +30,6 @@ aristocracy_ideas = {
 	}
 	noble_officers = {
 		army_tradition_decay = -0.01
-		navy_tradition_decay = -0.01
 	}
 	international_nobility = {
 		leader_siege = 1
