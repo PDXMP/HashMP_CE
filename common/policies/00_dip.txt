@@ -257,7 +257,7 @@ naval_infrastructure_act = {
 		full_idea_group = expansion_ideas
 	}
 
-	naval_forcelimit_modifier = 0.50
+	naval_forcelimit_modifier = 0.40
 	
 	ai_will_do = {
 		factor = 1
