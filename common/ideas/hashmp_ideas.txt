@@ -557,7 +557,7 @@ CSC_ideas = { #Columbia
 	}
 	free = yes
 	
-	csc_1 = { #Evergreen Forest
+	csc_1 = { #Evergreen Forests
 		production_efficiency = 0.1
 	}
 	csc_2 = { #Lessons of the Frontier
