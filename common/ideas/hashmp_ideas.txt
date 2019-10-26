@@ -1,4 +1,4 @@
-z########################################
+########################################
 # Custom ideas for the HashMP Multiplayer mod
 #
 # by Foffy123 and hashinshin
