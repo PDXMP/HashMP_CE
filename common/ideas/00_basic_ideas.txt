@@ -453,7 +453,7 @@ exploration_ideas = {
 		colonists = 1
 	}
 	global_empire = {
-		naval_forcelimit_modifier = 0.25
+		expel_minorities_cost = -0.33
 	}
 
 	ai_will_do = {
