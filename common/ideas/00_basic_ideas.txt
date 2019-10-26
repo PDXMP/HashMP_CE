@@ -762,7 +762,7 @@ expansion_ideas = {
 	}
 	additional_diplomats = {
 		global_unrest = -1
-		years_of_nationalism = -5
+		years_of_nationalism = -10
 	}
 	faster_colonists = {
 		colonists = 1
