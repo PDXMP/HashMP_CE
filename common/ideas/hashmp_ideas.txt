@@ -845,7 +845,7 @@ CHL_ideas = { #Chile
 		transport_cost = -0.25
 	}
 	chl_2 = { #By Right or Might
-		republican_tradition = 0.1		
+		republican_tradition = 0.1
 	}
 	chl_3 = { #Valdivian Rangers
 		movement_speed = 0.1
@@ -867,9 +867,12 @@ CHL_ideas = { #Chile
 
 LAP_ideas = { #La Plata
 	start = {
+		global_tax_modifier = 0.1
+		global_unrest = -1
 	}
 	
 	bonus = {
+		prestige = 1
 	}
 	
 	trigger = {
@@ -878,18 +881,25 @@ LAP_ideas = { #La Plata
 	free = yes
 	
 	lap_1 = { #Wealth of the Atacama
+		production_efficiency = 0.1
 	}
 	lap_2 = { #Transverse Valleys
+		development_cost = -0.1
 	}
-	lap_3 = {
+	lap_3 = { #Sun of May
+		republican_tradition = 0.1
 	}
-	lap_4 = {
+	lap_4 = { #Made of Steel
+		infantry_cost = -0.1
 	}
-	lap_5 = {
+	lap_5 = { #Made of Silver
+		global_trade_goods_size_modifier = 0.1
 	}
-	lap_6 = {
+	lap_6 = { #Hardy People
+		defensiveness = 0.2
 	}
-	lap_7 = {
+	lap_7 = { #The Argentine
+		free_adm_policy = 1
 	}
 }
 
