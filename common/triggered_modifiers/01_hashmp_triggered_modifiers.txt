@@ -110,6 +110,18 @@ t_player_dominion = {
 	global_sailors_modifier = -1.0
 }
 
+t_low_repubtrad = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		NOT = {
+			republican_tradition = 30
+		}
+	}
+	all_power_cost = 0.15
+}
+
 t_cn_army_1 = {
 	potential = {
 		is_colonial_nation = yes
