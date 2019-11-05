@@ -403,7 +403,6 @@ nobles_in_navy_act = {
 	}
 
 	admiral_cost = -0.33
-	navy_tradition_decay = -0.01
 
 	ai_will_do = {
 		factor = 1
