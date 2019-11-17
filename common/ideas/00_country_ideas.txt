@@ -12227,7 +12227,7 @@ BNG_ideas = {
     free = yes       #will be added at load.
     
 	bng_combat_piracy = {
-		heavy_ship_cost = -0.1
+		global_ship_cost = -0.1
 	}
 	bng_conquest_of_the_gangetic_plain = {
 		infantry_power = 0.1
