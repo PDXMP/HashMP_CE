@@ -1746,7 +1746,7 @@ ETH_ideas = {
 	}
 	
 	bonus = {
-		legitimacy = 1
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -1757,24 +1757,24 @@ ETH_ideas = {
 	eth_expansionist_policy = {
 		core_creation = -0.10	
 	}
-	solomonid_claim = {
+	eth_reformed_armies = {
+		infantry_power = 0.1
+	}
+	the_ark_of_the_covenant = {
 		prestige = 1
 	}
 	nagusa_negast = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.15
 	}
 	hostile_borders = {
 		defensiveness = 0.20
 	}
 	diplomatic_demeanor = {
 		diplomatic_reputation = 1
+		diplomatic_upkeep = 1
 	}
-	the_ark_of_the_covenant = {
-		missionaries = 1
-	}
-	eth_reformed_armies = {
-		infantry_power = 0.1
-		discipline = 0.05
+	solomonid_claim = {
+		legitimacy = 1
 	}
 }
 
