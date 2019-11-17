@@ -167,10 +167,16 @@ danish_missions_baltic = {
 		icon = mission_galleys_in_port
 		required_missions = { }
 		trigger = {
-			naval_forcelimit = 25
-			navy_size_percentage = 0.9
+			navy_size_percentage = 1.0
 		}
 		effect = {
+			define_admiral = {
+				name = "Soren Norby"
+				shock = 3
+				fire = 3
+				manuever = 4
+				siege = 0
+			}
 			35 = { # osel
 				if = {
 					limit = {
