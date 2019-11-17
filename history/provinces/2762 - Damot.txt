@@ -1,7 +1,8 @@
 #2762 - Damot
 
-owner = DAM
-controller = DAM
+owner = ETH
+controller = ETH
+add_core = ETH
 add_core = DAM
 culture = amhara 
 religion = coptic
