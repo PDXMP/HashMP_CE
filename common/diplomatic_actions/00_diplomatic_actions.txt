@@ -175,6 +175,17 @@ vassalaction = {
 	}
 }
 
+guaranteeaction = {
+	condition = {
+		tooltip = h_tooltip_guarantee
+		potential = {
+		}
+		allow = {
+			FROM = { ai = yes }
+		}
+	}
+}
+
 abandon_union_action = {
 	condition = {
 		potential = {

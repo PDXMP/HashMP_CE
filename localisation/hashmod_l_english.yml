@@ -514,3 +514,4 @@
  peu_7_desc:0 ""
  PFI:0 "Ferrette"
  PFI_ADJ:0 "Ferrettan"
+ h_tooltip_guarantee:0 "You may not guarantee player nations."
