@@ -1036,7 +1036,7 @@ NMilitary = {
 	MAX_MANPOWER = 10, 								-- years in mp pool
 	MIN_MONTHLY_MANPOWER = 0.2,						-- 100 men/month is minimum
 	MAX_SAILORS = 10, 								-- years in mp pool
-	MIN_MONTHLY_SAILORS = 5,						-- 5 sailors/month is minimum
+	MIN_MONTHLY_SAILORS = 15,						-- 5 sailors/month is minimum
 	SLAVE_RAIDS_SAILOR_FACTOR = 0.25,						--
 	SLAVE_RAIDS_DURATION = 3650,
 	INFANTRY_SPEED = 0.7, 							-- _MDEF_INFANTRY_SPEED = 10,
