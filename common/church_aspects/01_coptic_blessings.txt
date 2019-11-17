@@ -71,7 +71,7 @@ promote_territorial_rights = {
 
 	modifier = {
 		core_creation = -0.1
-		max_states = 3
+		max_states = 5
 	}
 	ai_will_do = {
 		factor = 10
