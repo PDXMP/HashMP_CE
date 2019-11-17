@@ -28,9 +28,9 @@ historical_friend = HAB
 1444.11.10 = {
 	monarch = {
 		name = "(Regency Council)"
-		adm = 0
-		mil = 0
-		dip = 0
+		adm = 1
+		mil = 1
+		dip = 1
 		regent = yes
 	}
 }
