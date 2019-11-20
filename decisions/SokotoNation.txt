@@ -19,11 +19,32 @@ country_decisions = {
 					ai = no
 				}
 			}
-			religion = sunni
-			has_country_flag = sok_dan_fodio_happened
+			religion_group = muslim
+			OR = {
+				tag = MAL
+				tag = SON
+			}
+			#has_country_flag = sok_dan_fodio_happened
 		}
 		provinces_to_highlight = {
-			province_id = 1148
+			OR = {
+				area = manding_area
+				area = baghena_area
+				area = massina_area
+				area = kong_area
+				area = jenne_area
+				area = upper_volta_area
+				area = niger_bend_area
+				area = dendi_area
+				area = atacora_oueme_area
+				area = lower_niger_area
+				area = zazzau_area
+				area = katsina_area
+				area = azbin_area
+				area = hausa_area
+				area = bornu_area
+				area = kanem_area
+			}
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
@@ -31,50 +52,41 @@ country_decisions = {
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
-			is_nomad = no
 			is_at_war = no
-			OR = {
-				piety = 0.5
-				has_idea_group = religious_ideas
-			}
-			owns_core_province = 1148 #Gobir
+			manding_area = { type = all is_core = ROOT owned_by = ROOT }
+			baghena_area = { type = all is_core = ROOT owned_by = ROOT }
+			massina_area = { type = all is_core = ROOT owned_by = ROOT }
+			kong_area = { type = all is_core = ROOT owned_by = ROOT }
+			jenne_area = { type = all is_core = ROOT owned_by = ROOT }
+			upper_volta_area = { type = all is_core = ROOT owned_by = ROOT }
+			niger_bend_area = { type = all is_core = ROOT owned_by = ROOT }
+			dendi_area = { type = all is_core = ROOT owned_by = ROOT }
+			atacora_oueme_area = { type = all is_core = ROOT owned_by = ROOT }
+			lower_niger_area = { type = all is_core = ROOT owned_by = ROOT }
+			zazzau_area = { type = all is_core = ROOT owned_by = ROOT }
+			katsina_area = { type = all is_core = ROOT owned_by = ROOT }
+			azbin_area = { type = all is_core = ROOT owned_by = ROOT }
+			hausa_area = { type = all is_core = ROOT owned_by = ROOT }
+			bornu_area = { type = all is_core = ROOT owned_by = ROOT }
+			kanem_area = { type = all is_core = ROOT owned_by = ROOT }
 		}
 		effect = {
-			1148 = {
-				move_capital_effect = yes
-			}
-			hausa_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = SOK
-			}
-			katsina_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = SOK
-			}
-			zazzau_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = SOK
-			}
 			niger_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
-					NOT = { owner = { has_country_flag = fulani_jihad_state } }
-					OR = {
-						religion = sunni
-						religion = animism
-					}
+				}
+				add_permanent_claim = SOK
+			}
+			sahel_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
 				}
 				add_permanent_claim = SOK
 			}
 			add_prestige = 25
-			add_piety = 0.25
 			change_tag = SOK
+			change_technology_group = muslim
+			change_unit_type = muslim
 			if = {
 				limit = {
 					NOT = { government = monarchy }
@@ -84,8 +96,8 @@ country_decisions = {
 			add_government_reform = feudal_theocracy
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
-				limit = { NOT = { government_rank = 2 } }
-				set_government_rank = 2
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
 			}
 			if = {
 				limit = { has_custom_ideas = no }
@@ -95,7 +107,7 @@ country_decisions = {
 		}
 		ai_importance = 400 #The countries that qualify will hate the holder of Sokoto.
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 	}
 }
