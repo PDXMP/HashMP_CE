@@ -2514,11 +2514,11 @@ SWI_ideas = {
 SON_ideas = {
 	start = {
 		infantry_power = 0.1
-		army_tradition = 1.0
+		army_tradition = 0.5
 	}
 	
 	bonus = {
-		discipline = 0.05
+		movement_speed = 0.1
 	}
 	
 	trigger = {
