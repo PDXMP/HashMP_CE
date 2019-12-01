@@ -899,7 +899,7 @@ LAP_ideas = { #La Plata
 		global_trade_goods_size_modifier = 0.1
 	}
 	lap_6 = { #Hardy People
-		defensiveness = 0.2
+		defensiveness = 0.25
 	}
 	lap_7 = { #The Argentine
 		free_adm_policy = 1
