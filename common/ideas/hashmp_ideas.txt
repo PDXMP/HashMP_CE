@@ -703,6 +703,7 @@ COL_ideas = { #Colombia
 	}
 	col_6 = { #Patrol the Caribbean
 		global_sailors_modifier = 0.25
+		global_own_trade_power = 0.1
 	}
 	col_7 = { #Sublime Liberty
 		republican_tradition = 0.1
