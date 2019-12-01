@@ -507,7 +507,7 @@ QUE_ideas = { #Quebec
 CAL_ideas = { #California
 	start = {
 		republican_tradition = 0.1
-		tolerance_own = 1
+		global_sailors_modifier = 0.25
 	}
 	
 	bonus = {
@@ -539,6 +539,7 @@ CAL_ideas = { #California
 	}
 	cal_7 = { #The Bay
 		ship_recruit_speed = -0.25
+		ship_durability = 0.05
 	}
 }
 
