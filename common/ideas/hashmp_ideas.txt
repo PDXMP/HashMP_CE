@@ -355,6 +355,7 @@ BRZ_ideas = { #Brazil
 		global_autonomy = -0.05
 	}
 	research_of_nassau = {
+		idea_cost = -0.05
 		innovativeness_gain = 0.5
 	}
 	mines_of_minas_gerais = {
@@ -362,13 +363,13 @@ BRZ_ideas = { #Brazil
 		global_trade_goods_size_modifier = 0.05
 	}
 	halting_foreign_incursions = {
-		fire_damage = 0.1
+		fire_damage_received = -0.15
 	}
 	entradas_and_bandeiras = {
 		same_culture_advisor_cost = -0.1
 	}
 	inconfidencia_mineira = {
-		stability_cost_modifier = -0.1
+		stability_cost_modifier = -0.15
 	}
 	old_seat_of_the_empire = {
 		republican_tradition = 0.1
