@@ -294,7 +294,7 @@ AUS_ideas = { #Australia
 		global_unrest = -1
 	}
 	aus_7 = { #Australia Imperialis
-		discipline = 0.03
+		discipline = 0.05
 	}
 }
 
