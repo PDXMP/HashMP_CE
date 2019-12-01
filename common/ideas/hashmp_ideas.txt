@@ -864,6 +864,7 @@ CHL_ideas = { #Chile
 	}
 	chl_7 = { #Insula Nostrum
 		naval_morale = 0.10
+		global_sailors_modifier = 0.25
 	}
 }
 
