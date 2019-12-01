@@ -965,7 +965,8 @@ LOU_ideas = { #Louisiana
 		global_trade_power = 0.1
 	}
 	lou_2 = { #Port of New Orleans
-		light_ship_cost = -0.2
+		light_ship_cost = -0.25
+		global_sailors_modifier = 0.25
 	}
 	lou_3 = { #Breadbasket of America
 		global_trade_goods_size_modifier = 0.1
@@ -981,6 +982,7 @@ LOU_ideas = { #Louisiana
 	}
 	lou_7 = { #Soldiers of Fortune
 		possible_mercenaries = 0.20
+		mercenary_discipline = 0.05
 	}
 }
 
