@@ -458,7 +458,7 @@ CAN_ideas = { #Canada
 QUE_ideas = { #Quebec
 	start = {
 		land_attrition = -0.15
-		fire_damage = 0.10
+		fire_damage = 0.15
 	}
 	
 	bonus = {
@@ -481,7 +481,7 @@ QUE_ideas = { #Quebec
 		prestige = 1
 	}
 	fortifications_of_quebec = {
-		defensiveness = 0.1
+		defensiveness = 0.2
 		hostile_attrition = 1
 	}
 	college_of_quebec = {
