@@ -628,7 +628,7 @@ HAT_ideas = { #Haiti
 	}
 	
 	bonus = {
-		discipline = 0.03
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -641,6 +641,7 @@ HAT_ideas = { #Haiti
 	}
 	hat_2 = { #Breaker of Chains
 		development_cost = -0.1
+		global_sailors_modifier = 0.25
 	}
 	hat_3 = { #First In
 		transport_cost = -0.25
