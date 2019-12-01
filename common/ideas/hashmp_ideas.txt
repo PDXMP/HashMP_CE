@@ -749,12 +749,12 @@ VNZ_ideas = { #Venezuela
 
 USA_ideas = { #United States
 	start = {
-		war_exhaustion = -0.03
+		war_exhaustion = -0.05
 		fort_maintenance_modifier = -0.2
 	}
 	
 	bonus = {
-		republican_tradition = 0.1
+		army_tradition = 0.5
 	}
 	
 	trigger = {
@@ -766,14 +766,15 @@ USA_ideas = { #United States
 		no_religion_penalty = yes
 	}
 	usa_bill_of_rights = {
-		global_unrest = -2
+		republican_tradition = 0.1
 	}
 	empire_of_liberty = {
 		build_cost = -0.05
 		development_cost = -0.05
 	}
 	lessons_of_valley_forge = {
-		army_tradition = 0.5
+		infantry_power = 0.1
+		drill_decay_modifier = -0.2
 	}
 	workshop_of_the_world = {
 		global_trade_goods_size_modifier = 0.1
