@@ -567,7 +567,6 @@ POR_ideas = {
 	legacy_of_the_navigator = {
 		envoy_travel_time = -0.50
 		range = 0.25
-		light_ship_cost = -0.15
 	}
 	land_before_faith = {
 		land_morale = 0.10
@@ -582,7 +581,7 @@ POR_ideas = {
 	}
 	the_bandeirantes = {
 		merchants = 1
-		blockade_efficiency = 0.33
+		light_ship_cost = -0.15
 	}
 	royal_absolutism = {
 		stability_cost_modifier = -0.1
