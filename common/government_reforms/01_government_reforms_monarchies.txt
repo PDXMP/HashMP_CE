@@ -808,6 +808,7 @@ revolutionary_empire_reform = {
 		land_morale = 0.10
 		global_autonomy = -0.2
 		max_states = 3
+		reform_progress_growth = 1.0
 	}
 
 	custom_attributes = {

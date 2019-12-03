@@ -260,6 +260,7 @@ revolutionary_republic_reform = {
 		tolerance_heretic = 2
 		land_morale = 0.1
 		global_autonomy = -0.2
+		reform_progress_growth = 1.0
 	}
 	fixed_rank = 3
 
