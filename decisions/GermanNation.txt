@@ -30,14 +30,12 @@ country_decisions = {
 				}
 			}
 			OR = {  
-				primary_culture = hannoverian #Westphalian
-				primary_culture = pommeranian
-				primary_culture = hessian
-				primary_culture = saxon
-				primary_culture = bavarian
-				primary_culture = prussian
-				primary_culture = swabian
-				primary_culture = franconian
+				tag = BRA
+				tag = PRU
+				tag = HES
+				tag = SWI
+				tag = HAN
+				tag = DAN
 			}
 			is_colonial_nation = no
 			OR = {
