@@ -80,7 +80,6 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			is_emperor = no
 			owns_core_province = 44	# Hamburg
 			owns_core_province = 46	# Rostock
 			owns_core_province = 50	# Berlin
