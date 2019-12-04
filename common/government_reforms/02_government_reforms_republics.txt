@@ -24,7 +24,7 @@ oligarchy_reform = {
 	nation_designer_cost = 0
 	modifiers = {
 		global_tax_modifier = 0.05
-		max_absolutism = -40
+		max_absolutism = -20
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -207,7 +207,7 @@ noble_elite_reform = {
 	nation_designer_cost = 0
 	modifiers = {
 		army_tradition = 0.25
-		max_absolutism = -20
+		max_absolutism = -10
 	}
 	duration = 8
 
