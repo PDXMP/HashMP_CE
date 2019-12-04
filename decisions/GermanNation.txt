@@ -100,16 +100,6 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = GER
-			emperor = {
-				add_opinion = {
-					who = root
-					modifier = opinion_left_empire
-				}
-			}
-			set_in_empire = no
-			emperor = {
-				country_event = { id = hre_event.5 }
-			}
 			set_government_rank = 3
 			north_german_region = {
 				limit = {
