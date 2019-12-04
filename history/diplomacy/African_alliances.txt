@@ -1,10 +1,10 @@
 #Maravi State System
-vassal = {
-	first = MRA
-	second = LDU
-	start_date = 1444.1.1
-	end_date = 1572.1.1
-}
+#vassal = {
+#	first = MRA
+#	second = LDU
+#	start_date = 1444.1.1
+#	end_date = 1572.1.1
+#}
 
 vassal = {
 	first = MRA
