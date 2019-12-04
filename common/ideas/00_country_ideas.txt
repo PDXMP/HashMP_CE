@@ -6286,12 +6286,11 @@ SHL_ideas = {
 
 HES_ideas = {
 	start = {
-		infantry_cost = -0.20
+		infantry_cost = -0.10
 		infantry_power = 0.10
 	}
 	bonus = {
-
-		possible_mercenaries = 0.33
+		possible_mercenaries = 0.25
 	}
 	trigger = {
 		tag = HES
@@ -6316,7 +6315,7 @@ HES_ideas = {
 		discipline = 0.05
 	}
 	hessian_mercenaries_idea = {
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.2
 	}
 	hessian_economic_reforms = {
 		production_efficiency = 0.1
