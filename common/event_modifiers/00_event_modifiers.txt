@@ -10563,3 +10563,7 @@ h_fortified_oasis = {
 	local_defensiveness = 0.25
 	local_manpower_modifier = 0.25
 }
+
+h_scandinavia_united = {
+	prestige = 1
+}
