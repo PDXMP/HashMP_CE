@@ -39,8 +39,7 @@ capital = 81	# Kassel
 		dynasty = "von Hessen"
 		birth_date = 1402.2.6
 		adm = 3
-		dip = 2
-		mil = 2
+		dip = 3
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = entrepreneur_personality
@@ -70,9 +69,9 @@ capital = 81	# Kassel
 		birth_date = 1438.9.7
 		death_date = 1471.11.8
 		claim = 95
-		adm = 3
+		adm = 4
 		dip = 3
-		mil = 2
+		mil = 3
 	}
 }
 
