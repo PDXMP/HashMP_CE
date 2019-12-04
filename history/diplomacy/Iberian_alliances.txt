@@ -1,5 +1,5 @@
 #CAS and NAV
-union =  {
+vassal =  {
 	first = CAS
 	second = NAV
 	start_date = 1444.11.1
