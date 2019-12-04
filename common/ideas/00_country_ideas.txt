@@ -542,7 +542,7 @@ PRU_ideas = {
 		infantry_power = 0.10
 	}
 	regimental_cantons = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.2
 		global_regiment_recruit_speed = -0.10
 	}
 	religious_toleration = {
