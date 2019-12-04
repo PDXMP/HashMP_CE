@@ -20,7 +20,7 @@ ENG_ideas = {
 	free = yes		#will be added at load.
 	
 	royal_navy = {
-			navy_tradition = 0.2
+			navy_tradition = 0.25
 			heavy_ship_power = 0.10
 	}
 	eltham_ordinance = {
@@ -77,7 +77,7 @@ GBR_ideas = {
 		discipline = 0.05
 	}
 	british_industrialization = {
-		production_efficiency = 0.10
+		global_trade_goods_size_modifier = 0.1
 		build_cost = -0.05
 	}
 	britanna_rules_the_waves = {
