@@ -48,27 +48,14 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 44	# Hamburg
-				province_id = 46	# Rostock
-				province_id = 50	# Berlin
-				province_id = 57	# Brunswick
-				province_id = 61	# Dresden
-				province_id = 63	# Thüringen
-				province_id = 65	# München
-				province_id = 67	# Nürnberg
-				province_id = 81	# Hessen
-				province_id = 85	# Köln
-				province_id = 1761 # Worms
-				province_id = 1868 # Augsburg
-				province_id = 1876 # Frankfurt
-				AND = {
-                    province_id = 41
-                    ROOT = { NOT = { owns_core_province = 75 } }
-                }
-                AND = {
-                    province_id = 75
-                    ROOT = { NOT = { owns_core_province = 41 } }
-                }
+				region = north_german_region
+				area = lower_bavaria_area
+				area = upper_bavaria_area
+				area = franconia_area
+				area = lower_swabia_area
+				area = upper_swabia_area
+				area = upper_rhineland_area
+				area = palatinate_area			
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -80,23 +67,14 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			owns_core_province = 44	# Hamburg
-			owns_core_province = 46	# Rostock
-			owns_core_province = 50	# Berlin
-			owns_core_province = 57	# Brunswick
-			owns_core_province = 61	# Dresden
-			owns_core_province = 63	# Thüringen
-			owns_core_province = 65	# München
-			owns_core_province = 67	# Nürnberg
-			owns_core_province = 81	# Hessen
-			owns_core_province = 85	# Köln
-			owns_core_province = 1761 # Worms
-			owns_core_province = 1868 # Augsburg
-			owns_core_province = 1876 # Frankfurt
-			OR = {
-				owns_core_province = 41	# Königsberg
-				owns_core_province = 75	# Strassburg
-			}
+			north_german_region = { type = all is_core = ROOT owned_by = ROOT }
+			lower_bavaria_area = { type = all is_core = ROOT owned_by = ROOT }
+			upper_bavaria_area = { type = all is_core = ROOT owned_by = ROOT }
+			franconia_area = { type = all is_core = ROOT owned_by = ROOT }
+			lower_swabia_area = { type = all is_core = ROOT owned_by = ROOT }
+			upper_swabia_area = { type = all is_core = ROOT owned_by = ROOT }
+			upper_rhineland_area = { type = all is_core = ROOT owned_by = ROOT }
+			palatinate_area = { type = all is_core = ROOT owned_by = ROOT }
 		}
 		effect = {
 			change_tag = GER
