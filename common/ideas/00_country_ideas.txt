@@ -2474,7 +2474,7 @@ TUS_ideas = {
 
 SWI_ideas = {
 	start = {
-		land_morale = 0.10
+		mercenary_discipline = 0.05
 		infantry_power = 0.1
 	}
 	
@@ -2500,7 +2500,7 @@ SWI_ideas = {
 		development_cost = -0.1
 	}
 	swiss_tolerance = {
-		tolerance_heretic = 2
+		tolerance_heretic = 3
 		monthly_fervor_increase = 0.25
 	}
 	haven_for_refugees = {
