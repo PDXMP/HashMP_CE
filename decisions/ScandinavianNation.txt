@@ -13,7 +13,13 @@ country_decisions = {
 			NOT = { exists = SCA }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
-			culture_group = scandinavian
+			#culture_group = scandinavian
+			OR = {
+				tag = SWE
+				tag = DAN
+				tag = NOR
+				tag = GOT
+			}
 			OR = {
 				ai = no
 				AND = {
@@ -23,7 +29,6 @@ country_decisions = {
 				}
 			}
 			is_colonial_nation = no
-			always = no
 			OR = {
 				is_former_colonial_nation = no
 				AND = {
@@ -51,6 +56,10 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
+			OR = {
+				NOT = { exists = SWE }
+				NOT = { exists = DAN }
+			}
 			owns_core_province = 1		# Uppland
 			owns_core_province = 6		# Skane
 			owns_core_province = 7		# Vastergotland
