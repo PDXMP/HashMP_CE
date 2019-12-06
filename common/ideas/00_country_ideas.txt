@@ -4240,7 +4240,7 @@ mossi_ideas = {
 fulani_jihad_ideas = {
 	start = {
 		global_regiment_cost = -0.10
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.1
 	}
 	
 	bonus = {
