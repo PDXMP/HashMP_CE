@@ -215,6 +215,60 @@ japanse_missions_colony = {
 			}
 		}
 	}
+	h_jap_philippines = {
+		icon = mission_empire
+		required_missions = { }
+		provinces_to_highlight = {
+			OR = {
+				area = luzon_area
+				area = southern_luzon_area
+				area = visayas_area
+				area = west_mindanao_area
+				area = mindanao_area
+				area = palawan_area
+				area = taiwan_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			luzon_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			southern_luzon_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			visayas_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			west_mindanao_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mindanao_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			palawan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			taiwan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_jap_navy"
+				duration = -1
+			}
+		}
+	}
 }
 
 japanse_missions_conquest = {
