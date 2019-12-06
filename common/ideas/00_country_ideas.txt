@@ -3333,7 +3333,7 @@ javan_ideas = {
 	}
 	
 	bonus = {
-		naval_maintenance_modifier = -0.2
+		naval_maintenance_modifier = -0.1
 	}
 	
 	trigger = {
