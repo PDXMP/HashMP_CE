@@ -8832,8 +8832,8 @@ HSK_ideas = {
 
 UES_ideas = {
 	start = {
-		army_tradition = 0.5
-		global_tax_modifier = 0.1
+		army_tradition = 1.0
+		reduced_liberty_desire = -50
 	}
 	
 	bonus = {
