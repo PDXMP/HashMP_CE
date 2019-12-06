@@ -10566,3 +10566,13 @@ h_fortified_oasis = {
 h_scandinavia_united = {
 	prestige = 1
 }
+
+h_jap_disc = {
+	discipline = 0.05
+	land_forcelimit_modifier = 0.1
+}
+
+h_jap_navy = {
+	heavy_ship_power = 0.1
+	naval_forcelimit_modifier = 0.1
+}
