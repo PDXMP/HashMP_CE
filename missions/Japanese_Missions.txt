@@ -424,4 +424,33 @@ japanse_missions_conquest = {
 			}
 		}
 	}
+	h_jap_manchuria = {
+		icon = mission_unite_home_region
+		required_missions = { }
+		provinces_to_highlight = {
+			OR = {
+				region = manchuria_region
+				area = eastern_mongolia
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			manchuria_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			eastern_mongolia = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_jap_disc"
+				duration = -1
+			}
+		}
+	}
 }
