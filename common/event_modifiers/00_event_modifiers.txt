@@ -10576,3 +10576,18 @@ h_jap_navy = {
 	heavy_ship_power = 0.1
 	naval_forcelimit_modifier = 0.1
 }
+
+h_sok_quantity = {
+	global_manpower_modifier = 0.1
+	land_forcelimit_modifier = 0.1
+}
+
+h_sok_quality = {
+	infantry_power = 0.1
+}
+
+h_sok_imperial = {
+	heavy_ship_power = 0.1
+	colonists = 1
+	global_colonial_growth = 25
+}
