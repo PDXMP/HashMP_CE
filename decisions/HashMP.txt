@@ -266,4 +266,20 @@ country_decisions = {
 			set_country_flag = h_founded_riyadh
 		}
 	}
+	
+	h_sok_jihad = {
+		potential = {
+			tag = SOK
+			NOT = { has_country_flag = h_sok_declared_jihad }
+		}
+		allow = {
+			stability = 1
+			mil_power = 100
+		}
+		effect = {
+			add_mil_power = -100
+			set_country_flag = h_sok_declared_jihad
+			country_event = { id = hashmp.5 } #Jihad Event
+		}
+	}
 }
