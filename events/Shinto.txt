@@ -378,7 +378,7 @@ country_event = { #The Kaizokushu turn to Suigun.
 		}
 		add_country_modifier = {
 			name = "wokou_turned_to_navy"
-			duration = 18250
+			duration = 5475
 		}
 	}
 }
@@ -423,7 +423,7 @@ country_event = { #The end of the Wokou
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "wokou_no_effort_ending"
-			duration = 18250
+			duration = 5475
 		}
 	}
 }
@@ -475,7 +475,7 @@ country_event = { # Control of the Coastlines
 		}
 		add_country_modifier = {
 			name = "wokou_closed_ending"
-			duration = 18250
+			duration = 5475
 		}
 	}
 }
@@ -679,7 +679,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "urbanization_in_order"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -726,7 +726,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "urbanization_middle_road"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -771,7 +771,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "urbanization_social_mobility"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -1057,7 +1057,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = "ikkos_crushed"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -1109,7 +1109,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = "ikkos_empowered"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -1160,7 +1160,7 @@ country_event = {
 		set_country_flag = supporters_in_the_ikko_iki
 		add_country_modifier = {
 			name = "support_of_ikkos"
-			duration = 18250
+			duration = 5475
 		}
 	}
 }
@@ -1346,7 +1346,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = "neo_confucian_administration"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -1394,7 +1394,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "neo_confucianism_middle_road"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -1449,7 +1449,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = "traditionalist_administration"
-			duration = 18250
+			duration = 5475
 		}
 	}
 }
@@ -1721,7 +1721,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "incident_end_open_ports"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -1769,7 +1769,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "incident_end_trade_with_west"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -1823,7 +1823,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "incident_end_dejima"
-			duration = 18250
+			duration = 5475
 		}
 	}
 }
@@ -1995,7 +1995,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "perfecting_the_musket"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -2042,7 +2042,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "guns_commonplace"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -2095,7 +2095,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "traditional_warfare"
-			duration = 18250
+			duration = 5475
 		}
 	}
 }
@@ -2609,7 +2609,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = "shinto_kirishitan_realm"
-			duration = 18250
+			duration = 5475
 		}
 	}
 }
@@ -2655,7 +2655,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "significant_christian_presence"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -2710,7 +2710,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "christianity_defeated"
-			duration = 18250
+			duration = 5475
 		}
 	}
 }
@@ -2978,7 +2978,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "adherence_to_shogunate"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -3026,7 +3026,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "growing_power_of_the_shogunate"
-			duration = 18250
+			duration = 5475
 		}
 	}
 	
@@ -3082,7 +3082,7 @@ country_event = {
 		clr_country_flag = active_incident_flag
 		add_country_modifier = {
 			name = "rise_of_the_daimyo"
-			duration = 18250
+			duration = 5475
 		}
 	}
 }
