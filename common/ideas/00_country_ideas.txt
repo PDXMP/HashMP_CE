@@ -8832,12 +8832,12 @@ HSK_ideas = {
 
 UES_ideas = {
 	start = {
-		army_tradition_decay = -0.01
-		production_efficiency = 0.1
+		army_tradition = 0.5
+		global_tax_modifier = 0.1
 	}
 	
 	bonus = {
-		infantry_power = 0.1
+		development_cost = -0.1
 	}
 
 	trigger = {
@@ -8850,15 +8850,15 @@ UES_ideas = {
 	}
 	
 	ues_yamanouchi_and_ogigayatsu_branches = {
-		army_tradition = 0.5
+		legitimacy = 1
 	}
 
 	ues_kamakura_office = {
-		reinforce_cost_modifier = -0.25
+		reinforce_cost_modifier = -0.1
 	}
 	
 	ues_dragon_of_echigo = {
-		land_morale = 0.1
+		infantry_power = 0.1
 	}
 
 	ues_nokizaru = {
@@ -8866,7 +8866,7 @@ UES_ideas = {
 	}
 	
 	ues_agakita_shu = {
-		discipline = 0.05
+		army_tradition_decay = -0.01
 	}
 	
 	ues_denkoku_no_ji = {
