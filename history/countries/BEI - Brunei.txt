@@ -51,7 +51,7 @@ religious_school = shafii_school
 		claim = 95
 		adm = 4
 		dip = 4
-		mil = 2
+		mil = 4
 	}
 }
 
@@ -61,7 +61,7 @@ religious_school = shafii_school
 		dynasty = "Bolkiah"
 		adm = 4
 		dip = 4
-		mil = 2
+		mil = 4
 	}
 }
 
