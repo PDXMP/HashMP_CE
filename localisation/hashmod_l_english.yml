@@ -517,3 +517,7 @@
  h_tooltip_guarantee:0 "You may not guarantee player nations."
  h_scandinavia_united:0 "Scandinavia United!"
  h_scandinavia_united_desc:0 ""
+ h_jap_manchuria_title:0 "Manshukoku Expedition"
+ h_jap_manchuria_desc:0 "With the recent unification of the Land of the Rising Sun, the Sengoku Jidai has come to an end. Manshukoku has long been a potential thorn in our side.  Our warriors long to test themselves against the barbarians. Bring them to heel."
+ h_jap_philippines_title:0 "Conquest of Ma-i"
+ h_jap_philippines_desc:0 "Japan has a long history of coastal naval warfare using small vessels. These vessels are not suitable for combat on the open ocean. Japan has ambitions on the kingdom known as as Ma-i, and must perfect the art of building large vessels."
