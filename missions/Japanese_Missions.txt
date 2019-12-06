@@ -229,38 +229,18 @@ japanse_missions_colony = {
 				area = taiwan_area
 			}
 			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		trigger = {
-			luzon_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			southern_luzon_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			visayas_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			west_mindanao_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			mindanao_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			palawan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			taiwan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			luzon_area = { type = all is_core = ROOT owned_by = ROOT }
+			southern_luzon_area = { type = all is_core = ROOT owned_by = ROOT }
+			visayas_area = { type = all is_core = ROOT owned_by = ROOT }
+			west_mindanao_area = { type = all is_core = ROOT owned_by = ROOT }
+			mindanao_area = { type = all is_core = ROOT owned_by = ROOT }
+			palawan_area = { type = all is_core = ROOT owned_by = ROOT }
+			taiwan_area = { type = all is_core = ROOT owned_by = ROOT }
 		}
 		effect = {
 			add_country_modifier = {
@@ -487,18 +467,13 @@ japanse_missions_conquest = {
 				area = eastern_mongolia
 			}
 			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		trigger = {
-			manchuria_region = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			eastern_mongolia = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			manchuria_region = { type = all is_core = ROOT owned_by = ROOT }
+			eastern_mongolia = { type = all is_core = ROOT owned_by = ROOT }
 		}
 		effect = {
 			add_country_modifier = {
