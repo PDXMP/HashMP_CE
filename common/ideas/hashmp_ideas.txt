@@ -259,8 +259,8 @@ ARB_ideas = { #Arabian Empire
 
 GER_ideas = { #German Empire
 	start = {
-		development_cost = -0.10
-		land_forcelimit_modifier = 0.25
+		global_manpower_modifier = 0.25
+		infantry_power = 0.20
 	}
 	
 	bonus = {
@@ -268,35 +268,31 @@ GER_ideas = { #German Empire
 	}
 	
 	trigger = {
-		tag = ARB
+		tag = GER
 	}
 	free = yes
 	
-	ger_1 = { #Indian Ocean Trade
-		trade_steering = 0.25
-		global_sailors_modifier = 0.25
+	ger_1 = { #Zunft
+		global_trade_goods_size_modifier = 0.1
 	}
-	ger_2 = { #Arabian Horsemanship
-		cavalry_cost = -0.1
-		cavalry_power = 0.2
+	ger_2 = { #Siegerkranz
+		administrative_efficiency = 0.05
+		max_states = 5
 	}
-	ger_3 = { #Bedouin Raiders
-		hostile_attrition = 1
-		movement_speed = 0.2
+	ger_3 = { #Generalstab
+		army_tradition_decay = -0.01
 	}
-	ger_4 = { #Spreading the Prophet's Word
-		global_missionary_strength = 0.03
+	ger_4 = { #Prussian Spirit
+		land_morale = 0.20
 	}
-	ger_5 = { #Unite the Tribes
-		land_maintenance_modifier = -0.1
-		manpower_recovery_speed = 0.2
+	ger_5 = { #Polizeiordnung
+		global_unrest = -2
 	}
-	ger_6 = { #Bedouin Traders
+	ger_6 = { #Thurn und Taxis
 		development_cost = -0.10
 	}
-	ger_7 = { #Arabia
+	ger_7 = { #Imperium
 		prestige = 1
-		army_tradition = 0.5
 	}
 }
 
