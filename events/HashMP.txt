@@ -145,4 +145,38 @@ country_event = {
 	option = {
 		name = "hashmp.4.b"
 		add_years_of_income = 0.7
-	}	
+	}
+}
+
+country_event = {
+	id = hashmp.5
+	title = hashmp.5.t
+	desc = hashmp.5.d
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.5.a
+		add_country_modifier = {
+				name = "h_sok_quantity"
+				duration = 7300
+		}
+	}
+	
+	option = {
+		name = hashmp.5.b
+		add_country_modifier = {
+				name = "h_sok_quality"
+				duration = 7300
+		}
+	}
+	
+	option = {
+		name = hashmp.5.c
+		add_country_modifier = {
+				name = "h_sok_imperial"
+				duration = 7300
+		}
+	}
+}
