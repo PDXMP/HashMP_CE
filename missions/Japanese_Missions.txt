@@ -251,7 +251,7 @@ japanse_missions_colony = {
 				area = mindanao_area
 				area = palawan_area
 			}
-			NOT = {
+			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
 			}
@@ -489,7 +489,7 @@ japanse_missions_conquest = {
 				region = manchuria_region
 				area = eastern_mongolia
 			}
-			NOT = {
+			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
 			}
