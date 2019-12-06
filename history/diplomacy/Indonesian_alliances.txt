@@ -114,12 +114,12 @@ vassal = {
 }
 
 # Ligor (Nakhon Si Thammarat)
-vassal = {
-	first = AYU
-	second = LIG
-	start_date = 1400.1.1
-	end_date = 1570.1.1
-}
+#vassal = {
+#	first = AYU
+#	second = LIG
+#	start_date = 1400.1.1
+#	end_date = 1570.1.1
+#}
 
 # Pattani
 vassal = {
