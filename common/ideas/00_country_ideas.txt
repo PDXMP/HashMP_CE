@@ -971,7 +971,7 @@ HUN_ideas = {
 JAP_ideas = {
 	start = {
 		stability_cost_modifier = -0.1
-		discipline = 0.05
+		global_unrest = -2
 	}
 	
 	bonus = {
@@ -984,26 +984,29 @@ JAP_ideas = {
 	free = yes
 	
 	jap_unification_under_the_emperor = {
-		global_unrest = -2
+		max_absolutism = 10
+		yearly_absolutism = 0.2
 	}
 	reformed_land_holding = {
 		global_manpower_modifier = 0.2
 	}
 	jap_modernization = {
 		technology_cost = -0.05
-		global_institution_spread = 0.1
+		build_cost = -0.05
 	}
 	jap_maritime_legacy = {
-		ship_durability = 0.075
+		global_sailors_modifier = 0.25
 	}
 	jap_land_of_the_rising_sun = {
 		prestige = 1
+		defensiveness = 0.1
 	}
 	jap_kaitakudan = {
-		global_colonial_growth = 20
+		global_colonial_growth = 25
 	}
 	jap_great_power_diplomacy = {
-		ae_impact = -0.15
+		diplomats = 1
+		envoy_travel_time = -0.33
 	}
 }
 
