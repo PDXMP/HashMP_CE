@@ -8823,15 +8823,15 @@ harmony_banned_book = {
 #Shinto Incidents
 
 wokou_closed_ending = {
-	global_prov_trade_power_modifier = 0.2
+	global_prov_trade_power_modifier = 0.15
 }
 
 wokou_no_effort_ending = {
-	trade_efficiency = 0.2
+	trade_efficiency = 0.1
 }
 
 wokou_turned_to_navy = {
-	ship_durability = 0.2
+	ship_durability = 0.05
 }
 
 wokou_pirate_stronghold_hostile = {
@@ -8856,7 +8856,7 @@ urbanization_middle_road = {
 }
 
 urbanization_in_order = {
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.1
 }
 
 movement_restrictions = {
@@ -8874,12 +8874,12 @@ enraged_ikko_ikki = {
 }
 
 ikkos_crushed = {
-	global_unrest = -2
+	global_unrest = -1
 	global_autonomy = -0.05
 }
 
 ikkos_empowered = {
-	global_manpower_modifier = 0.15
+	global_manpower_modifier = 0.1
 }
 
 support_of_ikkos = {
@@ -8927,11 +8927,11 @@ incident_end_open_ports = {
 }
 
 incident_end_trade_with_west = {
-	trade_efficiency = 0.15
+	trade_efficiency = 0.1
 }
 
 incident_end_dejima = {
-	trade_efficiency = 0.1
+	trade_efficiency = 0.05
 	tolerance_own = 2
 }
 
@@ -8982,18 +8982,17 @@ guns_commonplace = {
 }
 
 traditional_warfare = {
-	land_morale = 0.15
+	land_morale = 0.1
 }
 
 firearm_restrictions = {
-	global_manpower_modifier = -0.15
+	global_manpower_modifier = -0.2
 	land_morale = 0.1
 }
 
 christian_ruler = {
 	tolerance_own = -1
-	global_institution_spread = 0.05
-	trade_efficiency = 0.1
+	global_institution_spread = 0.2
 }
 
 shinto_local_christian_mission = {
@@ -9014,7 +9013,7 @@ shinto_converted_to_mahayana = {
 }
 
 shinto_kirishitan_realm = {
-	advisor_cost = -0.25
+	advisor_cost = -0.15
 }
 
 significant_christian_presence = {
