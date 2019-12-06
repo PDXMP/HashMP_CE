@@ -55,7 +55,10 @@ country_decisions = {
 				area = lower_swabia_area
 				area = upper_swabia_area
 				area = upper_rhineland_area
-				area = palatinate_area			
+				area = palatinate_area
+				area = silesia_area
+				province_id = 188
+				province_id = 189
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -75,6 +78,9 @@ country_decisions = {
 			upper_swabia_area = { type = all is_core = ROOT owned_by = ROOT }
 			upper_rhineland_area = { type = all is_core = ROOT owned_by = ROOT }
 			palatinate_area = { type = all is_core = ROOT owned_by = ROOT }
+			silesia_area = { type = all is_core = ROOT owned_by = ROOT }
+			owns_core_province = 188
+			owns_core_province = 189
 		}
 		effect = {
 			change_tag = GER
