@@ -12742,7 +12742,7 @@ ASU_ideas = {
 
 ADU_ideas = {
 	start = {
-		land_morale = 0.1
+		land_morale = 0.15
 		global_ship_trade_power = 0.25 
 	}
 
@@ -12770,7 +12770,7 @@ ADU_ideas = {
 		monthly_piety = -0.001
 	}
 	adu_jund_settlements = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.25
 		core_creation = -0.15
 	}
 	adu_expeditionary_sentiment = {
