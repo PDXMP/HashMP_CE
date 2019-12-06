@@ -160,7 +160,7 @@ country_event = {
 		name = hashmp.5.a
 		add_country_modifier = {
 				name = "h_sok_quantity"
-				duration = 7300
+				duration = -1
 		}
 	}
 	
@@ -168,7 +168,7 @@ country_event = {
 		name = hashmp.5.b
 		add_country_modifier = {
 				name = "h_sok_quality"
-				duration = 7300
+				duration = -1
 		}
 	}
 	
@@ -176,7 +176,7 @@ country_event = {
 		name = hashmp.5.c
 		add_country_modifier = {
 				name = "h_sok_imperial"
-				duration = 7300
+				duration = -1
 		}
 	}
 }
