@@ -775,7 +775,6 @@ malayan_ideas = {
 		idea_cost = -0.10
 	}
 	trading_fleets = {
-		naval_maintenance_modifier = -0.2
 		sailor_maintenance_modifer = -0.1
 	}
 	heirs_of_pasai = {
