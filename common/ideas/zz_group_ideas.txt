@@ -749,7 +749,7 @@ malayan_ideas = {
 	}
 	
 	bonus = {
-		naval_tradition_from_battle = 0.5
+		heavy_ship_power = 0.1
 	}
 	
 	trigger = {
@@ -766,12 +766,13 @@ malayan_ideas = {
 	}
 	sufi_legacy = {
 		tolerance_heathen = 2
+		land_morale = 0.10
 	}
 	mal_spice_islands = {
 		production_efficiency = 0.1
 	}
 	classical_malay = {
-		idea_cost = -0.05
+		idea_cost = -0.10
 	}
 	trading_fleets = {
 		naval_maintenance_modifier = -0.2
