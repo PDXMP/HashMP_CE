@@ -616,14 +616,14 @@ POL_ideas = {
 	}
 	nihil_novi = {
 		stability_cost_modifier = -0.1
-		war_exhaustion = -0.02
+		war_exhaustion = -0.03
 	}
 	peichota_wybraniecka = {
 		global_manpower_modifier = 0.25
 		infantry_power = 0.10
 	}
 	winged_hussars = {
-		cavalry_power = 0.20
+		cavalry_power = 0.25
 		cav_to_inf_ratio = 0.10
 	}
 	wojsko_komputoe = {
