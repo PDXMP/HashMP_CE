@@ -163,10 +163,6 @@ japanse_missions_colony = {
 		trigger = {
 			owns_core_province = 1032
 			owns_core_province = 1033
-			OR = {
-				has_idea_group = exploration_ideas
-				has_idea_group = expansion_ideas
-			}
 		}
 		effect = {
 			add_country_modifier = {
@@ -199,14 +195,42 @@ japanse_missions_colony = {
 		}
 		effect = {
 			add_dip_power = 100
-			fujian_area = {
+			luzon_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
 				add_claim = ROOT
 			}
-			zhejiang_area = {
+			southern_luzon_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			visayas_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			west_mindanao_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			mindanao_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			palawan_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
@@ -226,7 +250,6 @@ japanse_missions_colony = {
 				area = west_mindanao_area
 				area = mindanao_area
 				area = palawan_area
-				area = taiwan_area
 			}
 			NOT = {
 				NOT = { owned_by = ROOT }
