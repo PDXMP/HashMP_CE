@@ -2591,7 +2591,7 @@ cruel_personality = {
 	razing = yes
 	lower_autonomy = yes
 	
-	global_unrest = 2
+	global_unrest = 1
 	nation_designer_cost = -2
 } #4 less bad
 naive_personality = {
