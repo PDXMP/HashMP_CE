@@ -4,6 +4,11 @@ primary_culture = malayan
 religion = sunni
 technology_group = chinese
 capital = 596	# Malacca
+historical_rival = MSA
+historical_rival = AYU
+historical_rival = BEI
+historical_rival = MAJ
+historical_rival = PSA
 fixed_capital = 596 # Cannot move capital away from this province & no power cost to move to it
 religious_school = shafii_school
 
