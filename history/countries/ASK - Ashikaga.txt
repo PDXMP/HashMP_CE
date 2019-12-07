@@ -5,6 +5,11 @@ add_accepted_culture = togoku
 religion = shinto
 technology_group = chinese
 capital = 1020	# Yamashiro
+historical_rival = MJZ
+historical_rival = WUU
+historical_rival = YUE
+historical_rival = KOR
+historical_rival = MCH
 
 1325.1.1 = {
 	monarch = {
