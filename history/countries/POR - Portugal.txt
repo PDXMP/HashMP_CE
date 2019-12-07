@@ -87,8 +87,8 @@ national_focus = DIP
 		birth_date = 1392.1.1
 		regent = yes
 		adm = 4
-		dip = 2
-		mil = 1
+		dip = 4
+		mil = 3
 	}
 }
 
