@@ -238,22 +238,22 @@ offensive_ideas = {
 		possible_mil_policy = 1
 	}
 
+	glorious_arms = {
+		leader_land_shock = 1
+	}
 	bayonet_leaders = {
 		shock_damage = 0.1
 	}
 	national_conscripts = {
 		army_tradition = 0.5
 	}
-	glorious_arms = {
-		leader_land_shock = 1
+	engineer_corps = {
+		siege_ability = 0.2
+		artillery_bonus_vs_fort = 1
 	}
 	superior_firepower = {
 		movement_speed = 0.1
 		reinforce_speed = 0.1
-	}
-	engineer_corps = {
-		siege_ability = 0.2
-		artillery_bonus_vs_fort = 1
 	}
 	grand_army = {
 		land_forcelimit_modifier = 0.1
