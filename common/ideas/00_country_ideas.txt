@@ -100,6 +100,7 @@ SWE_ideas = {
 		OR = {
 			tag = SWE
 			tag = SCA
+		}
 	}
 	free = yes		#will be added at load.
 
