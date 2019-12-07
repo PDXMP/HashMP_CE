@@ -265,7 +265,7 @@ the_foreign_support_act = {
 		full_idea_group = economic_ideas
 	}
 
-	development_cost = -0.1
+	development_cost = -0.075
 	inflation_reduction = 0.05
 	
 	ai_will_do = {
