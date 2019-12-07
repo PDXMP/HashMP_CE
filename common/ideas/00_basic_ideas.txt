@@ -671,8 +671,16 @@ quality_ideas = {
 		yearly_army_professionalism = 0.0025
 	}
 
+	naval_drill = {
+		drill_gain_modifier = 0.25
+		drill_decay_modifier = -0.1
+	}
 	quality_education = {
 		army_tradition = 0.5
+	}
+	copper_bottoms = {
+		prestige_from_land = 1.0
+		army_tradition_from_battle = 0.50
 	}
 	private_to_marshal = {
 		infantry_power = 0.10
@@ -682,14 +690,6 @@ quality_ideas = {
 	}
 	escort_ships = {
 		ship_durability = 0.05
-	}
-	naval_drill = {
-		drill_gain_modifier = 0.25
-		drill_decay_modifier = -0.1
-	}
-	copper_bottoms = {
-		prestige_from_land = 1.0
-		army_tradition_from_battle = 0.50
 	}
 	massed_battery = {
 		artillery_power = 0.10
