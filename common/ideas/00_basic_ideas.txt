@@ -447,7 +447,7 @@ exploration_ideas = {
 	}
 	vice_roys  = {
 		global_tariffs = 0.10
-		envoy_travel_time = -0.2
+		envoy_travel_time = -0.25
  	}
 	free_colonies = {
 		colonists = 1
