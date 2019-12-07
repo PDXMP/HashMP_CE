@@ -102,7 +102,7 @@ just_personality = {
 	easy_war_chance_multiplier = 0.5
 	fair_fights = yes
 	
-	global_unrest = -2
+	global_unrest = -1
 	nation_designer_cost = 2
 } #1 less bad
 
