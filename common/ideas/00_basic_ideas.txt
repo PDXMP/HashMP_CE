@@ -149,7 +149,7 @@ religious_ideas = {
 		prestige_per_development_from_conversion = 0.25
 	}
 	church_attendance_duty = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.1
 	}
 	divine_supremacy = {
 		global_missionary_strength = 0.03
