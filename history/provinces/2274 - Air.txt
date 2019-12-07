@@ -1,5 +1,9 @@
 # No previous file for Air
 
+latent_trade_goods = {
+	coal
+}
+
 owner = AIR
 controller = AIR
 add_core = AIR
