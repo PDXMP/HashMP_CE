@@ -157,7 +157,7 @@ righteous_personality = {
 	easy_war_chance_multiplier = 0.75
 	
 	legitimacy = 1
-	republican_tradition = 0.25
+	republican_tradition = 0.2
 	nation_designer_cost = 2
 } #1 better, 1 less bad
 
