@@ -15,7 +15,7 @@ base_manpower = 1
 add_core = ARA
 add_core = TOU
 estate = estate_nobles
-#fort_15th = yes
+fort_15th = yes
 
 
 
