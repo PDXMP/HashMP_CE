@@ -105,6 +105,7 @@ diplomatic_missions = {
 	slot = 3
 	
 	generic = yes
+	ai = no
 	
 	potential = {
 	   always = yes
@@ -275,6 +276,7 @@ administrative_missions = {
 	slot = 4
 	
 	generic = yes
+	ai = no
 	
 	potential = {
 	   always = yes
