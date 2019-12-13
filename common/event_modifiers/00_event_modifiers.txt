@@ -2262,7 +2262,7 @@ swedish_mercenary_core = {
 
 swedish_naval_reforms = {
 	heavy_ship_cost = -0.1
-	naval_morale = 0.05
+	naval_morale = 0.1
 }
 
 swedish_mercantile_reforms = {
