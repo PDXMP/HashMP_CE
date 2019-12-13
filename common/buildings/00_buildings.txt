@@ -72,7 +72,7 @@ barracks = {
 	time = 12
 	modifier = {
 		local_manpower_modifier = 0.6
-		monthly_militarized_society = 0.00025
+		monthly_militarized_society = 0.0005
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -205,7 +205,7 @@ regimental_camp = {
 	time = 12
 	modifier = {
 		land_forcelimit = 1.25
-		monthly_militarized_society = 0.00025
+		monthly_militarized_society = 0.0005
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -420,7 +420,7 @@ training_fields = {
 	
 	modifier = {
 		local_manpower_modifier = 1.0
-		monthly_militarized_society = 0.0005
+		monthly_militarized_society = 0.001
 	}
 	
 	ai_will_do = {
@@ -580,7 +580,7 @@ conscription_center = {
 	
 	modifier = {
 		land_forcelimit = 2
-			monthly_militarized_society = 0.0005
+			monthly_militarized_society = 0.001
 	}
 	
 	ai_will_do = {
