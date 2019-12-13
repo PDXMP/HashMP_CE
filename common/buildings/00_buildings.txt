@@ -308,6 +308,7 @@ university = {
 	time = 12
 	modifier = {
 		local_development_cost = -0.1
+		local_institution_spread = 0.25
 		allowed_num_of_buildings = 1
 	}
 	
