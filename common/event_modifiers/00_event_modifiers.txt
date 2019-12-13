@@ -2256,7 +2256,8 @@ swedish_military_reforms = {
 }
 
 swedish_mercenary_core = {
-	merc_maintenance_modifier = -0.1
+	merc_maintenance_modifier = -0.15
+	possible_mercenaries = 0.1
 }
 
 swedish_naval_reforms = {
