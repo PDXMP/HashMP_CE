@@ -412,7 +412,7 @@ devastation = {
 
 prosperity = {
 	trade_goods_size_modifier = 0.1
-	local_autonomy = -0.025
+	local_autonomy = -0.05
 }
 
 slaves_raided = {
