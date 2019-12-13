@@ -187,7 +187,7 @@ age_of_discovery = {
 				tag = TUR
 			}
 			modifier = {
-				siege_ability = 0.25
+				siege_ability = 0.33
 			}
 			ai_will_do = {
 				factor = 100
