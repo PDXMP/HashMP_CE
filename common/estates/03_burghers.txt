@@ -51,14 +51,14 @@ estate_burghers =
 	# These scale with loyalty & power
 	country_modifier_happy = {
 		trade_efficiency = 0.2
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	country_modifier_neutral = {
 		trade_efficiency = 0.2
 	}	
 	country_modifier_angry = {
 		trade_efficiency = -0.1
-		development_cost = 0.1
+		development_cost = 0.05
 	}
 	
 	# These do not scale, but only applied in provinces owned by the estate
