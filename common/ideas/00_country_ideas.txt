@@ -661,7 +661,7 @@ HAB_ideas = {
 	free = yes		#will be added at load.
 
 	imperial_ambitions = {
-		diplomatic_annexation_cost = -0.15
+		diplomatic_annexation_cost = -0.2
 	}
 	military_border = {
 		global_garrison_growth = 0.15
@@ -676,7 +676,7 @@ HAB_ideas = {
 		diplomatic_reputation = 2
 	}
 	edict_of_restitution = {
-		global_missionary_strength = 0.02
+		global_missionary_strength = 0.03
 	}
 	austrian_court = {
 		diplomatic_upkeep = 2
