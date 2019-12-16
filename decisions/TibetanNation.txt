@@ -11,7 +11,13 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = TIB }
-			primary_culture = tibetan
+			OR = {
+				tag = KSD
+				tag = SYG
+				tag = UTS
+				tag = KAM
+				tag = GUG
+				tag = PHA
 			OR = {
 				ai = no
 				AND = {
