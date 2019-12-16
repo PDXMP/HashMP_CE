@@ -1,7 +1,7 @@
 #4335 - Kashan
 
-owner = ISF
-controller = ISF
+owner = KHO
+controller = KHO
 culture = persian
 religion = shiite
 capital = "Kashan"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = ISF
+add_core = KHO
 add_core = TIM
 discovered_by = muslim
 discovered_by = ottoman
