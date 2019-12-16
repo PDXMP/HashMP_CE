@@ -1,10 +1,10 @@
 # Bohemia - Silesia
-vassal = {
-	first = BOH
-	second = SIL
-	start_date = 1444.1.1
-	end_date = 1526.8.29
-}
+#vassal = {
+#	first = BOH
+#	second = SIL
+#	start_date = 1444.1.1
+#	end_date = 1526.8.29
+#}
 
 # Habsburg - Silesia
 vassal = {
