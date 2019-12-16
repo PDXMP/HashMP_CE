@@ -12,6 +12,7 @@ base_tax = 4
 base_production = 4
 is_city = yes 
 base_manpower = 4
+fort_15th = yes
 add_core = SIL
 discovered_by = KAZ
 discovered_by = CRI
