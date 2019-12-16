@@ -9,6 +9,7 @@ base_tax = 5
 base_production = 5
 trade_goods = wine 
 base_manpower = 6
+fort_15th = yes #Vienna + Outer ring of fortifications
 capital = "Krems" 
 is_city = yes
 hre = yes
