@@ -17,7 +17,7 @@ country_decisions = {
 			NOT = { tag = TUR }
 			NOT = { tag = BYZ }
 			NOT = { exists = GLH }
-			culture_group = tartar
+			#culture_group = tartar
 			has_reform = steppe_horde
 			is_colonial_nation = no
 			OR = {
