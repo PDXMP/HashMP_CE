@@ -8,7 +8,7 @@ edict_centralization_effort = {
 	}
 	
 	modifier = {
-		local_monthly_devastation = -0.33
+		local_monthly_devastation = -0.5
 	}
 	
 	color = {  220 178 155 }
