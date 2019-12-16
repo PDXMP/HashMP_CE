@@ -44,7 +44,7 @@ hab_holy_roman_ambitions = {
 			}
 			add_country_modifier = {
 				name = "succesful_bid_for_imperial_crown"
-				duration = 5475 #15 years
+				duration = 3650 #10 years
 			}
 		}
 	}
