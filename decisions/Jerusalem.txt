@@ -14,6 +14,10 @@ country_decisions = {
 			NOT = { government = republic }
 			NOT = { has_reform = celestial_empire }
 			OR = {
+				tag = KNI
+				tag = CYP
+			}
+			OR = {
 				owns = 379
 				AND = {
 					ai = no
