@@ -28,21 +28,19 @@ hab_holy_roman_ambitions = {
 			}
 		}
 		effect = {
-			else = {
-				bohemia_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
+			bohemia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
 				}
-				erzgebirge_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
+				add_permanent_claim = ROOT
+			}
+			erzgebirge_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
 				}
+				add_permanent_claim = ROOT
 			}
 			add_country_modifier = {
 				name = "succesful_bid_for_imperial_crown"
