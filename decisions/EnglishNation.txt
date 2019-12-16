@@ -15,7 +15,9 @@ country_decisions = {
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
 			OR = {
-				primary_culture = english
+				tag = CRN
+				tag = WLS
+				tag = NOL
 				tag = KOI
 			}
 			is_colonial_nation = no
