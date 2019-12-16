@@ -53,9 +53,9 @@ national_focus = ADM
 		name = "Friedrich III"
 		dynasty = "von Habsburg"
 		birth_date = 1415.9.21
-		adm = 2
+		adm = 4
 		dip = 5
-		mil = 1
+		mil = 3
 	}
 	
 	clear_scripted_personalities = yes
