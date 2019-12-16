@@ -76,6 +76,10 @@ country_event = {
 			who = FRI
 			modifier = h_dutch_minors_defiant
 		}
+		add_opinion = {
+			who = SIL
+			modifier = h_dutch_minors_defiant
+		}
 		reverse_add_opinion = {
 			who = LIE
 			modifier = h_dutch_minors_defiant
@@ -90,6 +94,10 @@ country_event = {
 		}
 		reverse_add_opinion = {
 			who = FRI
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = SIL
 			modifier = h_dutch_minors_defiant
 		}
 	}
