@@ -18,6 +18,7 @@ country_decisions = {
 				tag = KAM
 				tag = GUG
 				tag = PHA
+			}
 			OR = {
 				ai = no
 				AND = {
