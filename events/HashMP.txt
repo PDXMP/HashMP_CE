@@ -188,3 +188,60 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = hashmp.6
+	title = hashmp.6.t
+	desc = hashmp.6.d
+	picture = HRE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.6.a #Adm heir
+		add_legitimacy = -20
+		define_heir = {
+			name = Maximilian
+			dynasty = "von Habsburg"
+			age = 14
+			culture = austrian
+			ADM = 5
+			DIP = 3
+			MIL = 3
+			claim = 60
+			male = yes
+		}
+	}
+	
+	option = {
+		name = hashmp.6.b #Dip heir
+		add_legitimacy = -20
+		define_heir = {
+			name = Ferdinand
+			dynasty = "von Habsburg"
+			age = 14
+			culture = austrian
+			ADM = 3
+			DIP = 5
+			MIL = 3
+			claim = 60
+			male = yes
+		}
+	}
+	
+	option = {
+		name = hashmp.6.c #Mil heir
+		add_legitimacy = -20
+		define_heir = {
+			name = Karl
+			dynasty = "von Habsburg"
+			age = 14
+			culture = austrian
+			ADM = 3
+			DIP = 2
+			MIL = 5
+			claim = 60
+			male = yes
+		}
+	}
+}
