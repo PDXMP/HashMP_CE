@@ -282,4 +282,20 @@ country_decisions = {
 			country_event = { id = hashmp.5 } #Jihad Event
 		}
 	}
+	
+	h_hab_scion = {
+		potential = {
+			tag = HAB
+			NOT = { has_country_flag = h_hab_scion_adopted }
+		}
+		allow = {
+			stability = 1
+			has_heir = no
+			is_emperor = yes
+		}
+		effect = {
+			set_country_flag = h_hab_scion_adopted
+			country_event = { id = hashmp.6 } #Scion Event
+		}
+	}
 }
