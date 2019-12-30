@@ -361,6 +361,10 @@ quartermaster = {
 
 	chance = {
 		factor = 1
+		modifier = {
+			factor = 0
+			owner = { is_colonial_nation = yes }
+		}
 	}
 	
 	ai_will_do = {
