@@ -19,7 +19,11 @@ country_decisions = {
 			NOT = { tag = PRU }
 			NOT = { tag = ENG }
 			is_emperor_of_china = no
-			primary_culture = turkish
+			#primary_culture = turkish
+			OR = {
+				tag = MAM
+				tag = QAR
+			}
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
