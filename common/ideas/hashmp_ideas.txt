@@ -1095,7 +1095,7 @@ CAM_ideas = { #United Central America
 		recover_army_morale_speed = 0.05
 	}
 	cam_2 = { #Arm the Masses
-		infantry_power = -0.1
+		infantry_power = -0.2
 		infantry_cost = -0.2
 	}
 	cam_3 = { #Imperial Schools
