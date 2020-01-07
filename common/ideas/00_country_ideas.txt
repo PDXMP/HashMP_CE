@@ -583,7 +583,7 @@ POR_ideas = {
 	}
 	the_bandeirantes = {
 		merchants = 1
-		light_ship_cost = -0.15
+		light_ship_cost = -0.2
 	}
 	royal_absolutism = {
 		stability_cost_modifier = -0.1
