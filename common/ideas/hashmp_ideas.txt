@@ -629,7 +629,7 @@ CSC_ideas = { #Columbia
 
 CUB_ideas = { #Cuba
 	start = {
-		naval_forcelimit = 20
+		naval_forcelimit = 15
 		global_missionary_strength = 0.01
 	}
 	
@@ -646,7 +646,7 @@ CUB_ideas = { #Cuba
 		naval_morale = 0.10
 	}
 	cub_2 = { #Impressment
-		global_sailors_modifier = 0.50
+		global_sailors_modifier = 0.25
 	}
 	cub_3 = { #The Arsenal
 		global_ship_cost = -0.1
