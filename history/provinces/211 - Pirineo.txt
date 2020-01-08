@@ -16,7 +16,7 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-#fort_15th = yes #Castiello de Lobarre
+fort_15th = yes #Castiello de Lobarre
 
 1516.1.23 = {	controller = SPA
 	owner = SPA
