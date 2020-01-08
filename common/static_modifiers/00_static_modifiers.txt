@@ -706,8 +706,8 @@ war_exhaustion = {
 }
 
 doom = {
-	technology_cost = 0.5
-	idea_cost = 0.2
+	technology_cost = 0.1
+	idea_cost = 0.1
 	ae_impact = -1
 }
 
