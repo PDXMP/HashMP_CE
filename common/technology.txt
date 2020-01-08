@@ -146,7 +146,7 @@ groups = {
 		is_primitive = yes
 	}
 	andean = {
-		start_level = 1
+		start_level = 2
 		start_cost_modifier = 1.5
 		nation_designer_unit_type = south_american
 		is_primitive = yes
