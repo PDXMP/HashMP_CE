@@ -1,9 +1,9 @@
 #853 - Huastec
 
-owner = AZT
-controller = AZT
-add_core = AZT
-culture = aztek 
+owner = OTO
+controller = OTO
+add_core = OTO
+culture = otomi 
 religion = nahuatl
 capital = "Tlapacoyan"
 trade_goods = cotton 
