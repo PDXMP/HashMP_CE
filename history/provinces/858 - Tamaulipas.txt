@@ -2,13 +2,9 @@
 
 
 culture = wastek
-owner = HST
-controller = HST
-add_core = HST
-is_city = yes
 religion = mesoamerican_religion
 capital = "Tamaulipas"
-trade_goods = sugar
+trade_goods = unknown
 hre = no
 base_tax = 1 
 base_production = 1

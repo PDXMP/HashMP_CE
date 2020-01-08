@@ -2,12 +2,8 @@
 
 culture = guamares
 religion = animism
-owner = GAM
-controller = GAM
-add_core = GAM
-is_city = yes
 capital = "Xochipillan"
-trade_goods = wool
+trade_goods = unknown
 hre = no
 base_tax = 1
 base_production = 1
