@@ -1176,7 +1176,7 @@ BLV_ideas = { #Bolivia
 		development_cost = -0.15
 	}
 	blv_2 = { #Mines of Potosi
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.15
 	}
 	blv_3 = { #Dredging
 		build_cost = -0.1
