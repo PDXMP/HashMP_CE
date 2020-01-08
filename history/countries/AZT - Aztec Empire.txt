@@ -79,13 +79,13 @@ add_army_professionalism = 0.1
 	}
 }
 
-1440.8.14 = {
+1444.8.14 = {
 	monarch = {
 		name = "Moctezuma I Ilhuicamina"
 		dynasty = "Acamapichtli"
-		adm = 4
-		dip = 3
-		mil = 5
+		adm = 6
+		dip = 6
+		mil = 6
 		leader = {	name = "Moctezuma I"           	type = general	fire = 3	shock = 4	manuever = 4	siege = 0}
 	}
 }
