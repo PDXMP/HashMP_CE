@@ -516,7 +516,7 @@ PRU_ideas = {
 	}
 	
 	bonus = {
-		development_cost = -0.05
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -541,9 +541,11 @@ PRU_ideas = {
 	}
 	regimental_cantons = {
 		global_regiment_recruit_speed = -0.15
+		global_manpower_modifier = 0.2
 	}
 	religious_toleration = {
 		tolerance_heretic = 2
+		development_cost = -0.05
 	}
 }
  
