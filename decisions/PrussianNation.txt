@@ -25,15 +25,14 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
+				province_id = 40	# Memel
 				province_id = 41	# Königsberg
-				AND = {
-					province_id = 43	# Danzig
-					ROOT = { NOT = { owns_core_province = 2995 } }
-				}
-				AND = {
-					province_id = 2995
-					ROOT = { NOT = { owns_core_province = 2995 } }
-				}
+				province_id = 42	# Ermland
+				province_id = 43	# Danzig
+				province_id = 767	# Ortelsburg
+				province_id = 1841	# Marienburg
+				province_id = 2958	# Osterode
+				province_id = 2997	# Tuchel
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -48,17 +47,19 @@ country_decisions = {
 				religion = protestant
 				religion = reformed
 			}
-			owns_core_province = 41			# Königsberg
-			OR = {
-				owns_core_province = 43		# Danzig
-				owns_core_province = 2995	# Stolp
-			}
+			owns_core_province = 40	# Memel
+			owns_core_province = 41	# Königsberg
+			owns_core_province = 42	# Ermland
+			owns_core_province = 43	# Danzig
+			owns_core_province = 767	# Ortelsburg
+			owns_core_province = 1841	# Marienburg
+			owns_core_province = 2958	# Osterode
+			owns_core_province = 2997	# Tuchel
 			is_at_war = no
 		}
 		effect = {
 			change_tag = PRU
 			swap_non_generic_missions = yes
-			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
 					NOT = { government_rank = 2 }
