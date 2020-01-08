@@ -284,6 +284,7 @@ GER_ideas = { #German Empire
 	}
 	ger_4 = { #Prussian Spirit
 		land_morale = 0.20
+		naval_morale = 0.10
 	}
 	ger_5 = { #Polizeiordnung
 		global_unrest = -2
