@@ -662,19 +662,6 @@ gold = {
 			region = peru_region
 		}
 		modifier = {
-			factor = 4.0
-			OR = {
-				province_id = 852		# Mexico
-				province_id = 853		# Huastec
-				province_id = 854		# Sayultecas
-				province_id = 2617		# Huichol
-				province_id = 856		# Zacatecas
-				province_id = 857		# Guichichil
-				province_id = 858		# Tamaulipas
-				province_id = 2615		# Guamares
-			}
-		}
-		modifier = {
 			factor = 3.5
 			OR = {
 				area = minas_gerais_area
