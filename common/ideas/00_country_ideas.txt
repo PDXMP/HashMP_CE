@@ -2477,12 +2477,12 @@ TUS_ideas = {
 
 SWI_ideas = {
 	start = {
-		mercenary_discipline = 0.05
+		mercenary_discipline = 0.075
 		infantry_power = 0.1
 	}
 	
 	bonus = {
-		discipline = 0.05
+		defensiveness = 0.15
 	}
 	
 	trigger = {
