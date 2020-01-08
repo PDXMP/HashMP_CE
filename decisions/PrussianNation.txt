@@ -117,6 +117,10 @@ country_decisions = {
 			capital_scope = {
 				change_culture = prussian
 			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 			set_country_flag = formed_prussia_flag
 		}
 		ai_will_do = {
