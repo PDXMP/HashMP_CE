@@ -217,7 +217,7 @@ RUS_ideas = {
 SPA_ideas = {
 	start = {
 		land_morale = 0.15
-		missionaries = 1
+		artillery_power = 0.1
 	}
 	
 	bonus = {
@@ -231,6 +231,7 @@ SPA_ideas = {
 
 	devout_catholisism = {
 		papal_influence = 2
+		missionaries = 1
 	}
 	inter_caetera = {
 		idea_claim_colonies = yes
