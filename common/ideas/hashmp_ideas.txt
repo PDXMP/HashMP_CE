@@ -296,6 +296,44 @@ GER_ideas = { #German Empire
 	}
 }
 
+BRA_ideas = {
+	start = {
+		army_tradition = 0.5
+		diplomatic_reputation = 1
+	}
+	
+	bonus = {
+		development_cost = -0.05
+	}
+	
+	trigger = {
+		tag = BRA
+	}
+	free = yes		#will be added at load.
+	
+	bra_1 = {
+		global_tax_modifier = 0.1
+	}
+	bra_2 = {
+		stability_cost_modifier = -0.1
+	}
+	bra_3 = {
+		land_morale = 0.10
+	}
+	bra_4 = {
+		army_tradition_decay = -0.01
+	}
+	bra_5 = {
+		infantry_power = 0.10
+	}
+	bra_6 = {
+		global_regiment_recruit_speed = -0.15
+	}
+	bra_7 = {
+		tolerance_heretic = 2
+	}
+}
+
 ###########################################
 # Formable CN Ideas
 ###########################################
