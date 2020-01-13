@@ -21,7 +21,7 @@ t2_np_1 = { #Strengthen Noble Privilege
 		}
 	}
 	modifiers = {
-		global_manpower_modifier = 0.125
+		global_manpower_modifier = 0.1
 		stability_cost_modifier = 0.1
 	}
 }
