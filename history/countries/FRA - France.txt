@@ -119,9 +119,9 @@ historical_rival = HAB
 		type = general
 
 		fire = 4
-		shock = 4
+		shock = 2
 		manuever = 1
-		siege = 3
+		siege = 1
 		death_date = 1463.7.5
 		personality = siege_specialist_personality
 	}
