@@ -7,11 +7,11 @@ election_reform = {
 	}
 	
 	effect = {
-		add_republican_tradition = 10
+		#
 	}
 	
 	modifier = {
-		republican_tradition = 0.5
+		republican_tradition = 0.2
 	}
 
 	chance = {
