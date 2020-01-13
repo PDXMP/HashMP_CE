@@ -1035,6 +1035,7 @@ political_principle_reform = {
 	icon = "paper_with_seal_3"
 	allow_normal_conversion = yes
 	modifiers = {
+		free_adm_policy = 1
 		possible_adm_policy = 1
 	}
 }
@@ -1043,6 +1044,7 @@ moral_principle_reform = {
 	icon = "parliament_hall"
 	allow_normal_conversion = yes
 	modifiers = {
+		free_dip_policy = 1
 		possible_dip_policy = 1
 	}
 }
