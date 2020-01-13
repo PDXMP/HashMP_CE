@@ -9946,7 +9946,7 @@ TPR_ideas = {
 HAN_ideas = {
 	start = {
 		cavalry_power = 0.15
-		merchants = 1
+		cav_to_inf_ratio = 0.1
 	}
 	bonus = {
 		discipline = 0.05
@@ -9971,6 +9971,7 @@ HAN_ideas = {
 	}
 	han_strengthen_the_meiertum = {
 		global_trade_goods_size_modifier = 0.1
+		merchants = 1
 	}
 	han_hanoverian_chancery = {
 		diplomatic_reputation = 1
