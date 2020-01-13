@@ -23,6 +23,8 @@ country_decisions = {
 			OR = {
 				tag = MAL
 				tag = SON
+				tag = TUN
+				tag = MOR
 			}
 			#has_country_flag = sok_dan_fodio_happened
 		}
