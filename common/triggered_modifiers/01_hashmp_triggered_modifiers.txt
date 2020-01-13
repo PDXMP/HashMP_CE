@@ -196,9 +196,10 @@ t_cn_navy_1 = {
 		navy_size = 30
 	}
 	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.1
+	global_ship_recruit_speed = 0.15
+	global_ship_repair = -0.15
 	global_ship_cost = 0.1
-	naval_maintenance_modifier = 0.075
+	naval_maintenance_modifier = 0.1
 }
 
 t_cn_navy_2 = {
@@ -210,9 +211,10 @@ t_cn_navy_2 = {
 		navy_size = 60
 	}
 	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.1
+	global_ship_recruit_speed = 0.15
+	global_ship_repair = -0.15
 	global_ship_cost = 0.1
-	naval_maintenance_modifier = 0.075
+	naval_maintenance_modifier = 0.1
 }
 
 t_cn_navy_3 = {
@@ -224,9 +226,10 @@ t_cn_navy_3 = {
 		navy_size = 90
 	}
 	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.1
+	global_ship_recruit_speed = 0.15
+	global_ship_repair = -0.15
 	global_ship_cost = 0.1
-	naval_maintenance_modifier = 0.075
+	naval_maintenance_modifier = 0.1
 }
 
 t_cn_navy_4 = {
@@ -238,9 +241,10 @@ t_cn_navy_4 = {
 		navy_size = 120
 	}
 	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.1
+	global_ship_recruit_speed = 0.15
+	global_ship_repair = -0.15
 	global_ship_cost = 0.1
-	naval_maintenance_modifier = 0.075
+	naval_maintenance_modifier = 0.1
 }
 
 t_cn_navy_5 = {
@@ -252,9 +256,10 @@ t_cn_navy_5 = {
 		navy_size = 150
 	}
 	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.1
+	global_ship_recruit_speed = 0.15
+	global_ship_repair = -0.15
 	global_ship_cost = 0.1
-	naval_maintenance_modifier = 0.075
+	naval_maintenance_modifier = 0.1
 }
 
 ###########################################
