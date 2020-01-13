@@ -1,0 +1,13 @@
+name = "MOR-GRA"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = MOR
+	add_defender = GRA
+}
+1444.8.1 = {
+	rem_attacker = MOR
+	rem_defender = GRA
+}
