@@ -14,8 +14,8 @@ charter_colonies = {
 	}
 	
 	modifier = {
-		colonists = 1
-		global_colonial_growth = 20
+		#colonists = 1
+		global_colonial_growth = 25
 	}
 	
 	chance = {
