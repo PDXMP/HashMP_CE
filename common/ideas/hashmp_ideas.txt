@@ -382,7 +382,7 @@ AUS_ideas = { #Australia
 NZL_ideas = { #New Zealand
 	start = {
 		republican_tradition = 0.1
-		naval_forcelimit_modifier = 0.2
+		naval_forcelimit_modifier = 0.25
 	}
 	
 	bonus = {
@@ -401,10 +401,10 @@ NZL_ideas = { #New Zealand
 		prestige = 1
 	}
 	nzl_3 = { #Irrigation
-		development_cost = -0.1
+		development_cost = -0.15
 	}
 	nzl_4 = { #Pacific's Triple Star
-		own_coast_naval_combat_bonus = 1
+		naval_morale = 0.10
 	}
 	nzl_5 = { #Bushrangers
 		hostile_attrition = 1
