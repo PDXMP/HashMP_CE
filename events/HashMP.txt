@@ -311,3 +311,69 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = hashmp.8
+	title = hashmp.8.t
+	desc = hashmp.8.d
+	picture = CIVIL_WAR_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = POL
+		NOT = { adm = 6 dip = 6 mil = 6 }
+		NOT = { is_year = 1475 }
+		has_country_flag = hash_localnoble
+	}
+
+	 immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+					is_in_capital_area = yes
+				}
+				save_event_target_as = hash_pol_pretenders
+			}
+		}
+	 }
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = hashmp.8.a
+		add_legitimacy = -20
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+		define_ruler = {
+			culture = ROOT
+			religion = ROOT
+			adm = 5
+			dip = 5
+			mil = 5
+			age = 30
+			claim = 60
+		}
+	}
+
+	option = {
+		name = hashmp.8.b
+		add_legitimacy = 20
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		event_target:hash_pol_pretenders = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 2
+			}
+		}
+	}
+}
