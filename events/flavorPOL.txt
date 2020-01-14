@@ -1724,6 +1724,7 @@ country_event = {
 			claim = 100
 			culture = polish
 		}
+		set_country_flag = hash_localnoble
 		if = {
 			limit = {
 				has_states_general_mechanic = yes
