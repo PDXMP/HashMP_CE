@@ -630,3 +630,7 @@
  bra_6_desc:0 "Peasants are naturally not keen on a lifetime of service in the Army, so they tend to run away when recruiters come along. Now we give each regiment a recruiting district to draw manpower from. Each youth is expected to train for 3 months of the year so he is ready for service. This should ensure a steadier supply of manpower for armies."
  bra_7:0 "Religious Toleration"
  bra_7_desc:0 "Stability at home is the key thing if we wish to expand by encouraging tolerance of different religions not only do we improve stability at home our realm will become a haven for those who flee persecution elsewhere."
+ hashmp.7.t:0 "Unfulfilled Potential"
+ hashmp.7.d:0 "Some whisper in secret that our previous ruler died too young, and had yet to leave their mark on the world. Some say it openly, as is the case with the new pretender to the throne. A close confidant of the last ruler, he intends to ensure that their grand vision comes to fruition. Gathering the support of the people, this young upstart openly challenges the new ruler and the nobility for control of the country."
+ hashmp.7.a:0 "Abdicate, for the good of the nation."
+ hashmp.7.b:0 "Execute this traitor!"
