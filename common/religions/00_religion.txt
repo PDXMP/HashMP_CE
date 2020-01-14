@@ -1206,6 +1206,7 @@ eastern = {
 }
 
 dharmic = {
+	defender_of_faith = yes
 
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
