@@ -61,6 +61,20 @@ capital = 600 # Ayutthaya
 }
 
 1431.1.1 = {
+	leader = {
+		name = "Rama Suphannaphum"
+		type = general
+
+		fire = 2
+		shock = 4
+		manuever = 5
+		siege = 2
+		death_date = 1464.1.1
+		personality = glory_seeker_personality
+	}
+}
+
+1431.1.1 = {
 	heir = {
 		name = "Trailokanat"
 		monarch_name = "Trailokanat"
