@@ -110,6 +110,7 @@ can_move_capital = {
 	condition = {
 		tooltip = "h_tooltip_move_capital"
 		potential = {
+			is_colonial_nation = no
 		}
 		allow = {
 			NOT = {
