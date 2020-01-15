@@ -271,6 +271,15 @@ country_event = {
 				save_event_target_as = hash_tur_pretenders
 			}
 		}
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+				}
+				save_event_target_as = hash_tur_nobles
+			}
+		}
 	 }
 
 	mean_time_to_happen = {
@@ -279,7 +288,6 @@ country_event = {
 
 	option = {
 		name = hashmp.7.a
-		add_legitimacy = -20
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = -20
@@ -291,8 +299,14 @@ country_event = {
 			adm = 4
 			dip = 3
 			mil = 4
-			age = 28
-			claim = 60
+			age = 30
+			claim = 40
+		}
+		event_target:hash_tur_nobles = {
+			spawn_rebels = {
+				type = noble_rebels
+				size = 2
+			}
 		}
 	}
 
@@ -323,7 +337,7 @@ country_event = {
 	trigger = {
 		tag = POL
 		NOT = { adm = 6 dip = 6 mil = 6 }
-		NOT = { is_year = 1475 }
+		NOT = { is_year = 1470 }
 		has_country_flag = hash_localnoble
 	}
 
@@ -338,6 +352,15 @@ country_event = {
 				save_event_target_as = hash_pol_pretenders
 			}
 		}
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+				}
+				save_event_target_as = hash_pol_nobles
+			}
+		}
 	 }
 
 	mean_time_to_happen = {
@@ -346,7 +369,7 @@ country_event = {
 
 	option = {
 		name = hashmp.8.a
-		add_legitimacy = -20
+		add_stability = -1
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = -20
@@ -357,8 +380,14 @@ country_event = {
 			adm = 5
 			dip = 5
 			mil = 5
-			age = 30
-			claim = 60
+			age = 34
+			claim = 40
+		}
+		event_target:hash_pol_nobles = {
+			spawn_rebels = {
+				type = noble_rebels
+				size = 2
+			}
 		}
 	}
 
