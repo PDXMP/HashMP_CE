@@ -627,7 +627,14 @@ age_of_absolutism = {
 
 		ab_manchu_banner = {
 			allow = {
-				technology_group = chinese
+				OR = {
+					tag = CSH
+					tag = YUE
+					tag = WUU
+					tag = QNG
+					tag = MCH
+					tag = MJZ
+				}
 			}
 			modifier = {
 				discipline = 0.05
