@@ -37,14 +37,14 @@ capital = 600 # Ayutthaya
 		adm = 3
 		dip = 3
 		mil = 5
-		leader = { 
-			name = "Borommaracha II"
-			type = general
-			fire = 2	
-			shock = 4	
-			manuever = 4	
-			siege = 2 
-		}
+		#leader = { 
+		#	name = "Borommaracha II"
+		#	type = general
+		#	fire = 2	
+		#	shock = 4	
+		#	manuever = 4	
+		#	siege = 2 
+		#}
 		
 	}
 }
@@ -56,7 +56,7 @@ capital = 600 # Ayutthaya
 		adm = 3
 		dip = 3
 		mil = 5
-		leader = { name = "Borommaracha II"      	type = general	fire = 2	shock = 4	manuever = 3	siege = 1 }
+		#leader = { name = "Borommaracha II"      	type = general	fire = 2	shock = 4	manuever = 3	siege = 1 }
 	}
 }
 
