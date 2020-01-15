@@ -10593,3 +10593,9 @@ h_sok_imperial = {
 	colonists = 1
 	global_colonial_growth = 25
 }
+
+h_subjugated_china = {
+	num_accepted_cultures = 2
+	max_states = 15
+	prestige = 1
+}
