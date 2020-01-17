@@ -1335,13 +1335,13 @@ divert_trade = {
 
 karma_just_right =
 {
-	diplomatic_reputation = 2
-	discipline = 0.025
+	development_cost = -0.1
+	discipline = 0.03
 }
 
 karma_too_high =
 {
-	diplomatic_reputation = 1
+	development_cost = -0.075
 }
 
 karma_too_low =
