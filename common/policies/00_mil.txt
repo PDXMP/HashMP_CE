@@ -183,7 +183,7 @@ trained_marines_act = {
 		full_idea_group = maritime_ideas
 	}
 	
-	naval_morale = 0.075
+	naval_morale = 0.05
 	infantry_power = 0.075
 
 	ai_will_do = {
