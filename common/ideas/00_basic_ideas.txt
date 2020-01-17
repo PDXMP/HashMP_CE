@@ -726,8 +726,7 @@ quantity_ideas = {
 		naval_maintenance_modifier = -0.05
 	}
 	mercenary_contracts = {
-		reinforce_speed = 0.15
-		land_attrition = -0.1
+		reinforce_speed = 0.2
 	}
 	garrison_conscription = {
 		free_leader_pool = 2
