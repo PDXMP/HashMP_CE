@@ -12093,7 +12093,7 @@ HIN_ideas = {
 		years_of_nationalism = -5
 	}
 	hin_peacock_throne = {
-		legitimacy = 1
+		development_cost = -0.1
 	}
 	hin_gunpowder_empire = {
 		fire_damage = 0.2
@@ -12102,7 +12102,7 @@ HIN_ideas = {
 		global_missionary_strength = 0.02
 	}
 	hin_industrialization = {
-		development_cost = -0.1
+		global_trade_goods_size_modifier = 0.1
 	}
 }
 
