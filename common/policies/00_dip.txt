@@ -615,7 +615,7 @@ protected_shipping_lanes = {
 	}
 	
 	global_ship_cost = -0.1
-	global_ship_recruit_speed = -0.2
+	global_ship_recruit_speed = -0.15
 
 	ai_will_do = {
 		factor = 1
