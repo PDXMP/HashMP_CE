@@ -12234,6 +12234,7 @@ BNG_ideas = {
     
 	bng_combat_piracy = {
 		global_ship_cost = -0.1
+		sailor_maintenance_modifer = -0.1
 	}
 	bng_conquest_of_the_gangetic_plain = {
 		infantry_power = 0.1
