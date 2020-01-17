@@ -19,7 +19,6 @@ country_decisions = {
 					ai = no
 				}
 			}
-			religion_group = muslim
 			OR = {
 				tag = MAL
 				tag = SON
@@ -56,6 +55,7 @@ country_decisions = {
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
+			religion_group = muslim
 			manding_area = { type = all is_core = ROOT owned_by = ROOT }
 			baghena_area = { type = all is_core = ROOT owned_by = ROOT }
 			massina_area = { type = all is_core = ROOT owned_by = ROOT }
