@@ -43,7 +43,6 @@ the_recruiting_act = {
 		full_idea_group = economic_ideas
 	}
 	
-	global_sailors_modifier = 0.25
 	naval_maintenance_modifier = -0.1
 	
 	ai_will_do = {
