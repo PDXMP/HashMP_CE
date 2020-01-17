@@ -963,6 +963,7 @@ h_manchu_china = {
 		provinces_to_highlight = {
 			or = {
 			region = north_china_region
+			region = xinan_region
 			area = south_jiangsu_area
 			area = south_anhui_area
 			area = zhejiang_area
@@ -981,6 +982,10 @@ h_manchu_china = {
 		position = 3
 		trigger = {
 			north_china_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			xinan_region = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
