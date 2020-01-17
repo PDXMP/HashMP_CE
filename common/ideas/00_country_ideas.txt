@@ -12034,11 +12034,11 @@ DLH_ideas = {
 
 BHA_ideas = {
 	start = {
-		global_manpower_modifier = 0.20
-		state_maintenance_modifier = -0.15
+		max_states = 10
+		global_manpower_modifier = 0.33
 	}
 	bonus = {
-		years_of_nationalism = -5
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -12047,22 +12047,23 @@ BHA_ideas = {
 	free = yes
 
 	bha_modernized_war_elephants = {
-		cavalry_power = 0.15
+		cavalry_power = 0.2
+		cav_to_inf_ratio = 0.10
 	}
 	bha_united_india = {
 		num_accepted_cultures = 2
 	}
 	bha_sanskrit_golden_age = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 	bha_indian_army = {
-		discipline = 0.05
+		land_morale = 0.2
 	}
 	bha_ganga = {
-		tolerance_own = 2
+		development_cost = -0.1
 	}
 	bha_brahmin_administration = {
-		infantry_power = 0.10
+		years_of_nationalism = -5
 	}
 	bha_rocketry = {
 		artillery_power = 0.1
