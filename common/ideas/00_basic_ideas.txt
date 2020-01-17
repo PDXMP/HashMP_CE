@@ -295,9 +295,11 @@ defensive_ideas = {
 	}
 	supply_trains = {
 		hostile_attrition = 1
+		land_attrition = -0.1
 	}
 	improved_foraging = {
-		global_manpower_modifier = 0.20
+		global_supply_limit_modifier = 0.75
+		global_manpower_modifier = 0.1
 	}
 
 	ai_will_do = {
