@@ -256,7 +256,7 @@ offensive_ideas = {
 	}
 	grand_army = {
 		land_forcelimit_modifier = 0.1
-		global_regiment_recruit_speed = -0.25
+		manpower_recovery_speed = 0.1
 	}
 	napoleonic_warfare = {
 		artillery_power = 0.10
