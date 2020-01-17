@@ -596,8 +596,8 @@ colonial_garrisons = {
 		full_idea_group = expansion_ideas
 	}
 
-	land_maintenance_modifier = -0.10
-	land_forcelimit_modifier = 0.15
+	land_maintenance_modifier = -0.05
+	land_forcelimit_modifier = 0.2
 
 	ai_will_do = {
 		factor = 1
