@@ -25,6 +25,7 @@ country_decisions = {
 				ai = no
 				num_of_cities = 6
 			}
+			always = no
 		}
 		provinces_to_highlight = {
 			OR = {
