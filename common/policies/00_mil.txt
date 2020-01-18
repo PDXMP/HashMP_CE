@@ -16,8 +16,8 @@ the_provincial_taxation_system = {
 		full_idea_group = quantity_ideas
 	}
 	
+	land_morale = 0.05
 	reinforce_cost_modifier = -0.1
-	reinforce_speed = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -480,7 +480,7 @@ field_priests = {
 		full_idea_group = quantity_ideas
 	}
 
-	land_morale = 0.05
+	reinforce_speed = 0.1
 	manpower_recovery_speed = 0.15
 	
 	ai_will_do = {
