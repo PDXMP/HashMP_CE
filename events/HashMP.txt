@@ -256,7 +256,7 @@ country_event = {
 
 	trigger = {
 		tag = TUR
-		NOT = { has_ruler = "Mehmet II Fatih" }
+		NOT = { has_ruler = "Mehmed II Fatih" }
 		NOT = { is_year = 1475 }
 	}
 
