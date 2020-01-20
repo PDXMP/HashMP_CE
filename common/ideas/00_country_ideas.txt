@@ -1043,7 +1043,7 @@ MAM_ideas = {
 		production_efficiency = 0.1
 	}
 	reformed_succession = {
-		infantry_power = 0.10
+		infantry_power = 0.15
 	}
 	mam_monopoly_ports = {
 		trade_efficiency = 0.10
