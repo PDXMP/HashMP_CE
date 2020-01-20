@@ -10443,7 +10443,7 @@ RUM_ideas = {
 	}
 	rum_king_of_the_east_and_west = {
 		core_creation = -0.20
-		num_accepted_cultures = 1
+		num_accepted_cultures = 2
 	}
 	rum_shahanshah = {
 		legitimacy = 1
