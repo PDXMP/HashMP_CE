@@ -10536,7 +10536,7 @@ h_dual_monarchy = {
 }
 
 h_bankrupt_interest = {
-	interest = 3
+	interest = 2
 }
 
 h_qar_black_sheep_ascendant = {
