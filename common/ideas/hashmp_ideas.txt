@@ -621,7 +621,7 @@ CAL_ideas = { #California
 		free_adm_policy = 1
 	}
 	cal_7 = { #The Bay
-		ship_recruit_speed = -0.25
+		global_ship_recruit_speed = -0.25
 		ship_durability = 0.05
 	}
 }
