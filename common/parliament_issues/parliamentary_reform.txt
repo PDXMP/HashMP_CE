@@ -19,7 +19,7 @@ rotten_borough_reform = {
 	
 	modifier = {
 		legitimacy = 1
-		republican_tradition = 0.5
+		republican_tradition = 0.2
 	}
 
 	chance = {
