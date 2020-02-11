@@ -1,8 +1,8 @@
 # 2426 - Qingyang
 
-owner = CSH
-controller = CSH
-add_core = CSH
+owner = MNG
+controller = MNG
+add_core = MNG
 culture = xibei
 religion = confucianism
 capital = "Qingyang"
