@@ -3,4 +3,4 @@ add_government_reform = autocracy_reform
 technology_group = chinese
 religion = confucianism
 primary_culture = hakka
-capital = 2158	#Shiukwan
+capital = 4724	#Huizhou

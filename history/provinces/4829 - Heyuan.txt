@@ -1,7 +1,8 @@
 # 4829 - Heyuan
 
-owner = MNG
-controller = MNG
+owner = HUA
+controller = HUA
+add_core = HUA
 culture = hakka
 religion = confucianism
 capital = "Heyuan"
@@ -10,8 +11,8 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 hre = no
-add_core = HUA
-add_core = MNG
+is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
