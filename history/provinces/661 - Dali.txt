@@ -1,16 +1,16 @@
 #661 - Dali
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CDL
+controller = CDL
+add_core = CDL
 culture = bai
 religion = buddhism
 capital = "Dali"
 trade_goods = tea
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 3
 is_city = yes
 add_core = CDL
 
