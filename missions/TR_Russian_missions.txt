@@ -804,9 +804,10 @@ tr_russia_exclusive_2 = {
 		position = 7
 		provinces_to_highlight = {
 			OR = {
-				area = ningguta_area
+				area = furdan_area
 				area = ilan_hala_area
 				area = central_jilin_area
+				area = sakhalin_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -818,7 +819,7 @@ tr_russia_exclusive_2 = {
 			730 = {
 				is_strongest_trade_power = ROOT
 			}
-			ningguta_area = {
+			furdan_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -827,6 +828,10 @@ tr_russia_exclusive_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			central_jilin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sakhalin_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1609,7 +1614,7 @@ tr_siberia_missions = {
 					duration = -1
 				}
 			}
-			ningguta_area = {
+			furdan_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -1624,6 +1629,13 @@ tr_siberia_missions = {
 				add_permanent_claim = ROOT
 			}
 			central_jilin_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			sakhalin_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}

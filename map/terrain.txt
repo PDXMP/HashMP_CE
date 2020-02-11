@@ -271,7 +271,8 @@ categories =  {
 			4381 4387 4389 #France & Low Countries
 			4541 4537 4535 2963 4544 4543 4524 # New PLC provinces
 			4555 4558 # new iberia provinces 1.28
-			
+			# 1.29 Manchu
+			4658 4659 4660 4654 4663
 			872 2481 2484 2485 2486
 		}
 	}
@@ -339,6 +340,8 @@ categories =  {
 			4546 # new provinces 1.28
 			829 
 			4601 4602 #new provinces 1.28 mesoamerica
+			# 1.29 Manchuria
+			4653 4655 4656 4680 4679
 			#CN Rework NA
 			#872 2481 2477 871 2484 2485 2486
 			#Roussillon
@@ -357,7 +360,7 @@ categories =  {
 	}
 
 	grasslands = {
-		color = { 130 255 47 }
+		color = { 90 235 27 }
 
 		type = plains
 		sound_type = plains
@@ -750,6 +753,9 @@ categories =  {
 			4200 4202 4203 4218 4219 4220 #Greater China
 
 			4629 #Texas additions
+			
+			# 1.29
+			4664 4665 4674 4666 4667 4673 4675 4672 4671 4668 4683
 		}	
 	}	
 }

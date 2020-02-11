@@ -3940,3 +3940,8 @@ opinion_sublimis_deus = {
 	opinion = 50
 	yearly_decay = 0.5
 }
+
+opinion_KOR_supported_war_for_north = {
+	opinion = 60
+	yearly_decay = 1.5
+}

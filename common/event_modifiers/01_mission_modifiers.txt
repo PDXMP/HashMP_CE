@@ -2309,3 +2309,242 @@ adu_greater_than_alexander = {
 adu_trade_company_founded = {
 	global_sailors_modifier = 0.2
 }
+
+# Manchu/Qing missions
+
+breached_great_wall = {
+	siege_ability = 0.15
+}
+
+mch_treason_modifier = {
+	local_defensiveness = -0.5
+}
+
+mukden_palace_modifier = {
+	imperial_mandate = 0.05
+	years_of_nationalism = -2
+}
+
+mukden_palace_modifier_fallback = {
+	legitimacy = 0.25
+	years_of_nationalism = -2
+}
+
+terrified_china = {
+	province_warscore_cost = -0.2
+	siege_ability = 0.2
+}
+
+confucian_administration = {
+	meritocracy = 1
+	state_maintenance_modifier = -0.33
+}
+
+confucian_administration_fallback = {
+	advisor_cost = -0.2
+	state_maintenance_modifier = -0.33
+}
+
+qing_censorate = {
+	global_tax_modifier = 0.2
+}
+
+the_sacred_edict = {
+	tolerance_own = 1
+}
+
+mch_sacred_mountain = {
+	horde_unity = 0.5
+	legitimacy = 0.5
+}
+
+mch_korean_subjugation = {
+	diplomatic_reputation = 2
+}
+
+library_of_the_four_treasuries = {
+	institution_spread_from_true_faith = 0.5
+	embracement_cost = -0.2
+}
+
+inner_asian_trade = {
+	province_trade_power_modifier = 0.2
+}
+
+mch_combat_modifier = {
+	shock_damage = 0.1
+}
+
+# Mongol missions
+
+tibetan_missionaries = {
+	global_missionary_strength = 0.03
+	missionary_maintenance_cost = -0.5
+}
+
+mongol_religion_unity = {
+	tolerance_own = 1
+}
+
+mongol_rule_tibet = {
+	local_autonomy = -0.05
+	local_unrest = -3
+}
+
+mongol_fleet_modifier = {
+	global_ship_cost = -0.15
+	global_ship_recruit_speed = -0.2
+}
+
+mongol_defeated_japan = {
+	prestige = 1
+}
+
+pax_mongolica = {
+	global_unrest = -3
+	stability_cost_modifier = -0.15
+}
+
+mongol_european_conquest = {
+	province_warscore_cost = -0.15
+}
+
+reorganized_mongols = {
+	num_accepted_cultures = 3
+}
+
+genghis_khan_reborn = {
+	prestige = 1
+	horde_unity = 1
+}
+
+# Japanese Missions
+
+JAP_siberian_boom = {
+	 trade_goods_size_modifier = 0.15
+}
+
+JAP_gokaido_stations = {
+	local_autonomy = -0.05
+	local_friendly_movement_speed = 0.1
+}
+
+JAP_sankin_kotai_modifier = {
+	diplomatic_upkeep = 1
+}
+
+JAP_social_hierarchy = {
+	stability_cost_modifier	= -0.1
+	max_absolutism = 10
+}
+
+JAP_indochinese_trade = {
+	trade_efficiency = 0.1
+}
+
+JAP_trade_hegemon = {
+	merchants = 1
+}
+
+JAP_cadastral_surveys = {
+	production_efficiency = 0.1
+}
+
+JAP_currency_regulations = {
+	inflation_reduction = 0.1
+	global_tax_modifier = 0.05
+}
+
+JAP_sengoku_contender = {
+	prestige = 1
+	legitimacy = 1
+}
+
+
+# New Korean Missions
+
+hwacha_firepower_bonus = {
+	fire_damage = 0.25
+}
+
+kor_conquest_manchuria = {
+	local_autonomy = -0.05
+}
+
+kor_emperor_of_china = {
+	prestige = 1
+	development_cost = -0.15
+	imperial_mandate = 0.03
+}
+
+kor_chinese_patronage = {
+	diplomatic_reputation = 1
+}
+
+kor_built_the_wall = {
+	local_defensiveness = 0.25
+}
+
+kor_built_the_wall_2 = {
+	fort_maintenance_modifier = -0.15
+}
+
+kor_mission_traders = {
+	trade_efficiency = 0.15
+	dip_tech_cost_modifier = -0.1
+}
+
+kor_japanese_loot = {
+	development_cost = -0.05
+	local_development_cost = -0.05
+	prestige = 0.5
+}
+
+kor_manchurian_korea = {
+	local_culture_conversion_cost = -0.2
+}
+
+kor_turtle_fleets = {
+	naval_morale = 0.1
+	global_ship_cost = -0.1
+}
+
+kor_growing_economy = {
+	build_cost = -0.10
+	development_cost = -0.10
+}
+
+kor_prosperous_korea = {
+	local_tax_modifier = 0.05
+	local_production_efficiency = 0.05
+	local_build_cost = -0.10
+}
+
+korea_in_balance = {
+	global_unrest = -2
+	diplomatic_reputation = 2
+	stability_cost_modifier = -0.1
+}
+
+kor_developed_capital = {
+	prestige = 1
+	legitimacy = 0.5
+}
+
+kor_peasant_struggles = {
+	global_unrest = 2.5
+	global_tax_modifier = -0.1
+}
+
+kor_factionalism_boils_over_timer = { }
+
+kor_reforms_of_third_literati = {
+	global_tax_modifier = 0.1
+	stability_cost_modifier = -0.1
+}
+
+kor_manchurian_expedition = {
+	discipline = 0.05
+}
+
+kor_factional_upheaval = { }
