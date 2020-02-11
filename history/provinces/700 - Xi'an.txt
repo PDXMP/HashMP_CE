@@ -1,7 +1,8 @@
 #700 - Shaanxi
 
-owner = MNG
-controller = MNG
+owner = XIN
+controller = XIN
+add_core = XIN
 culture = xibei
 religion = confucianism
 capital = "Xi'an"
@@ -11,8 +12,8 @@ base_production = 8
 base_manpower = 6
 hre = no
 citysize = 70140
-add_core = CSH
 add_core = MNG
+add_core = CSH
 add_core = QIN
 fort_15th = yes
 discovered_by = chinese

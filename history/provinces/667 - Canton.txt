@@ -1,7 +1,8 @@
 #667 - Guangzhou
 
-owner = MNG
-controller = MNG
+owner = GZH
+controller = GZH
+add_core = GZH
 culture = cantonese
 religion = confucianism
 capital = "Guangzhou"
@@ -12,7 +13,6 @@ base_manpower = 8
 hre = no
 citysize = 45300
 add_core = YUE
-add_core = MNG
 fort_15th = yes
 discovered_by = chinese
 discovered_by = indian

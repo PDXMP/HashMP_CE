@@ -1,7 +1,8 @@
 #672 - Hunan
 
-owner = MNG
-controller = MNG
+owner = CHS
+controller = CHS
+add_core = CHS
 culture = xiang
 religion = confucianism
 capital = "Changsha"
@@ -12,7 +13,7 @@ base_manpower = 6
 hre = no
 citysize = 250000 #2.5 mil
 add_core = CHC
-add_core = MNG
+add_core = CHS
 fort_15th = yes
 discovered_by = chinese
 discovered_by = indian

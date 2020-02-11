@@ -1,7 +1,8 @@
 #1829 - Xiamen
 
-owner = MNG
-controller = MNG
+owner = XIM
+controller = XIM
+add_core = XIM
 culture = chimin
 religion = confucianism
 capital = "Xiamen"
@@ -12,7 +13,6 @@ base_manpower = 3
 hre = no
 citysize = 109000
 add_core = MIN
-add_core = MNG
 fort_15th = yes
 discovered_by = chinese
 discovered_by = nomad_group

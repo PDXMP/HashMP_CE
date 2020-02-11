@@ -1,7 +1,8 @@
 #682 - Hanyang
 
-owner = MNG
-controller = MNG
+owner = WUC
+controller = WUC
+add_core = WUC
 culture = hubei
 religion = confucianism
 capital = "Hanyang"
@@ -11,7 +12,6 @@ base_production = 6
 base_manpower = 6
 hre = no
 citysize = 31800
-add_core = MNG
 add_core = CXI
 fort_15th = yes
 discovered_by = chinese

@@ -1,8 +1,8 @@
 #1816 - Beijing
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = BJG
+controller = BJG
+add_core = BJG
 culture = chihan
 religion = confucianism
 capital = "Beijing"

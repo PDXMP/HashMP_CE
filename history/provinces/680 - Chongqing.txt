@@ -1,8 +1,8 @@
 #680 - Chongqing
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CQG
+controller = CQG
+add_core = CQG
 culture = sichuanese
 religion = confucianism
 capital = "Chongqing"

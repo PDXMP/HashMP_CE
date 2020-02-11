@@ -1,0 +1,10 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = chinese
+religion = confucianism
+primary_culture = hubei #ganyu
+capital = 4765
+fixed_capital = 4765
+mercantilism = 20
+add_army_professionalism = 0.1
