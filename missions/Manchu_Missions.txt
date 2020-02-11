@@ -118,6 +118,8 @@ manchu_missions_1 = {
 			OR = {
 				area = liaoning_area
 				area = hebei_area
+				area = chengde_area
+				area = shenyang_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -130,6 +132,14 @@ manchu_missions_1 = {
 				owned_by = ROOT
 			}
 			hebei_area = {
+				type = all
+				owned_by = ROOT
+			}
+			chengde_area = {
+				type = all
+				owned_by = ROOT
+			}
+			shenyang_area = {
 				type = all
 				owned_by = ROOT
 			}

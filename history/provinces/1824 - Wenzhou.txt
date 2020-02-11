@@ -1,15 +1,15 @@
 #1824 - Wenzhou
 
-owner = WUU
-controller = WUU
-add_core = WUU
+owner = MNG
+controller = MNG
+add_core = MNG
 culture = wu
 religion = confucianism
 capital = "Wenzhou"
 trade_goods = chinaware
 hre = no
-base_tax = 3 
-base_production = 3
+base_tax = 2 
+base_production = 2
 base_manpower = 2
 is_city = yes
 add_core = WUU
@@ -25,5 +25,5 @@ discovered_by = nomad_group
 	controller = QNG
 	add_core = QNG
 }
-1675.1.1 = { controller = WUU }
+1675.1.1 = { controller = MNG }
 1680.1.1 = { controller = QNG }

@@ -1,10 +1,9 @@
 #2406 - Jianchang
 
-owner = CXI
-controller = CXI
-add_core = CXI
+owner = MNG
+controller = MNG
+add_core = MNG
 add_core = CYI
-add_core = CXI
 culture = yi
 religion = animism
 capital = "Jianchang"
@@ -14,7 +13,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = CXI
 
 
 

@@ -86,19 +86,67 @@ tib_slot_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			gansu_area = {
+			luzhou_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			west_gansu_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
+			2167 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
 				}
-				add_permanent_claim = ROOT
+			}
+			675 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			662 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			661 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			4797 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
 			}
 		}
 	}
@@ -312,32 +360,38 @@ tib_slot_3 = {
 		position = 4
 		provinces_to_highlight = {
 			OR = {
-				area = gansu_area
-				area = west_gansu_area
-				area = yun_gui_borderland_area
-				province_id = 2748
+				area = lanzhou_area
+				area = luzhou_area
+				area = chengdu_area
+				area = sichuan_area
+				province_id = 2167
 				province_id = 675
 				province_id = 662
-				province_id = 663
+				province_id = 661
+				province_id = 4797
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			gansu_area = {
+			lanzhou_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			west_gansu_area = {
+			luzhou_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			yun_gui_borderland_area = {
+			chengdu_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			2748 = {
+			sichuan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2167 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			675 = {
@@ -346,7 +400,10 @@ tib_slot_3 = {
 			662 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			663 = {
+			661 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4797 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
@@ -545,56 +602,26 @@ tib_slot_4 = {
 		effect = {
 			set_country_flag = dalai_lama_flag
 			country_event = { id = flavor_tib.1 }
-			yun_gui_borderland_area = {
+			lanzhou_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			2748 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
+			sichuan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
 				}
+				add_permanent_claim = ROOT
 			}
-			675 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
+			chengdu_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
 				}
-			}
-			662 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			663 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
+				add_permanent_claim = ROOT
 			}
 			nepal_area = {
 				limit = {

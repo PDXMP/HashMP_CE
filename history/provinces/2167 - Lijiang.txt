@@ -1,9 +1,9 @@
 # 2167 - Lijiang
 
-owner = CXI
-controller = CXI
-add_core = CXI
-add_core = CXI
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CDL
 culture = bai
 religion = buddhism
 capital = "Lijiang"

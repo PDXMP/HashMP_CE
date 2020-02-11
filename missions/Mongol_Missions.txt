@@ -58,7 +58,6 @@ mongol_missions_1 = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 1816
-				province_id = 2136
 				region = north_china_region
 			}
 			NOT = {
@@ -68,7 +67,6 @@ mongol_missions_1 = {
 		}
 		trigger = {
 			owns_core_province = 1816
-			owns_core_province = 2136
 			custom_trigger_tooltip = {
 				tooltip = restore_yuan_tt
 				num_of_owned_provinces_with = {

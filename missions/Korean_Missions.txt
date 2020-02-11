@@ -67,6 +67,13 @@ korea_nomad_group = {
 				}
 				add_permanent_claim = ROOT
 			}
+			dalian_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	
@@ -91,6 +98,7 @@ korea_nomad_group = {
 							area = jilin_area
 							area = liaoning_area
 							area = furdan_area
+							area = dalian_area
 						}
 						value = 6
 					}
@@ -101,6 +109,7 @@ korea_nomad_group = {
 				area = jilin_area
 				area = liaoning_area
 				area = furdan_area
+				area = dalian_area
 			}
 			NOT = { owned_by = root }
 		}
@@ -112,6 +121,7 @@ korea_nomad_group = {
 					area = jilin_area
 					area = liaoning_area
 					area = furdan_area
+					area = dalian_area
 				}
 				value = 8
 			}
@@ -155,6 +165,8 @@ korea_nomad_group = {
 				area = ningguta_area
 				area = jilin_area
 				area = liaoning_area
+				area = shenyang_area
+				area = dalian_area
 			}
 			OR = {
 				NOT = { owned_by = root }
@@ -174,6 +186,16 @@ korea_nomad_group = {
 				is_core = root
 			}
 			liaoning_area = {
+				type = all
+				owned_by = root
+				is_core = root
+			}
+			shenyang_area = {
+				type = all
+				owned_by = root
+				is_core = root
+			}
+			dalian_area = {
 				type = all
 				owned_by = root
 				is_core = root
@@ -290,6 +312,22 @@ korea_nomad_group = {
 					}
 					area = liaoning_area
 				}
+				AND = {
+					NOT = {
+						dalian_area = {
+							country_or_non_sovereign_subject_holds = root
+						}
+					}
+					area = dalian_area
+				}
+				AND = {
+					NOT = {
+						shenyang_area = {
+							country_or_non_sovereign_subject_holds = root
+						}
+					}
+					area = shenyang_area
+				}
 			}
 		}
 		
@@ -322,6 +360,12 @@ korea_nomad_group = {
 					country_or_non_sovereign_subject_holds = root
 				}
 				ningguta_area = {
+					country_or_non_sovereign_subject_holds = root
+				}
+				shenyang_area = {
+					country_or_non_sovereign_subject_holds = root
+				}
+				dalian_area = {
 					country_or_non_sovereign_subject_holds = root
 				}
 			}
@@ -443,7 +487,7 @@ korea_conquer_china_group = {
 					num_of_owned_provinces_with = {
 						OR = {
 							area = hebei_area
-							area = south_hebei_area
+							area = chengde_area
 							area = shandong_area
 						}
 						value = 8
@@ -452,7 +496,7 @@ korea_conquer_china_group = {
 			}
 			OR = {
 				area = hebei_area
-				area = south_hebei_area
+				area = chengde_area
 				area = shandong_area
 			}
 			NOT = { owned_by = root }
@@ -462,7 +506,7 @@ korea_conquer_china_group = {
 			num_of_owned_provinces_with = {
 				OR = {
 					area = hebei_area
-					area = south_hebei_area
+					area = chengde_area
 					area = shandong_area
 				}
 				value = 8
