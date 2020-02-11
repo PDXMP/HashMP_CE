@@ -2907,10 +2907,12 @@ hainan_area = {
 }
 
 xuzhou_area = {
+	color = { 102 25 150 }
 	4849 4734 4796
 }
 
 biyang_area = {
+	color = { 0 50 150 }
 	4731 4840 4839
 }
 
@@ -2923,6 +2925,7 @@ wuchang_area = {
 }
 
 kaiyang_area = {
+	color = { 255 204 0 }
 	4844 4842 4716 673
 }
 
