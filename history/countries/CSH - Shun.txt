@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 technology_group = chinese
 religion = confucianism
 primary_culture = xibei
-capital = 689 # Fengyuan
+capital = 698 # Fengyuan
 
 1435.1.31 = {
 	monarch = {
