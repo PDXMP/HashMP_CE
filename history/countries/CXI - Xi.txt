@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 technology_group = chinese
 religion = confucianism
 primary_culture = hubei
-capital = 2171
+capital = 4731 #Suizhou
 
 
 1435.1.31 = {
