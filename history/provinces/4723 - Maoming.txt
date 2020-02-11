@@ -1,18 +1,18 @@
 # 2475 - Maoming
 
-owner = MNG
-controller = MNG
+owner = YUE
+controller = YUE
+add_core = YUE
 culture = cantonese
 religion = confucianism
 capital = "Maoming"
 trade_goods = grain
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 2
 hre = no
 citysize = 5000
-add_core = YUE
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
