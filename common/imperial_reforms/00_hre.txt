@@ -1,0 +1,154 @@
+reichsreform = {
+	empire = hre
+	member = {
+		global_tax_income = 6
+		global_autonomy = -0.025
+	}
+	emperor = {
+		global_tax_income = 18
+		global_autonomy = -0.025
+		global_manpower = 4
+	}
+	on_effect = {
+		imperial_ban_allowed = yes
+	}
+	off_effect = {
+		imperial_ban_allowed = yes
+	}
+}
+
+reichsregiment = {
+	empire = hre
+	member = {
+		global_unrest = -2
+		adm_tech_cost_modifier = -0.05
+	}
+	emperor = {
+		global_unrest = -2
+		adm_tech_cost_modifier = -0.05
+		global_manpower = 4
+	}
+}
+
+hofgericht = { 
+	empire = hre
+	member = {
+		global_tax_modifier = 0.075
+		build_cost = -0.075
+	}
+	emperor = {
+		global_tax_modifier = 0.15
+		build_cost = -0.1
+		global_manpower = 4
+	}
+}
+
+gemeinerpfennig = {
+	empire = hre
+	member = {
+		global_tax_income = 12
+		legitimacy = 0.5
+		republican_tradition = 0.1
+	}
+	emperor = {
+		global_tax_income = 24
+		legitimacy = 0.5
+		republican_tradition = 0.1
+		global_manpower = 4
+	}
+}
+
+landfriede = {
+	empire = hre
+	member = {
+		army_tradition = 0.5
+		prestige = 0.5
+	}
+	emperor = {
+		army_tradition = 0.5
+		prestige = 0.5
+		global_manpower = 4
+	}
+	on_effect = {
+		internal_hre_cb = yes
+	}
+	off_effect = {
+		internal_hre_cb = yes
+	}
+}
+
+erbkaisertum = {
+	empire = hre
+	member = {
+		development_cost = -0.075
+	}
+	emperor = {
+		development_cost = -0.1
+		imperial_authority = 0.1
+		global_manpower = 4
+	}
+	on_effect = {
+#		if = {
+#			limit = {
+#				hre_religion_locked = no
+#				hre_religion_treaty = no
+#			}
+#			set_hre_religion_treaty = yes
+#		}	
+		hre_inheritable = no
+	}
+	off_effect = {
+		hre_inheritable = no
+	}
+}
+
+privilegia_de_non_appelando = {
+	empire = hre
+#	war = yes			#this may cause a war, so special AI check needed, to not lose many.
+	
+	member = {
+		infantry_power = 0.075
+		land_morale = 0.05
+	}
+	emperor = {
+		infantry_power = 0.10
+		land_morale = 0.05
+		yearly_absolutism = 0.1
+		global_manpower = 6
+	}
+#	on_effect = {
+#	
+#		emperor = {
+#			country_event = { id = 9073 tooltip = vassalize_empire2 }
+#		}
+#		hidden_effect = {
+#			every_country = {
+#				limit = {
+#					is_part_of_hre = yes
+#					is_emperor = no
+#					num_of_cities = 1
+#					NOT = { vassal_of = ROOT }
+#				}
+#				country_event = { id = 9074 }
+#			}
+#		}
+#	}	
+}
+
+#renovatio = {
+#	empire = hre
+#
+#	member = {
+#		infantry_power = 0.10
+#		land_morale = 0.05
+#	}
+#	emperor = {
+#		infantry_power = 0.10
+#		land_morale = 0.05
+#	}
+#	on_effect = {
+#		emperor = {
+#			country_event = { id = 9075 tooltip = renovatio_effect }
+#		}
+#	}
+#}

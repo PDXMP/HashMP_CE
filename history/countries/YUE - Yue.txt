@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = cantonese
+capital = 667	#Canton
+
+1435.1.31 = {
+	monarch = {
+		name = "Jing"
+		dynasty = "Gaochi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

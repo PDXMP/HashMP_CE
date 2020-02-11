@@ -1,0 +1,116 @@
+country_decisions = {
+
+	sokoto_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_sokoto_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = SOK }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				tag = MAL
+				tag = SON
+				tag = TUN
+				tag = MOR
+				tag = KON
+			}
+			#has_country_flag = sok_dan_fodio_happened
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = manding_area
+				area = baghena_area
+				area = massina_area
+				area = kong_area
+				area = jenne_area
+				area = upper_volta_area
+				area = niger_bend_area
+				area = dendi_area
+				area = atacora_oueme_area
+				area = lower_niger_area
+				area = zazzau_area
+				area = katsina_area
+				area = azbin_area
+				area = hausa_area
+				area = bornu_area
+				area = kanem_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			religion_group = muslim
+			manding_area = { type = all is_core = ROOT owned_by = ROOT }
+			baghena_area = { type = all is_core = ROOT owned_by = ROOT }
+			massina_area = { type = all is_core = ROOT owned_by = ROOT }
+			kong_area = { type = all is_core = ROOT owned_by = ROOT }
+			jenne_area = { type = all is_core = ROOT owned_by = ROOT }
+			upper_volta_area = { type = all is_core = ROOT owned_by = ROOT }
+			niger_bend_area = { type = all is_core = ROOT owned_by = ROOT }
+			dendi_area = { type = all is_core = ROOT owned_by = ROOT }
+			atacora_oueme_area = { type = all is_core = ROOT owned_by = ROOT }
+			lower_niger_area = { type = all is_core = ROOT owned_by = ROOT }
+			zazzau_area = { type = all is_core = ROOT owned_by = ROOT }
+			katsina_area = { type = all is_core = ROOT owned_by = ROOT }
+			azbin_area = { type = all is_core = ROOT owned_by = ROOT }
+			hausa_area = { type = all is_core = ROOT owned_by = ROOT }
+			bornu_area = { type = all is_core = ROOT owned_by = ROOT }
+			kanem_area = { type = all is_core = ROOT owned_by = ROOT }
+		}
+		effect = {
+			niger_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SOK
+			}
+			sahel_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SOK
+			}
+			add_prestige = 25
+			change_tag = SOK
+			change_technology_group = muslim
+			change_unit_type = muslim
+			if = {
+				limit = {
+					NOT = { government = monarchy }
+				}
+				change_government = monarchy
+			}
+			add_government_reform = feudal_theocracy
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_sokoto_flag
+		}
+		ai_importance = 400 #The countries that qualify will hate the holder of Sokoto.
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

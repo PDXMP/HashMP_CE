@@ -1,0 +1,44 @@
+h_reform_dominion = {
+	icon = "constitution"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 2
+	potential = {
+		is_colonial_nation = yes
+		OR = {
+			tag = AUS
+			tag = BRZ
+			tag = CAL
+			tag = CAN
+			tag = CHL
+			tag = COL
+			tag = HAT
+			tag = LAP
+			tag = LOU
+			tag = MEX
+			tag = PRG
+			tag = PEU
+			tag = QUE
+			tag = TEX
+			tag = CAM
+			tag = USA
+			tag = VNZ
+			tag = CUB
+			tag = NEG
+			tag = NZL
+			tag = BLV
+			tag = CSC
+		}
+	}
+	modifiers = {
+		global_autonomy = -0.05
+		republican_tradition = 0.1
+		max_states = 2
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	duration = 4
+}

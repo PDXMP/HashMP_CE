@@ -1,0 +1,1040 @@
+########################################
+# Custom missions for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
+h_china_conquest = { #by hashinshin
+	slot = 1
+	generic = yes
+	ai = yes
+	potential = {
+		culture_group = east_asian
+	}
+	has_country_shield = yes
+	
+	h_conquer_china = {
+		icon = mission_japanese_fort
+		provinces_to_highlight = {
+			or = {
+			region = north_china_region
+			region = xinan_region
+			area = south_jiangsu_area
+			area = south_anhui_area
+			area = zhejiang_area
+			area = jiangxi_area
+			area = hunan_area
+			area = fujian_area
+			area = east_guangdong_area
+			area = guangxi_area
+			area = west_guangdong_area
+			area = huguang_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		position = 1
+		trigger = {
+			north_china_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			xinan_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_jiangsu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_anhui_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			zhejiang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jiangxi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hunan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			fujian_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_guangdong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			guangxi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			west_guangdong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			huguang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_united_china"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Hesse
+
+#Switzerland
+
+h_swi_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = SWI
+	}
+	has_country_shield = yes
+
+	h_switzerland_mission_1 = { #Guilds of Zurich
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			1869 = {
+				owned_by = ROOT
+				province_has_center_of_trade_of_level  = 3
+			}
+			1876 = {
+				is_strongest_trade_power = ROOT
+			}
+		}
+		
+		effect = {
+			1869 = {
+				add_base_production = 5
+				change_trade_goods = cloth
+			}
+		}
+	}
+}
+
+h_qar_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential ={
+		tag = QAR
+	}
+	has_country_shield = yes
+	
+	h_qara_mission_1 = { #Destroy the Ayyubids
+		icon = mission_bedouins
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 4295
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			4295 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			2305 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			331 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			2308 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			north_kurdistan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			al_jazira_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	h_qara_mission_2 = { #Crush the White Sheep
+		icon = mission_non-western_cavalry_raid
+		required_missions = { h_qara_mission_1 }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = north_kurdistan_area
+				area = al_jazira_area
+				province_id = 2305		# Erzincan
+				province_id = 331       # Erzurum
+				province_id = 2308		# Urfa
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			north_kurdistan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			al_jazira_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			owns_core_province = 2305		# Erzincan
+			owns_core_province = 331        # Erzurum
+			owns_core_province = 2308		# Urfa
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_qar_black_sheep_ascendant"
+				duration = 7300
+			}
+			imereti_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			samtskhe_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			kartli_kakheti_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			armenia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			shirvan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	h_qara_mission_3 = { #Conquer the Caucasus
+		icon = mission_conquer_50_development
+		required_missions = { h_qara_mission_2 }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = imereti_area
+				area = samtskhe_area
+				area = kartli_kakheti_area
+				area = armenia_area
+				area = shirvan_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			imereti_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			samtskhe_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kartli_kakheti_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			armenia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			shirvan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_qar_caucasus"
+				duration = 7300
+			}
+		}
+	}
+}
+
+h_orm_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential ={
+		OR = {
+			tag = ORM
+			tag = ARB
+		}
+	}
+	has_country_shield = yes
+	
+	h_orm_mission_1 = { #Secure the Gulf
+		icon = mission_market_place_with_asian_traders
+		required_missions = {  }
+		position = 1
+		provinces_to_highlight = {
+			area = bahrain_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			bahrain_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			qasim_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			yamamah_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	h_orm_mission_2 = { #Control the Najd
+		icon = mission_bedouins
+		required_missions = { h_orm_mission_1 }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = qasim_area
+				area = yamamah_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			qasim_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			yamamah_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			asir_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			tihama_al_yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			upper_yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			hadramut_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			mahra_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	h_orm_mission_3 = { #Invade Yemen
+		icon = mission_persian_soldiers
+		required_missions = { h_orm_mission_2 }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = asir_area
+				area = tihama_al_yemen_area
+				area = upper_yemen_area
+				area = yemen_area
+				area = hadramut_area
+				area = mahra_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			asir_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tihama_al_yemen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_yemen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			yemen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hadramut_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mahra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_army_tradition = 20
+			mecca_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			medina_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	h_orm_mission_4 = { #Protect the Holy Mosques
+		icon = mission_non-western_soldiers
+		required_missions = { h_orm_mission_3 }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = mecca_area
+				area = medina_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			mecca_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			medina_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_piety = 0.25
+		}
+	}
+
+	h_orm_mission_5 = { #Fortify the Oases
+		icon = mission_asian_trader
+		required_missions = { h_orm_mission_4 }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = qasim_area
+				area = yamamah_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			OR = {
+				392 = { owned_by = ROOT has_building = fort_15th }
+				2337 = { owned_by = ROOT has_building = fort_15th }
+				4273 = { owned_by = ROOT has_building = fort_15th }
+				4274 = { owned_by = ROOT has_building = fort_15th }
+			}
+			OR = {
+				2335 = { owned_by = ROOT has_building = fort_15th }
+				2336 = { owned_by = ROOT has_building = fort_15th }
+				2339 = { owned_by = ROOT has_building = fort_15th }
+				4275 = { owned_by = ROOT has_building = fort_15th }
+			}
+		}
+		effect = {
+			tooltip = {
+				qasim_area = {
+					add_province_modifier = {
+						name = "h_fortified_oasis"
+					}
+				}
+				yamamah_area = {
+					add_province_modifier = {
+						name = "h_fortified_oasis"
+					}
+				}
+			}
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = qasim_area
+							area = yamamah_area
+						}
+					}
+					add_province_modifier = {
+						name = "h_fortified_oasis"
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+}
+
+h_cn_australia_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_australia
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_australia_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_australia = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_australia_dominion_request
+		}
+	}
+}
+
+h_cn_brazil_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_brazil
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_brazil_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_brazil = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_brazil_dominion_request
+		}
+	}
+}
+
+h_cn_california_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_california
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_california_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_california = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_california_dominion_request
+		}
+	}
+}
+
+h_cn_canada_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_canada
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_canada_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_canada = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_canada_dominion_request
+		}
+	}
+}
+
+h_cn_caribbean_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_the_carribean
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_caribbean_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_the_carribean = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_caribbean_dominion_request
+		}
+	}
+}
+
+h_cn_colombia_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_colombia
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_colombia_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_colombia = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_colombia_dominion_request
+		}
+	}
+}
+
+h_cn_easternamerica_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_eastern_america
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_easternamerica_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_eastern_america = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_easternamerica_dominion_request
+		}
+	}
+}
+
+h_cn_laplata_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_la_plata
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_laplata_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_la_plata = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_laplata_dominion_request
+		}
+	}
+}
+
+h_cn_louisiana_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_louisiana
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_louisiana_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_louisiana = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_louisiana_dominion_request
+		}
+	}
+}
+
+h_cn_mexico_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_mexico
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_mexico_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_mexico = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_mexico_dominion_request
+		}
+	}
+}
+
+h_cn_peru_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_peru
+		}
+	}
+	has_country_shield = yes
+
+	h_cn_peru_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_peru = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_peru_dominion_request
+		}
+	}
+}
+
+h_manchu_china = {
+	slot = 5
+	generic = yes
+	ai = yes
+	potential = {
+		primary_culture = manchu
+	}
+	has_country_shield = yes
+	
+	h_subjugate_china = {
+		icon = mission_japanese_fort
+		provinces_to_highlight = {
+			or = {
+			region = north_china_region
+			region = xinan_region
+			area = south_jiangsu_area
+			area = south_anhui_area
+			area = zhejiang_area
+			area = jiangxi_area
+			area = hunan_area
+			area = fujian_area
+			area = east_guangdong_area
+			area = guangxi_area
+			area = west_guangdong_area
+			area = huguang_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		position = 3
+		trigger = {
+			north_china_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			xinan_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_jiangsu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_anhui_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			zhejiang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jiangxi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hunan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			fujian_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_guangdong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			guangxi_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			west_guangdong_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			huguang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_subjugated_china"
+				duration = -1
+			}
+		}
+	}
+}

@@ -1,0 +1,526 @@
+
+
+
+
+########
+#Tier 2
+########
+
+###Nobility Path
+
+t2_np_1 = { #Strengthen Noble Privilege
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = t3_lp_1
+				has_reform = t3_lp_2
+				has_reform = t3_lp_ind1
+			}
+		}
+	}
+	modifiers = {
+		global_manpower_modifier = 0.1
+		stability_cost_modifier = 0.1
+	}
+}
+t2_np_2 = { #Militarized Society
+	icon = "strength_of_the_khalsa"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = t3_lp_1
+				has_reform = t3_lp_2
+				has_reform = t3_lp_ind1
+			}
+		}
+	}
+	modifiers = {
+		free_mil_policy = 1
+	}
+}
+t2_np_ind1 = { #Empower Pulgars
+	icon = "indian_crown"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = t3_lp_1
+				has_reform = t3_lp_2
+				has_reform = t3_lp_ind1
+			}
+		}
+	}
+	potential = {
+		technology_group = indian
+	}
+	modifiers = {
+		development_cost = -0.05
+		infantry_power = 0.05
+	}
+}
+
+###Liberty Path
+
+t2_lp_1 = { #Curtail Nobility
+	icon = "king_2"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = t3_np_1
+				has_reform = t3_np_2
+				has_reform = t3_np_ind1
+			}
+		}
+	}
+	modifiers = {
+		global_tax_modifier = 0.15
+		trade_efficiency = 0.05
+	}
+}
+t2_lp_2 = { #Balanced Government
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = t3_np_1
+				has_reform = t3_np_2
+				has_reform = t3_np_ind1
+			}
+		}
+	}
+	modifiers = {
+		free_dip_policy = 1
+	}
+}
+t2_lp_ind1 = { #Dakhni Cultural Reforms
+	icon = "noble_indian"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = {
+			OR = {
+				has_reform = t3_np_1
+				has_reform = t3_np_2
+				has_reform = t3_np_ind1
+			}
+		}
+	}
+	potential = {
+		technology_group = indian
+	}
+	modifiers = {
+		state_maintenance_modifier = -0.2
+		max_states = 3
+	}
+}
+
+########
+#Tier 3
+########
+
+###Nobility Path
+
+t3_np_1 = { #Border Militias
+	icon = "peasant_republic"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_np_1
+			has_reform = t2_np_2
+			has_reform = mughal_government
+		}
+	}
+	modifiers = {
+		fort_maintenance_modifier = -0.1
+		recover_army_morale_speed = 0.1		
+	}
+}
+t3_np_2 = { #Well-Advised Army
+	icon = "soldiers"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_np_1
+			has_reform = t2_np_2
+			has_reform = mughal_government
+		}
+	}
+	modifiers = {
+		mil_advisor_cost = -0.2
+	}
+}
+t3_np_ind1 = { #Siddhi Recruitment
+	icon = "siddhi_recruitment"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_np_ind1
+			has_reform = t2_np_2
+			has_reform = mughal_government
+		}
+	}
+	potential = {
+		technology_group = indian
+	}
+	modifiers = {
+		global_regiment_recruit_speed = -0.10
+		global_manpower_modifier = 0.10
+	}
+}
+
+###Liberty Path
+
+t3_lp_1 = { #Centralized Bureaucracy
+	icon = "paper_with_seal_3"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_lp_1
+			has_reform = t2_lp_2
+			has_reform = mughal_government
+		}
+	}
+	modifiers = {
+		global_autonomy = -0.05
+		production_efficiency = 0.1
+	}
+}
+t3_lp_2 = { #Meritocratic Recruitment
+	icon = "map"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_lp_1
+			has_reform = t2_lp_2
+			has_reform = mughal_government
+		}
+	}
+	modifiers = {
+		advisor_cost = -0.1
+	}
+}
+t3_lp_ind1 = { #Deccani Merchant Elites
+	icon = "merchant_ship"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t2_lp_1
+			has_reform = t2_lp_2
+			has_reform = t2_lp_ind1
+			has_reform = mughal_government
+		}
+	}
+	potential = {
+		technology_group = indian
+	}
+	modifiers = {
+		merchants = 1
+		trade_range_modifier = 0.33
+	}
+}
+
+########
+#Tier 4
+########
+
+###Shared Path
+
+t4_sp_1 = { #Standing Armies
+	icon = "soldiers_5"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_regiment_cost = -0.05
+		land_forcelimit_modifier = 0.1
+	}
+}
+t4_sp_2 = { #Innovative Society
+	icon = "assembly_hall"
+	allow_normal_conversion = yes
+	modifiers = {
+		technology_cost = -0.05
+		idea_cost = -0.05
+	}
+}
+t4_sp_3 = { #Professional Soldiers
+	icon = "soldiers_2"
+	allow_normal_conversion = yes
+	modifiers = {
+		drill_gain_modifier = 0.33
+		drill_decay_modifier = -0.33
+		#global_regiment_cost = 0.025
+	}
+}
+
+########
+#Tier 5
+########
+
+###Nobility Path
+
+t5_np_1 = { #Nobles of the Robe
+	icon = "nobleman"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t3_np_1
+			has_reform = t3_np_2
+			has_reform = t3_np_ind1
+		}
+	}
+	modifiers = {
+		leader_cost = -0.1
+		free_leader_pool = 1
+	}
+}
+t5_np_2 = { #Political Absolutism
+	icon = "queen"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t3_np_1
+			has_reform = t3_np_2
+			has_reform = t3_np_ind1
+		}
+	}
+	modifiers = {
+		yearly_absolutism = 0.3
+		max_absolutism = 10
+	}
+}
+
+###Liberty Path
+
+t5_lp_1 = { #Minority Representation
+	icon = "constitution"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t3_lp_1
+			has_reform = t3_lp_2
+			has_reform = t3_lp_ind1
+		}
+	}
+	modifiers = {
+		tolerance_heretic = 1
+		tolerance_heathen = 1
+		num_accepted_cultures = 2
+	}
+}
+
+###Shared Path
+
+t5_sp_1 = { #Administrative Clergy
+	icon = "religious_leader"
+	allow_normal_conversion = yes
+	modifiers = {
+		tolerance_own = 1
+		free_adm_policy = 1
+	}
+}
+
+########
+#Tier 6
+########
+
+###Nobility Path
+
+t6_np_1 = { #Military Training
+	icon = "castle"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t5_np_1
+			has_reform = t5_np_2
+		}
+	}
+	modifiers = {
+		possible_mil_policy = 1
+	}
+}
+
+###Liberty Path
+
+
+t6_lp_1 = { #Diplomatic Training
+	icon = "merchant"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t5_lp_1
+		}
+	}
+	modifiers = {
+		possible_dip_policy = 1
+		free_dip_policy = 1
+	}
+}
+
+###Shared Path
+
+t6_sp_1 = { #Administrative Training
+	icon = "man_on_podium"
+	allow_normal_conversion = yes
+	modifiers = {
+		possible_adm_policy = 1
+		free_adm_policy = 1
+	}
+}
+
+########
+#Tier 7
+########
+
+###Nobility Path
+
+t7_np_1 = { #Noble Regiments
+	icon = "soldiers_6"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t5_np_1
+			has_reform = t5_np_2
+			has_reform = t6_np_1
+			has_reform = t3_np_1
+			has_reform = t3_np_2
+			has_reform = t3_np_ind1
+		}
+	}
+	modifiers = {
+		land_morale = 0.1
+		land_maintenance_modifier = 0.1
+	}
+}
+t7_np_2 = { #Aristocratic Military Leadership
+	icon = "feudal_theocracy"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t5_np_1
+			has_reform = t5_np_2
+			has_reform = t6_np_1
+			has_reform = t3_np_1
+			has_reform = t3_np_2
+			has_reform = t3_np_ind1
+		}
+	}
+	modifiers = {
+		leader_land_fire = 1
+		army_tradition = 0.5
+		global_unrest = 1
+	}
+}
+
+###Liberty Path
+
+t7_lp_1 = { #Parliamentarianism
+	icon = "judge"
+	modifiers = {
+		global_unrest = -1
+	}
+	
+	trigger = {
+		OR = {
+			has_reform = t5_lp_1
+			has_reform = t6_lp_1
+			has_reform = t3_lp_1
+			has_reform = t3_lp_2
+			has_reform = t3_lp_ind1
+		}
+		if = {
+			limit = { NOT = { has_dlc = "Mandate of Heaven" } }
+			NOT = { has_reform = celestial_empire }
+			NOT = { has_reform = revolutionary_republic_reform }
+		}
+	}
+
+	conditional = {
+		allow = { has_dlc = "Common Sense" }
+		has_parliament = yes
+	}
+}
+t7_lp_2 = { #Republican Government Reform
+	icon = "parliament_highlighted"
+	allow_normal_conversion = yes
+	trigger = {
+		OR = {
+			has_reform = t5_lp_1
+			has_reform = t6_lp_1
+		}
+		NOT = { has_government_attribute_short_desc = locked_government_type }
+		is_emperor = no
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		set_country_flag = populists_in_government
+		lose_reforms = 2
+		change_government = republic
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+# parliamentary_reform goes here
+
+###Shared Path
+
+t7_sp_1 = { #Theocratic Government Reform
+	icon = "pope_highlighted"
+	allow_normal_conversion = yes
+	trigger = {
+		has_reform = t5_sp_1
+		NOT = { has_government_attribute_short_desc = locked_government_type }
+		is_emperor = no
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		set_country_flag = populists_in_government
+		lose_reforms = 2
+		change_government = theocracy
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+
+
+become_a_republic_reform = {
+	icon = "parliament_highlighted"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = { has_government_attribute_short_desc = locked_government_type }
+		is_emperor = no
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		set_country_flag = populists_in_government
+		lose_reforms = 2
+		change_government = republic
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+install_theocratic_government_reform = {
+	icon = "pope_highlighted"
+	allow_normal_conversion = yes
+	trigger = {
+		NOT = { has_government_attribute_short_desc = locked_government_type }
+		is_emperor = no
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		set_country_flag = populists_in_government
+		lose_reforms = 2
+		change_government = theocracy
+	}
+	ai = {
+		factor = 0
+	}
+}

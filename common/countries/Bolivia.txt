@@ -1,0 +1,84 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+colonial_parent = SPA
+random_nation_chance = 0
+
+color = { 116 44 100 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Simón #0" = 10
+	"Antonio #0 José" = 10
+	"José #0 María Pérez" = 10
+	"José #0 Miguel" = 10
+	"Pedro #0 Blanco" = 10
+	"Andrés #0" = 10
+	"Sebastián #0" = 10
+	"Mariano #0" = 30
+	"José #0" = 10
+	"Eusebio #0 Guilarte" = 10
+	"Manuel #0 Isidoro" = 10
+	"Jorge #0" = 10
+	"Ruperto #0" = 10
+	"José #0 María" = 10
+	"Manuel #0 Antonio" = 10
+	"Agustín #0" = 0
+	"Tomás #0 Frías" = 0
+	"Adolfo #0" = 0
+	"Pedro #0 José Domingo" = 0
+	"Narciso #0" = 0
+	"Gregorio #0" = 0
+	"Aniceto Javier #0" = 0
+	"Severo #0" = 0
+	"José #0 Manuel" = 0
+	"Serapio #0 Reyes" = 0
+	"Macario #0 Pinilla" = 0
+	
+	"Pacífica #0" = -1
+	"Valencia #0" = -1
+	"Nereida #0" = -1
+}
+
+leader_names = {
+	Bolívar "de Sucre" "de Urdininea" "de Velasco Franco"
+	Soto "de Santa Cruz" Ágreda Calvo Ballivián Vera Belzu
+	Córdova Linares Achá Fernández Sánchez
+	Melgarejo Morales Ametller Daza "de Guerra" Campero
+	Pacheco Arce Baptista Pando Ortiz Vargas
+}
+
+ship_names = {
+	Antofagasta
+	Beni Mamora Madera Titicaca "Santa Cruz de la Sierra" Cobija
+	Calama Alianza Mejillones Tocopilla Bagué "La Paz" Cochabamba 
+	"Santa Cruz" Independencia Bermejo Guaqui Guayaramerín "Puerto Suárez"
+	Riberalta "San Pedro" Trinidad Rurrenabaque
+}

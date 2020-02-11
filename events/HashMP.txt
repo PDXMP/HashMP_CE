@@ -1,0 +1,439 @@
+########################################
+# Custom events for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
+namespace = hashmp
+
+# Takab Gold Mine
+
+country_event = {
+	id = hashmp.1
+	title = hashmp.1.t
+	desc = hashmp.1.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 2212 #Zanjan
+		OR = {
+			tag = MUG
+			tag = PER
+		}
+		2212 = {
+			NOT = { trade_goods = gold }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = hashmp.1.a
+		2212 = {
+			change_trade_goods = gold
+			add_base_production = 3
+		}
+	}
+	
+}
+
+country_event = {
+	id = hashmp.2
+	title = hashmp.2.t
+	desc = hashmp.2.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		tag = HAB
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = hashmp.2.a
+		add_opinion = {
+			who = LIE
+			modifier = h_dutch_minors_defiant
+		}
+		add_opinion = {
+			who = GEL
+			modifier = h_dutch_minors_defiant
+		}
+		add_opinion = {
+			who = UTR
+			modifier = h_dutch_minors_defiant
+		}
+		add_opinion = {
+			who = FRI
+			modifier = h_dutch_minors_defiant
+		}
+		add_opinion = {
+			who = SIL
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = LIE
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = GEL
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = UTR
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = FRI
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = SIL
+			modifier = h_dutch_minors_defiant
+		}
+	}
+}
+
+country_event = {
+	id = hashmp.3
+	title = hashmp.3.t
+	desc = hashmp.3.d
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.3.a
+		add_country_modifier = {
+				name = "h_bankrupt_interest"
+				duration = 7300
+		}
+	}
+}
+
+country_event = {
+	id = hashmp.4
+	title = hashmp.4.t
+	desc = hashmp.4.d
+	picture = LAND_MILITARY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = ORM
+			tag = ARB
+		}
+		bahrain_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "hashmp.4.a"
+		add_years_of_income = -0.2
+		add_yearly_manpower = 2.5
+		create_general = { tradition = 40 }
+	}
+
+	option = {
+		name = "hashmp.4.b"
+		add_years_of_income = 0.7
+	}
+}
+
+country_event = {
+	id = hashmp.5
+	title = hashmp.5.t
+	desc = hashmp.5.d
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.5.a
+		add_country_modifier = {
+				name = "h_sok_quantity"
+				duration = -1
+		}
+	}
+	
+	option = {
+		name = hashmp.5.b
+		add_country_modifier = {
+				name = "h_sok_quality"
+				duration = -1
+		}
+	}
+	
+	option = {
+		name = hashmp.5.c
+		add_country_modifier = {
+				name = "h_sok_imperial"
+				duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = hashmp.6
+	title = hashmp.6.t
+	desc = hashmp.6.d
+	picture = HRE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.6.a #Adm heir
+		add_legitimacy = -20
+		define_heir = {
+			name = Maximilian
+			dynasty = "von Habsburg"
+			age = 14
+			culture = austrian
+			ADM = 5
+			DIP = 3
+			MIL = 3
+			claim = 60
+			male = yes
+		}
+	}
+	
+	option = {
+		name = hashmp.6.b #Dip heir
+		add_legitimacy = -20
+		define_heir = {
+			name = Ferdinand
+			dynasty = "von Habsburg"
+			age = 14
+			culture = austrian
+			ADM = 3
+			DIP = 5
+			MIL = 3
+			claim = 60
+			male = yes
+		}
+	}
+	
+	option = {
+		name = hashmp.6.c #Mil heir
+		add_legitimacy = -20
+		define_heir = {
+			name = Karl
+			dynasty = "von Habsburg"
+			age = 14
+			culture = austrian
+			ADM = 3
+			DIP = 2
+			MIL = 5
+			claim = 60
+			male = yes
+		}
+	}
+}
+
+country_event = {
+	id = hashmp.7
+	title = hashmp.7.t
+	desc = hashmp.7.d
+	picture = CIVIL_WAR_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = TUR
+		NOT = { has_ruler = "Mehmed II Fatih" }
+		NOT = { is_year = 1475 }
+	}
+
+	 immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+					is_in_capital_area = yes
+				}
+				save_event_target_as = hash_tur_pretenders
+			}
+		}
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+				}
+				save_event_target_as = hash_tur_nobles
+			}
+		}
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+				}
+				save_event_target_as = hash_tur_nobles2
+			}
+		}
+	 }
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = hashmp.7.a
+		add_stability = -1
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+		define_ruler = {
+			dynasty = ROOT
+			culture = ROOT
+			religion = ROOT
+			adm = 4
+			dip = 3
+			mil = 4
+			age = 30
+			claim = 20
+		}
+		event_target:hash_tur_nobles = {
+			spawn_rebels = {
+				type = noble_rebels
+				size = 2
+			}
+		}
+		event_target:hash_tur_nobles2 = {
+			spawn_rebels = {
+				type = noble_rebels
+				size = 2
+			}
+		}
+	}
+
+	option = {
+		name = hashmp.7.b
+		add_legitimacy = 20
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		event_target:hash_tur_pretenders = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = hashmp.8
+	title = hashmp.8.t
+	desc = hashmp.8.d
+	picture = CIVIL_WAR_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = POL
+		NOT = { adm = 6 dip = 6 mil = 6 }
+		NOT = { is_year = 1470 }
+		has_country_flag = hash_localnoble
+	}
+
+	 immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+					is_in_capital_area = yes
+				}
+				save_event_target_as = hash_pol_pretenders
+			}
+		}
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+				}
+				save_event_target_as = hash_pol_nobles
+			}
+		}
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+				}
+				save_event_target_as = hash_pol_nobles2
+			}
+		}
+	 }
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = hashmp.8.a
+		add_stability = -1
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+		define_ruler = {
+			culture = ROOT
+			religion = ROOT
+			adm = 5
+			dip = 5
+			mil = 5
+			age = 34
+			claim = 20
+		}
+		event_target:hash_pol_nobles = {
+			spawn_rebels = {
+				type = noble_rebels
+				size = 2
+			}
+		}
+		event_target:hash_pol_nobles2 = {
+			spawn_rebels = {
+				type = noble_rebels
+				size = 2
+			}
+		}
+	}
+
+	option = {
+		name = hashmp.8.b
+		add_legitimacy = 20
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		event_target:hash_pol_pretenders = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 2
+			}
+		}
+	}
+}

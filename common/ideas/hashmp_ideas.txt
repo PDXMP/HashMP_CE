@@ -1,0 +1,1236 @@
+########################################
+# Custom ideas for the HashMP Multiplayer mod
+#
+# by Foffy123 and hashinshin
+########################################
+
+
+########################################
+# Starting National Ideas
+########################################
+
+CSH_ideas = { #Shun
+	start = {
+		land_morale = 0.1
+		cavalry_cost = -0.20
+	}
+	
+	bonus = {
+		movement_speed = 0.15
+	}
+	
+	trigger = {
+		tag = CSH
+	}
+	free = yes #will be added at load.
+	
+	CSH_1 = {
+		manpower_recovery_speed = 0.20
+	}
+	CSH_2 = {
+		advisor_cost = -0.15
+	}
+	CSH_3 = {
+		cavalry_power = 0.20
+	}
+	CSH_4 = {
+		prestige = 1
+	}
+	CSH_5 = {
+		fire_damage_received = -0.10
+	}
+	CSH_6 = {
+		leader_land_manuever = 1
+		free_leader_pool = 1
+	}
+	CSH_7 = {
+		development_cost = -0.10
+	}
+}
+
+WUU_ideas = { #Wu
+	start = {
+		infantry_power = 0.10
+		mercenary_cost = -0.25
+	}
+	
+	bonus = {
+		ship_durability = 0.05
+	}
+	
+	trigger = {
+		tag = WUU
+	}
+	free = yes #will be added at load.
+	
+	WUU_1 = {
+		mercenary_discipline = 0.05
+		merc_maintenance_modifier = -0.15
+	}
+	WUU_2 = {
+		advisor_cost = -0.15
+	}
+	WUU_3 = {
+		production_efficiency = 0.1
+	}
+	WUU_4 = {
+		prestige = 1
+	}
+	WUU_5 = {
+		land_morale = 0.10
+		naval_morale = 0.10
+	}
+	WUU_6 = {
+		legitimacy = 1
+	}
+	WUU_7 = {
+		possible_mercenaries = 0.20
+	}
+}
+
+YUE_ideas = { #Yue
+	start = {
+		global_manpower_modifier = 0.25
+		land_morale = 0.15
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.33
+	}
+	
+	trigger = {
+		tag = YUE
+	}
+	free = yes #will be added at load.
+	
+	YUE_1 = {
+		manpower_recovery_speed = 0.20
+	}
+	YUE_2 = {
+		advisor_cost = -0.15
+	}
+	YUE_3 = {
+		infantry_cost = -0.20
+	}
+	YUE_4 = {
+		prestige = 1
+	}
+	YUE_5 = {
+		fire_damage = 0.10
+	}
+	YUE_6 = {
+		legitimacy = 1
+	}
+	YUE_7 = {
+		development_cost = -0.10
+	}
+}
+
+########################################
+# Formable National Ideas
+########################################
+
+malayan_empire_ideas = { #Malayan empire
+	start = {
+		discipline = 0.05
+		global_ship_cost = -0.1
+	}
+	
+	bonus = {
+		heavy_ship_power = 0.1
+	}
+	
+	trigger = {
+		tag = MSA
+	}
+	free = yes
+	
+	indian_ocean_trade = {
+		merchants = 1
+		trade_steering = 0.1
+	}
+	sufi_legacy = {
+		tolerance_heathen = 2
+		land_morale = 0.10
+	}
+	mal_spice_islands = {
+		production_efficiency = 0.15
+	}
+	classical_malay = {
+		idea_cost = -0.10
+	}
+	trading_fleets = {
+		naval_maintenance_modifier = -0.1
+		sailor_maintenance_modifer = -0.1
+	}
+	heirs_of_pasai = {
+		prestige = 1
+	}
+	settle_the_islands = {
+		colonists = 1
+		global_colonial_growth = 20
+	}
+}
+
+AHU_ideas = {
+	start = {
+		land_morale = 0.10
+		global_tax_modifier = 0.1
+	}
+	
+	bonus = {
+		diplomatic_upkeep = 2
+	}
+	
+	trigger = {
+		tag = AHU
+	}
+	free = yes
+
+	ahu_1 = {
+		global_unrest = -1
+	}
+	ahu_2 = {
+		global_own_trade_power = 0.25
+	}
+	ahu_3 = {
+		cavalry_power = 0.1
+	}
+	ahu_4 = {
+		inflation_reduction = 0.05
+		production_efficiency = 0.1
+	}
+	ahu_5 = {
+		infantry_power = 0.10
+		discipline = 0.05
+	}
+	ahu_6 = {
+		manpower_recovery_speed = 0.15
+		recover_army_morale_speed = 0.05
+	}
+	ahu_7 = {
+		no_religion_penalty = yes
+	}
+}
+
+ARB_ideas = { #Arabian Empire
+	start = {
+		development_cost = -0.10
+		land_forcelimit_modifier = 0.25
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = ARB
+	}
+	free = yes
+	
+	arb_1 = { #Indian Ocean Trade
+		trade_steering = 0.25
+		global_sailors_modifier = 0.25
+	}
+	arb_2 = { #Arabian Horsemanship
+		cavalry_cost = -0.1
+		cavalry_power = 0.2
+	}
+	arb_3 = { #Bedouin Raiders
+		hostile_attrition = 1
+		movement_speed = 0.2
+	}
+	arb_4 = { #Spreading the Prophet's Word
+		global_missionary_strength = 0.03
+	}
+	arb_5 = { #Unite the Tribes
+		land_maintenance_modifier = -0.1
+		manpower_recovery_speed = 0.2
+	}
+	arb_6 = { #Bedouin Traders
+		global_prov_trade_power_modifier = 0.1
+		trade_efficiency = 0.1
+	}
+	arb_7 = { #Arabia
+		prestige = 1
+		army_tradition = 0.5
+	}
+}
+
+GER_ideas = { #German Empire
+	start = {
+		global_manpower_modifier = 0.25
+		infantry_power = 0.20
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = GER
+	}
+	free = yes
+	
+	ger_1 = { #Zunft
+		global_trade_goods_size_modifier = 0.1
+	}
+	ger_2 = { #Siegerkranz
+		administrative_efficiency = 0.05
+		max_states = 5
+	}
+	ger_3 = { #Generalstab
+		army_tradition_decay = -0.01
+	}
+	ger_4 = { #Prussian Spirit
+		land_morale = 0.20
+		naval_morale = 0.10
+	}
+	ger_5 = { #Polizeiordnung
+		global_unrest = -2
+	}
+	ger_6 = { #Thurn und Taxis
+		development_cost = -0.10
+	}
+	ger_7 = { #Imperium
+		prestige = 1
+	}
+}
+
+BRA_ideas = {
+	start = {
+		army_tradition = 0.5
+		diplomatic_reputation = 1
+	}
+	
+	bonus = {
+		development_cost = -0.05
+	}
+	
+	trigger = {
+		tag = BRA
+	}
+	free = yes		#will be added at load.
+	
+	bra_1 = {
+		global_tax_modifier = 0.1
+	}
+	bra_2 = {
+		stability_cost_modifier = -0.1
+	}
+	bra_3 = {
+		land_morale = 0.10
+	}
+	bra_4 = {
+		army_tradition_decay = -0.01
+	}
+	bra_5 = {
+		infantry_power = 0.10
+	}
+	bra_6 = {
+		global_regiment_recruit_speed = -0.15
+	}
+	bra_7 = {
+		tolerance_heretic = 2
+	}
+}
+
+###########################################
+# Formable CN Ideas
+###########################################
+
+# Australia
+
+AUS_ideas = { #Australia
+	start = {
+		movement_speed = 0.1
+		siege_ability = 0.1
+	}
+	
+	bonus = {
+		possible_mil_policy = 1
+	}
+	
+	trigger = {
+		tag = AUS
+	}
+	free = yes
+	
+	aus_1 = { #Legion of Frontiersmen
+		infantry_power = 0.15
+	}
+	aus_2 = { #Australian Courts
+		yearly_corruption = -0.1
+	}
+	aus_3 = { #Lessons of the Outback
+		hostile_attrition = 1
+	}
+	aus_4 = { #Dreamtime
+		stability_cost_modifier = -0.1
+	}
+	aus_5 = { #Kalgoorlie
+		global_trade_goods_size_modifier = 0.1
+	}
+	aus_6 = { #Trade Unions
+		global_unrest = -1
+	}
+	aus_7 = { #Australia Imperialis
+		discipline = 0.05
+	}
+}
+
+NZL_ideas = { #New Zealand
+	start = {
+		republican_tradition = 0.1
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	bonus = {
+		ship_durability = 0.05
+	}
+	
+	trigger = {
+		tag = NZL
+	}
+	free = yes
+	
+	nzl_1 = { #Polynesian Spirit
+		navy_tradition = 1
+	}
+	nzl_2 = { #Mana
+		prestige = 1
+	}
+	nzl_3 = { #Irrigation
+		development_cost = -0.15
+	}
+	nzl_4 = { #Pacific's Triple Star
+		naval_morale = 0.10
+	}
+	nzl_5 = { #Bushrangers
+		hostile_attrition = 1
+	}
+	nzl_6 = { #Bank of Issue
+		global_tax_modifier = 0.15
+	}
+	nzl_7 = { #Impressment
+		global_sailors_modifier = 0.5
+	}
+}
+
+# Brazil
+
+BRZ_ideas = { #Brazil
+	start = {
+		hostile_attrition = 1
+		missionaries = 1
+	}
+	bonus = {
+		prestige_decay = -0.01
+	}	
+	trigger = {
+		tag = BRZ
+	}
+	free = yes
+
+	governorate_general = {
+		global_autonomy = -0.05
+	}
+	research_of_nassau = {
+		idea_cost = -0.05
+		innovativeness_gain = 0.5
+	}
+	mines_of_minas_gerais = {
+		production_efficiency = 0.05
+		global_trade_goods_size_modifier = 0.05
+	}
+	halting_foreign_incursions = {
+		fire_damage_received = -0.15
+	}
+	entradas_and_bandeiras = {
+		same_culture_advisor_cost = -0.1
+	}
+	inconfidencia_mineira = {
+		stability_cost_modifier = -0.15
+	}
+	old_seat_of_the_empire = {
+		republican_tradition = 0.1
+	}
+}
+
+PRG_ideas = { #Paraguay
+	start = {
+		land_attrition = -0.1
+		reinforce_cost_modifier = -0.1
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.2
+	}
+	
+	trigger = {
+		tag = PRG
+	}
+	free = yes
+	
+	prg_1 = { #Clearcutting
+		development_cost = -0.05
+		build_cost = -0.05
+	}
+	prg_2 = { #Heart of South America
+		prestige = 1
+	}
+	prg_3 = { #Native Recruitment
+		global_manpower_modifier = 0.1
+	}
+	prg_4 = { #Bandeirantes
+		army_tradition = 0.5
+	}
+	prg_5 = { #Rapid Industrialization
+		build_time = -0.25
+	}
+	prg_6 = { #Jungle Economy
+		production_efficiency = 0.1
+	}
+	prg_7 = { #Grease the Wheels
+		yearly_corruption = -0.1
+	}
+}
+
+# Canada
+
+CAN_ideas = { #Canada
+	start = {
+		infantry_cost = -0.1
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		num_accepted_cultures = 1
+	}
+	
+	trigger = {
+		tag = CAN
+	}
+	free = yes
+	
+		
+	singing_lumberjacks = {
+		production_efficiency = 0.15
+	}	
+	the_hudson_bay_company = {
+		free_dip_policy = 1
+	}
+    settling_the_interior = {
+		development_cost = -0.15
+	}
+	the_maritimes = {
+		navy_tradition = 1
+		global_sailors_modifier = 0.33
+	}
+	the_quebec_act = {
+		republican_tradition = 0.1
+	}
+	legacy_of_the_empire = {
+		embracement_cost = -0.2
+	}
+	the_forests_of_canada = {
+		build_cost = -0.1
+	}
+}
+
+QUE_ideas = { #Quebec
+	start = {
+		land_attrition = -0.15
+		fire_damage = 0.15
+	}
+	
+	bonus = {
+		movement_speed = 0.15
+	}
+	
+	trigger = {
+		tag = QUE
+	}
+	free = yes
+	
+		
+	coureurs_des_bois = {
+		global_trade_goods_size_modifier = 0.1
+	}	
+	the_seigneurial_system = {
+		manpower_recovery_speed = 0.1
+	}
+	relations_with_natives = {
+		prestige = 1
+	}
+	fortifications_of_quebec = {
+		defensiveness = 0.2
+		hostile_attrition = 1
+	}
+	college_of_quebec = {
+		leader_land_shock = 1
+		leader_land_manuever = 1
+	}
+	commissions_for_noble_sons = {
+		army_tradition_decay = -0.01
+	}
+	jesuit_missions = {
+		tolerance_own = 1
+		papal_influence = 2
+		devotion = 0.5
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.2
+		monthly_karma = 0.25
+		monthly_piety = 0.1
+	}
+}
+
+# california
+
+CAL_ideas = { #California
+	start = {
+		republican_tradition = 0.1
+		global_sailors_modifier = 0.25
+	}
+	
+	bonus = {
+		trade_efficiency = 0.1
+	}
+	
+	trigger = {
+		tag = CAL
+	}
+	free = yes
+	
+	cal_1 = { #Golden Empire
+		development_cost = -0.15
+	}
+	cal_2 = { #Gold Rush
+		global_trade_goods_size_modifier = 0.1
+	}
+	cal_3 = { #Outlaw Country
+		possible_mercenaries = 0.25
+	}
+	cal_4 = { #City of Angels
+		advisor_cost = -0.1
+	}
+	cal_5 = { #Captains of Industry
+		build_cost = -0.1
+	}
+	cal_6 = { #Imperial Administrators
+		free_adm_policy = 1
+	}
+	cal_7 = { #The Bay
+		global_ship_recruit_speed = -0.25
+		ship_durability = 0.05
+	}
+}
+
+CSC_ideas = { #Columbia
+	start = {
+		yearly_corruption = -0.1
+		republican_tradition = 0.1
+	}
+	
+	bonus = {
+		hostile_attrition = 1
+	}
+	
+	trigger = {
+		tag = CSC
+	}
+	free = yes
+	
+	csc_1 = { #Evergreen Forests
+		production_efficiency = 0.1
+	}
+	csc_2 = { #Lessons of the Frontier
+		army_tradition_decay = -0.01
+	}
+	csc_3 = { #Alki
+		prestige = 1
+	}
+	csc_4 = { #Trial By Fire
+		fire_damage_received = -0.10
+	}
+	csc_5 = { #Lead By Example
+		leader_land_fire = 1
+	}
+	csc_6 = { #Under Pressure
+		infantry_power = 0.1
+	}
+	csc_7 = { #War College
+		mil_tech_cost_modifier = -0.1
+	}
+}
+
+# Caribbean
+
+CUB_ideas = { #Cuba
+	start = {
+		naval_forcelimit = 20
+		global_missionary_strength = 0.01
+	}
+	
+	bonus = {
+		own_coast_naval_combat_bonus = 1
+	}
+	
+	trigger = {
+		tag = CUB
+	}
+	free = yes
+	
+	cub_1 = { #Privateer Spirit
+		blockade_efficiency = 0.2
+		capture_ship_chance = 0.1
+	}
+	cub_2 = { #Impressment
+		global_sailors_modifier = 0.25
+	}
+	cub_3 = { #The Arsenal
+		global_ship_cost = -0.1
+	}
+	cub_4 = { #Sugar and Slaves
+		production_efficiency = 0.1
+	}
+	cub_5 = { #The Crossroads
+		trade_efficiency = 0.1
+	}
+	cub_6 = { #Coartacion
+		idea_cost = -0.10
+	}
+	cub_7 = { #The Bourbon Reforms
+		republican_tradition = 0.1
+	}
+}
+
+HAT_ideas = { #Haiti
+	start = {
+		global_manpower = 20
+		global_tax_modifier = 0.1
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = HAT
+	}
+	free = yes
+	
+	hat_1 = { #Liberty and Equality
+		stability_cost_modifier = -0.2
+	}
+	hat_2 = { #Breaker of Chains
+		development_cost = -0.1
+		global_sailors_modifier = 0.25
+	}
+	hat_3 = { #First In
+		transport_cost = -0.25
+		movement_speed = 0.1
+	}
+	hat_4 = { #Last Out
+		land_morale = 0.1
+	}
+	hat_5 = { #Praise the Lord
+		papal_influence = 2
+		devotion = 0.5
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.2
+		monthly_karma = 0.25
+		monthly_piety = 0.1
+	}
+	hat_6 = { #Pass the Ammunition
+		global_regiment_recruit_speed = -0.25
+	}
+	hat_7 = { #Pave the Way
+		global_naval_barrage_cost = -0.33
+	}
+}
+
+# Colombia
+
+COL_ideas = { #Colombia
+	start = {
+		army_tradition = 0.5
+		general_cost = -0.2
+	}
+	
+	bonus = {
+		shock_damage_received = -0.1
+	}
+	
+	trigger = {
+		tag = COL
+	}
+	free = yes
+	
+	col_1 = { #Sons of Bolivar
+		infantry_power = 0.1
+	}
+	col_2 = { #Gran Colombia
+		prestige_decay = -0.01
+	}
+	col_3 = { #Jungle Plantations
+		production_efficiency = 0.1
+	}
+	col_4 = { #Muisca Heritage
+		num_accepted_cultures = 1
+	}
+	col_5 = { #Little Hell
+		global_missionary_strength = 0.02
+	}
+	col_6 = { #Patrol the Caribbean
+		global_sailors_modifier = 0.25
+		global_own_trade_power = 0.1
+	}
+	col_7 = { #Sublime Liberty
+		republican_tradition = 0.1
+	}
+}
+
+VNZ_ideas = { #Venezuela
+	start = {
+		war_exhaustion = -0.05
+		same_culture_advisor_cost = -0.15
+	}
+	
+	bonus = {
+		land_morale = 0.1
+	}
+	
+	trigger = {
+		tag = VNZ
+	}
+	free = yes
+	
+	vnz_1 = { #Discard the Natives
+		culture_conversion_cost = -0.25
+	}
+	vnz_2 = { #Orinoco Delta
+		development_cost = -0.1
+	}
+	vnz_3 = { #Caudillos
+		yearly_corruption = -0.1
+	}
+	vnz_4 = { #Venezuelan Pride
+		republican_tradition = 0.1
+	}
+	vnz_5 = { #Imperial Colleges
+		idea_cost = -0.05
+		technology_cost = -0.05
+	}
+	vnz_6 = { #Iron Fist
+		global_unrest = -2
+	}
+	vnz_7 = { #Rule from Caracas
+		global_autonomy = -0.05
+	}
+}
+
+# Eastern America
+
+USA_ideas = { #United States
+	start = {
+		war_exhaustion = -0.05
+		fort_maintenance_modifier = -0.2
+	}
+	
+	bonus = {
+		army_tradition = 0.5
+	}
+	
+	trigger = {
+		tag = USA
+	}
+	free = yes
+	
+	freedom_of_religion = {
+		no_religion_penalty = yes
+	}
+	usa_bill_of_rights = {
+		republican_tradition = 0.1
+	}
+	empire_of_liberty = {
+		build_cost = -0.05
+		development_cost = -0.05
+	}
+	lessons_of_valley_forge = {
+		infantry_power = 0.1
+		drill_decay_modifier = -0.2
+	}
+	workshop_of_the_world = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	shining_city_on_a_hill = {
+		prestige = 1
+	}
+	indian_removal = {
+		culture_conversion_cost = -0.25
+ 	}
+}
+
+NEG_ideas = { #New England
+	start = {
+		global_tax_modifier = 0.15
+		global_institution_spread = 0.2
+	}
+	
+	bonus = {
+		build_time = -0.2
+	}
+	
+	trigger = {
+		tag = NEG
+	}
+	free = yes
+	
+	neg_1 = { #Grand Plantations
+		global_trade_goods_size_modifier = 0.1
+	}
+	neg_2 = { #Center of Innovation
+		technology_cost = -0.05
+	}
+	neg_3 = { #City of Guilds
+		trade_efficiency = 0.1
+	}
+	neg_4 = { #Melting Pot
+		num_accepted_cultures = 1
+	}
+	neg_5 = { #Settle the Interior
+		development_cost = -0.1
+	}
+	neg_6 = { #Life and Liberty
+		republican_tradition = 0.1
+	}
+	neg_7 = { #Manufacturing Standards
+		production_efficiency = 0.1
+	}
+}
+
+# La Plata
+
+CHL_ideas = { #Chile
+	start = {
+		navy_tradition = 0.5
+		hostile_attrition = 1
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.15
+	}
+	
+	trigger = {
+		tag = CHL
+	}
+	free = yes
+	
+	chl_1 = { #Two Oceans
+		naval_forcelimit_modifier = 0.1
+		transport_cost = -0.25
+	}
+	chl_2 = { #By Right or Might
+		republican_tradition = 0.1
+	}
+	chl_3 = { #Valdivian Rangers
+		movement_speed = 0.1
+		land_attrition = -0.1
+	}
+	chl_4 = { #Grand Conscription
+		land_forcelimit_modifier = 0.2
+	}
+	chl_5 = { #Spirit of the Cougar
+		reinforce_speed = 0.2
+	}
+	chl_6 = { #Old Banners
+		global_regiment_cost = -0.1
+	}
+	chl_7 = { #Insula Nostrum
+		naval_morale = 0.10
+		global_sailors_modifier = 0.25
+	}
+}
+
+LAP_ideas = { #La Plata
+	start = {
+		global_tax_modifier = 0.1
+		global_unrest = -1
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		tag = LAP
+	}
+	free = yes
+	
+	lap_1 = { #Wealth of the Atacama
+		production_efficiency = 0.1
+	}
+	lap_2 = { #Transverse Valleys
+		development_cost = -0.1
+	}
+	lap_3 = { #Sun of May
+		republican_tradition = 0.1
+	}
+	lap_4 = { #Made of Steel
+		infantry_cost = -0.1
+	}
+	lap_5 = { #Made of Silver
+		global_trade_goods_size_modifier = 0.1
+	}
+	lap_6 = { #Hardy People
+		defensiveness = 0.25
+	}
+	lap_7 = { #The Argentine
+		free_adm_policy = 1
+	}
+}
+
+# Louisiana
+
+TEX_ideas = { #Texas
+	start = {
+		global_tax_modifier = 0.1
+		free_leader_pool = 1
+	}
+	bonus = {
+		land_morale = 0.1
+	}
+	trigger = {
+		tag = TEX
+	}
+	free = yes
+	lone_star_state = {
+		prestige = 1
+	}
+	tex_revolution = { #Texas Rangers
+		shock_damage = 0.15
+	}
+	cotton_plantations = {
+		production_efficiency = 0.05
+		development_cost = -0.05
+	}
+	vaqueros = {
+		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.40
+	}
+	tex_native_frontiers = {
+		land_attrition = -0.1
+		movement_speed = 0.15
+	}
+	tejanos = {
+		stability_cost_modifier = -0.1
+	}
+	adelsverin = {
+		technology_cost = -0.05
+	}
+}
+
+LOU_ideas = { #Louisiana
+	start = {
+		state_maintenance_modifier = -0.2
+		fort_maintenance_modifier = -0.1
+	}
+	
+	bonus = {
+		prestige_decay = -0.01
+	}
+	
+	trigger = {
+		tag = LOU
+	}
+	free = yes
+	
+	lou_1 = { #Masters of the Gulf
+		global_trade_power = 0.1
+	}
+	lou_2 = { #Port of New Orleans
+		light_ship_cost = -0.25
+		global_sailors_modifier = 0.25
+	}
+	lou_3 = { #Breadbasket of America
+		global_trade_goods_size_modifier = 0.1
+	}
+	lou_4 = { #Voodoo
+		stability_cost_modifier = -0.1
+	}
+	lou_5 = { #Mississippi Watershed
+		development_cost = -0.1
+	}
+	lou_6 = { #Slave Labor
+		build_time = -0.25
+	}
+	lou_7 = { #Soldiers of Fortune
+		possible_mercenaries = 0.20
+		mercenary_discipline = 0.05
+	}
+}
+
+# Mexico
+
+MEX_ideas = { #Mexico
+	start = {
+		adm_tech_cost_modifier = -0.1
+		hostile_attrition = 1
+	}
+	
+	bonus = {
+		manpower_recovery_speed = 0.1
+	}
+	
+	trigger = {
+		tag = MEX
+	}
+	free = yes
+	
+		
+	rebuilding_mexico = {
+		build_cost = -0.05
+		development_cost = -0.05
+	}	
+	the_republic_of_indians = {
+		num_accepted_cultures = 2
+	}
+    peace_by_purchase = {
+		global_autonomy = -0.05
+	}
+	casa_de_las_campanas = {
+		embracement_cost = -0.2
+		prestige = 0.5
+	}
+	repartimiento = {
+		production_efficiency = 0.1
+	}
+	heroes_of_the_revolution = {
+		leader_land_shock = 1
+	}
+	grito_de_delores = {
+		land_morale = 0.1
+	}
+}
+
+CAM_ideas = { #United Central America
+	start = {
+		free_leader_pool = 2
+		reinforce_speed = 0.25
+	}
+	
+	bonus = {
+		yearly_corruption = -0.1
+	}
+	
+	trigger = {
+		tag = CAM
+	}
+	free = yes
+	
+	cam_1 = { #Grand Commissariat
+		land_morale = 0.1
+		recover_army_morale_speed = 0.05
+	}
+	cam_2 = { #Arm the Masses
+		infantry_power = -0.2
+		infantry_cost = -0.2
+	}
+	cam_3 = { #Imperial Schools
+		idea_cost = -0.1
+	}
+	cam_4 = { #Forced Conversion
+		culture_conversion_cost = -0.33
+	}
+	cam_5 = { #Highland Conscription
+		manpower_recovery_speed = 0.25
+	}
+	cam_6 = { #Redoubts
+		defensiveness = 0.1
+		garrison_size = 0.1
+	}
+	cam_7 = { #Militia
+		land_forcelimit_modifier = 0.25
+	}
+}
+
+# Peru
+
+BLV_ideas = { #Bolivia
+	start = {
+		land_forcelimit_modifier = 0.1
+		global_prov_trade_power_modifier = 0.2
+	}
+	
+	bonus = {
+		advisor_cost = -0.1
+	}
+	
+	trigger = {
+		tag = BLV
+	}
+	free = yes
+	
+	blv_1 = { #Eternal Spring
+		development_cost = -0.15
+	}
+	blv_2 = { #Mines of Potosi
+		global_trade_goods_size_modifier = 0.15
+	}
+	blv_3 = { #Dredging
+		build_cost = -0.1
+	}
+	blv_4 = { #Heirs of the Inca
+		army_tradition = 0.5
+	}
+	blv_5 = { #Mountain Lessons
+		leader_land_manuever = 1
+	}
+	blv_6 = { #Overland Caravans
+		merchants = 1
+		trade_efficiency = 0.1
+	}
+	blv_7 = { #Unity is Strength
+		republican_tradition = 0.1
+	}
+}
+
+PEU_ideas = { #Peru
+	start = {
+		stability_cost_modifier = -0.1
+		land_attrition = -0.10
+	}
+	
+	bonus = {
+		global_supply_limit_modifier = 0.5
+	}
+	
+	trigger = {
+		tag = PEU
+	}
+	free = yes
+	
+	peu_1 = { #Mountain Foundries
+		artillery_cost = -0.15
+		artillery_power = 0.075
+	}
+	peu_2 = { #Andes Rangers
+		movement_speed = 0.1
+	}
+	peu_3 = { #Blast Charges
+		siege_ability = 0.1
+	}
+	peu_4 = { #Loyalists
+		republican_tradition = 0.1
+	}
+	peu_5 = { #Sacred Valley
+		development_cost = -0.1
+	}
+	peu_6 = { #Faithful Unto Death
+		land_morale = 0.1
+	}
+	peu_7 = { #Machu Picchu
+		prestige_decay = -0.01
+	}
+}

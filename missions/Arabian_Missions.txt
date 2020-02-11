@@ -1,0 +1,178 @@
+ara_conquest = {
+
+	slot = 5
+	generic = no
+	ai = yes
+	
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		culture_group = turko_semitic #Arabic
+		religion_group = muslim
+		NOT = { 
+			OR = {
+				primary_culture = turkish
+				tag = MAM
+				tag = TUR
+				tag = EGY
+			}
+		}
+	}
+	
+	has_country_shield = no
+
+	h_control_spice_trade_arabia = {
+		icon = mission_asian_trader
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1361
+				province_id = 1340
+				province_id = 1334
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			trading_bonus = {
+				trade_goods = spices
+				value = yes
+			}
+			OR = {
+				1361 = {
+					is_strongest_trade_power = ROOT
+				}
+				1340 = {
+					is_strongest_trade_power = ROOT
+				}
+				1334 = {
+					is_strongest_trade_power = ROOT
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "spice_trade_controlled"
+				duration = 7300
+			}
+			add_mercantilism = 2
+		}
+	}
+	
+	h_arabia_silk_road = {
+		icon = mission_indian_soldier_elephant
+		required_missions = { }
+		position = 2
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					ROOT = {
+						NOT = { silk = 8 }
+					}
+				}
+				trade_goods = silk
+				has_discovered = ROOT
+			}
+			else = {
+				always = no
+			}
+		}
+		trigger = {
+			production_leader = {
+				trade_goods = silk
+			}
+			silk = 8
+		}
+		effect = {
+			add_country_modifier = {
+				name = "silk_road_modifier"
+				duration = 7300
+			}
+			add_mercantilism = 2
+		}
+	}
+
+	gen_ara_defender_faith = {
+		icon = mission_mosque
+		required_missions = { }
+		position = 3
+		
+		trigger = {
+			is_defender_of_faith = yes
+			religious_unity = 1
+			if = {
+				limit = {
+					uses_piety = yes
+				}
+				NOT = { piety = -0.75 }
+			}
+		}
+		
+		effect = {
+			mecca_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+			}
+			add_country_modifier = {
+				name = "gen_eur_defender"
+				duration = 5475
+			}
+		}
+	}
+	
+	ara_gen_holy_city = {
+		icon = mission_arabian_fort
+		required_missions = { gen_ara_defender_faith }
+		position = 4
+		
+		provinces_to_highlight = {
+			area = mecca_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			mecca_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_piety = -0.25
+			385 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
+	
+	ara_gen_trade_leader = {
+		icon = mission_bedouins
+		required_missions = { }
+		position = 5
+		
+		trigger = {
+			OR = {
+				production_leader = {
+					trade_goods = coffee
+				}
+				production_leader = {
+					trade_goods = cloth
+				}
+				production_leader = {
+					trade_goods = incense
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "ara_gen_goods_mod"
+				duration = 7300
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,116 @@
+country_decisions = {
+
+	Timurid_Collapse = {
+		major = yes
+		potential = {
+			TAG = TIM
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				NOT = { exists = MUG }
+				ai = no
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			TAG = TIM
+		}
+		
+	 	effect = {
+			add_truce_with = PER
+			change_tag = MUG
+			hindusthan_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MUG
+			}
+			merv_area = {
+				remove_core = MUG
+					cede_province = KHI
+					add_core = KHI
+			}
+			transcaspia_area = {
+				remove_core = MUG
+					cede_province = KHI
+					add_core = KHI
+			}
+			khiva_area = {
+				remove_core = MUG
+					cede_province = KHI
+					add_core = KHI
+			}
+			transoxiana_area = {
+				remove_core = MUG
+					cede_province = KHI
+					add_core = KHI
+			}
+			arys_area = {
+				remove_core = MUG
+					cede_province = KHI
+					add_core = KHI
+			}
+			ferghana_area = {
+				remove_core = MUG
+					cede_province = KHI
+					add_core = KHI
+			}
+			add_accepted_culture = Afghan
+			if = {
+				limit = {
+					technology_group = nomad_group
+				}
+				change_technology_group = muslim
+			}
+			change_government = iqta
+			change_unit_type = indian
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			define_ruler = {
+				name = "Babur"
+				dynasty = "Badshah"
+				DIP = 5
+				ADM = 5
+				MIL = 6
+				age = 12
+				attach_leader = "Babur"
+				male = yes
+				fixed = yes
+				claim = 100
+			}
+			define_general = {
+				name = "Babur"
+				fire = 5
+				shock = 6
+				manuever = 5
+				siege = 3
+			}
+			kill_heir = yes
+			every_core_province = {
+				limit = {
+					NOT = { owned_by = MUG }
+				}
+			remove_core = MUG
+			}
+
+			}
+			every_owned_province = {
+				add_institution_embracement = {
+					which = "feudalism"
+					value = 100
+				}
+			}
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

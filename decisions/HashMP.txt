@@ -1,0 +1,301 @@
+########################################
+# Custom decisions for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
+country_decisions = {
+
+	h_combat_janissary_decadence = {
+		potential = {
+			tag = TUR
+			NOT = {
+				has_country_modifier = h_janissary_decadence
+			}
+		}
+		allow = {
+			tag = TUR
+			janissary_percentage = 0.1
+			stability = 1
+			mil_power = 100
+			OR = {
+				has_reform = t7_lp_1
+				has_reform = t7_np_1
+				has_reform = t7_np_2
+			}
+		}
+		effect = {
+			add_mil_power = -150
+			add_country_modifier = {
+				name = "h_janissary_decadence"
+				duration = -1
+			}
+		}
+	}
+	h_ruler_tutor = {
+		potential = {
+			ai = no
+			NOT = { has_country_flag = h_tutor_flag }
+			NOT = {
+				government = republic
+			}
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = h_ruler_tutor_tooltip
+				OR = {
+					NOT = {
+						adm = 3
+						dip = 3
+						mil = 3
+					}
+					NOT = {
+						adm = 5
+						dip = 2
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 5
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 2
+						mil = 5
+					}
+					NOT = {
+						adm = 4
+						dip = 2
+						mil = 3
+					}
+					NOT = {
+						adm = 4
+						dip = 3
+						mil = 2
+					}
+					NOT = {
+						adm = 3
+						dip = 4
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 4
+						mil = 3
+					}
+					NOT = {
+						adm = 2
+						dip = 3
+						mil = 4
+					}
+					NOT = {
+						adm = 3
+						dip = 2
+						mil = 4
+					}
+				}
+			}
+		}
+		effect = {
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+			add_years_of_income = -0.5
+			set_country_flag = h_tutor_flag
+		}
+	}
+	h_austria-hungary_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_ahu_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = AHU }
+			OR = {
+				tag = HAB
+				tag = HUN
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 73   # tirol
+				province_id = 110  # sudtirol
+				province_id = 128  # karnten
+				province_id = 129  # krain
+				province_id = 131  # zagrab
+				province_id = 132  # steiermark
+				province_id = 133  # linz
+				province_id = 134  # wien
+				province_id = 135  # sopron
+				province_id = 153  # pest
+				province_id = 152  # varasd
+				province_id = 154  # hont
+				province_id = 155  # bekes
+				province_id = 156  # temes
+				province_id = 157  # bihar
+				province_id = 158  # maros
+				province_id = 162  # zemplen
+				province_id = 1318 # szepes
+				province_id = 1767 # slavonia
+				province_id = 1768 # lienz
+				province_id = 1769 # gorz
+				province_id = 1770 # ostmark
+				province_id = 1772 # pozsony
+				province_id = 1826 # lika
+				province_id = 1863 # graz
+				province_id = 1864 # somogy
+				province_id = 1951 # hunyad
+				province_id = 1952 # maramaros
+				province_id = 1953 # szabolcs
+				province_id = 1954 # torontal
+				province_id = 4125 # szolnok
+				province_id = 4126 # bacs
+				province_id = 4127 # torda
+				province_id = 4128 # kiralyfold
+				province_id = 4173 # szerem
+				province_id = 4240 # fejer
+				province_id = 4236 # trencsen
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			OR = {
+				NOT = { exists = HAB }
+				NOT = { exists = HUN }
+			}
+			owns_core_province = 73   # tirol
+			owns_core_province = 110  # sudtirol
+			owns_core_province = 128  # karnten
+			owns_core_province = 129  # krain
+			owns_core_province = 131  # zagrab
+			owns_core_province = 132  # steiermark
+			owns_core_province = 133  # linz
+			owns_core_province = 134  # wien
+			owns_core_province = 135  # sopron
+			owns_core_province = 153  # pest
+			owns_core_province = 152  # varasd
+			owns_core_province = 154  # hont
+			owns_core_province = 155  # bekes
+			owns_core_province = 156  # temes
+			owns_core_province = 157  # bihar
+			owns_core_province = 158  # maros
+			owns_core_province = 162  # zemplen
+			owns_core_province = 1318 # szepes
+			owns_core_province = 1767 # slavonia
+			owns_core_province = 1768 # lienz
+			owns_core_province = 1769 # gorz
+			owns_core_province = 1770 # ostmark
+			owns_core_province = 1772 # pozsony
+			owns_core_province = 1826 # lika
+			owns_core_province = 1863 # graz
+			owns_core_province = 1864 # somogy
+			owns_core_province = 1951 # hunyad
+			owns_core_province = 1952 # maramaros
+			owns_core_province = 1953 # szabolcs
+			owns_core_province = 1954 # torontal
+			owns_core_province = 4125 # szolnok
+			owns_core_province = 4126 # bacs
+			owns_core_province = 4127 # torda
+			owns_core_province = 4128 # kiralyfold
+			owns_core_province = 4173 # szerem
+			owns_core_province = 4240 # fejer
+			owns_core_province = 4236 # trencsen
+		}
+	 	effect = {
+			change_tag = AHU
+			add_prestige = 25
+			AHU = {
+				set_capital = 134 # Wien
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_ahu_flag
+			add_country_modifier = {
+				name = "h_dual_monarchy"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	h_found_riyadh = {
+		potential = {
+			tag = ARB
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			owns = 4275
+			NOT = { has_country_flag = h_founded_riyadh }
+		}
+		allow = {
+			is_core = 4275
+			is_at_war = no
+			4275 = { has_province_modifier = h_fortified_oasis }
+		}
+		effect = {
+			4275 = {
+				change_province_name = "Riyadh"
+				rename_capital = "Riyadh"
+				add_base_tax = 4
+				add_base_manpower = 4
+				add_base_production = 4
+				change_trade_goods = cloth
+				center_of_trade = 1
+			}
+			add_prestige = 10
+			4275 = {
+				move_capital_effect = yes
+			}
+			set_country_flag = h_founded_riyadh
+		}
+	}
+	
+	h_sok_jihad = {
+		potential = {
+			tag = SOK
+			NOT = { has_country_flag = h_sok_declared_jihad }
+		}
+		allow = {
+			stability = 1
+			mil_power = 100
+		}
+		effect = {
+			add_mil_power = -100
+			set_country_flag = h_sok_declared_jihad
+			country_event = { id = hashmp.5 } #Jihad Event
+		}
+	}
+	
+	h_hab_scion = {
+		potential = {
+			tag = HAB
+			NOT = { has_country_flag = h_hab_scion_adopted }
+		}
+		allow = {
+			stability = 1
+			has_heir = no
+			is_emperor = yes
+		}
+		effect = {
+			set_country_flag = h_hab_scion_adopted
+			country_event = { id = hashmp.6 } #Scion Event
+		}
+	}
+}

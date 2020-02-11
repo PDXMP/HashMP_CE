@@ -1,0 +1,1484 @@
+########################################
+# Custom decisions for the HashMP Multiplayer mod
+# Colonial Formables
+#
+# by Foffy123
+########################################
+
+country_decisions = {
+	
+	h_form_australia = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_australia = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_australia = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_aus_enabled
+			}
+			NOT = { exists = AUS }
+		}
+		effect  = {
+			change_tag = AUS
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_australia_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_brazil = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_brazil = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_brazil = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_brz_enabled
+			}
+			NOT = { exists = BRZ }
+		}
+		effect  = {
+			change_tag = BRZ
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_brazil_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_california = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_california = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_california = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_cal_enabled
+			}
+			NOT = { exists = CAL }
+		}
+		effect  = {
+			change_tag = CAL
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_california_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_canada = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_canada = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_canada = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_can_enabled
+			}
+			NOT = { exists = CAN }
+		}
+		effect  = {
+			change_tag = CAN
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_canada_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_chile = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_la_plata = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_la_plata = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_chl_enabled
+			}
+			NOT = { exists = CHL }
+		}
+		effect  = {
+			change_tag = CHL
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_laplata_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_colombia = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_colombia = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_colombia = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_col_enabled
+			}
+			NOT = { exists = COL }
+		}
+		effect  = {
+			change_tag = COL
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_colombia_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_haiti = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_the_carribean = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_the_carribean = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_hat_enabled
+			}
+			NOT = { exists = HAT }
+		}
+		effect  = {
+			change_tag = HAT
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_caribbean_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_laplata = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_la_plata = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_la_plata = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_lap_enabled
+			}
+			NOT = { exists = LAP }
+		}
+		effect  = {
+			change_tag = LAP
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_laplata_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	h_form_louisiana = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_louisiana = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_louisiana = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_lou_enabled
+			}
+			NOT = { exists = LOU }
+		}
+		effect  = {
+			change_tag = LOU
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_louisiana_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	h_form_mexico = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_mexico = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_mexico = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_mex_enabled
+			}
+			NOT = { exists = MEX }
+		}
+		effect  = {
+			change_tag = MEX
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_mexico_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_paraguay = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_brazil = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_brazil = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_prg_enabled
+			}
+			NOT = { exists = PRG }
+		}
+		effect  = {
+			change_tag = PRG
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_brazil_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_peru = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_peru = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_peru = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_peu_enabled
+			}
+			NOT = { exists = PEU }
+		}
+		effect  = {
+			change_tag = PEU
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_peru_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_quebec = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_canada = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_canada = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_que_enabled
+			}
+			NOT = { exists = QUE }
+		}
+		effect  = {
+			change_tag = QUE
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_canada_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_texas = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_louisiana = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_louisiana = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_tex_enabled
+			}
+			NOT = { exists = TEX }
+		}
+		effect  = {
+			change_tag = TEX
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_louisiana_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_upca = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_mexico = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_mexico = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_cam_enabled
+			}
+			NOT = { exists = CAM }
+		}
+		effect  = {
+			change_tag = CAM
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_mexico_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_usa = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_eastern_america = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_eastern_america = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_usa_enabled
+			}
+			NOT = { exists = USA }
+		}
+		effect  = {
+			change_tag = USA
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_easternamerica_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	h_form_venezuela = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_colombia = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_colombia = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_vnz_enabled
+			}
+			NOT = { exists = VNZ }
+		}
+		effect  = {
+			change_tag = VNZ
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_colombia_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	h_form_cuba = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_the_carribean = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_the_carribean = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_cub_enabled
+			}
+			NOT = { exists = CUB }
+		}
+		effect  = {
+			change_tag = CUB
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_caribbean_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_newengland = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_eastern_america = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_eastern_america = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_neg_enabled
+			}
+			NOT = { exists = NEG }
+		}
+		effect  = {
+			change_tag = NEG
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_easternamerica_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_newzealand = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_australia = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_australia = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_nzl_enabled
+			}
+			NOT = { exists = NZL }
+		}
+		effect  = {
+			change_tag = NZL
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_australia_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_bolivia = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_peru = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_peru = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_blv_enabled
+			}
+			NOT = { exists = BLV }
+		}
+		effect  = {
+			change_tag = BLV
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_peru_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_form_columbia = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_california = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_california = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_csc_enabled
+			}
+			NOT = { exists = CSC }
+		}
+		effect  = {
+			change_tag = CSC
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_california_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_australia = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_australia_dominion_request
+			}
+			NOT = { has_country_flag = h_nzl_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_australia_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_aus_enabled
+			any_subject_country = {
+				clr_country_flag = h_australia_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_newzealand = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_australia_dominion_request
+			}
+			NOT = { has_country_flag = h_nzl_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_australia_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_nzl_enabled
+			any_subject_country = {
+				clr_country_flag = h_australia_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_brazil = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_brazil_dominion_request
+			}
+			NOT = { has_country_flag = h_brz_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_brazil_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_brz_enabled
+			any_subject_country = {
+				clr_country_flag = h_brazil_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_paraguay = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_brazil_dominion_request
+			}
+			NOT = { has_country_flag = h_prg_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_brazil_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_prg_enabled
+			any_subject_country = {
+				clr_country_flag = h_brazil_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_california = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_california_dominion_request
+			}
+			NOT = { has_country_flag = h_cal_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_california_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_cal_enabled
+			any_subject_country = {
+				clr_country_flag = h_california_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_columbia = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_california_dominion_request
+			}
+			NOT = { has_country_flag = h_csc_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_california_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_csc_enabled
+			any_subject_country = {
+				clr_country_flag = h_california_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_canada = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_canada_dominion_request
+			}
+			NOT = { has_country_flag = h_can_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_canada_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_can_enabled
+			any_subject_country = {
+				clr_country_flag = h_canada_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_quebec = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_canada_dominion_request
+			}
+			NOT = { has_country_flag = h_que_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_canada_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_que_enabled
+			any_subject_country = {
+				clr_country_flag = h_canada_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_cuba = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_caribbean_dominion_request
+			}
+			NOT = { has_country_flag = h_cub_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_caribbean_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_cub_enabled
+			any_subject_country = {
+				clr_country_flag = h_caribbean_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_haiti = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_caribbean_dominion_request
+			}
+			NOT = { has_country_flag = h_hat_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_caribbean_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_hat_enabled
+			any_subject_country = {
+				clr_country_flag = h_caribbean_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_colombia = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_colombia_dominion_request
+			}
+			NOT = { has_country_flag = h_col_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_colombia_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_col_enabled
+			any_subject_country = {
+				clr_country_flag = h_colombia_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_venezuela = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_colombia_dominion_request
+			}
+			NOT = { has_country_flag = h_vnz_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_colombia_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_vnz_enabled
+			any_subject_country = {
+				clr_country_flag = h_colombia_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_newengland = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_easternamerica_dominion_request
+			}
+			NOT = { has_country_flag = h_neg_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_easternamerica_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_neg_enabled
+			any_subject_country = {
+				clr_country_flag = h_easternamerica_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	h_enable_usa = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_easternamerica_dominion_request
+			}
+			NOT = { has_country_flag = h_usa_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_easternamerica_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_usa_enabled
+			any_subject_country = {
+				clr_country_flag = h_easternamerica_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_chile = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_laplata_dominion_request
+			}
+			NOT = { has_country_flag = h_chl_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_laplata_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_chl_enabled
+			any_subject_country = {
+				clr_country_flag = h_laplata_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_laplata = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_laplata_dominion_request
+			}
+			NOT = { has_country_flag = h_lap_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_laplata_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_lap_enabled
+			any_subject_country = {
+				clr_country_flag = h_laplata_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_louisiana = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_louisiana_dominion_request
+			}
+			NOT = { has_country_flag = h_lou_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_louisiana_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_lou_enabled
+			any_subject_country = {
+				clr_country_flag = h_louisiana_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_texas = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_louisiana_dominion_request
+			}
+			NOT = { has_country_flag = h_tex_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_louisiana_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_tex_enabled
+			any_subject_country = {
+				clr_country_flag = h_louisiana_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_mexico = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_mexico_dominion_request
+			}
+			NOT = { has_country_flag = h_mex_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_mexico_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_mex_enabled
+			any_subject_country = {
+				clr_country_flag = h_mexico_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_upca = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_mexico_dominion_request
+			}
+			NOT = { has_country_flag = h_cam_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_mexico_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_cam_enabled
+			any_subject_country = {
+				clr_country_flag = h_mexico_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_bolivia = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_peru_dominion_request
+			}
+			NOT = { has_country_flag = h_blv_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_peru_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_blv_enabled
+			any_subject_country = {
+				clr_country_flag = h_peru_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_peru = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_peru_dominion_request
+			}
+			NOT = { has_country_flag = h_peu_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_peru_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_peu_enabled
+			any_subject_country = {
+				clr_country_flag = h_peru_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}
