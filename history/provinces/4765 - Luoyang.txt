@@ -17,7 +17,7 @@ base_manpower = 6
 hre = no
 citysize = 4400
 add_core = CXI
-
+fort_15th = yes
 center_of_trade = 1
 
 discovered_by = chinese
