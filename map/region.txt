@@ -885,6 +885,10 @@ south_china_region = {
 		huai-an_area
 		taiwan_area
 		hainan_area
+		xuzhou_area
+		wuchang_area
+		biyang_area
+		yanshan_area
 	}
 	monsoon = {
 		00.05.01
@@ -902,6 +906,8 @@ xinan_region = {
 		hanzhong_area
 		ankang_area
 		chengdu_area
+		kaiyang_area
+		yunnan_area
 	}
 }
 
