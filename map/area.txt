@@ -2607,7 +2607,7 @@ liaoning_area = { #5
 }
 
 ordos_area = { #4 (Western Inner Mongolia)
-	701 4813 4814 4815
+	701 4813 4814 4815 4848
 }
 
 eastern_mongolia = { #5
@@ -2710,7 +2710,7 @@ jiangsu_area = { #3
 }
 
 anhui_area = { #3 (North Anhui)
-	686 1838 4732 4759 4764
+	686 1838 4759 4764
 }
 
 zhejiang_area = { #5
@@ -2761,7 +2761,7 @@ hunan_area = { #4
 }
 
 henan_area = { #3 (South Henan)
-	687 1836 4730 4765 4778
+	1836 4730 4765 4778
 }
 
 shanxi_area = { #5
@@ -2821,7 +2821,7 @@ guangzhou_area = {
 }
 
 guilin_area = {
-	1840 4716 4743 4744  673 
+	1840 4743 4744 
 }
 
 hangzhou_area = { 
@@ -2855,7 +2855,7 @@ lanzhou_area = {
 
 luzhou_area = { 
 	color = { 227 153 153 }
-	4742 4782 2748 4826
+	4742 4782 4845 4841
 }
 
 shenyang_area = {
@@ -2864,7 +2864,7 @@ shenyang_area = {
 }
 
 tai-an_area = {
-	688 4733 4734 4795 4796
+	688 4733 4795 687
 }
 
 ejin_area = {
@@ -2887,7 +2887,7 @@ xia_area = {
 
 xianning_area = {
 	color = { 53 162 58 }
-	4699 682 4731 4748 4792
+	4748 4792 4846
 }
 
 yumen_area = {
@@ -2905,6 +2905,30 @@ chengdu_area = {
 hainan_area = {
 	4746 666 4834
 }
+
+xuzhou_area = {
+	4849 4734 4796
+}
+
+biyang_area = {
+	4731 4840 4839
+}
+
+yanshan_area = {
+	4711 4843 4850
+}
+
+wuchang_area = {
+	4699 682 4732 4847
+}
+
+kaiyang_area = {
+	4844 4842 4716 673
+}
+
+yunnan_area = {
+	2748 4826 4851
+	
 
 ########################################
 # South America    	                   #
