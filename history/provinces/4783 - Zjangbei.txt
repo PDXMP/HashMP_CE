@@ -1,18 +1,18 @@
 # 3621 - Zjangbei
 
-owner = MNG
-controller = MNG
+owner = JIN
+controller = JIN
+add_core = JIN
 culture = jin
 religion = confucianism
-capital = "Zjangbei"
+capital = "Zhangbei"
 trade_goods = livestock
 base_tax = 2
 base_production = 2
 base_manpower = 2
 hre = no
 is_city = yes
-add_core = JIN
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 
