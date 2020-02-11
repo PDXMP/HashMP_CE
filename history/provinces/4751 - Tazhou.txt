@@ -1,18 +1,17 @@
 # 2700 - Tazhou
 
-owner = MNG
-controller = MNG
+owner = WUU
+controller = WUU
+add_core = WUU
 culture = wu
 religion = confucianism
 capital = "Tazhou"
 trade_goods = chinaware
-base_tax = 2
+base_tax = 3
 base_production = 2
-base_manpower = 2
+base_manpower = 1
 hre = no
 citysize = 3000
-add_core = WUU
-add_core = MNG
 discovered_by = chinese
 discovered_by = nomad_group
 
