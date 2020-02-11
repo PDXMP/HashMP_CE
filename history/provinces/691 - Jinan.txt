@@ -1,18 +1,17 @@
 #691 - Jinan
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = QIC
+controller = QIC
+add_core = QIC
 culture = shandong_culture
 religion = confucianism
 capital = "Jinan"
 trade_goods = cloth
 hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 3
+base_production = 3
+base_manpower = 3
 is_city = yes
-add_core = QIC
 
 center_of_trade = 1
 
