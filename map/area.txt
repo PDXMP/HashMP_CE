@@ -2787,7 +2787,7 @@ changsha_area = {
 
 changzhi_area = {
 	color = { 232 60 60 }
-	694 4729 4767
+	694 4729 4767 4854 4855
 }
 
 chengde_area = {
@@ -2804,7 +2804,7 @@ dalian_area = {
 }
 
 datong_area = {
-	697 4706 4783
+	697 4706 4783 4852 4853
 }
 
 alxa_area = {
