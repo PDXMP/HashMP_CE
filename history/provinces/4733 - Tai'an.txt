@@ -1,8 +1,8 @@
 # 2546 - Tai'an
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = QIC
+controller = QIC
+add_core = QIC
 culture = shandong_culture
 religion = confucianism
 capital = "Tai'an"
