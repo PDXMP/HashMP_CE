@@ -1,18 +1,18 @@
 # 2730 - Changde
 
-owner = MNG
-controller = MNG
+owner = CGE
+controller = CGE
+add_core = CGE
 culture = xiang
 religion = confucianism
 capital = "Changde"
 trade_goods = cotton
-base_tax = 6
-base_production = 6
-base_manpower = 7
+base_tax = 7
+base_production = 8
+base_manpower = 3
 hre = no
 citysize = 1500000
-add_core = MNG
-add_core = CHC
+
 fort_15th = yes
 discovered_by = chinese
 discovered_by = indian

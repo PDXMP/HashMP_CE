@@ -12,4 +12,20 @@ NJG = "countries/Nanjing.txt"
 WUC = "countries/Wuchang.txt"
 XIM = "countries/Xiamen.txt"
 XIN = "countries/Xi'an.txt"
+
+#City States
+ANQ = "countries/Anqing.txt"
+CGE = "countries/Changde.txt"
+GUI = "countries/Guilin.txt"
+HUY = "countries/Hanzhong.txt"
+HZH = "countries/Huaiyin.txt"
+JNG = "countries/Jiangmen.txt"
+KAI = "countries/Kaifeng.txt"
+MAC = "countries/Macau.txt"
+SHG = "countries/Shanghai.txt"
+SHZ = "countries/Shenzhen.txt"
+SZH = "countries/Suzhou.txt"
+TAY = "countries/Taiyuan.txt"
+
+#Local States
 CLI = "countries/Li.txt"

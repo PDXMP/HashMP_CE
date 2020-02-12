@@ -1,18 +1,18 @@
 #665 - Jiangmen
 
-owner = MNG
-controller = MNG
+owner = JNG
+controller = JNG
+add_core = JNG
 culture = cantonese
 religion = confucianism
 capital = "Jiangmen"
 trade_goods = chinaware
-base_tax = 2
-base_production = 2
+base_tax = 5
+base_production = 7
 base_manpower = 2
 hre = no
 citysize = 15348
-add_core = YUE
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

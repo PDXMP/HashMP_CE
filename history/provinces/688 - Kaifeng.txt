@@ -1,18 +1,17 @@
 #688 - Kaifeng (can't change file name)
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = KAI
+controller = KAI
+add_core = KAI
 culture = zhongyuan
 religion = confucianism
 capital = "Kaifeng"
 trade_goods = chinaware
 hre = no
-base_tax = 4
-base_production = 4
+base_tax = 6
+base_production = 8
 base_manpower = 4
 is_city = yes
-add_core = LNG
 
 center_of_trade = 1
 
