@@ -1,8 +1,8 @@
 #660 - Xishuan Banna
 
-owner = CZH
-controller = CZH
-add_core = CZH
+owner = HSE
+controller = HSE
+add_core = HSE
 culture = shan
 religion = buddhism
 capital = "Sibsongbanna"
@@ -12,7 +12,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = CXI
 
 
 
