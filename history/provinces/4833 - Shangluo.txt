@@ -1,7 +1,7 @@
 # 4833 - Shangluo
 
-owner = MNG
-controller = MNG
+owner = QIN
+controller = QIN
 add_core = QIN
 culture = xibei
 religion = confucianism

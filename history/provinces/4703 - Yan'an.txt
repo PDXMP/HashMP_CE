@@ -1,7 +1,7 @@
 # 2424 - Yan'an
 
-owner = MNG
-controller = MNG
+owner = QIN
+controller = QIN
 add_core = QIN
 culture = xibei
 religion = confucianism
