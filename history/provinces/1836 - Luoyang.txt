@@ -1,19 +1,18 @@
 #1836 - Nanyang
 
-owner = MNG
-controller = MNG
+owner = TNG
+controller = TNG
+add_core = TNG
 culture = hubei
 religion = confucianism
 capital = "Nanyang"
 trade_goods = gems
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 3
+base_production = 3
+base_manpower = 3
 hre = no
 citysize = 39760
-add_core = CXI
-add_core = MNG
-add_core = TNG
+
 fort_15th = yes
 discovered_by = chinese
 discovered_by = nomad_group
