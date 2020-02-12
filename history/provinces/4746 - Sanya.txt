@@ -1,18 +1,18 @@
 # 2695 - Sanya
 
-owner = MNG
-controller = MNG
+owner = CLI
+controller = CLI
 culture = cantonese
 religion = confucianism
 capital = "Sanya"
 trade_goods = incense
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 2
 hre = no
 citysize = 3100
-add_core = YUE
-add_core = MNG
+add_core = CLI
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

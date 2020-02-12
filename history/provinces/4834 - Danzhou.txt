@@ -1,7 +1,8 @@
 # 4834 - Danzhou
 
-owner = MNG
-controller = MNG
+owner = CLI
+controller = CLI
+add_core = CLI
 culture = cantonese
 religion = confucianism
 capital = "Danzhou"
@@ -11,8 +12,7 @@ base_production = 1
 base_manpower = 1
 hre = no
 citysize = 3100
-add_core = MNG
-add_core = YUE
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
