@@ -1,8 +1,8 @@
 #673 - Bozhou
 
-owner = BAA
-controller = BAA
-add_core = BAA
+owner = MNG
+controller = MNG
+add_core = MNG
 culture = miao
 religion = animism
 capital = "Bozhou"
