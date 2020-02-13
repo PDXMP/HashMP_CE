@@ -1,18 +1,18 @@
 # 2720 - Yingtan
 
-owner = MNG
-controller = MNG
+owner = MIN
+controller = MIN
+add_core = MIN
 culture = gan
 religion = confucianism
 capital = "Yingtan"
 trade_goods = tea
 base_tax = 2
-base_production = 2
+base_production = 3
 base_manpower = 2
 hre = no
 citysize = 4200
-add_core = MNG
-add_core = NNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 
