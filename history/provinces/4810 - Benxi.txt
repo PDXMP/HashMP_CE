@@ -1,17 +1,18 @@
 # 2555 - Benxi
 
-owner = MNG
-controller = MNG
+owner = LIA
+controller = LIA
+add_core = LIA
 culture = manchu
 religion = confucianism
 capital = "Benxi"
 trade_goods = grain
 base_tax = 2
-base_production = 2
-base_manpower = 2
+base_production = 3
+base_manpower = 3
 hre = no
 citysize = 6500
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 
