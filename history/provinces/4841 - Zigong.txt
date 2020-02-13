@@ -1,8 +1,8 @@
 # 4841 - Zigong
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = ZON
+controller = ZON
+add_core = ZON
 culture = sichuanese
 religion = confucianism
 capital = "Zigong"
