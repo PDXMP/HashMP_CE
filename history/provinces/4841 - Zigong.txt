@@ -2,8 +2,8 @@
 
 owner = MNG
 controller = MNG
-culture = yi
-religion = animism
+culture = sichuanese
+religion = confucianism
 capital = "Zigong"
 trade_goods = tea
 base_tax = 2
