@@ -1,8 +1,8 @@
 # 2697 - Xianning
 
-owner = XNG
-controller = XNG
-add_core = XNG
+owner = XIX
+controller = XIX
+add_core = XIX
 culture = xiang
 religion = confucianism
 capital = "Xianning"
