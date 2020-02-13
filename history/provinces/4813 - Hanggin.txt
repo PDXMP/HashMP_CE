@@ -1,17 +1,18 @@
 # 2875 - Hanggin
 
-owner = KHA
-controller = KHA 
+owner = ODS
+controller = ODS 
+add_core = ODS
 culture = mongol
 religion = vajrayana
 capital = "Hanggin"
 trade_goods = livestock
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 1
+base_production = 1
+base_manpower = 1
 hre = no
 citysize = 2000
-add_core = KHA
+
 discovered_by = chinese
 discovered_by = nomad_group
 

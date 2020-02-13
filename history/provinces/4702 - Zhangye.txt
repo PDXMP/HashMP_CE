@@ -1,18 +1,18 @@
 # 2423 - Zhangye
 
-owner = MNG
-controller = MNG
+owner = TUM
+controller = TUM
+add_core = TUM
 culture = oirats
 religion = vajrayana
 capital = "Zhangye"
 trade_goods = livestock
-base_tax = 2
+base_tax = 3
 base_production = 2
 base_manpower = 2
 hre = no
 citysize = 11400
-add_core = CSH
-add_core = MNG
+
 fort_15th = yes
 discovered_by = chinese
 discovered_by = nomad_group

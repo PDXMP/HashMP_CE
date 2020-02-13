@@ -1,8 +1,8 @@
 #1838 - Hefei
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = SHD
+controller = SHD
+add_core = SHD
 culture = jianghuai
 religion = confucianism
 capital = "Hefei"

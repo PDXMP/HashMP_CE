@@ -1,18 +1,18 @@
 # 3635 - Chuxiaong
 
-owner = MNG
-controller = MNG
+owner = YUN
+controller = YUN
+add_core = YUN
 culture = bai
 religion = buddhism
 capital = "Chuxiaong"
 trade_goods = tea
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 2
 hre = no
 is_city = yes
-add_core = CDL
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group

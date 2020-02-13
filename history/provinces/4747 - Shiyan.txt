@@ -1,7 +1,8 @@
 # 2696 - Shiyan
 
-owner = MNG
-controller = MNG
+owner = XNG
+controller = XNG
+add_core = XNG
 culture = sichuanese
 religion = confucianism
 capital = "Shiyan"
@@ -11,8 +12,7 @@ base_production = 2
 base_manpower = 2
 hre = no
 citysize = 4000
-add_core = SHU
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 

@@ -1,7 +1,8 @@
 # 2726 - Chuzhou
 
-owner = MNG
-controller = MNG
+owner = SHD
+controller = SHD
+add_core = SHD
 culture = jianghuai
 religion = confucianism
 capital = "Chuzhou"
@@ -11,7 +12,7 @@ base_production = 2
 base_manpower = 2
 hre = no
 citysize = 3500
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 

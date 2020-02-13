@@ -4,8 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = MNG
-controller = MNG
+owner = YDU
+controller = YDU
+add_core = YDU
 culture = chihan
 religion = confucianism
 capital = "Yingkou"
@@ -15,8 +16,7 @@ base_production = 2
 base_manpower = 2
 hre = no
 citysize = 17500
-add_core = YAN
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 

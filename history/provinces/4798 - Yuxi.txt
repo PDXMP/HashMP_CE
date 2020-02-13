@@ -1,18 +1,18 @@
 # 3636 - Yuxi
 
-owner = MNG
-controller = MNG
+owner = CNG
+controller = CNG
+add_core = CNG
 culture = bai
 religion = buddhism
 capital = "Yuxi"
 trade_goods = tea
-base_tax = 2
-base_production = 2
+base_tax = 3
+base_production = 4
 base_manpower = 2
 hre = no
 is_city = yes
-add_core = MNG
-add_core = CDL
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group

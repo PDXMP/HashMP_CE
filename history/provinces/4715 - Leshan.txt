@@ -1,18 +1,17 @@
 # 2438 - Leshan 
 
-owner = MNG
-controller = MNG
+owner = GON
+controller = GON
+add_core = GON
 culture = sichuanese
 religion = confucianism
 capital = "Leshan"
 trade_goods = grain
-base_tax = 2
+base_tax = 4
 base_production = 2
 base_manpower = 2
 hre = no
 citysize = 12000
-add_core = CYI
-add_core = MNG
 discovered_by = chinese
 discovered_by = nomad_group
 

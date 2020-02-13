@@ -1,9 +1,9 @@
 # 2932 - Jinuquan
 
-owner = MNG #KHA
-controller = MNG #KHA
-add_core = MNG #KHA
-culture = mongol
+owner = TUM
+controller = TUM
+add_core = TUM
+culture = oirats
 religion = vajrayana
 capital = "Jinuquan"
 trade_goods = livestock

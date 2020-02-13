@@ -1,8 +1,8 @@
 # 4848 - Uxin
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = ODS
+controller = ODS
+add_core = ODS
 culture = mongol
 religion = vajrayana
 capital = "Uxin"
@@ -12,7 +12,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = KHA	
+
 discovered_by = chinese
 discovered_by = nomad_group
 

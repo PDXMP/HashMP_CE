@@ -1,8 +1,8 @@
 #709 - Yinchuan #Alxa is a city in this region, BUT modern day Yinchuan is right next to it, and thats Xingqing capital of Xia kingdom
 
-owner = MNG #KHA
-controller = MNG #KHA
-add_core = MNG
+owner = TAN
+controller = TAN
+add_core = TAN
 culture = mongol
 religion = vajrayana
 capital = "Yinchuan"
@@ -12,7 +12,7 @@ base_production = 2
 base_manpower = 2
 hre = no
 citysize = 24210
-add_core = MNG
+
 
 fort_15th = yes
 discovered_by = chinese

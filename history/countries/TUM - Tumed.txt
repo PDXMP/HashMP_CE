@@ -1,0 +1,9 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+technology_group = nomad_group
+religion = buddhism
+primary_culture = oirats
+capital = 4702 #Zhanye
+
+
