@@ -35,3 +35,4 @@ CLI = "countries/Li.txt"
 SNG = "countries/Song.txt"
 LIA = "countries/Liao.txt"
 BAA = "countries/Ba.txt"
+NAN = "countries/Nanping.txt
