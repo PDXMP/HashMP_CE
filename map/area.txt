@@ -2718,7 +2718,7 @@ zhejiang_area = { #5
 }
 
 jiangxi_area = { #4
-	 4696 1833 4756 4827 4828
+	 4696 4756 4827 4828
 }
 
 fujian_area = { #4
@@ -2887,7 +2887,7 @@ xia_area = {
 
 xianning_area = {
 	color = { 53 162 58 }
-	4748 4792 4846
+	4748 4792 4846 1833
 }
 
 yumen_area = {
