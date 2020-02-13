@@ -1,18 +1,18 @@
 # 2725 - Huzhou
 
-owner = MNG
-controller = MNG
+owner = HUZ
+controller = HUZ
+add_core = HUZ
 culture = wu
 religion = confucianism
 capital = "Huzhou"
 trade_goods = silk
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 5
+base_production = 8
+base_manpower = 3
 hre = no
 citysize = 2000
-add_core = WUU
-add_core = MNG
+
 fort_15th = yes
 discovered_by = chinese
 discovered_by = nomad_group

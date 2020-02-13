@@ -1,7 +1,8 @@
 # 3630 - Yaoyang
 
-owner = MNG
-controller = MNG
+owner = NAN
+controller = NAN
+add_core = NAN
 culture = xiang
 religion = confucianism
 capital = "Yaoyang"
@@ -11,8 +12,7 @@ base_production = 3
 base_manpower = 4
 hre = no
 is_city = yes
-add_core = MNG
-add_core = CHC
+
 discovered_by = chinese
 discovered_by = nomad_group
 

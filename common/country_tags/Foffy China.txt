@@ -26,6 +26,12 @@ SHG = "countries/Shanghai.txt"
 SHZ = "countries/Shenzhen.txt"
 SZH = "countries/Suzhou.txt"
 TAY = "countries/Taiyuan.txt"
+HUZ = "countries/Huzhou.txt"
+XNG = "countries/Xianning.txt"
+SHE = "countries/Shenyang.txt"
 
 #Local States
 CLI = "countries/Li.txt"
+SNG = "countries/Song.txt"
+LIA = "countries/Liao.txt"
+BAA = "countries/Ba.txt"
