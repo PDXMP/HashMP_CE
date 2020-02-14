@@ -1,8 +1,8 @@
 # 3628 - Shaoyang
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CHC
+controller = CHC
+add_core = CHC
 culture = miao
 religion = animism
 capital = "Shaoyang"
