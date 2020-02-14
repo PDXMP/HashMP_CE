@@ -71,6 +71,7 @@ SUI = "countries/Sui.txt"
 DIA = "countries/Dian.txt"
 WAN = "countries/Wan.txt"
 CBE = "countries/Bei.txt"
+LUU = "countries/Lu.txt"
 
 #Tribes
 ZON = "countries/Zong.txt"
