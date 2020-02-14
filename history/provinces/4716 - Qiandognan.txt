@@ -1,8 +1,8 @@
 # 2440 - Qiandognan
 
-owner = WAN
-controller = WAN
-add_core = WAN
+owner = DIA
+controller = DIA
+add_core = DIA
 culture = zhuang
 religion = confucianism
 capital = "Qiandognan"
