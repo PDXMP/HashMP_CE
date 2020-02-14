@@ -12,8 +12,7 @@ base_production = 8
 base_manpower = 6
 hre = no
 citysize = 250000 #2.5 mil
-add_core = CHC
-add_core = CHS
+
 fort_15th = yes
 discovered_by = chinese
 discovered_by = indian

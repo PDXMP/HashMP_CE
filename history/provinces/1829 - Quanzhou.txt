@@ -9,10 +9,10 @@ capital = "Xiamen"
 trade_goods = tea
 base_tax = 7
 base_production = 7
-base_manpower = 3
+base_manpower = 7
 hre = no
 citysize = 109000
-add_core = MIN
+
 fort_15th = yes
 discovered_by = chinese
 discovered_by = nomad_group

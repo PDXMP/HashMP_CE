@@ -8,11 +8,11 @@ religion = confucianism
 capital = "Kunming"
 trade_goods = tea
 base_tax = 6
-base_production = 6
-base_manpower = 3
+base_production = 8
+base_manpower = 4
 hre = no
 citysize = 38500
-add_core = CDL
+
 fort_15th = yes
 discovered_by = chinese
 discovered_by = indian
