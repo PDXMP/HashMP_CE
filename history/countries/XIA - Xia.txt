@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 2
 technology_group = chinese
-religion = confucianism
+religion = vajrayana
 primary_culture = xibei
 capital = 708	#Baiyin
 
