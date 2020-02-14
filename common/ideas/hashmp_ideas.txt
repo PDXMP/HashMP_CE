@@ -4,6 +4,66 @@
 # by Foffy123 and hashinshin
 ########################################
 
+########################################
+# Starting Group Ideas - China Rework
+########################################
+
+commandery_ideas = { #Thirteen Commanderies
+	start = {
+		enemy_core_creation = 1.0
+		land_morale = 0.15
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		has_reform = h_reform_commandery
+		AND = {
+			OR = {
+				tag = BJG
+				tag = CHS
+				tag = CGD
+				tag = CQG
+				tag = DLN
+				tag = GZH
+				tag = HNG
+				tag = KMG
+				tag = LUO
+				tag = NJG
+				tag = WUC
+				tag = XIN
+				tag = XIM
+			}
+			is_subject = no
+		}
+	
+	}
+	free = yes #will be added at load.
+	
+	commandery_idea_1 = {
+		development_cost = -0.1
+	}
+	commandery_idea_2 = {
+		defensiveness = 0.2
+	}
+	commandery_idea_3 = {
+		global_unrest = -2
+	}
+	commandery_idea_4 = {
+		prestige = 1
+	}
+	commandery_idea_5 = {
+		stability_cost_modifier = -0.1
+	}
+	commandery_idea_6 = {
+		global_tax_modifier = 0.2
+	}
+	commandery_idea_7 = {
+		land_forcelimit_modifier = 0.1
+	}
+}
 
 ########################################
 # Starting National Ideas
