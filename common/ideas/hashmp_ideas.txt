@@ -38,7 +38,6 @@ commandery_ideas = { #Thirteen Commanderies
 			}
 			is_subject = no
 		}
-	
 	}
 	free = yes #will be added at load.
 	

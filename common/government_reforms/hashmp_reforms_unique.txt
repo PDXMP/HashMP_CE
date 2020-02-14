@@ -42,3 +42,40 @@ h_reform_dominion = {
 	}
 	duration = 4
 }
+
+h_reform_commandery = {
+	icon = "chinese_palace"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		OR = {
+			tag = BJG
+			tag = CHS
+			tag = CGD
+			tag = CQG
+			tag = DLN
+			tag = GZH
+			tag = HNG
+			tag = KMG
+			tag = LUO
+			tag = NJG
+			tag = WUC
+			tag = XIN
+			tag = XIM
+		}
+	}
+	modifiers = {
+		garrison_size = 1.0
+		defensiveness = 0.2
+		hostile_attrition = 1
+		global_tax_income = 12
+		max_states = -9
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	duration = 4
+}
