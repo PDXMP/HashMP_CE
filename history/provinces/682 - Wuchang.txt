@@ -18,7 +18,7 @@ discovered_by = chinese
 discovered_by = nomad_group
 
 center_of_trade = 1
-
+add_province_triggered_modifier = h_cwonder_wuchang
 1450.1.1 = { citysize = 34500 }
 1500.1.1 = { citysize = 36970 }
 1550.1.1 = { citysize = 38244 }

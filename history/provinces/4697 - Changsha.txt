@@ -18,6 +18,7 @@ discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
 
+add_province_triggered_modifier = h_cwonder_changsha
 center_of_trade = 1
 
 1450.1.1 = { citysize = 32850 }

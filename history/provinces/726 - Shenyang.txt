@@ -18,7 +18,7 @@ discovered_by = chinese
 discovered_by = nomad_group
 
 center_of_trade = 1
-
+add_province_triggered_modifier = h_cwonder_dalian
 1450.1.1 = { citysize = 136500 }
 1500.1.1 = { citysize = 138999 }
 1550.1.1 = { citysize = 140877 }
