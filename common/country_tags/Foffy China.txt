@@ -69,7 +69,7 @@ ZHA = "countries/Zhao.txt"
 CHN = "countries/Han.txt"
 SUI = "countries/Sui.txt"
 DIA = "countries/Dian.txt"
-WAN = "countries/Wan.text"
+WAN = "countries/Wan.txt"
 CBE = "countries/Bei.txt"
 
 #Tribes
