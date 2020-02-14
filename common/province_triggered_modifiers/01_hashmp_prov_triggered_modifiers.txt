@@ -16,6 +16,7 @@ test_modifier = {
 	trigger = {
 		owner = {
 			religion = confucianism
+			NOT = {
 		}
 	}
 
@@ -30,4 +31,256 @@ test_modifier = {
 	
 	}
 	
+}
+
+###########################################
+# Thirteen Wonders of China
+###########################################
+
+h_cwonder_beijing = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	global_unrest = -2
+	legitimacy = 1
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_changsha = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	technology_cost = -0.05
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_chengdu = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	development_cost = -0.05
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_chongqing = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	defensiveness = 0.1
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_dalian = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	global_missionary_strength = 0.02
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_guangzhou = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	global_trade_goods_size_modifier = 0.05
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_hangzhou = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	navy_tradition = 0.5
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_kunming = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	global_trade_power = 0.1
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_luoyang = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	prestige_decay = -0.01
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_nanjing = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	advisor_cost = -0.1
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_wuchang = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	missionaries = 1
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_xian = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	army_tradition = 0.5
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_xiamen = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+			NOT = {
+		}
+	}
+	trade_efficiency = 0.1
+	max_states = 1
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
 }
