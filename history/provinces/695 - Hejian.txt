@@ -1,18 +1,18 @@
 # 695 - Tianjin
 
-owner = MNG
-controller = MNG
+owner = TIJ
+controller = TIJ
+add_core = TIJ
 culture = chihan
 religion = confucianism
 capital = "Tianjin"
 trade_goods = grain
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 5
+base_production = 5
+base_manpower = 4
 hre = no
 citysize = 240000
-add_core = YAN
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 

@@ -1,17 +1,17 @@
 #4827 - Xinyu
 
-owner = MNG
-controller = MNG
+owner = XYU
+controller = XYU
+add_core = XYU
 culture = hakka
 religion = confucianism
 capital = "Xinyu"
 trade_goods = iron
-base_tax = 2
-base_production = 2
+base_tax = 5
+base_production = 6
 base_manpower = 2
 hre = no
-add_core = MNG
-add_core = HUA
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group

@@ -1,10 +1,10 @@
 #673 - Bozhou
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CBE
+controller = CBE
+add_core = CBE
 culture = miao
-religion = animism
+religion = confucianism
 capital = "Bozhou"
 trade_goods = tea
 base_tax = 2

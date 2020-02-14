@@ -1,7 +1,8 @@
 # 2434 - Zhaoqing
 
-owner = MNG
-controller = MNG
+owner = NHA
+controller = NHA
+add_core = NHA
 culture = cantonese
 religion = confucianism
 capital = "Zhaoqing"
@@ -11,8 +12,7 @@ base_production = 2
 base_manpower = 2
 hre = no
 citysize = 3000
-add_core = YUE
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group

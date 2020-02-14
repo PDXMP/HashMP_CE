@@ -1,18 +1,18 @@
 # 3619 - Wuzhong
 
-owner = MNG
-controller = MNG
+owner = WUZ
+controller = WUZ
+add_core = WUZ
 culture = xibei
 religion = confucianism
 capital = "Wuzhong"
 trade_goods = grain
-base_tax = 2
-base_production = 2
+base_tax = 6
+base_production = 5
 base_manpower = 2
 hre = no
 is_city = yes
-add_core = CSH
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 

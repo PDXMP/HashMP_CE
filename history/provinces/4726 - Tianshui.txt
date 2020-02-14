@@ -1,18 +1,18 @@
 # 2479 - Tianshui
 
-owner = MNG
-controller = MNG
+owner = LUL
+controller = LUL
+add_core = LUL
 culture = xibei
 religion = confucianism
 capital = "Tianshui"
 trade_goods = iron
-base_tax = 1
-base_production = 2
-base_manpower = 1
+base_tax = 3
+base_production = 4
+base_manpower = 5
 hre = no
 citysize = 4500
-add_core = CSH
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 

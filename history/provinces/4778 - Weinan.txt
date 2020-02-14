@@ -1,18 +1,18 @@
 # 3616 - Weinan
 
-owner = MNG
-controller = MNG
+owner = WEI
+controller = WEI
+add_core = WEI
 culture = hubei
 religion = confucianism
 capital = "Weinan"
 trade_goods = grain
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 6
+base_production = 4
+base_manpower = 3
 hre = no
 is_city = yes
-add_core = CXI
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 

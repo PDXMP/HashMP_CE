@@ -1,7 +1,8 @@
 # 2734 - Jichang
 
-owner = MNG
-controller = MNG
+owner = WEI
+controller = WEI
+add_core = WEI
 culture = zhongyuan
 religion = confucianism
 capital = "Jichang"
@@ -11,8 +12,7 @@ base_production = 2
 base_manpower = 2
 hre = no
 citysize = 18700
-add_core = LNG
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 

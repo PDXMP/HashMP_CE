@@ -1,14 +1,14 @@
 # 2690 - Luzhou
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CBE
+controller = CBE
+add_core = CBE
 culture = yi
-religion = animism
+religion = confucianism
 capital = "Luzhou"
 trade_goods = tea
-base_tax = 2
-base_production = 2
+base_tax = 3
+base_production = 5
 base_manpower = 2
 hre = no
 citysize = 30000

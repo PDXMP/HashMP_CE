@@ -1,18 +1,18 @@
 #692 - Handan
 
-owner = MNG
-controller = MNG
+owner = CHN
+controller = CHN
+add_core = CHN
 culture = chihan
 religion = confucianism
 capital = "Handan"
 trade_goods = grain
-base_tax = 2
-base_production = 2
-base_manpower = 6
+base_tax = 6
+base_production = 3
+base_manpower = 5
 hre = no
 citysize = 50100
-add_core = YAN
-add_core = MNG
+
 discovered_by = chinese
 discovered_by = nomad_group
 
