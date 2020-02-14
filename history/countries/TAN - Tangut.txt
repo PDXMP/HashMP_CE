@@ -2,6 +2,6 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = chinese
-religion = confucianism
+religion = vajrayana
 primary_culture = hubei #ganyu
 capital = 4819 #Alxa
