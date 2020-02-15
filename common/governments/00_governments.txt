@@ -28,6 +28,7 @@ monarchy = {
 				mandala_reform
 				revolutionary_empire_reform
 				h_reform_warlord_1
+				h_reform_prefecture
 			}
 		}
 		hereditary_vs_nobility = { #Noble Privileges
@@ -650,6 +651,10 @@ pre_dharma_mapping = {
 	h_reform_commandery = {
 		government = republic
 		legacy_government = oligarchic_republic
+	}
+	h_reform_prefecture = {
+		government = monarchy
+		legacy_government = despotic_monarchy
 	}
 	h_reform_warlord_1 = {
 		government = monarchy
