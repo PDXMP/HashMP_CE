@@ -10627,3 +10627,12 @@ h_subjugated_china = {
 	max_states = 15
 	prestige = 1
 }
+
+h_sichuan_basin = {
+	trade_goods_size = 1.0
+}
+
+h_commandery_province = {
+	local_core_creation = 1.0
+	allowed_num_of_buildings = 1
+}
