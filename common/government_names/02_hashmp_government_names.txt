@@ -21,3 +21,26 @@ gov_dominion = {
 		has_reform = h_reform_dominion
 	}
 }
+gov_commandery = {
+	rank = {
+		1 = H_COMMANDERY
+		2 = H_COMMANDERY
+		3 = H_COMMANDERY
+	}
+	
+	ruler_male = {
+		1 = H_CommanderyTitle
+		2 = H_CommanderyTitle
+		3 = H_CommanderyTitle
+	}
+	
+	ruler_female = {
+		1 = H_CommanderyTitle
+		2 = H_CommanderyTitle
+		3 = H_CommanderyTitle
+	}
+	
+	trigger = {
+		has_reform = h_reform_commandery
+	}
+}
