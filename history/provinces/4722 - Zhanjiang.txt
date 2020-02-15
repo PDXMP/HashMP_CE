@@ -9,7 +9,7 @@ capital = "Zhanjiang"
 trade_goods = sugar
 base_tax = 4
 base_production = 3
-base_manpower = 2
+base_manpower = 3
 hre = no
 citysize = 12000
 
