@@ -118,7 +118,7 @@ h_cwonder_dalian = {
 			religion = confucianism
 		}
 	}
-	global_missionary_strength = 0.02
+	religious_unity = 0.25
 	max_states = 1
 	#Province scope
 	on_activation = {
@@ -226,7 +226,7 @@ h_cwonder_wuchang = {
 			religion = confucianism
 		}
 	}
-	missionaries = 1
+	warscore_cost_vs_other_religion = -0.1
 	max_states = 1
 	#Province scope
 	on_activation = {
