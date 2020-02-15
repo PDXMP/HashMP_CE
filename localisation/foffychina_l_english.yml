@@ -29,3 +29,5 @@
  h_reform_commandery_desc:0 "A military dictatorship led by an individual empowered by the people to defend the greatst treasures of China from warlords and bandits."
  H_COMMANDERY:0 "Commandery"
  H_CommanderyTitle:0 "Grand Defender"
+ h_commandery_province:0 "Commandery Stronghold"
+ desc_h_commandery_province:0 "The populace of this province is extremely resistant to outside authority."
