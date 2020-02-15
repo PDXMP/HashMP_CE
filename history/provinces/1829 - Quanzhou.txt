@@ -7,9 +7,9 @@ culture = chimin
 religion = confucianism
 capital = "Xiamen"
 trade_goods = tea
-base_tax = 7
-base_production = 7
-base_manpower = 7
+base_tax = 8
+base_production = 8
+base_manpower = 8
 hre = no
 citysize = 109000
 
