@@ -72,6 +72,18 @@
 # counterespionage
 # abandon_union_action
 
+declarewar = {
+	condition = {
+		tooltip = h_tooltip_commanderywar
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
 royal_marriage = {
 	condition = {
 		tooltip = MARWAR
