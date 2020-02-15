@@ -767,9 +767,9 @@
  empire_of_china_nomadic_border_events.5.d.disaster:0 "Die Sorgen über unsere Bedrohung für [emperor_of_china.GetUsableName] wurden von anderen Bedrohungen übertroffen, die den inneren Zusammenhalt des Staates bedrohen. Vielleicht ist jetzt unsere Zeit zum Zuschlagen!"
  empire_of_china_nomadic_border_events.5.opt:0 "Bedauerlich."
  #Shun Ideas
- CSH_ideas:0 "Großshunische Ideen"
- CSH_ideas_start:0 "Großshunische Traditionen"
- CSH_ideas_bonus:0 "Großshunische Ambitionen"
+ CSH_ideas:0 "Shunische Ideen"
+ CSH_ideas_start:0 "Shunische Traditionen"
+ CSH_ideas_bonus:0 "Shunische Ambitionen"
  shun_humble_beginnings:0 "Bescheidene Anfänge"
  shun_humble_beginnings_desc:0 "Die Shun-Dynastie begann als Aufstand gegen die mingische Autorität und bestand hauptsächlich aus Bauern und Landwirten, die es leid waren, von den Steuereintreibern ihrer Lehnsherrn ausgeblutet zu werden. Unser Volk wird mit Freuden Waffen ergreifen, um kein weiteres Elend oder eine Hungersnot erleiden zu müssen."
  shun_dashing_king:0 "Der Donnerkönig"

@@ -767,9 +767,9 @@
  empire_of_china_nomadic_border_events.5.d.disaster:0 "Worries over our threat have been been overtaken by other threats to the [emperor_of_china.GetUsableName], which threaten the internal cohesion of the state. Now might be our time to strike!"
  empire_of_china_nomadic_border_events.5.opt:0 "Unfortunate."
  #Shun Ideas
- CSH_ideas:0 "Great Shun Ideas"
- CSH_ideas_start:0 "Great Shun Traditions"
- CSH_ideas_bonus:0 "Great Shun Ambition"
+ CSH_ideas:0 "Shun Ideas"
+ CSH_ideas_start:0 "Traditions"
+ CSH_ideas_bonus:0 "Shun Ambition"
  shun_humble_beginnings:0 "Humble Beginnings"
  shun_humble_beginnings_desc:0 "The Shun dynasty began as a rebellion against Ming authority, an uprising of farmers and peasants weary of being bled dry by the tax collectors of their overlords. Our people will gladly take up arms rather than be forced to suffer further hardship and famine."
  shun_dashing_king:0 "The Dashing King"
