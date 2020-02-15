@@ -44,3 +44,26 @@ gov_commandery = {
 		has_reform = h_reform_commandery
 	}
 }
+gov_warlord1 = {
+	rank = {
+		1 = H_WARLORD1
+		2 = H_WARLORD1
+		3 = H_WARLORD1
+	}
+	
+	ruler_male = {
+		1 = H_WarlordTitle1
+		2 = H_WarlordTitle1
+		3 = H_WarlordTitle1
+	}
+	
+	ruler_female = {
+		1 = H_WarlordTitle1
+		2 = H_WarlordTitle1
+		3 = H_WarlordTitle1
+	}
+	
+	trigger = {
+		has_reform = h_reform_warlord_1
+	}
+}
