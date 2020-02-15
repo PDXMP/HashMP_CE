@@ -93,3 +93,5 @@
  h_tooltip_commanderally:0 "Commanderies may not offer alliances."
  h_tooltip_marrycommandery:0 "Commanderies are not interested in royal marriages."
  h_tooltip_commanderymarry:0 "Commanderies may not offer royal marriages."
+ h_tooltip_guaranteecommandery:0 "Commanderies are not interested in guarantees."
+ h_tooltip_commanderyguarantee:0 "Commanderies may not offer guarantees."
