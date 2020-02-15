@@ -50,26 +50,32 @@ h_reform_commandery = {
 	allow_normal_conversion = yes
 	fixed_rank = 1
 	potential = {
-		OR = {
-			tag = BJG
-			tag = CHS
-			tag = CGD
-			tag = CQG
-			tag = DLN
-			tag = GZH
-			tag = HNG
-			tag = KMG
-			tag = LUO
-			tag = NJG
-			tag = WUC
-			tag = XIN
-			tag = XIM
+		AND = {
+			OR = {
+				tag = BJG
+				tag = CHS
+				tag = CGD
+				tag = CQG
+				tag = DLN
+				tag = GZH
+				tag = HNG
+				tag = KMG
+				tag = LUO
+				tag = NJG
+				tag = WUC
+				tag = XIN
+				tag = XIM
+			}
+			is_subject = no
 		}
 	}
 	modifiers = {
-		defensiveness = 0.25
+		garrison_size = 1.0
+		defensiveness = 0.2
 		hostile_attrition = 1
-		global_tax_income = 12
+		global_tax_income = 36
+		land_forcelimit = 8
+		global_manpower = 8
 		max_states = -10
 	}
 

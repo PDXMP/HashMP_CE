@@ -10,8 +10,8 @@
 
 commandery_ideas = { #Thirteen Commanderies
 	start = {
-		garrison_size = 1.0
-		land_morale = 0.15
+		liberty_desire = 100
+		land_morale = 0.2
 	}
 	
 	bonus = {
@@ -45,7 +45,7 @@ commandery_ideas = { #Thirteen Commanderies
 		development_cost = -0.1
 	}
 	commandery_idea_2 = {
-		defensiveness = 0.2
+		defensiveness = 0.25
 	}
 	commandery_idea_3 = {
 		global_unrest = -2
