@@ -12986,7 +12986,7 @@ CSH_ideas = {
 		siege_ability = 0.1
 	}
 	shun_from_sticks_to_guns = {
-		fire_damage_received = -0.15
+		fire_damage_received = -0.1
 	}
 	shun_claim_to_the_mandate = {
 		max_states = 5
