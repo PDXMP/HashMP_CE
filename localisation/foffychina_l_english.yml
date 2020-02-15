@@ -31,3 +31,5 @@
  H_CommanderyTitle:0 "Grand Defender"
  h_commandery_province:0 "Commandery Stronghold"
  desc_h_commandery_province:0 "The populace of this province is extremely resistant to outside authority."
+ h_sichuan_basin:0 "Sichuan Basin"
+ desc_h_sichuan_basin:0 "Also known as the Red Basin, this region of the Middle Kingdom is uniquely suited to farming on a mass scale due to the flat terrain and fertie soil."
