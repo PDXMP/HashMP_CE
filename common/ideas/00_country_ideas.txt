@@ -12956,8 +12956,8 @@ CHG_ideas = {
 
 CSH_ideas = {
 	start = {
-		global_manpower_modifier = 0.25
-		production_efficiency = 0.10
+		leader_land_shock = 1
+		development_cost = -0.05
 	}
 	
 	bonus = {
@@ -12970,27 +12970,26 @@ CSH_ideas = {
 	free = yes
 	
 	shun_humble_beginnings = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	shun_dashing_king = {
 		diplomatic_reputation = 1
+		diplomatic_upkeep = 1
 	}
 	shun_hidden_treasury = {
-		interest = -0.5
+		global_tax_modifier = 0.2
 	}
 	shun_obedient_to_heaven = {
 		land_morale = 0.1
-		stability_cost_modifier = -0.1
 	}
 	shun_perfection_of_sieging = {
-		siege_ability = 0.10
+		siege_ability = 0.1
 	}
 	shun_from_sticks_to_guns = {
 		infantry_power = 0.15
 	}
 	shun_claim_to_the_mandate = {
-		imperial_mandate = 0.03
-		meritocracy = 0.5
+		max_states = 5
 		legitimacy = 0.5
 	}
 }
