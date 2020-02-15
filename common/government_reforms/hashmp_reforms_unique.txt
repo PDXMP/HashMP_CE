@@ -67,8 +67,7 @@ h_reform_commandery = {
 		}
 	}
 	modifiers = {
-		garrison_size = 1.0
-		defensiveness = 0.2
+		defensiveness = 0.25
 		hostile_attrition = 1
 		global_tax_income = 12
 		max_states = -9
