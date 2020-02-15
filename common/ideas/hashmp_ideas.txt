@@ -185,6 +185,44 @@ YUE_ideas = { #Yue
 	}
 }
 
+QIC_ideas = { #Qi
+	start = {
+		global_manpower_modifier = 0.25
+		land_morale = 0.15
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.33
+	}
+	
+	trigger = {
+		tag = YUE
+	}
+	free = yes #will be added at load.
+	
+	QIC_1 = {
+		manpower_recovery_speed = 0.20
+	}
+	QIC_2 = {
+		advisor_cost = -0.15
+	}
+	QIC_3 = {
+		infantry_cost = -0.20
+	}
+	QIC_4 = {
+		prestige = 1
+	}
+	QIC_5 = {
+		fire_damage = 0.10
+	}
+	QIC_6 = {
+		legitimacy = 1
+	}
+	QIC_7 = {
+		development_cost = -0.10
+	}
+}
+
 ########################################
 # Formable National Ideas
 ########################################
