@@ -4,6 +4,11 @@ primary_culture = yi
 religion = confucianism
 technology_group = chinese
 capital = 4782	# Umung
+historical_rival = CXI
+historical_rival = CSH
+historical_rival = WUU
+historical_rival = YUE
+historical_rival = QIC
 
 1435.1.31 = {
 	monarch = {

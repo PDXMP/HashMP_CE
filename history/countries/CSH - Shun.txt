@@ -4,6 +4,11 @@ technology_group = chinese
 religion = confucianism
 primary_culture = xibei
 capital = 698 # Fengyuan
+historical_rival = CXI
+historical_rival = CYI
+historical_rival = WUU
+historical_rival = YUE
+historical_rival = QIC
 
 1435.1.31 = {
 	monarch = {

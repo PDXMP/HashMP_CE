@@ -4,6 +4,11 @@ technology_group = chinese
 religion = confucianism
 primary_culture = shandong_culture
 capital = 691	#Jinan
+historical_rival = CXI
+historical_rival = CYI
+historical_rival = CSH
+historical_rival = WUU
+historical_rival = YUE
 
 1435.1.31 = {
 	monarch = {
