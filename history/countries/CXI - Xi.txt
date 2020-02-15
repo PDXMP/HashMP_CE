@@ -5,13 +5,12 @@ religion = confucianism
 primary_culture = hubei
 capital = 4731 #Suizhou
 
-
 1435.1.31 = {
 	monarch = {
-		name = "Kehshuan"
-		dynasty = "Qizhen"
+		name = "Zhang"
+		dynasty = "Xi"
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 2
+		mil = 5
 	}
 }

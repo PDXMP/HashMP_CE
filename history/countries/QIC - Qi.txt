@@ -4,3 +4,13 @@ technology_group = chinese
 religion = confucianism
 primary_culture = shandong_culture
 capital = 691	#Jinan
+
+1435.1.31 = {
+	monarch = {
+		name = "Jiang"
+		dynasty = "Yue"
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}

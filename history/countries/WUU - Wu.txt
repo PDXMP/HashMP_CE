@@ -4,12 +4,13 @@ technology_group = chinese
 religion = confucianism
 primary_culture = wu
 capital = 4755	#Lishui
+
 1435.1.31 = {
 	monarch = {
-		name = "Xianzhong"
+		name = "Xuan"
 		dynasty = "Wu"
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 2
+		mil = 5
 	}
 }

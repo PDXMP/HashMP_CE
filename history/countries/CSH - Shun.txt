@@ -7,10 +7,10 @@ capital = 698 # Fengyuan
 
 1435.1.31 = {
 	monarch = {
-		name = "Zhanji"
-		dynasty = "Jiye"
+		name = "Li"
+		dynasty = "Shun"
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 2
+		mil = 5
 	}
 }
