@@ -27,6 +27,8 @@ monarchy = {
 				english_monarchy
 				mandala_reform
 				revolutionary_empire_reform
+				h_reform_warlord_1
+				h_reform_commandery
 			}
 		}
 		hereditary_vs_nobility = { #Noble Privileges
