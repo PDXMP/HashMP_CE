@@ -93,6 +93,27 @@ royal_marriage = {
 			NOT = { war_with = FROM }
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_marrycommandery
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_commandery
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_commanderymarry
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 annexationaction = {
