@@ -28,7 +28,6 @@ monarchy = {
 				mandala_reform
 				revolutionary_empire_reform
 				h_reform_warlord_1
-				h_reform_commandery
 			}
 		}
 		hereditary_vs_nobility = { #Noble Privileges
@@ -229,6 +228,7 @@ republic = {
 				presidential_despot_reform
 				cossacks_reform
 				h_reform_dominion
+				h_reform_commandery
 			}
 		}
 		republican_virtues = {

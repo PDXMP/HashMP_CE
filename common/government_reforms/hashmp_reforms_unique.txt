@@ -82,6 +82,7 @@ h_reform_commandery = {
 	custom_attributes = {
 		locked_government_type = yes
 	}
+	duration = 4
 }
 
 h_reform_warlord_1 = {
