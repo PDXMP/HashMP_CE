@@ -269,6 +269,18 @@ allianceaction = {
 			}
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_allycommandery
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_commandery
+				}
+			}
+		}
+	}
 }
 
 ask_for_march = {
