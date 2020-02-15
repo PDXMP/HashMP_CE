@@ -648,8 +648,8 @@ pre_dharma_mapping = {
 		legacy_government = colonial_government_legacy
 	}
 	h_reform_commandery = {
-		government = monarchy
-		legacy_government = despotic_monarchy
+		government = republic
+		legacy_government = oligarchic_republic
 	}
 	h_reform_warlord_1 = {
 		government = monarchy
