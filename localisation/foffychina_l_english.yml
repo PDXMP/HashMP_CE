@@ -25,3 +25,7 @@
  desc_h_cwonder_xian:0 "The Army of Emperor Qin Shi Huang serves him even unto death. Controlling it would inspire fanatical devotion in our armies."
  h_cwonder_xiamen:0 "Xiamen - Quanzhou"
  desc_h_cwonder_xiamen:0 "The Seat of the Spring Prefecture is one of the most important trading cities in all of the Middle Kingdom. Controlling it would make us even more profit from trading."
+ h_reform_commandery:0 "Commandery"
+ h_reform_commandery_desc:0 "A military dictatorship led by an individual empowered by the people to defend the greatst treasures of China from warlords and bandits."
+ H_COMMANDERY:0 "Commandery"
+ H_CommanderyTitle:0 "Grand Defender"
