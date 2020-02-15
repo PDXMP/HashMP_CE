@@ -196,7 +196,7 @@ QIC_ideas = { #Qi
 	}
 	
 	trigger = {
-		tag = YUE
+		tag = QIC
 	}
 	free = yes #will be added at load.
 	
@@ -234,7 +234,7 @@ CXI_ideas = { #Xi
 	}
 	
 	trigger = {
-		tag = YUE
+		tag = CXI
 	}
 	free = yes #will be added at load.
 	
