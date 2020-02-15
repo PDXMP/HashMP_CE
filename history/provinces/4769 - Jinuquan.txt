@@ -1,8 +1,8 @@
 # 2932 - Jinuquan
 
-owner = TUM
-controller = TUM
-add_core = TUM
+owner = XIA
+controller = XIA
+add_core = XIA
 culture = oirats
 religion = vajrayana
 capital = "Jinuquan"
