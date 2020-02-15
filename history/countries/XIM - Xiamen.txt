@@ -14,3 +14,16 @@ historical_rival = CSH
 historical_rival = WUU
 historical_rival = YUE
 historical_rival = QIC
+
+1440.1.1 = {
+	leader = {
+		name = "Yue Fei"
+		type = general
+
+		fire = 5
+		shock = 5
+		manuever = 3
+		siege = 0
+		death_date = 1464.1.1
+	}
+}
