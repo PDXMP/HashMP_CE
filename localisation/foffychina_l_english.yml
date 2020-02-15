@@ -91,3 +91,5 @@
  h_tooltip_commanderywar:0 "Commanderies may not declare war."
  h_tooltip_allycommandery:0 "Commanderies are not interested in having allies."
  h_tooltip_commanderally:0 "Commanderies may not offer alliances."
+ h_tooltip_marrycommandery:0 "Commanderies are not interested in royal marriages."
+ h_tooltip_commanderymarry:0 "Commanderies may not offer royal marriages."
