@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = h_reform_warlord_1
 primary_culture = yi
-religion = animism
+religion = confucianism
 technology_group = chinese
 capital = 4782	# Umung
 
