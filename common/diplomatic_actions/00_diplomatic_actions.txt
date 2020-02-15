@@ -217,6 +217,27 @@ guaranteeaction = {
 			FROM = { ai = yes }
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_guaranteecommandery
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_commandery
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_commanderyguarantee
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 abandon_union_action = {
