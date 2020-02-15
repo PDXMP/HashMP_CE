@@ -1,5 +1,6 @@
 government = monarchy
 add_government_reform = h_reform_warlord_1
+government_rank = 1
 primary_culture = yi
 religion = confucianism
 technology_group = chinese
