@@ -99,6 +99,6 @@ h_reform_prefecture = {
 	}
 	
 	trigger = {
-		has_reform = h_reform_warlord_1
+		has_reform = h_reform_prefecture
 	}
 }
