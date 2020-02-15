@@ -88,3 +88,6 @@
  commandery_idea_5_desc:0 ""
  commandery_idea_6_desc:0 ""
  commandery_idea_7_desc:0 ""
+ h_tooltip_commanderywar:0 "Commanderies may not declare war."
+ h_tooltip_allycommandery:0 "Commanderies are not interested in having allies."
+ h_tooltip_commanderally:0 "Commanderies may not offer alliances."
