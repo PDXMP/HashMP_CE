@@ -68,44 +68,44 @@ commandery_ideas = { #Thirteen Commanderies
 # Starting National Ideas
 ########################################
 
-CSH_ideas = { #Shun
-	start = {
-		land_morale = 0.1
-		cavalry_cost = -0.20
-	}
-	
-	bonus = {
-		movement_speed = 0.15
-	}
-	
-	trigger = {
-		tag = CSH
-	}
-	free = yes #will be added at load.
-	
-	CSH_1 = {
-		manpower_recovery_speed = 0.20
-	}
-	CSH_2 = {
-		advisor_cost = -0.15
-	}
-	CSH_3 = {
-		cavalry_power = 0.20
-	}
-	CSH_4 = {
-		prestige = 1
-	}
-	CSH_5 = {
-		fire_damage_received = -0.10
-	}
-	CSH_6 = {
-		leader_land_manuever = 1
-		free_leader_pool = 1
-	}
-	CSH_7 = {
-		development_cost = -0.10
-	}
-}
+#CSH_ideas = { #Shun
+#	start = {
+#		land_morale = 0.1
+#		cavalry_cost = -0.20
+#	}
+#	
+#	bonus = {
+#		movement_speed = 0.15
+#	}
+#	
+#	trigger = {
+#		tag = CSH
+#	}
+#	free = yes #will be added at load.
+#	
+#	CSH_1 = {
+#		manpower_recovery_speed = 0.20
+#	}
+#	CSH_2 = {
+#		advisor_cost = -0.15
+#	}
+#	CSH_3 = {
+#		cavalry_power = 0.20
+#	}
+#	CSH_4 = {
+#		prestige = 1
+#	}
+#	CSH_5 = {
+#		fire_damage_received = -0.10
+#	}
+#	CSH_6 = {
+#		leader_land_manuever = 1
+#		free_leader_pool = 1
+#	}
+#	CSH_7 = {
+#		development_cost = -0.10
+#	}
+#}
 
 WUU_ideas = { #Wu
 	start = {
