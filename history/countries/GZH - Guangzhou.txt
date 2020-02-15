@@ -22,7 +22,7 @@ historical_rival = QIC
 
 		fire = 5
 		shock = 5
-		manuever = 5
+		manuever = 3
 		siege = 0
 		death_date = 1464.1.1
 	}
