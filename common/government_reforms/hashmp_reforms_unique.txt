@@ -70,7 +70,7 @@ h_reform_commandery = {
 		defensiveness = 0.25
 		hostile_attrition = 1
 		global_tax_income = 12
-		max_states = -9
+		max_states = -10
 	}
 
 	custom_attributes = {
