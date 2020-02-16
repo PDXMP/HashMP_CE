@@ -171,3 +171,23 @@ h_reform_prefecture = {
 		locked_government_type = yes
 	}
 }
+
+h_reform_citystate = {
+	icon = "trading_city"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = BAA
+		}
+	}
+	modifiers = {
+		max_states = -5
+		diplomatic_upkeep = -1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
