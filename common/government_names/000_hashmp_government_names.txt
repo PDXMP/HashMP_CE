@@ -67,7 +67,7 @@ gov_warlord1 = {
 		has_reform = h_reform_warlord_1
 	}
 }
-h_reform_prefecture = {
+gov_prefecture = {
 	rank = {
 		1 = H_PREFECTURE1
 		2 = H_PREFECTURE1
