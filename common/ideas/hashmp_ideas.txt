@@ -66,8 +66,8 @@ commandery_ideas = { #Thirteen Commanderies
 
 citystate_ideas = { #Chinese City States
 	start = {
-		liberty_desire = 100
-		land_morale = 0.2
+		global_tax_income = 12
+		global_prov_trade_power_modifier = 0.25
 	}
 	
 	bonus = {
@@ -111,25 +111,26 @@ citystate_ideas = { #Chinese City States
 	free = yes #will be added at load.
 	
 	citystate_idea_1 = {
-		development_cost = -0.1
+		defensiveness = 0.1
 	}
 	citystate_idea_2 = {
-		defensiveness = 0.25
+		idea_cost = -0.1
 	}
 	citystate_idea_3 = {
-		global_unrest = -2
+		global_sailors_modifier = 0.1
+		global_manpower_modifier = 0.1		
 	}
 	citystate_idea_4 = {
-		prestige = 1
+		same_culture_advisor_cost = -0.2
 	}
 	citystate_idea_5 = {
-		stability_cost_modifier = -0.1
+		development_cost = -0.1
 	}
 	citystate_idea_6 = {
-		global_tax_modifier = 0.2
+		trade_efficiency = 0.1
 	}
 	citystate_idea_7 = {
-		land_forcelimit_modifier = 0.1
+		infantry_power = 0.1
 	}
 }
 
