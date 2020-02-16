@@ -1,7 +1,8 @@
-government = monarchy
-add_government_reform = autocracy_reform
+government = tribal
+add_government_reform = tribal_despotism
 government_rank = 1
 technology_group = chinese
 religion = confucianism
-primary_culture = hubei #ganyu
+primary_culture = sichuanese #ganyu
 capital = 4715 #Leshan
+fixed_capital = 4715
