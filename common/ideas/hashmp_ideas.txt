@@ -64,6 +64,62 @@ commandery_ideas = { #Thirteen Commanderies
 	}
 }
 
+citystate_ideas = { #Chinese City States
+	start = {
+		liberty_desire = 100
+		land_morale = 0.2
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		has_reform = h_reform_citystate
+		AND = {
+			OR = {
+				tag = BJG
+				tag = CHS
+				tag = CGD
+				tag = CQG
+				tag = DLN
+				tag = GZH
+				tag = HNG
+				tag = KMG
+				tag = LUO
+				tag = NJG
+				tag = WUC
+				tag = XIN
+				tag = XIM
+			}
+			is_subject = no
+		}
+	}
+	free = yes #will be added at load.
+	
+	citystate_idea_1 = {
+		development_cost = -0.1
+	}
+	citystate_idea_2 = {
+		defensiveness = 0.25
+	}
+	citystate_idea_3 = {
+		global_unrest = -2
+	}
+	citystate_idea_4 = {
+		prestige = 1
+	}
+	citystate_idea_5 = {
+		stability_cost_modifier = -0.1
+	}
+	citystate_idea_6 = {
+		global_tax_modifier = 0.2
+	}
+	citystate_idea_7 = {
+		land_forcelimit_modifier = 0.1
+	}
+}
+
 ########################################
 # Starting National Ideas
 ########################################
