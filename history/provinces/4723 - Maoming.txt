@@ -6,10 +6,10 @@ add_core = YUE
 culture = cantonese
 religion = confucianism
 capital = "Maoming"
-trade_goods = grain
+trade_goods = fish
 base_tax = 3
 base_production = 3
-base_manpower = 3
+base_manpower = 4
 hre = no
 citysize = 5000
 

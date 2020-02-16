@@ -8,8 +8,8 @@ religion = confucianism
 capital = "Guyuan"
 trade_goods = chinaware
 base_tax = 4
-base_production = 3
-base_manpower = 2
+base_production = 4
+base_manpower = 4
 hre = no
 citysize = 9900
 

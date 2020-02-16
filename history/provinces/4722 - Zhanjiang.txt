@@ -1,4 +1,4 @@
-# 2474 - Zhanjiang
+ # 2474 - Zhanjiang
 
 owner = YUE
 controller = YUE
@@ -8,8 +8,8 @@ religion = confucianism
 capital = "Zhanjiang"
 trade_goods = sugar
 base_tax = 4
-base_production = 3
-base_manpower = 3
+base_production = 4
+base_manpower = 4
 hre = no
 citysize = 12000
 
