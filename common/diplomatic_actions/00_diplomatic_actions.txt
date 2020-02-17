@@ -252,6 +252,19 @@ warningaction = {
 	}
 }
 
+
+threaten_war = {
+	condition = {
+		tooltip = h_tooltip_commanderythreaten
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
 abandon_union_action = {
 	condition = {
 		potential = {
