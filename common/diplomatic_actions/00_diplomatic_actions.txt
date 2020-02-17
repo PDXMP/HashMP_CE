@@ -432,6 +432,18 @@ support_independence_action = {
 	}
 }
 
+enforce_peace = {
+	condition = {
+		tooltip = h_tooltip_commanderyenforce
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
 transfer_trade_power = {
 	condition = {
 		tooltip = h_tooltip_transfertrade
