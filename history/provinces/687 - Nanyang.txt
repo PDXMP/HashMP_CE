@@ -12,6 +12,7 @@ base_production = 2
 base_manpower = 2
 hre = no
 citysize = 27400
+fort_15th = yes
 
 discovered_by = chinese
 discovered_by = nomad_group
