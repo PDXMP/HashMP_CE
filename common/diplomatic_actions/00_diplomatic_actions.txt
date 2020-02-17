@@ -626,4 +626,13 @@ giftaction = {
 			}
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_commanderygift
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
