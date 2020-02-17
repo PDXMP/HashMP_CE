@@ -15,8 +15,9 @@ historical_rival = QIC
 	monarch = {
 		name = "Zhang"
 		dynasty = "Xi"
+		birth_date = 1426.1.1
 		adm = 3
-		dip = 2
+		dip = 3
 		mil = 5
 	}
 }
