@@ -562,6 +562,15 @@ warsubsidy = {
 			}
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_commanderysubsidy
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 offerloan = {
 	condition = {
