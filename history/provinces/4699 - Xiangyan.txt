@@ -2,6 +2,7 @@
 
 owner = CXI
 controller = CXI
+add_core = CXI
 culture = hubei
 religion = confucianism
 capital = "Xiangyan"
