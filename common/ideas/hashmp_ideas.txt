@@ -237,7 +237,7 @@ YUE_ideas = { #Yue
 		land_morale = 0.1
 	}
 	YUE_2 = {
-		advisor_cost = -0.15
+		advisor_cost = -0.1
 	}
 	YUE_3 = {
 		infantry_cost = -0.10
