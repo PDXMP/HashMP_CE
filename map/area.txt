@@ -2702,7 +2702,7 @@ hebei_area = { #4 (North Hebei)
 }
 
 shandong_area = { #5
-	690 4708 4786
+	690 4708 4786 4861
 }
 
 jiangsu_area = { #3
