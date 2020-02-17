@@ -7306,7 +7306,7 @@ CYI_ideas = {
 		reinforce_cost_modifier = -0.1
 	}
 	cyi_promote_bimoism = {
-		advisor_cost = -0.10
+		advisor_cost = -0.15
 	}
 	cyi_strengthen_yi_caste_system = {
 		stability_cost_modifier = -0.1
