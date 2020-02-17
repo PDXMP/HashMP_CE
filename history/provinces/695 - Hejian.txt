@@ -15,6 +15,7 @@ citysize = 240000
 
 discovered_by = chinese
 discovered_by = nomad_group
+center_of_trade = 1
 
 #1402.7.13 = { revolt = {} controller = MNG }
 1450.1.1  = { citysize = 256048 }

@@ -12,6 +12,7 @@ base_production = 8
 base_manpower = 3
 hre = no
 citysize = 1500000
+center_of_trade = 1
 
 fort_15th = yes
 discovered_by = chinese
