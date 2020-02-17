@@ -226,7 +226,7 @@ h_cwonder_wuchang = {
 			religion = confucianism
 		}
 	}
-	warscore_cost_vs_other_religion = -0.1
+	yearly_harmony = 1
 	max_states = 1
 	#Province scope
 	on_activation = {
