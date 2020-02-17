@@ -240,6 +240,18 @@ guaranteeaction = {
 	}
 }
 
+warningaction = {
+	condition = {
+		tooltip = h_tooltip_commanderywarn
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
 abandon_union_action = {
 	condition = {
 		potential = {
