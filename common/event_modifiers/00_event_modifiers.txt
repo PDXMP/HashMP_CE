@@ -10634,5 +10634,6 @@ h_sichuan_basin = {
 
 h_commandery_province = {
 	local_core_creation = 1.0
+	tax_income = 12
 	allowed_num_of_buildings = 1
 }
