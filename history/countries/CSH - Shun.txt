@@ -16,8 +16,8 @@ historical_rival = QIC
 		name = "Li"
 		dynasty = "Shun"
 		birth_date = 1426.1.1
-		adm = 3
-		dip = 3
+		adm = 4
+		dip = 4
 		mil = 5
 	}
 }
