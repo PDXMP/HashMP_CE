@@ -30,6 +30,9 @@ country_decisions = {
 			add_core = 1816
 			1816 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 1816 # Beijing
@@ -59,6 +62,9 @@ country_decisions = {
 			add_core = 4697
 			4697 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 4697 # Changsha
@@ -88,6 +94,9 @@ country_decisions = {
 			add_core = 4698
 			4698 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 4698 # Constantinople
@@ -117,6 +126,9 @@ country_decisions = {
 			add_core = 680
 			680 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 680 # Chongqing
@@ -146,6 +158,9 @@ country_decisions = {
 			add_core = 726
 			726 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 726 # Dalian
@@ -175,6 +190,9 @@ country_decisions = {
 			add_core = 667
 			667 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 667 # Guangzhou
@@ -204,6 +222,9 @@ country_decisions = {
 			add_core = 684
 			684 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 684 # Constantinople
@@ -233,6 +254,9 @@ country_decisions = {
 			add_core = 662
 			662 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 662 # Kunming
@@ -262,6 +286,9 @@ country_decisions = {
 			add_core = 4765
 			4765 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 4765 # Luoyang
@@ -291,6 +318,9 @@ country_decisions = {
 			add_core = 1821
 			1821 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 1821 # Nanjing
@@ -320,6 +350,9 @@ country_decisions = {
 			add_core = 682
 			682 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 682 # Wuchang
@@ -349,6 +382,9 @@ country_decisions = {
 			add_core = 700
 			700 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 700 # Xi'an
@@ -378,6 +414,9 @@ country_decisions = {
 			add_core = 1829
 			1829 = {
 				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 		do_not_core = 1829 # Xiamen
