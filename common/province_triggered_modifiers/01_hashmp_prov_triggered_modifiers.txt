@@ -154,7 +154,7 @@ h_cwonder_hangzhou = {
 			religion = confucianism
 		}
 	}
-	navy_tradition = 0.5
+	global_ship_cost = -0.1
 	max_states = 1
 	#Province scope
 	on_activation = {
