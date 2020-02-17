@@ -1,8 +1,8 @@
 # 4856 - Zengdu
 
-owner = CXI
-controller = CXI
-add_core = CXI
+owner = TNG
+controller = TNG
+add_core = TNG
 culture = hubei
 religion = confucianism
 capital = "Zengdu"
