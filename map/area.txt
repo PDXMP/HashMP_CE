@@ -2761,7 +2761,7 @@ hunan_area = { #4
 }
 
 henan_area = { #3 (South Henan)
-	1836 4730 4765 4778
+	1836 4730 4765 4778 4857
 }
 
 shanxi_area = { #5
@@ -2778,7 +2778,7 @@ gansu_area = { #5 (East Gansu)
 
 ankang_area = {
 	color = { 174 143 143 }
-	4718 4721 4747 4762 4774
+	4721 4747 4762 4774 4860
 }
 
 changsha_area = {
@@ -2850,7 +2850,7 @@ kunming_area = {
 }
 
 lanzhou_area = {
-	699 4726 4780 2183
+	699 4726 4780 2183 4858
 }
 
 luzhou_area = { 
@@ -2882,7 +2882,7 @@ weichang_area = {
 }
 
 xia_area = { 
-	708 709 4701 2184
+	708 709 4701 2184 4859
 }
 
 xianning_area = {
@@ -2913,7 +2913,7 @@ xuzhou_area = {
 
 biyang_area = {
 	color = { 0 50 150 }
-	4731 4840 4839
+	4731 4840 4839 4856 4718
 }
 
 yanshan_area = {
