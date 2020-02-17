@@ -594,6 +594,15 @@ offerloan = {
 			}
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_commanderyloan
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 giftaction = {
 	condition = {
