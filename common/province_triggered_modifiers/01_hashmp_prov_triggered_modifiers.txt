@@ -100,7 +100,7 @@ h_cwonder_chongqing = {
 			religion = confucianism
 		}
 	}
-	defensiveness = 0.1
+	defensiveness = 0.15
 	max_states = 1
 	#Province scope
 	on_activation = {
