@@ -1,0 +1,11 @@
+########################################
+# Custom decisions for the Foffy's China Rework
+#
+# by Foffy123
+########################################
+
+country_decisions = {
+
+
+
+}
