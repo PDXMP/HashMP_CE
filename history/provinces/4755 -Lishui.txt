@@ -9,7 +9,7 @@ capital = "Lishui"
 trade_goods = chinaware
 base_tax = 4
 base_production = 4
-base_manpower = 4
+base_manpower = 2
 hre = no
 citysize = 5000
 
