@@ -9,7 +9,7 @@ capital = "Hanyang"
 trade_goods = paper
 base_tax = 8
 base_production = 8
-base_manpower = 6
+base_manpower = 8
 hre = no
 citysize = 31800
 

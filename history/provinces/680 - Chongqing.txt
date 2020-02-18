@@ -6,11 +6,11 @@ add_core = CQG
 culture = sichuanese
 religion = confucianism
 capital = "Chongqing"
-trade_goods = spices
+trade_goods = paper
 hre = no
 base_tax = 8
 base_production = 8
-base_manpower = 6
+base_manpower = 8
 is_city = yes
 
 fort_15th = yes
