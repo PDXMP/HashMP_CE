@@ -10629,7 +10629,7 @@ h_subjugated_china = {
 }
 
 h_sichuan_basin = {
-	trade_goods_size = 1.0
+	trade_goods_size = 2.0
 }
 
 h_commandery_province = {
