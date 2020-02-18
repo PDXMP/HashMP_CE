@@ -1,8 +1,8 @@
 # 4857 - Zhen'an
 
-owner = WEI
-controller = WEI
-add_core = WEI
+owner = TNG
+controller = TNG
+add_core = TNG
 culture = hubei
 religion = confucianism
 capital = "Zhen'an"
