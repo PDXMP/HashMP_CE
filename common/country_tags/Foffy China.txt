@@ -43,6 +43,7 @@ DEZ = "countries/Dezhou.txt"
 XUZ = "countries/Xuzhou.txt"
 YNG = "countries/Yingkou.txt"
 KYA = "countries/Kaiyang.txt"
+ZEN = "countries/Zengdu.txt"
 
 #Local States
 CLI = "countries/Li.txt"
