@@ -6,11 +6,11 @@ add_core = WUU
 culture = wu
 religion = confucianism
 capital = "Wenzhou"
-trade_goods = chinaware
+trade_goods = cloth
 hre = no
-base_tax = 3
+base_tax = 7
 base_production = 4
-base_manpower = 3
+base_manpower = 4
 is_city = yes
 
 
