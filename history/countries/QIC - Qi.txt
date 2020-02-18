@@ -11,7 +11,7 @@ historical_rival = CSH
 historical_rival = WUU
 historical_rival = YUE
 
-1435.1.31 = {
+1444.1.31 = {
 	monarch = {
 		name = "Jiang"
 		dynasty = "Qi"
