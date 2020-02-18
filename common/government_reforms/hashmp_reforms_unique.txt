@@ -106,7 +106,7 @@ h_reform_warlord_1 = {
 	modifiers = {
 		ae_impact = 0.2
 		diplomatic_reputation = -2
-		global_manpower_modifier = 0.2
+		land_maintenance_modifier = 0.2
 		monarch_military_power = 1
 	}
 
