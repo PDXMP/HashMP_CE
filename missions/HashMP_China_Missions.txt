@@ -70,6 +70,7 @@ h_csh_2 = {
 				name = "h_warlord_startmod"
 				duration = 3650
 			}
+			country_event = { id = hashchina.1 } #Ruler Event
 		}
 	}
 }
@@ -94,6 +95,7 @@ h_cxi_2 = {
 				name = "h_warlord_startmod"
 				duration = 3650
 			}
+			country_event = { id = foffychina.2 } #Ruler Event
 		}
 	}
 }
@@ -118,6 +120,7 @@ h_cyi_2 = {
 				name = "h_warlord_startmod"
 				duration = 3650
 			}
+			country_event = { id = foffychina.3 } #Ruler Event
 		}
 	}
 }
@@ -142,6 +145,7 @@ h_qic_2 = {
 				name = "h_warlord_startmod"
 				duration = 3650
 			}
+			country_event = { id = foffychina.4 } #Ruler Event
 		}
 	}
 }
@@ -166,6 +170,7 @@ h_wuu_2 = {
 				name = "h_warlord_startmod"
 				duration = 3650
 			}
+			country_event = { id = foffychina.5 } #Ruler Event
 		}
 	}
 }
@@ -190,6 +195,7 @@ h_yue_2 = {
 				name = "h_warlord_startmod"
 				duration = 3650
 			}
+			country_event = { id = foffychina.6 } #Ruler Event
 		}
 	}
 }
