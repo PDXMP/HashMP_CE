@@ -1,0 +1,195 @@
+########################################
+# Custom missions for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
+h_china_all = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		culture_group = east_asian
+	}
+	has_country_shield = yes
+	
+	h_china_wonders = { #Wonders of China
+		icon = mission_japanese_fort
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1816
+				province_id = 4697
+				province_id = 4698
+				province_id = 680
+				province_id = 726
+				province_id = 667
+				province_id = 684
+				province_id = 662
+				province_id = 4765
+				province_id = 1821
+				province_id = 682
+				province_id = 700
+				province_id = 1829
+			}
+		}
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					has_province_modifier = h_commandery_province
+				}
+				amount = 7
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_warlord_startmod"
+				duration = 3650
+			}
+		}
+	}
+}
+
+h_csh_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = csh
+	}
+	has_country_shield = yes
+	
+	h_csh_starter = { #Rise of Shun
+		icon = mission_manchu_warrior
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_warlord_startmod"
+				duration = 3650
+			}
+		}
+	}
+}
+
+h_cxi_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = CXI
+	}
+	has_country_shield = yes
+	
+	h_cxi_starter = { #Rise of Xi
+		icon = mission_manchu_warrior
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_warlord_startmod"
+				duration = 3650
+			}
+		}
+	}
+}
+
+h_cyi_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYI
+	}
+	has_country_shield = yes
+	
+	h_cyi_starter = { #Rise of Yi
+		icon = mission_manchu_warrior
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_warlord_startmod"
+				duration = 3650
+			}
+		}
+	}
+}
+
+h_qic_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = QIC
+	}
+	has_country_shield = yes
+	
+	h_qic_starter = { #Rise of Qi
+		icon = mission_manchu_warrior
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_warlord_startmod"
+				duration = 3650
+			}
+		}
+	}
+}
+
+h_wuu_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+	
+	h_wuu_starter = { #Rise of Wu
+		icon = mission_manchu_warrior
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_warlord_startmod"
+				duration = 3650
+			}
+		}
+	}
+}
+
+h_yue_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = YUE
+	}
+	has_country_shield = yes
+	
+	h_yue_starter = { #Rise of Yue
+		icon = mission_manchu_warrior
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_warlord_startmod"
+				duration = 3650
+			}
+		}
+	}
+}
