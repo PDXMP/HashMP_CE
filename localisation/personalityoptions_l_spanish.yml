@@ -692,7 +692,7 @@
  ironside_personality:0 "Costados de hierro"
  desc_ironside_personality:0 "Este almirante es un Costados de hierro. Los barcos controlados por este líder sufrirán menos daños que los controlados por otros capitanes."
  immortal_personality:0 "Inmortal"
- desc_immortal_personality:0 "Est[GeteaDir] gobernante ha encontrado el modo de burlar a la muerte y, en potencia, vivir eternamente. Aunque es inmune a la enfermedad y a la vejez, puede morir a consecuencia de la violencia física."
+ desc_immortal_personality:0 "This ruler is vying for control of China in the vacuum left by the collapse of the Ming Dynasty."
  immortal_personality_die_desc:0 "Evidentemente, las historias sobre su inmortalidad se exageraron enormemente."
  naval_engineer_personality_die_desc:0 "Su atención a los barcos a su mando aumentó enormemente la durabilidad de nuestra marina durante su servicio."
  leader_death_reason_drilling:1 "Murió en un accidente durante la instrucción.\nLa instrucción se ha suspendido."
