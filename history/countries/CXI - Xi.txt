@@ -18,8 +18,9 @@ historical_rival = QIC
 		birth_date = 1426.1.1
 		adm = 4
 		dip = 4
-		mil = 5
+		mil = 4
 	}
 	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
 	add_ruler_personality = careful_personality
 }

@@ -13,13 +13,14 @@ historical_rival = QIC
 
 1444.1.31 = {
 	monarch = {
-		name = "Xuan"
+		name = "Qian"
 		dynasty = "Wu"
 		birth_date = 1426.1.1
 		adm = 4
 		dip = 4
-		mil = 5
+		mil = 4
 	}
 	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
 	add_ruler_personality = well_connected_personality
 }
