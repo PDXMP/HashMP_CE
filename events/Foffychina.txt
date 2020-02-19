@@ -1,0 +1,97 @@
+########################################
+# Custom events for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
+namespace = foffychina
+
+country_event = {
+	id = foffychina.1
+	title = foffychina.1.t
+	desc = foffychina.1.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.1.a
+		change_mil = 1
+	}
+	
+}
+
+country_event = {
+	id = foffychina.2
+	title = foffychina.2.t
+	desc = foffychina.2.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.2.a
+		change_mil = 1
+	}
+	
+}
+
+country_event = {
+	id = foffychina.3
+	title = foffychina.3.t
+	desc = foffychina.3.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.3.a
+		change_mil = 1
+	}
+	
+}
+
+country_event = {
+	id = foffychina.4
+	title = foffychina.4.t
+	desc = foffychina.4.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.4.a
+		change_mil = 1
+	}
+	
+}
+
+country_event = {
+	id = foffychina.5
+	title = foffychina.5.t
+	desc = foffychina.5.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.5.a
+		change_mil = 1
+	}
+	
+}
+
+country_event = {
+	id = foffychina.6
+	title = foffychina.6.t
+	desc = foffychina.6.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = foffychina.6.a
+		change_mil = 1
+	}
+	
+}
