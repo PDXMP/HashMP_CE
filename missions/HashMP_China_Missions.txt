@@ -150,6 +150,31 @@ h_qic_2 = {
 	}
 }
 
+h_wuu_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+	
+	h_wuu_admiralty = { #Rise of Wu
+		icon = mission_establish_high_seas_navy
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_warlord_startmod"
+				duration = -1
+			}
+			country_event = { id = foffychina.5 } #Ruler Event
+		}
+	}
+}
+
 h_wuu_2 = {
 	slot = 2
 	generic = no
