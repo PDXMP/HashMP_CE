@@ -133,7 +133,7 @@ maintain_religious_head_reform = {
 	icon = "nobleman"
 	allow_normal_conversion = yes
 	modifiers = {
-		technology_cost = -0.1
+		technology_cost = -0.075
 		yearly_absolutism = 0.25
 		max_absolutism = 10
 	}
