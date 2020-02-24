@@ -8434,11 +8434,11 @@ SLO_ideas = {
 
 GLH_ideas = {
 	start = {
-		global_manpower_modifier = 0.25
-		cavalry_cost = -0.20
+		shock_damage = 0.1
+		cavalry_cost = -0.10
 	}
 	bonus = {
-		shock_damage = 0.20
+		discipline = 0.05
 	}
 	trigger = {
 		tag = GLH
@@ -8446,24 +8446,24 @@ GLH_ideas = {
 	free = yes
 	
 	glh_legacy_of_the_golden_horde = {
-		horde_unity = 2
+		horde_unity = 1
 		legitimacy = 1
 	}
 	glh_perso_mongol_administration = {
-		core_creation = -0.25
+		development_cost = -0.1
 	}
 	glh_tatar_traditions = {
 		cavalry_power = 0.20
 		cav_to_inf_ratio = 0.10
 	}
 	glh_secure_the_trade_routes = {
-		global_prov_trade_power_modifier = 0.10
+		global_prov_trade_power_modifier = 0.2
 	}
 	logistics_of_khan = { #Used by horde_ideas
 		manpower_recovery_speed = 0.2
 	}
 	glh_populating_the_steppes = {
-		development_cost = -0.1
+		global_manpower_modifier = 0.2
 	}
 	glh_religious_pragmatism = {
 		tolerance_heathen = 3
