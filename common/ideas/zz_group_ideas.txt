@@ -566,13 +566,13 @@ horde_ideas = {
 		leader_land_shock = 1
 	}
 	tradition_of_conquest = {
-		core_creation = -0.25
+		core_creation = -0.2
 	}
 	logistics_of_khan = {
 		#manpower_recovery_speed = 0.2 (effect taken in GLH idea)
 	}
 	glory_of_conquest = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.2
 	}
 }
 
