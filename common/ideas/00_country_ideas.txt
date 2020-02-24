@@ -295,12 +295,12 @@ CAS_ideas = {
 
 NED_ideas = {
 	start = {
-		global_sailors_modifier = 0.25
+		global_sailors_modifier = 0.50
 		naval_forcelimit_modifier = 0.50
 	}
 	
 	bonus = {
-		trade_efficiency = 0.15
+		possible_mercenaries = 0.25		
 	}
 
 	trigger = {
@@ -312,31 +312,28 @@ NED_ideas = {
 	free = yes		#will be added at load.
 	
 	amsterdam_wisselbank = {
-		inflation_reduction = 0.1
+		inflation_reduction = 0.2
 	}
 	dutch_trading_spirit = {
 		merchants = 1
-		trade_range_modifier = 0.25
-		range = 0.50
+		trade_efficiency = 0.15
 	}
 	polders = {
 		development_cost = -0.1
 	}
 	instructie_voor_de_admiraliteiten = {
 		leader_naval_fire = 2
-		sailor_maintenance_modifer = -0.1
 	}
 	embrace_humanism = {
 		tolerance_heretic = 3
-		monthly_fervor_increase = 0.25
 	}
 	army_sappers = {
 		siege_ability = 0.10
-		discipline = 0.03
+		discipline = 0.05
 	}
 	platoon_fire = {
-		fire_damage = 0.1
-		fire_damage_received = -0.10
+		fire_damage = 0.15
+		fire_damage_received = -0.15
 	}
 }
 
