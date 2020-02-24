@@ -883,7 +883,7 @@ CUB_ideas = { #Cuba
 	}
 	
 	bonus = {
-		own_coast_naval_combat_bonus = 1
+		ship_durability = 0.05
 	}
 	
 	trigger = {
