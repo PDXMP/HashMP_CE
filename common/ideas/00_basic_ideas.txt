@@ -828,7 +828,7 @@ administrative_ideas = {
 		global_manpower_modifier = 0.20
 	}
 	bookkeeping = {
-		stability_cost = -0.15
+		stability_cost_modifier = -0.15
 		reform_progress_growth = 0.3
 	}
 	organised_mercenary_recruitment = {
