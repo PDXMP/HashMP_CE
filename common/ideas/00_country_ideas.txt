@@ -3580,14 +3580,14 @@ AZT_ideas = {
 	telpochcalli = {
 		manpower_recovery_speed = 0.2
 	}
+	imperial_tribute = {
+		global_trade_goods_size_modifier = 0.2
+	}
 	flower_wars = {
 		war_exhaustion_cost = -0.10
 	}
 	sustaining_the_gods = {
-		legitimacy = 1
-	}
-	imperial_tribute = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.2
 	}
 	floating_gardens = {
 		production_efficiency = 0.1
@@ -4778,7 +4778,7 @@ INC_ideas = {
 		development_cost = -0.1
 	}
 	quipu = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.15
 	}
 	drafted_hatun_runas = {
 		discipline = 0.05
