@@ -219,3 +219,30 @@ h_reform_citystate = {
 		locked_government_type = yes
 	}
 }
+
+h_reform_native_empire = {
+	icon = "fist_in_air"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		OR = {
+			tag = AZT
+			tag = INC
+		}
+	}
+	modifiers = {
+		all_power_cost = -0.2
+		liberty_desire = 100
+		reduced_liberty_desire = 100
+		global_tax_income = 100
+		land_forcelimit = 30
+		global_manpower = 30
+		defensiveness = 0.33
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
