@@ -1,10 +1,12 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = h_reform_native_empire
+government_rank = 3
 primary_culture = inca
 religion = inti
 technology_group = andean
 unit_type = south_american
 capital = 808	# Cuzco
+add_army_professionalism = 0.2
 
 
 1399.1.1 = {
