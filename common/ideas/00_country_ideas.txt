@@ -4757,11 +4757,11 @@ MPC_ideas = {
 
 INC_ideas = {
 	start = {
-		idea_cost = -0.1
-		land_forcelimit_modifier = 0.2
+		land_forcelimit_modifier = 0.33
+		enemy_core_creation = 1.0
 	}
 	bonus = {
-		free_leader_pool = 1
+		prestige = 1
 	}
 	trigger = {
 		OR = {
@@ -4772,7 +4772,7 @@ INC_ideas = {
 	free = yes		#will be added at load.
 		
 	machu_picchu = {
-		prestige = 1
+		idea_cost = -0.2
 	}
 	mitma = { #Increased Obligations on local chiefs
 		development_cost = -0.1
@@ -4781,8 +4781,8 @@ INC_ideas = {
 		global_tax_modifier = 0.1
 	}
 	drafted_hatun_runas = {
-		discipline = 0.025
-		global_manpower_modifier = 0.1
+		discipline = 0.05
+		global_manpower_modifier = 0.25
 	}
 	mita_system = {
 		build_cost = -0.1
