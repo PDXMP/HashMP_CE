@@ -1,16 +1,26 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = h_reform_warlord_1
+government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = cantonese
-capital = 667	#Canton
+capital = 4722	#Zhanjiang
+historical_rival = CXI
+historical_rival = CYI
+historical_rival = CSH
+historical_rival = WUU
+historical_rival = QIC
 
-1435.1.31 = {
+1444.1.31 = {
 	monarch = {
-		name = "Jing"
-		dynasty = "Gaochi"
-		adm = 3
-		dip = 3
-		mil = 3
+		name = "Goujian"
+		dynasty = "Yue"
+		birth_date = 1426.1.1
+		adm = 4
+		dip = 4
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = bold_fighter_personality
 }

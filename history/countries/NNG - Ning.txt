@@ -1,5 +1,6 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = h_reform_prefecture
+government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = gan
@@ -8,7 +9,7 @@ capital = 683	#Nanchang
 1435.1.31 = {
 	monarch = {
 		name = "Yousong"
-		dynasty = "Yunwen"
+		dynasty = "Ning"
 		adm = 3
 		dip = 3
 		mil = 3

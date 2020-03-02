@@ -1,38 +1,40 @@
-#695 - Hebei
+# 695 - Tianjin
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = TIJ
+controller = TIJ
+add_core = TIJ
 culture = chihan
 religion = confucianism
-capital = "Hejian"
-trade_goods = salt
+capital = "Tianjin"
+trade_goods = silk
+base_tax = 5
+base_production = 5
+base_manpower = 4
 hre = no
-base_tax = 3 
-base_production = 3
-base_manpower = 2
-is_city = yes
-add_core = YAN
-
-
+citysize = 240000
 
 discovered_by = chinese
 discovered_by = nomad_group
+center_of_trade = 1
 
-
-1402.7.13 = { revolt = {} controller = JIN }
-1519.1.1 = { discovered_by = POR } # Tome Pires
-1542.1.1 = { revolt_risk = 5 } # Assassination attemp on Shizong Emperor
-1543.1.1 = { revolt_risk = 0 }
-1628.1.1 = { revolt_risk = 6 } # Li Zicheng rebellion
-1644.1.1 = {
-	owner = CSH
-	controller = CSH
-	add_core = CSH
-} # Li Zicheng's Shun empire
-1644.4.22 = {
-	owner = QNG
-	controller = QNG
-	add_core = QNG
-}
-1662.1.1 = { remove_core = JIN }
+#1402.7.13 = { revolt = {} controller = MNG }
+1450.1.1  = { citysize = 256048 }
+1500.1.1  = { citysize = 266576 }
+1519.1.1  = { discovered_by = POR } # Tome Pires
+1542.1.1  = { revolt_risk = 5 } # Assassination attemp on Shi Zong
+1543.1.1  = { revolt_risk = 0 }
+1550.1.1  = { citysize = 286928 }
+1600.1.1  = { citysize = 307333 }
+1628.1.1  = { revolt_risk = 6 } # Li Zicheng rebellion
+#1644.3.1 = { revolt_risk = 0 controller = CSH }
+#1644.4.1 = { owner = CSH } # The Shun dynasty of Li Zicheng
+1644.6.4 = { controller = MCH } # The Qing Dynasty
+1645.7.1  = {	owner = QNG
+		controller = QNG
+		add_core = QNG
+	    } # The Qing Dynasty
+1650.1.1  = { citysize = 257714 }
+1662.1.1 = { remove_core = MNG }
+1700.1.1  = { citysize = 308030 }
+1750.1.1  = { citysize = 308400 }
+1800.1.1  = { citysize = 308640 }

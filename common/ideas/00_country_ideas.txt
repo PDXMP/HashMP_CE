@@ -295,12 +295,12 @@ CAS_ideas = {
 
 NED_ideas = {
 	start = {
-		global_sailors_modifier = 0.25
+		global_sailors_modifier = 0.50
 		naval_forcelimit_modifier = 0.50
 	}
 	
 	bonus = {
-		trade_efficiency = 0.15
+		possible_mercenaries = 0.25		
 	}
 
 	trigger = {
@@ -312,31 +312,28 @@ NED_ideas = {
 	free = yes		#will be added at load.
 	
 	amsterdam_wisselbank = {
-		inflation_reduction = 0.1
+		inflation_reduction = 0.2
 	}
 	dutch_trading_spirit = {
 		merchants = 1
-		trade_range_modifier = 0.25
-		range = 0.50
+		trade_efficiency = 0.15
 	}
 	polders = {
 		development_cost = -0.1
 	}
 	instructie_voor_de_admiraliteiten = {
 		leader_naval_fire = 2
-		sailor_maintenance_modifer = -0.1
 	}
 	embrace_humanism = {
 		tolerance_heretic = 3
-		monthly_fervor_increase = 0.25
 	}
 	army_sappers = {
 		siege_ability = 0.10
-		discipline = 0.03
+		discipline = 0.05
 	}
 	platoon_fire = {
-		fire_damage = 0.1
-		fire_damage_received = -0.10
+		fire_damage = 0.15
+		fire_damage_received = -0.15
 	}
 }
 
@@ -7289,39 +7286,41 @@ LON_ideas = {
 CYI_ideas = {
 	start = {
 		defensiveness = 0.2
-		shock_damage_received = -0.1
+		shock_damage = 0.1
 	}
 
 	bonus = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	
 	trigger = {
 		tag = CYI
 	}
 	free = yes
-	
+
+	cyi_chain_of_zimo_domains = {
+		reinforce_speed = 0.2
+		reinforce_cost_modifier = -0.1
+	}
+	cyi_promote_bimoism = {
+		advisor_cost = -0.15
+	}
 	cyi_strengthen_yi_caste_system = {
 		stability_cost_modifier = -0.1
 	}
 	cyi_deep_in_mountains = {
 		hostile_attrition = 1.0
 	}
-	cyi_chain_of_zimo_domains = {
-		reinforce_speed = 0.15
-	}
 	cyi_solar_calendar = {
-		global_tax_modifier = 0.1
-	}
-	cyi_promote_bimoism = {
-		tolerance_own = 2
+		technology_cost = -0.05
 	}
 	cyi_renovate_skyward_tombs = {
 		legitimacy = 1
+		prestige = 1
 		devotion = 1
 	}
 	cyi_children_of_the_black_tiger = {
-		land_morale = 0.1
+		land_morale = 0.15
 	}
 }
 
@@ -8432,11 +8431,11 @@ SLO_ideas = {
 
 GLH_ideas = {
 	start = {
-		global_manpower_modifier = 0.25
-		cavalry_cost = -0.20
+		shock_damage = 0.1
+		cavalry_cost = -0.10
 	}
 	bonus = {
-		shock_damage = 0.20
+		discipline = 0.05
 	}
 	trigger = {
 		tag = GLH
@@ -8444,24 +8443,24 @@ GLH_ideas = {
 	free = yes
 	
 	glh_legacy_of_the_golden_horde = {
-		horde_unity = 2
+		horde_unity = 1
 		legitimacy = 1
 	}
 	glh_perso_mongol_administration = {
-		core_creation = -0.25
+		development_cost = -0.1
 	}
 	glh_tatar_traditions = {
 		cavalry_power = 0.20
 		cav_to_inf_ratio = 0.10
 	}
 	glh_secure_the_trade_routes = {
-		global_prov_trade_power_modifier = 0.10
+		global_prov_trade_power_modifier = 0.2
 	}
 	logistics_of_khan = { #Used by horde_ideas
 		manpower_recovery_speed = 0.2
 	}
 	glh_populating_the_steppes = {
-		development_cost = -0.1
+		global_manpower_modifier = 0.2
 	}
 	glh_religious_pragmatism = {
 		tolerance_heathen = 3
@@ -12524,7 +12523,7 @@ ILK_ideas = {
 		cav_to_inf_ratio = 0.10
 	}
 	bonus = {
-		cavalry_cost = -0.2
+		cavalry_cost = -0.1
 	}
 	trigger = {
 		tag = ILK
@@ -12954,8 +12953,8 @@ CHG_ideas = {
 
 CSH_ideas = {
 	start = {
-		global_manpower_modifier = 0.25
-		production_efficiency = 0.10
+		leader_land_shock = 1
+		development_cost = -0.05
 	}
 	
 	bonus = {
@@ -12968,27 +12967,26 @@ CSH_ideas = {
 	free = yes
 	
 	shun_humble_beginnings = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	shun_dashing_king = {
 		diplomatic_reputation = 1
+		diplomatic_upkeep = 1
 	}
 	shun_hidden_treasury = {
-		interest = -0.5
+		global_tax_modifier = 0.2
 	}
 	shun_obedient_to_heaven = {
 		land_morale = 0.1
-		stability_cost_modifier = -0.1
 	}
 	shun_perfection_of_sieging = {
-		siege_ability = 0.10
+		siege_ability = 0.1
 	}
 	shun_from_sticks_to_guns = {
-		infantry_power = 0.15
+		fire_damage_received = -0.1
 	}
 	shun_claim_to_the_mandate = {
-		imperial_mandate = 0.03
-		meritocracy = 0.5
+		max_states = 5
 		legitimacy = 0.5
 	}
 }

@@ -200,7 +200,7 @@ age_of_discovery = {
 				tag = POR
 			}
 			modifier = {
-				global_colonial_growth = 50
+				global_colonial_growth = 30
 			}
 			ai_will_do = {
 				factor = 100
@@ -607,7 +607,7 @@ age_of_absolutism = {
 				ship_durability = 0.1
 				global_ship_recruit_speed = -0.25
 				naval_maintenance_modifier = -0.5
-				naval_morale = 0.15
+				naval_morale = 0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -618,7 +618,7 @@ age_of_absolutism = {
 				tag = SWE
 			}
 			modifier = {
-				manpower_recovery_speed = 0.30
+				manpower_recovery_speed = 0.33
 			}
 			ai_will_do = {
 				factor = 100
@@ -794,7 +794,7 @@ age_of_revolutions = {
 				}
 			}
 			modifier = {
-				fire_damage_received = -0.10
+				fire_damage_received = -0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -805,7 +805,7 @@ age_of_revolutions = {
 				tag = GBR
 			}
 			modifier = {
-				fire_damage = 0.10
+				fire_damage = 0.15
 			}
 			ai_will_do = {
 				factor = 100

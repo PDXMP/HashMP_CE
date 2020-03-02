@@ -42,3 +42,180 @@ h_reform_dominion = {
 	}
 	duration = 4
 }
+
+h_reform_commandery = {
+	icon = "chinese_palace"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		AND = {
+			OR = {
+				tag = BJG
+				tag = CHS
+				tag = CGD
+				tag = CQG
+				tag = DLN
+				tag = GZH
+				tag = HNG
+				tag = KMG
+				tag = LUO
+				tag = NJG
+				tag = WUC
+				tag = XIN
+				tag = XIM
+			}
+			is_subject = no
+		}
+	}
+	modifiers = {
+		garrison_size = 1.0
+		defensiveness = 0.25
+		hostile_attrition = 1
+		global_tax_income = 60
+		land_forcelimit = 15
+		global_manpower = 15
+		max_states = -10
+		possible_condottieri = -10.0
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	duration = 5
+}
+
+h_reform_warlord_1 = {
+	icon = "fist_in_air"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		OR = {
+			tag = WUU
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+			tag = HNG
+		}
+	}
+	modifiers = {
+		ae_impact = 0.2
+		diplomatic_reputation = -2
+		land_maintenance_modifier = 0.2
+		monarch_military_power = 1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_prefecture = {
+	icon = "map_2"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = BAA
+			tag = CBE
+			tag = CNG
+			tag = CGS
+			tag = CHC
+			tag = DAA
+			tag = CDL
+			tag = DIA
+			tag = CHN
+			tag = HUA
+			tag = JIN
+			tag = CLI
+			tag = LNG
+			tag = LIA
+			tag = LUU
+			tag = LUL
+			tag = CMI
+			tag = MIN
+			tag = NHA
+			tag = NAN
+			tag = NNG
+			tag = QIN
+			tag = SHD
+			tag = SHU
+			tag = SNG
+			tag = SUI
+			tag = TAP
+			tag = TNG
+			tag = TIA
+			tag = WAN
+			tag = WEI
+			tag = XIA
+			tag = XNG
+			tag = YAN
+			tag = YDU
+			tag = YUN
+			tag = ZHA
+			tag = CZH
+		}
+	}
+	modifiers = {
+		ae_impact = 0.1
+		diplomatic_upkeep = -2
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_citystate = {
+	icon = "trading_city"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = ANQ
+			tag = BAO
+			tag = CGE
+			tag = CHZ
+			tag = DEZ
+			tag = GXI
+			tag = GNY
+			tag = GUI
+			tag = HZH
+			tag = HUY
+			tag = HUZ
+			tag = JNG
+			tag = JIH
+			tag = KAI
+			tag = KYA
+			tag = MAC
+			tag = QIZ
+			tag = SHG
+			tag = SHE
+			tag = SHZ
+			tag = SZH
+			tag = TAY
+			tag = TAO
+			tag = TIJ
+			tag = WUZ
+			tag = XIX
+			tag = XYU
+			tag = XUZ
+			tag = YNG
+		}
+	}
+	modifiers = {
+		max_states = -5
+		diplomatic_upkeep = -1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}

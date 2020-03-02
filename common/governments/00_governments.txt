@@ -27,6 +27,9 @@ monarchy = {
 				english_monarchy
 				mandala_reform
 				revolutionary_empire_reform
+				h_reform_warlord_1
+				h_reform_prefecture
+				h_reform_citystate
 			}
 		}
 		hereditary_vs_nobility = { #Noble Privileges
@@ -227,6 +230,7 @@ republic = {
 				presidential_despot_reform
 				cossacks_reform
 				h_reform_dominion
+				h_reform_commandery
 			}
 		}
 		republican_virtues = {
@@ -644,5 +648,21 @@ pre_dharma_mapping = {
 	h_reform_dominion = {
 		government = republic
 		legacy_government = colonial_government_legacy
+	}
+	h_reform_commandery = {
+		government = republic
+		legacy_government = oligarchic_republic
+	}
+	h_reform_prefecture = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_warlord_1 = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_citystate = {
+		government = monarchy
+		legacy_government = despotic_monarchy
 	}
 }

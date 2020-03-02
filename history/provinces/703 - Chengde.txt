@@ -1,21 +1,21 @@
 #703 - Chengde
 
-owner = KRC
-controller = KRC
-add_core = KRC
-culture = chahar
-religion = vajrayana
+owner = YAN
+controller = YAN
+add_core = YAN
+culture = chihan
+religion = confucianism
 capital = "Chengde"
-trade_goods = livestock
+trade_goods = grain
 hre = no
-base_tax = 3 
-base_production = 3
+base_tax = 2 
+base_production = 2
 base_manpower = 1
 is_city = yes
-estate = estate_nomadic_tribes
+fort_15th = yes
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = CHH
 
 
 1552.1.1 = {

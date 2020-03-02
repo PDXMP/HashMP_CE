@@ -1,20 +1,20 @@
 #1840 - Guilin
 
-owner = YUE
-controller = YUE
-add_core = YUE
+owner = GUI
+controller = GUI
+add_core = GUI
 culture = zhuang
 religion = confucianism
 capital = "Guilin"
 trade_goods = silk
 hre = no
-base_tax = 2 
-base_production = 2
+base_tax = 6 
+base_production = 6
 base_manpower = 2
 is_city = yes
 #fort_15th = yes #More than 1 Weisuo
 
-
+center_of_trade = 1
 
 discovered_by = chinese
 discovered_by = nomad_group
@@ -25,7 +25,7 @@ discovered_by = nomad_group
 	owner = QNG
 	controller = QNG
 }
-1652.4.1 = { controller = YUE }
+1652.4.1 = { controller = MNG }
 1656.2.1 = { controller = QNG }
 1662.4.1 = {
 	owner = CZH

@@ -1,8 +1,8 @@
 # 2122 - Hami
 
-owner = CSH
-controller = CSH
-add_core = CSH
+owner = HMI
+controller = HMI
+add_core = HMI
 culture = oirats
 religion = vajrayana
 capital = "Hami"

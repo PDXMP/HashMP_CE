@@ -4,54 +4,183 @@
 # by Foffy123 and hashinshin
 ########################################
 
+########################################
+# Starting Group Ideas - China Rework
+########################################
+
+commandery_ideas = { #Thirteen Commanderies
+	start = {
+		liberty_desire = 100
+		land_morale = 0.2
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		has_reform = h_reform_commandery
+		AND = {
+			OR = {
+				tag = BJG
+				tag = CHS
+				tag = CGD
+				tag = CQG
+				tag = DLN
+				tag = GZH
+				tag = HNG
+				tag = KMG
+				tag = LUO
+				tag = NJG
+				tag = WUC
+				tag = XIN
+				tag = XIM
+			}
+			is_subject = no
+		}
+	}
+	free = yes #will be added at load.
+	
+	commandery_idea_1 = {
+		development_cost = -0.1
+	}
+	commandery_idea_2 = {
+		defensiveness = 0.25
+	}
+	commandery_idea_3 = {
+		global_unrest = -2
+	}
+	commandery_idea_4 = {
+		prestige = 1
+	}
+	commandery_idea_5 = {
+		stability_cost_modifier = -0.1
+	}
+	commandery_idea_6 = {
+		global_tax_modifier = 0.2
+	}
+	commandery_idea_7 = {
+		land_forcelimit_modifier = 0.1
+	}
+}
+
+citystate_ideas = { #Chinese City States
+	start = {
+		global_tax_income = 12
+		global_prov_trade_power_modifier = 0.25
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		has_reform = h_reform_citystate
+		OR = {
+			tag = ANQ
+			tag = BAO
+			tag = CGE
+			tag = CHZ
+			tag = DEZ
+			tag = GXI
+			tag = GNY
+			tag = GUI
+			tag = HZH
+			tag = HUY
+			tag = HUZ
+			tag = JNG
+			tag = JIH
+			tag = KAI
+			tag = KYA
+			tag = MAC
+			tag = QIZ
+			tag = SHG
+			tag = SHE
+			tag = SHZ
+			tag = SZH
+			tag = TAY
+			tag = TAO
+			tag = TIJ
+			tag = WUZ
+			tag = XIX
+			tag = XYU
+			tag = XUZ
+			tag = YNG
+		}
+	}
+	free = yes #will be added at load.
+	
+	citystate_idea_1 = {
+		defensiveness = 0.1
+	}
+	citystate_idea_2 = {
+		idea_cost = -0.1
+	}
+	citystate_idea_3 = {
+		global_sailors_modifier = 0.1
+		global_manpower_modifier = 0.1		
+	}
+	citystate_idea_4 = {
+		same_culture_advisor_cost = -0.2
+	}
+	citystate_idea_5 = {
+		development_cost = -0.1
+	}
+	citystate_idea_6 = {
+		trade_efficiency = 0.1
+	}
+	citystate_idea_7 = {
+		infantry_power = 0.1
+	}
+}
 
 ########################################
 # Starting National Ideas
 ########################################
 
-CSH_ideas = { #Shun
-	start = {
-		land_morale = 0.1
-		cavalry_cost = -0.20
-	}
-	
-	bonus = {
-		movement_speed = 0.15
-	}
-	
-	trigger = {
-		tag = CSH
-	}
-	free = yes #will be added at load.
-	
-	CSH_1 = {
-		manpower_recovery_speed = 0.20
-	}
-	CSH_2 = {
-		advisor_cost = -0.15
-	}
-	CSH_3 = {
-		cavalry_power = 0.20
-	}
-	CSH_4 = {
-		prestige = 1
-	}
-	CSH_5 = {
-		fire_damage_received = -0.10
-	}
-	CSH_6 = {
-		leader_land_manuever = 1
-		free_leader_pool = 1
-	}
-	CSH_7 = {
-		development_cost = -0.10
-	}
-}
+#CSH_ideas = { #Shun
+#	start = {
+#		land_morale = 0.1
+#		cavalry_cost = -0.20
+#	}
+#	
+#	bonus = {
+#		movement_speed = 0.15
+#	}
+#	
+#	trigger = {
+#		tag = CSH
+#	}
+#	free = yes #will be added at load.
+#	
+#	CSH_1 = {
+#		manpower_recovery_speed = 0.20
+#	}
+#	CSH_2 = {
+#		advisor_cost = -0.15
+#	}
+#	CSH_3 = {
+#		cavalry_power = 0.20
+#	}
+#	CSH_4 = {
+#		prestige = 1
+#	}
+#	CSH_5 = {
+#		fire_damage_received = -0.10
+#	}
+#	CSH_6 = {
+#		leader_land_manuever = 1
+#		free_leader_pool = 1
+#	}
+#	CSH_7 = {
+#		development_cost = -0.10
+#	}
+#}
 
 WUU_ideas = { #Wu
 	start = {
-		infantry_power = 0.10
-		mercenary_cost = -0.25
+		possible_mercenaries = 0.33
+		mercenary_discipline = 0.05
 	}
 	
 	bonus = {
@@ -64,38 +193,39 @@ WUU_ideas = { #Wu
 	free = yes #will be added at load.
 	
 	WUU_1 = {
-		mercenary_discipline = 0.05
-		merc_maintenance_modifier = -0.15
+		embracement_cost = -0.1
+		global_institution_spread = 0.25
 	}
 	WUU_2 = {
-		advisor_cost = -0.15
+		trade_efficiency = 0.1
+		global_trade_power = 0.1
 	}
 	WUU_3 = {
-		production_efficiency = 0.1
+		development_cost = -0.1
 	}
 	WUU_4 = {
 		prestige = 1
 	}
 	WUU_5 = {
-		land_morale = 0.10
+		global_sailors_modifier = 0.25
 		naval_morale = 0.10
 	}
 	WUU_6 = {
-		legitimacy = 1
+		artillery_power = 0.1
 	}
 	WUU_7 = {
-		possible_mercenaries = 0.20
+		merchants = 1
 	}
 }
 
 YUE_ideas = { #Yue
 	start = {
-		global_manpower_modifier = 0.25
-		land_morale = 0.15
+		global_manpower_modifier = 0.1
+		manpower_recovery_speed = 0.20		
 	}
 	
 	bonus = {
-		land_forcelimit_modifier = 0.33
+		land_forcelimit_modifier = 0.25
 	}
 	
 	trigger = {
@@ -104,25 +234,105 @@ YUE_ideas = { #Yue
 	free = yes #will be added at load.
 	
 	YUE_1 = {
-		manpower_recovery_speed = 0.20
+		land_morale = 0.1
 	}
 	YUE_2 = {
-		advisor_cost = -0.15
+		advisor_cost = -0.1
 	}
 	YUE_3 = {
-		infantry_cost = -0.20
+		infantry_cost = -0.10
 	}
 	YUE_4 = {
 		prestige = 1
 	}
-	YUE_5 = {
-		fire_damage = 0.10
+	YUE_7 = {
+		global_trade_goods_size_modifier = 0.1
 	}
 	YUE_6 = {
-		legitimacy = 1
+		global_unrest = -1
 	}
-	YUE_7 = {
-		development_cost = -0.10
+	YUE_5 = {
+		fire_damage = 0.1
+	}
+}
+
+QIC_ideas = { #Qi
+	start = {
+		shock_damage_received = -0.15
+		technology_cost = -0.1
+	}
+	
+	bonus = {
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = QIC
+	}
+	free = yes #will be added at load.
+	
+	QIC_1 = {
+		infantry_power = 0.1
+	}
+	QIC_2 = {
+		global_manpower_modifier = 0.2
+		global_sailors_modifier = 0.2
+	}
+	QIC_3 = {
+		galley_power = 0.2
+	}
+	QIC_4 = {
+		build_cost = -0.1
+	}
+	QIC_5 = {
+		num_accepted_cultures = 2
+	}
+	QIC_6 = {
+		movement_speed = 0.2
+		leader_land_manuever = 1
+	}
+	QIC_7 = {
+		monarch_admin_power = 1
+	}
+}
+
+CXI_ideas = { #Xi
+	start = {
+		infantry_power = 0.15
+		core_creation = -0.15
+	}
+	
+	bonus = {
+		province_warscore_cost = -0.1
+	}
+	
+	trigger = {
+		tag = CXI
+	}
+	free = yes #will be added at load.
+	
+	CXI_1 = {
+		land_morale = 0.1
+	}
+	CXI_2 = {
+		fort_maintenance_modifier = -0.2
+	}
+	CXI_3 = {
+		war_exhaustion = -0.03
+		global_unrest = -1
+	}
+	CXI_4 = {
+		state_maintenance_modifier = -0.2
+	}
+	CXI_5 = {
+		army_tradition = 1
+	}
+	CXI_6 = {
+		production_efficiency = 0.15
+	}
+	CXI_7 = {
+		max_states = 3
+		administrative_efficiency = 0.05
 	}
 }
 
@@ -382,7 +592,7 @@ AUS_ideas = { #Australia
 NZL_ideas = { #New Zealand
 	start = {
 		republican_tradition = 0.1
-		naval_forcelimit_modifier = 0.25
+		naval_forcelimit_modifier = 0.2
 	}
 	
 	bonus = {
@@ -395,7 +605,7 @@ NZL_ideas = { #New Zealand
 	free = yes
 	
 	nzl_1 = { #Polynesian Spirit
-		navy_tradition = 1
+		navy_tradition = 0.5
 	}
 	nzl_2 = { #Mana
 		prestige = 1
@@ -413,7 +623,7 @@ NZL_ideas = { #New Zealand
 		global_tax_modifier = 0.15
 	}
 	nzl_7 = { #Impressment
-		global_sailors_modifier = 0.5
+		global_sailors_modifier = 0.25
 	}
 }
 
@@ -673,7 +883,7 @@ CUB_ideas = { #Cuba
 	}
 	
 	bonus = {
-		own_coast_naval_combat_bonus = 1
+		ship_durability = 0.05
 	}
 	
 	trigger = {

@@ -1,20 +1,17 @@
 #2406 - Jianchang
 
-owner = CXI
-controller = CXI
-add_core = CXI
-add_core = CYI
-add_core = CXI
+owner = YUN
+controller = YUN
+add_core = YUN
 culture = yi
-religion = animism
+religion = buddhism
 capital = "Jianchang"
-trade_goods = grain
+trade_goods = tropical_wood
 hre = no
-base_tax = 2 
+base_tax = 3 
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = CXI
 
 
 

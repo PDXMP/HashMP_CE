@@ -22,6 +22,5 @@ t5_cp_3 = { #
 	allow_normal_conversion = yes
 	modifiers = {
 		prestige = 1
-		prestige_decay = -0.01
 	}
 }

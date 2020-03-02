@@ -1,0 +1,24 @@
+########################################
+# Custom modifiers for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
+h_sichuan_basin = {
+	trade_goods_size = 2.0
+}
+
+h_commandery_province = {
+	local_core_creation = 1.0
+	local_state_maintenance_modifier = -0.25
+	allowed_num_of_buildings = 1
+}
+
+h_warlord_startmod = {
+	manpower_recovery_speed = 0.1
+	land_morale = 0.05
+}
+
+h_wu_armada = {
+	heavy_ship_power = 0.1
+}

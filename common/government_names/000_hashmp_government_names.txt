@@ -1,0 +1,139 @@
+gov_dominion = {
+	rank = {
+		1 = H_DOMINION
+		2 = H_DOMINION
+		3 = H_DOMINION
+	}
+	
+	ruler_male = {
+		1 = H_PrimeMinister
+		2 = H_PrimeMinister
+		3 = H_PrimeMinister
+	}
+	
+	ruler_female = {
+		1 = H_PrimeMinister
+		2 = H_PrimeMinister
+		3 = H_PrimeMinister
+	}
+	
+	trigger = {
+		has_reform = h_reform_dominion
+	}
+}
+gov_commandery = {
+	rank = {
+		1 = H_COMMANDERY
+		2 = H_COMMANDERY
+		3 = H_COMMANDERY
+	}
+	
+	ruler_male = {
+		1 = H_CommanderyTitle
+		2 = H_CommanderyTitle
+		3 = H_CommanderyTitle
+	}
+	
+	ruler_female = {
+		1 = H_CommanderyTitle
+		2 = H_CommanderyTitle
+		3 = H_CommanderyTitle
+	}
+	
+	trigger = {
+		has_reform = h_reform_commandery
+	}
+}
+gov_warlord1 = {
+	rank = {
+		1 = H_WARLORD1
+		2 = H_WARLORD1
+		3 = H_WARLORD1
+	}
+	
+	ruler_male = {
+		1 = H_WarlordTitle1
+		2 = H_WarlordTitle1
+		3 = H_WarlordTitle1
+	}
+	
+	ruler_female = {
+		1 = H_WarlordTitle1
+		2 = H_WarlordTitle1
+		3 = H_WarlordTitle1
+	}
+	
+	trigger = {
+		has_reform = h_reform_warlord_1
+	}
+}
+gov_prefecture = {
+	rank = {
+		1 = H_PREFECTURE1
+		2 = H_PREFECTURE1
+		3 = H_PREFECTURE1
+	}
+	
+	ruler_male = {
+		1 = PRINCE
+		2 = KING
+		3 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = PRINCESS
+		2 = QUEEN
+		3 = EMPRESS
+	}
+	
+	consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	trigger = {
+		has_reform = h_reform_prefecture
+	}
+}
+gov_citystate = {
+	rank = {
+		1 = H_CITYSTATE1
+		2 = H_CITYSTATE2
+		3 = H_CITYSTATE3
+	}
+	
+	ruler_male = {
+		1 = H_BARON1
+		2 = H_BARON2
+		3 = H_BARON3
+	}
+
+	ruler_female = {
+		1 = H_BARONESS1
+		2 = H_BARONESS2
+		3 = H_BARONESS3
+	}
+	
+	consort_male = {
+		1 = H_BARON1
+		2 = H_BARON2
+		3 = H_BARON3
+	}
+
+	consort_female = {
+		1 = H_BARONESS1
+		2 = H_BARONESS2
+		3 = H_BARONESS3
+	}
+	
+	trigger = {
+		has_reform = h_reform_citystate
+	}
+}

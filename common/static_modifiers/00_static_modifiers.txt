@@ -973,9 +973,9 @@ territory_ai_difficulty = { #Penalties for territories owned by AI regardless of
 
 prestige = {
 	global_trade_power = 0.15			#+15/-15 total bonus from prestige.
-	land_morale = 0.125
-	naval_morale = 0.125
-	mercenary_cost = -0.33					#-33 to +33%
+	land_morale = 0.1
+	naval_morale = 0.1
+	mercenary_cost = -0.25					#-33 to +33%
 	legitimacy = 1.0
 	improve_relation_modifier = 0.5
 	monthly_fervor_increase = 1
@@ -1032,7 +1032,6 @@ total_blockaded = {
 }
 
 uncontested_cores = {
-	prestige = -0.05
 }
 
 
@@ -1235,7 +1234,7 @@ autonomy_decreased = {
 }
 
 revolution_target = {
-	global_manpower_modifier = 0.20
+	global_manpower_modifier = 0.25
 	war_exhaustion = -0.05
 	unjustified_demands = -0.5
 	land_maintenance_modifier = -0.2

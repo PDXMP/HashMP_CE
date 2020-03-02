@@ -1,16 +1,16 @@
 #1838 - Hefei
 
-owner = WUU
-controller = WUU
-add_core = WUU
+owner = SHD
+controller = SHD
+add_core = SHD
 culture = jianghuai
 religion = confucianism
 capital = "Hefei"
-trade_goods = grain
+trade_goods = cloth
 hre = no
-base_tax = 4 
-base_production = 4
-base_manpower = 3
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
 
 

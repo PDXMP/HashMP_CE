@@ -1,0 +1,424 @@
+########################################
+# Custom decisions for the Foffy's China Rework
+#
+# by Foffy123
+########################################
+
+country_decisions = {
+
+	h_bjg_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 1816
+			NOT = { capital = 1816 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 1816		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 1816
+			1816 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 1816 # Beijing
+	}
+	
+	h_chs_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 4697
+			NOT = { capital = 4697 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 4697		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 4697
+			4697 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 4697 # Changsha
+	}
+	
+	h_cgd_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 4698
+			NOT = { capital = 4698 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 4698		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 4698
+			4698 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 4698 # Constantinople
+	}
+
+	h_cqg_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 680
+			NOT = { capital = 680 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 680		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 680
+			680 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 680 # Chongqing
+	}
+	
+	h_dln_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 726
+			NOT = { capital = 726 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 726		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 726
+			726 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 726 # Dalian
+	}
+	
+	h_gzh_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 667
+			NOT = { capital = 667 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 667		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 667
+			667 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 667 # Guangzhou
+	}
+	
+	h_hng_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 684
+			NOT = { capital = 684 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 684		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 684
+			684 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 684 # Constantinople
+	}
+	
+	h_kmg_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 662
+			NOT = { capital = 662 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 662		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 662
+			662 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 662 # Kunming
+	}
+	
+	h_luo_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 4765
+			NOT = { capital = 4765 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 4765		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 4765
+			4765 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 4765 # Luoyang
+	}
+	
+	h_njg_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 1821
+			NOT = { capital = 1821 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 1821
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 1821
+			1821 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 1821 # Nanjing
+	}
+	
+	h_wuc_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 682
+			NOT = { capital = 682 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 682		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 682
+			682 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 682 # Wuchang
+	}
+	
+	h_xin_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 700
+			NOT = { capital = 700 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 700		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 700
+			700 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 700 # Xi'an
+	}
+	
+	h_xim_capital = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			owns = 1829
+			NOT = { capital = 1829 }
+			NOT = { has_country_flag = h_commandery_capital }
+		}
+		allow = {
+			is_at_war = no
+			controls = 1829		
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+			add_core = 1829
+			1829 = {
+				move_capital_effect = yes
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		do_not_core = 1829 # Xiamen
+	}
+}
