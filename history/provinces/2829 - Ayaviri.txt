@@ -1,8 +1,8 @@
 # - Ayaviri
 
-owner = CSU
-controller = CSU
-add_core = CSU
+owner = INC
+controller = INC
+add_core = INC
 culture = aimara
 religion = inti
 capital = "Ayaviri"

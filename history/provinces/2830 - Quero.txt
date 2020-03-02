@@ -1,7 +1,7 @@
 # - Quero
 
-owner = CSU
-controller = CSU
+owner = INC
+controller = INC
 culture = inca
 religion = inti
 capital = "Quero"
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = CSU
+add_core = INC
 
 
 
