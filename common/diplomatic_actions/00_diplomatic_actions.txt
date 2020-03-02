@@ -357,6 +357,35 @@ allianceaction = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_allynative
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					OR = {
+						tag = AZT
+						tag = INC
+					}
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_nativeally
+		potential = {
+			ROOT = {
+				OR = {
+					tag = AZT
+					tag = INC
+				}
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 ask_for_march = {
