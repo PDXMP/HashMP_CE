@@ -18,3 +18,7 @@ h_warlord_startmod = {
 	manpower_recovery_speed = 0.1
 	land_morale = 0.05
 }
+
+h_wu_armada = {
+	heavy_ship_power = 0.1
+}
