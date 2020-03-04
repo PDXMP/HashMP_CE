@@ -648,9 +648,8 @@ colonial_government = {
 	}
 	legacy_equivalent = colonial_government_legacy
 	modifiers = {
-		global_autonomy = -0.05
+		max_absolutism = -100
 		republican_tradition = -0.2
-		max_states = 2
 	}
 
 	custom_attributes = {
