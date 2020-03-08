@@ -650,5 +650,7 @@
  h_angkor_mission_3_desc:0 "The fires in the temples have been lit, the Gods are now waiting for all Khmer to declare their faith."
  h_khm_khmer_faith:0 "Khmer Faith"
  desc_h_khm_khmer_faith:0 "The Khmer people keep the faith."
- h_unify_indochina_title:0 "Unification of Indochina"
+ h_unify_indochina_title:0 "Unify Indochina"
  h_unify_indochina_desc:0 "The only way to survive in this hostile environment is to have a strong empire ruling with an iron fist. All the peoples of Indochina will recognize our rule."
+ h_angkor_mod_3:0 "Angkor Wat - Resplendent"
+ desc_h_angkor_mod_3:0 "The City of Temples is the envy of all."
