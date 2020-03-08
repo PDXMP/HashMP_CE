@@ -1,7 +1,7 @@
 #2381 - Luang Namtha
 
-owner = LXA
-controller = LXA
+owner = LUA
+controller = LUA
 culture = lao
 religion = buddhism
 capital = "Luang Namtha"
@@ -11,7 +11,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = LXA
 add_core = LUA
 
 
