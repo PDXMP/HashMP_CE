@@ -161,7 +161,7 @@ pirate_republic_reform = {
 		max_absolutism = -50
 		naval_forcelimit_modifier = 0.5
 		capture_ship_chance = 0.33
-		may_perform_slave_raid_on_same_religion = yes
+		#may_perform_slave_raid_on_same_religion = yes
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
