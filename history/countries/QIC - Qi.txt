@@ -13,7 +13,7 @@ historical_rival = YUE
 
 1444.1.31 = {
 	monarch = {
-		name = "Guan"
+		name = "Huan"
 		dynasty = "Qi"
 		birth_date = 1426.1.1
 		adm = 4
@@ -22,6 +22,6 @@ historical_rival = YUE
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = immortal_personality
-	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = scholar_personality
 
 }
