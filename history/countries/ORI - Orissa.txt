@@ -21,12 +21,12 @@ historical_rival = JNP
 		dynasty = "Gajapati" #Suryavamshi
 		ADM = 4
 		DIP = 5
-		MIL = 5
+		MIL = 6
 		leader = { name = "Kapilendra"	type = general	fire = 3	shock = 5	manuever = 2	siege = 1 }
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = conqueror_personality
-	add_ruler_personality = righteous_personality
+	add_ruler_personality = inspiring_leader_personality
 	add_heir_personality = bold_fighter_personality
 	heir = {
 		name = "Hamvira"
