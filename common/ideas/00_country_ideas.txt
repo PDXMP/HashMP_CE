@@ -4760,7 +4760,7 @@ MPC_ideas = {
 
 INC_ideas = {
 	start = {
-		land_forcelimit_modifier = 0.33
+		land_forcelimit_modifier = 0.5
 		enemy_core_creation = 1.0
 	}
 	bonus = {
