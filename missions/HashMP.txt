@@ -1168,68 +1168,67 @@ h_khm_missions = {
 			}
 		}
 		effect = {
-			add_prestige = 10
-			add_country_modifier = {
-				name = "h_khm_khmer_resurgent"
-				duration = 7300
+			add_prestige = 20
+			northern_thai_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			central_thai_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			north_tenasserim_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
 
-	h_orm_mission_5 = { #Fortify the Oases
+	h_khm_mission_5 = { #Jayavarman's Ambition
 		icon = mission_asian_trader
-		required_missions = { h_orm_mission_4 }
+		required_missions = { h_khm_mission_4 }
 		position = 5
 		provinces_to_highlight = {
 			OR = {
-				area = qasim_area
-				area = yamamah_area
+				area = northern_thai_area
+				area = central_thai_area
+				area = north_tenasserim_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			OR = {
-				392 = { owned_by = ROOT has_building = fort_15th }
-				2337 = { owned_by = ROOT has_building = fort_15th }
-				4273 = { owned_by = ROOT has_building = fort_15th }
-				4274 = { owned_by = ROOT has_building = fort_15th }
+			northern_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
-			OR = {
-				2335 = { owned_by = ROOT has_building = fort_15th }
-				2336 = { owned_by = ROOT has_building = fort_15th }
-				2339 = { owned_by = ROOT has_building = fort_15th }
-				4275 = { owned_by = ROOT has_building = fort_15th }
+			central_thai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_tenasserim_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
-			tooltip = {
-				qasim_area = {
-					add_province_modifier = {
-						name = "h_fortified_oasis"
-					}
-				}
-				yamamah_area = {
-					add_province_modifier = {
-						name = "h_fortified_oasis"
-					}
-				}
+			add_country_modifier = {
+				name = "h_khm_khmer_resurgent"
+				duration = 9125
 			}
-			hidden_effect = {
-				every_owned_province = {
-					limit = {
-						OR = {
-							area = qasim_area
-							area = yamamah_area
-						}
-					}
-					add_province_modifier = {
-						name = "h_fortified_oasis"
-						duration = -1
-					}
-				}
-			}
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
 		}
 	}
 }
