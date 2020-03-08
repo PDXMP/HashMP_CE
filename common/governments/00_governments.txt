@@ -31,6 +31,7 @@ monarchy = {
 				h_reform_prefecture
 				h_reform_citystate
 				h_reform_native_empire
+				h_reform_warlord_2
 			}
 		}
 		hereditary_vs_nobility = { #Noble Privileges
@@ -667,6 +668,10 @@ pre_dharma_mapping = {
 		legacy_government = despotic_monarchy
 	}
 	h_reform_native_empire = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_warlord_2 = {
 		government = monarchy
 		legacy_government = despotic_monarchy
 	}
