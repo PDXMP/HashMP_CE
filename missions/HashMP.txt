@@ -1296,7 +1296,7 @@ h_angkor_missions = {
 		}
 	}
 
-	h_angkor_mission_3 = { #Envy of All
+	h_angkor_mission_3 = { #Khmer Faith
 		icon = mission_invade_gujarat
 		required_missions = { h_khm_mission_2 }
 		position = 5
