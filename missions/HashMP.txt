@@ -1256,6 +1256,7 @@ h_angkor_missions = {
 		effect = {
 			add_treasury = -250
 			609 = {
+				move_capital_effect = yes
 				add_base_tax = 2
 				add_base_manpower = 2
 				add_base_production = 2
@@ -1263,9 +1264,6 @@ h_angkor_missions = {
 					name = h_angkor_mod_1
 					duration = -1  
 				}
-			}
-			609 = {
-				move_capital_effect = yes
 			}
 		}
 	}
@@ -1285,9 +1283,7 @@ h_angkor_missions = {
 				add_base_tax = 2
 				add_base_manpower = 2
 				add_base_production = 2
-				remove_province_modifier = {
-					name = h_angkor_mod_1
-				}
+				remove_province_modifier = h_angkor_mod_1
 				add_permanent_province_modifier = { 
 					name = h_angkor_mod_2
 					duration = -1  
