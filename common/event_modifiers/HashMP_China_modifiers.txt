@@ -22,3 +22,7 @@ h_warlord_startmod = {
 h_wu_armada = {
 	heavy_ship_power = 0.1
 }
+
+h_china_wonders = {
+	all_power_cost = -0.1
+}
