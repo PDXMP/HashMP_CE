@@ -1,7 +1,7 @@
 #2038 - Midnapore
 
-owner = ORI
-controller = ORI
+owner = BNG
+controller = BNG
 culture = bengali
 religion = hinduism
 capital = "Midnapore"
@@ -11,7 +11,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = ORI
 add_core = BNG
 
 
