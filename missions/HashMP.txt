@@ -1271,7 +1271,7 @@ h_angkor_missions = {
 	}
 	
 	h_angkor_mission_2 = { #Angkor Wat
-		icon = mission_invade_gujarat
+		icon = mission_malwi_architecture
 		required_missions = { h_angkor_mission_1 }
 		position = 4
 		trigger = {
@@ -1296,8 +1296,8 @@ h_angkor_missions = {
 		}
 	}
 
-	h_angkor_mission_3 = { #Reclaim the Khorat Basin
-		icon = mission_indian_stateman
+	h_angkor_mission_3 = { #Envy of All
+		icon = mission_invade_gujarat
 		required_missions = { h_khm_mission_2 }
 		position = 5
 		trigger = {
