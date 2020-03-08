@@ -10655,3 +10655,8 @@ h_khm_khmer_faith = {
 	global_missionary_strength = 0.03
 	missionary_maintenance_cost = -0.33
 }
+
+h_indochina_mod = {
+	max_states = 10
+	discipline = 0.05
+}
