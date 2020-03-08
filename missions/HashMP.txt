@@ -1077,67 +1077,27 @@ h_khm_missions = {
 		}
 	}
 	
-	h_orm_mission_2 = { #Control the Najd
-		icon = mission_bedouins
-		required_missions = { h_orm_mission_1 }
+	h_khm_mission_2 = { #Absorb the Cham
+		icon = mission_invade_island
+		required_missions = { h_khm_mission_1 }
 		position = 2
 		provinces_to_highlight = {
 			OR = {
-				area = qasim_area
-				area = yamamah_area
+				area = champa_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			qasim_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			yamamah_area = {
+			champa_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
-			add_prestige = 10
-			asir_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			tihama_al_yemen_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			upper_yemen_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			yemen_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			hadramut_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			mahra_area = {
+			add_navy_tradition = 25
+			khorat_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
@@ -1147,59 +1107,34 @@ h_khm_missions = {
 		}
 	}
 
-	h_orm_mission_3 = { #Invade Yemen
-		icon = mission_persian_soldiers
-		required_missions = { h_orm_mission_2 }
+	h_khm_mission_3 = { #Reclaim the Khorat Basin
+		icon = mission_indian_stateman
+		required_missions = { h_khm_mission_2 }
 		position = 3
 		provinces_to_highlight = {
 			OR = {
-				area = asir_area
-				area = tihama_al_yemen_area
-				area = upper_yemen_area
-				area = yemen_area
-				area = hadramut_area
-				area = mahra_area
+				area = khorat_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			asir_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			tihama_al_yemen_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			upper_yemen_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			yemen_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			hadramut_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			mahra_area = {
+			khorat_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
 			add_army_tradition = 20
-			mecca_area = {
+			south_laos_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			medina_area = {
+			north_laos_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
@@ -1209,32 +1144,35 @@ h_khm_missions = {
 		}
 	}
 
-	h_orm_mission_4 = { #Protect the Holy Mosques
-		icon = mission_non-western_soldiers
-		required_missions = { h_orm_mission_3 }
+	h_khm_mission_4 = { #Laotian Frontier
+		icon = mission_the_tiger_triumphant
+		required_missions = { h_khm_mission_3 }
 		position = 4
 		provinces_to_highlight = {
 			OR = {
-				area = mecca_area
-				area = medina_area
+				area = south_laos_area
+				area = north_laos_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			mecca_area = {
+			south_laos_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			medina_area = {
+			north_laos_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
 			add_prestige = 10
-			add_piety = 0.25
+			add_country_modifier = {
+				name = "h_khm_khmer_resurgent"
+				duration = 7300
+			}
 		}
 	}
 
