@@ -18,6 +18,7 @@ hre = no
 citysize = 17500
 
 discovered_by = chinese
+discovered_by = indian
 discovered_by = nomad_group
 
 1450.1.1  = { citysize = 17500 }
