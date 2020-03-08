@@ -132,7 +132,8 @@ h_reform_warlord_2 = {
 	}
 	modifiers = {
 		ae_impact = 0.2
-		land_maintenance_modifier = -0.2
+		land_maintenance_modifier = -0.1
+		manpower_recovery_speed = 0.1
 	}
 
 	custom_attributes = {
