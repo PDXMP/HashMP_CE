@@ -10,9 +10,9 @@ capital = 604 # Phnom Penh
 	monarch = {
 		name = "Barom Reachea II"
 		dynasty = "Khmer"
-		adm = 5
+		adm = 4
 		dip = 4
-		mil = 5
+		mil = 4
 	}
 }
 
