@@ -179,7 +179,7 @@ citystate_ideas = { #Chinese City States
 
 WUU_ideas = { #Wu
 	start = {
-		possible_mercenaries = 0.33
+		possible_mercenaries = 0.25
 		mercenary_discipline = 0.05
 	}
 	
