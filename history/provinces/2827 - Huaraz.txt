@@ -13,6 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = INC
 add_core = HJA
+fort_15th = yes
 
 
 
