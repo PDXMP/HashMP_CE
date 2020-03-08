@@ -365,6 +365,13 @@ h_yue_2 = {
 				name = "h_warlord_startmod"
 				duration = 3650
 			}
+			yanshan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 			country_event = { id = foffychina.6 } #Ruler Event
 		}
 	}
