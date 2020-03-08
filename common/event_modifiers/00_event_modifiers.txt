@@ -10657,6 +10657,6 @@ h_khm_khmer_faith = {
 }
 
 h_indochina_mod = {
-	max_states = 10
+	max_states = 5
 	discipline = 0.05
 }
