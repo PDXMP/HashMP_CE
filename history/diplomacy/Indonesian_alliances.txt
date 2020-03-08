@@ -91,12 +91,12 @@ vassal = {
 ## Siamnese Dynasties
 
 # Ayutthaya and Sukhothai
-vassal = {
-	first = AYU
-	second = SUK
-	start_date = 1438.1.1
-	end_date = 1530.1.1
-}
+#vassal = {
+#	first = AYU
+#	second = SUK
+#	start_date = 1438.1.1
+#	end_date = 1530.1.1
+#}
 
 # Vassalization of Lan Na
 vassal = {
