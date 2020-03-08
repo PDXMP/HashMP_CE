@@ -69,4 +69,5 @@
  t5_cp_3_desc:0 "Theocracy Tier 5"
  h_reform_dominion:0 "Dominion"
  h_reform_dominion_desc:0 "A semi-independent government empowered to uphold the constitution of a former colony."
- 
+ h_reform_native_empire:0 "Native Empire"
+ h_reform_native_empire_desc:0 ""
