@@ -98,6 +98,45 @@ h_cxi_2 = {
 				name = "h_warlord_startmod"
 				duration = 3650
 			}
+			if = {
+				limit = {
+					4840 = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+				}
+				4840 = {
+					add_permanent_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					1836 = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+				}
+				1836 = {
+					add_permanent_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					4857 = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+				}
+				4857 = {
+					add_permanent_claim = ROOT
+				}
+			}
 			country_event = { id = foffychina.2 } #Ruler Event
 		}
 	}
