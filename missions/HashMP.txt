@@ -1270,69 +1270,58 @@ h_angkor_missions = {
 		}
 	}
 	
-	h_khm_mission_2 = { #Absorb the Cham
-		icon = mission_invade_island
-		required_missions = { h_khm_mission_1 }
-		position = 2
-		provinces_to_highlight = {
-			OR = {
-				area = champa_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
+	h_angkor_mission_2 = { #Angkor Wat
+		icon = mission_invade_gujarat
+		required_missions = { h_angkor_mission_1 }
+		position = 4
 		trigger = {
-			champa_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			adm_tech = 10
+			owns_core_province = 609
+			treasury = 500
 		}
 		effect = {
-			add_navy_tradition = 25
-			khorat_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
+			add_treasury = -500
+			609 = {
+				add_base_tax = 2
+				add_base_manpower = 2
+				add_base_production = 2
+				remove_province_modifier = {
+					name = h_angkor_mod_1
 				}
-				add_permanent_claim = ROOT
+				add_permanent_province_modifier = { 
+					name = h_angkor_mod_2
+					duration = -1  
+				}
 			}
 		}
 	}
 
-	h_khm_mission_3 = { #Reclaim the Khorat Basin
+	h_angkor_mission_3 = { #Reclaim the Khorat Basin
 		icon = mission_indian_stateman
 		required_missions = { h_khm_mission_2 }
-		position = 3
-		provinces_to_highlight = {
-			OR = {
-				area = khorat_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
+		position = 5
 		trigger = {
-			khorat_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			adm_tech = 15
+			owns_core_province = 609
+			treasury = 1000
 		}
 		effect = {
-			add_army_tradition = 20
-			south_laos_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
+			add_treasury = -1000
+			609 = {
+				add_base_tax = 2
+				add_base_manpower = 2
+				add_base_production = 2
+				remove_province_modifier = {
+					name = h_angkor_mod_2
 				}
-				add_permanent_claim = ROOT
+				add_permanent_province_modifier = { 
+					name = h_angkor_mod_3
+					duration = -1
+				}
 			}
-			north_laos_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
+			add_country_modifier = {
+				name = "h_khm_khmer_faith"
+				duration = 3650
 			}
 		}
 	}
