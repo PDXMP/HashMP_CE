@@ -421,4 +421,26 @@ country_decisions = {
 		}
 		do_not_core = 1829 # Xiamen
 	}
+	
+	h_decision_warlord2 = {
+		potential = {
+			OR = {
+				tag = CYI
+				tag = YUE
+				tag = WUU
+				tag = CSH
+				tag = QIC
+				tag = CXI
+			}
+			has_government_reform = 
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = h_commandery_capital
+			add_stability = 1
+		}
+		do_not_core = 1829 # Xiamen
+	}
 }
