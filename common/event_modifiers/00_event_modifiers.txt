@@ -10637,3 +10637,21 @@ h_angkor_mod_1 = {
 	development_cost = -0.2
 	tax_income = 12
 }
+
+h_angkor_mod_2 = {
+	development_cost = -0.4
+	tax_income = 24
+	local_manpower_modifier = 0.25
+}
+
+h_angkor_mod_3 = {
+	development_cost = -0.6
+	tax_income = 48
+	local_manpower_modifier = 1.0
+	prestige = 0.5
+}
+
+h_khm_khmer_faith = {
+	global_missionary_strength = 0.03
+	missionary_maintenance_cost = -0.33
+}
