@@ -432,15 +432,15 @@ country_decisions = {
 				tag = QIC
 				tag = CXI
 			}
-			has_government_reform = 
+			has_government_reform = h_reform_warlord_1
 		}
 		allow = {
 			is_at_war = no
+			total_development = 100
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
 			add_stability = 1
+			add_government_reform = h_reform_warlord_2
 		}
-		do_not_core = 1829 # Xiamen
 	}
 }
