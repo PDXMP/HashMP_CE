@@ -12,9 +12,20 @@ country_decisions = {
 			}
 			NOT = { exists = MSA }
 			OR = {
-				tag = AYU
 				tag = MAJ
 				tag = BEI
+				tag = MLC
+				tag = PSA
+				tag = SAK
+				tag = PGR
+				tag = PLB
+				tag = SUN
+				tag = BLI
+				tag = KUT
+				tag = KED
+				tag = PAT
+				tag = LIG
+				tag = CHA
 			}
 			NOT = { has_reform = steppe_horde }
 			is_colonial_nation = no
