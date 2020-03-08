@@ -300,6 +300,7 @@ country_decisions = {
 	}
 
 	h_unify_indochina = {
+		major = yes
 		potential = {
 			NOT = { has_country_flag = h_indochina_unified }
 			OR = {
