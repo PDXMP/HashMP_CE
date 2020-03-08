@@ -1367,12 +1367,12 @@ VIJ_ideas = {
 
 AYU_ideas = {
 	start = {
-		religious_unity = 0.25
-		infantry_power = 0.10
+		religious_unity = 0.20
+		num_accepted_cultures = 1
 	}
 	
 	bonus = {
-		discipline = 0.05
+		vassal_income = 0.25
 	}
 	
 	trigger = {
