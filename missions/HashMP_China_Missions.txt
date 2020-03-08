@@ -292,6 +292,7 @@ h_wuu_2 = {
 		position = 1
 		trigger = {
 			army_size_percentage = 1
+			always = no
 		}
 		effect = {
 			add_country_modifier = {
