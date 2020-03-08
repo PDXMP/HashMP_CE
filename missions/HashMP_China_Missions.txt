@@ -166,7 +166,7 @@ h_wuu_1 = {
 		icon = mission_establish_high_seas_navy
 		position = 1
 		trigger = {
-			num_of_heavy_ship = 50
+			num_of_heavy_ship = 100
 		}
 		effect = {
 			add_country_modifier = {
