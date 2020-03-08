@@ -298,4 +298,45 @@ country_decisions = {
 			country_event = { id = hashmp.6 } #Scion Event
 		}
 	}
+
+	h_unify_indochina = {
+		potential = {
+			NOT = { has_country_flag = h_indochina_unified }
+			OR = {
+				tag = TAU
+				tag = KHM
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = burma_region
+				region = indo_china_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			burma_region = {
+				type = all
+				owned_by = ROOT
+			}
+			indo_china_region = {
+				type = all
+				owned_by = ROOT
+			}
+			is_at_war = no
+		}
+		effect = {
+			set_government_rank = 3
+			add_prestige = 25
+			set_country_flag = h_indochina_unified
+			add_country_modifier = {
+				name = "h_indochina_mod"
+				duration = -1
+			}
+		}
+	}
 }
