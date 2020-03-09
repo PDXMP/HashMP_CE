@@ -1315,7 +1315,7 @@ h_angkor_missions = {
 			}
 			add_country_modifier = {
 				name = "h_khm_khmer_faith"
-				duration = 3650
+				duration = 5475
 			}
 		}
 	}
