@@ -1995,13 +1995,12 @@ MAR_ideas = {
 
 TAU_ideas = {
 	start = {
-		core_creation = -0.15		
-		global_tax_modifier = 0.15
+		core_creation = -0.2		
+		global_tax_modifier = 0.2
 	}
 	
 	bonus = {
-		development_cost = -0.1
-
+		leader_land_fire = 1
 	}
 	
 	trigger = {
@@ -2020,16 +2019,16 @@ TAU_ideas = {
 		cav_to_inf_ratio = 0.10
 	}
 	nat_worship = {
-		religious_unity = 0.25
+		global_unrest = -2
 	}
 	chakravartin = {
 		army_tradition = 1
 	}
 	the_hluttaw = {
-		global_unrest = -2
+		development_cost = -0.1
 	}
 	tau_organized_campaigns = {
-		leader_land_manuever = 1
+		reinforce_cost_modifier = -0.1
 		land_attrition = -0.2
 	}
 	bayingyi = {
