@@ -237,6 +237,7 @@ h_reform_citystate = {
 		}
 	}
 	modifiers = {
+		ae_impact = 0.1
 		max_states = -5
 		diplomatic_upkeep = -1
 	}
