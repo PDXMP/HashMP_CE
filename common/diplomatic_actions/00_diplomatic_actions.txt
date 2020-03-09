@@ -300,6 +300,15 @@ form_coalition = {
 			}
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_commanderycoalition
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 allianceaction = {
