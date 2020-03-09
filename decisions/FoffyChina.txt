@@ -424,14 +424,6 @@ country_decisions = {
 	
 	h_decision_warlord2 = {
 		potential = {
-			OR = {
-				tag = CYI
-				tag = YUE
-				tag = WUU
-				tag = CSH
-				tag = QIC
-				tag = CXI
-			}
 			has_government_reform = h_reform_warlord_1
 		}
 		allow = {
