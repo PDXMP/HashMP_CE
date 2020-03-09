@@ -112,7 +112,7 @@ innovativeness_ideas = {
 		possible_mercenaries = 0.25
 	}
 	resilient_state = {
-		drill_gain_modifier = 0.25
+		drill_gain_modifier = 0.33
 		drill_decay_modifier = -0.1
 	}
 	optimism = {
