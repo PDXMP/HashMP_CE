@@ -120,6 +120,7 @@ manchu_missions_1 = {
 				area = hebei_area
 				area = chengde_area
 				area = shenyang_area
+				area = dalian_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -140,6 +141,10 @@ manchu_missions_1 = {
 				owned_by = ROOT
 			}
 			shenyang_area = {
+				type = all
+				owned_by = ROOT
+			}
+			dalian_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -353,12 +358,12 @@ manchu_missions_1_b = {
 		trigger = {
 			army_size = 100
 			manpower_percentage = 0.8
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-				}
-				num_of_banners = 20
-			}
+			#if = {
+			#	limit = {
+			#		has_dlc = "Mandate of Heaven"
+			#	}
+			#	num_of_banners = 20
+			#}
 		}
 		effect = {
 			tibet_region = {
@@ -649,16 +654,14 @@ manchu_missions_2 = {
 		position = 5
 		completed_by = 1616.1.1
 		trigger = {
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-				}
-				num_of_banners = 8
-			}
-			else = {
-				army_size_percentage = 0.9
-				cavalry_fraction = 0.4
-			}
+			#if = {
+			#	limit = {
+			#		has_dlc = "Mandate of Heaven"
+			#	}
+			#	num_of_banners = 8
+			#}
+			army_size_percentage = 0.9
+			cavalry_fraction = 0.4
 		}
 		effect = {
 			korea_region = {
