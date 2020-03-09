@@ -10654,7 +10654,7 @@ h_angkor_mod_3 = {
 
 h_khm_khmer_faith = {
 	global_missionary_strength = 0.03
-	missionary_maintenance_cost = -0.33
+	missionary_maintenance_cost = -0.5
 }
 
 h_indochina_mod = {
