@@ -713,7 +713,7 @@ quantity_ideas = {
 		naval_forcelimit_modifier = 0.20
 	}
 	mass_army = {
-		global_manpower_modifier = 0.40
+		global_manpower_modifier = 0.33
 	}
 	the_young_can_serve = {
 		manpower_recovery_speed = 0.20
