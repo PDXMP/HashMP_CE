@@ -38,7 +38,7 @@ h_china_all = {
 					is_core = ROOT
 					has_province_modifier = h_commandery_province
 				}
-				amount = 13
+				amount = 10
 			}
 		}
 		effect = {
