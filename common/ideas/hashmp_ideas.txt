@@ -10,8 +10,8 @@
 
 commandery_ideas = { #Thirteen Commanderies
 	start = {
-		liberty_desire = 100
-		land_morale = 0.2
+		liberty_desire = 500
+		land_morale = 0.25
 	}
 	
 	bonus = {

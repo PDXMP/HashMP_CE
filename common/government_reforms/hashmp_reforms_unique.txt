@@ -251,20 +251,23 @@ h_reform_native_empire = {
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
 	allow_normal_conversion = yes
-	fixed_rank = 1
+	fixed_rank = 3
 	potential = {
-		OR = {
-			tag = AZT
-			tag = INC
+		AND = {
+			OR = {
+				tag = AZT
+				tag = INC
+			}
+			is_subject = no
 		}
 	}
 	modifiers = {
-		all_power_cost = -0.2
-		liberty_desire = 100
+		all_power_cost = -0.25
+		liberty_desire = 500
 		reduced_liberty_desire = 100
 		global_tax_income = 144
-		land_forcelimit = 30
-		global_manpower = 30
+		land_forcelimit = 33
+		global_manpower = 33
 		defensiveness = 0.33
 	}
 
