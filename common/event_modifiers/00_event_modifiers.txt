@@ -10636,12 +10636,13 @@ h_khm_khmer_resurgent = {
 h_angkor_mod_1 = {
 	development_cost = -0.2
 	tax_income = 12
+	local_manpower_modifier = 0.25
 }
 
 h_angkor_mod_2 = {
 	development_cost = -0.4
 	tax_income = 24
-	local_manpower_modifier = 0.25
+	local_manpower_modifier = 0.5
 }
 
 h_angkor_mod_3 = {
