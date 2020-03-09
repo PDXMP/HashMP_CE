@@ -7289,7 +7289,7 @@ LON_ideas = {
 CYI_ideas = {
 	start = {
 		defensiveness = 0.2
-		shock_damage = 0.1
+		shock_damage = 0.15
 	}
 
 	bonus = {
