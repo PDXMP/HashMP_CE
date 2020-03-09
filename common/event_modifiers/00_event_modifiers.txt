@@ -10619,7 +10619,7 @@ h_sok_quality = {
 h_sok_imperial = {
 	heavy_ship_power = 0.1
 	colonists = 1
-	global_colonial_growth = 25
+	global_colonial_growth = 30
 }
 
 h_subjugated_china = {
