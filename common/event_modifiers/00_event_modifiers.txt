@@ -10599,12 +10599,12 @@ h_scandinavia_united = {
 
 h_jap_disc = {
 	discipline = 0.05
-	land_forcelimit_modifier = 0.1
+	land_forcelimit_modifier = 0.2
 }
 
 h_jap_navy = {
 	heavy_ship_power = 0.1
-	naval_forcelimit_modifier = 0.1
+	naval_forcelimit_modifier = 0.2
 }
 
 h_sok_quantity = {
