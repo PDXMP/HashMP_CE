@@ -1057,7 +1057,7 @@ h_khm_missions = {
 		trigger = {
 			609 = {
 				NOT = { unrest = 1 }
-				NOT = { local_autonomy = 1 }
+				NOT = { local_autonomy = 20 }
 			}
 		}
 		effect = {
