@@ -259,7 +259,7 @@ YUE_ideas = { #Yue
 QIC_ideas = { #Qi
 	start = {
 		shock_damage_received = -0.1
-		technology_cost = -0.1
+		technology_cost = -0.05
 	}
 	
 	bonus = {
@@ -275,8 +275,8 @@ QIC_ideas = { #Qi
 		infantry_power = 0.1
 	}
 	QIC_2 = {
-		global_manpower_modifier = 0.2
-		global_sailors_modifier = 0.2
+		global_manpower_modifier = 0.25
+		global_sailors_modifier = 0.25
 	}
 	QIC_3 = {
 		galley_power = 0.2
