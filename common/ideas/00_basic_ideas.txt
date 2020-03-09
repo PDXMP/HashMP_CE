@@ -672,7 +672,7 @@ quality_ideas = {
 	}
 
 	naval_drill = {
-		drill_gain_modifier = 0.25
+		drill_gain_modifier = 0.33
 		drill_decay_modifier = -0.1
 	}
 	quality_education = {
