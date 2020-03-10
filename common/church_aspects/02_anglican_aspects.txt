@@ -20,6 +20,7 @@ divorce_consort_aspect = {
 		hidden_effect = {
 			remove_consort = yes
 		}		
+		add_prestige = 10
 	}
 	ai_will_do = {
 		factor = 2
@@ -62,6 +63,7 @@ gain_consort_aspect = {
 			hide_skills = yes
 			female = yes
 		}
+		add_prestige = 10
 	}
 	ai_will_do = {
 		factor = 1
@@ -85,7 +87,7 @@ dissolve_monasteries_aspect = {
 		}
 	}
 	effect = {
-		add_years_of_income = 0.25
+		add_years_of_income = 0.33
 	}
 	ai_will_do = {
 		factor = 1
