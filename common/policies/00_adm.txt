@@ -549,7 +549,7 @@ vassal_taxation_policy = {
 		full_idea_group = administrative_ideas
 	}
 
-	fire_damage = 0.10
+	fire_damage = 0.15
 
 	ai_will_do = {
 		factor = 1
