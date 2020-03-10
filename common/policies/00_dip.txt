@@ -922,7 +922,7 @@ fortified_trading_posts = {
 		full_idea_group = aristocracy_ideas
 	}	
 	
-	capture_ship_chance = 0.33
+	shock_damage = 0.15
 	
 	ai_will_do = {
 		factor = 1
