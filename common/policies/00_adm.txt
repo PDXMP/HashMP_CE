@@ -717,7 +717,7 @@ the_witchcraft_act = {
 		full_idea_group = aristocracy_ideas
 	}
 	
-	shock_damage = 0.10
+	shock_damage = 0.15
 
 	ai_will_do = {
 		factor = 1
