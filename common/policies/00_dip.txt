@@ -401,7 +401,7 @@ nobles_in_navy_act = {
 		full_idea_group = maritime_ideas
 	}
 
-	admiral_cost = -0.33
+	shock_damage = 0.15
 
 	ai_will_do = {
 		factor = 1
