@@ -116,10 +116,10 @@ t_low_repubtrad = {
 	}
 	trigger = {
 		NOT = {
-			republican_tradition = 30
+			republican_tradition = 40
 		}
 	}
-	all_power_cost = 0.15
+	all_power_cost = 0.2
 }
 
 t_cn_army_1 = {
