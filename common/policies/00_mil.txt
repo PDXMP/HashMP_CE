@@ -297,7 +297,7 @@ modern_firearm_techniques = {
 		full_idea_group = quality_ideas
 	}
 	
-	infantry_power = 0.125
+	infantry_power = 0.15
 
 	ai_will_do = {
 		factor = 1
