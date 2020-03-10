@@ -1,6 +1,6 @@
 yemoja_cult =
 {
-	naval_maintenance_modifier = -0.15
+	naval_maintenance_modifier = -0.2
 
 	allow = {
 		OR = {
@@ -74,7 +74,7 @@ cwezi_cult = { #Great lakes / Kitara successor states
 			}
 		}
 	}
-	improve_relation_modifier = 0.2
+	improve_relation_modifier = 0.33
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -130,7 +130,7 @@ mwari_cult = { #Semi-monotheistic religion from Zimbabwe plateau
 
 #East Africa
 enkai_cult = {
-	manpower_recovery_speed = 0.15 
+	manpower_recovery_speed = 0.2 
 	
 	allow = {
 		OR = {
@@ -211,7 +211,7 @@ islam_cult = {
 	allow  = {
 		has_unlocked_cult = islam_cult
 	}
-	global_institution_spread = 0.1
+	global_institution_spread = 0.5
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -271,7 +271,7 @@ norse_cult = {
 	allow  = {
 		has_unlocked_cult = norse_cult
 	}
-	tolerance_heathen = 2
+	tolerance_heathen = 3
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -286,7 +286,7 @@ jewish_cult = {
 	allow = {
 		has_unlocked_cult = jewish_cult
 	}
-	advisor_cost = -0.1
+	advisor_cost = -0.2
 	ai_will_do = {
 		factor = 10
 		modifier = {
