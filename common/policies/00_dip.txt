@@ -898,7 +898,7 @@ skilled_cartographers = {
 		full_idea_group = quality_ideas
 	}	
 	
-	siege_blockade_progress = 1
+	fire_damage = 0.15
 
 	ai_will_do = {
 		factor = 1
