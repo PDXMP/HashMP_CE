@@ -74,7 +74,7 @@ the_recruiting_act = {
 
 convoy_system = {
 
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = maritime_ideas
@@ -385,7 +385,7 @@ nobility_embassy_act = {
 }
 
 nobles_in_navy_act = {
-	monarch_power = DIP
+	monarch_power = MIL
 	potential = {
 		has_idea_group = aristocracy_ideas
 		has_idea_group = maritime_ideas
@@ -880,7 +880,7 @@ overseas_embassies = {
 }
 
 skilled_cartographers = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = naval_ideas
@@ -904,7 +904,7 @@ skilled_cartographers = {
 }
 
 fortified_trading_posts = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = naval_ideas

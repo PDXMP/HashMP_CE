@@ -665,7 +665,7 @@ messenger_ships = {
 }
 
 the_nautic_education_act = {
-	monarch_power = ADM
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = naval_ideas

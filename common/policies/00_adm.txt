@@ -1,6 +1,6 @@
 the_combination_act = {
 
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = aristocracy_ideas
