@@ -19,15 +19,15 @@ great_power_2 = {
 }
 
 great_power_3 = {
-	power = 25
+	power = 24
 }
 
 great_power_4 = {
-	power = 23
+	power = 22
 }
 
 great_power_5 = {
-	power = 21
+	power = 20
 }
 
 great_power_6 = {
@@ -35,19 +35,27 @@ great_power_6 = {
 }
 
 great_power_7 = {
-	power = 15
+	power = 16
 }
 
 great_power_8 = {
-	power = 13
+	power = 14
 }
 
 great_power_9 = {
-	power = 10
+	power = 12
 }
 
 great_power_10 = {
 	power = 10
+}
+
+great_power_11 = {
+	power = 8
+}
+
+great_power_12 = {
+	power = 6
 }
 
 subsidies_to_enemy_of_rival = {
