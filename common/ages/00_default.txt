@@ -808,7 +808,7 @@ age_of_revolutions = {
 				tag = GBR
 			}
 			modifier = {
-				fire_damage = 0.15
+				infantry_power = 0.15
 			}
 			ai_will_do = {
 				factor = 100
