@@ -870,7 +870,7 @@ overseas_embassies = {
 	}	
 	
 	movement_speed_onto_off_boat_modifier = -0.33
-	infantry_power = 0.075
+	infantry_power = 0.1
 	
 	ai_will_do = {
 		modifier = {
