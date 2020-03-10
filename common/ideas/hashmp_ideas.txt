@@ -1421,13 +1421,13 @@ PEU_ideas = { #Peru
 	
 	peu_1 = { #Mountain Foundries
 		artillery_cost = -0.15
-		artillery_power = 0.075
+		artillery_power = 0.1
 	}
 	peu_2 = { #Andes Rangers
 		movement_speed = 0.1
 	}
 	peu_3 = { #Blast Charges
-		siege_ability = 0.1
+		siege_ability = 0.15
 	}
 	peu_4 = { #Loyalists
 		republican_tradition = 0.1
