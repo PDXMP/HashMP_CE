@@ -681,7 +681,7 @@ the_nautic_education_act = {
 		full_idea_group = innovativeness_ideas
 	}	
 
-	dip_tech_cost_modifier = -0.15
+	siege_blockade_progress = 1
 	
 	ai_will_do = {
 		factor = 1
