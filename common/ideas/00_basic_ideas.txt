@@ -879,7 +879,7 @@ humanist_ideas = {
 		prestige = 1
 	}
 	benevolence = {
-		production_efficiency = 0.10
+		global_autonomy = -0.05
 	}
 	humanist_tolerance = {
 		defensiveness = 0.1
