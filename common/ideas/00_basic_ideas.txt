@@ -383,7 +383,7 @@ economic_ideas = {
 		prestige_decay = -0.01
 	}
 	centralization = {
-		global_autonomy = -0.05
+		production_efficiency = 0.10
 	}
 	nationalistic_enthusiasm = {
 		land_maintenance_modifier = -0.05
