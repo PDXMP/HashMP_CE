@@ -184,7 +184,7 @@ trained_marines_act = {
 	}
 	
 	naval_morale = 0.05
-	infantry_power = 0.075
+	infantry_power = 0.1
 
 	ai_will_do = {
 		factor = 1
