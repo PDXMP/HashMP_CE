@@ -2062,7 +2062,7 @@ enlightenment = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 6
 			custom_trigger_tooltip = {
 				tooltip = tooltip_university_on_institution_continent
 				has_building = university
@@ -2073,7 +2073,7 @@ enlightenment = {
 			}
 		}
 		modifier = {
-			factor = 1
+			factor = 3
 			custom_trigger_tooltip = {
 				tooltip = tooltip_university_not_institution_continent
 				has_building = university
