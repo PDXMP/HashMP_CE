@@ -15,7 +15,7 @@ the_combination_act = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	general_cost = -0.15
+	fire_damage_received = -0.1
 	
 	ai_will_do = {
 		factor = 1
