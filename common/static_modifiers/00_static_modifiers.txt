@@ -1335,12 +1335,12 @@ divert_trade = {
 karma_just_right =
 {
 	development_cost = -0.1
-	discipline = 0.03
+	discipline = 0.05
 }
 
 karma_too_high =
 {
-	development_cost = -0.075
+	development_cost = -0.1
 }
 
 karma_too_low =
