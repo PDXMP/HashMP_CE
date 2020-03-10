@@ -43,15 +43,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 624
-				province_id = 2687
-				province_id = 629
-				province_id = 630
-				area = malacca_area
-				area = malaya_area
-				area = kalimantan_area
-				area = brunei_area
-				area = kutai_area
+				region = indonesia_region
 				area = north_sumatra_area
 				area = batak_area
 				area = central_sumatra_area
@@ -67,98 +59,29 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			owns = 624 #Banten
-			owns = 2687 #Pakuan
-			owns = 629 #Demak
-			owns = 630 #Kalapa
-			OR = {
-				custom_trigger_tooltip = {
-					tooltip = malay_nation_malaya_borneo_tooltip
-					AND = { #Malay Peninsula and Borneo
-						malaya_area = {
-							type = all
-							owned_by = ROOT
-						}
-						malacca_area = {
-							type = all
-							owned_by = ROOT
-						}
-						kalimantan_area = {
-							type = all
-							owned_by = ROOT
-						}
-						brunei_area = {
-							type = all
-							owned_by = ROOT
-						}
-						kutai_area = {
-							type = all
-							owned_by = ROOT
-						}
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = malay_nation_malaya_sumatra_tooltip
-					AND = { #Malay Peninsula and Sumatra
-						malaya_area = {
-							type = all
-							owned_by = ROOT
-						}
-						malacca_area = {
-							type = all
-							owned_by = ROOT
-						}
-						north_sumatra_area = {
-							type = all
-							owned_by = ROOT
-						}
-						batak_area = {
-							type = all
-							owned_by = ROOT
-						}
-						central_sumatra_area = {
-							type = all
-							owned_by = ROOT
-						}
-						minangkabau_area = {
-							type = all
-							owned_by = ROOT
-						}
-						south_sumatra_area = {
-							type = all
-							owned_by = ROOT
-						}
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = malay_nation_borneo_sumatra_tooltip
-					AND = { #Borneo and Sumatra
-						kalimantan_area = {
-							type = all
-							owned_by = ROOT
-						}
-						brunei_area = {
-							type = all
-							owned_by = ROOT
-						}
-						kutai_area = {
-							type = all
-							owned_by = ROOT
-						}
-						north_sumatra_area = {
-							type = all
-							owned_by = ROOT
-						}
-						central_sumatra_area = {
-							type = all
-							owned_by = ROOT
-						}
-						south_sumatra_area = {
-							type = all
-							owned_by = ROOT
-						}
-					}
-				}
+			north_sumatra_area = {
+				type = all
+				owned_by = ROOT
+			}
+			batak_area = {
+				type = all
+				owned_by = ROOT
+			}
+			central_sumatra_area = {
+				type = all
+				owned_by = ROOT
+			}
+			minangkabau_area = {
+				type = all
+				owned_by = ROOT
+			}
+			south_sumatra_area = {
+				type = all
+				owned_by = ROOT
+			}
+			indonesia_region = {
+				type = all
+				owned_by = ROOT
 			}
 		}
 		effect = {
@@ -166,23 +89,15 @@ country_decisions = {
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			every_province ={
 				limit = {
 					OR = {
-						area = kutai_area
-						area = brunei_area
-						area = kalimantan_area
-						area = north_sumatra_area
-						area = central_sumatra_area
-						area = batak_area
-						area = minangkabau_area
-						area = south_sumatra_area
-						area = malaya_area
-						area = malacca_area
+						region = malaya_region
+						region = moluccas_region
 					}
 				}
 				add_permanent_claim = MSA
