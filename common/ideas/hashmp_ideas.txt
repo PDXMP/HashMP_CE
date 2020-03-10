@@ -861,7 +861,7 @@ CSC_ideas = { #Columbia
 		prestige = 1
 	}
 	csc_4 = { #Trial By Fire
-		fire_damage_received = -0.10
+		fire_damage_received = -0.15
 	}
 	csc_5 = { #Lead By Example
 		leader_land_fire = 1
