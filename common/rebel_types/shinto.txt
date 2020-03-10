@@ -186,14 +186,14 @@ shinto_rebels = {
 			}
 		}
 		
-		else_if = {
-			limit = {
-				NOT = { religion = shinto }
-				dominant_religion = shinto
-			}
-			change_religion = shinto
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = shinto }
+		#		dominant_religion = shinto
+		#	}
+		#	change_religion = shinto
+		#	force_converted = yes
+		#}
 		else_if = {
 			limit = {
 				NOT = { religion = shinto }
