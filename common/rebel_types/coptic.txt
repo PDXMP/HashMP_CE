@@ -186,15 +186,15 @@ coptic_rebels = {
 			}
 		}
 		
-		else_if = {
-			limit = {
-				NOT = { religion = coptic }
-				dominant_religion = coptic
-				NOT = { tag = PAP }
-			}
-			change_religion = coptic
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = coptic }
+		#		dominant_religion = coptic
+		#		NOT = { tag = PAP }
+		#	}
+		#	change_religion = coptic
+		#	force_converted = yes
+		#}
 		else_if = {
 			limit = {
 				NOT = { religion = coptic }
