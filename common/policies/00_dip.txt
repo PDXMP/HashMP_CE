@@ -459,8 +459,7 @@ streamlined_galley_production = {
 		full_idea_group = quantity_ideas
 	}
 	
-	naval_forcelimit_modifier = 0.10
-	global_ship_cost = -0.075
+	admiral_cost = -0.33
 
 	ai_will_do = {
 		factor = 1
