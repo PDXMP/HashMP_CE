@@ -772,7 +772,7 @@ expansion_ideas = {
 		land_forcelimit_modifier = 0.15
 	}
 	competetive_merchants  = {
-		global_own_trade_power = 0.2
+		global_own_trade_power = 0.25
 	}
 	additional_merchants = {
 		merchants = 1
