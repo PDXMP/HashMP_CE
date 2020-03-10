@@ -57,7 +57,7 @@ plutocracy_ideas = {
 	category = MIL
 
 	bonus = {
-		fire_damage = 0.1
+		fire_damage = 0.15
 	}
 	
 	tradition_of_payment = {
