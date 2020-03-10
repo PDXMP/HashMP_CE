@@ -493,7 +493,7 @@ excommunication = {
 		
 	}
 
-	prestige = -2
+	prestige = -1
 	tolerance_own = -3
 	devotion = -5
 	papal_influence = -10
