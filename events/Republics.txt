@@ -13,21 +13,21 @@ country_event = {
 			NOT = { has_dlc = "Res Publica" }
 			NOT = { has_reform = dutch_republic }
 		}
-		NOT = { republican_tradition = 50 }
+		NOT = { republican_tradition = 40 }
 	}
 	
 	mean_time_to_happen = {
-		months = 120		
+		months = 240		
 	}
 	
 	option = {
 		name = republics.1.a
-		add_republican_tradition = -25
-		add_prestige = 10
+		add_republican_tradition = -10
+		add_stability = 1
 	}
 	option = {
 		name = republics.1.b
-		add_republican_tradition = 20
+		add_republican_tradition = 10
 		add_stability = -1
 	}
 }
