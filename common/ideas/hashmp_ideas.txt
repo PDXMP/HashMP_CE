@@ -1165,7 +1165,7 @@ CHL_ideas = { #Chile
 
 LAP_ideas = { #La Plata
 	start = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.2
 		global_unrest = -1
 	}
 	
@@ -1188,7 +1188,7 @@ LAP_ideas = { #La Plata
 		republican_tradition = 0.1
 	}
 	lap_4 = { #Made of Steel
-		infantry_cost = -0.1
+		infantry_cost = -0.2
 	}
 	lap_5 = { #Made of Silver
 		global_trade_goods_size_modifier = 0.1
