@@ -567,7 +567,7 @@ AUS_ideas = { #Australia
 	free = yes
 	
 	aus_1 = { #Legion of Frontiersmen
-		infantry_power = 0.15
+		infantry_power = 0.2
 	}
 	aus_2 = { #Australian Courts
 		yearly_corruption = -0.1
