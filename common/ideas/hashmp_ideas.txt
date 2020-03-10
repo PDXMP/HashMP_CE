@@ -1209,7 +1209,7 @@ TEX_ideas = { #Texas
 		free_leader_pool = 1
 	}
 	bonus = {
-		land_morale = 0.1
+		cav_to_inf_ratio = 0.3
 	}
 	trigger = {
 		tag = TEX
@@ -1219,15 +1219,14 @@ TEX_ideas = { #Texas
 		prestige = 1
 	}
 	tex_revolution = { #Texas Rangers
-		shock_damage = 0.15
+		shock_damage = 0.2
 	}
 	cotton_plantations = {
 		production_efficiency = 0.05
 		development_cost = -0.05
 	}
 	vaqueros = {
-		cavalry_power = 0.15
-		cav_to_inf_ratio = 0.40
+		cavalry_power = 0.2
 	}
 	tex_native_frontiers = {
 		land_attrition = -0.1
