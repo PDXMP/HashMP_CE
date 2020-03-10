@@ -583,6 +583,7 @@ maritime_ideas = {
 
 	trigger = {
 		primitives = no
+		NOT = { has_idea_group = naval_ideas }
 	}
 
 	bonus = {
@@ -953,6 +954,7 @@ naval_ideas = {
 
 	trigger = {
 		primitives = no
+		NOT = { has_idea_group = maritime_ideas }
 	}
 
 	bonus = {
