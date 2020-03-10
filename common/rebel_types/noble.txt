@@ -147,7 +147,6 @@ noble_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					has_estate_influence_modifier = {
