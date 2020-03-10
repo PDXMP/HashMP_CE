@@ -69,13 +69,12 @@ plutocracy_ideas = {
 	}
 	bill_of_rights = {
 		land_forcelimit_modifier = 0.10
-		global_unrest = -1
 	}
 	free_merchants = {
 		merchants = 1
 	}
 	free_subjects = {
-		global_regiment_recruit_speed = -0.25
+		global_unrest = -1
 	}
 	free_cities = {
 		infantry_cost = -0.1
