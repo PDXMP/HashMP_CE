@@ -34,7 +34,7 @@ fervor_war = {
 	cost = 5
 	effect = {
 		land_morale = 0.05
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.2
 	}
 	ai_will_do = {
 		factor = 1
