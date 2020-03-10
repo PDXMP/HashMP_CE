@@ -196,8 +196,7 @@ beneficial_neglect = {
 		full_idea_group = innovativeness_ideas
 	}
 
-	global_trade_power = 0.1
-	colonist_placement_chance = 0.03
+	dip_tech_cost_modifier = -0.15
 	
 
 	ai_will_do = {
