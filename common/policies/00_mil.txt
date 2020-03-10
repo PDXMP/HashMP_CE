@@ -760,7 +760,7 @@ inspirational_leaders = {
 	}	
 	
 	global_tax_modifier = 0.15
-	global_manpower_modifier = 0.15
+	global_manpower_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
