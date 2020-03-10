@@ -39,10 +39,6 @@ estate_nobles =
 		}
 		is_nomad = no
 		is_colonial_nation = no
-		OR = {
-			NOT = { has_dlc = "Common Sense" }
-			NOT = { has_reform = english_monarchy }
-		}
 		if = {
 			limit = {
 				NOT = { has_dlc = "Dharma" }
