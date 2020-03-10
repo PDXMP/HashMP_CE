@@ -15,15 +15,15 @@ t5_tp_2 = { #
 	icon = "man_on_podium"
 	allow_normal_conversion = yes
 	modifiers = {
-		technology_cost = -0.05
-		idea_cost = -0.05
+		technology_cost = -0.1
+		idea_cost = -0.1
 	}
 }
 t5_tp_3 = { #
 	icon = "soldiers_5"
 	allow_normal_conversion = yes
 	modifiers = {
-		global_regiment_cost = -0.05
+		global_regiment_cost = -0.1
 		land_forcelimit_modifier = 0.1
 	}
 }
