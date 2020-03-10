@@ -1367,7 +1367,7 @@ CAM_ideas = { #United Central America
 
 BLV_ideas = { #Bolivia
 	start = {
-		land_forcelimit_modifier = 0.1
+		land_forcelimit_modifier = 0.2
 		global_prov_trade_power_modifier = 0.2
 	}
 	
