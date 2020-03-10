@@ -1340,8 +1340,7 @@ CAM_ideas = { #United Central America
 	free = yes
 	
 	cam_1 = { #Grand Commissariat
-		land_morale = 0.1
-		recover_army_morale_speed = 0.05
+		recover_army_morale_speed = 0.1
 	}
 	cam_2 = { #Arm the Masses
 		infantry_power = -0.2
@@ -1361,7 +1360,7 @@ CAM_ideas = { #United Central America
 		garrison_size = 0.1
 	}
 	cam_7 = { #Militia
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.33
 	}
 }
 
