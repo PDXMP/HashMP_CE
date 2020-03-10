@@ -710,7 +710,7 @@ PRG_ideas = { #Paraguay
 
 CAN_ideas = { #Canada
 	start = {
-		infantry_cost = -0.1
+		land_morale = 0.1
 		no_religion_penalty = yes
 	}
 	
