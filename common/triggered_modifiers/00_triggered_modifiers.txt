@@ -472,11 +472,10 @@ crusader = {
 		land_maintenance = 1.0
 	}
 
-	global_manpower_modifier = 0.3
-	global_tax_modifier = 0.1
+	manpower_recovery_speed = 0.2
+	reinforce_cost_modifier = -0.1
 	land_morale = 0.10
-	prestige = 1
-	papal_influence = 1
+	papal_influence = 1.5
 	devotion = 0.25
 	#icon = 9
 }
