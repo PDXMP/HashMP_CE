@@ -3578,6 +3578,7 @@ AZT_ideas = {
 	
 	eagles_and_jaguars = {
 		land_morale = 0.15
+		discipline = 0.05
 	}
 	telpochcalli = {
 		manpower_recovery_speed = 0.2
