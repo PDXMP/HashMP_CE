@@ -5724,11 +5724,11 @@ KHM_ideas = {
 	}
 	free = yes
 	
-	preah_ko_preah_keo = {
-		land_morale = 0.1
-	}
 	khm_theravada = {
 		num_accepted_cultures = 1
+	}
+	preah_ko_preah_keo = {
+		land_morale = 0.1
 	}
 	khm_cham_migration = {
 		navy_tradition = 1
