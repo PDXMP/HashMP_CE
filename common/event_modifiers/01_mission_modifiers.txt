@@ -1427,8 +1427,8 @@ million_rice_fields = {
 }
 
 chakravarti = {
-	global_autonomy = -0.03
-	legitimacy = 1
+	global_autonomy = -0.05
+	prestige = 2
 }
 
 tau_arakan_trade = {
@@ -1453,12 +1453,12 @@ tau_mandala = {
 }
 
 shan_relocation = {
-	culture_conversion_cost = -0.2
+	culture_conversion_cost = -0.25
 }
 
 tau_new_capital = {
-	local_development_cost = -0.15
-	local_build_cost = -0.15
+	local_development_cost = -0.2
+	local_build_cost = -0.2
 }
 
 #Mughals
