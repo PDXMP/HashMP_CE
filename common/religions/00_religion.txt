@@ -1170,8 +1170,8 @@ eastern = {
 		color = { 214 229 140 }
 		icon = 9
 		country = {
-			tolerance_heretic = 2
-			technology_cost = -0.10
+			tolerance_heretic = 3
+			technology_cost = -0.05
 		}
 		country_as_secondary = {
 			technology_cost = -0.10
