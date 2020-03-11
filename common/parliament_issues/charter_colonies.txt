@@ -3,6 +3,7 @@ charter_colonies = {
 	category = 2
 
 	allow = {
+		NOT = { is_colonial_nation = no }
 		OR = {
 			full_idea_group = expansion_ideas
 			full_idea_group = exploration_ideas
