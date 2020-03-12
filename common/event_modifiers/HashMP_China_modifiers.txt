@@ -266,3 +266,27 @@ h_chinese_empire = {
 	global_unrest = -2
 	global_autonomy = -0.05
 }
+
+h_csh_legacy = {
+
+}
+
+h_cxi_legacy = {
+
+}
+
+h_cyi_legacy = {
+
+}
+
+h_qic_legacy = {
+
+}
+
+h_wuu_legacy = {
+
+}
+
+h_yue_legacy = {
+
+}
