@@ -223,3 +223,35 @@ country_event = { #Xi Warlord 2 Ancillary - Tiger's Raiders
 	}
 	
 }
+
+country_event = { #Xi Warlord 3 Ancillary - Subjugate Estates
+	id = foffychina.11
+	title = foffychina.11.t
+	desc = foffychina.11.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.11.a
+		add_country_modifier = {
+			name = "h_cxi_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.11.b
+		add_country_modifier = {
+			name = "h_cxi_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.11.c
+		add_country_modifier = {
+			name = "h_cxi_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
