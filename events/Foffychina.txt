@@ -639,3 +639,35 @@ country_event = { #Yue Warlord 3 Ancillary - Pearl River Trade
 	}
 	
 }
+
+country_event = { #Yue Warlord 4 Ancillary - Great Yue
+	id = foffychina.22
+	title = foffychina.22.t
+	desc = foffychina.22.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.22.a
+		add_country_modifier = {
+			name = "h_yue_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.22.b
+		add_country_modifier = {
+			name = "h_yue_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.22.c
+		add_country_modifier = {
+			name = "h_yue_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
