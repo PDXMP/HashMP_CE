@@ -671,3 +671,273 @@ country_event = { #Yue Warlord 4 Ancillary - Great Yue
 	}
 	
 }
+
+country_event = { #CSH Warlord Death
+	id = foffychina.25
+	title = foffychina.25.t
+	desc = foffychina.25.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CSH
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+	
+	option = { 
+		name = foffychina.25.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_csh_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #CXI Warlord Death
+	id = foffychina.26
+	title = foffychina.26.t
+	desc = foffychina.26.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CXI
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+	
+	option = { 
+		name = foffychina.26.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_cxi_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #CYI Warlord Death
+	id = foffychina.27
+	title = foffychina.27.t
+	desc = foffychina.27.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CYI
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+	
+	option = { 
+		name = foffychina.27.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_cyi_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #QIC Warlord Death
+	id = foffychina.28
+	title = foffychina.28.t
+	desc = foffychina.28.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QIC
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+	
+	option = { 
+		name = foffychina.28.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_qic_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #WUU Warlord Death
+	id = foffychina.29
+	title = foffychina.29.t
+	desc = foffychina.29.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = WUU
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+	
+	option = { 
+		name = foffychina.29.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_wuu_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #YUE Warlord Death
+	id = foffychina.30
+	title = foffychina.30.t
+	desc = foffychina.30.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = YUE
+		ruler_has_personality = immortal_personality
+		is_year = 1486
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		modifier = {
+			factor = 0.8
+			is_year = 1488
+		}
+		modifier = {
+			factor = 0.6
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.4
+			is_year = 1492
+		}
+		modifier = {
+			factor = 0.2
+			is_year = 1494
+		}
+	}
+	
+	option = { 
+		name = foffychina.30.a
+		kill_ruler = yes
+		add_country_modifier = {
+			name = "h_yue_legacy"
+			duration = 3650
+		}
+	}
+	
+}
