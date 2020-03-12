@@ -449,70 +449,6 @@ country_event = { #Qi Warlord 3 Ancillary - Defend the Kingdom
 }
 
 country_event = { #Qi Warlord 4 Ancillary - Great Qi
-	id = foffychina.16
-	title = foffychina.16.t
-	desc = foffychina.16.d
-	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
-	
-	option = { 
-		name = foffychina.16.a
-		add_country_modifier = {
-			name = "h_qic_anc3_1"
-			duration = -1
-		}
-	}
-	option = {
-		name = foffychina.16.b
-		add_country_modifier = {
-			name = "h_qic_anc3_2"
-			duration = -1
-		}
-	}
-	option = {
-		name = foffychina.16.c
-		add_country_modifier = {
-			name = "h_qic_anc3_3"
-			duration = -1
-		}
-	}
-	
-}
-
-country_event = { #Wu Warlord 2 Ancillary - Call in Favors
-	id = foffychina.17
-	title = foffychina.17.t
-	desc = foffychina.17.d
-	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
-	
-	option = { 
-		name = foffychina.17.a
-		add_country_modifier = {
-			name = "h_wuu_anc1_1"
-			duration = -1
-		}
-	}
-	option = {
-		name = foffychina.17.b
-		add_country_modifier = {
-			name = "h_wuu_anc1_2"
-			duration = -1
-		}
-	}
-	option = {
-		name = foffychina.17.c
-		add_country_modifier = {
-			name = "h_wuu_anc1_3"
-			duration = -1
-		}
-	}
-	
-}
-
-country_event = { #Wu Warlord 3 Ancillary - Riches of Hangzhou
 	id = foffychina.18
 	title = foffychina.18.t
 	desc = foffychina.18.d
@@ -523,28 +459,28 @@ country_event = { #Wu Warlord 3 Ancillary - Riches of Hangzhou
 	option = { 
 		name = foffychina.18.a
 		add_country_modifier = {
-			name = "h_wuu_anc2_1"
+			name = "h_qic_anc3_1"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.18.b
 		add_country_modifier = {
-			name = "h_wuu_anc2_2"
+			name = "h_qic_anc3_2"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.18.c
 		add_country_modifier = {
-			name = "h_wuu_anc2_3"
+			name = "h_qic_anc3_3"
 			duration = -1
 		}
 	}
 	
 }
 
-country_event = { #Wu Warlord 4 Ancillary - Great Wu
+country_event = { #Wu Warlord 2 Ancillary - Call in Favors
 	id = foffychina.19
 	title = foffychina.19.t
 	desc = foffychina.19.d
@@ -555,28 +491,28 @@ country_event = { #Wu Warlord 4 Ancillary - Great Wu
 	option = { 
 		name = foffychina.19.a
 		add_country_modifier = {
-			name = "h_wuu_anc3_1"
+			name = "h_wuu_anc1_1"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.19.b
 		add_country_modifier = {
-			name = "h_wuu_anc3_2"
+			name = "h_wuu_anc1_2"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.19.c
 		add_country_modifier = {
-			name = "h_wuu_anc3_3"
+			name = "h_wuu_anc1_3"
 			duration = -1
 		}
 	}
 	
 }
 
-country_event = { #Yue Warlord 2 Ancillary - Crossroads
+country_event = { #Wu Warlord 3 Ancillary - Riches of Hangzhou
 	id = foffychina.20
 	title = foffychina.20.t
 	desc = foffychina.20.d
@@ -587,28 +523,28 @@ country_event = { #Yue Warlord 2 Ancillary - Crossroads
 	option = { 
 		name = foffychina.20.a
 		add_country_modifier = {
-			name = "h_yue_anc1_1"
+			name = "h_wuu_anc2_1"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.20.b
 		add_country_modifier = {
-			name = "h_yue_anc1_2"
+			name = "h_wuu_anc2_2"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.20.c
 		add_country_modifier = {
-			name = "h_yue_anc1_3"
+			name = "h_wuu_anc2_3"
 			duration = -1
 		}
 	}
 	
 }
 
-country_event = { #Yue Warlord 3 Ancillary - Pearl River Trade
+country_event = { #Wu Warlord 4 Ancillary - Great Wu
 	id = foffychina.21
 	title = foffychina.21.t
 	desc = foffychina.21.d
@@ -619,28 +555,28 @@ country_event = { #Yue Warlord 3 Ancillary - Pearl River Trade
 	option = { 
 		name = foffychina.21.a
 		add_country_modifier = {
-			name = "h_yue_anc2_1"
+			name = "h_wuu_anc3_1"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.21.b
 		add_country_modifier = {
-			name = "h_yue_anc2_2"
+			name = "h_wuu_anc3_2"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.21.c
 		add_country_modifier = {
-			name = "h_yue_anc2_3"
+			name = "h_wuu_anc3_3"
 			duration = -1
 		}
 	}
 	
 }
 
-country_event = { #Yue Warlord 4 Ancillary - Great Yue
+country_event = { #Yue Warlord 2 Ancillary - Crossroads
 	id = foffychina.22
 	title = foffychina.22.t
 	desc = foffychina.22.d
@@ -651,19 +587,83 @@ country_event = { #Yue Warlord 4 Ancillary - Great Yue
 	option = { 
 		name = foffychina.22.a
 		add_country_modifier = {
-			name = "h_yue_anc3_1"
+			name = "h_yue_anc1_1"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.22.b
 		add_country_modifier = {
-			name = "h_yue_anc3_2"
+			name = "h_yue_anc1_2"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.22.c
+		add_country_modifier = {
+			name = "h_yue_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Yue Warlord 3 Ancillary - Pearl River Trade
+	id = foffychina.23
+	title = foffychina.23.t
+	desc = foffychina.23.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.23.a
+		add_country_modifier = {
+			name = "h_yue_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.23.b
+		add_country_modifier = {
+			name = "h_yue_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.23.c
+		add_country_modifier = {
+			name = "h_yue_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Yue Warlord 4 Ancillary - Great Yue
+	id = foffychina.24
+	title = foffychina.24.t
+	desc = foffychina.24.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.24.a
+		add_country_modifier = {
+			name = "h_yue_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.24.b
+		add_country_modifier = {
+			name = "h_yue_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.24.c
 		add_country_modifier = {
 			name = "h_yue_anc3_3"
 			duration = -1
