@@ -144,39 +144,42 @@ h_cyi_anc3_3 = {
 }
 
 h_qic_anc1_1 = {
-
+	production_efficiency = 0.1
 }
 
 h_qic_anc1_2 = {
-
+	infantry_cost = -0.05
 }
 
 h_qic_anc1_3 = {
-
+	interest = -0.25
 }
 
 h_qic_anc2_1 = {
-
+	shock_damage_received = -0.1
 }
 
 h_qic_anc2_2 = {
-
+	defensiveness = 0.1
+	fort_maintenance_modifier = -0.1
 }
 
 h_qic_anc2_3 = {
-
+	naval_morale = 0.1
 }
 
 h_qic_anc3_1 = {
-
+	monarch_military_power = 1
 }
 
 h_qic_anc3_2 = {
-
+	monarch_diplomatic_power
+	dip_tech_cost_modifier = -0.1
 }
 
 h_qic_anc3_3 = {
-
+	monarch_admin_power = 1
+	adm_tech_cost_modifier = -0.1
 }
 
 h_wuu_anc1_1 = {
