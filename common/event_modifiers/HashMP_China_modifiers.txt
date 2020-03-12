@@ -28,39 +28,43 @@ h_china_wonders = {
 }
 
 h_csh_anc1_1 = {
-
+	movement_speed = 0.1
+	reinforce_speed = 0.1
 }
 
 h_csh_anc1_2 = {
-
+	global_tax_modifier = 0.1
 }
 
 h_csh_anc1_3 = {
-
+	advisor_cost = -0.1
+	global_unrest = 1
 }
 
 h_csh_anc2_1 = {
-
+	global_unrest = -1
+	max_states = 3
 }
 
 h_csh_anc2_2 = {
-
+	diplomatic_annexation_cost = -0.2
 }
 
 h_csh_anc2_3 = {
-
+	province_warscore_cost = -0.1
 }
 
 h_csh_anc3_1 = {
-
+	global_manpower_modifier = 0.2
 }
 
 h_csh_anc3_2 = {
-
+	infantry_power = 0.1
 }
 
 h_csh_anc3_3 = {
-
+	build_cost = -0.1
+	development_cost = -0.05
 }
 
 h_cxi_anc1_1 = {
