@@ -423,6 +423,7 @@ country_decisions = {
 	}
 	
 	h_decision_warlord2 = { #Warring State
+		major = yes
 		potential = {
 			has_reform = h_reform_warlord_1
 		}
@@ -478,6 +479,7 @@ country_decisions = {
 	}
 	
 	h_decision_warlord3 = { #Chinese Kingdom
+		major = yes
 		potential = {
 			has_reform = h_reform_warlord_2
 		}
@@ -533,6 +535,7 @@ country_decisions = {
 	}
 	
 	h_decision_warlord4 = { #Chinese Empire
+		major = yes
 		potential = {
 			has_reform = h_reform_warlord_3
 		}
