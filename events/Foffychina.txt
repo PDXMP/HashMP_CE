@@ -511,3 +511,35 @@ country_event = { #Wu Warlord 2 Ancillary - Call in Favors
 	}
 	
 }
+
+country_event = { #Wu Warlord 3 Ancillary - Riches of Hangzhou
+	id = foffychina.18
+	title = foffychina.18.t
+	desc = foffychina.18.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.18.a
+		add_country_modifier = {
+			name = "h_wuu_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.18.b
+		add_country_modifier = {
+			name = "h_wuu_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.18.c
+		add_country_modifier = {
+			name = "h_wuu_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
