@@ -383,3 +383,35 @@ country_event = { #Yi Warlord 4 Ancillary - Great Yi
 	}
 	
 }
+
+country_event = { #Qi Warlord 2 Ancillary - Huan's Fiscal Reforms
+	id = foffychina.14
+	title = foffychina.14.t
+	desc = foffychina.14.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.14.a
+		add_country_modifier = {
+			name = "h_qic_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.14.b
+		add_country_modifier = {
+			name = "h_qic_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.14.c
+		add_country_modifier = {
+			name = "h_qic_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
