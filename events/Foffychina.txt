@@ -415,3 +415,35 @@ country_event = { #Qi Warlord 2 Ancillary - Huan's Fiscal Reforms
 	}
 	
 }
+
+country_event = { #Qi Warlord 3 Ancillary - Defend the Kingdom
+	id = foffychina.15
+	title = foffychina.15.t
+	desc = foffychina.15.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.15.a
+		add_country_modifier = {
+			name = "h_qic_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.15.b
+		add_country_modifier = {
+			name = "h_qic_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.15.c
+		add_country_modifier = {
+			name = "h_qic_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
