@@ -173,7 +173,7 @@ h_qic_anc3_1 = {
 }
 
 h_qic_anc3_2 = {
-	monarch_diplomatic_power
+	monarch_diplomatic_power = 1
 	dip_tech_cost_modifier = -0.1
 }
 
