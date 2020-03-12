@@ -92,8 +92,11 @@ h_reform_warlord_1 = {
 	allow_normal_conversion = yes
 	fixed_rank = 1
 	potential = {
-		#always = no
-		NOT = has_reform = h_reform_warlord_2
+		AND = {
+			NOT = { has_reform = h_reform_warlord_2 }
+			NOT = { has_reform = h_reform_warlord_3 }
+			NOT = { has_reform = h_reform_warlord_4 }
+		}
 		OR = {
 			tag = WUU
 			tag = YUE
@@ -101,7 +104,6 @@ h_reform_warlord_1 = {
 			tag = CXI
 			tag = CYI
 			tag = QIC
-			tag = HNG
 		}
 	}
 	modifiers = {
@@ -122,16 +124,19 @@ h_reform_warlord_2 = {
 	allow_normal_conversion = yes
 	fixed_rank = 2
 	potential = {
-		has_reform = h_reform_warlord_1
-		#OR = {
-		#	tag = WUU
-		#	tag = YUE
-		#	tag = CSH
-		#	tag = CXI
-		#	tag = CYI
-		#	tag = QIC
-		#	tag = HNG
-		#}
+		AND = {
+			NOT = { has_reform = h_reform_warlord_1 }
+			NOT = { has_reform = h_reform_warlord_3 }
+			NOT = { has_reform = h_reform_warlord_4 }
+		}
+		OR = {
+			tag = WUU
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+		}
 	}
 	modifiers = {
 		ae_impact = 0.2
