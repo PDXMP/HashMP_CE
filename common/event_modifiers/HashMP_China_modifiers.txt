@@ -112,7 +112,7 @@ h_cyi_anc1_1 = {
 }
 
 h_cyi_anc1_2 = {
-	diplomatic_upkeep = 1
+	diplomatic_upkeep = 2
 }
 
 h_cyi_anc1_3 = {
@@ -222,37 +222,42 @@ h_wuu_anc3_3 = {
 }
 
 h_yue_anc1_1 = {
-
+	land_attrition = -0.1
 }
 
 h_yue_anc1_2 = {
-
+	vassal_income = 0.25
+	diplomatic_upkeep = 1
 }
 
 h_yue_anc1_3 = {
-
+	core_creation = -0.1
 }
 
 h_yue_anc2_1 = {
-
+	trade_efficiency = 0.1
 }
 
 h_yue_anc2_2 = {
-
+	inflation_reduction = 0.2
+	global_trade_goods_size_modifier = 0.05
 }
 
 h_yue_anc2_3 = {
-
+	build_cost = -0.05
+	build_time = -0.1
 }
 
 h_yue_anc3_1 = {
-
+	fire_damage = 0.1
+	fire_damage_received = -0.1
 }
 
 h_yue_anc3_2 = {
-
+	land_forcelimit_modifier = 0.25
+	global_manpower_modifier = 0.15
 }
 
 h_yue_anc3_3 = {
-
+	land_morale = 0.1
 }
