@@ -313,6 +313,7 @@ CXI_ideas = { #Xi
 	
 	CXI_1 = {
 		land_morale = 0.1
+		loot_amount = 0.25
 	}
 	CXI_2 = {
 		fort_maintenance_modifier = -0.2
