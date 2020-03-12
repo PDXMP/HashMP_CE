@@ -422,7 +422,7 @@ country_decisions = {
 		do_not_core = 1829 # Xiamen
 	}
 	
-	h_decision_warlord2 = {
+	h_decision_warlord2 = { #Warring State
 		potential = {
 			has_government_reform = h_reform_warlord_1
 		}
@@ -435,4 +435,19 @@ country_decisions = {
 			add_government_reform = h_reform_warlord_2
 		}
 	}
+	
+	h_decision_warlord3 = { #Warlord Kingdom
+		potential = {
+			has_government_reform = h_reform_warlord_2
+		}
+		allow = {
+			is_at_war = no
+			total_development = 500
+		}
+		effect = {
+			add_stability = 1
+			add_government_reform = h_reform_warlord_3
+		}
+	}
+
 }
