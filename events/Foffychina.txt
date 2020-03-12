@@ -287,3 +287,35 @@ country_event = { #Xi Warlord 4 Ancillary - Great Xi
 	}
 	
 }
+
+country_event = { #Yi Warlord 2 Ancillary - Tribal Reforms
+	id = foffychina.12
+	title = foffychina.12.t
+	desc = foffychina.12.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.12.a
+		add_country_modifier = {
+			name = "h_cyi_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.12.b
+		add_country_modifier = {
+			name = "h_cyi_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.12.c
+		add_country_modifier = {
+			name = "h_cyi_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
