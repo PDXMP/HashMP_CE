@@ -261,3 +261,8 @@ h_yue_anc3_2 = {
 h_yue_anc3_3 = {
 	land_morale = 0.1
 }
+
+h_chinese_empire = {
+	global_unrest = -2
+	global_autonomy = -0.05
+}

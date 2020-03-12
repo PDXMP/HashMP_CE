@@ -521,5 +521,59 @@ country_decisions = {
 			}
 		}
 	}
+	
+	h_decision_warlord4 = { #Chinese Kingdom
+		potential = {
+			has_reform = h_reform_warlord_3
+		}
+		allow = {
+			is_at_war = no
+			total_development = 500
+		}
+		effect = {
+			add_stability = 1
+			add_country_modifier = {
+				name = "h_chinese_empire"
+				duration = 9125
+			}			
+			add_government_reform = h_reform_warlord_4
+			if = {
+				limit = {
+					tag = CSH
+				}
+				country_event = { id = foffychina.9 } #Ancillary 3
+			}	
+			if = {
+				limit = {
+					tag = CXI
+				}
+				country_event = { id = foffychina.12 } #Ancillary 3
+			}
+			if = {
+				limit = {
+					tag = CYI
+				}
+				country_event = { id = foffychina.15 } #Ancillary 3
+			}
+			if = {
+				limit = {
+					tag = QIC
+				}
+				country_event = { id = foffychina.18 } #Ancillary 3
+			}
+			if = {
+				limit = {
+					tag = WUU
+				}
+				country_event = { id = foffychina.21 } #Ancillary 3
+			}
+			if = {
+				limit = {
+					tag = YUE
+				}
+				country_event = { id = foffychina.24 } #Ancillary 3
+			}
+		}
+	}
 
 }
