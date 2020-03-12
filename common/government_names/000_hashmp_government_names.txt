@@ -67,6 +67,75 @@ gov_warlord1 = {
 		has_reform = h_reform_warlord_1
 	}
 }
+gov_warlord2 = {
+	rank = {
+		1 = H_WARLORD2
+		2 = H_WARLORD2
+		3 = H_WARLORD2
+	}
+	
+	ruler_male = {
+		1 = H_WarlordTitle2
+		2 = H_WarlordTitle2
+		3 = H_WarlordTitle2
+	}
+	
+	ruler_female = {
+		1 = H_WarlordTitle2
+		2 = H_WarlordTitle2
+		3 = H_WarlordTitle2
+	}
+	
+	trigger = {
+		has_reform = h_reform_warlord_2
+	}
+}
+gov_warlord3 = {
+	rank = {
+		1 = H_WARLORD3
+		2 = H_WARLORD3
+		3 = H_WARLORD3
+	}
+	
+	ruler_male = {
+		1 = H_WarlordTitle3
+		2 = H_WarlordTitle3
+		3 = H_WarlordTitle3
+	}
+	
+	ruler_female = {
+		1 = H_WarlordTitle3
+		2 = H_WarlordTitle3
+		3 = H_WarlordTitle3
+	}
+	
+	trigger = {
+		has_reform = h_reform_warlord_3
+	}
+}
+gov_warlord4 = {
+	rank = {
+		1 = H_WARLORD4
+		2 = H_WARLORD4
+		3 = H_WARLORD4
+	}
+	
+	ruler_male = {
+		1 = H_WarlordTitle4
+		2 = H_WarlordTitle4
+		3 = H_WarlordTitle4
+	}
+	
+	ruler_female = {
+		1 = H_WarlordTitle4
+		2 = H_WarlordTitle4
+		3 = H_WarlordTitle4
+	}
+	
+	trigger = {
+		has_reform = h_reform_warlord_4
+	}
+}
 gov_prefecture = {
 	rank = {
 		1 = H_PREFECTURE1
