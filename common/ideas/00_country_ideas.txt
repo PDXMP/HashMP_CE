@@ -2774,7 +2774,7 @@ KON_ideas = {
 	free = yes		#will be added at load.
 	
 	kongolese_tax_exchange = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.2
 	}
 	election_of_manikongos = {
 		global_missionary_strength = 0.02
