@@ -255,3 +255,35 @@ country_event = { #Xi Warlord 3 Ancillary - Subjugate Estates
 	}
 	
 }
+
+country_event = { #Xi Warlord 4 Ancillary - Great Xi
+	id = foffychina.12
+	title = foffychina.12.t
+	desc = foffychina.12.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.11.a
+		add_country_modifier = {
+			name = "h_cxi_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.11.b
+		add_country_modifier = {
+			name = "h_cxi_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.11.c
+		add_country_modifier = {
+			name = "h_cxi_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
