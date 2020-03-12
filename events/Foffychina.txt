@@ -319,3 +319,35 @@ country_event = { #Yi Warlord 2 Ancillary - Tribal Reforms
 	}
 	
 }
+
+country_event = { #Yi Warlord 3 Ancillary - Dragon's Roar
+	id = foffychina.12
+	title = foffychina.12.t
+	desc = foffychina.12.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.13.a
+		add_country_modifier = {
+			name = "h_cyi_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.13.b
+		add_country_modifier = {
+			name = "h_cyi_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.13.c
+		add_country_modifier = {
+			name = "h_cyi_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
