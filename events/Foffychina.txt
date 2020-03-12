@@ -289,22 +289,22 @@ country_event = { #Xi Warlord 4 Ancillary - Great Xi
 }
 
 country_event = { #Yi Warlord 2 Ancillary - Tribal Reforms
-	id = foffychina.12
-	title = foffychina.12.t
-	desc = foffychina.12.d
+	id = foffychina.13
+	title = foffychina.13.t
+	desc = foffychina.13.d
 	picture = COURT_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = { 
-		name = foffychina.12.a
+		name = foffychina.13.a
 		add_country_modifier = {
 			name = "h_cyi_anc1_1"
 			duration = -1
 		}
 	}
 	option = {
-		name = foffychina.12.b
+		name = foffychina.13.b
 		add_country_modifier = {
 			name = "h_cyi_anc1_2"
 			duration = -1
@@ -321,70 +321,6 @@ country_event = { #Yi Warlord 2 Ancillary - Tribal Reforms
 }
 
 country_event = { #Yi Warlord 3 Ancillary - Dragon's Roar
-	id = foffychina.12
-	title = foffychina.12.t
-	desc = foffychina.12.d
-	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
-	
-	option = { 
-		name = foffychina.12.a
-		add_country_modifier = {
-			name = "h_cyi_anc2_1"
-			duration = -1
-		}
-	}
-	option = {
-		name = foffychina.12.b
-		add_country_modifier = {
-			name = "h_cyi_anc2_2"
-			duration = -1
-		}
-	}
-	option = {
-		name = foffychina.12.c
-		add_country_modifier = {
-			name = "h_cyi_anc2_3"
-			duration = -1
-		}
-	}
-	
-}
-
-country_event = { #Yi Warlord 4 Ancillary - Great Yi
-	id = foffychina.13
-	title = foffychina.13.t
-	desc = foffychina.13.d
-	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
-	
-	option = { 
-		name = foffychina.13.a
-		add_country_modifier = {
-			name = "h_cyi_anc3_1"
-			duration = -1
-		}
-	}
-	option = {
-		name = foffychina.13.b
-		add_country_modifier = {
-			name = "h_cyi_anc3_2"
-			duration = -1
-		}
-	}
-	option = {
-		name = foffychina.13.c
-		add_country_modifier = {
-			name = "h_cyi_anc3_3"
-			duration = -1
-		}
-	}
-	
-}
-
-country_event = { #Qi Warlord 2 Ancillary - Huan's Fiscal Reforms
 	id = foffychina.14
 	title = foffychina.14.t
 	desc = foffychina.14.d
@@ -395,28 +331,28 @@ country_event = { #Qi Warlord 2 Ancillary - Huan's Fiscal Reforms
 	option = { 
 		name = foffychina.14.a
 		add_country_modifier = {
-			name = "h_qic_anc1_1"
+			name = "h_cyi_anc2_1"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.14.b
 		add_country_modifier = {
-			name = "h_qic_anc1_2"
+			name = "h_cyi_anc2_2"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.14.c
 		add_country_modifier = {
-			name = "h_qic_anc1_3"
+			name = "h_cyi_anc2_3"
 			duration = -1
 		}
 	}
 	
 }
 
-country_event = { #Qi Warlord 3 Ancillary - Defend the Kingdom
+country_event = { #Yi Warlord 4 Ancillary - Great Yi
 	id = foffychina.15
 	title = foffychina.15.t
 	desc = foffychina.15.d
@@ -427,19 +363,83 @@ country_event = { #Qi Warlord 3 Ancillary - Defend the Kingdom
 	option = { 
 		name = foffychina.15.a
 		add_country_modifier = {
-			name = "h_qic_anc2_1"
+			name = "h_cyi_anc3_1"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.15.b
 		add_country_modifier = {
-			name = "h_qic_anc2_2"
+			name = "h_cyi_anc3_2"
 			duration = -1
 		}
 	}
 	option = {
 		name = foffychina.15.c
+		add_country_modifier = {
+			name = "h_cyi_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Qi Warlord 2 Ancillary - Huan's Fiscal Reforms
+	id = foffychina.16
+	title = foffychina.16.t
+	desc = foffychina.16.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.16.a
+		add_country_modifier = {
+			name = "h_qic_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.16.b
+		add_country_modifier = {
+			name = "h_qic_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.16.c
+		add_country_modifier = {
+			name = "h_qic_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Qi Warlord 3 Ancillary - Defend the Kingdom
+	id = foffychina.17
+	title = foffychina.17.t
+	desc = foffychina.17.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.17.a
+		add_country_modifier = {
+			name = "h_qic_anc2_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.17.b
+		add_country_modifier = {
+			name = "h_qic_anc2_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.17.c
 		add_country_modifier = {
 			name = "h_qic_anc2_3"
 			duration = -1
