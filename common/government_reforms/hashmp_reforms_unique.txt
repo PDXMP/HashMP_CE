@@ -118,11 +118,11 @@ h_reform_warlord_1 = {
 }
 
 h_reform_warlord_2 = {
-	icon = "soldiers_7"
+	icon = "chieftain"
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
 	allow_normal_conversion = yes
-	fixed_rank = 2
+	fixed_rank = 1
 	potential = {
 		AND = {
 			NOT = { has_reform = h_reform_warlord_1 }
@@ -139,9 +139,70 @@ h_reform_warlord_2 = {
 		}
 	}
 	modifiers = {
-		ae_impact = 0.2
+		ae_impact = 0.1
+		land_maintenance_modifier = -0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_warlord_3 = {
+	icon = "general_eastern_administrative"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 2
+	potential = {
+		AND = {
+			NOT = { has_reform = h_reform_warlord_1 }
+			NOT = { has_reform = h_reform_warlord_2 }
+			NOT = { has_reform = h_reform_warlord_4 }
+		}
+		OR = {
+			tag = WUU
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+		}
+	}
+	modifiers = {
 		land_maintenance_modifier = -0.1
 		manpower_recovery_speed = 0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_warlord_4 = {
+	icon = "celestial_empire"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 3
+	potential = {
+		AND = {
+			NOT = { has_reform = h_reform_warlord_1 }
+			NOT = { has_reform = h_reform_warlord_2 }
+			NOT = { has_reform = h_reform_warlord_3 }
+		}
+		OR = {
+			tag = WUU
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+		}
+	}
+	modifiers = {
+		manpower_recovery_speed = 0.1
+		discipline = 0.05
 	}
 
 	custom_attributes = {
