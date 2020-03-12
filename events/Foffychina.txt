@@ -159,3 +159,35 @@ country_event = { #Shun Warlord 3 Ancillary - Li's Land Reforms
 	}
 	
 }
+
+country_event = { #Shun Warlord 4 Ancillary - Great Shun
+	id = foffychina.9
+	title = foffychina.9.t
+	desc = foffychina.9.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.9.a
+		add_country_modifier = {
+			name = "h_csh_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.9.b
+		add_country_modifier = {
+			name = "h_csh_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.9.c
+		add_country_modifier = {
+			name = "h_csh_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
