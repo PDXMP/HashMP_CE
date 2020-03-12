@@ -479,3 +479,35 @@ country_event = { #Qi Warlord 4 Ancillary - Great Qi
 	}
 	
 }
+
+country_event = { #Wu Warlord 2 Ancillary - Call in Favors
+	id = foffychina.17
+	title = foffychina.17.t
+	desc = foffychina.17.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.17.a
+		add_country_modifier = {
+			name = "h_wuu_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.17.b
+		add_country_modifier = {
+			name = "h_wuu_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.17.c
+		add_country_modifier = {
+			name = "h_wuu_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
