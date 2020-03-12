@@ -437,37 +437,37 @@ country_decisions = {
 				limit = {
 					tag = CSH
 				}
-				
+				country_event = { foffychina.7 } #Ancillary 1
 			}
 			if = {
 				limit = {
 					tag = CXI
 				}
-				
+				country_event = { foffychina.10 } #Ancillary 1
 			}
 			if = {
 				limit = {
 					tag = CYI
 				}
-				
+				country_event = { foffychina.13 } #Ancillary 1
 			}
 			if = {
 				limit = {
 					tag = QIC
 				}
-				
+				country_event = { foffychina.16 } #Ancillary 1
 			}
 			if = {
 				limit = {
 					tag = WUU
 				}
-				
+				country_event = { foffychina.19 } #Ancillary 1
 			}
 			if = {
 				limit = {
 					tag = YUE
 				}
-				
+				country_event = { foffychina.22 } #Ancillary 1
 			}
 		}
 	}
