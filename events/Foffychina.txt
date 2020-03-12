@@ -543,3 +543,35 @@ country_event = { #Wu Warlord 3 Ancillary - Riches of Hangzhou
 	}
 	
 }
+
+country_event = { #Wu Warlord 4 Ancillary - Great Wu
+	id = foffychina.19
+	title = foffychina.19.t
+	desc = foffychina.19.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.19.a
+		add_country_modifier = {
+			name = "h_wuu_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.19.b
+		add_country_modifier = {
+			name = "h_wuu_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.19.c
+		add_country_modifier = {
+			name = "h_wuu_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
