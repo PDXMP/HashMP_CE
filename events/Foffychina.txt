@@ -329,23 +329,55 @@ country_event = { #Yi Warlord 3 Ancillary - Dragon's Roar
 	is_triggered_only = yes
 	
 	option = { 
-		name = foffychina.13.a
+		name = foffychina.12.a
 		add_country_modifier = {
 			name = "h_cyi_anc2_1"
 			duration = -1
 		}
 	}
 	option = {
-		name = foffychina.13.b
+		name = foffychina.12.b
 		add_country_modifier = {
 			name = "h_cyi_anc2_2"
 			duration = -1
 		}
 	}
 	option = {
-		name = foffychina.13.c
+		name = foffychina.12.c
 		add_country_modifier = {
 			name = "h_cyi_anc2_3"
+			duration = -1
+		}
+	}
+	
+}
+
+country_event = { #Yi Warlord 4 Ancillary - Great Yi
+	id = foffychina.13
+	title = foffychina.13.t
+	desc = foffychina.13.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.13.a
+		add_country_modifier = {
+			name = "h_cyi_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.13.b
+		add_country_modifier = {
+			name = "h_cyi_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.13.c
+		add_country_modifier = {
+			name = "h_cyi_anc3_3"
 			duration = -1
 		}
 	}
