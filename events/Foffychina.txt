@@ -191,3 +191,35 @@ country_event = { #Shun Warlord 4 Ancillary - Great Shun
 	}
 	
 }
+
+country_event = { #Xi Warlord 2 Ancillary - Tiger's Raiders
+	id = foffychina.10
+	title = foffychina.10.t
+	desc = foffychina.10.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.10.a
+		add_country_modifier = {
+			name = "h_cxi_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.10.b
+		add_country_modifier = {
+			name = "h_cxi_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.10.c
+		add_country_modifier = {
+			name = "h_cxi_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
