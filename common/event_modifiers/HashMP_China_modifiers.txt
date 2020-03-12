@@ -26,3 +26,219 @@ h_wu_armada = {
 h_china_wonders = {
 	all_power_cost = -0.1
 }
+
+h_csh_anc1_1 = {
+
+}
+
+h_csh_anc1_2 = {
+
+}
+
+h_csh_anc1_3 = {
+
+}
+
+h_csh_anc2_1 = {
+
+}
+
+h_csh_anc2_2 = {
+
+}
+
+h_csh_anc2_3 = {
+
+}
+
+h_csh_anc3_1 = {
+
+}
+
+h_csh_anc3_2 = {
+
+}
+
+h_csh_anc3_3 = {
+
+}
+
+h_cxi_anc1_1 = {
+
+}
+
+h_cxi_anc1_2 = {
+
+}
+
+h_cxi_anc1_3 = {
+
+}
+
+h_cxi_anc2_1 = {
+
+}
+
+h_cxi_anc2_2 = {
+
+}
+
+h_cxi_anc2_3 = {
+
+}
+
+h_cxi_anc3_1 = {
+
+}
+
+h_cxi_anc3_2 = {
+
+}
+
+h_cxi_anc3_3 = {
+
+}
+
+h_cyi_anc1_1 = {
+
+}
+
+h_cyi_anc1_2 = {
+
+}
+
+h_cyi_anc1_3 = {
+
+}
+
+h_cyi_anc2_1 = {
+
+}
+
+h_cyi_anc2_2 = {
+
+}
+
+h_cyi_anc2_3 = {
+
+}
+
+h_cyi_anc3_1 = {
+
+}
+
+h_cyi_anc3_2 = {
+
+}
+
+h_cyi_anc3_3 = {
+
+}
+
+h_qic_anc1_1 = {
+
+}
+
+h_qic_anc1_2 = {
+
+}
+
+h_qic_anc1_3 = {
+
+}
+
+h_qic_anc2_1 = {
+
+}
+
+h_qic_anc2_2 = {
+
+}
+
+h_qic_anc2_3 = {
+
+}
+
+h_qic_anc3_1 = {
+
+}
+
+h_qic_anc3_2 = {
+
+}
+
+h_qic_anc3_3 = {
+
+}
+
+h_wuu_anc1_1 = {
+
+}
+
+h_wuu_anc1_2 = {
+
+}
+
+h_wuu_anc1_3 = {
+
+}
+
+h_wuu_anc2_1 = {
+
+}
+
+h_wuu_anc2_2 = {
+
+}
+
+h_wuu_anc2_3 = {
+
+}
+
+h_wuu_anc3_1 = {
+
+}
+
+h_wuu_anc3_2 = {
+
+}
+
+h_wuu_anc3_3 = {
+
+}
+
+h_yue_anc1_1 = {
+
+}
+
+h_yue_anc1_2 = {
+
+}
+
+h_yue_anc1_3 = {
+
+}
+
+h_yue_anc2_1 = {
+
+}
+
+h_yue_anc2_2 = {
+
+}
+
+h_yue_anc2_3 = {
+
+}
+
+h_yue_anc3_1 = {
+
+}
+
+h_yue_anc3_2 = {
+
+}
+
+h_yue_anc3_3 = {
+
+}
