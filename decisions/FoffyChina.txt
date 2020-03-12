@@ -433,6 +433,42 @@ country_decisions = {
 		effect = {
 			add_stability = 1
 			add_government_reform = h_reform_warlord_2
+			if = {
+				limit = {
+					tag = CSH
+				}
+				
+			}
+			if = {
+				limit = {
+					tag = CXI
+				}
+				
+			}
+			if = {
+				limit = {
+					tag = CYI
+				}
+				
+			}
+			if = {
+				limit = {
+					tag = QIC
+				}
+				
+			}
+			if = {
+				limit = {
+					tag = WUU
+				}
+				
+			}
+			if = {
+				limit = {
+					tag = YUE
+				}
+				
+			}
 		}
 	}
 	
