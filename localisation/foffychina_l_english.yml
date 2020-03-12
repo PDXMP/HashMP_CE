@@ -404,3 +404,5 @@
  h_reform_warlord_4_desc:0 "An empire led by a warlord that has taken control of China."
  H_WARLORD4:0 "Chinese Empire"
  H_WarlordTitle4:0 "Emperor"
+ h_chinese_empire:0 "A New Dynasty"
+ desc_h_chinese_empire:0 "All of china recognizes us as the legitimate holders of the Mandate of Heaven."
