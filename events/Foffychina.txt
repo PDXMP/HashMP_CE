@@ -95,3 +95,35 @@ country_event = { #Goujian Yue
 	}
 	
 }
+
+country_event = { #Shun Warlord 2 Ancillary - Li's Ambition
+	id = foffychina.7
+	title = foffychina.7.t
+	desc = foffychina.7.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.7.a
+		add_country_modifier = {
+			name = "h_csh_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.7.b
+		add_country_modifier = {
+			name = "h_csh_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.7.c
+		add_country_modifier = {
+			name = "h_csh_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
