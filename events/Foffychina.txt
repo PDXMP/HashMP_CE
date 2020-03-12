@@ -6,7 +6,7 @@
 
 namespace = foffychina
 
-country_event = {
+country_event = { #Li Shun
 	id = foffychina.1
 	title = foffychina.1.t
 	desc = foffychina.1.d
@@ -21,7 +21,7 @@ country_event = {
 	
 }
 
-country_event = {
+country_event = { #Zhang Xi
 	id = foffychina.2
 	title = foffychina.2.t
 	desc = foffychina.2.d
@@ -36,7 +36,7 @@ country_event = {
 	
 }
 
-country_event = {
+country_event = { #Meng Yi
 	id = foffychina.3
 	title = foffychina.3.t
 	desc = foffychina.3.d
@@ -51,7 +51,7 @@ country_event = {
 	
 }
 
-country_event = {
+country_event = { #Huan Qi
 	id = foffychina.4
 	title = foffychina.4.t
 	desc = foffychina.4.d
@@ -66,7 +66,7 @@ country_event = {
 	
 }
 
-country_event = {
+country_event = { #Qian Wu
 	id = foffychina.5
 	title = foffychina.5.t
 	desc = foffychina.5.d
@@ -81,7 +81,7 @@ country_event = {
 	
 }
 
-country_event = {
+country_event = { #Goujian Yue
 	id = foffychina.6
 	title = foffychina.6.t
 	desc = foffychina.6.d
