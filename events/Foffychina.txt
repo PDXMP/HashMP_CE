@@ -575,3 +575,35 @@ country_event = { #Wu Warlord 4 Ancillary - Great Wu
 	}
 	
 }
+
+country_event = { #Yue Warlord 2 Ancillary - Crossroads
+	id = foffychina.20
+	title = foffychina.20.t
+	desc = foffychina.20.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.20.a
+		add_country_modifier = {
+			name = "h_yue_anc1_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.20.b
+		add_country_modifier = {
+			name = "h_yue_anc1_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.20.c
+		add_country_modifier = {
+			name = "h_yue_anc1_3"
+			duration = -1
+		}
+	}
+	
+}
