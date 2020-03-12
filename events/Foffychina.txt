@@ -687,7 +687,7 @@ country_event = { #CSH Warlord Death
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 90
 		modifier = {
 			factor = 0.8
 			is_year = 1488
@@ -732,7 +732,7 @@ country_event = { #CXI Warlord Death
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 90
 		modifier = {
 			factor = 0.8
 			is_year = 1488
@@ -777,7 +777,7 @@ country_event = { #CYI Warlord Death
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 90
 		modifier = {
 			factor = 0.8
 			is_year = 1488
@@ -822,7 +822,7 @@ country_event = { #QIC Warlord Death
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 90
 		modifier = {
 			factor = 0.8
 			is_year = 1488
@@ -867,7 +867,7 @@ country_event = { #WUU Warlord Death
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 90
 		modifier = {
 			factor = 0.8
 			is_year = 1488
@@ -912,7 +912,7 @@ country_event = { #YUE Warlord Death
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 90
 		modifier = {
 			factor = 0.8
 			is_year = 1488
