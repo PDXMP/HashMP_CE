@@ -68,43 +68,47 @@ h_csh_anc3_3 = {
 }
 
 h_cxi_anc1_1 = {
-
+	global_trade_goods_size_modifier = 0.05
 }
 
 h_cxi_anc1_2 = {
-
+	global_tax_modifier = 0.1
 }
 
 h_cxi_anc1_3 = {
-
+	idea_cost = -0.05
 }
 
 h_cxi_anc2_1 = {
-
+	global_manpower_modifier = 0.1
+	global_unrest = 1
 }
 
 h_cxi_anc2_2 = {
-
+	trade_efficiency = 0.1
+	global_unrest = 1
 }
 
 h_cxi_anc2_3 = {
-
+	technology_cost = -0.1
+	global_unrest = 1
 }
 
 h_cxi_anc3_1 = {
-
+	development_cost = -0.1
 }
 
 h_cxi_anc3_2 = {
-
+	land_morale = 0.1
 }
 
 h_cxi_anc3_3 = {
-
+	monarch_military_power = 1
+	army_tradition_decay = -0.01
 }
 
 h_cyi_anc1_1 = {
-
+	
 }
 
 h_cyi_anc1_2 = {
