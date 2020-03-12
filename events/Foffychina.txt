@@ -447,3 +447,35 @@ country_event = { #Qi Warlord 3 Ancillary - Defend the Kingdom
 	}
 	
 }
+
+country_event = { #Qi Warlord 4 Ancillary - Great Qi
+	id = foffychina.16
+	title = foffychina.16.t
+	desc = foffychina.16.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = foffychina.16.a
+		add_country_modifier = {
+			name = "h_qic_anc3_1"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.16.b
+		add_country_modifier = {
+			name = "h_qic_anc3_2"
+			duration = -1
+		}
+	}
+	option = {
+		name = foffychina.16.c
+		add_country_modifier = {
+			name = "h_qic_anc3_3"
+			duration = -1
+		}
+	}
+	
+}
