@@ -183,39 +183,42 @@ h_qic_anc3_3 = {
 }
 
 h_wuu_anc1_1 = {
-
+	global_prov_trade_power_modifier = 0.1
 }
 
 h_wuu_anc1_2 = {
-
+	merc_maintenance_modifier = -0.15
 }
 
 h_wuu_anc1_3 = {
-
+	naval_forcelimit_modifier = 0.1
+	blockade_efficiency = 0.25
 }
 
 h_wuu_anc2_1 = {
-
+	global_trade_goods_size_modifier = 0.1
 }
 
 h_wuu_anc2_2 = {
-
+	global_ship_cost = -0.1
 }
 
 h_wuu_anc2_3 = {
-
+	colonists = 1
+	colonist_placement_chance = 0.03
 }
 
 h_wuu_anc3_1 = {
-
+	mercenary_discipline = 0.05
 }
 
 h_wuu_anc3_2 = {
-
+	backrow_artillery_damage = 0.1
 }
 
 h_wuu_anc3_3 = {
-
+	may_perform_slave_raid = yes
+	privateer_efficiency = 0.5
 }
 
 h_yue_anc1_1 = {
