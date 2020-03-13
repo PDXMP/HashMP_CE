@@ -15,7 +15,7 @@ country_decisions = {
 			NOT = { tag = QNG }
 			NOT = { tag = MNG }
 			NOT = { tag = MCH }
-			culture_group = altaic
+			has_reform = steppe_horde
 			OR = {
 				ai = no
 				AND = {
