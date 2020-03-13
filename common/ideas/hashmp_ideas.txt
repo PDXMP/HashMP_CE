@@ -258,7 +258,7 @@ YUE_ideas = { #Yue
 
 QIC_ideas = { #Qi
 	start = {
-		shock_damage_received = -0.1
+		shock_damage_received = -0.15
 		technology_cost = -0.05
 	}
 	
