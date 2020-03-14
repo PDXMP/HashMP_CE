@@ -347,7 +347,7 @@ h_reform_native_empire = {
 }
 
 h_reform_sinicized_horde = {
-	icon = "fist_in_air"
+	icon = "celestial_empire"
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
 	allow_normal_conversion = yes
