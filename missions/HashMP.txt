@@ -954,7 +954,6 @@ h_manchu_china = {
 	generic = yes
 	ai = yes
 	potential = {
-		primary_culture = manchu
 	}
 	has_country_shield = yes
 	
