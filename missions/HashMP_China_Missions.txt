@@ -53,8 +53,8 @@ h_china_all = {
 	}
 }
 
-h_csh_2 = {
-	slot = 2
+h_csh_1 = {
+	slot = 1
 	generic = no
 	ai = yes
 	potential = {
@@ -85,8 +85,8 @@ h_csh_2 = {
 	}
 }
 
-h_cxi_2 = {
-	slot = 2
+h_cxi_1 = {
+	slot = 1
 	generic = no
 	ai = yes
 	potential = {
@@ -149,8 +149,8 @@ h_cxi_2 = {
 	}
 }
 
-h_cyi_2 = {
-	slot = 2
+h_cyi_1 = {
+	slot = 1
 	generic = no
 	ai = yes
 	potential = {
@@ -200,8 +200,8 @@ h_cyi_2 = {
 	}
 }
 
-h_qic_2 = {
-	slot = 2
+h_qic_1 = {
+	slot = 1
 	generic = no
 	ai = yes
 	potential = {
@@ -241,30 +241,6 @@ h_wuu_1 = {
 	}
 	has_country_shield = yes
 	
-	h_wuu_admiralty = { #Armada of Wu
-		icon = mission_establish_high_seas_navy
-		position = 1
-		trigger = {
-			num_of_heavy_ship = 100
-		}
-		effect = {
-			add_country_modifier = {
-				name = "h_wu_armada"
-				duration = -1
-			}
-		}
-	}
-}
-
-h_wuu_2 = {
-	slot = 2
-	generic = no
-	ai = yes
-	potential = {
-		tag = WUU
-	}
-	has_country_shield = yes
-	
 	h_wuu_starter = { #Rise of Wu
 		icon = mission_manchu_warrior
 		position = 1
@@ -286,6 +262,30 @@ h_wuu_2 = {
 			}
 		}
 	}
+	
+h_wuu_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = WUU
+	}
+	has_country_shield = yes
+	
+	h_wuu_admiralty = { #Armada of Wu
+		icon = mission_establish_high_seas_navy
+		position = 4
+		trigger = {
+			num_of_heavy_ship = 100
+		}
+		effect = {
+			add_country_modifier = {
+				name = "h_wu_armada"
+				duration = -1
+			}
+		}
+	}
+}
 	
 #	h_wuu_starter = { #Strike the Serpent
 #		icon = mission_manchu_warrior
@@ -342,10 +342,8 @@ h_wuu_2 = {
 #		}
 #	}
 
-}
-
-h_yue_2 = {
-	slot = 2
+h_yue_1 = {
+	slot = 1
 	generic = no
 	ai = yes
 	potential = {
