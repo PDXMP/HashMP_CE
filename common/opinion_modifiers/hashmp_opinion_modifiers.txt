@@ -8,3 +8,7 @@ h_dutch_minors_defiant = {
 	opinion = -250
 	yearly_decay = 4
 }
+
+h_commandery_isolation = {
+	opinion = -1000
+}
