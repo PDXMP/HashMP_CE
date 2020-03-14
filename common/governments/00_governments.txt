@@ -34,6 +34,7 @@ monarchy = {
 				h_reform_warlord_2
 				h_reform_warlord_3
 				h_reform_warlord_4
+				h_reform_sinicized_horde
 			}
 		}
 		hereditary_vs_nobility = { #Noble Privileges
@@ -682,6 +683,10 @@ pre_dharma_mapping = {
 		legacy_government = despotic_monarchy
 	}
 	h_reform_warlord_4 = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_sinicized_horde = {
 		government = monarchy
 		legacy_government = despotic_monarchy
 	}
