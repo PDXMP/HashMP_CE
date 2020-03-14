@@ -300,7 +300,7 @@ manchu_missions_1_b = {
 		effect = {
 			add_country_modifier = {
 				name = "terrified_china"
-				duration = 7300
+				duration = 3650
 			}
 			every_province = {
 				limit = {
@@ -330,26 +330,24 @@ manchu_missions_1_b = {
 			NOT = { exists = MNG }
 		}
 		effect = {
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-					is_emperor_of_china = yes
-				}
-				add_mandate = 20
-			}
-			else = {
-				add_legitimacy = 25
-			}
-			custom_tooltip = extinguish_ming_tt
-			hidden_effect = {
-				china_superregion = {
-					limit = {
-						NOT = { owned_by = ROOT }
-						NOT = { is_core = ROOT }
-					}
-					add_core = ROOT
-				}
-			}
+			#if = {
+			#	limit = {
+			#		has_dlc = "Mandate of Heaven"
+			#		is_emperor_of_china = yes
+			#	}
+			#	add_mandate = 20
+			#}
+			add_legitimacy = 25
+			#custom_tooltip = extinguish_ming_tt
+			#hidden_effect = {
+			#	china_superregion = {
+			#		limit = {
+			#			NOT = { owned_by = ROOT }
+			#			NOT = { is_core = ROOT }
+			#		}
+			#		add_core = ROOT
+			#	}
+			#}
 		}
 	}
 	mch_ten_great_campaigns = {
@@ -805,250 +803,42 @@ manchu_missions_2_b = {
 		required_missions = { mch_mandate_of_heaven }
 		position = 7
 		trigger = {
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-				}
-				custom_trigger_tooltip = {
-					tooltip = establish_tributaries_tt
-					calc_true_if = {
-						all_country = {
-							is_subject_of_type = tributary_state
-							is_subject_of = ROOT
-						}
-						amount = 10
-					}
-				}
-			}
-			else = {
-				num_of_subjects = 3
-				NOT = {
-					any_subject_country = {
-						liberty_desire = 50
-					}
-				}
-			}
-		}
-		effect = {
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-				}
-				add_mandate = 20
-			}
-			else = {
-				add_legitimacy = 20
-				add_prestige = 10
-			}
-		}
-	}
-	mch_three_feudatories = {
-		icon = mission_asian_city
-		required_missions = { mch_green_standard_army }
-		completed_by = 1670.1.1
-		provinces_to_highlight = {
-			OR = {
-				region = south_china_region
-				region = xinan_region
-			}
+			#if = {
+			#	limit = {
+			#		has_dlc = "Mandate of Heaven"
+			#	}
+			#	custom_trigger_tooltip = {
+			#		tooltip = establish_tributaries_tt
+			#		calc_true_if = {
+			#			all_country = {
+			#				is_subject_of_type = tributary_state
+			#				is_subject_of = ROOT
+			#			}
+			#			amount = 10
+			#		}
+			#	}
+			#}
+			num_of_subjects = 3
 			NOT = {
-				owned_by = ROOT
-			}
-		}
-		trigger = {
-			is_at_war = no
-			num_of_owned_provinces_with = {
-				OR = {
-					region = south_china_region
-					region = xinan_region
-				}
-				value = 20
-			}
-			if = {
-				limit = {
-					exists = YUE
-					YUE = {
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				YUE = {
-					is_at_war = no
-				}
-			}
-			if = {
-				limit = {
-					exists = WUU
-					WUU = {
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				WUU = {
-					is_at_war = no
-				}
-			}
-			if = {
-				limit = {
-					exists = CDL
-					CDL = {
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				CDL = {
-					is_at_war = no
+				any_subject_country = {
+					liberty_desire = 50
 				}
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					exists = YUE
-					YUE = {
-						is_at_war = no
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				create_subject = {
-					subject_type = march
-					subject = YUE
-				}
-			}
-			else = {
-				add_prestige = 25
-				add_army_tradition = 10
-			}
-			if = {
-				limit = {
-					exists = WUU
-					WUU = {
-						is_at_war = no
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				create_subject = {
-					subject_type = march
-					subject = WUU
-				}
-			}
-			if = {
-				limit = {
-					exists = CDL
-					CDL = {
-						is_at_war = no
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				create_subject = {
-					subject_type = march
-					subject = CDL
-				}
-				if = {
-					limit = {
-						has_leader = "Wu Sangui"
-					}
-					CDL = {
-						define_ruler = {
-							name = "Sangui"
-							dynasty = "Wu"
-							adm = 3
-							dip = 3
-							mil = 4
-						}
-						change_tag = CZH
-					}
-					kill_leader = { type = "Wu Sangui" }
-				}
-			}
-		}
-	}
-	mch_revoke_the_feudatories = {
-		icon = mission_chinese_general_riding
-		required_missions = { mch_three_feudatories }
-		completed_by = 1684.1.1
-		provinces_to_highlight = {
-			OR = {
-				region = south_china_region
-				region = xinan_region
-			}
-			NOT = {
-				AND = {
-					is_core = ROOT
-					owned_by = ROOT
-				}
-			}
-		}
-		trigger = {
-			south_china_region = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			xinan_region = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-		}
-		effect = {
-			add_dip_power = 200
+			#if = {
+			#	limit = {
+			#		has_dlc = "Mandate of Heaven"
+			#	}
+			#	add_mandate = 20
+			#}
+			add_legitimacy = 20
+			add_prestige = 20
 		}
 	}
 	mch_harmonious_empire = {
 		icon = mission_rice_field
-		required_missions = { mch_extinguish_ming mch_revoke_the_feudatories }
+		required_missions = { mch_extinguish_ming }
 		position = 10
 		provinces_to_highlight = {
 			superregion = china_superregion
