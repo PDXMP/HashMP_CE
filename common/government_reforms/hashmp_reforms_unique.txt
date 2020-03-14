@@ -345,3 +345,25 @@ h_reform_native_empire = {
 		locked_government_type = yes
 	}
 }
+
+h_reform_sinicized_horde = {
+	icon = "fist_in_air"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 3
+	potential = {
+		tag = QNG
+	}
+	modifiers = {
+		monarch_admin_power = 1
+		administrative_efficiency = 0.05
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		cav_to_inf_ratio = 0.3
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
