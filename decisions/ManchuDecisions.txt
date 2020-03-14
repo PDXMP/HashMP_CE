@@ -229,23 +229,18 @@ country_decisions = {
 			is_monarch_leader = yes
 			has_idea = the_green_standard_army
 			owns = 725		# Hinggan
-			war_with = MNG
-			MNG = {
-				OR = {
-					NOT = { stability = 0 }
-					NOT = { war_score = -10 }
-				}
-			}
 		}
 		effect = {
 			set_country_flag = green_standard_army
 			add_prestige = 10
-			reverse_add_opinion = { who = MNG modifier = opinion_green_standard }
-			MNG = { add_manpower = -8 }
+			add_yearly_manpower = 0.3
+			#reverse_add_opinion = { who = MNG modifier = opinion_green_standard }
 			infantry = 725
 			infantry = 725
 			infantry = 725
 			infantry = 725
+			infantry = 725
+			cavalry = 725
 			cavalry = 725
 			cavalry = 725
 			cavalry = 725
