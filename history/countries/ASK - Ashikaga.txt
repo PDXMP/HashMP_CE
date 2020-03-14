@@ -10,6 +10,11 @@ historical_rival = WUU
 historical_rival = YUE
 historical_rival = KOR
 historical_rival = MCH
+historical_rival = QNG
+historical_rival = QIC
+historical_rival = CXI
+historical_rival = CSH
+historical_rival = CYI
 
 1325.1.1 = {
 	monarch = {
