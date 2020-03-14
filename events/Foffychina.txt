@@ -941,3 +941,37 @@ country_event = { #YUE Warlord Death
 	}
 	
 }
+
+country_event = {
+	id = foffychina.31
+	title = foffychina.31.t
+	desc = foffychina.31.d
+	picture = COURT_eventPicture
+	
+	#fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		has_reform = h_reform_commandery
+		NOT = { has_country_flag = h_isolationflag }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = hashmp.31.a
+		set_country_flag = h_isolationflag
+		every_known_country = {
+			add_opinion = {
+				modifier = h_commandery_isolation
+				who = ROOT
+			}
+			reverse_add_opinion = {
+				modifier = h_commandery_isolation
+				who = ROOT
+			}
+		}
+	}
+}
