@@ -1,4 +1,4 @@
-s# 2419 - Bayannur
+# 2419 - Bayannur
 
 owner = TAN
 controller = TAN

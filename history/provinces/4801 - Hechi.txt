@@ -1,4 +1,4 @@
-s# 3639 - Hechi
+# 3639 - Hechi
 
 owner = CGS
 controller = CGS
