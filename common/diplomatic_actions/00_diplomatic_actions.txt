@@ -82,6 +82,15 @@ declarewar = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_cn_declarewar
+		potential = {
+			is_colonial_nation = yes
+		}
+		allow = {
+			FROM = { same_continent = ROOT }
+		}
+	}
 }
 
 royal_marriage = {
@@ -433,18 +442,6 @@ designate_march = {
 					march = 6
 				}
 			}
-		}
-	}
-}
-
-declarewar = {
-	condition = {
-		tooltip = h_tooltip_cn_declarewar
-		potential = {
-			is_colonial_nation = yes
-		}
-		allow = {
-			FROM = { same_continent = ROOT }
 		}
 	}
 }
