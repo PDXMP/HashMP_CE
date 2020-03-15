@@ -446,4 +446,5 @@
  desc_h_commandery_isolation:0 ""
  h_wuu_admiralty_title:0 "Create the Wu Armada"
  h_wuu_admiralty_desc:0 "To support our endeavors overseas, we need to construct a truly modern navy."
- 
+ h_wu_armada:0 "Grand Wu Armada"
+ desc_h_wu_armada:0 "Our navy is the envy of the world, a true chinese armada."
