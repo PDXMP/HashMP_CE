@@ -62,26 +62,32 @@ country_decisions = {
 			north_sumatra_area = {
 				type = all
 				owned_by = ROOT
+				is_core = ROOT
 			}
 			batak_area = {
 				type = all
 				owned_by = ROOT
+				is_core = ROOT
 			}
 			central_sumatra_area = {
 				type = all
 				owned_by = ROOT
+				is_core = ROOT
 			}
 			minangkabau_area = {
 				type = all
 				owned_by = ROOT
+				is_core = ROOT
 			}
 			south_sumatra_area = {
 				type = all
 				owned_by = ROOT
+				is_core = ROOT
 			}
 			indonesia_region = {
 				type = all
 				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 		effect = {
