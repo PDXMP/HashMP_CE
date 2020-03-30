@@ -668,7 +668,7 @@ chaplains_of_the_fleet = {
 		full_idea_group = maritime_ideas
 	}
 	
-	stability_cost_modifier = 0.15
+	stability_cost_modifier = -0.15
 	global_ship_cost = -0.075
 	
 	ai_will_do = {
