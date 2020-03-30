@@ -1,7 +1,8 @@
 #4396 - Prome
 
-owner = BPR
-controller = BPR
+owner = TAU
+controller = TAU
+add_core = TAU
 culture = burmese
 religion = buddhism
 capital = "Prome"
