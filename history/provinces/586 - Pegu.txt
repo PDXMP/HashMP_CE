@@ -11,7 +11,6 @@ hre = no
 base_tax = 5 
 base_production = 4
 base_manpower = 3
-fort_15th = yes
 is_city = yes
 add_core = PEG
 discovered_by = chinese
