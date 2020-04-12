@@ -4779,10 +4779,10 @@ INC_ideas = {
 		idea_cost = -0.2
 	}
 	mitma = { #Increased Obligations on local chiefs
-		development_cost = -0.1
+		global_tax_modifier = 0.25
 	}
 	quipu = {
-		global_tax_modifier = 0.15
+		development_cost = -0.1
 	}
 	drafted_hatun_runas = {
 		discipline = 0.05
