@@ -12105,7 +12105,7 @@ HIN_ideas = {
 		global_missionary_strength = 0.02
 	}
 	hin_industrialization = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.15
 	}
 }
 
