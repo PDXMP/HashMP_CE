@@ -64,9 +64,9 @@ fixed_capital = 101 # Cannot move capital away from this province & no power cos
 1443.1.1 = {
 	monarch = {
 		name = "Raffaele Adorno"
-		birth_date = 1375.1.1
-		adm = 1
-		dip = 3
+		birth_date = 1410.1.1
+		adm = 4
+		dip = 4
 		mil = 4
 	}
 }
