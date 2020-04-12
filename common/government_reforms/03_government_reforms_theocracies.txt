@@ -75,7 +75,7 @@ external_mission_reform = {
 	icon = "soldiers"
 	allow_normal_conversion = yes
 	modifiers = {
-		warscore_cost_vs_other_religion = -0.2
+		warscore_cost_vs_other_religion = -0.15
 	}
 }
 
