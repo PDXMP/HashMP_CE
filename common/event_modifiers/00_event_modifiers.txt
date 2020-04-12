@@ -10608,8 +10608,8 @@ h_jap_navy = {
 }
 
 h_sok_quantity = {
-	global_manpower_modifier = 0.1
-	land_forcelimit_modifier = 0.1
+	global_manpower_modifier = 0.15
+	land_forcelimit_modifier = 0.15
 }
 
 h_sok_quality = {
