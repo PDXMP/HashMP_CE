@@ -334,7 +334,6 @@ iqta = {
 	}
 
 	legacy_equivalent = iqta_legacy
-	queen = no
 	modifiers = {
 		vassal_income = 0.33
 		global_tax_modifier = 0.05
