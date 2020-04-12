@@ -878,7 +878,7 @@ CSC_ideas = { #Columbia
 
 CUB_ideas = { #Cuba
 	start = {
-		naval_forcelimit = 20
+		naval_forcelimit = 25
 		global_missionary_strength = 0.01
 	}
 	
@@ -892,11 +892,11 @@ CUB_ideas = { #Cuba
 	free = yes
 	
 	cub_1 = { #Privateer Spirit
-		blockade_efficiency = 0.2
+		blockade_efficiency = 0.25
 		capture_ship_chance = 0.1
 	}
 	cub_2 = { #Impressment
-		global_sailors_modifier = 0.25
+		global_sailors_modifier = 0.33
 	}
 	cub_3 = { #The Arsenal
 		global_ship_cost = -0.1
