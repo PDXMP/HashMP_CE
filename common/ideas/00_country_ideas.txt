@@ -2786,10 +2786,10 @@ KON_ideas = {
 	}
 	diplomacy_with_european_monarchs = {
 		dip_tech_cost_modifier = -0.1
-		envoy_travel_time = -0.33
+		envoy_travel_time = -0.5
 	}
 	triangle_trade = {
-		global_prov_trade_power_modifier = 0.1
+		global_prov_trade_power_modifier = 0.15
 		global_trade_goods_size_modifier = 0.15
 	}
 	foreign_demand_for_slaves = {
