@@ -61,17 +61,17 @@ estate_jains = {
 	province_modifier_happy = {	
 		local_state_maintenance_modifier = -0.25
 		local_tax_modifier = 0.33
-		#local_manpower_modifier = -0.33
+		local_manpower_modifier = -0.33
 		local_missionary_strength = -1	
 	}
 	province_modifier_neutral = {
 		local_state_maintenance_modifier = -0.25
-		#local_manpower_modifier = -0.33
+		local_manpower_modifier = -0.33
 		local_missionary_strength = -1	
 	}	
 	province_modifier_angry = {
 		local_unrest = 5
-		#local_manpower_modifier = -0.50
+		local_manpower_modifier = -0.50
 		local_missionary_strength = -1	
 	}
 	
