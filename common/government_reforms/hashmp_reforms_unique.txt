@@ -332,7 +332,7 @@ h_reform_native_empire = {
 		}
 	}
 	modifiers = {
-		all_power_cost = -0.25
+		all_power_cost = -0.3
 		liberty_desire = 500
 		reduced_liberty_desire = 100
 		global_tax_income = 144
