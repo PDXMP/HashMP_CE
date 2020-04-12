@@ -201,7 +201,7 @@ h_reform_warlord_4 = {
 		}
 	}
 	modifiers = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 		discipline = 0.05
 	}
 
