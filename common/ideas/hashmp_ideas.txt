@@ -1276,7 +1276,7 @@ LOU_ideas = { #Louisiana
 		build_time = -0.25
 	}
 	lou_7 = { #Soldiers of Fortune
-		possible_mercenaries = 0.20
+		possible_mercenaries = 0.25
 		mercenary_discipline = 0.05
 	}
 }
