@@ -427,7 +427,7 @@ AHU_ideas = {
 ARB_ideas = { #Arabian Empire
 	start = {
 		development_cost = -0.10
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.2
 	}
 	
 	bonus = {
@@ -459,7 +459,6 @@ ARB_ideas = { #Arabian Empire
 		manpower_recovery_speed = 0.2
 	}
 	arb_6 = { #Bedouin Traders
-		global_prov_trade_power_modifier = 0.1
 		trade_efficiency = 0.1
 	}
 	arb_7 = { #Arabia
