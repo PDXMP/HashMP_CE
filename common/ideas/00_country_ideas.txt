@@ -972,7 +972,7 @@ JAP_ideas = {
 	}
 	
 	bonus = {
-		infantry_power = 0.15
+		infantry_power = 0.2
 	}
 	
 	trigger = {
@@ -985,7 +985,7 @@ JAP_ideas = {
 		yearly_absolutism = 0.2
 	}
 	reformed_land_holding = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.25
 	}
 	jap_modernization = {
 		technology_cost = -0.05
