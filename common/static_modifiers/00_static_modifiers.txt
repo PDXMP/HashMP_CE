@@ -1184,7 +1184,7 @@ vassal_nation = {
 }
 
 primitive_nation = {
-	development_cost = 0.5
+	development_cost = 0.25
 }
 
 #scales to amount of up-to-date forts compared to total development
