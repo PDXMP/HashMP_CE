@@ -54,7 +54,7 @@ estate_jains = {
 		build_cost = -0.10
 	}	
 	country_modifier_angry = {
-		interest = 1
+		build_time = 0.25
 	}
 	
 	# These do not scale, but only applied in provinces owned by the estate
