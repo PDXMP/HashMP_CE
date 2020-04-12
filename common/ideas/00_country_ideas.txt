@@ -1130,12 +1130,12 @@ ARA_ideas = {
 
 MUG_ideas = {
 	start = {
-		core_creation = -0.10
+		core_creation = -0.15
 		technology_cost = -0.1
 	}
 	
 	bonus = {
-		artillery_power = 0.10
+		artillery_power = 0.15
 	}
 	
 	trigger = {
