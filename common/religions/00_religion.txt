@@ -1171,7 +1171,7 @@ eastern = {
 		icon = 9
 		country = {
 			tolerance_heretic = 3
-			technology_cost = -0.05
+			technology_cost = -0.1
 		}
 		country_as_secondary = {
 			technology_cost = -0.05
