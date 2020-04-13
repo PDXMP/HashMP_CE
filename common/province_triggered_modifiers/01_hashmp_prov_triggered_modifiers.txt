@@ -173,7 +173,7 @@ h_cwonder_kunming = {
 			religion = confucianism
 		}
 	}
-	global_trade_power = 0.15
+	global_prov_trade_power_modifier = 0.2
 	max_states = 1
 	#Province scope
 	on_activation = {
