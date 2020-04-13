@@ -5,7 +5,7 @@ graphical_culture = westerngfx
 colonial_parent = FRA
 random_nation_chance = 0
 
-color = { 144  52  53 }
+color = { 240  240  240 }
 
 historical_idea_groups = {
 	defensive_ideas
