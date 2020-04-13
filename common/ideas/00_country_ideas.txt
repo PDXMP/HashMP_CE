@@ -661,7 +661,7 @@ HAB_ideas = {
 		diplomatic_annexation_cost = -0.2
 	}
 	military_border = {
-		global_garrison_growth = 0.15
+		global_garrison_growth = 0.1
 		fort_maintenance_modifier = -0.10
 	}
 	fugger_banks = {
@@ -679,7 +679,7 @@ HAB_ideas = {
 		diplomatic_upkeep = 2
 	}
 	hofkriegsrat = {
-		reinforce_speed = 0.3
+		reinforce_speed = 0.25
 		reinforce_cost_modifier = -0.10
 	}
 }
