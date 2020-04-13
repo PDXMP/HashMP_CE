@@ -945,13 +945,13 @@ HUN_ideas = {
 		global_unrest = -1
 	}
 	bulwark_of_christianity = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.25
 	}
 	found_the_black_army = {
 		discipline = 0.05
 	}
 	reformed_coinage = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.15
 	}
 	curtailed_peasantry = {
 		production_efficiency = 0.1
