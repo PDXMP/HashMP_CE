@@ -227,6 +227,7 @@ h_cwonder_wuchang = {
 		}
 	}
 	build_cost = -0.05
+	build_time = -0.1
 	max_states = 1
 	#Province scope
 	on_activation = {
