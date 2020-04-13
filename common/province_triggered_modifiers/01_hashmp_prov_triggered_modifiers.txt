@@ -118,7 +118,7 @@ h_cwonder_dalian = {
 			religion = confucianism
 		}
 	}
-	num_accepted_cultures = 1
+	num_accepted_cultures = 2
 	max_states = 1
 	#Province scope
 	on_activation = {
