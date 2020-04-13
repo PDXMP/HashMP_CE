@@ -247,6 +247,7 @@ h_cwonder_xian = {
 		}
 	}
 	army_tradition = 0.5
+	infantry_cost = -0.05
 	max_states = 1
 	#Province scope
 	on_activation = {
