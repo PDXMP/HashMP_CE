@@ -46,7 +46,7 @@ h_cwonder_beijing = {
 		}
 	}
 	legitimacy = 1
-	global_unrest = -1
+	global_unrest = -2
 	max_states = 1
 	#Province scope
 	on_activation = {
