@@ -17,6 +17,8 @@ country_decisions = {
 				region = maghreb_region
 				region = arabia_region
 				region = egypt_region
+				region = persia_region
+				region = anatolia_region
 				AND = {
 					owned_by = ROOT
 					NOT = { religion_group = muslim }
@@ -48,6 +50,16 @@ country_decisions = {
 			egypt_region = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
+			}
+			OR = {
+				persia_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				anatolia_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
 			}
 			all_owned_province = {
 				religion_group = muslim
