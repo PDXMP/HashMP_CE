@@ -416,7 +416,7 @@ AHU_ideas = {
 		discipline = 0.05
 	}
 	ahu_6 = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	ahu_7 = {
 		no_religion_penalty = yes
