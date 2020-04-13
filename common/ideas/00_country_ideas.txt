@@ -1195,7 +1195,7 @@ TIM_ideas = {
 		horde_unity = 1
 	}
 	timurid_renaissance = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 	riches_of_the_silk_road = {
 		global_own_trade_power = 0.25
