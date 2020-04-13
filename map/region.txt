@@ -316,7 +316,6 @@ maghreb_region = {
 		western_morocco_area
 		tripolitania_area
 		barbary_coast_area
-		macaronesia_area
 	}
 }
 
@@ -449,6 +448,7 @@ guinea_region = {
 		west_africa_coast_area
 		jolof_area
 		sao_tome_area
+		macaronesia_area
 	}
 	monsoon = {
 		00.06.01
