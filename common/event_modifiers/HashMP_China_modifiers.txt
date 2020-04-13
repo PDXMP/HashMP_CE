@@ -264,7 +264,7 @@ h_yue_anc3_3 = {
 
 h_chinese_empire = {
 	global_unrest = -2
-	global_autonomy = -0.05
+	global_autonomy = -0.1
 }
 
 h_csh_legacy = {
