@@ -65,6 +65,7 @@ h_cwonder_changsha = {
 		}
 	}
 	technology_cost = -0.05
+	idea_cost = -0.05
 	max_states = 1
 	#Province scope
 	on_activation = {
