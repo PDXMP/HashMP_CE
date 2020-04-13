@@ -10634,19 +10634,19 @@ h_khm_khmer_resurgent = {
 }
 
 h_angkor_mod_1 = {
-	local_development_cost = -0.2
+	local_development_cost = -0.25
 	tax_income = 12
 	local_manpower_modifier = 0.25
 }
 
 h_angkor_mod_2 = {
-	local_development_cost = -0.4
+	local_development_cost = -0.5
 	tax_income = 24
 	local_manpower_modifier = 0.5
 }
 
 h_angkor_mod_3 = {
-	local_development_cost = -0.6
+	local_development_cost = -0.75
 	tax_income = 48
 	local_manpower_modifier = 1.0
 	prestige = 0.5
