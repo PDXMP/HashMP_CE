@@ -201,7 +201,7 @@ h_cwonder_luoyang = {
 		}
 		is_core = ROOT
 	}
-	prestige_decay = -0.01
+	prestige = 1
 	max_states = 1
 	#Province scope
 	on_activation = {
