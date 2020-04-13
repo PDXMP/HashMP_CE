@@ -1069,7 +1069,7 @@ USA_ideas = { #United States
 	}
 	lessons_of_valley_forge = {
 		infantry_power = 0.1
-		drill_decay_modifier = -0.2
+		drill_decay_modifier = -0.25
 	}
 	workshop_of_the_world = {
 		global_trade_goods_size_modifier = 0.1
