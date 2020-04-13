@@ -138,7 +138,7 @@ coastal_sea = {
 tropical = {
 	local_colonial_growth = -10
 	supply_limit_modifier = -0.3
-	local_hostile_attrition = 2
+	local_hostile_attrition = 1
 
 	local_development_cost = 0.10
 
