@@ -208,7 +208,7 @@ h_cwonder_nanjing = {
 			religion = confucianism
 		}
 	}
-	advisor_cost = -0.1
+	advisor_cost = -0.15
 	max_states = 1
 	#Province scope
 	on_activation = {
