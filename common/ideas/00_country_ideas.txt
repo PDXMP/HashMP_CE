@@ -1826,7 +1826,7 @@ DAI_ideas = {
 
 SAV_ideas = {
 	start = {
-		defensiveness = 0.15
+		defensiveness = 0.2
 		infantry_power = 0.10
 	}
 	
