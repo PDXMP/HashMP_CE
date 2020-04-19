@@ -127,6 +127,7 @@ inquisitor = {
 	
 	# Bonus
 	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.
 	
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
