@@ -994,7 +994,7 @@ republican_tradition = {
 }
 
 inverse_republican_tradition = {
-	stability_cost_modifier = 2.0
+	stability_cost_modifier = 1.5
 	rr_jacobins_influence = -0.1
 }
 
