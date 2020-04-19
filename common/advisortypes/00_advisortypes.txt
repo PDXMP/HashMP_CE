@@ -216,7 +216,7 @@ spymaster = {
 	monarch_power = DIP
 	
 	# Bonus
-	spy_offence = 0.25
+	spy_offence = 0.33
 	
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
