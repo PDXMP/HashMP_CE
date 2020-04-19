@@ -1591,12 +1591,12 @@ ITA_ideas = {
 		development_cost = -0.10
 	}
 	tradition_of_the_legion = {
-		infantry_power = 0.10
+		infantry_power = 0.15
 		discipline = 0.05
 	}
 	mare_nostrum = {
 		galley_cost = -0.15
-		galley_power = 0.10
+		galley_power = 0.15
 	}
 	office_of_censor = {
 		global_manpower_modifier = 0.33
