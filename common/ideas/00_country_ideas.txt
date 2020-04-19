@@ -6318,7 +6318,7 @@ HES_ideas = {
 		development_cost = -0.1
 	}
 	hessian_mercenaries_idea = {
-		possible_mercenaries = 0.25
+		possible_mercenaries = 0.2
 	}
 	hessian_economic_reforms = {
 		production_efficiency = 0.1
