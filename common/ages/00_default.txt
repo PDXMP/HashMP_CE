@@ -777,7 +777,7 @@ age_of_revolutions = {
 		}
 		ab_same_contine_lib_desire = {
 			modifier = {
-				global_supply_limit_modifier = 1
+				global_supply_limit_modifier = 2
 				land_attrition = -0.2
 			}
 			#ai_will_do = {
