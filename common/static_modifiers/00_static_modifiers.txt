@@ -1121,7 +1121,6 @@ streltsy_modifier = {
 }
 
 power_projection = {
-	defensiveness = 0.1
 	global_trade_power = 0.2
 	prestige = 0.5
 	land_morale = 0.1
