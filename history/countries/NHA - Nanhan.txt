@@ -3,5 +3,5 @@ add_government_reform = h_reform_prefecture
 government_rank = 1
 technology_group = chinese
 religion = confucianism
-primary_culture = hubei #ganyu
+primary_culture = cantonese #ganyu
 capital = 4843 #Yanshan
