@@ -5385,7 +5385,7 @@ east_asian = {	# Chinese Group
 		}
 	}
 	jianghuai = {
-		primary = MNG
+		primary = SHD
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
 			Jianze Jianjun Jianzhi Jianpei Jianji Youji Youtang Youwan Youlun Youbing Youyun Youheng You'kai Houzhao 
