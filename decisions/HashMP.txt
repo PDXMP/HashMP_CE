@@ -340,4 +340,22 @@ country_decisions = {
 			}
 		}
 	}
+	
+	h_remove_regency = {
+		potential = {
+			ai = no
+			NOT = { has_country_flag = h_regency_flag }
+			NOT = {
+				government = republic
+			}
+		}
+		allow = {
+			has_ruler = "(Regency Council)"
+		}
+		effect = {
+			tooltip = h_remove_regency_tooltip
+			set_country_flag = h_regency_flag
+			country_event = { id = hashmp.9 } #Regency Event
+		}
+	}		
 }
