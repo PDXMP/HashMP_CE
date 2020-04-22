@@ -1147,7 +1147,7 @@ MUG_ideas = {
 		discipline = 0.05
 	}
 	control_of_the_ulema = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.25
 	}
 	mughal_ibadat_khana = {
 		idea_cost = -0.1
