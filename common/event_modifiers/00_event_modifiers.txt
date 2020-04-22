@@ -1116,7 +1116,7 @@ more_tariffs = {
 }
 
 master_of_mint_boost = {
-	inflation_reduction = 0.1
+	inflation_reduction = 0.2
 }
 
 navigator_boost = {
