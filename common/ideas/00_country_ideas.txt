@@ -2013,7 +2013,7 @@ TAU_ideas = {
 	free = yes
 	
 	mandala_system = {
-		global_manpower_modifier = 0.33
+		global_manpower_modifier = 0.25
 	}
 	tau_elephant_battles = {
 		cavalry_power = 0.20
