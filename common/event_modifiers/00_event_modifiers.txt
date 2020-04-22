@@ -1136,7 +1136,7 @@ commandant_boost = {
 }
 
 quartermaster_boost = {
-	reinforce_speed = 0.15
+	reinforce_speed = 0.25
 }
 
 recruitmaster_boost = {
