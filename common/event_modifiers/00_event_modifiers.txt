@@ -1121,6 +1121,7 @@ master_of_mint_boost = {
 
 navigator_boost = {
 	range = 0.1
+	naval_maintenance_modifier = -0.1
 }
 
 grand_captain_boost = {
