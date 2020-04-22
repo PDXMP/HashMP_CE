@@ -5067,7 +5067,7 @@ restricted_colonial_expansion = {
 }
 
 revolutionary_spirit = {
-	land_forcelimit_modifier = 0.25
+	land_forcelimit_modifier = 0.1
 }
 
 penal_colony = {
