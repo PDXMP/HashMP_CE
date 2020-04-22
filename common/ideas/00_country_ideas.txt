@@ -1640,7 +1640,7 @@ MCH_ideas = {
 		core_creation = -0.2
 	}
 	the_manchu_alphabet = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 	manchu_eight_banners = {
 		discipline = 0.05
