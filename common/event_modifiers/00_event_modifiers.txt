@@ -3769,7 +3769,7 @@ diplo_fuax_pas = {
 }
 
 mercenaries_to_the_standard = {
-	possible_mercenaries = 0.25
+	possible_mercenaries = 0.2
 }
 
 for_freedom = {
