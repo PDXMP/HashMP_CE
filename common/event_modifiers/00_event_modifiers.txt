@@ -3855,7 +3855,7 @@ trust_from_mercs = {
 }
 
 glut_of_mercs = {
-	possible_mercenaries = 0.25
+	possible_mercenaries = 0.2
 }
 
 generous_terms = {
