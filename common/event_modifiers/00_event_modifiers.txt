@@ -1140,7 +1140,7 @@ quartermaster_boost = {
 }
 
 recruitmaster_boost = {
-	global_manpower_modifier = 0.1
+	global_manpower_modifier = 0.2
 }
 
 fortification_expert_boost = {
