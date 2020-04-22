@@ -5,6 +5,13 @@ religion = sunni
 technology_group = chinese
 capital = 636	# Brunei Town
 religious_school = shafii_school
+historical_rival = TAU
+historical_rival = KHM
+historical_rival = BNG
+historical_rival = MLC
+historical_rival = YUE
+historical_rival = CYI
+historical_rival = MJP
 
 1399.1.1 = {
 	monarch = {
