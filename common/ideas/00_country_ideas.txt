@@ -2494,6 +2494,7 @@ SWI_ideas = {
 		stability_cost_modifier = -0.1
 	}
 	swiss_mercenaries = {
+		possible_condottieri = 0.5
 		merc_maintenance_modifier = -0.25
 	}
 	alpine_defensiveness = {
