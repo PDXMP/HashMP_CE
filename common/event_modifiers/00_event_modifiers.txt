@@ -1151,6 +1151,7 @@ fortification_expert_boost = {
 
 inquisitor_boost = {
 	global_spy_defence = 0.1
+	missionaries = 1
 }
 
 religious_migration = {
