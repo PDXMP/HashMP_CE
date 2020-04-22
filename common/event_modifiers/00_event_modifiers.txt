@@ -1128,7 +1128,7 @@ grand_captain_boost = {
 }
 
 army_organiser_boost = {
-	land_forcelimit_modifier = 0.1
+	land_forcelimit_modifier = 0.2
 }
 
 commandant_boost = {
