@@ -7295,7 +7295,7 @@ CYI_ideas = {
 	}
 
 	bonus = {
-		manpower_recovery_speed = 0.25
+		manpower_recovery_speed = 0.2
 	}
 	
 	trigger = {
@@ -7325,7 +7325,7 @@ CYI_ideas = {
 		devotion = 1
 	}
 	cyi_children_of_the_black_tiger = {
-		land_morale = 0.15
+		land_morale = 0.2
 	}
 }
 
