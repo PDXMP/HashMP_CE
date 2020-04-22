@@ -2267,7 +2267,7 @@ PUN_ideas = {
 		cavalry_cost = -0.10
 	}
 	reforming_the_punjabi_army = {
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 }
 
