@@ -1846,9 +1846,9 @@ NReligion = {
 	MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE = 150.0,				-- When spreading the religion to other provinces the distance wont exceed this number
 	CONVERSION_ZEAL_DURATION = 10950,							-- Amount of days in which you cannot convert the province back.
 	KARMA_FOR_CONVERSION = 0.1,
-	MIN_CARDINALS = 7,											-- Least amount of cardinals/ Starting cardinals
-	MAX_CARDINALS = 49,											-- Max amount of cardinals
-	MAX_CARDINALS_PER_COUNTRY = 7,								-- Max cardinals in a single country
+	MIN_CARDINALS = 6,											-- Least amount of cardinals/ Starting cardinals
+	MAX_CARDINALS = 48,											-- Max amount of cardinals
+	MAX_CARDINALS_PER_COUNTRY = 6,								-- Max cardinals in a single country
 	
 	YEARLY_PAPAL_INFLUENCE_CATHOLIC = 2.0,						-- The amount of yearly papal influence you receive each year for being catholic
 	YEARLY_PAPAL_INFLUENCE_PER_CARDINAL = 0.5,					-- The amount of yearly papal influence you receive each year for each cardinal you have active
