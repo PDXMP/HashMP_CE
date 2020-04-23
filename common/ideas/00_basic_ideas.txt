@@ -246,7 +246,7 @@ offensive_ideas = {
 		army_tradition = 0.5
 	}
 	engineer_corps = {
-		siege_ability = 0.2
+		siege_ability = 0.25
 		artillery_bonus_vs_fort = 1
 	}
 	superior_firepower = {
