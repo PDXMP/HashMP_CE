@@ -64,17 +64,17 @@ plutocracy_ideas = {
 		land_morale = 0.10
 	}
 	abolished_serfdom = {
-		possible_mercenaries = 0.25
+		possible_mercenaries = 0.2
 		mercenary_discipline = 0.03
 	}
 	bill_of_rights = {
-		land_forcelimit_modifier = 0.10
+		global_unrest = -1
 	}
 	free_merchants = {
 		merchants = 1
 	}
 	free_subjects = {
-		global_unrest = -1
+		global_regiment_recruit_speed = -0.1
 	}
 	free_cities = {
 		infantry_cost = -0.1
