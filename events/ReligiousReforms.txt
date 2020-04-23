@@ -26,18 +26,16 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			add_stability = -1
 			release_all_subjects = yes 
-			add_doom = 25 
+			add_doom = 20 
 		}
 	}
 	
 	option = {
 		name = religious_reforms.1.a
 		tooltip = {
-			add_stability = -1
 			release_all_subjects = yes
-			add_doom = 25
+			add_doom = 20
 		}
 	}
 }
@@ -63,7 +61,6 @@ country_event = {
 	immediate = {
 		hidden_effect = {		
 			add_authority = -100 
-			add_stability = -2
 			
 			random_owned_province = {
 				limit = { 
@@ -72,39 +69,39 @@ country_event = {
 				}
 				set_province_flag = civil_war_prov_1
 			}		
-			random_owned_province = {
-				limit = { 
-					is_in_capital_area = yes
-					is_capital = no
-					NOT = { has_province_flag = civil_war_prov_1 }
-				}
-				set_province_flag = civil_war_prov_2
-			}
-			random_owned_province = {
-				limit = { 
-					is_in_capital_area = yes 
-					is_capital = no
-					NOT = { has_province_flag = civil_war_prov_1 }
-					NOT = { has_province_flag = civil_war_prov_2 }
-				}
-				set_province_flag = civil_war_prov_3
-			}			
+			#random_owned_province = {
+			#	limit = { 
+			#		is_in_capital_area = yes
+			#		is_capital = no
+			#		NOT = { has_province_flag = civil_war_prov_1 }
+			#	}
+			#	set_province_flag = civil_war_prov_2
+			#}
+			#random_owned_province = {
+			#	limit = { 
+			#		is_in_capital_area = yes 
+			#		is_capital = no
+			#		NOT = { has_province_flag = civil_war_prov_1 }
+			#		NOT = { has_province_flag = civil_war_prov_2 }
+			#	}
+			#	set_province_flag = civil_war_prov_3
+			#}			
 			
 			random_owned_province = {
 				limit = { has_province_flag = civil_war_prov_1 }
 				pretender_rebels = 4
 				clr_province_flag = civil_war_prov_1
 			}
-			random_owned_province = {
-				limit = { has_province_flag = civil_war_prov_2 }
-				pretender_rebels = 3
-				clr_province_flag = civil_war_prov_2
-			}
-			random_owned_province = {
-				limit = { has_province_flag = civil_war_prov_3 }
-				pretender_rebels = 3
-				clr_province_flag = civil_war_prov_3
-			}			
+			#random_owned_province = {
+			#	limit = { has_province_flag = civil_war_prov_2 }
+			#	pretender_rebels = 3
+			#	clr_province_flag = civil_war_prov_2
+			#}
+			#random_owned_province = {
+			#	limit = { has_province_flag = civil_war_prov_3 }
+			#	pretender_rebels = 3
+			#	clr_province_flag = civil_war_prov_3
+			#}			
 		}
 		
 	}	
@@ -112,7 +109,6 @@ country_event = {
 	option = {
 		name = religious_reforms.2.a
 		tooltip = {
-			add_stability = -2
 			add_authority = -100			
 		}		
 	}
@@ -138,7 +134,6 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = { 
-			add_stability = -1
 			release_all_subjects = yes
 			collapse_nation = yes
 		}
@@ -147,7 +142,6 @@ country_event = {
 	option = {
 		name = religious_reforms.1.a
 		tooltip = {
-			add_stability = -1
 			release_all_subjects = yes
 			collapse_nation = yes
 		}
