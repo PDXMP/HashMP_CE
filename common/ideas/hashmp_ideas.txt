@@ -800,7 +800,7 @@ QUE_ideas = { #Quebec
 CAL_ideas = { #California
 	start = {
 		republican_tradition = 0.1
-		global_sailors_modifier = 0.25
+		global_sailors_modifier = 0.33
 	}
 	
 	bonus = {
@@ -819,6 +819,7 @@ CAL_ideas = { #California
 		global_trade_goods_size_modifier = 0.1
 	}
 	cal_3 = { #Outlaw Country
+		mercenary_discipline = 0.05
 		possible_mercenaries = 0.25
 	}
 	cal_4 = { #City of Angels
