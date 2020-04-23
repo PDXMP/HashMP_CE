@@ -411,7 +411,7 @@ public_welfare_act = {
 	}
 
 	land_maintenance_modifier = -0.075
-	inflation_reduction = 0.1
+	inflation_reduction = 0.15
 
 	ai_will_do = {
 		factor = 1
