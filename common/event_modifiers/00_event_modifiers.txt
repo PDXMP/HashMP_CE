@@ -970,7 +970,8 @@ the_staple_port = {
 }
 
 the_theme_system = {
-	global_manpower_modifier = 0.25
+	max_states = 5
+	global_autonomy = -0.05
 }
 
 severe_trade_crisis = {
