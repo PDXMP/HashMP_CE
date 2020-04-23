@@ -867,13 +867,13 @@ humanist_ideas = {
 		monthly_splendor = 3
 	}
 	local_traditions = {
-		advisor_cost = -0.15
+		advisor_cost = -0.1
 	}
 	ecumenism = {
 		global_tax_income = 48
 	}
 	indirect_rule = {
-		global_tax_modifier = 0.20
+		global_tax_modifier = 0.1
 	}
 	cultural_ties = {
 		prestige = 1
@@ -882,8 +882,8 @@ humanist_ideas = {
 		global_autonomy = -0.05
 	}
 	humanist_tolerance = {
-		defensiveness = 0.1
-		land_forcelimit = 10
+		defensiveness = 0.15
+		land_forcelimit = 5
 	}
 
 	ai_will_do = {
