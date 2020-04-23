@@ -101,14 +101,14 @@ innovativeness_ideas = {
 		embracement_cost = -0.25
 	}
 	pragmatism = {
-		merc_maintenance_modifier = -0.25
+		merc_maintenance_modifier = -0.2
 		mercenary_cost = -0.1
 	}
 	scientific_revolution = {
 		technology_cost = -0.1
 	}
 	dynamic_court = {
-		possible_mercenaries = 0.25
+		possible_mercenaries = 0.2
 	}
 	resilient_state = {
 		drill_gain_modifier = 0.33
