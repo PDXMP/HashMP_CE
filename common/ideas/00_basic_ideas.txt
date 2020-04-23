@@ -285,8 +285,8 @@ defensive_ideas = {
 		reinforce_speed = 0.20
 	}
 	regimental_system = {
-		land_maintenance_modifier = -0.075
-		naval_maintenance_modifier = -0.075
+		land_maintenance_modifier = -0.1
+		naval_maintenance_modifier = -0.1
 	}
 	defensive_mentality = {
 		defensiveness = 0.1
@@ -297,8 +297,7 @@ defensive_ideas = {
 		land_attrition = -0.1
 	}
 	improved_foraging = {
-		global_supply_limit_modifier = 0.75
-		global_manpower_modifier = 0.1
+		global_manpower_modifier = 0.15
 	}
 
 	ai_will_do = {
