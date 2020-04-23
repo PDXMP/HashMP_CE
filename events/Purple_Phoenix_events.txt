@@ -318,6 +318,7 @@ country_event = {
 	picture = BYZANTINE_EAGLE_eventPicture
 		
 	trigger = {
+		always = no
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
 		NOT = { has_idea = byz_admin_power }
@@ -349,6 +350,7 @@ country_event = {
 	picture = BYZANTINE_EAGLE_eventPicture
 	
 	trigger = {
+		always = no
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
 		NOT = { has_idea = byz_admin_power }
@@ -379,6 +381,7 @@ country_event = {
 	picture = BYZANTINE_EMPEROR_eventPicture
 	
 	trigger = {
+		always = no
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
 		NOT = { has_idea = byz_admin_power }
@@ -409,6 +412,7 @@ country_event = {
 	picture = BYZANTINE_EMPEROR_eventPicture
 	
 	trigger = {
+		always = no
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
 		NOT = { has_idea = byz_admin_power }
@@ -439,6 +443,7 @@ country_event = {
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
+		always = no
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
 		NOT = { has_idea = byz_admin_power }
@@ -469,6 +474,7 @@ country_event = {
 	picture = BAD_WITH_MONARCH_eventPicture
 	
 	trigger = {
+		always = no
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
 		has_idea_group = BYZ_ideas
