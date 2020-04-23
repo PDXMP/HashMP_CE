@@ -23,7 +23,7 @@ aristocracy_ideas = {
 		mil_advisor_cost = -0.20
 	}
 	serfdom = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.3
 	}
 	local_nobility = {
 		merchants = 1
