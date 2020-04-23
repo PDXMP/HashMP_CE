@@ -480,7 +480,7 @@ field_priests = {
 		full_idea_group = quantity_ideas
 	}
 
-	reinforce_speed = 0.1
+	reinforce_speed = 0.15
 	manpower_recovery_speed = 0.15
 	
 	ai_will_do = {
