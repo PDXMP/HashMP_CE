@@ -62,59 +62,29 @@ country_decisions = {
 			every_province = {
 				limit = {
 					OR = {
-						area = aydin_area
-						area = ankara_area
-						area = germiyan_area
-						area = karaman_area
-						area = cukurova_area
-						area = rum_area
-						area = kastamonu_area
-						area = hudavendigar_area
-						area = dulkadir_area
-						province_id = 149	# Edirne
-						province_id = 147	# Salonica
-						province_id = 148	# Macedonia
-						province_id = 146	# Athens
-						province_id = 145	# Morea
-						province_id = 1773	# Achea
-						province_id = 163	# Crete
-						province_id = 164	# Naxos
-						province_id = 320	# Rhodes
-						province_id = 330	# Trebizon
-						province_id = 285	# Kaffa
-						province_id = 142	# Corfu
-						province_id = 143	# Albania
-						province_id = 144	# Janina
-						province_id = 1765	# Nis
-						province_id = 150	# Bulgaria
-						province_id = 1764	# Burgas
-						province_id = 159	# Silistria
-						province_id = 1853	# Kozani
-						province_id = 2348	# Chios
-						province_id = 2410	# Theodoro
-						province_id = 2750	# Plovdiv
-						province_id = 4298	# Ayntab
+						province_id = 163
+						province_id = 3003
+						province_id = 2348
+						province_id = 320
+						province_id = 321
 					}
 					NOT = { is_core = BYZ }
 				}
-				add_permanent_claim = BYZ
+				add_core = BYZ
 			}
 			random_owned_province = {
 				limit = { culture = greek }
-				add_base_tax = 1
+				add_base_tax = 2
 			}
 			random_owned_province = {
 				limit = { culture = greek }
-				add_base_tax = 1
+				add_base_tax = 2
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige = 10
-			BYZ = {
-				add_core = 151 # Constantinople
-			}
+			add_prestige = 25
 			if = {
 				limit = {
 					is_part_of_hre = yes
