@@ -18,7 +18,7 @@ country_decisions = {
 			NOT = { tag = NED }
 			NOT = { tag = HLR }
 			OR = {
-				is_elector = yes
+				#is_elector = yes
 				tag = BUR
 				tag = FRI
 				tag = UTR
