@@ -1112,7 +1112,7 @@ high_army_professionalism = {
 	siege_ability = 0.2
 	mercenary_cost = 0.1
 	merc_maintenance_modifier = 0.1
-	possible_mercenaries = -0.33
+	possible_mercenaries = -0.1
 	movement_speed = 0.2
 }
 
