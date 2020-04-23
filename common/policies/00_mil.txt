@@ -325,7 +325,7 @@ the_garrison_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	general_cost = -0.2
+	general_cost = -0.25
 
 	ai_will_do = {
 		factor = 1
