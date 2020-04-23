@@ -377,7 +377,7 @@ nobility_embassy_act = {
 		full_idea_group = exploration_ideas
 	}
 
-	global_manpower_modifier = 0.30
+	global_manpower_modifier = 0.33
 
 	ai_will_do = {
 		factor = 1
