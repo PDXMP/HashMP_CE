@@ -1187,6 +1187,7 @@ LAP_ideas = { #La Plata
 	}
 	lap_4 = { #Made of Steel
 		infantry_cost = -0.2
+		shock_damage_received = -0.1
 	}
 	lap_5 = { #Made of Silver
 		global_trade_goods_size_modifier = 0.1
