@@ -765,7 +765,7 @@ QUE_ideas = { #Quebec
 	
 		
 	coureurs_des_bois = {
-		global_trade_goods_size_modifier = 0.1
+		production_efficiency = 0.1
 	}	
 	the_seigneurial_system = {
 		manpower_recovery_speed = 0.1
