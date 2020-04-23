@@ -14,48 +14,44 @@ country_decisions = {
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = TUR }
-			OR = {
-				primary_culture = greek
-				primary_culture = pontic_greek
-			}
-			religion = orthodox
-			always = no
+			tag = HUN
+			#religion = orthodox
+			#always = no
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 151 # Constantinople
-				province_id = 149	# Edirne
-				province_id = 144  # Epiros
-				province_id = 147	# Salonica
-				province_id = 148	# Macedonia
-				province_id = 146	# Athens
+				area = thrace_area
+				area = macedonia_area
+				area = albania_area
+				area = northern_greece_area
+				area = bulgaria_area
+				area = morea_area
+				area = hudavendigar_area
+				area = aydin_area
+				area = germiyan_area
 				province_id = 145	# Morea
+				province_id = 146	# Athens
 				province_id = 1773	# Achea
-				province_id = 316	# Bithynia
-				province_id = 317	# Bursa
-				province_id = 318	# Smyrna
-				province_id = 1853	# Kozani
-				province_id = 2296	# Biga
+				
 			}
 			NOT = { owned_by = ROOT }
 		}
 		allow = {
-			owns = 151 # Constantinople
-			owns = 149	# Edirne
-			owns = 144  # Epiros
-			owns = 147	# Salonica
-			owns = 148	# Macedonia
-			owns = 146	# Athens
-			owns = 145	# Morea
-			owns = 1773	# Achea
-			owns = 316	# Bithynia
-			owns = 317	# Bursa
-			owns = 318	# Smyrna
-			owns = 1853	# Kozani
-			owns = 2296	# Biga
+			thrace_area = { type = all is_core = ROOT owned_by = ROOT }
+			macedonia_area = { type = all is_core = ROOT owned_by = ROOT }
+			albania_area = { type = all is_core = ROOT owned_by = ROOT }
+			northern_greece_area = { type = all is_core = ROOT owned_by = ROOT }
+			bulgaria_area = { type = all is_core = ROOT owned_by = ROOT }
+			morea_area = { type = all is_core = ROOT owned_by = ROOT }
+			hudavendigar_area = { type = all is_core = ROOT owned_by = ROOT }
+			aydin_area = { type = all is_core = ROOT owned_by = ROOT }
+			germiyan_area = { type = all is_core = ROOT owned_by = ROOT }
+			owns_core_province = 145  # Morea
+			owns_core_province = 146  # Athens
+			owns_core_province = 1773  # Achea
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
-			is_nomad = no
+			#is_nomad = no
 		}
 		effect = {
 			151 = {
