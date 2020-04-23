@@ -648,17 +648,17 @@ risk_assessment_policy = {
 	monarch_power = ADM
 
 	potential = {
+		has_idea_group = humanist_ideas
 		has_idea_group = offensive_ideas
-		has_idea_group = expansion_ideas
 		OR = {
+			full_idea_group = humanist_ideas
 			full_idea_group = offensive_ideas
-			full_idea_group = expansion_ideas
 		}
 	}
 	
 	allow = {
+		full_idea_group = humanist_ideas
 		full_idea_group = offensive_ideas
-		full_idea_group = expansion_ideas
 	}
 
 	manpower_recovery_speed = 0.15
@@ -961,17 +961,17 @@ modern_siege_weapons = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = humanist_ideas
 		has_idea_group = offensive_ideas
+		has_idea_group = expansion_ideas
 		OR = {
-			full_idea_group = humanist_ideas
 			full_idea_group = offensive_ideas
+			full_idea_group = expansion_ideas
 		}
 	}
 	
 	allow = {
-		full_idea_group = humanist_ideas
 		full_idea_group = offensive_ideas
+		full_idea_group = expansion_ideas
 	}	
 	
 	backrow_artillery_damage = 0.1
