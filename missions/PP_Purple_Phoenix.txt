@@ -603,7 +603,7 @@ byz_pp_religion = {
 		}
 		
 		effect = {
-			add_patriarch_authority = 0.1
+			add_patriarch_authority = 0.05
 			aleppo_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -645,7 +645,7 @@ byz_pp_religion = {
 			}
 		}
 		effect = {
-			add_patriarch_authority = 0.1
+			add_patriarch_authority = 0.05
 			palestine_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -682,7 +682,7 @@ byz_pp_religion = {
 			}
 		}
 		effect = {
-			add_patriarch_authority = 0.1
+			add_patriarch_authority = 0.05
 			delta_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -737,7 +737,7 @@ byz_pp_religion = {
 			}
 		}
 		effect = {
-			add_patriarch_authority = 0.1
+			add_patriarch_authority = 0.05
 			said_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -794,7 +794,7 @@ byz_pp_religion = {
 			owns = 2313 #Antioch
 		}
 		effect = {
-			add_patriarch_authority = 0.1
+			add_patriarch_authority = 0.05
 			add_country_modifier = {
 				name = "healing_the_schism"
 				duration = -1
@@ -823,7 +823,7 @@ byz_pp_religion = {
 			}
 		}
 		effect = {
-			add_patriarch_authority = 0.2
+			add_patriarch_authority = 0.1
 			add_country_modifier = {
 				name = "conversion_of_rome"
 				duration = 7300
@@ -1017,7 +1017,7 @@ byz_pp_east = {
 				151 = {
 					add_base_tax = 4
 					add_base_production = 4
-					add_base_manpower = 3
+					add_base_manpower = 4
 				}
 				set_global_flag = constantinople_restored
 			}	
@@ -1050,7 +1050,7 @@ byz_pp_east = {
 				add_trade_modifier = {
 					who = root
 					duration = 7300
-					power = 35
+					power = 50
 					key = byzantine_kaffa
 				}
 			}
