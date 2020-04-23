@@ -242,13 +242,13 @@ growth_of_the_orthodox_church = {
 }
 
 healing_the_schism = {
-	tolerance_own = 2
-	global_missionary_strength = 0.02
+	tolerance_own = 1
+	global_missionary_strength = 0.01
 }
 
 conversion_of_rome = {
 	legitimacy = 1
-	global_heretic_missionary_strength = 0.1
+	global_heretic_missionary_strength = 0.03
 }
 
 byzantine_unification_of_italy = {
