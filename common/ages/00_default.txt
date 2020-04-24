@@ -499,8 +499,7 @@ age_of_absolutism = {
 		}
 		
 		obj_emperor_of_china = {
-			is_emperor_of_china = yes
-			imperial_mandate = 50
+			has_reform = h_reform_warlord_4
 		}
 		
 		obj_cultures_accepted = {
