@@ -320,7 +320,7 @@ the_mercenary_registration_act = {
 		full_idea_group = quantity_ideas
 	}
 
-	cavalry_cost = -0.1
+	global_regiment_cost = -0.05
 	land_attrition = -0.1
 	
 	ai_will_do = {
