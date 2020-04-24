@@ -8876,7 +8876,7 @@ UES_ideas = {
 	}
 	
 	ues_agakita_shu = {
-		army_tradition_decay = -0.01
+		diplomats = 1
 	}
 	
 	ues_denkoku_no_ji = {
