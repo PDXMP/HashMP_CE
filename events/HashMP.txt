@@ -488,9 +488,10 @@ country_event = {
 		define_ruler = {
 			culture = ROOT
 			religion = ROOT
-			adm = 4
+			fixed = yes
+			adm = 3
 			dip = 3
-			mil = 5
+			mil = 4
 			age = 30
 			claim = 40
 		}
@@ -510,7 +511,6 @@ country_event = {
 
 	option = { #Friend
 		name = hashmp.9.b
-		add_stability = 1
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = -10
@@ -518,10 +518,11 @@ country_event = {
 		define_ruler = {
 			culture = ROOT
 			religion = ROOT
-			adm = 3
-			dip = 3
-			mil = 3
-			age = 45
+			fixed = yes
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 40
 			claim = 60
 		}
 		event_target:hash_regency_nobles = {
