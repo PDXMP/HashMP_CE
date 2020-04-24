@@ -534,7 +534,7 @@ country_event = {
 	}
 }
 
-# Takab Gold Mine
+# Manchu Gold Mine
 
 country_event = {
 	id = hashmp.10
