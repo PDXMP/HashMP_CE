@@ -568,3 +568,43 @@ country_event = {
 	}
 	
 }
+
+#Hengyang Mine
+
+country_event = {
+	id = hashmp.11
+	title = hashmp.11.t
+	desc = hashmp.11.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 4745 #Hengyang
+		has_reform = h_reform_warlord_3
+		4745 = {
+			NOT = { trade_goods = gold }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = hashmp.11.a
+		add_years_of_income = -1
+		4745 = {
+			change_trade_goods = gold
+			add_base_production = 5
+		}
+	}
+	
+	option = {
+		name = hashmp.11.b
+		4745 = {
+			change_trade_goods = gold
+		}
+	}
+	
+}
