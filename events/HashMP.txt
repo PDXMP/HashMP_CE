@@ -533,3 +533,38 @@ country_event = {
 		}
 	}
 }
+
+# Takab Gold Mine
+
+country_event = {
+	id = hashmp.10
+	title = hashmp.10.t
+	desc = hashmp.10.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 2102 #Urkan
+		OR = {
+			tag = MCH
+			tag = QNG
+		}
+		2102 = {
+			NOT = { trade_goods = gold }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = hashmp.1.a
+		2102 = {
+			change_trade_goods = gold
+			add_base_production = 3
+		}
+	}
+	
+}
