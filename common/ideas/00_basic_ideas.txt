@@ -709,7 +709,7 @@ quantity_ideas = {
 	category = MIL
 
 	bonus = {
-		land_forcelimit_modifier  = 0.40
+		land_forcelimit_modifier  = 0.33
 		naval_forcelimit_modifier = 0.20
 	}
 	mass_army = {
