@@ -12,6 +12,7 @@ base_tax = 7
 base_production = 7
 trade_goods = cloth
 base_manpower = 5
+fort_15th = yes
 add_permanent_province_modifier = {
 	name = basic_polders
 	duration = -1
