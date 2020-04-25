@@ -594,7 +594,7 @@ maritime_ideas = {
 		free_leader_pool = 1
 	}
 	merchant_marine = {
-		global_sailors_modifier = 0.33
+		global_sailors_modifier = 0.25
 	}
 	sheltered_ports = {
 		global_ship_repair = 0.1
