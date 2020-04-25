@@ -72,6 +72,8 @@ country_decisions = {
 						province_id = 2348
 						province_id = 320
 						province_id = 321
+						province_id = 164
+						province_id = 142
 					}
 					NOT = { is_core = BYZ }
 				}
