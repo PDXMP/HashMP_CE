@@ -24,13 +24,13 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 18
+		months = 6
 	}
 	
 	
 	option = { 
 		name = flavor_mlc.1.a #Raja Ibrahim will not be forgotten.
-		add_stability = -1
+		#add_stability = -1
 		kill_ruler = yes
 		set_ruler_flag = mlc_death_or_raja_ibrahim
 	}
@@ -51,7 +51,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 45
+		months = 32
 	}
 	
 	option = {
@@ -65,13 +65,13 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = mlc_tun_perak
-			duration = 3650
+			duration = 7300
 		}
 	}
 	option = {
 		name = flavor_mlc.2.b #Appoint a puppet and marginalize the Bendahara. 
 		ai_chance = { factor = 10 }
-		add_prestige = 15
+		add_prestige = 20
 		add_stability_or_adm_power = yes
 	}
 }
