@@ -59,6 +59,10 @@ country_decisions = {
 			change_religion = orthodox
 			change_primary_culture = greek
 			add_accepted_culture = hungarian
+			add_country_modifier = { 
+				name = conversion_zeal
+				duration = 3650
+			}
 			swap_non_generic_missions = yes
 			every_province = {
 				limit = {
