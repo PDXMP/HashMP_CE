@@ -65,7 +65,7 @@ plutocracy_ideas = {
 	}
 	abolished_serfdom = {
 		possible_mercenaries = 0.2
-		mercenary_discipline = 0.03
+		mercenary_discipline = 0.025
 	}
 	bill_of_rights = {
 		global_unrest = -1
