@@ -278,11 +278,11 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			burma_region = {
 				type = all
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			indo_china_region = {
 				type = all
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			is_at_war = no
 		}
