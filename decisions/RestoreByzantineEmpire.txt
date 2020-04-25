@@ -57,6 +57,8 @@ country_decisions = {
 			}
 			change_tag = BYZ
 			change_religion = orthodox
+			change_primary_culture = greek
+			add_accepted_culture = hungarian
 			swap_non_generic_missions = yes
 			every_province = {
 				limit = {
