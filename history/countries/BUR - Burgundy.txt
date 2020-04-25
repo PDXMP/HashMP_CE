@@ -68,7 +68,7 @@ add_army_professionalism = 0.1
 	monarch = {
 		name = "Philippe III"
 		dynasty = "de Bourgogne"
-		birth_date = 1408.7.31
+		birth_date = 1411.7.31
 		adm = 5
 		dip = 5
 		mil = 5
@@ -77,7 +77,6 @@ add_army_professionalism = 0.1
 	clear_scripted_personalities = yes
 	add_ruler_personality = calm_personality
 	add_ruler_personality = well_connected_personality
-	add_ruler_personality = well_advised_personality
 	add_heir_personality = bold_fighter_personality
 }
 
