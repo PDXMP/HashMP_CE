@@ -102,7 +102,7 @@ national_focus = DIP
 		claim = 95
 		adm = 3
 		dip = 5
-		mil = 2
+		mil = 3
 		leader = {	name = "Afonso V"	type = general	fire = 3	shock = 2	manuever = 3	siege = 1 }
 	}
 	clear_scripted_personalities = yes
