@@ -947,7 +947,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = HUN
+		OR = {
+			tag = HUN
+			tag = BYZ
+		}
 		has_regency = no
 		has_country_modifier = hun_black_army
 	}
