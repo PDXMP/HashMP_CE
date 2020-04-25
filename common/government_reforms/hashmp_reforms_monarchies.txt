@@ -136,7 +136,7 @@ t3_np_1 = { #Border Militias
 	}
 	modifiers = {
 		fort_maintenance_modifier = -0.1
-		recover_army_morale_speed = 0.1		
+		recover_army_morale_speed = 0.05	
 	}
 }
 t3_np_2 = { #Well-Advised Army
