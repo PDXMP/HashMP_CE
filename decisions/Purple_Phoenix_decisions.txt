@@ -30,7 +30,7 @@ country_decisions = {
 		}
 		effect = {
 			add_prestige = 10
-			add_army_tradition = 25
+			add_army_tradition = 10
 			set_country_flag = triumph_greece
 		}
 		ai_will_do = {
@@ -80,8 +80,8 @@ country_decisions = {
 			owns = 136
 		}
 		effect = {
-			add_prestige = 20
-			add_army_tradition = 25
+			add_prestige = 10
+			add_army_tradition = 10
 			set_country_flag = triumph_balkans
 		}
 		ai_will_do = {
@@ -117,7 +117,7 @@ country_decisions = {
 		}
 		effect = {
 			add_prestige = 10
-			add_army_tradition = 25
+			add_army_tradition = 10
 			set_country_flag = triumph_asia
 		}
 		ai_will_do = {
@@ -145,8 +145,8 @@ country_decisions = {
 			anatolia_region = { type = all owned_by = BYZ }
 		}
 		effect = {
-			add_prestige = 20
-			add_army_tradition = 25
+			add_prestige = 10
+			add_army_tradition = 10
 			set_country_flag = triumph_anatolia
 		}
 		ai_will_do = {
@@ -175,7 +175,7 @@ country_decisions = {
 			
 		}
 		effect = {
-			add_prestige = 35
+			add_prestige = 25
 			add_army_tradition = 25
 			set_country_flag = triumph_italy
 		}
