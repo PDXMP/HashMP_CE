@@ -15,7 +15,7 @@ h_commandery_province = {
 }
 
 h_warlord_startmod = {
-	manpower_recovery_speed = 0.1
+	global_tax_income = 18
 	land_morale = 0.05
 }
 
