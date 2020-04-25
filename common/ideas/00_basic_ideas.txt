@@ -161,6 +161,7 @@ religious_ideas = {
 		church_power_modifier = 0.2
 		global_tax_modifier = 0.10
 		monthly_karma = 0.25
+		yearly_harmony = 0.5
 	}
 	religious_tradition = {
 		land_morale = 0.05
@@ -169,6 +170,7 @@ religious_ideas = {
 	inquisition = {
 		global_heretic_missionary_strength = 0.02
 		enforce_religion_cost = -0.50
+		harmonization_speed = 0.2
 	}
 
 	ai_will_do = {
