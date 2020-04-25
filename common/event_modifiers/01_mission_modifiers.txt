@@ -2321,7 +2321,7 @@ mch_treason_modifier = {
 }
 
 mukden_palace_modifier = {
-	imperial_mandate = 0.05
+	legitimacy = 0.5
 	years_of_nationalism = -2
 }
 
