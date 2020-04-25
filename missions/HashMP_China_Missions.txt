@@ -71,7 +71,7 @@ h_csh_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 3650
+				duration = 5475
 			}
 			gansu_area = {
 				limit = {
@@ -103,7 +103,7 @@ h_cxi_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 3650
+				duration = 5475
 			}
 			if = {
 				limit = {
@@ -167,7 +167,7 @@ h_cyi_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 3650
+				duration = 5475
 			}
 			if = {
 				limit = {
@@ -218,7 +218,7 @@ h_qic_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 3650
+				duration = 5475
 			}
 			shandong_area = {
 				limit = {
@@ -250,7 +250,7 @@ h_wuu_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 3650
+				duration = 5475
 			}
 			country_event = { id = foffychina.5 } #Ruler Event
 			zhejiang_area = {
@@ -297,7 +297,7 @@ h_wuu_5 = {
 #		effect = {
 #			add_country_modifier = {
 #				name = "h_warlord_startmod"
-#				duration = 3650
+#				duration = 5475
 #			}
 #			if = {
 #				limit = {
@@ -361,7 +361,7 @@ h_yue_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 3650
+				duration = 5475
 			}
 			yanshan_area = {
 				limit = {
