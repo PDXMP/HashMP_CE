@@ -81,6 +81,19 @@ add_army_professionalism = 0.1
 	add_heir_personality = bold_fighter_personality
 }
 
+1419.1.1 = {
+	leader = {
+		name = "Louis de Chalon"
+		type = general
+
+		fire = 3
+		shock = 4
+		manuever = 3
+		siege = 1
+		death_date = 1464.1.1
+	}
+}
+
 1430.1.7 = {
 	queen = {
 		country_of_origin = POR
