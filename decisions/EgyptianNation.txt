@@ -16,7 +16,7 @@ country_decisions = {
 			NOT = { tag = ARB }
 			NOT = { exists = EGY }
 			NOT = { has_reform = celestial_empire }
-			primary_culture = al_misr_arabic
+			tag = MAM
 			OR = {
 				ai = no
 				AND = {
