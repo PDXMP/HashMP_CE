@@ -547,7 +547,7 @@ tsardom = {
 	}
 
 	modifiers = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.20
 		yearly_absolutism = 0.1
 		global_autonomy = -0.05
 		max_states = 5
