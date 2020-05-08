@@ -404,6 +404,35 @@ allianceaction = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_allyhorde
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					AND = {
+						has_reform = steppe_horde
+						was_player = no
+					}
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_hordeally
+		potential = {
+			ROOT = {
+				AND = {
+					has_reform = steppe_horde
+					was_player = no
+				}
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 ask_for_march = {
