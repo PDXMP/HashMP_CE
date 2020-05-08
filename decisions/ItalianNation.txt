@@ -75,34 +75,11 @@ country_decisions = {
 		effect = {
 			if = {
 				limit = {
-					is_part_of_hre = yes
-					is_elector = no
-					is_emperor = no
-				}
-				emperor = {
-					add_opinion = {
-						who = root
-						modifier = opinion_left_empire
-					}
-				}
-				set_in_empire = no
-				emperor = {
-					country_event = { id = hre_event.5 }
-				}
-			}
-			if = {
-				limit = {
 					NOT = { government_rank = 2 }
 				}
 				set_government_rank = 2
 			}
 			change_tag = ITA
-			italy_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = ITA
-			}
 			add_prestige = 25
 			ITA = {
 				set_capital = 118
