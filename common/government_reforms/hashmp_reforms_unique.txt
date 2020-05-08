@@ -339,7 +339,7 @@ h_reform_native_empire = {
 		land_forcelimit = 33
 		global_manpower = 33
 		defensiveness = 0.33
-		diplomatic_upkeep = 6
+		diplomatic_upkeep = 10
 	}
 
 	custom_attributes = {
