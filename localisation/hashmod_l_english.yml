@@ -668,3 +668,5 @@
  hashmp.11.d:0 "The coronation of our Warlord as a legitimate King has led to heightened economic stability. Many merchants are flocking to our kingdom to set up new enterprises. One merchant in particular has founded the Hengyang Mining Company after allegedly discovering gold in the province. Should we support him financially, or just wait to see how it plays out?"
  hashmp.11.a:0 "Wonderful! Spare no expense."
  hashmp.11.b:0 "Good for him."
+ h_tooltip_allyhorde:0 "Hordes are uninterested in having alliances."
+ h_tooltip_hordeally:0 "Hordes have no need for allies."
