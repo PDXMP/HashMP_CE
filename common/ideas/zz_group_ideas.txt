@@ -545,7 +545,6 @@ horde_ideas = {
 	
 	bonus = {
 		cav_to_inf_ratio = 0.10
-		possible_condottieri = 1.0
 	}
 	
 	trigger = {
