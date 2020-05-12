@@ -3376,11 +3376,11 @@ javan_ideas = {
 AFG_ideas = {
 	start = {
 		leader_land_shock = 1
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 	
 	bonus = {
-		global_own_trade_power = 0.2
+		global_own_trade_power = 0.25
 	}
 	
 	trigger = {
@@ -3399,7 +3399,7 @@ AFG_ideas = {
 		defensiveness = 0.25
 	}
 	tureh = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.25
 	}
 	afghan_diaspora = {
 		diplomatic_reputation = 1
