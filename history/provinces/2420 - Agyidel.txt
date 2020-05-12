@@ -1,7 +1,7 @@
 #2420 - Agyidel
 
-owner = NOG
-controller = NOG
+owner = BSH
+controller = BSH
 culture = bashkir
 religion = sunni
 hre = no
@@ -11,7 +11,6 @@ trade_goods = iron
 base_manpower = 3
 capital = "Agyidel"
 is_city = yes
-add_core = NOG
 add_core = BSH
 
 

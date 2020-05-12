@@ -1,7 +1,7 @@
 #1965 - Buzuluk
 
-owner = NOG
-controller = NOG
+owner = BSH
+controller = BSH
 culture = nogaybak
 religion = sunni
 capital = "Buzuluk"
@@ -11,7 +11,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = NOG
+add_core = BSH
 
 
 

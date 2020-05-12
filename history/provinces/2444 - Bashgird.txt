@@ -1,7 +1,7 @@
 #2444 - Bashgird
 
-owner = KAZ
-controller = KAZ
+owner = BSH
+controller = BSH
 culture = bashkir
 religion = sunni
 capital = "Bashgird"
@@ -11,7 +11,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = KAZ
 add_core = BSH
 
 
