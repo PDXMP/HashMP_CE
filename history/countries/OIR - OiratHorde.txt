@@ -47,14 +47,14 @@ add_accepted_culture = khalkha
 		dynasty = "Choros"
 		adm = 3
 		dip = 3
-		mil = 5
+		mil = 4
 		birth_date = 1393.1.1
 		leader = {
 			name = "Esen Taishi"
 			type = general
 			fire = 2
-			shock = 5
-			manuever = 5
+			shock = 3
+			manuever = 3
 			siege = 0
 			personality = goal_oriented_personality
 		}
