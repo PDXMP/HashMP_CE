@@ -831,7 +831,7 @@ BUR_Ideas = {
 		diplomatic_annexation_cost = -0.15
 	}
 	bur_estates_general = {
-		possible_mercenaries = 0.25
+		possible_mercenaries = 0.2
 	}
 	reform_of_feudal_army = {
 		discipline = 0.05
