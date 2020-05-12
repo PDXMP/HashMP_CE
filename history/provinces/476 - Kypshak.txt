@@ -13,7 +13,7 @@ base_manpower = 6
 center_of_trade = 1
 is_city = yes
 add_core = KZH
-
+fort_15th = yes
 
 
 discovered_by = KAS
