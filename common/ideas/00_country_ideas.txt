@@ -7096,7 +7096,7 @@ ORL_ideas = {
 
 ORM_ideas = {
 	start = {
-		trade_efficiency = 0.15
+		trade_efficiency = 0.1
 		land_morale = 0.10
 	}
 
