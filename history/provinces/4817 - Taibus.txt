@@ -1,8 +1,8 @@
 # 2879 - Taibus
 
-owner = KHA #KHA	# The Oirads united much of Mongolia
-controller = KHA #KHA
-add_core = KHA #KHA
+owner = CHH #KHA	# The Oirads united much of Mongolia
+controller = CHH #KHA
+add_core = CHH #KHA
 culture = mongol
 religion = vajrayana
 capital = "Taibus"
