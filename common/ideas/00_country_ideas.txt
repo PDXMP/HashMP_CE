@@ -300,7 +300,7 @@ NED_ideas = {
 	}
 	
 	bonus = {
-		possible_mercenaries = 0.25		
+		possible_mercenaries = 0.2
 	}
 
 	trigger = {
