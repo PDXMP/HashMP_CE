@@ -61,12 +61,12 @@ vassal = {
 }
 
 # Mongol Khanate and the Oirats
-vassal = {
-	first = OIR
-	second = KHA
-	start_date = 1434.1.1
-	end_date = 1454.1.1
-}
+#vassal = {
+#	first = OIR
+#	second = KHA
+#	start_date = 1434.1.1
+#	end_date = 1454.1.1
+#}
 
 #Chagatai Subject
 vassal = {
