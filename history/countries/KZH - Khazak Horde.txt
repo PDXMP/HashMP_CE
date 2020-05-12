@@ -10,9 +10,9 @@ religious_school = hanafi_school
 
 1444.1.1 = {
 	monarch = {
-		name = "Kerey"
-		birth_date = 1420.11.11
-		dynasty = "Genghisid"
+		name = "Az-Zhanibek"
+		birth_date = 1428.11.11
+		dynasty = "Borjigin"
 		adm = 5
 		dip = 3
 		mil = 6
