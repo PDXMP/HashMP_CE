@@ -11324,7 +11324,6 @@ h_united_china = {
 h_fortified_oasis = {
 	local_development_cost = -0.5
 	local_defensiveness = 0.25
-	local_manpower_modifier = 0.33
 }
 
 h_scandinavia_united = {
