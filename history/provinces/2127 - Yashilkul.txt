@@ -1,8 +1,8 @@
 # 2127 - Yashilkul
 
-owner = KAS
-controller = KAS
-add_core = KAS
+owner = KOK
+controller = KOK
+add_core = KOK
 culture = uzbehk
 religion = shiite
 capital = "Yashilkul"
