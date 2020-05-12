@@ -1745,7 +1745,7 @@ NOV_ideas = {
 ETH_ideas = {
 	start = {
 		infantry_cost = -0.10
-		global_manpower_modifier = 0.25
+		infantry_power = 0.1
 	}
 	
 	bonus = {
@@ -1761,7 +1761,7 @@ ETH_ideas = {
 		core_creation = -0.10	
 	}
 	eth_reformed_armies = {
-		infantry_power = 0.1
+		global_manpower_modifier = 0.25
 	}
 	the_ark_of_the_covenant = {
 		prestige = 1
