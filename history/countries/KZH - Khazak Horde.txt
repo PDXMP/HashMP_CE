@@ -1,10 +1,10 @@
 government = tribal
-add_government_reform = steppe_horde
+add_government_reform = tribal_federation
 primary_culture = khazak
 religion = sunni
 technology_group = nomad_group
 historical_rival = SHY
-capital = 476	# Sozak
+capital = 476	# Kypshak
 religious_school = hanafi_school
 
 1424.1.1 = {
