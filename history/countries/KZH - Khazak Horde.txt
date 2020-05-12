@@ -7,9 +7,10 @@ historical_rival = SHY
 capital = 476	# Kypshak
 religious_school = hanafi_school
 
-1424.1.1 = {
+1444.1.1 = {
 	monarch = {
 		name = "Kerey"
+		birth_date = 1420.11.11
 		dynasty = "Genghisid"
 		adm = 5
 		dip = 3
