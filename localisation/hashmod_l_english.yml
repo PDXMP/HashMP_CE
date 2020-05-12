@@ -643,3 +643,7 @@
  h_enable_vermont_desc:0 "Our colonial subject has grown powerful enough to warrant the establishment of a Dominion government in place of the colonial administration."
  h_tooltip_allyhorde:0 "Hordes are uninterested in having alliances."
  h_tooltip_hordeally:0 "Hordes have no need for allies."
+ hashmp.12.t:0 "Unfulfilled Potential"
+ hashmp.12.d:0 "Some whisper in secret that our previous ruler died too young, and had yet to leave their mark on the world. Some say it openly, as is the case with the new pretender to the throne. A close confidant of the last ruler, he intends to ensure that their grand vision comes to fruition. Gathering the support of the people, this young upstart openly challenges the new ruler and the nobility for control of the country."
+ hashmp.12.a:0 "Abdicate, for the good of the nation."
+ hashmp.12.b:0 "Execute this traitor!"
