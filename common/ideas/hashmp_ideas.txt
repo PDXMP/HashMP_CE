@@ -1446,12 +1446,12 @@ PEU_ideas = { #Peru
 
 KZH_ideas = { #Kazakh
 	start = {
-		tolerance_heathen = 3
-		years_of_nationalism = -5
+		discipline = 0.05
+		yearly_tribal_allegiance = 0.5
 	}
 	
 	bonus = {
-		cav_to_inf_ratio = 0.10
+		fire_damage_received = -0.1
 	}
 	
 	trigger = {
@@ -1459,25 +1459,27 @@ KZH_ideas = { #Kazakh
 	}
 	free = yes
 	
-	life_of_steppe_warrior = {
-		land_attrition = -0.20
-	}
-	traditions_of_the_great_khan = {
-		cavalry_power = 0.20
-	}
-	horse_supplies = {
-		land_maintenance_modifier = -0.05
-	}
-	steppe_leaders = {
+	kzh_1 = {
 		leader_land_shock = 1
 	}
-	tradition_of_conquest = {
-		core_creation = -0.2
+	kzh_2 = {
+		province_warscore_cost = -0.1
+		core_creation = -0.1
 	}
-	logistics_of_khan = {
-		#manpower_recovery_speed = 0.2 (effect taken in GLH idea)
+	kzh_3 = {
+		war_exhaustion = -0.02
+		stability_cost_modifier = -0.1
 	}
-	glory_of_conquest = {
+	kzh_4 = {
+		cavalry_power = 0.15
+	}
+	kzh_5 = {
+		legitimacy = 1
+	}
+	kzh_6 = {
+		num_accepted_cultures = 1
+	}
+	kzh_7 = {
 		global_manpower_modifier = 0.2
 	}
 }
