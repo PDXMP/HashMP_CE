@@ -3,6 +3,7 @@ add_government_reform = tribal_federation
 primary_culture = khazak
 religion = sunni
 technology_group = nomad_group
+unit_type = muslim
 historical_rival = SHY
 capital = 476	# Kypshak
 religious_school = hanafi_school
