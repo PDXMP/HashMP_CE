@@ -1147,7 +1147,7 @@ MUG_ideas = {
 		discipline = 0.05
 	}
 	control_of_the_ulema = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.33
 	}
 	mughal_ibadat_khana = {
 		idea_cost = -0.1
@@ -1156,7 +1156,7 @@ MUG_ideas = {
 		free_mil_policy = 1
 	}
 	zabt_system = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.2
 	}
 	mughal_architecture = {
 		build_cost = -0.15
