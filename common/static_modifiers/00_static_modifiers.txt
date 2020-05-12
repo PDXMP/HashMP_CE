@@ -832,7 +832,7 @@ num_of_provinces = {
 
 # Multiplied by Development
 country_development = {
-	yearly_tribal_allegiance = -0.005
+	yearly_tribal_allegiance = -0.004
 }
 
 # Multiplied by Tribal Allegiance / 100
