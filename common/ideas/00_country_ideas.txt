@@ -125,7 +125,7 @@ SWE_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	union_and_security_act = {
-		global_manpower_modifier = 0.1
+		global_manpower_modifier = 0.2
 	}
 }
 
