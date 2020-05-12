@@ -14,7 +14,7 @@ tatar_missions_1 = {
 			tag = BSH
 			tag = AST
 			tag = QAS
-			tag = KZH
+			#tag = KZH
 		}
 		NOT = { map_setup = map_setup_random }
 	}
