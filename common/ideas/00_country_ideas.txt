@@ -5741,7 +5741,7 @@ KHM_ideas = {
 		trade_efficiency = 0.1
 	}
 	khm_european_mercenaries = {
-		possible_mercenaries = 0.33
+		possible_mercenaries = 0.25
 	}
 	khm_restore_angkor = {
 		prestige = 1
