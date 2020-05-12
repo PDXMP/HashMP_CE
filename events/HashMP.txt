@@ -246,7 +246,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Ottoman Ruler Failsafe
 	id = hashmp.7
 	title = hashmp.7.t
 	desc = hashmp.7.d
@@ -342,7 +342,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Poland Ruler Failsafe
 	id = hashmp.8
 	title = hashmp.8.t
 	desc = hashmp.8.d
@@ -607,4 +607,99 @@ country_event = {
 		}
 	}
 	
+}
+
+country_event = { #Ethiopia Ruler Failsafe
+	id = hashmp.12
+	title = hashmp.12.t
+	desc = hashmp.12.d
+	picture = CIVIL_WAR_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ETH
+		NOT = { adm = 6 dip = 5 mil = 5 }
+		NOT = { is_year = 1464 }
+	}
+
+	 immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+					is_in_capital_area = yes
+				}
+				save_event_target_as = hash_eth_pretenders
+			}
+		}
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+				}
+				save_event_target_as = hash_eth_nobles
+			}
+		}
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_capital = no
+				}
+				save_event_target_as = hash_eth_nobles2
+			}
+		}
+	 }
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = hashmp.12.a
+		add_stability = -1
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+		define_ruler = {
+			culture = ROOT
+			religion = ROOT
+			adm = 3
+			dip = 3
+			mil = 3
+			age = 40
+			claim = 50
+		}
+		event_target:hash_eth_nobles = {
+			spawn_rebels = {
+				type = noble_rebels
+				size = 2
+			}
+		}
+		event_target:hash_eth_nobles2 = {
+			spawn_rebels = {
+				type = noble_rebels
+				size = 2
+			}
+		}
+	}
+
+	option = {
+		name = hashmp.12.b
+		add_legitimacy = 20
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		event_target:hash_eth_pretenders = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 2
+			}
+		}
+	}
 }
