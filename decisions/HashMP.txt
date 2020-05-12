@@ -171,6 +171,7 @@ country_decisions = {
 	 	effect = {
 			change_tag = AHU
 			add_prestige = 25
+			set_government_rank = 3
 			AHU = {
 				set_capital = 134 # Wien
 			}
