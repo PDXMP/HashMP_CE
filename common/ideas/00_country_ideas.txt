@@ -12785,7 +12785,7 @@ ADU_ideas = {
 		colonists = 1
 	}
 	adu_al_awasim = {
-		defensiveness = 0.1
+		discipline = 0.05
 		rival_border_fort_maintenance = -0.25
 	}
 }
