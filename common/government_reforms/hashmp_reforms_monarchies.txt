@@ -418,6 +418,7 @@ t7_lp_1 = { #Parliamentarianism
 	icon = "judge"
 	modifiers = {
 		global_unrest = -1
+		max_states = 3
 	}
 	
 	trigger = {
