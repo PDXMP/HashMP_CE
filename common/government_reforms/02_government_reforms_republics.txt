@@ -1064,7 +1064,7 @@ citizenry_reform = {
 	icon = "people_walking"
 	allow_normal_conversion = yes
 	modifiers = {
-		land_morale = 0.1
+		land_morale = 0.075
 	}
 }
 
