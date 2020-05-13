@@ -6,7 +6,7 @@ t5_tp_1 = { #
 	icon = "strength_of_the_khalsa"
 	allow_normal_conversion = yes
 	modifiers = {
-		land_morale = 0.075
+		land_morale = 0.05
 		tolerance_heretic = -1
 		tolerance_heathen = -1
 	}
