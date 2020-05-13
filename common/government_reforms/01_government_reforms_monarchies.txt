@@ -817,6 +817,7 @@ mughal_government = {
 		}
 		sudanese = {
 			caravan_power = 0.33
+			max_states = 2
 		}
 		tartar = {
 			cavalry_cost = -0.15
