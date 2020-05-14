@@ -7,7 +7,7 @@ emergency_impressment_act = {
 	}
 	
 	effect = {
-		add_years_of_sailors_scaled_to_seats = 0.5
+		add_years_of_sailors_scaled_to_seats = 1
 	}
 	
 	chance = {
