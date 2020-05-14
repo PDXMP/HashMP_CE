@@ -4,6 +4,7 @@ emergency_impressment_act = {
 
 	allow = {
 		num_of_ports = 2
+		is_colonial_nation = no
 	}
 	
 	effect = {
