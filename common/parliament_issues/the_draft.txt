@@ -7,7 +7,7 @@ the_draft = {
 	}
 	
 	effect = {
-		add_years_of_manpower_scaled_to_seats = 0.5
+		add_years_of_manpower_scaled_to_seats = 1
 	}
 	
 	chance = {
