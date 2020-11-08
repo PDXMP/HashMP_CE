@@ -2672,6 +2672,13 @@ country_event = {
 		add_stability = -4
 	}
 	option = {
+		name = "religious_events.18.h" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = hussite } }
+		change_religion = hussite
+		add_stability = -4
+	}
+	option = {
 		name = "religious_events.18.f" #
 		ai_chance = { factor = 1 } #AI should pick this if the event somehow triggers despite none of the above being possible.
 	}
@@ -2734,6 +2741,13 @@ country_event = {
 		ai_chance = { factor = 100 }
 		trigger = { any_owned_province = { religion = vajrayana } }
 		change_religion = vajrayana
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.20.b2" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = mahayana } }
+		change_religion = mahayana
 		add_stability = -4
 	}
 	option = {

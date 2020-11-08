@@ -8,6 +8,15 @@ religion = catholic
 capital = 50	# Berlin
 add_army_professionalism = 0.05
 
+change_estate_land_share = {
+	estate = estate_church
+	share = -10
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 10
+}
+
 
 1378.12.9 = { 
 	monarch = {
@@ -178,7 +187,7 @@ add_army_professionalism = 0.05
 	}
 }
 
-1499.1.1 = { leader = {	name = "Casimir"	type = general	rank = 0	fire = 3	shock = 2	manuever = 2	siege = 1	death_date = 1527.9.21 } }
+1499.1.1 = { leader = {	name = "Casimir"	type = general	fire = 3	shock = 2	manuever = 2	siege = 1	death_date = 1527.9.21 } }
 
 1499.1.10 = {
 	monarch = {
@@ -219,7 +228,7 @@ add_army_professionalism = 0.05
 	}
 }
 
-1527.1.1 = { leader = {	name = "Georg von Frundsberg"		type = general	rank = 0	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1528.8.20 } }
+1527.1.1 = { leader = {	name = "Georg von Frundsberg"		type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1528.8.20 } }
 
 1535.7.12 = {
 	monarch = {
@@ -254,14 +263,14 @@ add_army_professionalism = 0.05
 		adm = 2
 		dip = 6
 		mil = 5
-		leader = { name = "Johann Georg I"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 1}
+		leader = { name = "Johann Georg I"	type = general	fire = 2	shock = 3	manuever = 3	siege = 1}
 
 	}
 }
 
 1539.1.1 = { religion = protestant }
 
-1543.1.1 = { leader = {	name = "Albrecht Alcibiades"	type = general	rank = 1	fire = 2	shock = 4	manuever = 3	siege = 1	death_date = 1557.1.8 } }
+1543.1.1 = { leader = {	name = "Albrecht Alcibiades"	type = general	fire = 2	shock = 4	manuever = 3	siege = 1	death_date = 1557.1.8 } }
 
 1571.1.3 = {
 	monarch = {
@@ -271,7 +280,7 @@ add_army_professionalism = 0.05
 		adm = 2
 		dip = 6
 		mil = 3
-		leader = { name = "Johann Georg I"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 1}
+		leader = { name = "Johann Georg I"	type = general	fire = 2	shock = 3	manuever = 3	siege = 1}
 	}
 	queen = {
 		country_of_origin = ANS
@@ -402,7 +411,7 @@ add_army_professionalism = 0.05
 		adm = 5
 		dip = 5
 		mil = 3
-		leader = { name = "Georg Wilhelm I"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0}
+		leader = { name = "Georg Wilhelm I"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0}
 	}
 }
 
@@ -414,7 +423,7 @@ add_army_professionalism = 0.05
 		adm = 5
 		dip = 5
 		mil = 3
-		leader = { name = "Georg Wilhelm I"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0}
+		leader = { name = "Georg Wilhelm I"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0}
 	}
 	queen = {
 		country_of_origin = PAL
@@ -440,7 +449,7 @@ add_army_professionalism = 0.05
 		adm = 4
 		dip = 5
 		mil = 5
-		leader = { name = "Friedrich Wilhelm I"	type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0}
+		leader = { name = "Friedrich Wilhelm I"	type = general	fire = 3	shock = 3	manuever = 2	siege = 0}
 	}
 }
 
@@ -452,11 +461,11 @@ add_army_professionalism = 0.05
 		adm = 4
 		dip = 5
 		mil = 5
-		leader = { name = "Friedrich Wilhelm I"	type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0}
+		leader = { name = "Friedrich Wilhelm I"	type = general	fire = 3	shock = 3	manuever = 2	siege = 0}
 	}
 }
 
-1645.1.1 = { leader = {	name = "Otto von Sparr"		type = general	rank = 2	fire = 3	shock = 2	manuever = 2	siege = 2	death_date = 1668.5.9 } }
+1645.1.1 = { leader = {	name = "Otto von Sparr"		type = general	fire = 3	shock = 2	manuever = 2	siege = 2	death_date = 1668.5.9 } }
 
 1646.12.7 = {
 	queen = {
@@ -474,7 +483,7 @@ add_army_professionalism = 0.05
 
 1650.1.1 = { primary_culture = prussian }
 
-1654.1.1 = { leader = {	name = "Georg von Derfflinger"	type = general	rank = 1	fire = 4	shock = 3	manuever = 3	siege = 2	death_date = 1695.2.14 } }
+1654.1.1 = { leader = {	name = "Georg von Derfflinger"	type = general	fire = 4	shock = 3	manuever = 3	siege = 2	death_date = 1695.2.14 } }
 
 1657.7.11 = {
 	heir = {
@@ -487,7 +496,7 @@ add_army_professionalism = 0.05
 		adm = 6
 		dip = 4
 		mil = 4
-		leader = { name = "Friedrich III"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0}
+		leader = { name = "Friedrich III"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0}
 
 	}
 }
@@ -506,7 +515,7 @@ add_army_professionalism = 0.05
 	}
 }
 
-1670.1.1 = { leader = {	name = "F. von Hessen-Homburg"	type = general	rank = 3	fire = 2	shock = 4	manuever = 3	siege = 2	death_date = 1708.1.24 } }
+1670.1.1 = { leader = {	name = "F. von Hessen-Homburg"	type = general	fire = 2	shock = 4	manuever = 3	siege = 2	death_date = 1708.1.24 } }
 
 1688.5.10 = {
 	monarch = {
@@ -516,7 +525,7 @@ add_army_professionalism = 0.05
 		adm = 6
 		dip = 4
 		mil = 4
-		leader = { name = "Friedrich III"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0}
+		leader = { name = "Friedrich III"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0}
 	}
 	queen = {
 		country_of_origin = HAN
@@ -531,8 +540,9 @@ add_army_professionalism = 0.05
 	}
 }
 
-1688.5.10 = { government = despotic_monarchy }
+1688.5.10 = { government = monarchy
+add_government_reform = autocracy_reform }
 
-1690.1.1 = { leader = {	name = "von Dessau"            	type = general	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 3	death_date = 1747.4.7 } }
+1690.1.1 = { leader = {	name = "von Dessau"            	type = general	fire = 4	shock = 4	manuever = 4	siege = 3	death_date = 1747.4.7 } }
 
 1701.1.18 = { elector = no }

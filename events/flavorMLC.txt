@@ -135,6 +135,7 @@ country_event = {
 
 	trigger = {
 		tag = MLC
+		religion_group = muslim
 		is_year = 1460
 		NOT = { is_year = 1500 }
 	}

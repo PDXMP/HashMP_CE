@@ -23,8 +23,10 @@ france_region = {
 		ile_de_france_area
 		loire_area
 		bourgogne_area
+		west_burgundy_area
 		pyrenees_area
 		poitou_area
+		orleans_area
 	}
 }
 
@@ -45,7 +47,6 @@ scandinavia_region = {
 		laponia_area
 		vastra_gotaland_area
 		ostra_svealand_area
-		iceland_area
 	}
 }
 
@@ -55,8 +56,9 @@ low_countries_region = {
 		wallonia_area
 		flanders_area
 		holland_area
-		netherlands_area
 		frisia_area
+		brabant_area
+		north_brabant_area
 	}
 
 }
@@ -75,30 +77,36 @@ italy_region = {
 		apulia_area
 		emilia_romagna_area
 		central_italy_area
+		lazio_area
+		po_valley_area
+		western_sicily_area
 	}
 }
 
 
 north_german_region = {
 	areas = { 
-		#erzgebirge_area
+		erzgebirge_area
 		south_saxony_area
 		northern_saxony_area
 		thuringia_area
 		neumark_area
 		mittelmark_area
 		vorpommern_area
-		#bohemia_area
+		bohemia_area
+		moravia_area
 		hinter_pommern_area
 		north_rhine_area
 		lower_rhineland_area
 		westphalia_area
+		north_westphalia_area
 		hesse_area
 		lower_saxony_area
 		weser_area
 		holstein_area
 		mecklenburg_area
 		braunschweig_area
+		lusatia_area
 	}
 }
 
@@ -114,15 +122,15 @@ south_german_region = {
 		switzerland_area
 		lower_bavaria_area
 		upper_bavaria_area
+		east_bavaria_area
 		franconia_area
+		upper_franconia_area
 		lower_swabia_area
 		upper_swabia_area
 		upper_rhineland_area
 		romandie_area
 		palatinate_area
-		#from north germany
-		bohemia_area
-		erzgebirge_area
+		alsace_area
 	}
 }
 
@@ -178,6 +186,7 @@ iberia_region = {
 		basque_country
 		galicia_area
 		baleares_area
+		extremadura_area
 	}
 }
 
@@ -269,6 +278,8 @@ balkan_region = {
 		morea_area
 		thrace_area
 		albania_area
+		silistria_area
+		slavonia_area
 	}
 }
 
@@ -316,6 +327,7 @@ maghreb_region = {
 		western_morocco_area
 		tripolitania_area
 		barbary_coast_area
+		macaronesia_area
 	}
 }
 
@@ -448,7 +460,6 @@ guinea_region = {
 		west_africa_coast_area
 		jolof_area
 		sao_tome_area
-		macaronesia_area
 	}
 	monsoon = {
 		00.06.01
@@ -459,11 +470,11 @@ guinea_region = {
 
 sahel_region = {
 	areas = {
-		#darfur_central_sahara_area
+		darfur_central_sahara_area
 		kanem_area
 		bornu_area
 		azbin_area
-		#kurdufan_area
+		kurdufan_area
 		western_sahara_area
 		dendi_area
 		baghena_area
@@ -495,9 +506,6 @@ horn_of_africa_region = {
 		damot_area
 		aussa_area
 		shewa_area
-		#from sahel
-		kurdufan_area
-		darfur_central_sahara_area
 	}
 }
 
@@ -599,6 +607,7 @@ south_africa_region = {
 		quelimane_area
 		butua_area
 		limpopo_area
+		transvaal_area
 	}
 	monsoon = {
 		00.11.01
@@ -650,10 +659,6 @@ mongolia_region = {
 		xilin_gol_area
 		chahar_area
 		cicigar_area
-		ulanqab_area
-		ejin_area
-		alxa_area
-		chifeng_area
 	}
 }
 
@@ -669,8 +674,6 @@ manchuria_region = {
 		central_heilongjiang_area
 		sakhalin_area
 		furdan_area
-		dalian_area
-		shenyang_area
 	}
 }
 

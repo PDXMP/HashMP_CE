@@ -492,7 +492,7 @@ h_orm_missions = {
 			}
 		}
 		effect = {
-			add_army_tradition = 10
+			add_army_tradition = 20
 			mecca_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
@@ -967,7 +967,7 @@ h_khm_missions = {
 		trigger = {
 			609 = {
 				NOT = { unrest = 1 }
-				NOT = { local_autonomy = 50 }
+				NOT = { local_autonomy = 20 }
 			}
 		}
 		effect = {

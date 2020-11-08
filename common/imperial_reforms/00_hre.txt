@@ -1,5 +1,8 @@
 reichsreform = {
 	empire = hre
+	potential = {
+		NOT = { has_dlc = "Emperor" }
+	}
 	member = {
 		global_tax_income = 6
 		global_autonomy = -0.025
@@ -15,10 +18,14 @@ reichsreform = {
 	off_effect = {
 		imperial_ban_allowed = yes
 	}
+	gui_container = nodlc
 }
 
 reichsregiment = {
 	empire = hre
+	potential = {
+		NOT = { has_dlc = "Emperor" }
+	}
 	member = {
 		global_unrest = -2
 		adm_tech_cost_modifier = -0.05
@@ -28,10 +35,15 @@ reichsregiment = {
 		adm_tech_cost_modifier = -0.05
 		global_manpower = 4
 	}
+	required_reform = reichsreform
+	gui_container = nodlc
 }
 
 hofgericht = { 
 	empire = hre
+	potential = {
+		NOT = { has_dlc = "Emperor" }
+	}
 	member = {
 		global_tax_modifier = 0.075
 		build_cost = -0.075
@@ -41,10 +53,15 @@ hofgericht = {
 		build_cost = -0.1
 		global_manpower = 4
 	}
+	required_reform = reichsregiment
+	gui_container = nodlc
 }
 
 gemeinerpfennig = {
 	empire = hre
+	potential = {
+		NOT = { has_dlc = "Emperor" }
+	}
 	member = {
 		global_tax_income = 12
 		legitimacy = 0.5
@@ -56,10 +73,15 @@ gemeinerpfennig = {
 		republican_tradition = 0.1
 		global_manpower = 4
 	}
+	required_reform = hofgericht
+	gui_container = nodlc
 }
 
 landfriede = {
 	empire = hre
+	potential = {
+		NOT = { has_dlc = "Emperor" }
+	}
 	member = {
 		army_tradition = 0.5
 		prestige = 0.5
@@ -75,10 +97,15 @@ landfriede = {
 	off_effect = {
 		internal_hre_cb = yes
 	}
+	required_reform = gemeinerpfennig
+	gui_container = nodlc
 }
 
 erbkaisertum = {
 	empire = hre
+	potential = {
+		NOT = { has_dlc = "Emperor" }
+	}
 	member = {
 		development_cost = -0.075
 	}
@@ -100,12 +127,16 @@ erbkaisertum = {
 	off_effect = {
 		hre_inheritable = no
 	}
+	required_reform = landfriede
+	gui_container = nodlc
 }
 
 privilegia_de_non_appelando = {
 	empire = hre
 #	war = yes			#this may cause a war, so special AI check needed, to not lose many.
-	
+	potential = {
+		NOT = { has_dlc = "Emperor" }
+	}
 	member = {
 		infantry_power = 0.075
 		land_morale = 0.05
@@ -132,23 +163,29 @@ privilegia_de_non_appelando = {
 #				country_event = { id = 9074 }
 #			}
 #		}
-#	}	
+#	}
+	required_reform = erbkaisertum
+	gui_container = nodlc
 }
 
-#renovatio = {
-#	empire = hre
-#
-#	member = {
-#		infantry_power = 0.10
-#		land_morale = 0.05
-#	}
-#	emperor = {
-#		infantry_power = 0.10
-#		land_morale = 0.05
-#	}
+renovatio = {
+	empire = hre
+	potential = {
+		NOT = { has_dlc = "Emperor" }
+	}
+	member = {
+		infantry_power = 0.10
+		land_morale = 0.05
+	}
+	emperor = {
+		infantry_power = 0.10
+		land_morale = 0.05
+	}
 #	on_effect = {
 #		emperor = {
 #			country_event = { id = 9075 tooltip = renovatio_effect }
 #		}
 #	}
-#}
+	required_reform = privilegia_de_non_appelando
+	gui_container = nodlc
+}

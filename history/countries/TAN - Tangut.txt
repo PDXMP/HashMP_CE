@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = nomad_group
 religion = vajrayana
 primary_culture = mongol #ganyu
-capital = 4819 #Alxa
+capital = 4915 #Alxa

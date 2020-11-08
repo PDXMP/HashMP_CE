@@ -64,7 +64,7 @@ great_mongol_state_reform = {
 		horde_unity = 2.0
 		global_manpower_modifier = 0.33
 		land_forcelimit_modifier = 0.33
-		max_states = 10
+		governing_capacity = 500
 		loot_amount = 1.0
 		reinforce_cost_modifier = -0.33
 		cav_to_inf_ratio = 0.3
@@ -196,6 +196,43 @@ centralize_tribal_power_reform = {
 	modifiers = {
 		core_creation = -0.05
 		stability_cost_modifier = -0.05
+	}
+}
+
+#horde_barbaric_despoilers_reform = {
+#	icon = "rioting_burning_2"
+#	allow_normal_conversion = yes
+#	potential = {
+#		OR = {
+#			has_reform = steppe_horde
+#			has_reform = great_mongol_state_reform
+#		}
+#		has_dlc = "The Cossacks"
+#	}
+#	modifiers = {
+#		raze_power_gain = 0.33
+#		
+#	}
+#	ai = {
+#		factor = 2
+#	}
+#}
+
+horde_tribal_unity_reform = {
+	icon = "fist_in_air"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_reform = steppe_horde
+			has_reform = great_mongol_state_reform
+		}
+		has_dlc = "The Cossacks"
+	}
+	modifiers = {
+		horde_unity = 2
+	}
+	ai = {
+		factor = 2
 	}
 }
 

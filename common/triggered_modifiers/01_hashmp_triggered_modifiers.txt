@@ -84,7 +84,7 @@ t_player_cn = {
 	}
 	naval_forcelimit_modifier = -0.5
 	land_forcelimit_modifier = -0.25
-	possible_mercenaries = -1.0
+	mercenary_manpower = -1.0
 	development_cost = 0.5
 	manpower_recovery_speed = -0.33
 	sailors_recovery_speed = -0.33
@@ -103,7 +103,7 @@ t_player_dominion = {
 		}
 	}
 	naval_forcelimit_modifier = -0.25
-	possible_mercenaries = -0.5
+	mercenary_manpower = -0.5
 	development_cost = 0.25
 	manpower_recovery_speed = -0.33
 	sailors_recovery_speed = -0.33
@@ -290,7 +290,7 @@ t_hre_elector_1 = {
 		is_elector = yes
 		is_emperor = no
 		NOT = {
-			hre_reform_level = 3
+			hre_reform_passed = emperor_reichsstabilitaet
 		}
 		NOT = {
 			total_development = 500
@@ -312,9 +312,9 @@ t_hre_elector_2 = {
 	trigger = {
 		is_elector = yes
 		is_emperor = no
-		hre_reform_level = 3
+		hre_reform_passed = emperor_reichsstabilitaet
 		NOT = {
-			hre_reform_level = 5
+			hre_reform_passed = emperor_perpetual_diet
 		}
 		NOT = {
 			total_development = 500
@@ -336,7 +336,7 @@ t_hre_elector_3 = {
 	trigger = {
 		is_elector = yes
 		is_emperor = no
-		hre_reform_level = 5
+		hre_reform_passed = emperor_perpetual_diet
 		NOT = {
 			total_development = 500
 		}

@@ -75,7 +75,7 @@ add_army_professionalism = 0.1
 		#leader = { name = "Philippe III"   	type = general	fire = 3	shock = 3	manuever = 3	siege = 1 }
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = calm_personality
+	add_ruler_personality = careful_personality
 	add_ruler_personality = well_connected_personality
 	add_heir_personality = bold_fighter_personality
 }

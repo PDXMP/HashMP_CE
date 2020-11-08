@@ -4,5 +4,5 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = cantonese #ganyu
-capital = 4725
-fixed_capital = 4725
+capital = 4821
+fixed_capital = 4821

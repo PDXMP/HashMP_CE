@@ -4,7 +4,7 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = cantonese
-capital = 4826	#Suijiang
+capital = 4922 #Suijiang
 
 1662.1.1 = {
 	monarch = {

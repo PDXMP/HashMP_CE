@@ -225,6 +225,10 @@ shinto_rebels = {
 				influence = 15
 			}
 		}
+		change_estate_land_share = {
+			estate = estate_church
+			share = 10.0
+		}
 	}
 }
 

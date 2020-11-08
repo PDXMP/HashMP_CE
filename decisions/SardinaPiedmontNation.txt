@@ -46,7 +46,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			1297 = { # Genua
+			1298 = { # Genua
 				is_strongest_trade_power = ROOT
 			}
 			owns_core_province = 102		# Nice

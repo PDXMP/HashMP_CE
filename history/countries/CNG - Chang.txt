@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = chinese
 religion = buddhism
 primary_culture = hubei #ganyu
-capital = 4798 #Yuxi
+capital = 4894 #Yuxi

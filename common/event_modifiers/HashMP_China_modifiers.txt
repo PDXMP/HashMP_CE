@@ -43,7 +43,7 @@ h_csh_anc1_3 = {
 
 h_csh_anc2_1 = {
 	global_unrest = -1
-	max_states = 3
+	governing_capacity = 150
 }
 
 h_csh_anc2_2 = {

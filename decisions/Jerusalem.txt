@@ -14,10 +14,6 @@ country_decisions = {
 			NOT = { government = republic }
 			NOT = { has_reform = celestial_empire }
 			OR = {
-				tag = KNI
-				tag = CYP
-			}
-			OR = {
 				owns = 379
 				AND = {
 					ai = no
@@ -109,10 +105,18 @@ country_decisions = {
 				change_religion = catholic
 				if = {
 					limit = {
-						NOT = { government = monarchy }
+						NOT = { government = theocracy }
 					}
-					change_government = monarchy
-					set_legacy_government = feudal_monarchy
+					change_government_to_monarchy = yes
+					add_government_reform = holy_state_reform
+					#set_legacy_government = holy_state_legacy
+				}
+				else_if = {
+					limit = {
+						government = theocracy
+					}
+					add_government_reform = holy_state_reform
+					#set_legacy_government = holy_state_theocracy
 				}
 				if = {
 					limit = {
@@ -121,6 +125,7 @@ country_decisions = {
 					set_government_rank = 2
 				}
 				set_country_flag = formed_jerusalem
+				swap_non_generic_missions = yes
 			}
 		}
 		ai_will_do = {

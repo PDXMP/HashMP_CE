@@ -72,6 +72,7 @@ technology = { #Basic Financial Instruments
 	naval_maintenance		=	0.1	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
+	coastal_defence = yes
 }
 
 technology = { #Shipyards
@@ -89,7 +90,7 @@ technology = { #Naval Ambitions
 	
 	naval_morale			=	0.3
 	range					= 	115
-	
+	impressment_offices 	= yes
 }
 
 technology  = { #Docks
@@ -144,6 +145,7 @@ technology = { #Man of War
 	naval_morale			=	0.4
 	may_slander_merchants = yes
 
+	naval_battery = yes
 	
 }
 

@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = austrian_archduchy_reform
 government_rank = 1
 primary_culture = austrian
 religion = catholic
@@ -12,6 +12,7 @@ historical_rival = TUR
 historical_rival = FRA
 national_focus = ADM
 
+add_accepted_culture = slovene
 1395.8.29 = {
 	monarch = {
 		name = "Albrecht IV"

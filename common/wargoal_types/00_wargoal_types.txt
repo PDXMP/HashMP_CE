@@ -147,6 +147,7 @@ superiority_revolution = {
 			po_change_religion
 			po_gold
 			po_annul_treaties
+			po_spread_revolution
 		}
 	}
 	
@@ -212,6 +213,7 @@ take_capital_revolution = {
 			po_gold
 			po_concede_defeat
 			po_annul_treaties
+			po_spread_revolution
 		}
 	}
 }
@@ -533,19 +535,34 @@ take_capital_claim = {
 take_claim = {
 	type = take_province
 	
-	badboy_factor = 1.0
-	prestige_factor = 1
-	peace_cost_factor = 1.0	
-	
-	allowed_provinces = {
-		is_claim = ROOT
+	attacker = {
+		badboy_factor = 1.0
+		prestige_factor = 1
+		peace_cost_factor = 1.0	
+		allowed_provinces = {
+			is_claim = ROOT
+		}
+		peace_options = {
+			po_demand_provinces
+		}
+		prov_desc = ALL_CLAIMS
 	}
 	
-	peace_options = {
-		po_demand_provinces
+	defender = {
+		badboy_factor = 1.0
+		prestige_factor = 1
+		peace_cost_factor = 1.0	
+		allowed_provinces = {
+			OR = {
+				is_claim = FROM
+				is_core = FROM
+			}
+		}
+		peace_options = {
+			po_demand_provinces
+		}
+		prov_desc = ALL_CLAIMS
 	}
-	
-	prov_desc = ALL_CLAIMS
 	war_name = CLAIM_WAR_NAME
 }
 
@@ -828,6 +845,49 @@ superiority_liberation = {
 	war_name = LIBERATION_WAR_NAME	
 }
 
+superiority_world_crusade = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 0.75
+		prestige_factor = 2
+		peace_cost_factor = 0.75
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		peace_options = {
+			po_demand_provinces
+			po_change_religion
+			po_release_vassals
+		}
+		
+		country_desc = ALL_INFIDELS
+		prov_desc = ALL_PROVS
+	}
+	
+	defender = {
+		badboy_factor = 0.75
+		prestige_factor = 2
+		peace_cost_factor = 0.75
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		peace_options = {
+			po_demand_provinces
+			po_release_vassals
+		}
+		
+		country_desc = ALL_INFIDELS
+		prov_desc = ALL_PROVS
+	}	
+	
+	war_name = WORLD_CRUSADE_WAR_NAME	
+}
+
 superiority_crusade = {
 	type = superiority
 	
@@ -1034,7 +1094,6 @@ take_province_ban = {
 	peace_options = {
 		po_release_vassals
 		po_release_annexed
-		po_return_cores
 		po_return_cores
 		po_demand_provinces
 	}
@@ -1330,6 +1389,32 @@ war_goal_change_government = {
 	peace_options = {
 		po_change_government
 		po_demand_provinces
+		force_peasant_republic
+	}
+	
+	war_name = CHANGE_GOVERNMENT_WAR_NAME
+}
+
+war_goal_peasants_change_government = {
+	type = take_capital
+	
+	badboy_factor = 0.75
+	prestige_factor = 1
+	peace_cost_factor = 1.0	
+	
+	allowed_provinces = {
+		OR = {
+			is_core = ROOT
+			is_claim = ROOT
+			any_neighbor_province = {
+				owned_by = ROOT
+			}
+		}
+	}
+
+	peace_options = {
+		po_demand_provinces
+		force_peasant_republic
 	}
 	
 	war_name = CHANGE_GOVERNMENT_WAR_NAME
@@ -1618,4 +1703,61 @@ take_capital_force_tributary = {
 	}
 	
 	war_name = TRIBUTARY_MISSION_WAR_NAME
+}
+
+take_capital_force_join_hre = {
+	type = take_capital
+
+	prestige_factor = 0.25
+
+	attacker = {
+		badboy_factor = 1.0
+		peace_options = {
+			po_join_empire
+		}
+	}
+
+	defender = {
+		badboy_factor = 1.0
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+
+	war_name = FORCE_JOIN_HRE_WAR_NAME
+}
+
+superiority_reichskrieg = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 1.0
+		prestige_factor = 0.75
+		peace_cost_factor = 1.0	
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		peace_options = {
+			po_demand_provinces
+			po_join_empire
+		}
+	}
+	
+	defender = {
+		badboy_factor = 0.75
+		prestige_factor = 1.25
+		peace_cost_factor = 1.0	
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		peace_options = {
+			po_demand_provinces
+		}
+	}	
+	
+	war_name = REICHSKRIEG_WAR_NAME	
 }

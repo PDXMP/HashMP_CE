@@ -1,8 +1,8 @@
 #666 - Hainan
 
-owner = CLI
-controller = CLI
-add_core = CLI
+owner = LIC
+controller = LIC
+add_core = LIC
 culture = cantonese
 religion = confucianism
 capital = "Haikou"

@@ -114,7 +114,7 @@ t2_lp_ind1 = { #Dakhni Cultural Reforms
 	}
 	modifiers = {
 		state_maintenance_modifier = -0.2
-		max_states = 3
+		governing_capacity = 150
 	}
 }
 
@@ -132,6 +132,7 @@ t3_np_1 = { #Border Militias
 			has_reform = t2_np_1
 			has_reform = t2_np_2
 			has_reform = mughal_government
+			has_reform = black_army_reform
 		}
 	}
 	modifiers = {
@@ -147,6 +148,7 @@ t3_np_2 = { #Well-Advised Army
 			has_reform = t2_np_1
 			has_reform = t2_np_2
 			has_reform = mughal_government
+			has_reform = black_army_reform
 		}
 	}
 	modifiers = {
@@ -182,6 +184,7 @@ t3_lp_1 = { #Centralized Bureaucracy
 			has_reform = t2_lp_1
 			has_reform = t2_lp_2
 			has_reform = mughal_government
+			has_reform = black_army_reform
 		}
 	}
 	modifiers = {
@@ -197,6 +200,7 @@ t3_lp_2 = { #Meritocratic Recruitment
 			has_reform = t2_lp_1
 			has_reform = t2_lp_2
 			has_reform = mughal_government
+			has_reform = black_army_reform
 		}
 	}
 	modifiers = {

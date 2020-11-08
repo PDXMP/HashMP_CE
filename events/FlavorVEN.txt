@@ -332,9 +332,12 @@ country_event = {
 		tag = VEN
 		has_country_modifier = ven_venetian_first
 		exists = PAP
-		OR = { 
-			owns = 114
+		OR = {
 			owns = 116
+			owns = 2976
+			owns = 2977
+			owns = 2978
+			owns = 4730
 			owns = 119
 			owns = 115
 			owns = 117
@@ -370,6 +373,7 @@ country_event = {
 		name = flavor_ven.12.a
 		VEN = {
 			every_owned_province = {
+				limit = { region = italy_region }
 				add_claim = ROOT
 			}
 		}
@@ -387,7 +391,7 @@ country_event = {
 		tag = VEN
 		exists = MAM
 		exists = POR
-		1331 = { # Gulf of Aden
+		4346 = { # Gulf of Aden
 			is_strongest_trade_power = POR
 		}
 		358 = { # Alexandria
@@ -430,7 +434,7 @@ country_event = {
 	
 	option = {		
 		name = flavor_ven.14.a
-		1331 = {
+		4346 = {
 			add_trade_modifier = {
 				who = root
 				duration = 3650
@@ -671,7 +675,11 @@ country_event = {
 		modifier =  {
 			factor = 0.5
 			has_country_modifier = ven_venetian_first
-		}		
+		}
+		modifier = {
+			factor = 5
+			has_country_flag = has_competent_doctors
+		}
 	}	
 	option = {	
 		name = flavor_ven.20.a

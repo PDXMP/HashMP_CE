@@ -33,7 +33,7 @@ h_reform_dominion = {
 	}
 	modifiers = {
 		max_absolutism = -50
-		max_states = 5
+		governing_capacity = 250
 	}
 
 	custom_attributes = {
@@ -75,7 +75,7 @@ h_reform_commandery = {
 		global_tax_income = 60
 		land_forcelimit = 20
 		global_manpower = 20
-		max_states = -10
+		governing_capacity = -500
 		possible_condottieri = -10.0
 	}
 
@@ -307,7 +307,7 @@ h_reform_citystate = {
 	}
 	modifiers = {
 		ae_impact = 0.1
-		max_states = -5
+		governing_capacity = -250
 		diplomatic_upkeep = -1
 	}
 

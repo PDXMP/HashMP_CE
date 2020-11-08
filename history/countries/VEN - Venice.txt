@@ -1,6 +1,6 @@
 government = republic
-add_government_reform = oligarchy_reform
-mercantilism = 10
+add_government_reform = venice_merchants_reform
+mercantilism = 25
 primary_culture = venetian
 religion = catholic
 elector = yes

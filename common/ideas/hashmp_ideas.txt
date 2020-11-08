@@ -204,7 +204,7 @@ WUU_ideas = { #Wu
 		development_cost = -0.1
 	}
 	WUU_4 = {
-		possible_mercenaries = 0.33
+		mercenary_manpower = 0.33
 	}
 	WUU_5 = {
 		ship_durability = 0.05
@@ -332,7 +332,7 @@ CXI_ideas = { #Xi
 		production_efficiency = 0.15
 	}
 	CXI_7 = {
-		max_states = 3
+		governing_capacity = 150
 		administrative_efficiency = 0.05
 	}
 }
@@ -486,7 +486,7 @@ GER_ideas = { #German Empire
 	}
 	ger_2 = { #Siegerkranz
 		administrative_efficiency = 0.05
-		max_states = 5
+		governing_capacity = 250
 	}
 	ger_3 = { #Generalstab
 		army_tradition_decay = -0.01
@@ -506,43 +506,43 @@ GER_ideas = { #German Empire
 	}
 }
 
-BRA_ideas = {
-	start = {
-		army_tradition = 0.5
-		diplomatic_reputation = 1
-	}
-	
-	bonus = {
-		development_cost = -0.05
-	}
-	
-	trigger = {
-		tag = BRA
-	}
-	free = yes		#will be added at load.
-	
-	bra_1 = {
-		global_tax_modifier = 0.1
-	}
-	bra_2 = {
-		stability_cost_modifier = -0.1
-	}
-	bra_3 = {
-		land_morale = 0.10
-	}
-	bra_4 = {
-		army_tradition_decay = -0.01
-	}
-	bra_5 = {
-		infantry_power = 0.10
-	}
-	bra_6 = {
-		global_regiment_recruit_speed = -0.15
-	}
-	bra_7 = {
-		tolerance_heretic = 2
-	}
-}
+#BRA_ideas = {
+#	start = {
+#		army_tradition = 0.5
+#		diplomatic_reputation = 1
+#	}
+#	
+#	bonus = {
+#		development_cost = -0.05
+#	}
+#	
+#	trigger = {
+#		tag = BRA
+#	}
+#	free = yes		#will be added at load.
+#	
+#	bra_1 = {
+#		global_tax_modifier = 0.1
+#	}
+#	bra_2 = {
+#		stability_cost_modifier = -0.1
+#	}
+#	bra_3 = {
+#		land_morale = 0.10
+#	}
+#	bra_4 = {
+#		army_tradition_decay = -0.01
+#	}
+#	bra_5 = {
+#		infantry_power = 0.10
+#	}
+#	bra_6 = {
+#		global_regiment_recruit_speed = -0.15
+#	}
+#	bra_7 = {
+#		tolerance_heretic = 2
+#	}
+#}
 
 ###########################################
 # Formable CN Ideas
@@ -820,7 +820,7 @@ CAL_ideas = { #California
 	}
 	cal_3 = { #Outlaw Country
 		mercenary_discipline = 0.05
-		possible_mercenaries = 0.25
+		mercenary_manpower = 0.25
 	}
 	cal_4 = { #City of Angels
 		advisor_cost = -0.1
@@ -1276,7 +1276,7 @@ LOU_ideas = { #Louisiana
 		build_time = -0.25
 	}
 	lou_7 = { #Soldiers of Fortune
-		possible_mercenaries = 0.25
+		mercenary_manpower = 0.25
 		mercenary_discipline = 0.05
 	}
 }
