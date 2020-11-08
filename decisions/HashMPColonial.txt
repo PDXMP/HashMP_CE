@@ -1480,5 +1480,74 @@ country_decisions = {
 			factor = 0
 		}
 	}
+	
+#1.30 NEW
+	
+	h_form_alaska = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = became_dominion }
+			was_never_end_game_tag_trigger = yes
+			is_colonial_nation = yes
+			colonial_california = {
+				owned_by = ROOT
+			}
+		}
+		allow = {
+			is_at_war = no
+			colonial_california = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			colonial_parent = {
+				has_country_flag = h_ala_enabled
+			}
+			NOT = { exists = ALA }
+		}
+		effect  = {
+			change_tag = ALA
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_government_reform = h_reform_dominion
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = became_dominion
+			clr_country_flag = h_california_dominion_request
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	h_enable_alaska = {
+		major = yes
+		potential = {
+			any_subject_country = {
+				has_country_flag = h_california_dominion_request
+			}
+			NOT = { has_country_flag = h_ala_enabled }
+		}
+		allow = {
+			any_subject_country = {
+				has_country_flag = h_california_dominion_request
+			}
+		}
+		effect  = {
+			set_country_flag = h_ala_enabled
+			any_subject_country = {
+				clr_country_flag = h_california_dominion_request
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 
 }
