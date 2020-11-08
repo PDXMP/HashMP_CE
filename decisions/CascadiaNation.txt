@@ -91,7 +91,7 @@
 #				}
 #				add_permanent_claim = CSC
 #			}
-#			
+#
 #			if = {
 #				limit = {
 #					culture_group = iberian
