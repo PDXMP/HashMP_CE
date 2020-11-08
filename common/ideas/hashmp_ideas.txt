@@ -466,45 +466,45 @@ ARB_ideas = { #Arabian Empire
 	}
 }
 
-GER_ideas = { #German Empire
-	start = {
-		global_manpower_modifier = 0.25
-		infantry_power = 0.20
-	}
-	
-	bonus = {
-		discipline = 0.05
-	}
-	
-	trigger = {
-		tag = GER
-	}
-	free = yes
-	
-	ger_1 = { #Zunft
-		global_trade_goods_size_modifier = 0.1
-	}
-	ger_2 = { #Siegerkranz
-		administrative_efficiency = 0.05
-		governing_capacity = 250
-	}
-	ger_3 = { #Generalstab
-		army_tradition_decay = -0.01
-	}
-	ger_4 = { #Prussian Spirit
-		land_morale = 0.20
-		naval_morale = 0.10
-	}
-	ger_5 = { #Polizeiordnung
-		global_unrest = -2
-	}
-	ger_6 = { #Thurn und Taxis
-		development_cost = -0.10
-	}
-	ger_7 = { #Imperium
-		prestige = 1
-	}
-}
+#GER_ideas = { #German Empire - Superceded by 1.30 Germany Ideas
+#	start = {
+#		global_manpower_modifier = 0.25
+#		infantry_power = 0.20
+#	}
+#	
+#	bonus = {
+#		discipline = 0.05
+#	}
+#	
+#	trigger = {
+#		tag = GER
+#	}
+#	free = yes
+#	
+#	ger_1 = { #Zunft
+#		global_trade_goods_size_modifier = 0.1
+#	}
+#	ger_2 = { #Siegerkranz
+#		administrative_efficiency = 0.05
+#		governing_capacity = 250
+#	}
+#	ger_3 = { #Generalstab
+#		army_tradition_decay = -0.01
+#	}
+#	ger_4 = { #Prussian Spirit
+#		land_morale = 0.20
+#		naval_morale = 0.10
+#	}
+#	ger_5 = { #Polizeiordnung
+#		global_unrest = -2
+#	}
+#	ger_6 = { #Thurn und Taxis
+#		development_cost = -0.10
+#	}
+#	ger_7 = { #Imperium
+#		prestige = 1
+#	}
+#}
 
 #BRA_ideas = {
 #	start = {

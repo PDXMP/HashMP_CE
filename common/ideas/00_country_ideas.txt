@@ -41,6 +41,47 @@ HLR_ideas = {
 		governing_capacity_modifier = 0.1
 	}
 }
+
+GER_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		infantry_power = 0.20
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}	
+
+	trigger = {
+		tag = GER
+	}
+	free = yes
+	
+	ger_german_confederation = {
+		global_unrest = -2
+	}
+	ger_german_universities = {
+		prestige = 1
+	}
+	ger_reichsheer = {
+		land_morale = 0.20
+		naval_morale = 0.10
+	}
+	ger_new_hanseatics = {
+		development_cost = -0.10
+	}
+	ger_junkers = {
+		army_tradition_decay = -0.01
+	}
+	ger_reichstag = {
+		administrative_efficiency = 0.05
+		governing_capacity = 250
+	}
+	ger_eisen_und_kohle = {
+		global_trade_goods_size_modifier = 0.1
+	}
+}
+
 ENG_ideas = {
 	start = {
 		infantry_power = 0.10 # agincourt
