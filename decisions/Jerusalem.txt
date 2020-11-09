@@ -52,6 +52,18 @@ country_decisions = {
 			379 = {
 				is_state = yes
 			}
+			if = {
+				limit = {
+					OR = {
+						tag = KNI
+						tag = CYP
+						tag = PRO
+						has_mission = EMP_crusader_antioch
+					}
+					was_never_end_game_tag_trigger = yes
+				}
+				is_emperor = no
+			}
 		}
 		effect = {
 			add_prestige = 25
@@ -74,6 +86,9 @@ country_decisions = {
 							NOT = { tag = KNI }
 							NOT = { tag = CYP }
 							NOT = { tag = PRO }
+							NOT = { has_mission = EMP_crusader_antioch }
+							NOT = { capital_scope = { region = arabia_region } }
+							NOT = { capital_scope = { region = egypt_region } }
 						}
 						was_never_end_game_tag_trigger = no
 					}
@@ -87,8 +102,17 @@ country_decisions = {
 						tag = KNI
 						tag = CYP
 						tag = PRO
+						has_mission = EMP_crusader_antioch
+						capital_scope = { region = arabia_region }
+						capital_scope = { region = egypt_region }
 					}
 					was_never_end_game_tag_trigger = yes
+				}
+				if = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
 				}
 				change_tag = KOJ
 				if = {
