@@ -107,23 +107,8 @@ country_decisions = {
 			low_countries_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
-					NOT = { province_id = 87 }
-					NOT = { province_id = 181 }
-				}
-				add_permanent_claim = NED
-			}
-			wallonia_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			picardy_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					NOT = {
-						province_id = 89
-					}
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { province_id = 1931 }
 				}
 				add_permanent_claim = NED
 			}
