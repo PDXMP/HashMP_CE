@@ -17,6 +17,10 @@ country_decisions = {
 				NOT = { exists = CRO}
 				ai = no
 			}
+			#OR = {
+			#	primary_culture = croatian
+			#	primary_culture = dalmatian
+			#}
 			tag = RAG
 			OR = {
 				ai = no
@@ -36,29 +40,64 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 131			# Zagreb
-				province_id = 136			# Dalmatia
-				province_id = 137			# Ragusa
-				province_id = 152			# Varasd
-				province_id = 1767			# Slavonia
-				province_id = 1826			# Lika
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
+				AND = {
+					OR = {
+						province_id = 131			# Zagreb
+						province_id = 137			# Ragusa
+					}
+					ROOT = {
+						NOT = { owns_core_province = 131 }
+						NOT = { owns_core_province = 137 }
+					}
+				}
+				AND = {
+					OR = {
+						culture = croatian
+						culture = dalmatian
+					}
+					continent = europe
+					OR = {
+						NOT = { is_core = root }
+						NOT = { owned_by = root }
+					}
+					ROOT = {
+						NOT = {
+							num_of_owned_provinces_with = {
+								value = 6
+								OR = {
+									culture = croatian
+									culture = dalmatian
+								}
+								is_core = root
+								continent = europe
+							}
+						}
+						OR = {
+							owns_core_province = 131
+							owns_core_province = 137
+						}
+					}
+				}
 			}
 		}
 		allow = {
-			NOT = { exists = CRO}
+			NOT = { exists = CRO }
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
-			is_at_war = no			
-			owns_core_province = 131			# Zagreb
-			owns_core_province = 136			# Dalmatia
-			owns_core_province = 137			# Ragusa
-			owns_core_province = 152			# Varasd
-			owns_core_province = 1767			# Slavonia
-			owns_core_province = 1826			# Lika
+			is_at_war = no
+			OR = {
+				owns_core_province = 131			# Zagreb
+				owns_core_province = 137			# Ragusa
+			}
+			num_of_owned_provinces_with = {
+				value = 6
+				OR = {
+					culture = croatian
+					culture = dalmatian
+				}
+				is_core = root
+				continent = europe
+			}
 		}
 		effect = {
 			add_prestige = 25
@@ -66,25 +105,48 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = CRO
+			swap_non_generic_missions = yes
 			if = {
 				limit = {
 					NOT = { government_rank = 2 }
 				}
 				set_government_rank = 2
 			}
+			if = {
+				limit = {
+					NOT = { primary_culture = croatian }
+					NOT = { accepted_culture = croatian }
+				}
+				add_accepted_culture = croatian
+			}
+			if = {
+				limit = {
+					NOT = { primary_culture = dalmatian }
+					NOT = { accepted_culture = dalmatian }
+				}
+				add_accepted_culture = dalmatian
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			croatia_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = CRO
-			}
 			east_adriatic_coast_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = CRO
+			}
+			every_province = {
+				limit = {
+					OR = {
+						culture = croatian
+						culture = dalmatian
+					}
+					continent = europe
+					NOT = { owned_by = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { area = east_adriatic_coast_area }
 				}
 				add_permanent_claim = CRO
 			}
@@ -92,8 +154,8 @@ country_decisions = {
 				limit = {
 					government = republic
 				}
-				change_government = monarchy
-				set_legacy_government = feudal_monarchy
+				change_government_to_monarchy = yes
+				#set_legacy_government = feudal_monarchy
 			}
 			if = {
 				limit = { has_custom_ideas = no }
