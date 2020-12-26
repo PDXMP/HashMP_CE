@@ -60,7 +60,6 @@
 # sabotage_reputation
 # support_rebels
 # sow_discontent
-# study_technology
 # agitate_for_liberty
 # form_coalition
 # request_to_join_federation
@@ -70,7 +69,6 @@
 # designate_march
 # ask_for_march
 # sell_ships_action
-# counterespionage
 # abandon_union
 # takeondebt
 # influence_nation
@@ -301,9 +299,6 @@ abandon_union_action = {
 		}
 	}
 }
-
-
-
 
 form_coalition = {
 	condition = {
