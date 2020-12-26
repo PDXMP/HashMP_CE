@@ -113,6 +113,16 @@ permanent_marathas_council_reform = {
 	custom_attributes = {
 		maratha_general_interaction = yes
 	}
+	ai = {
+		factor = 3
+		modifier = {
+			factor = 0.1
+			estate_influence = {
+				estate = estate_maratha
+				influence = 90
+			}			
+		}
+	}
 }
 
 governmental_purbias_register_reform = {
@@ -154,6 +164,16 @@ governmental_purbias_register_reform = {
 				name = look_up_purbias
 				duration = -1
 			}
+		}
+	}
+	ai = {
+		factor = 3
+		modifier = {
+			factor = 0.1
+			estate_influence = {
+				estate = estate_rajput
+				influence = 90
+			}			
 		}
 	}
 }
