@@ -538,13 +538,13 @@ theocracy = {
 				warrior_monks_reform
 			}
 		}
-		h_population_control = {
-			reforms = {
-				t5_cp_1
-				t5_cp_2
-				t5_cp_3
-			}
-		}
+		#h_population_control = {
+		#	reforms = {
+		#		t5_cp_1
+		#		t5_cp_2
+		#		t5_cp_3
+		#	}
+		#}
 		secularization = {
 			reforms = {
 				partial_secularisation_reform
