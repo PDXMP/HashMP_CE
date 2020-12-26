@@ -339,10 +339,22 @@ cb_independence_war = {
 		is_subject_of = FROM
 		NOT = { is_colonial_nation_of = FROM }
 		OR = {
-			NOT = { has_reform = daimyo }
+			AND = {
+				NOT = { has_reform = daimyo }
+				NOT = {
+					AND = {
+						tag = SOO
+						OR = {
+							has_reform = pirate_republic_reform
+							has_reform = pirate_king_reform
+							has_reform = war_against_the_world_doctrine_reform
+							has_reform = black_market_consortium_reform
+						}
+					}
+				}
+			}
 			NOT = { from = { has_reform = shogunate } }
 		}
-		is_revolutionary = no
 	}
 
 	war_goal = defend_capital_independence
@@ -356,7 +368,6 @@ cb_independence_war = {
 #	prerequisites = {
 #		is_subject = yes
 #		is_colonial_nation_of = FROM
-#		is_revolution_target = no
 #	}
 #
 #	war_goal = defend_capital_independence
@@ -412,7 +423,6 @@ cb_war_against_the_world = {
 	
 	prerequisites = {
 		has_reform = war_against_the_world_doctrine_reform
-		dip_tech = 23
 		is_free_or_tributary_trigger = yes
 		is_revolutionary = no
 	}
@@ -432,12 +442,23 @@ cb_daimyo_annex = {
 			vassal_of = FROM
 			junior_union_with = FROM
 		}
-		has_reform = daimyo
+		OR = {
+			has_reform = daimyo
+			AND = {
+				tag = SOO
+				OR = {
+					has_reform = pirate_republic_reform
+					has_reform = pirate_king_reform
+					has_reform = war_against_the_world_doctrine_reform
+					has_reform = black_market_consortium_reform
+				}
+			}
+		}
 		from = { has_reform = shogunate }
 		is_revolutionary = no
 	}
 
-	war_goal = annex_country
+	war_goal = annex_country_japan
 }
 
 cb_independent_daimyo_annex = {
@@ -450,12 +471,23 @@ cb_independent_daimyo_annex = {
 			vassal_of = FROM
 			junior_union_with = FROM
 		}
-		has_reform = indep_daimyo
+		OR = {
+			has_reform = indep_daimyo
+			AND = {
+				tag = SOO
+				OR = {
+					has_reform = pirate_republic_reform
+					has_reform = pirate_king_reform
+					has_reform = war_against_the_world_doctrine_reform
+					has_reform = black_market_consortium_reform
+				}
+			}
+		}
 		from = { has_reform = shogunate }
 		is_revolutionary = no
 	}
 
-	war_goal = annex_country
+	war_goal = annex_country_japan
 }
 
 cb_shogun_annex = {
@@ -464,7 +496,18 @@ cb_shogun_annex = {
 	prerequisites = {
 		has_reform = shogunate
 		from = {
-			has_reform = daimyo
+			OR = {
+				has_reform = daimyo
+				AND = {
+					tag = SOO
+					OR = {
+						has_reform = pirate_republic_reform
+						has_reform = pirate_king_reform
+						has_reform = war_against_the_world_doctrine_reform
+						has_reform = black_market_consortium_reform
+					}
+				}
+			}
 			OR = {
 				num_of_cities = 10
 				is_subject = no
@@ -473,7 +516,7 @@ cb_shogun_annex = {
 		is_revolutionary = no
 	}
 
-	war_goal = annex_country
+	war_goal = annex_country_japan
 }
 
 # Sengoku - Daimyo infighting
@@ -481,17 +524,39 @@ cb_sengoku = {
 	valid_for_subject = no
 
 	prerequisites = {
-		has_reform = daimyo
+		OR = {
+			has_reform = daimyo
+			AND = {
+				tag = SOO
+				OR = {
+					has_reform = pirate_republic_reform
+					has_reform = pirate_king_reform
+					has_reform = war_against_the_world_doctrine_reform
+					has_reform = black_market_consortium_reform
+				}
+			}
+		}
 		is_neighbor_of = FROM
 		is_subject = yes
 		from = {
-			has_reform = daimyo
+			OR = {
+				has_reform = daimyo
+				AND = {
+					tag = SOO
+					OR = {
+						has_reform = pirate_republic_reform
+						has_reform = pirate_king_reform
+						has_reform = war_against_the_world_doctrine_reform
+						has_reform = black_market_consortium_reform
+					}
+				}
+			}
 			is_subject = yes
 		}
 		is_revolutionary = no
 	}
 
-	war_goal = annex_country
+	war_goal = annex_country_japan
 }
 
 # Revolutionary CB
@@ -558,7 +623,7 @@ cb_colonial = {
 cb_liberation = {
 
 	prerequisites = {
-		always = no		#just for some historical wars.
+		has_country_flag = fra_liberation_wars_enabled
 	}
 
 	war_goal = take_capital_liberation
