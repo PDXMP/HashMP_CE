@@ -23,7 +23,7 @@
 #		factor = 1
 #	}
 #}
-
+#
 #incident_burgundian_succ_strong_ally = {
 #	event = incidents_bur_inheritance.3
 #	default_option = 0
@@ -46,30 +46,30 @@
 #		factor = 1
 #	}
 #}
-
-incident_burgundian_succ_alone = {
-	event = incidents_bur_inheritance.4
-	default_option = 0
-	
-	can_stop = {
-		NOT = {
-			exists = BUR
-		}
-	}
-	
-	0 = {
-		factor = 1
-	}
-	
-	1 = {
-		factor = 1
-	}
-	
-	2 = {
-		factor = 1
-	}
-}
-
+#
+#incident_burgundian_succ_alone = {
+#	event = incidents_bur_inheritance.4
+#	default_option = 0
+#	
+#	can_stop = {
+#		NOT = {
+#			exists = BUR
+#		}
+#	}
+#	
+#	0 = {
+#		factor = 1
+#	}
+#	
+#	1 = {
+#		factor = 1
+#	}
+#	
+#	2 = {
+#		factor = 1
+#	}
+#}
+#
 #incident_burgundy_wants_to_join = {
 #	event = incidents_bur_join_empire.2
 #	default_option = 1
@@ -149,57 +149,57 @@ incident_burgundian_succ_alone = {
 #		}
 #	}
 #}
-
-incident_king_in_prussia = {
-    event = king_in_prussia.2
-	default_option = 1
-	
-	can_stop = {
-		OR = {
-			NOT = {
-				exists = PRU
-			}
-			PRU = {
-				is_subject = yes
-			}
-			PRU = {
-				government_rank = 2
-			}
-		}
-	}
-	
-	0 = { # grant
-		factor = 1
-		modifier = {
-			factor = 100
-			OR = {
-				ai_attitude = {
-					who = PRU
-					attitude = attitude_friendly
-				}
-				ai_attitude = {
-					who = PRU
-					attitude = attitude_loyal
-				}
-				ai_attitude = {
-					who = PRU
-					attitude = attitude_allied
-				}
-			}
-		}
-	}
-	
-	1 = { # compromise
-		factor = 1
-		modifier = {
-			factor = 100
-			ai_attitude = {
-				who = PRU
-				attitude = attitude_neutral
-			}
-		}
-	}
-	
+#
+#incident_king_in_prussia = {
+#    event = king_in_prussia.2
+#	default_option = 1
+#	
+#	can_stop = {
+#		OR = {
+#			NOT = {
+#				exists = PRU
+#			}
+#			PRU = {
+#				is_subject = yes
+#			}
+#			PRU = {
+#				government_rank = 2
+#			}
+#		}
+#	}
+#	
+#	0 = { # grant
+#		factor = 1
+#		modifier = {
+#			factor = 100
+#			OR = {
+#				ai_attitude = {
+#					who = PRU
+#					attitude = attitude_friendly
+#				}
+#				ai_attitude = {
+#					who = PRU
+#					attitude = attitude_loyal
+#				}
+#				ai_attitude = {
+#					who = PRU
+#					attitude = attitude_allied
+#				}
+#			}
+#		}
+#	}
+#	
+#	1 = { # compromise
+#		factor = 1
+#		modifier = {
+#			factor = 100
+#			ai_attitude = {
+#				who = PRU
+#				attitude = attitude_neutral
+#			}
+#		}
+#	}
+#	
 #	1 = { # deny
 #		factor = 1
 #		modifier = {
@@ -232,8 +232,8 @@ incident_king_in_prussia = {
 #			}
 #		}
 #	}
-}
-
+#}
+#
 #incident_pu_subject_joins_empire = {
 #	event = incident_generic.2
 #	default_option = 0
@@ -271,151 +271,151 @@ incident_king_in_prussia = {
 #		factor = 1
 #	}
 #}
-
-incident_great_peasants_war = {
-	event = great_peasant_war.3
-	default_option = 0
-	
-	can_stop = {
-		always = no
-	}
-	
-	0 = { # crush peasants
-		factor = 1
-		modifier = {
-			factor = 10
-			estate_influence = {
-				estate = estate_nobles
-				influence = 60
-			}
-		}
-	}
-	
-	1 = { # concessions
-		factor = 1
-		modifier = {
-			factor = 1000
-			has_reform = peasants_republic
-		}
-		modifier = {
-			factor = 10
-			NOT = {
-				estate_influence = {
-					estate = estate_nobles
-					influence = 40
-				}
-			}
-		}
-		modifier = {
-			factor = 10
-			religion = reformed
-		}
-	}
-}
-
-incident_hansa = {
-	event = hansa_incident.2
-	default_option = 0
-	
-	can_stop = {
-		OR = {
-			NOT = { exists = HSA }
-			HSA = { is_part_of_hre = no }
-			HSA = {
-				NOT = { 
-					has_reform = merchants_reform
-				}
-			}
-		}
-	}
-	
-	0 = { # do nothing
-		modifier = {
-			factor = 100
-			OR = {
-				ai_attitude = {
-					who = HSA
-					attitude = attitude_rivalry
-				}
-				ai_attitude = {
-					who = HSA
-					attitude = attitude_hostile
-				}
-				ai_attitude = {
-					who = HSA
-					attitude = attitude_threatened
-				}
-				ai_attitude = {
-					who = HSA
-					attitude = attitude_outraged
-				}
-				ai_attitude = {
-					who = HSA
-					attitude = attitude_disloyal
-				}
-				ai_attitude = {
-					who = HSA
-					attitude = attitude_rebellious
-				}
-			}
-		}
-	}
-	
-	1 = { # make free cities join
-		modifier = {
-			factor = 100
-			OR = {
-				ai_attitude = {
-					who = HSA
-					attitude = attitude_friendly
-				}
-				ai_attitude = {
-					who = HSA
-					attitude = attitude_loyal
-				}
-				ai_attitude = {
-					who = HSA
-					attitude = attitude_allied
-				}
-			}
-		}
-	}
-	
-	2 = { # embargo
-		modifier = {
-			factor = 100
-			45 = {
-				strongest_trade_power = {
-					ai_attitude = {
-						who = ROOT
-						attitude = attitude_rivalry
-					}
-					ai_attitude = {
-						who = ROOT
-						attitude = attitude_hostile
-					}
-					ai_attitude = {
-						who = ROOT
-						attitude = attitude_threatened
-					}
-					ai_attitude = {
-						who = ROOT
-						attitude = attitude_outraged
-					}
-					ai_attitude = {
-						who = ROOT
-						attitude = attitude_disloyal
-					}
-					ai_attitude = {
-						who = ROOT
-						attitude = attitude_rebellious
-					}
-				}
-			}
-		}
-	}
-}
-
+#
+#incident_great_peasants_war = {
+#	event = great_peasant_war.3
+#	default_option = 0
+#	
+#	can_stop = {
+#		always = no
+#	}
+#	
+#	0 = { # crush peasants
+#		factor = 1
+#		modifier = {
+#			factor = 10
+#			estate_influence = {
+#				estate = estate_nobles
+#				influence = 60
+#			}
+#		}
+#	}
+#	
+#	1 = { # concessions
+#		factor = 1
+#		modifier = {
+#			factor = 1000
+#			has_reform = peasants_republic
+#		}
+#		modifier = {
+#			factor = 10
+#			NOT = {
+#				estate_influence = {
+#					estate = estate_nobles
+#					influence = 40
+#				}
+#			}
+#		}
+#		modifier = {
+#			factor = 10
+#			religion = reformed
+#		}
+#	}
+#}
+#
+#incident_hansa = {
+#	event = hansa_incident.2
+#	default_option = 0
+#	
+#	can_stop = {
+#		OR = {
+#			NOT = { exists = HSA }
+#			HSA = { is_part_of_hre = no }
+#			HSA = {
+#				NOT = { 
+#					has_reform = merchants_reform
+#				}
+#			}
+#		}
+#	}
+#	
+#	0 = { # do nothing
+#		modifier = {
+#			factor = 100
+#			OR = {
+#				ai_attitude = {
+#					who = HSA
+#					attitude = attitude_rivalry
+#				}
+#				ai_attitude = {
+#					who = HSA
+#					attitude = attitude_hostile
+#				}
+#				ai_attitude = {
+#					who = HSA
+#					attitude = attitude_threatened
+#				}
+#				ai_attitude = {
+#					who = HSA
+#					attitude = attitude_outraged
+#				}
+#				ai_attitude = {
+#					who = HSA
+#					attitude = attitude_disloyal
+#				}
+#				ai_attitude = {
+#					who = HSA
+#					attitude = attitude_rebellious
+#				}
+#			}
+#		}
+#	}
+#	
+#	1 = { # make free cities join
+#		modifier = {
+#			factor = 100
+#			OR = {
+#				ai_attitude = {
+#					who = HSA
+#					attitude = attitude_friendly
+#				}
+#				ai_attitude = {
+#					who = HSA
+#					attitude = attitude_loyal
+#				}
+#				ai_attitude = {
+#					who = HSA
+#					attitude = attitude_allied
+#				}
+#			}
+#		}
+#	}
+#	
+#	2 = { # embargo
+#		modifier = {
+#			factor = 100
+#			45 = {
+#				strongest_trade_power = {
+#					ai_attitude = {
+#						who = ROOT
+#						attitude = attitude_rivalry
+#					}
+#					ai_attitude = {
+#						who = ROOT
+#						attitude = attitude_hostile
+#					}
+#					ai_attitude = {
+#						who = ROOT
+#						attitude = attitude_threatened
+#					}
+#					ai_attitude = {
+#						who = ROOT
+#						attitude = attitude_outraged
+#					}
+#					ai_attitude = {
+#						who = ROOT
+#						attitude = attitude_disloyal
+#					}
+#					ai_attitude = {
+#						who = ROOT
+#						attitude = attitude_rebellious
+#					}
+#				}
+#			}
+#		}
+#	}
+#}
+#
 #incident_pope = {
 #	event = incident_pope.2
 #	default_option = 0
@@ -490,7 +490,7 @@ incident_hansa = {
 #		}
 #	}
 #}
-
+#
 #incident_holstein = {
 #	event = holstein.1
 #	default_option = 0
@@ -568,7 +568,7 @@ incident_hansa = {
 #		}
 #	}
 #}
-
+#
 #incident_shadow_kingdom = {
 #	event = shadow_kingdom.2
 #	default_option = 0
@@ -591,7 +591,7 @@ incident_hansa = {
 #		factor = 1
 #	}
 #}
-
+#
 #incident_switzerland = {
 #	event = incident_switzerland.2
 #	default_option = 0
@@ -672,7 +672,7 @@ incident_hansa = {
 #		}
 #	}
 #}
-
+#
 #incident_dutch_revolt = {
 #	event = dutch_revolt.2
 #	default_option = 1
@@ -754,7 +754,7 @@ incident_hansa = {
 #		}
 #	}
 #}
-
+#
 #incident_hungary_mission = {
 #	event = new_flavour_hun.201
 #	default_option = 0
@@ -821,45 +821,45 @@ incident_hansa = {
 #		}
 #	}
 #}
-
-incident_reformer_dissension = {
-	event = reformer_dissension.1
-	default_option = 1
-	
-	can_stop = {
-		always = no
-	}
-	
-	0 = { # stay protestant
-		factor = 1
-		modifier = {
-			factor = 50
-			religion = protestant
-		}
-	}
-	
-	1 = { # religion treaty
-		factor = 1
-		modifier = {
-			factor = 50
-			OR = {
-				religion = catholic
-				has_idea_group = humanist_ideas
-			}
-		}
-	}
-	
-	2 = { # change hre religion to reformed
-		factor = 1
-		modifier = {
-			factor = 100
-			religion = reformed
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				religion = reformed
-			}
-		}
-	}
-}
+#
+#incident_reformer_dissension = {
+#	event = reformer_dissension.1
+#	default_option = 1
+#	
+#	can_stop = {
+#		always = no
+#	}
+#	
+#	0 = { # stay protestant
+#		factor = 1
+#		modifier = {
+#			factor = 50
+#			religion = protestant
+#		}
+#	}
+#	
+#	1 = { # religion treaty
+#		factor = 1
+#		modifier = {
+#			factor = 50
+#			OR = {
+#				religion = catholic
+#				has_idea_group = humanist_ideas
+#			}
+#		}
+#	}
+#	
+#	2 = { # change hre religion to reformed
+#		factor = 1
+#		modifier = {
+#			factor = 100
+#			religion = reformed
+#		}
+#		modifier = {
+#			factor = 0
+#			NOT = {
+#				religion = reformed
+#			}
+#		}
+#	}
+#}
