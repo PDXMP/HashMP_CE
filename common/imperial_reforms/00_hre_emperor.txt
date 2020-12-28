@@ -182,6 +182,7 @@ emperor_reichstag_collegia = {
 
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	emperor = {
 		max_free_cities = 3
@@ -195,6 +196,7 @@ emperor_expand_gemeiner_pfennig = {
 
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	emperor_per_prince = {
 		global_manpower = 0.1
@@ -214,6 +216,7 @@ emperor_rechenschaft = {
 
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	emperor_per_prince = {
 		imperial_authority = 0.01
@@ -231,6 +234,7 @@ emperor_geteilte_macht = {
 
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	elector_per_prince = {
 		global_tax_income = 0.5
@@ -247,6 +251,7 @@ emperor_reichskrieg = {
 
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	on_effect = {
 		enable_imperial_realm_war = yes
@@ -262,6 +267,7 @@ emperor_hofgericht = {
 	empire = hre
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	emperor = {
 		core_creation = -0.10
@@ -277,6 +283,7 @@ emperor_imperial_estates = {
 	gui_container = right_branch
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	emperor = {
 		imperial_authority = 0.25
@@ -287,6 +294,7 @@ emperor_erbkaisertum = {
 	empire = hre
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	emperor = {
 		imperial_authority = 0.25
@@ -313,6 +321,7 @@ emperor_privilegia_de_non_appelando = {
 	war = yes			#this may cause a war, so special AI check needed, to not lose many.
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	member = {
 		stability_cost_modifier = -0.10
@@ -346,6 +355,7 @@ emperor_renovatio = {
 	empire = hre
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 #	on_effect = {
 #		emperor = {
