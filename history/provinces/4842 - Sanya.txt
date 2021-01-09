@@ -11,7 +11,7 @@ base_production = 2
 base_manpower = 2
 hre = no
 citysize = 3100
-add_core = CLI
+add_core = LIC
 
 discovered_by = chinese
 discovered_by = indian
