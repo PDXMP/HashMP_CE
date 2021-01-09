@@ -37,6 +37,7 @@ country_decisions = {
 				tag = LUC
 				tag = LAN
 				tag = JAI
+				tag = TTS
 			}
 			OR = {
 				ai = no
