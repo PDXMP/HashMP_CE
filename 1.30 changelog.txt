@@ -1,0 +1,84 @@
+COMBAT:
+*Mercs are now reverted to vanilla
+
+MERCS:
+*20 AT generals
+
+GOVERNMENTS:
+*All unique govt t1s added
+*Revolutionaries recieve ALL their potential government reforms
+*Forming AHU no longer gives a unique modifier
+*AHU recieves HAB missions
+*JAP now has a merge of 1.28.3 hash missions and vanilla's
+*HUN has Institutionalized Black Army as a tier 2 reform , AHU can keep it if it has the modifier
+
+MAP:
+*VEN land was rolled into other states via cores
+*GEN land was given to greek minors
+*BRA has the 2nd neumark province
+
+DISASTERS:
+*Revolution is vanilla
+
+BUILDINGS:
+*Ai shouldnt build costal batteries
+*naval battery disembark speed 2 -> 1.5
+*naval battery fleet attrition from 5 -> 1 (this is because naval attrition as a whole is far harsher in 1.30)
+*rampart attrition 1-> .5 and defensiveness 15% -> 10%
+*soldierhouses .75 -> .6 for all goods, grain, fish, livestock, wine 1.5 -> 1.2 (may need to drop more as with 100% from training fields 10k manpower provs still isnt to hard)
+
+DOTF:
+*Reversed value system
+*All get morale now
+
+HRE:
+*HRE is now franken 1.28.3 hash HRE merged with 1.30 changes
+*TODO: reform branches?
+
+BURGUNDIAN INHEIRITANCE
+*Burgundy can only go alone
+*France gets perma claims on french region that burgundy has
+*Emperor doesnt get free cb
+*Burgundy can chose to or not to inheirit its pus (idk y u wouldnt thou)
+*If you take great priv emps can dec on u ( both sides have 1 yr to prep thx to incident
+
+INCIDIENTS
+*Burgundy cant join the hre
+*Prussia is a kingdom no kicking them out
+*No, your pu cant join the hre
+*Pope already in the empire
+*Holstein independence is fake news
+*Italy dont leave
+*Swiss dont leave
+*Dutch revolt incident gone
+*Hungary cant join hre
+
+*ESTATES:
+*nerfing crownland sale by .5 yrs of income for each age
+*60 month sale cd is now 120
+*50% crownland give 5 more than vanilla
+*rajput fire general +1 -> 5% fire dmg
+*horde & noble general cost -25% -> -10%
+*jains loose dev cost
+*cossack shock general +1 dropped as it gives at
+*strong duchy is 1 relation and 5 ld, french is 2 relation and 5 ld
+*burgher loans now 2.5 interest
+*control of monetary policy now has no penalty but only gives .1 inflation reduction and 2.5% prod eff
+*vaisyas lose we reduction on wartaxes
+*monopolies only give .5 mercantilism
+*indian muslims get jain diplo
+*hordes get +1 mil
+*hordes have bughers and clergy
+*+1 mana shouldnt cost abs
+*Golden Liberty is 5 abs and 40 manpower
+*Steppe Dev is 10%
+*Steppe Manpower mod from 100% local to 50%
+*levies to max of 80%
+*yearly pat auth from .5 -> .2
+*Burgher admiral cost is -10%
+*ALL Advisor cost 25% -> 15%, Stab cost +10% -> +5%
+
+*NOTES
+*50 gov cap = +1 max state
+*possible mercs -> manpower @ 1:1
+*Incidients have their own events file and folder both have been commented out
