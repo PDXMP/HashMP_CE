@@ -1540,8 +1540,7 @@ NAP_ideas = {
 		land_morale = 0.1
 	}
 	consolidate_the_royal_domain = {
-		global_trade_goods_size_modifier = 0.1
-		trade_efficiency = 0.1 #One of the main trade port of the mediterrenean for much of the timeframe
+		global_trade_goods_size_modifier = 0.1 #One of the main trade port of the mediterrenean for much of the timeframe
 	}
 	academia_pontaniana = {
 		technology_cost = -0.10
