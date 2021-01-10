@@ -1580,7 +1580,7 @@ SIC_ideas = {
 	free = yes
 	
 	sic_university_of_catania = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 	sic_constitions_of_melfi = {
 		global_unrest = -1
@@ -1593,7 +1593,7 @@ SIC_ideas = {
 		core_creation = -0.1
 	}
 	sic_trade_fleet = {
-		global_ship_trade_power = 0.2
+		global_ship_trade_power = 0.25
 	}
 	sic_grand_navy = {
 		naval_morale = 0.15
