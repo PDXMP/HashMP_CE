@@ -969,7 +969,7 @@ VEN_ideas = {
 		diplomats = 1
 	}
 	state_inquisition = {
-		global_spy_defence = 0.3
+		global_spy_defence = 0.33
 	}
 	defend_the_law = {
 		stability_cost_modifier = -0.15
