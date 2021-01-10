@@ -138,8 +138,8 @@ GBR_ideas = {
 	free = yes		#will be added at load.
 
 	gbr_acts_of_union = {
-		diplomatic_annexation_cost = -0.15
-		governing_capacity = 150
+		diplomatic_annexation_cost = -0.2
+		governing_capacity = 200
 	}
 	city_upon_a_hill = {
 		global_colonial_growth = 25
