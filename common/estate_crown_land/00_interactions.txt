@@ -247,7 +247,7 @@ interaction = {
 			}
 			NOT = { has_estate_privilege = estate_church_statutory_rights }
 		}
-#        is_at_war = no
+        is_at_war = no
     }
     effect = {
         custom_tooltip = ESTATES_SEIZE_LAND_DESC
@@ -261,16 +261,7 @@ interaction = {
 			clr_country_flag = recent_land_seizure
 		}
 		set_country_flag = recent_land_seizure
-	if = {
-		limit = {
-			is_at_war = yes
-		}
-		add_estate_loyalty = {
-	            estate = all
-	            loyalty = -10
-	            short = yes
-        	}
-	}	
+
         add_estate_loyalty = {
             estate = all
             loyalty = -20
