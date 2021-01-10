@@ -1071,4 +1071,4 @@
  force_peasant_republic_desc:0 "[From.GetName] deviendra une république paysanne."
  CB_ALLOWED_force_peasant_republic:0 "Imposer un Gouverment Paysan"
  PEACE_force_peasant_republic:0 "Imposer un Gouverment Paysan"
- ESTATE_PRIVILEGE_MAX_GRANTED:0 "§RVous ne pouvez pas accorder plus de 4 privilèges à un domaine.§!"
+ ESTATE_PRIVILEGE_MAX_GRANTED:0 "§RVous ne pouvez pas accorder plus de 5 privilèges à un domaine.§!"

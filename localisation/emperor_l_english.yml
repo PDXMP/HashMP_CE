@@ -1041,5 +1041,5 @@
  force_peasant_republic_desc:0 "[From.GetName] will become a peasant republic."
  CB_ALLOWED_force_peasant_republic:0 "Enforce Peasant Rule"
  PEACE_force_peasant_republic:0 "Enforce Peasant Rule"
- ESTATE_PRIVILEGE_MAX_GRANTED:0 "§RYou can't grant an estate more than 4 Privileges.§!"
+ ESTATE_PRIVILEGE_MAX_GRANTED:0 "§RYou can't grant an estate more than 5 Privileges.§!"
 

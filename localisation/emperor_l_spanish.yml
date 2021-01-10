@@ -1062,4 +1062,4 @@
  CONFIRM_VETO_HEIR_DESC:0 "¿Seguro que quieres vetar a tu heredero actual $HEIR|Y$ y reemplazarlo con un nuevo heredero local? Perderás $COST|R$ de prestigio."
  MODIFIER_MANPOWER_PER_PRINCE_AGAINST_IMPERIAL_ENEMIES:0 "Bonificación de soldadesca por príncipe contra enemigos imperiales"
  CONVREL_PAPACY_BLOCK_NONE_OF_THAT:0 "§RComo católicos, no podemos convertirnos a religiones que no tienen presencia en nuestro país.§!"
- ESTATE_PRIVILEGE_MAX_GRANTED:0 "§RNo puedes otorgar a un patrimonio más de 4 privilegios.§!"
+ ESTATE_PRIVILEGE_MAX_GRANTED:0 "§RNo puedes otorgar a un patrimonio más de 5 privilegios.§!"
