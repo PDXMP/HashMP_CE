@@ -1301,7 +1301,7 @@ NMilitary = {
 	LEADER_WORK_YEARS_DEATH_FACTOR = 2,					-- Divides how many years he has been working to calculate chance
 	LEADER_AGE_DEATH_FACTOR = 3,					-- Divides age with this to calculate chance
 
-	MERCENARY_COMPANY_ARMY_TRADITION = 20.0,		-- At what army tradition mercenaries leaders are generated on.
+	MERCENARY_COMPANY_ARMY_TRADITION = 0.0,		-- At what army tradition mercenaries leaders are generated on.
 },
 
 NAI = {
