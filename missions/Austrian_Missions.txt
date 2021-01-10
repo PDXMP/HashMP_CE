@@ -58,43 +58,42 @@ hab_holy_roman_ambitions = {
 			}
 		}
 		effect = {
-			if = {
+			#if = {
+			#	limit = {
+			#		exists = BOH
+			#		valid_for_personal_unions_trigger = yes
+			#		BOH = {
+			#			valid_for_personal_unions_trigger = yes
+			#		}
+			#	}
+			#	add_casus_belli = {
+			#		type = cb_restore_personal_union
+			#		months = 300
+			#		target = BOH
+			#	}
+			#}
+			bohemia_area = {
 				limit = {
-					exists = BOH
-					valid_for_personal_unions_trigger = yes
-					BOH = {
-						valid_for_personal_unions_trigger = yes
-					}
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
 				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = BOH
-				}
+				add_permanent_claim = ROOT
 			}
-			else = {
-				bohemia_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
+			erzgebirge_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
 				}
-				erzgebirge_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}
-				moravia_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}
+				add_permanent_claim = ROOT
 			}
+			moravia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
 			add_country_modifier = {
 				name = "succesful_bid_for_imperial_crown"
 				duration = 5475 #15 years
