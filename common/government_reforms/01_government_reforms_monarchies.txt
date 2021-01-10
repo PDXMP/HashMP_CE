@@ -768,181 +768,182 @@ mughal_government = {
 	assimilation_cultures = {
 		altaic = {
 			artillery_cost = -0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		baltic = {
 			naval_forcelimit_modifier = 0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		british = {
 			ship_durability = 0.05
-			max_states = 2
+			governing_capacity = 100
 		}
 		burman = {
 			free_leader_pool = 1
-			max_states = 2
+			governing_capacity = 100
 		}
 		byzantine = {
 			legitimacy = 1
-			max_states = 2
+			governing_capacity = 100
 		}
 		carpathian = {
 			mercenary_cost = -0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		caucasian = {
 			mercenary_discipline = 0.05
-			max_states = 2
+			governing_capacity = 100
 		}
 		gaelic = {
 			shock_damage = 0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		central_indic = {
 			land_attrition = -0.15
-			max_states = 2
+			governing_capacity = 100
 		}
 		east_asian = {
 			state_maintenance_modifier = -0.25
-			max_states = 2
+			governing_capacity = 100
 		}
 		kongo_group = {
 			global_trade_goods_size_modifier = 0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		cushitic = {
 			missionaries = 1
-			max_states = 2
+			governing_capacity = 100
 		}
 		dravidian = {
 			global_trade_goods_size_modifier = 0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		african = {
 			global_tax_income = 48
-			max_states = 2
+			governing_capacity = 100
 		}
 		east_slavic = {
 			land_forcelimit_modifier = 0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		eastern_aryan = {
 			production_efficiency = 0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		evenks = {
 			cavalry_cost = -0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		french = {
 			diplomats = 2
-			max_states = 2
+			governing_capacity = 100
 		}
 		germanic = {
 			global_institution_spread = 0.5
-			max_states = 2
+			governing_capacity = 100
 		}
 		great_lakes_group = {
 			loot_amount = 1
-			max_states = 2
+			governing_capacity = 100
 		}
 		hindusthani = {
 			core_creation = -0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		iberian = {
 			global_colonial_growth = 50
-			max_states = 2
+			governing_capacity = 100
 		}
 		iranian = {
 			advisor_cost = -0.15
-			max_states = 2
+			governing_capacity = 100
 		}
 		japanese_g = {
 			land_morale = 0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		korean_g = {
 			idea_cost = -0.05
-			max_states = 2
+			governing_capacity = 100
 		}
 		latin = {
 			embracement_cost = -0.25
-			max_states = 2
+			governing_capacity = 100
 		}
 		lost_cultures_group = {
 			discipline = 0.05
-			max_states = 2
+			governing_capacity = 100
 		}
 		turko_semitic = {
 			cavalry_power = 0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		maghrebi = {
 			privateer_efficiency = 0.5
-			max_states = 2
+			governing_capacity = 100
 		}
 		malay = {
 			merchants = 1
-			max_states = 2
+			governing_capacity = 100
 		}
 		mande = {
 			tolerance_heretic = 1
-			max_states = 2
+			governing_capacity = 100
 		}
 #		mon_khmer = {
 #			build_cost = -0.05
 #		}
 		pacific = {
 			global_sailors_modifier = 0.33
-			max_states = 2
+			governing_capacity = 100
 		}
 		sahelian = {
 			movement_speed = 0.2
-			max_states = 2
+			governing_capacity = 100
 		}
 		scandinavian = {
 			mil_advisor_cost = -0.2
-			max_states = 2
+			governing_capacity = 100
 		}
 		south_slavic = {
 			warscore_cost_vs_other_religion = -0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		southern_african = {
 			inflation_reduction = 0.05
-			max_states = 2
+			governing_capacity = 100
 		}
 		sudanese = {
 			caravan_power = 0.33
+			governing_capacity = 100
 		}
 		tartar = {
 			cavalry_cost = -0.15
-			max_states = 2
+			governing_capacity = 100
 		}
 		southeastasian_group = {
 			development_cost = -0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 		tibetan_group = {
 			prestige_per_development_from_conversion = 0.5
-			max_states = 2
+			governing_capacity = 100
 		}
 		finno_ugric = {
 			prestige_decay = -0.01
-			max_states = 2
+			governing_capacity = 100
 		}
 		west_african = {
 			global_autonomy = -0.05
-			max_states = 2
+			governing_capacity = 100
 		}
 		west_slavic = {
 			leader_land_fire = 1
-			max_states = 2
+			governing_capacity = 100
 		}
 		western_aryan = {
 			trade_efficiency = 0.1
-			max_states = 2
+			governing_capacity = 100
 		}
 	}
 }
