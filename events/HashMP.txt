@@ -779,7 +779,7 @@ country_event = { #Invite hussites
 	
 	option = {
 		name = hashmp.13.b
-		custom_tooltip = hashmp.13.b.tt
+		add_stability = 1
 	}
 	
 }
