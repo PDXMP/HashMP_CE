@@ -622,7 +622,7 @@
  tribal_name:0 "Tribal"
  native_name:0 "Native"
  MODIFIER_MIN_AUTONOMY_IN_TERRITORIES:0 "Minimum Autonomy in Territories"
- mechanic_has_parliament_yes:2 "Enables Parliament.\nDisables Nobility estate."
+ mechanic_has_parliament_yes:2 "Enables Parliament."
  mechanic_has_parliament_no:1 "Disable Parliament."
  MODIFIER_LEADER_COST:0 "Leader cost"
  MODIFIER_CANDIDATE_RANDOM_BONUS:1 "Random Candidate Bonus"

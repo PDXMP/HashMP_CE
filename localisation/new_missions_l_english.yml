@@ -523,7 +523,7 @@
  bur_liege_desc:0 "Historically, the Bishopric of Liège has been a strong voice in the Vatican, and in the Holy Roman Empire. By extension, if we were to control this voice, we could better represent our interests."
  bur_subjects_title:0 "Placate Subjects"
  bur_subjects_desc:0 "As the leader of so many fragile unions, we cannot be seen to have any disloyal subjects. While we consider our claims on Lotharingia, we must ensure that all our partners are bolstered and ready to act."
- bur_subjects.tooltip:1 "All subjects have less than §Y1.00%§! Liberty Desire"
+ bur_subjects.tooltip:1 "All subjects have less than §Y20.00%§! Liberty Desire"
  bur_romandie_title:0 "Reclaim Transjurania"
  bur_romandie_desc:0 "The Kingdom of Upper Burgundy has been under the control of the Empire for long enough. In ages past it constituted a full third of Burgundy, and must be returned to us."
  bur_cisjurania_title:0 "Kingdom of the Arles"
