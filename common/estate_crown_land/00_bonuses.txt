@@ -94,7 +94,7 @@ bonus = {
         max_absolutism = 20
         yearly_absolutism = 1
         global_tax_modifier = 0.2
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.15
 		global_trade_goods_size_modifier = 0.075
         global_autonomy = -0.01
     }
@@ -108,7 +108,7 @@ bonus = {
         max_absolutism = 25
         yearly_absolutism = 1
         global_tax_modifier = 0.25
-		global_manpower_modifier = 0.3
+		global_manpower_modifier = 0.2
 		global_trade_goods_size_modifier = 0.1
         global_autonomy = -0.05
     }
