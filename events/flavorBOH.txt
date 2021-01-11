@@ -29,6 +29,7 @@ country_event = {
 
 	trigger = {
 		tag = BOH
+		ai = no
 		owns = 266
 		is_year = 1446
 		NOT = { is_year = 1500 }
