@@ -155,7 +155,6 @@ defender_of_faith_4 = {
 		naval_morale = 0.05
 		prestige = 1
 		war_exhaustion = -0.03
-		manpower_in_true_faith_provinces = 0.2
     }
 	ai_will_do = {
 		factor = 1
@@ -204,7 +203,7 @@ defender_of_faith_5 = {
 		naval_morale = 0.05
 		prestige = 1
 		war_exhaustion = -0.03
-		manpower_in_true_faith_provinces = 0.2
+		manpower_in_true_faith_provinces = 0.15
     }
 	same_faith_modifier = {
 		# Applies also on the DoF
