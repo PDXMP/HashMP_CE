@@ -14,7 +14,10 @@ country_decisions = {
 				ai = no
 				NOT = { exists = SWI }
 			}
-			primary_culture = swiss
+			OR = {
+				tag = GNV
+				tag = TTL
+			}
 			OR = {
 				is_former_colonial_nation = no
 				AND = {
