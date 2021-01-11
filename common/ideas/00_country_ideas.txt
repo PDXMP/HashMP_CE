@@ -14795,14 +14795,14 @@ LOT_ideas = {
 		idea_cost = -0.1
 	}
 	lot_court_of_europe = {
-		prestige = 1
+		prestige = 0.5
 		advisor_pool = 1
 	}
 	lot_land_of_abbeys = {
 		development_cost = -0.1
 	}
 	lot_european_empire = {
-		core_creation = -0.2
+		core_creation = -0.25
 	}
 }
 
