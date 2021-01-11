@@ -764,13 +764,9 @@ country_event = { #Invite hussites
 				}
 			}
 		}
-		random_owned_province = {
-			change_religion = hussite
-			add_permanent_province_modifier = {
-				name = "religious_zeal_at_conv"
-				duration = 9000
-			}
-		}
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
 		add_country_modifier = {
 			name = "conversion_zeal"
 			duration = 3650
