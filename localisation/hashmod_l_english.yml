@@ -654,3 +654,4 @@
  PR_mercs_titteri:0 "Grand Titteri Guard" 
  h_promote_colonel_title:0 "Promote Colonel"
  h_promote_colonel_desc:0 "We have need of a new leader for our armies. Luckily, there's a perfect candidate in the form of a promising young colonel."
+ disaster_active_for_5_years_tooltip:0 "Disaster has been active for 5 years."
