@@ -197,14 +197,14 @@ hussite_rebels = {
 				duration = 3650
 			}
 		}
-		else_if = {
-			limit = {
-				NOT = { religion = hussite }
-				dominant_religion = hussite
-			}
-			change_religion = hussite
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = hussite }
+		#		dominant_religion = hussite
+		#	}
+		#	change_religion = hussite
+		#	force_converted = yes
+		#}
 		else_if = {
 			limit = {
 				NOT = { religion = hussite }
