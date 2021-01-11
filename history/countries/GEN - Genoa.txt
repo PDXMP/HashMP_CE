@@ -5,7 +5,6 @@ mercantilism = 25
 primary_culture = ligurian
 add_accepted_culture = sardinian
 religion = catholic
-elector = yes
 technology_group = western
 capital = 101	# Genova
 fixed_capital = 101 # Cannot move capital away from this province & no power cost to move to it
