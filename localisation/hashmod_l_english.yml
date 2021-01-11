@@ -652,3 +652,5 @@
  PR_mercs_tunis:0 "Tunisian Pirate Company"
  PR_mercs_tripoli:0 "Tripoli Free Company"
  PR_mercs_titteri:0 "Grand Titteri Guard" 
+ h_promote_colonel_title:0 "Promote Colonel"
+ h_promote_colonel_desc:0 "We have need of a new leader for our armies. Luckily, there's a perfect candidate in the form of a promising young colonel."
