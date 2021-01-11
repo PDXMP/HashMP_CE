@@ -888,14 +888,14 @@ country_event = {
 		}
 	}
 	
-	option = { #nah
-		name = new_flavour_bur.4.B
-		add_prestige = 20
-
-		ai_chance = {
-			factor = 0
-		}
-	}
+	#option = { #nah
+	#	name = new_flavour_bur.4.B
+	#	add_prestige = 20
+	#
+	#	ai_chance = {
+	#		factor = 0
+	#	}
+	#}
 
 	after = {
 		hidden_effect = { clear_saved_name = bur_bishop_name }
