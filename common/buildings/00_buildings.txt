@@ -847,7 +847,7 @@ ramparts = {
 		all
 	}
 	modifier = {
-		local_hostile_attrition = 0.5
+		local_hostile_attrition = 1
 		local_defensiveness = 0.1
 	}
 	onmap = no
