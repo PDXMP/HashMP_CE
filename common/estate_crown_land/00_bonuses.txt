@@ -1,9 +1,9 @@
 # Bonus covers  [range_from, range_to[
 
 bonus = {
-    key = crown_land_level_1
+    key = crown_land_level_0
     range_from = -100.0
-    range_to = 0.0
+    range_to = 1.0
     modifier = {
         max_absolutism = -50
         global_autonomy = 0.5
@@ -14,7 +14,7 @@ bonus = {
 
 bonus = {
     key = crown_land_level_1
-    range_from = 0.0
+    range_from = 1.0
     range_to = 5.0
     modifier = {
         max_absolutism = -50
@@ -29,18 +29,6 @@ bonus = {
     range_from = 5.0
     range_to = 10.0
     modifier = {
-        max_absolutism = -40
-        global_autonomy = 0.3
-        liberty_desire_from_subject_development = 1.0
-        global_tax_modifier = -0.2
-    }
-}
-
-bonus = {
-    key = crown_land_level_3
-    range_from = 10.0
-    range_to = 20.0
-    modifier = {
         max_absolutism = -30
         global_autonomy = 0.2
         liberty_desire_from_subject_development = 1.0
@@ -49,9 +37,9 @@ bonus = {
 }
 
 bonus = {
-    key = crown_land_level_4
-    range_from = 20.0
-    range_to = 30.0
+    key = crown_land_level_3
+    range_from = 10.0
+    range_to = 20.0
     modifier = {
         max_absolutism = -15
         global_autonomy = 0.1
@@ -61,9 +49,9 @@ bonus = {
 }
 
 bonus = {
-    key = crown_land_level_5
-    range_from = 30.0
-    range_to = 40.0
+    key = crown_land_level_4
+    range_from = 20.0
+    range_to = 30.0
     modifier = {
         max_absolutism = -10
         liberty_desire_from_subject_development = 0.25
@@ -87,7 +75,7 @@ bonus = {
 bonus = {
     key = crown_land_level_7
     range_from = 60.0
-    range_to = 70.0
+    range_to = 75.0
     modifier = {
         max_absolutism = 15
         yearly_absolutism = 1
@@ -98,8 +86,8 @@ bonus = {
 
 bonus = {
     key = crown_land_level_8
-    range_from = 70.0
-    range_to = 85.0
+    range_from = 75.0
+    range_to = 100.0
     modifier = {
         max_absolutism = 20
         yearly_absolutism = 1
@@ -111,7 +99,7 @@ bonus = {
 
 bonus = {
     key = crown_land_level_9
-    range_from = 85.0
+    range_from = 100.0
     range_to = 9001.0
     modifier = {
         max_absolutism = 25
