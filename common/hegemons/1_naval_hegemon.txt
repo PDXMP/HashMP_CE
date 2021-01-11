@@ -15,12 +15,11 @@ naval_hegemon = {
 	# At max 100% tickup.
 	scale = {
 		reduced_liberty_desire = 20
-		global_sailors_modifier = 2.0
 		blockade_efficiency = 2.0
 	}
 	
 	max = {
-		backrow_artillery_damage = 0.20
+		global_sailors_modifier = 0.33
 	}
 	
 }
