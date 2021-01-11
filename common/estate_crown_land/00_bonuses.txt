@@ -6,9 +6,9 @@ bonus = {
     range_to = 1.0
     modifier = {
         max_absolutism = -50
-        global_autonomy = 0.5
+        global_autonomy = 0.4
         liberty_desire_from_subject_development = 1.5
-        global_tax_modifier = -0.4
+        global_tax_modifier = -0.2
     }
 }
 
@@ -17,10 +17,10 @@ bonus = {
     range_from = 1.0
     range_to = 5.0
     modifier = {
-        max_absolutism = -50
-        global_autonomy = 0.4
-        liberty_desire_from_subject_development = 1.5
-        global_tax_modifier = -0.4
+        max_absolutism = -40
+        global_autonomy = 0.3
+        liberty_desire_from_subject_development = 1.0
+        global_tax_modifier = -0.2
     }
 }
 
