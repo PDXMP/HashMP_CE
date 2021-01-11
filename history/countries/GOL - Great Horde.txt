@@ -12,9 +12,9 @@ religious_school = hanafi_school
 	monarch = {
 		name = "Küchük Muhammad"
 		dynasty = "Genghisid"
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 1
+		dip = 1
+		mil = 2
 	}
 }
 
@@ -26,9 +26,9 @@ religious_school = hanafi_school
 		birth_date = 1435.1.1
 		death_date = 1481.1.6
 		claim = 90
-		adm = 3
+		adm = 1
 		dip = 3
-		mil = 3
+		mil = 2
 	}
 }
 
