@@ -315,4 +315,134 @@ country_decisions = {
 			country_event = { id = hashmp.9 } #Regency Event
 		}
 	}		
+	
+	h_lot_formation = {
+		potential = {
+			ai = no
+			tag = BUR
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						area = alsace_area
+						area = lower_rhineland_area
+						area = north_rhine_area
+						area = lorraine_area
+						area = wallonia_area
+						area = brabant_area
+						area = north_brabant_area
+						area = holland_area
+						area = frisia_area
+					}
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 25 #out of 34
+								is_core = root
+								OR = {
+									area = alsace_area
+									area = lower_rhineland_area
+									area = north_rhine_area
+									area = lorraine_area
+									area = wallonia_area
+									area = brabant_area
+									area = north_brabant_area
+									area = holland_area
+									area = frisia_area
+								}
+							}
+						}
+					}
+				}
+				province_id = 1878
+				province_id = 189
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			owns_core_province = 1878
+			owns_core_province = 189
+			num_of_owned_provinces_with = {
+				value = 25 #out of 34
+				is_core = root
+				OR = {
+					area = alsace_area
+					area = lower_rhineland_area
+					area = north_rhine_area
+					area = lorraine_area
+					area = wallonia_area
+					area = brabant_area
+					area = north_brabant_area
+					area = holland_area
+					area = frisia_area
+				}
+			}
+		}
+		effect = {
+			country_event = { id = new_flavour_bur.4 }
+
+			upper_rhineland_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			palatinate_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			hesse_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			westphalia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			north_westphalia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			weser_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lower_saxony_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			braunschweig_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+			
 }
