@@ -317,6 +317,7 @@ country_decisions = {
 	}		
 	
 	h_lot_formation = {
+		major = yes
 		potential = {
 			ai = no
 			tag = BUR
