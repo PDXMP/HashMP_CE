@@ -2658,7 +2658,7 @@ estate_maratha_levies = {
 	}
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.25
-		global_manpower_modifier = 0.8
+		global_manpower_modifier = 0.5
 	}
 	penalties = {
 	}
