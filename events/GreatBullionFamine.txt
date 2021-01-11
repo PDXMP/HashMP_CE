@@ -20,6 +20,7 @@ country_event = {
 			trade_goods = gold
 		}
 		NOT = { is_year = 1490 }
+		always = no
 	}
 	
 	mean_time_to_happen = {
