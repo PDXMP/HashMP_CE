@@ -1,18 +1,17 @@
 #127 - Sardinia
 
-owner = GEN
-controller = GEN
+owner = SAR
+controller = SAR
 culture = sardinian 
 religion = catholic 
 hre = yes
-base_tax = 2
+base_tax = 3
 base_production = 3
 trade_goods = fish
 base_manpower = 2
 capital = "Sassari" 
 is_city = yes 
 add_core = SAR
-add_core = GEN
 
 
 
