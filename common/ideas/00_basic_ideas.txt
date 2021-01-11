@@ -589,6 +589,7 @@ maritime_ideas = {
 
 	bonus = {
 		sea_repair = yes
+		allowed_marine_fraction = 0.10
 	}
 
 	sea_hawks = {
@@ -960,6 +961,7 @@ naval_ideas = {
 
 	bonus = {
 		global_naval_engagement_modifier = 0.1
+		allowed_marine_fraction = 0.10
 	}
 
 	boarding_parties = {
