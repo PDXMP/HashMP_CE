@@ -14792,7 +14792,7 @@ LOT_ideas = {
 		trade_efficiency = 0.1
 	}
 	lot_carolingian_renaissance_II = {
-		idea_cost = -0.1
+		idea_cost = -0.05
 	}
 	lot_court_of_europe = {
 		prestige = 0.5
