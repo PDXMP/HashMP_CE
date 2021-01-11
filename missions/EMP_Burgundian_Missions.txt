@@ -553,7 +553,7 @@ emp_burgundy_3 = {
 				tooltip = bur_subjects.tooltip
 				NOT = {
 					any_subject_country = {
-						liberty_desire = 1
+						liberty_desire = 20
 					}
 				}
 			}
