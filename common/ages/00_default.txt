@@ -117,7 +117,7 @@ age_of_discovery = {
 			}
 			modifier = {
 				war_exhaustion = -0.05
-				global_autonomy = -0.03
+				global_autonomy = -0.05
 			}
 			ai_will_do = {
 				factor = 10
