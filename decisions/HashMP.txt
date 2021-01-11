@@ -387,5 +387,21 @@ country_decisions = {
 			country_event = { id = new_flavour_bur.4 }
 		}
 	}
+	
+	h_promote_colonel = {
+		potential = {
+			ai = no
+			NOT = { has_country_flag = h_colonel_flag }
+		}
+		allow = {
+			mil_power = 25
+		}
+		effect = {
+			add_years_of_income = -0.1
+			add_mil_power = -25
+			create_general = { tradition = 50 }
+			set_country_flag = h_colonel_flag
+		}
+	}
 			
 }
