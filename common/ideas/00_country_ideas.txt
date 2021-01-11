@@ -14774,7 +14774,7 @@ LOT_ideas = {
 	}
 	
 	bonus = {
-		ae_impact = -0.1
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -14795,11 +14795,11 @@ LOT_ideas = {
 		idea_cost = -0.1
 	}
 	lot_court_of_europe = {
-		prestige = 0.5
+		prestige = 1
 		advisor_pool = 1
 	}
 	lot_land_of_abbeys = {
-		missionaries = 1
+		development_cost = -0.1
 	}
 	lot_european_empire = {
 		core_creation = -0.2
