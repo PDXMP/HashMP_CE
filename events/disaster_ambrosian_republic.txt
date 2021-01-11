@@ -57,7 +57,7 @@ country_event = {
 	option = {
 		name = ambrosian_republic.1.a
 		add_stability = 1
-		add_prestige = 20
+		add_prestige = 25
 	}
 }
 
