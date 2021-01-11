@@ -132,31 +132,9 @@ hussite_rebels = {
 	siege_won_effect = {
 		custom_tooltip = religious_rebels_seige_effect_tooltip
 		hidden_effect = {
-			if = {
-				limit = {
-					OR = {
-						religion = hussite
-						is_reformation_center = yes
-						owner = { religion = hussite }
-					}
-				}
-				add_province_modifier = {
-					name = "religious_violence"
-					duration = 730
-				}
-			}
-			if = {
-				limit = {
-					NOT = { religion = hussite }
-					is_reformation_center = no
-					NOT = { owner = { religion = hussite } }
-				}
-				change_religion = hussite
-				add_province_modifier = {
-					name = "forced_conversion"
-					duration = 730
-				}
-			}
+		add_province_modifier = {
+			name = "religious_violence"
+			duration = 730
 		}
 		owner = {
 			change_estate_land_share = {
