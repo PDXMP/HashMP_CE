@@ -149,22 +149,15 @@ alliance = {
 	end_date = 1800.1.1
 }
 
-# Kristian I of Denmark and Dorothea of Brandenburg
-royal_marriage = {
-	first = DAN
-	second = BRA
-	start_date = 1453.1.1
-	end_date = 1481.5.21
-}
-
+# John Cicero and Margarethe of Saxony
 # Frederick I of Denmark and Anna of Brandenburg
+# Joachim I of Brandenburg and Elizabeth Oldenburg
 royal_marriage = {
 	first = DAN
 	second = BRA
-	start_date = 1502.1.1
-	end_date = 1514.5.5
+	start_date = 1476.8.25
+	end_date = 1535.7.11
 }
-
 
 # Johan III of Sweden and Catherine Jagellonica of Poland
 royal_marriage = {
