@@ -655,3 +655,7 @@
  h_promote_colonel_title:0 "Promote Colonel"
  h_promote_colonel_desc:0 "We have need of a new leader for our armies. Luckily, there's a perfect candidate in the form of a promising young colonel."
  disaster_active_for_5_years_tooltip:0 "Disaster has been active for 5 years."
+ hashmp.13.t:0 "Hussite Inquiry"
+ hashmp.13.d:0 "The Hussites, also known as the Followers of Jan Hus, have sent emissaries to our court. According to them, they're looking for a new homeland and are willing to lend our sovereign their support in exchange for acceptance."
+ hashmp.13.a:0 "For Jan Hus!"
+ hashmp.13.b:0 "Get these heretics out of my sight."
