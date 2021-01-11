@@ -1313,8 +1313,8 @@ BUR_Ideas = {
 		global_own_trade_power = 0.10
 	}
 	bur_regimental_system = {
-		global_manpower_modifier = 0.25
-		global_sailors_modifier = 0.20
+		global_manpower_modifier = 0.2
+		global_sailors_modifier = 0.2
 	}
 }
 
