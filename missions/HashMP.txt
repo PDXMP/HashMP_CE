@@ -98,40 +98,40 @@
 
 #Switzerland
 
-h_swi_missions = {
-
-	slot = 1
-	generic = no
-	ai = yes
-	
-	potential = {
-		tag = SWI
-	}
-	has_country_shield = yes
-
-	h_switzerland_mission_1 = { #Guilds of Zurich
-		icon = mission_hanseatic_city
-		required_missions = { }
-		position = 1
-		
-		trigger = {
-			1869 = {
-				owned_by = ROOT
-				province_has_center_of_trade_of_level  = 3
-			}
-			1876 = {
-				is_strongest_trade_power = ROOT
-			}
-		}
-		
-		effect = {
-			1869 = {
-				add_base_production = 5
-				change_trade_goods = cloth
-			}
-		}
-	}
-}
+#h_swi_missions = {
+#
+#	slot = 1
+#	generic = no
+#	ai = yes
+#	
+#	potential = {
+#		tag = SWI
+#	}
+#	has_country_shield = yes
+#
+#	h_switzerland_mission_1 = { #Guilds of Zurich
+#		icon = mission_hanseatic_city
+#		required_missions = { }
+#		position = 1
+#		
+#		trigger = {
+#			1869 = {
+#				owned_by = ROOT
+#				province_has_center_of_trade_of_level  = 3
+#			}
+#			1876 = {
+#				is_strongest_trade_power = ROOT
+#			}
+#		}
+#		
+#		effect = {
+#			1869 = {
+#				add_base_production = 5
+#				change_trade_goods = cloth
+#			}
+#		}
+#	}
+#}
 
 h_qar_missions = {
 
