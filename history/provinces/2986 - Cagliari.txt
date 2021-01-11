@@ -1,5 +1,9 @@
 # - Cagliari
 
+latent_trade_goods = {
+	coal
+}
+
 owner = GEN
 controller = GEN
 culture = sardinian 
