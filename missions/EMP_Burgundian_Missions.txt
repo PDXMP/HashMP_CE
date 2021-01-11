@@ -1897,113 +1897,12 @@ emp_burgundy_5 = {
 		icon = the_crown_of_lothair
 		required_missions = { emp_bur_join_the_empire }
 
-		provinces_to_highlight = {
-			OR = {
-				AND = {
-					OR = {
-						area = alsace_area
-						area = lower_rhineland_area
-						area = north_rhine_area
-						area = lorraine_area
-						area = wallonia_area
-						area = brabant_area
-						area = north_brabant_area
-						area = holland_area
-						area = frisia_area
-					}
-					NOT = {
-						ROOT = {
-							num_of_owned_provinces_with = {
-								value = 25 #out of 34
-								is_core = root
-								OR = {
-									area = alsace_area
-									area = lower_rhineland_area
-									area = north_rhine_area
-									area = lorraine_area
-									area = wallonia_area
-									area = brabant_area
-									area = north_brabant_area
-									area = holland_area
-									area = frisia_area
-								}
-							}
-						}
-					}
-				}
-				province_id = 1878
-				province_id = 189
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
-		}
-
 		trigger = {
 			is_at_war = no
-			owns_core_province = 1878
-			owns_core_province = 189
-			num_of_owned_provinces_with = {
-				value = 25 #out of 34
-				is_core = root
-				OR = {
-					area = alsace_area
-					area = lower_rhineland_area
-					area = north_rhine_area
-					area = lorraine_area
-					area = wallonia_area
-					area = brabant_area
-					area = north_brabant_area
-					area = holland_area
-					area = frisia_area
-				}
-			}
-
-			#just in case (but hidden for a normal run)
-			if = {
-				limit = {
-					NOT = { tag = LOT }
-					OR = {
-						exists = LOT
-						is_free_or_tributary_trigger = no
-						is_nomad = yes
-						normal_or_historical_nations = no
-						was_never_end_game_tag_trigger = no
-						AND = {
-							ai = yes
-							is_playing_custom_nation = yes
-						}
-						is_colonial_nation = yes
-						AND = {
-							is_former_colonial_nation = yes
-							ai = yes
-						}
-					}
-				}
-				NOT = { exists = LOT }
-				is_free_or_tributary_trigger = yes
-				is_nomad = no
-				normal_or_historical_nations = yes
-				was_never_end_game_tag_trigger = yes
-				OR = {
-					ai = no
-					is_playing_custom_nation = no
-				}
-				is_colonial_nation = no
-				OR = {
-					is_former_colonial_nation = no
-					AND = {
-						is_former_colonial_nation = yes
-						ai = no
-					}
-				}
-			}
+			tag = LOT
 		}
 
 		effect = {
-			country_event = { id = new_flavour_bur.4 }
-
 			upper_rhineland_area = {
 				limit = {
 					NOT = { is_core = ROOT }
