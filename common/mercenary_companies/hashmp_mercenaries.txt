@@ -5,7 +5,7 @@
 ########################################
 
 h_merc_lothair = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -19,7 +19,7 @@ h_merc_lothair = {
 }
 
 h_merc_likedeelers = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -33,7 +33,7 @@ h_merc_likedeelers = {
 }
 
 h_merc_jaegers = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -47,7 +47,7 @@ h_merc_jaegers = {
 }
 
 h_merc_landsknecht = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -61,7 +61,7 @@ h_merc_landsknecht = {
 }
 
 h_merc_hessian = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -75,7 +75,7 @@ h_merc_hessian = {
 }
 
 h_merc_teuton = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -89,7 +89,7 @@ h_merc_teuton = {
 }
 
 h_merc_hanseatic = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -103,7 +103,7 @@ h_merc_hanseatic = {
 }
 
 h_merc_ruthenians = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -117,7 +117,7 @@ h_merc_ruthenians = {
 }
 
 h_merc_carolean = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -131,7 +131,7 @@ h_merc_carolean = {
 }
 
 h_merc_cossacks = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -145,7 +145,7 @@ h_merc_cossacks = {
 }
 
 h_merc_hussars = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -159,7 +159,7 @@ h_merc_hussars = {
 }
 
 h_merc_khyber = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -173,7 +173,7 @@ h_merc_khyber = {
 }
 
 h_merc_omani = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -187,7 +187,7 @@ h_merc_omani = {
 }
 
 h_merc_immortals = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -201,7 +201,7 @@ h_merc_immortals = {
 }
 
 h_merc_catalan = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -215,7 +215,7 @@ h_merc_catalan = {
 }
 
 h_merc_almohad = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -229,7 +229,7 @@ h_merc_almohad = {
 }
 
 h_merc_bluehorde = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -243,7 +243,7 @@ h_merc_bluehorde = {
 }
 
 h_merc_timur = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -257,7 +257,7 @@ h_merc_timur = {
 }
 
 h_merc_gharbian = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -271,7 +271,7 @@ h_merc_gharbian = {
 }
 
 h_merc_lahore = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -285,7 +285,7 @@ h_merc_lahore = {
 }
 
 h_merc_deccani = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -299,7 +299,7 @@ h_merc_deccani = {
 }
 
 h_merc_sipahi = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -313,7 +313,7 @@ h_merc_sipahi = {
 }
 
 h_merc_sikh = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -327,7 +327,7 @@ h_merc_sikh = {
 }
 
 h_merc_moro = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -341,7 +341,7 @@ h_merc_moro = {
 }
 
 h_merc_angkor = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -355,7 +355,7 @@ h_merc_angkor = {
 }
 
 h_merc_pasai = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -369,7 +369,7 @@ h_merc_pasai = {
 }
 
 h_merc_xian = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -383,7 +383,7 @@ h_merc_xian = {
 }
 
 h_merc_pahlawan = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -397,7 +397,7 @@ h_merc_pahlawan = {
 }
 
 h_merc_jianzhou = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -411,7 +411,7 @@ h_merc_jianzhou = {
 }
 
 h_merc_banner = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.05
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
