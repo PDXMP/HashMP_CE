@@ -182,7 +182,7 @@ merc_routiers = {
     #home_province = 170
 	sprites = { dlc001_bri_sprite_pack dlc087_bri_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		tag = 
+		always = no
 	}
 }
 
@@ -192,7 +192,7 @@ merc_bascoli = {
     #home_province = 173
 	sprites = { dlc001_amg_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack }
     trigger = {
-		tag = 
+		always = no
 	}
 }
 	
@@ -205,7 +205,7 @@ merc_levends = {
     #home_province = 4754
 	sprites = { easterngfx_sprite_pack }
     trigger = {
-		tag = 
+		always = no
 	}
 	modifier = { }
 }
@@ -216,7 +216,7 @@ merc_stratioti = {
     #home_province = 4174
 	sprites = { easterngfx_sprite_pack }
     trigger = {	
-		tag = 
+		tag = BYZ
 	}
 	modifier = { }
 }
@@ -230,7 +230,7 @@ merc_morlachs = {
     #home_province = 1826
 	sprites = { easterngfx_sprite_pack }
     trigger = {
-		tag = 
+		always = no
 	}
 	modifier = { }
 }
@@ -244,7 +244,7 @@ merc_guardia_corsa = {
     #home_province = 1247
 	sprites = { sav_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = SPI
 	}
 	modifier = { }
 }
@@ -259,7 +259,7 @@ merc_hadjuks = {
     cost_modifier = 0.75
 	sprites = { easterngfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = HUN
 	}
 	modifier = { }
 }
@@ -273,7 +273,7 @@ merc_gallowglasses = {
     #home_province = 4380
 	sprites = { dlc087_ire_sprite_pack lei_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		tag = 
+		always = no
 	}
 	modifier = {
         discipline = 0.025
@@ -287,7 +287,7 @@ merc_redshanks = {
     #home_province = 4364
 	sprites = { dlc087_sco_sprite_pack dlc001_sco_sprite_pack sco_base_sprite_pack westerngfx_sprite_pack }
     trigger = { 
-		tag = 
+		always = no
 	}
 	modifier = {
 		shock_damage = 0.05
@@ -303,7 +303,7 @@ merc_scottish_guard = {
     #home_province = 252
 	sprites = { dlc087_sco_sprite_pack dlc001_sco_sprite_pack sco_base_sprite_pack westerngfx_sprite_pack }
     trigger = { 
-		tag = 
+		always = no
 	}
 	modifier = {
         fire_damage_received = -0.05
@@ -316,7 +316,7 @@ merc_seimeni = {
     #home_province = 157
 	sprites = { easterngfx_sprite_pack }
     trigger = { 
-		tag = 
+		always = no
 	}
 }
 
@@ -326,7 +326,7 @@ merc_armatoles = {
     #home_province = 1853
 	sprites = { dlc006_byz_sprite_pack easterngfx_sprite_pack }
     trigger = { 
-		tag = 
+		always = no
 	}
 }
 
@@ -335,7 +335,7 @@ merc_white_company = {
     #home_province = 236
 	sprites = { dlc049_ENG_sprite_pack dlc042_eng_sprite_pack dlc028_eng_sprite_pack eng_base_sprite_pack }
     trigger = { 
-		tag = 
+		tag = ENG
 	}
 	modifier = { }
 }
@@ -348,7 +348,7 @@ merc_flemish_company = {
     #home_province = 90
 	sprites = { dlc042_ned_sprite_pack dlc028_ned_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = BUR
 	}
 	modifier = {
         infantry_power = 0.05
@@ -361,7 +361,7 @@ merc_forlorn_hope = {
 	cost_modifier = 1.2
 	sprites = { dlc049_ENG_sprite_pack dlc042_eng_sprite_pack dlc028_eng_sprite_pack eng_base_sprite_pack }
     trigger = {	
-		tag = 
+		tag = GBR
 	}
 	modifier = {
 		reinforce_speed = -0.25
@@ -377,7 +377,7 @@ merc_buccaneer_battalion = {
     cost_modifier = 0.67
 	sprites = { dlc098_nss_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		tag = 
+		always = no
 	}
 	modifier = {
 		discipline = -0.025
@@ -391,7 +391,7 @@ merc_bandeirantes = {
     cost_modifier = 0.8
 	sprites = { dlc011_por_sprite_pack dlc042_por_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = POR
 	}
 	modifier = {
 		discipline = -0.025
@@ -408,7 +408,7 @@ merc_huai_army = {
     #home_province = 688
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
-		tag = 
+		tag = WUU
 	}
 	modifier = { }
 }
@@ -422,7 +422,7 @@ merc_xiang_army = {
     #home_province = 2174
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
-		tag = 
+		tag = CXI
 	}
 	modifier = { }
 }
@@ -437,7 +437,7 @@ merc_wolf_troops = {
     #home_province = 2164
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
-		tag = 
+		tag = YUE
 	}
 	modifier = {
         shock_damage = 0.1
@@ -453,7 +453,7 @@ merc_shanxi_guard = {
     #home_province = 2177
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = { 
-		tag = 
+		tag = QIC
 	}
 	modifier = { }
 }
@@ -467,7 +467,7 @@ merc_yongning_warriors = {
     #home_province = 4213
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = { 
-		tag = 
+		tag = CYI
 	}
 	modifier = { }
 }
@@ -478,7 +478,7 @@ merc_kanto_ronin = {
     #home_province = 1028
 	sprites = { dlc068_jap_sprite_pack jap_base_sprite_pack }
     trigger = {
-		tag = 
+		tag = JAP
 	}
 	modifier = { }
 }
@@ -489,7 +489,7 @@ merc_kyushu_wokou = {
     #home_province = 1818
 	sprites = { dlc067_smz_sprite_pack jap_base_sprite_pack }
     trigger = {
-		tag = 
+		always = no
 	}
 	modifier = { }
 }
@@ -500,7 +500,7 @@ merc_shikoku_yojimbo = {
     #home_province = 1819
 	sprites = { dlc067_hsk_sprite_pack jap_base_sprite_pack }
     trigger = {	
-		tag = 
+		tag = UES
 	}
 	modifier = { }
 }
@@ -511,7 +511,7 @@ merc_purbiyas = {
     #home_province = 555
 	sprites = { dlc092_jnp_sprite_pack dlh_base_sprite_pack }
     trigger = {
-		tag = 
+		tag = RJP
 	}
 	modifier = { }
 }
@@ -524,7 +524,7 @@ merc_gorkhalis = {
     cost_modifier = 1.5
 	sprites = { dlc091_npl_sprite_pack indiangfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = BHA
 	}
 	modifier = {
         infantry_power = 0.05
@@ -558,7 +558,7 @@ merc_tamil_company = {
     #home_province = 2085 # Tiruchirappalli
 	sprites = { dlc024_vij_sprite_pack vij_base_sprite_pack }
     trigger = {
-		tag = 
+		tag = VIJ
 	}
 	modifier = { }
 }
@@ -568,7 +568,7 @@ merc_company_of_the_ganges = {
     #home_province = 4497 # Kannauj
 	sprites = { dlc092_jnp_sprite_pack dlh_base_sprite_pack }
     trigger = {
-		tag = 
+		tag = BNG
 	}
 	modifier = { }
 }
@@ -582,7 +582,7 @@ merc_banjara_company = {
 	#home_province = 514
 	sprites = { dlc091_mer_sprite_pack indiangfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = MER
 	}
 	modifier = { }
 }
@@ -596,7 +596,7 @@ merc_bukhara_band = {
 	#home_province = 442
 	sprites = { dlc048_tim_sprite_pack muslimgfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = BUK
 	}
 	modifier = { }
 }
@@ -611,7 +611,7 @@ merc_mesopotamian_mamluks = {
 	cost_modifier = 1.1
 	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = ILK
 	}
     modifier = {
         cavalry_shock = 1.0
@@ -628,7 +628,7 @@ merc_nile_mamluks = {
 	cost_modifier = 1.5
 	sprites = { dlc002_mam_sprite_pack dlc058_mam_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = MAM
 	}
     modifier = {
         cavalry_power = 0.1
@@ -644,7 +644,7 @@ merc_delhi_mamluks = {
     #home_province = 522
 	sprites = { dlh_base_sprite_pack }
 	trigger = { 
-		tag = 
+		tag = DLH
 	}
     modifier = { }
 }
@@ -654,7 +654,7 @@ merc_zeybeks = {
     #home_province = 318
 	sprites = { dlc002_tur_sprite_pack dlc042_tur_sprite_pack tur_base_sprite_pack }
 	trigger = {
-		tag = 
+		tag = RUM
 	}
     modifier = { }
 }
@@ -664,7 +664,7 @@ merc_sekban = {
     #home_province = 324
 	sprites = { dlc002_tur_sprite_pack dlc042_tur_sprite_pack tur_base_sprite_pack }
 	trigger = {
-		tag = 
+		tag = TUR
 	}
     modifier = { }
 }
@@ -675,7 +675,7 @@ merc_zanj_company = {
     #home_province = 1199
 	sprites = { dlc057_zan_sprite_pack africangfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -686,7 +686,7 @@ merc_madagascar_company = {
     #home_province = 1792
 	sprites = { africangfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = RZW
 	}
     modifier = { }
 }
@@ -698,7 +698,7 @@ merc_sahel_company = {
 	cost_modifier = 1.1
 	sprites = { dlc062_tmb_sprite_pack africangfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = SON
 	}
     modifier = {
 		movement_speed = 0.1
@@ -715,7 +715,7 @@ merc_asafo_company = {
 	cost_modifier = 1.1
 	sprites = { dlc062_msi_sprite_pack africangfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = MAL
 	}
     modifier = {
         land_morale = 0.05
@@ -728,7 +728,7 @@ merc_nubian_company = {
     #home_province = 2798
 	sprites = { dlc057_nub_sprite_pack africangfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = ETH
 	}
     modifier = { }
 }
@@ -740,7 +740,7 @@ merc_tonkinese_army = {
 	sprites = { dlc041_dai_sprite_pack dlc090_south_east_asian_elephant_sprite_pack asiangfx_sprite_pack }
 	cost_modifier = 1.1
 	trigger = {
-		tag = 
+		tag = KHM
 	}
     modifier = {
 		land_attrition = -0.2
@@ -757,7 +757,7 @@ merc_mongol_mercenaries = {
 	cost_modifier = 1.5
 	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = YUA
 	}
     modifier = {
         cavalry_power = 0.2
@@ -770,7 +770,7 @@ merc_royal_circassian_guards = {
     #home_province = 463 # Circassia proper
 	sprites = { dlc047_cir_sprite_pack easterngfx_sprite_pack }
 	trigger = { 
-		tag = 
+		always = no
 	}
     modifier = {
 		prestige_from_land = 0.15
@@ -785,7 +785,7 @@ merc_bedouin_auxiliaries = {
     #home_province = 383 # Tabuk
 	sprites = { dlc080_shm_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = ARB
 	}
     modifier = { }
 }
@@ -795,7 +795,7 @@ merc_kurdish_company = {
     #home_province = 4293 # Arbil
 	sprites = { dlc079_hsn_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = QAR
 	}
     modifier = { }
 }
@@ -805,7 +805,7 @@ merc_laz_auxiliaries = {
     #home_province = 2196 # Guria
 	sprites = { easterngfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -815,7 +815,7 @@ merc_tabarestan_company = {
     #home_province = 417 # Lahijan
 	sprites = { dlc079_tab_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = KHO
 	}
     modifier = { }
 }
@@ -825,7 +825,7 @@ merc_novgorod_company = {
     #home_province = 310 # Novogorod
 	sprites = { dlc020_nov_sprite_pack rus_base_sprite_pack easterngfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = MOS
 	}
     modifier = { }
 }
@@ -835,7 +835,7 @@ merc_crimean_company = {
     #home_province = 284 # Crimea
 	sprites = { dlc047_cri_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -847,7 +847,7 @@ merc_buryat_band = {
     #home_province = 1058 # Onan Gol
 	sprites = { asiangfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = MJZ
 	}
     modifier = {
         movement_speed = 0.1
@@ -860,7 +860,7 @@ merc_lithuanian_company = {
     #home_province = 272 # Vilnius
 	sprites = { dlc003_lit_sprite_pack dlc074_lit_sprite_pack easterngfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = LIT
 	}
     modifier = { }
 }
@@ -871,7 +871,7 @@ merc_frisian_free_company = {
     cost_modifier = 1.2
 	sprites = { dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = NED
 	}
     modifier = {
         reserves_organisation = 0.05
@@ -885,7 +885,7 @@ merc_finnish_company = {
     #home_province = 28 # Nyland
 	sprites = { swe_base_sprite_pack westerngfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = SCA
 	}
     modifier = { }
 }
@@ -897,7 +897,7 @@ merc_almogavars = {
     cost_modifier = 1.1
 	sprites = { dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = SPA
 	}
     modifier = {
         movement_speed = 0.15
@@ -909,7 +909,7 @@ merc_moorish_battalion = {
     #home_province = 343 # Fez
 	sprites = { dlc058_mor_sprite_pack muslimgfx_sprite_pack }
 	trigger = { 
-		tag = 
+		tag = MOR
 	}
     modifier = { }
 }
@@ -919,7 +919,7 @@ merc_kutai_company = {
 	#home_province = 638 # Kutai
 	sprites = { asiangfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = MJP
 	}
     modifier = { }
 }
@@ -930,7 +930,7 @@ merc_miquelet_company = {
 	cost_modifier = 1.1
 	sprites = { dlc098_nav_sprite_pack dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = CAS
 	}
     modifier = {
 		movement_speed = 0.1
@@ -943,7 +943,7 @@ merc_free_company_of_volunteers = {
     #home_province = 4579 # Sayula
 	sprites = { dlc011_spa_sprite_pack westerngfx_sprite_pack }
 	trigger = { 
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -956,7 +956,7 @@ merc_crabats = {
 	#cavalry_cap = 6
 	sprites = { easterngfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = VEN
 	}
 	modifier = { }
 }
@@ -967,7 +967,7 @@ merc_free_swiss_guard = {
 	cost_modifier = 1.5
 	sprites = { westerngfx_sprite_pack }
     trigger = { 
-		tag = 
+		always = no
 	}
 	modifier = {
         discipline = 0.05
@@ -981,7 +981,7 @@ merc_colonial_rangers = {
 	#artillery_weight = 0.0
 	sprites = { dlc016_eng_sprite_pack westerngfx_sprite_pack }
 	trigger = { 
-		tag = 
+		always = no
 	}
     modifier = {
 		movement_speed = 0.1
@@ -997,7 +997,7 @@ merc_independent_cossack_host = {
 	#cavalry_cap = 6
 	sprites = { dlc047_zaz_sprite_pack easterngfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = UKR
 	}
     modifier = { }
 }
@@ -1009,7 +1009,7 @@ merc_kazakh_company = {
 	#cavalry_cap = 6
 	sprites = { dlc048_shy_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = SHY
 	}
     modifier = { }
 }
@@ -1019,7 +1019,7 @@ merc_yaka_free_warriors = {
     #home_province = 4085
 	sprites = { africangfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -1029,7 +1029,7 @@ merc_great_lakes_free_warriors = {
     #home_province = 4064
 	sprites = { africangfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = KON
 	}
     modifier = { }
 }
@@ -1039,7 +1039,7 @@ merc_thai_company = {
     #home_province = 600
 	sprites = { ayu_base_sprite_pack }
 	trigger = {
-		tag = 
+		tag = TAU
 	}
     modifier = { }
 }
@@ -1049,7 +1049,7 @@ merc_yucatan_company = {
     #home_province = 2633 # Ceh Pech
 	sprites = { dlc035_may_sprite_pack southamericagfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -1059,7 +1059,7 @@ merc_misquito_coast_company = {
     #home_province = 838
 	sprites = { dlc034_tpa_sprite_pack southamericagfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -1069,7 +1069,7 @@ merc_navajo_raiders = {
     #home_province = 878 # Navajo
 	sprites = { dlc015_nah_sprite_pack northamericagfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -1079,7 +1079,7 @@ merc_chonnonton_warriors = {
     #home_province = 2586
 	sprites = { dlc012_hur_sprite_pack northamericagfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -1090,7 +1090,7 @@ merc_inuit_warriors = {
 	cost_modifier = 1.1
 	sprites = { inuitgfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { shock_damage = 0.1 }
 }
@@ -1101,7 +1101,7 @@ merc_free_mohawks = {
 	cost_modifier = 1.1
 	sprites = { dlc012_iro_sprite_pack northamericagfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = {
 		land_morale = 0.05
@@ -1113,7 +1113,7 @@ merc_muscogee_mercenaries = {
     #home_province = 925
 	sprites = { dlc012_cre_sprite_pack northamericagfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -1123,7 +1123,7 @@ merc_quito_company = {
     #home_province = 820
 	sprites = { dlc034_inc_sprite_pack southamericagfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -1133,7 +1133,7 @@ merc_silver_company = {
     #home_province = 795
 	sprites = { dlc034_inc_sprite_pack southamericagfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
     modifier = { }
 }
@@ -1146,7 +1146,7 @@ merc_dahomey_amazons = {
     #home_province = 1140
 	sprites = { dlc062_ben_sprite_pack africangfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = SOK
 	}
     modifier = {
         may_recruit_female_generals = yes
@@ -1162,7 +1162,7 @@ merc_gascon_musket_company = {
     cost_modifier = 1.2
 	sprites = { dlc001_amg_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack }
     trigger = {
-		tag = 
+		tag = FRA
 	}
 	modifier = {
         infantry_fire = 0.5
@@ -1174,7 +1174,7 @@ merc_tyrolean_guard = {
     #home_province = 4758
 	sprites = { dlc053_hab_sprite_pack dlc029_hab_sprite_pack hab_base_sprite_pack }
     trigger = {
-		tag = 
+		tag = HAB
 	}
 	modifier = { }
 }
@@ -1187,7 +1187,7 @@ merc_mongol_banner = {
 	#home_province = 718
 	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		tag = 
+		tag = MGE
 	}
 	cost_modifier = 1.1
 	modifier = {
@@ -1200,7 +1200,7 @@ merc_swiss_canton_mercenaries = {
 	#home_province = 165
 	sprites = { westerngfx_sprite_pack }
 	trigger = {
-		tag = 
+		always = no
 	}
 	cost_modifier = 0.75
 	modifier = {
