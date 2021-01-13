@@ -32,7 +32,7 @@ h_merc_likedeelers = {
 	}
 }
 
-h_merc_magyar = {
+h_merc_jaegers = {
 	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
