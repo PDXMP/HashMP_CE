@@ -1219,7 +1219,7 @@ merc_gosains = {
     #home_province = 523
 	sprites = { dlc092_jnp_sprite_pack indiangfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = MUG
 	}
 	modifier = {
         land_morale = 0.05
