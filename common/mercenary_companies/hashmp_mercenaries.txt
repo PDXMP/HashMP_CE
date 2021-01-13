@@ -1,0 +1,425 @@
+########################################
+# Custom mercenaries for the HashMP CE Multiplayer mod
+#
+# by Foffy123
+########################################
+
+h_merc_lothair = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_likedeelers = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_magyar = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_landsknecht = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_hessian = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_teuton = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_hanseatic = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_ruthenians = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_carolean = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_cossacks = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_hussars = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_khyber = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_omani = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_immortals = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_catalan = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_almohad = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_bluehorde = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_timur = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_gharbian = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_lahore = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_deccani = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_sipahi = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_sikh = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_moro = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_angkor = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_pasai = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_xian = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_pahlawan = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_jianzhou = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_banner = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 1.5
+	trigger = {
+		tag = 
+	}
+	modifier = {
+	
+	}
+}
