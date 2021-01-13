@@ -1596,7 +1596,7 @@ merc_kutai_company = {
 	#home_province = 638 # Kutai
 	sprites = { asiangfx_sprite_pack }
 	trigger = {
-		tag = MJP
+		tag = MAJ
 	}
     modifier = { }
 }
