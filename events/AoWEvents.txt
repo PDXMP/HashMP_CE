@@ -427,6 +427,7 @@ country_event = {
 	goto = war_province
 
 	trigger = {
+		always = no
 		is_at_war = yes
 		num_of_hired_mercenary_companies = 1
 		NOT = { has_country_modifier = curtailed_mercenaries }
