@@ -2466,11 +2466,11 @@ COR_ideas = {
 SPI_ideas = {
 	start = {
 		idea_cost = -0.1
-		improve_relation_modifier = 0.25
+		global_tax_modifier = 0.15		
 	}
 	
 	bonus = {
-		global_tax_modifier = 0.15
+		infantry_power = 0.10
 	}
 	
 	trigger = {
@@ -2490,7 +2490,7 @@ SPI_ideas = {
 	}
 	spi_royal_sardinian_army = {
 		discipline = 0.03
-		global_manpower_modifier = 0.1
+		global_manpower_modifier = 0.15
 	}
 	spi_centralized_state = {
 		development_cost = -0.05
