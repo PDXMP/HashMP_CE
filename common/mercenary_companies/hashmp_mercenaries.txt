@@ -25,7 +25,7 @@ h_merc_artillery_1 = {
 		mil_tech = 7
 	}
 	modifier = {
-		siege_ability = 0.1
+		siege_ability = 0.15
 	}
 }
 
