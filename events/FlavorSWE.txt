@@ -492,7 +492,7 @@ country_event = {
 			duration = -1
 		}
 		add_innovativeness_small_effect = yes
-		custom_tooltip = generic_more_mercs_available_indefinite_tt
+		#custom_tooltip = generic_more_mercs_available_indefinite_tt
 	}
 	option = {		# Naval Expansion
 		name = "flavor_swe.EVTOPTC3228"
