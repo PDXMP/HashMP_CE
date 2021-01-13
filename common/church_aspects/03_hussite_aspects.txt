@@ -34,6 +34,7 @@ sola_scriptura_aspect = {
 	cost = 100
 	modifier = {
 		warscore_cost_vs_other_religion = -0.1
+		ae_impact = -0.1
 	}
 }
 
