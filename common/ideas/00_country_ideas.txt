@@ -3160,7 +3160,7 @@ SWI_ideas = {
 	}
 	
 	bonus = {
-		defensiveness = 0.15
+		defensiveness = 0.2
 	}
 	
 	trigger = {
@@ -3184,6 +3184,7 @@ SWI_ideas = {
 	swiss_tolerance = {
 		tolerance_heretic = 3
 		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.20
 	}
 	haven_for_refugees = {
 		prestige = 1
