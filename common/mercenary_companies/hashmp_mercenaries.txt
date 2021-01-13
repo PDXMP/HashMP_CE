@@ -4,6 +4,42 @@
 # by Foffy123
 ########################################
 
+########################################
+# Common Mercenaries
+########################################
+
+h_test = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	#cost_modifier = 1.5
+	trigger = {
+		was_player = yes
+	}
+	modifier = {
+	
+	}
+}
+
+h_test2 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	#cost_modifier = 1.5
+	trigger = {
+		was_player = yes
+	}
+	modifier = {
+	
+	}
+}
+
+########################################
+# Unique Mercenaries
+########################################
+
 h_merc_lothair = {
 	regiments_per_development = 0.05
 	cavalry_weight = 0.0
