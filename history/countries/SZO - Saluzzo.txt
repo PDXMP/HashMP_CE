@@ -5,6 +5,7 @@ primary_culture = piedmontese
 religion = catholic
 technology_group = western
 capital = 4727 # Saluzzo
+historical_rival = FRA
 
 1405.1.1 = {
 	monarch = {
