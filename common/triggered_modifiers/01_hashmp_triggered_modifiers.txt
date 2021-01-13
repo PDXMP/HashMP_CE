@@ -397,3 +397,14 @@ t_vassal_to_horde = {
 	}
 	cav_to_inf_ratio = 0.5
 }
+
+t_over_merc_cap = {
+	potential = {
+		was_player = yes
+	}
+	trigger = {
+		num_of_hired_mercenary_companies = 6
+	}
+	mercenary_discipline = -0.1
+	merc_maintenance_modifier = 1.5
+}
