@@ -1011,7 +1011,7 @@ emp_mlo_security_branch_2 = {
 			}
 		}
 		effect = {
-			custom_tooltip = emp_mlo_fortify_alps_effects_tooltip
+			#custom_tooltip = emp_mlo_fortify_alps_effects_tooltip
 			every_owned_province = {
 				limit = {
 					OR = {
@@ -1029,35 +1029,35 @@ emp_mlo_security_branch_2 = {
 					duration = 36500
 				}
 			}
-			hidden_effect = {
-				every_owned_province = {
-					limit = {
-						OR = {
-							province_id = 4740
-							province_id = 103
-							province_id = 4727
-							province_id = 102
-							province_id = 110
-							province_id = 111
-						}
-					}
-					if = {
-						limit = { has_building = fort_17th }
-						remove_building = fort_17th
-						add_building = fort_18th
-					}
-					else_if = {
-						limit = { has_building = fort_16th }
-						remove_building = fort_16th
-						add_building = fort_17th
-					}
-					else_if = {
-						limit = { has_building = fort_15th }
-						remove_building = fort_15th
-						add_building = fort_16th
-					}
-				}
-			}
+			#hidden_effect = {
+			#	every_owned_province = {
+			#		limit = {
+			#			OR = {
+			#				province_id = 4740
+			#				province_id = 103
+			#				province_id = 4727
+			#				province_id = 102
+			#				province_id = 110
+			#				province_id = 111
+			#			}
+			#		}
+			#		if = {
+			#			limit = { has_building = fort_17th }
+			#			remove_building = fort_17th
+			#			add_building = fort_18th
+			#		}
+			#		else_if = {
+			#			limit = { has_building = fort_16th }
+			#			remove_building = fort_16th
+			#			add_building = fort_17th
+			#		}
+			#		else_if = {
+			#			limit = { has_building = fort_15th }
+			#			remove_building = fort_15th
+			#			add_building = fort_16th
+			#		}
+			#	}
+			#}
 		}
 	}
 	emp_mlo_alpine_wall = {
