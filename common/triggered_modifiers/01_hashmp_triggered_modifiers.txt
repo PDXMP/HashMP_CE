@@ -406,5 +406,5 @@ t_over_merc_cap = {
 		num_of_hired_mercenary_companies = 5
 	}
 	mercenary_discipline = -0.1
-	merc_maintenance_modifier = 1.5
+	merc_maintenance_modifier = 2
 }
