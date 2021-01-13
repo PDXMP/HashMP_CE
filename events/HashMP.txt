@@ -483,7 +483,7 @@ country_event = {
 		add_stability = -1
 		add_estate_loyalty = {
 			estate = estate_nobles
-			loyalty = 10
+			loyalty = 15
 		}
 		define_ruler = {
 			culture = ROOT
