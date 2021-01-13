@@ -403,7 +403,7 @@ t_over_merc_cap = {
 		was_player = yes
 	}
 	trigger = {
-		num_of_hired_mercenary_companies = 6
+		num_of_hired_mercenary_companies = 5
 	}
 	mercenary_discipline = -0.1
 	merc_maintenance_modifier = 1.5
