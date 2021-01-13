@@ -38,7 +38,7 @@ h_merc_cavlarge_1 = {
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
 	cavalry_cap = 25
-	cost_modifier = 0.75
+	cost_modifier = 0.7
 	trigger = {
 		total_development = 150
 	}
