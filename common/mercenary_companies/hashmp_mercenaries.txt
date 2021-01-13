@@ -210,7 +210,7 @@ h_merc_infsmall_3 = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 0.5
+	cost_modifier = 0.4
 	trigger = {
         NOT = { total_development = 150 }
 	}
@@ -224,7 +224,7 @@ h_merc_infsmall_2 = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 0.5
+	cost_modifier = 0.4
 	trigger = {
         NOT = { total_development = 150 }
 	}
@@ -238,7 +238,7 @@ h_merc_infsmall_1 = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 0.5
+	cost_modifier = 0.4
 	trigger = {
         NOT = { total_development = 150 }
 	}
