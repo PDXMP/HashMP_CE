@@ -9,7 +9,7 @@ h_merc_lothair = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = LOT
 	}
@@ -23,7 +23,7 @@ h_merc_likedeelers = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = DAN
 	}
@@ -37,7 +37,7 @@ h_merc_jaegers = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = AHU
 	}
@@ -51,7 +51,7 @@ h_merc_landsknecht = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = GER
 	}
@@ -65,7 +65,7 @@ h_merc_hessian = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = HAN
 	}
@@ -79,7 +79,7 @@ h_merc_teuton = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = PRU
 	}
@@ -93,7 +93,7 @@ h_merc_hanseatic = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = WES
 	}
@@ -107,7 +107,7 @@ h_merc_ruthenians = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = POL
 	}
@@ -121,7 +121,7 @@ h_merc_carolean = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = SWE
 	}
@@ -135,7 +135,7 @@ h_merc_cossacks = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = RUS
 	}
@@ -149,7 +149,7 @@ h_merc_hussars = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = PLC
 	}
@@ -163,7 +163,7 @@ h_merc_khyber = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = AFG
 	}
@@ -177,7 +177,7 @@ h_merc_omani = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = ORM
 	}
@@ -191,7 +191,7 @@ h_merc_immortals = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = PER
 	}
@@ -205,7 +205,7 @@ h_merc_catalan = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = TUN
 	}
@@ -219,7 +219,7 @@ h_merc_almohad = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = ADU
 	}
@@ -233,7 +233,7 @@ h_merc_bluehorde = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = GLH
 	}
@@ -247,7 +247,7 @@ h_merc_timur = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = TIM
 	}
@@ -261,7 +261,7 @@ h_merc_gharbian = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = BAH
 	}
@@ -275,7 +275,7 @@ h_merc_lahore = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = SRH
 	}
@@ -289,7 +289,7 @@ h_merc_deccani = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = DEC
 	}
@@ -303,7 +303,7 @@ h_merc_sipahi = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = HIN
 	}
@@ -317,7 +317,7 @@ h_merc_sikh = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = PUN
 	}
@@ -331,7 +331,7 @@ h_merc_moro = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = BEI
 	}
@@ -345,7 +345,7 @@ h_merc_angkor = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = KHM
 	}
@@ -359,7 +359,7 @@ h_merc_pasai = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = MLC
 	}
@@ -373,7 +373,7 @@ h_merc_xian = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = CSH
 	}
@@ -387,7 +387,7 @@ h_merc_pahlawan = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = MSA
 	}
@@ -401,7 +401,7 @@ h_merc_jianzhou = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = MCH
 	}
@@ -415,7 +415,7 @@ h_merc_banner = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 1.5
+	#cost_modifier = 1.5
 	trigger = {
 		tag = QNG
 	}
