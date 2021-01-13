@@ -6,7 +6,7 @@ merc_lombard_free_company = {
 	#cavalry_cap = 4
 	sprites = { dlc056_mlo_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		
+		tag = MLO
 	}
 	modifier = { 
 		infantry_power = 0.05
@@ -21,7 +21,7 @@ merc_tuscan_free_company = {
 	#cavalry_cap = 4
 	sprites = { dlc056_lan_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
    trigger = {
-		
+		tag = ITA
 	}
 	modifier = { 
 		infantry_power = 0.05
@@ -110,7 +110,7 @@ merc_bande_nere = {
 	#artillery_weight = 0.0
 	sprites = { dlc056_lan_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = NAP
 	}
 	modifier = {}
 }
@@ -122,7 +122,7 @@ merc_schwarze_garde = {
 	#artillery_weight = 0.0
 	sprites = { dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = BRA
 	}
 }
 
@@ -134,7 +134,7 @@ merc_doppelsoeldner = {
     cost_modifier = 1.25
 	sprites = { dlc061_wur_sprite_pack dlc028_wur_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = SWA
 	}
 	modifier = {
         infantry_power = 0.1
@@ -149,7 +149,7 @@ merc_reislaufer = {
 	#artillery_weight = 0.0
 	sprites = { westerngfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = SWI
 	}
 	modifier = {
         shock_damage_received = -0.05
@@ -166,7 +166,7 @@ merc_hessian_jaegerkorps = {
     #home_province = 1762
 	sprites = { dlc028_hes_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		tag = 
+		tag = HES
 	}
 	modifier = {
 		fire_damage_received = -0.1
