@@ -2627,7 +2627,7 @@ guardians_of_the_fountain = {
 
 mlo_milan_victorious_modifier = {
 	prestige_from_land = 1
-	ae_impact = -0.15
+	land_morale = 0.1
 }
 
 mlo_ascendant_force = {
@@ -2641,7 +2641,7 @@ mlo_mona_lisa = {
 }
 
 mlo_unified_italy = {
-	local_autonomy = -0.025
+	local_autonomy = -0.03
 	local_unrest = -2
 }
 
@@ -2655,7 +2655,7 @@ mlo_successful_ambrosian_republic = {
 }
 
 mlo_law_courts_and_university = {
-	advisor_cost = -0.15
+	advisor_cost = -0.2
 }
 
 mlo_expanded_fortifications = {
@@ -2677,8 +2677,8 @@ mlo_the_swiss_mercs = {
 }
 
 mlo_capital_of_italy = {
-	local_tax_modifier = 0.1
-	trade_value = 10
+	local_tax_modifier = 0.15
+	trade_value = 15
 	local_institution_spread = 0.15
 }
 
