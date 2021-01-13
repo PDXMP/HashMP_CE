@@ -707,3 +707,4 @@
  h_merc_cavmed_3:0 "Third Cavalry Company"
  h_merc_cavlarge_1:0 "Cavalry Army"
  h_merc_artillery_1:0 "Mercenary Sappers"
+ t_over_merc_cap:0 "Mercenary Limit Reached"
