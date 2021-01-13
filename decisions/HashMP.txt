@@ -427,5 +427,5 @@ country_decisions = {
 			set_country_flag = h_rzw_explore	
 		}
 	}
-			
+
 }
