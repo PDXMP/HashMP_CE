@@ -408,5 +408,24 @@ country_decisions = {
 			set_country_flag = h_colonel_flag
 		}
 	}
+
+	h_butua_expedition = {
+		potential = {
+			ai = no
+			NOT = { has_country_flag = h_rzw_explore }
+			tag = RZW
+		}
+		allow = {
+			dip_power = 50
+		}
+		effect = {
+			add_years_of_income = -0.1
+			add_dip_power = -50
+			central_africa_region = {
+				discover_country = ROOT
+			}
+			set_country_flag = h_rzw_explore	
+		}
+	}
 			
 }
