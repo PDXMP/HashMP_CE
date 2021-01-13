@@ -3420,12 +3420,12 @@ ven_venetian_carnevale = {
 
 ven_standardized_relazioni = {
 	spy_offence = 0.33
-	global_spy_defence = 0.33
+	dip_advisor_cost = -0.2
 }
 
 ven_urban_renewal = {
-	local_build_time = -0.2
-	local_build_cost = -0.2
+	local_build_time = -0.25
+	local_build_cost = -0.25
 }
 
 ven_autonomous_venetian_patriarchate = {
