@@ -34,6 +34,7 @@ country_decisions = {
 		}
 	}
 	h_ruler_tutor = {
+		major = yes
 		potential = {
 			ai = no
 			NOT = { has_country_flag = h_tutor_flag }
