@@ -1417,7 +1417,7 @@ merc_tonkinese_army = {
 	sprites = { dlc041_dai_sprite_pack dlc090_south_east_asian_elephant_sprite_pack asiangfx_sprite_pack }
 	#cost_modifier = 1.1
 	trigger = {
-		tag = KHM
+		always = no
 	}
     modifier = {
 		land_attrition = -0.2
