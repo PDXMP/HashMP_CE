@@ -926,7 +926,7 @@ country_event = {
 			duration = 3650
 			hidden = yes
 		}
-		custom_tooltip = generic_more_mercs_available_tt
+		#custom_tooltip = generic_more_mercs_available_tt
 	}
 }
 
@@ -6679,7 +6679,7 @@ country_event = {
 			duration = 3650
 			hidden = yes
 		}
-		custom_tooltip = generic_more_mercs_available_tt
+		#custom_tooltip = generic_more_mercs_available_tt
 	}
 }
 
