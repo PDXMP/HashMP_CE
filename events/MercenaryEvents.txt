@@ -571,6 +571,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		OR = {
 			current_age = age_of_absolutism
 			current_age = age_of_revolutions
