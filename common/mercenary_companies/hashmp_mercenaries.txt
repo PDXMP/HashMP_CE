@@ -135,19 +135,19 @@ h_merc_cavsmall_1 = {
 # Infantry
 ###########
 
-h_merc_inflarge_2 = {
-	regiments_per_development = 0.075
-	cavalry_weight = 0.0
-	artillery_weight = 0.0
-	cavalry_cap = 0
-	cost_modifier = 0.75
-	trigger = {
-		total_development = 150
-	}
-	modifier = {
-	
-	}
-}
+#h_merc_inflarge_2 = {
+#	regiments_per_development = 0.075
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cavalry_cap = 0
+#	cost_modifier = 0.75
+#	trigger = {
+#		total_development = 150
+#	}
+#	modifier = {
+#	
+#	}
+#}
 
 h_merc_inflarge_1 = {
 	regiments_per_development = 0.075
