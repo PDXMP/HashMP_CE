@@ -915,26 +915,40 @@ emp_mlo_swiss_mercs_branch = {
 		icon = swiss_mercenaries
 		required_missions = {  }
 		provinces_to_highlight = {
-			owned_by = SWI
-			SWI = {
-				NOT = {
-					has_opinion = {
-						who = ROOT
-						value = 100
+			OR = {
+				AND = {
+					ROOT = {
+						NOT = {
+							num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+								value = 5
+								OR = {
+									area = switzerland_area
+									area = romandie_area
+								}
+							}
+						}
+					}
+					OR = {
+						area = switzerland_area
+						area = romandie_area
 					}
 				}
 			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = emp_mlo_swiss_mercs_trigger_tooltip
-				has_country_flag = emp_mlo_won_war_with_swiss_mercs
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				OR = {
+					area = switzerland_area
+					area = romandie_area
+				}
 			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = mlo_the_swiss_mercs
-				duration = 10950
+				duration = 9125
 			}
 		}
 	}
