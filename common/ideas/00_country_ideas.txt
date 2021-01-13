@@ -7035,6 +7035,7 @@ HES_ideas = {
 	welcome_reformers = {
 		religious_unity = 0.25
 		church_power_modifier = 0.20
+		monthly_fervor_increase = 0.25
 	}
 	let_in_religious_emigrants = {
 		development_cost = -0.1
