@@ -5,122 +5,27 @@
 ########################################
 
 ########################################
-# Common Mercenaries
+# Common Mercenaries 
 ########################################
 
+#Reverse display order, for some reason...
+
 ###########
-# Infantry
+# Artillery
 ###########
 
-h_merc_infsmall_1 = {
+h_merc_artillery_1 = {
 	regiments_per_development = 0.07
 	cavalry_weight = 0.0
-	artillery_weight = 0.0
+	artillery_weight = 0.5
 	cavalry_cap = 0
-	cost_modifier = 0.5
-	trigger = {
-        NOT = { total_development = 150 }
-	}
-	modifier = {
-	
-	}
-}
-
-h_merc_infsmall_2 = {
-	regiments_per_development = 0.07
-	cavalry_weight = 0.0
-	artillery_weight = 0.0
-	cavalry_cap = 0
-	cost_modifier = 0.5
-	trigger = {
-        NOT = { total_development = 150 }
-	}
-	modifier = {
-	
-	}
-}
-
-h_merc_infsmall_3 = {
-	regiments_per_development = 0.07
-	cavalry_weight = 0.0
-	artillery_weight = 0.0
-	cavalry_cap = 0
-	cost_modifier = 0.5
-	trigger = {
-        NOT = { total_development = 150 }
-	}
-	modifier = {
-	
-	}
-}
-
-h_merc_infmed_1 = {
-	regiments_per_development = 0.05
-	cavalry_weight = 0.0
-	artillery_weight = 0.0
-	cavalry_cap = 0
-	cost_modifier = 0.7
+	cost_modifier = 0.8
 	trigger = {
 		total_development = 150
+		mil_tech = 7
 	}
 	modifier = {
-	
-	}
-}
-
-h_merc_infmed_2 = {
-	regiments_per_development = 0.05
-	cavalry_weight = 0.0
-	artillery_weight = 0.0
-	cavalry_cap = 0
-	cost_modifier = 0.7
-	trigger = {
-		total_development = 150
-	}
-	modifier = {
-	
-	}
-}
-
-h_merc_infmed_3 = {
-	regiments_per_development = 0.05
-	cavalry_weight = 0.0
-	artillery_weight = 0.0
-	cavalry_cap = 0
-	cost_modifier = 0.7
-	trigger = {
-		total_development = 150
-	}
-	modifier = {
-	
-	}
-}
-
-h_merc_inflarge_1 = {
-	regiments_per_development = 0.075
-	cavalry_weight = 0.0
-	artillery_weight = 0.0
-	cavalry_cap = 0
-	cost_modifier = 0.75
-	trigger = {
-		total_development = 150
-	}
-	modifier = {
-	
-	}
-}
-
-h_merc_inflarge_2 = {
-	regiments_per_development = 0.075
-	cavalry_weight = 0.0
-	artillery_weight = 0.0
-	cavalry_cap = 0
-	cost_modifier = 0.75
-	trigger = {
-		total_development = 150
-	}
-	modifier = {
-	
+		siege_ability = 0.1
 	}
 }
 
@@ -128,49 +33,21 @@ h_merc_inflarge_2 = {
 # Cavalry
 ###########
 
-h_merc_cavsmall_1 = {
-	regiments_per_development = 0.07
+h_merc_cavlarge_1 = {
+	regiments_per_development = 0.075
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
 	cavalry_cap = 25
-	cost_modifier = 0.5
+	cost_modifier = 0.75
 	trigger = {
-        NOT = { total_development = 150 }
+		total_development = 150
 	}
 	modifier = {
 	
 	}
 }
 
-h_merc_cavsmall_2 = {
-	regiments_per_development = 0.07
-	cavalry_weight = 0.75
-	artillery_weight = 0.0
-	cavalry_cap = 25
-	cost_modifier = 0.5
-	trigger = {
-        NOT = { total_development = 150 }
-	}
-	modifier = {
-	
-	}
-}
-
-h_merc_cavsmall_3 = {
-	regiments_per_development = 0.07
-	cavalry_weight = 0.75
-	artillery_weight = 0.0
-	cavalry_cap = 25
-	cost_modifier = 0.5
-	trigger = {
-        NOT = { total_development = 150 }
-	}
-	modifier = {
-	
-	}
-}
-
-h_merc_cavmed_1 = {
+h_merc_cavmed_3 = {
 	regiments_per_development = 0.05
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
@@ -198,7 +75,7 @@ h_merc_cavmed_2 = {
 	}
 }
 
-h_merc_cavmed_3 = {
+h_merc_cavmed_1 = {
 	regiments_per_development = 0.05
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
@@ -212,11 +89,57 @@ h_merc_cavmed_3 = {
 	}
 }
 
-h_merc_cavlarge_1 = {
-	regiments_per_development = 0.075
+h_merc_cavsmall_3 = {
+	regiments_per_development = 0.07
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
 	cavalry_cap = 25
+	cost_modifier = 0.5
+	trigger = {
+        NOT = { total_development = 150 }
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_cavsmall_2 = {
+	regiments_per_development = 0.07
+	cavalry_weight = 0.75
+	artillery_weight = 0.0
+	cavalry_cap = 25
+	cost_modifier = 0.5
+	trigger = {
+        NOT = { total_development = 150 }
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_cavsmall_1 = {
+	regiments_per_development = 0.07
+	cavalry_weight = 0.75
+	artillery_weight = 0.0
+	cavalry_cap = 25
+	cost_modifier = 0.5
+	trigger = {
+        NOT = { total_development = 150 }
+	}
+	modifier = {
+	
+	}
+}
+
+###########
+# Infantry
+###########
+
+h_merc_inflarge_2 = {
+	regiments_per_development = 0.075
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
 	cost_modifier = 0.75
 	trigger = {
 		total_development = 150
@@ -226,22 +149,101 @@ h_merc_cavlarge_1 = {
 	}
 }
 
-###########
-# Artillery
-###########
-
-h_merc_artillery_1 = {
-	regiments_per_development = 0.07
+h_merc_inflarge_1 = {
+	regiments_per_development = 0.075
 	cavalry_weight = 0.0
-	artillery_weight = 0.5
+	artillery_weight = 0.0
 	cavalry_cap = 0
-	cost_modifier = 0.8
+	cost_modifier = 0.75
 	trigger = {
 		total_development = 150
-		mil_tech = 7
 	}
 	modifier = {
-		siege_ability = 0.1
+	
+	}
+}
+
+h_merc_infmed_3 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.7
+	trigger = {
+		total_development = 150
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_infmed_2 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.7
+	trigger = {
+		total_development = 150
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_infmed_1 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.7
+	trigger = {
+		total_development = 150
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_infsmall_3 = {
+	regiments_per_development = 0.07
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.5
+	trigger = {
+        NOT = { total_development = 150 }
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_infsmall_2 = {
+	regiments_per_development = 0.07
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.5
+	trigger = {
+        NOT = { total_development = 150 }
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_infsmall_1 = {
+	regiments_per_development = 0.07
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.5
+	trigger = {
+        NOT = { total_development = 150 }
+	}
+	modifier = {
+	
 	}
 }
 
