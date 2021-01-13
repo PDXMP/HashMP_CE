@@ -38,7 +38,7 @@ h_merc_cavlarge_1 = {
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
 	cavalry_cap = 25
-	cost_modifier = 0.7
+	cost_modifier = 0.6
 	trigger = {
 		total_development = 150
 	}
@@ -52,7 +52,7 @@ h_merc_cavmed_3 = {
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
 	cavalry_cap = 25
-	cost_modifier = 0.6
+	cost_modifier = 0.5
 	trigger = {
 		total_development = 150
 	}
@@ -66,7 +66,7 @@ h_merc_cavmed_2 = {
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
 	cavalry_cap = 25
-	cost_modifier = 0.6
+	cost_modifier = 0.5
 	trigger = {
 		total_development = 150
 	}
@@ -80,7 +80,7 @@ h_merc_cavmed_1 = {
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
 	cavalry_cap = 25
-	cost_modifier = 0.6
+	cost_modifier = 0.5
 	trigger = {
 		total_development = 150
 	}
@@ -94,7 +94,7 @@ h_merc_cavsmall_3 = {
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
 	cavalry_cap = 25
-	cost_modifier = 0.5
+	cost_modifier = 0.4
 	trigger = {
         NOT = { total_development = 150 }
 	}
@@ -108,7 +108,7 @@ h_merc_cavsmall_2 = {
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
 	cavalry_cap = 25
-	cost_modifier = 0.5
+	cost_modifier = 0.4
 	trigger = {
         NOT = { total_development = 150 }
 	}
@@ -122,7 +122,7 @@ h_merc_cavsmall_1 = {
 	cavalry_weight = 0.75
 	artillery_weight = 0.0
 	cavalry_cap = 25
-	cost_modifier = 0.5
+	cost_modifier = 0.4
 	trigger = {
         NOT = { total_development = 150 }
 	}
