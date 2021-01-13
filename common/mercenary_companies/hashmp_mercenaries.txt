@@ -261,7 +261,7 @@ h_merc_lothair = {
 		tag = LOT
 	}
 	modifier = {
-	
+		land_morale = 0.15
 	}
 }
 
@@ -275,7 +275,8 @@ h_merc_likedeelers = {
 		tag = DAN
 	}
 	modifier = {
-	
+		infantry_power = 0.1
+		loot_amount = 0.5
 	}
 }
 
@@ -289,7 +290,8 @@ h_merc_jaegers = {
 		tag = AHU
 	}
 	modifier = {
-	
+		discipline = 0.05
+		land_morale = 0.05
 	}
 }
 
@@ -303,7 +305,8 @@ h_merc_landsknecht = {
 		tag = GER
 	}
 	modifier = {
-	
+		discipline = 0.075
+		infantry_power = 0.05
 	}
 }
 
@@ -317,7 +320,8 @@ h_merc_hessian = {
 		tag = HAN
 	}
 	modifier = {
-	
+		fire_damage_received = -0.1
+		shock_damage_received = -0.1	
 	}
 }
 
@@ -331,7 +335,7 @@ h_merc_teuton = {
 		tag = PRU
 	}
 	modifier = {
-	
+		infantry_power = 0.15
 	}
 }
 
@@ -345,7 +349,8 @@ h_merc_hanseatic = {
 		tag = WES
 	}
 	modifier = {
-	
+		infantry_power = 0.1
+		fire_damage_received = -0.05
 	}
 }
 
@@ -359,7 +364,7 @@ h_merc_ruthenians = {
 		tag = POL
 	}
 	modifier = {
-	
+		shock_damage = 0.15
 	}
 }
 
@@ -373,35 +378,38 @@ h_merc_carolean = {
 		tag = SWE
 	}
 	modifier = {
-	
+        infantry_power = 0.1
+		discipline = 0.05	
 	}
 }
 
 h_merc_cossacks = {
 	regiments_per_development = 0.05
-	cavalry_weight = 0.0
+	cavalry_weight = 0.5
 	artillery_weight = 0.0
-	cavalry_cap = 0
+	cavalry_cap = 40
 	#cost_modifier = 1.5
 	trigger = {
 		tag = RUS
 	}
 	modifier = {
-	
+		shock_damage = 0.1
+		fire_damage = 0.1
 	}
 }
 
 h_merc_hussars = {
 	regiments_per_development = 0.05
-	cavalry_weight = 0.0
+	cavalry_weight = 1
 	artillery_weight = 0.0
-	cavalry_cap = 0
+	cavalry_cap = 40
 	#cost_modifier = 1.5
 	trigger = {
 		tag = PLC
 	}
 	modifier = {
-	
+		shock_damage = 0.15
+		discipline = 0.025
 	}
 }
 
@@ -415,7 +423,7 @@ h_merc_khyber = {
 		tag = AFG
 	}
 	modifier = {
-	
+		land_morale = 0.1
 	}
 }
 
@@ -429,7 +437,7 @@ h_merc_omani = {
 		tag = ORM
 	}
 	modifier = {
-	
+		loot_amount = 1.0	
 	}
 }
 
@@ -443,7 +451,8 @@ h_merc_immortals = {
 		tag = PER
 	}
 	modifier = {
-	
+		fire_damage_received = -0.05
+		shock_damage_received = -0.05
 	}
 }
 
@@ -457,7 +466,7 @@ h_merc_catalan = {
 		tag = TUN
 	}
 	modifier = {
-	
+		infantry_power = 0.1
 	}
 }
 
@@ -471,35 +480,38 @@ h_merc_almohad = {
 		tag = ADU
 	}
 	modifier = {
-	
+		land_morale = 0.1
+		fire_damage_received = -0.1
 	}
 }
 
 h_merc_bluehorde = {
 	regiments_per_development = 0.05
-	cavalry_weight = 0.0
+	cavalry_weight = 1
 	artillery_weight = 0.0
-	cavalry_cap = 0
+	cavalry_cap = 40
 	#cost_modifier = 1.5
 	trigger = {
 		tag = GLH
 	}
 	modifier = {
-	
+		cavalry_power = 0.1
+		loot_amount = 1
 	}
 }
 
 h_merc_timur = {
 	regiments_per_development = 0.05
-	cavalry_weight = 0.0
+	cavalry_weight = 1
 	artillery_weight = 0.0
-	cavalry_cap = 0
+	cavalry_cap = 40
 	#cost_modifier = 1.5
 	trigger = {
 		tag = TIM
 	}
 	modifier = {
-	
+		cavalry_power = 0.1
+		land_morale = 0.05
 	}
 }
 
@@ -513,7 +525,7 @@ h_merc_gharbian = {
 		tag = BAH
 	}
 	modifier = {
-	
+		land_morale = 0.05
 	}
 }
 
@@ -527,7 +539,7 @@ h_merc_lahore = {
 		tag = SRH
 	}
 	modifier = {
-	
+		discipline = 0.025
 	}
 }
 
@@ -541,7 +553,7 @@ h_merc_deccani = {
 		tag = DEC
 	}
 	modifier = {
-	
+		land_morale = 0.1
 	}
 }
 
@@ -555,7 +567,8 @@ h_merc_sipahi = {
 		tag = HIN
 	}
 	modifier = {
-	
+        cavalry_power = 0.15
+		discipline = 0.05	
 	}
 }
 
@@ -569,7 +582,8 @@ h_merc_sikh = {
 		tag = PUN
 	}
 	modifier = {
-	
+		land_morale = 0.1
+		discipline = 0.025
 	}
 }
 
@@ -583,7 +597,8 @@ h_merc_moro = {
 		tag = BEI
 	}
 	modifier = {
-	
+		land_morale = 0.05
+		land_attrition = -0.2
 	}
 }
 
@@ -597,7 +612,7 @@ h_merc_angkor = {
 		tag = KHM
 	}
 	modifier = {
-	
+		shock_damage_received = -0.1
 	}
 }
 
@@ -611,7 +626,8 @@ h_merc_pasai = {
 		tag = MLC
 	}
 	modifier = {
-	
+		infantry_power = 0.05
+		movement_speed = 0.1
 	}
 }
 
@@ -625,7 +641,8 @@ h_merc_xian = {
 		tag = CSH
 	}
 	modifier = {
-	
+		land_morale = 0.075
+		discipline = 0.025
 	}
 }
 
@@ -639,15 +656,16 @@ h_merc_pahlawan = {
 		tag = MSA
 	}
 	modifier = {
-	
+		land_morale = 0.1
+		infantry_power = 0.1
 	}
 }
 
 h_merc_jianzhou = {
 	regiments_per_development = 0.05
-	cavalry_weight = 0.0
+	cavalry_weight = 1
 	artillery_weight = 0.0
-	cavalry_cap = 0
+	cavalry_cap = 40
 	#cost_modifier = 1.5
 	trigger = {
 		tag = MCH
@@ -667,7 +685,7 @@ h_merc_banner = {
 		tag = QNG
 	}
 	modifier = {
-	
+		cavalry_fire = 1
 	}
 }
 
@@ -686,7 +704,7 @@ merc_lombard_free_company = {
 		tag = MLO
 	}
 	modifier = { 
-		infantry_power = 0.05
+		infantry_power = 0.1
 	}
 }
 
@@ -701,7 +719,8 @@ merc_tuscan_free_company = {
 		tag = ITA
 	}
 	modifier = { 
-		infantry_power = 0.05
+		infantry_power = 0.1
+		fire_damage_received = -0.1
 	}
 }
 
@@ -753,7 +772,6 @@ merc_knights_templar = {
 			tooltip = templars_tt
 			has_country_flag = knights_templar_flag
 		}
-		owns = 379
 	}
 	modifier = {
 		cavalry_power = 0.15
@@ -789,7 +807,10 @@ merc_bande_nere = {
     trigger = {
 		tag = NAP
 	}
-	modifier = {}
+	modifier = {
+		shock_damage_received = -0.1
+		land_attrition = -0.1
+	}
 }
 
 # Schwarze Garde (Black Bands, Germany)
@@ -800,6 +821,9 @@ merc_schwarze_garde = {
 	sprites = { dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		tag = BRA
+	}
+	modifier = {
+        infantry_power = 0.1
 	}
 }
 
@@ -829,7 +853,7 @@ merc_reislaufer = {
 		tag = SWI
 	}
 	modifier = {
-        shock_damage_received = -0.05
+        shock_damage_received = -0.1
 	}
 }
 
@@ -846,10 +870,8 @@ merc_hessian_jaegerkorps = {
 		tag = HES
 	}
 	modifier = {
-		fire_damage_received = -0.1
-		shock_damage_received = -0.1
-		discipline = 0.025
-
+		fire_damage_received = -0.075
+		shock_damage_received = -0.075
 	}
 }
 
@@ -895,7 +917,10 @@ merc_stratioti = {
     trigger = {	
 		tag = BYZ
 	}
-	modifier = { }
+	modifier = {
+		land_morale = 0.1
+		movement_speed = 0.1
+	}
 }
 
 # Morlachs (Lika)
@@ -923,7 +948,10 @@ merc_guardia_corsa = {
     trigger = {
 		tag = SPI
 	}
-	modifier = { }
+	modifier = { 
+		infantry_power = 0.1
+		shock_damage_received = -0.1
+	}
 }
 
 # Hadjduks (Transylvania)
@@ -938,7 +966,9 @@ merc_hadjuks = {
     trigger = {
 		tag = HUN
 	}
-	modifier = { }
+	modifier = { 
+        infantry_power = 0.1		
+	}
 }
 
 # Gallowglasses (Ireland, Renaissance + Reformation)
@@ -1014,7 +1044,9 @@ merc_white_company = {
     trigger = { 
 		tag = ENG
 	}
-	modifier = { }
+	modifier = {
+		shock_damage_received = -0.1
+	}
 }
 
 merc_flemish_company = {
@@ -1028,7 +1060,7 @@ merc_flemish_company = {
 		tag = BUR
 	}
 	modifier = {
-        infantry_power = 0.05
+        land_morale = 0.1
 	}
 }
 
@@ -1041,10 +1073,8 @@ merc_forlorn_hope = {
 		tag = GBR
 	}
 	modifier = {
-		reinforce_speed = -0.25
 		fire_damage_received = -0.1
 		shock_damage_received = -0.1
-		land_morale = 0.1
 	}
 }
 
@@ -1071,7 +1101,7 @@ merc_bandeirantes = {
 		tag = POR
 	}
 	modifier = {
-		discipline = -0.025
+		discipline = 0.025
 		land_attrition = -0.25
 	}
 }
@@ -1087,7 +1117,9 @@ merc_huai_army = {
     trigger = {
 		tag = WUU
 	}
-	modifier = { }
+	modifier = { 
+		discipline = 0.05
+	}
 }
 
 # Xiang Army (China, Hunan, Xiang River)
@@ -1101,7 +1133,10 @@ merc_xiang_army = {
     trigger = {
 		tag = CXI
 	}
-	modifier = { }
+	modifier = { 
+		infantry_power = 0.1
+		loot_amount = 0.5
+	}
 }
 
 # Lang Bing/Wolf Troops (Guangxi)
@@ -1118,6 +1153,7 @@ merc_wolf_troops = {
 	}
 	modifier = {
         shock_damage = 0.1
+		land_attrition = -0.25
 	}
 }
 
@@ -1132,7 +1168,9 @@ merc_shanxi_guard = {
     trigger = { 
 		tag = QIC
 	}
-	modifier = { }
+	modifier = { 
+		shock_damage_received = -0.15
+	}
 }
 
 # Mercenaries from Yongning, where the She-An Rebellion started
@@ -1146,7 +1184,10 @@ merc_yongning_warriors = {
     trigger = { 
 		tag = CYI
 	}
-	modifier = { }
+	modifier = { 
+		land_morale = 0.1
+		movement_speed = 0.1
+	}
 }
 
 # Kanto Ronin
@@ -1157,7 +1198,10 @@ merc_kanto_ronin = {
     trigger = {
 		tag = JAP
 	}
-	modifier = { }
+	modifier = { 
+		discipline = 0.05
+		fire_damage_received = -0.1
+	}
 }
 
 # Kyushu Wokou
@@ -1179,7 +1223,9 @@ merc_shikoku_yojimbo = {
     trigger = {	
 		tag = UES
 	}
-	modifier = { }
+	modifier = { 
+		discipline = 0.05
+	}
 }
 
 merc_purbiyas = {
@@ -1190,7 +1236,10 @@ merc_purbiyas = {
     trigger = {
 		tag = RJP
 	}
-	modifier = { }
+	modifier = { 
+		infantry_power = 0.1
+		discipline = 0.025
+	}
 }
 
 # Gurkhas
@@ -1204,8 +1253,8 @@ merc_gorkhalis = {
 		tag = BHA
 	}
 	modifier = {
-        infantry_power = 0.05
-        shock_damage = 0.05
+        infantry_power = 0.15
+		discipline = 0.05
 	}
 }
 
@@ -1237,7 +1286,9 @@ merc_tamil_company = {
     trigger = {
 		tag = VIJ
 	}
-	modifier = { }
+	modifier = { 
+		reinforce_speed = 0.25
+	}
 }
 
 merc_company_of_the_ganges = {
@@ -1247,7 +1298,10 @@ merc_company_of_the_ganges = {
     trigger = {
 		tag = BNG
 	}
-	modifier = { }
+	modifier = { 
+		land_attrition = -0.1
+		movement_speed = 0.1	
+	}
 }
 
 # Banjaras
@@ -1261,7 +1315,9 @@ merc_banjara_company = {
     trigger = {
 		tag = MER
 	}
-	modifier = { }
+	modifier = { 
+		infantry_power = 0.1
+	}
 }
 
 # Bukhara Band
@@ -1275,15 +1331,17 @@ merc_bukhara_band = {
     trigger = {
 		tag = BUK
 	}
-	modifier = { }
+	modifier = { 
+		discipline = 0.05
+	}
 }
 
 # Mesopotamian Mamluks
 merc_mesopotamian_mamluks = {
     regiments_per_development = 0.05
-    #cavalry_weight = 0.4
+    cavalry_weight = 1
     #artillery_weight = 0.0
-	#cavalry_cap = 6
+	cavalry_cap = 40
 	#home_province = 410
 	#cost_modifier = 1.1
 	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
@@ -1291,7 +1349,8 @@ merc_mesopotamian_mamluks = {
 		tag = ILK
 	}
     modifier = {
-        cavalry_shock = 1.0
+        cavalry_power = 0.1
+		shock_damage = 0.1
     }
 }
 
@@ -1323,7 +1382,9 @@ merc_delhi_mamluks = {
 	trigger = { 
 		tag = DLH
 	}
-    modifier = { }
+    modifier = { 
+		discipline = 0.05
+	}
 }
 
 merc_zeybeks = {
@@ -1343,7 +1404,9 @@ merc_sekban = {
 	trigger = {
 		tag = TUR
 	}
-    modifier = { }
+    modifier = { 
+		reinforce_speed = 0.25
+	}
 }
 
 merc_zanj_company = {
@@ -1365,7 +1428,9 @@ merc_madagascar_company = {
 	trigger = {
 		tag = RZW
 	}
-    modifier = { }
+    modifier = {
+		fire_damage_received = -0.1
+	}
 }
 
 merc_sahel_company = {
@@ -1378,8 +1443,7 @@ merc_sahel_company = {
 		tag = SON
 	}
     modifier = {
-		movement_speed = 0.1
-		land_attrition = -0.25
+		infantry_power = 0.1
 	}
 }
 
@@ -1395,7 +1459,7 @@ merc_asafo_company = {
 		tag = MAL
 	}
     modifier = {
-        land_morale = 0.05
+        land_morale = 0.1
 	}
 }
 
@@ -1407,7 +1471,9 @@ merc_nubian_company = {
 	trigger = {
 		tag = ETH
 	}
-    modifier = { }
+    modifier = { 
+		infantry_shock = 0.5
+	}
 }
 
 merc_tonkinese_army = {
@@ -1456,25 +1522,33 @@ merc_royal_circassian_guards = {
 
 merc_bedouin_auxiliaries = {
     regiments_per_development = 0.05
-    #cavalry_weight = 0.4
+    cavalry_weight = 1
     #artillery_weight = 0.0
-	#cavalry_cap = 6
+	cavalry_cap = 40
     #home_province = 383 # Tabuk
 	sprites = { dlc080_shm_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
 		tag = ARB
 	}
-    modifier = { }
+    modifier = { 
+		loot_amount = 1.0
+		movement_speed = 0.2
+	}
 }
 
 merc_kurdish_company = {
     regiments_per_development = 0.05
+    cavalry_weight = 1
+    #artillery_weight = 0.0
+	cavalry_cap = 40
     #home_province = 4293 # Arbil
 	sprites = { dlc079_hsn_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
 		tag = QAR
 	}
-    modifier = { }
+    modifier = { 
+		cavalry_shock = 0.5
+	}
 }
 
 merc_laz_auxiliaries = {
@@ -1494,7 +1568,9 @@ merc_tabarestan_company = {
 	trigger = {
 		tag = KHO
 	}
-    modifier = { }
+    modifier = { 
+		shock_damage_received = -0.1
+	}
 }
 
 merc_novgorod_company = {
@@ -1504,7 +1580,9 @@ merc_novgorod_company = {
 	trigger = {
 		tag = MOS
 	}
-    modifier = { }
+    modifier = { 
+		shock_damage_received = -0.1
+	}
 }
 
 merc_crimean_company = {
@@ -1533,12 +1611,18 @@ merc_buryat_band = {
 
 merc_lithuanian_company = {
     regiments_per_development = 0.05
+	cavalry_weight = 0.4
+    #artillery_weight = 0.0
+	cavalry_cap = 12
     #home_province = 272 # Vilnius
 	sprites = { dlc003_lit_sprite_pack dlc074_lit_sprite_pack easterngfx_sprite_pack }
 	trigger = {
 		tag = LIT
 	}
-    modifier = { }
+    modifier = { 
+		shock_damage = 0.1
+		reinforce_speed = 0.1
+	}
 }
 
 merc_frisian_free_company = {
@@ -1550,20 +1634,24 @@ merc_frisian_free_company = {
 		tag = NED
 	}
     modifier = {
-        reserves_organisation = 0.05
-		land_morale = 0.05
+		land_morale = 0.1
+        reserves_organisation = 0.1
 	}
 }
 
 merc_finnish_company = {
     regiments_per_development = 0.05
+	cavalry_weight = 1
     #artillery_weight = 0.0
+	cavalry_cap = 40
     #home_province = 28 # Nyland
 	sprites = { swe_base_sprite_pack westerngfx_sprite_pack }
 	trigger = {
 		tag = SCA
 	}
-    modifier = { }
+    modifier = { 
+		cavalry_power = 0.2
+	}
 }
 
 merc_almogavars = {
@@ -1576,7 +1664,7 @@ merc_almogavars = {
 		tag = SPA
 	}
     modifier = {
-        movement_speed = 0.15
+        infantry_shock = 1
 	}
 }
 
@@ -1587,7 +1675,10 @@ merc_moorish_battalion = {
 	trigger = { 
 		tag = MOR
 	}
-    modifier = { }
+    modifier = { 
+		fire_damage_received = -0.1
+		loot_amount = 0.5
+	}
 }
 
 merc_kutai_company = {
@@ -1597,7 +1688,9 @@ merc_kutai_company = {
 	trigger = {
 		tag = MAJ
 	}
-    modifier = { }
+    modifier = { 
+		land_morale = 0.1
+	}
 }
 
 merc_miquelet_company = {
@@ -1609,8 +1702,7 @@ merc_miquelet_company = {
 		tag = CAS
 	}
     modifier = {
-		movement_speed = 0.1
-		land_attrition = -0.15
+		infantry_shock = 0.5
 	}
 }
 
@@ -1634,7 +1726,10 @@ merc_crabats = {
     trigger = {
 		tag = VEN
 	}
-	modifier = { }
+	modifier = { 
+		shock_damage_received = -0.1
+		reinforce_speed = 0.2
+	}
 }
 
 merc_free_swiss_guard = {
@@ -1668,26 +1763,31 @@ merc_colonial_rangers = {
 merc_independent_cossack_host = {
     regiments_per_development = 0.05
     #home_province = 283 # Zaporozhia
-	#cavalry_weight = 0.4 # lots of cavalry relative to other units
+	cavalry_weight = 1.0 # lots of cavalry relative to other units
 	#artillery_weight = 0 # no artillery
-	#cavalry_cap = 6
+	cavalry_cap = 40
 	sprites = { dlc047_zaz_sprite_pack easterngfx_sprite_pack }
 	trigger = {
 		tag = UKR
 	}
-    modifier = { }
+    modifier = { 
+		cavalry_power = 0.1
+		shock_damage = 0.1
+	}
 }
 
 merc_kazakh_company = {
     regiments_per_development = 0.05
     #home_province = 478 # Argyn
-	#cavalry_weight = 0.4
-	#cavalry_cap = 6
+	cavalry_weight = 0.5
+	cavalry_cap = 40
 	sprites = { dlc048_shy_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
 		tag = SHY
 	}
-    modifier = { }
+    modifier = { 
+		loot_amount = 1.0
+	}
 }
 
 merc_yaka_free_warriors = {
@@ -1707,7 +1807,10 @@ merc_great_lakes_free_warriors = {
 	trigger = {
 		tag = KON
 	}
-    modifier = { }
+    modifier = {
+		infantry_fire = 0.5
+		land_attrition = -0.15
+	}
 }
 
 merc_thai_company = {
@@ -1717,7 +1820,9 @@ merc_thai_company = {
 	trigger = {
 		tag = TAU
 	}
-    modifier = { }
+    modifier = { 
+		infantry_shock = 0.5
+	}
 }
 
 merc_yucatan_company = {
@@ -1827,8 +1932,8 @@ merc_dahomey_amazons = {
     modifier = {
         may_recruit_female_generals = yes
         female_advisor_chance = 1.0
-        shock_damage = 0.05
-        shock_damage_received = -0.05
+		land_morale = 0.1
+		infantry_power = 0.1
     }
 }
 
@@ -1852,7 +1957,10 @@ merc_tyrolean_guard = {
     trigger = {
 		tag = HAB
 	}
-	modifier = { }
+	modifier = { 
+		land_morale = 0.05
+		land_attrition = -0.25
+	}
 }
 
 merc_mongol_banner = {
