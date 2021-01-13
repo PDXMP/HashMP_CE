@@ -1282,7 +1282,7 @@ NMilitary = {
 
 	MERCENARY_COMPANY_HIRING_COST_MONTHS = 48,		-- Initial hiring cost in months of maintenance
 	MERCENARY_COMPANY_STARTING_MORALE = 0.5,		-- Starting morale
-	MERCENARY_COMPANY_MIN_REGIMENTS = 4,			-- Minimum regiments
+	MERCENARY_COMPANY_MIN_REGIMENTS = 5,			-- Minimum regiments
 	MERCENARY_COMPANY_MAX_REGIMENTS = 40,			-- Maximum regiments
 	MERCENARY_COMPANY_MANPOWER_PER_REGIMENT = 2.0,	-- Manpower reserve factor (multiplied by 1000 per regiment)
 	MERCENARY_COMPANY_MANPOWER_RECOVERY = 120,				-- How many months to recover mercenary manpower fully
