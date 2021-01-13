@@ -11,7 +11,7 @@ h_merc_lothair = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = LOT
 	}
 	modifier = {
 	
@@ -25,7 +25,7 @@ h_merc_likedeelers = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = DAN
 	}
 	modifier = {
 	
@@ -39,7 +39,7 @@ h_merc_magyar = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = AHU
 	}
 	modifier = {
 	
@@ -53,7 +53,7 @@ h_merc_landsknecht = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = GER
 	}
 	modifier = {
 	
@@ -67,7 +67,7 @@ h_merc_hessian = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = HAN
 	}
 	modifier = {
 	
@@ -81,7 +81,7 @@ h_merc_teuton = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = PRU
 	}
 	modifier = {
 	
@@ -95,7 +95,7 @@ h_merc_hanseatic = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = WES
 	}
 	modifier = {
 	
@@ -109,7 +109,7 @@ h_merc_ruthenians = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = POL
 	}
 	modifier = {
 	
@@ -123,7 +123,7 @@ h_merc_carolean = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = SWE
 	}
 	modifier = {
 	
@@ -137,7 +137,7 @@ h_merc_cossacks = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = RUS
 	}
 	modifier = {
 	
@@ -151,7 +151,7 @@ h_merc_hussars = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = PLC
 	}
 	modifier = {
 	
@@ -165,7 +165,7 @@ h_merc_khyber = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = AFG
 	}
 	modifier = {
 	
@@ -179,7 +179,7 @@ h_merc_omani = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = ORM
 	}
 	modifier = {
 	
@@ -193,7 +193,7 @@ h_merc_immortals = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = PER
 	}
 	modifier = {
 	
@@ -207,7 +207,7 @@ h_merc_catalan = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = TUN
 	}
 	modifier = {
 	
@@ -221,7 +221,7 @@ h_merc_almohad = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = ADU
 	}
 	modifier = {
 	
@@ -235,7 +235,7 @@ h_merc_bluehorde = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = GLH
 	}
 	modifier = {
 	
@@ -249,7 +249,7 @@ h_merc_timur = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = TIM
 	}
 	modifier = {
 	
@@ -263,7 +263,7 @@ h_merc_gharbian = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = BAH
 	}
 	modifier = {
 	
@@ -277,7 +277,7 @@ h_merc_lahore = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = SRH
 	}
 	modifier = {
 	
@@ -291,7 +291,7 @@ h_merc_deccani = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = DEC
 	}
 	modifier = {
 	
@@ -305,7 +305,7 @@ h_merc_sipahi = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = HIN
 	}
 	modifier = {
 	
@@ -319,7 +319,7 @@ h_merc_sikh = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = PUN
 	}
 	modifier = {
 	
@@ -333,7 +333,7 @@ h_merc_moro = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = BEI
 	}
 	modifier = {
 	
@@ -347,7 +347,7 @@ h_merc_angkor = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = KHM
 	}
 	modifier = {
 	
@@ -361,7 +361,7 @@ h_merc_pasai = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = MLC
 	}
 	modifier = {
 	
@@ -375,7 +375,7 @@ h_merc_xian = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = CSH
 	}
 	modifier = {
 	
@@ -389,7 +389,7 @@ h_merc_pahlawan = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = MSA
 	}
 	modifier = {
 	
@@ -403,7 +403,7 @@ h_merc_jianzhou = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = MCH
 	}
 	modifier = {
 	
@@ -417,7 +417,7 @@ h_merc_banner = {
 	cavalry_cap = 0
 	cost_modifier = 1.5
 	trigger = {
-		tag = 
+		tag = QNG
 	}
 	modifier = {
 	
