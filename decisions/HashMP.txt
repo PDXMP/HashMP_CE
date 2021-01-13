@@ -242,6 +242,7 @@ country_decisions = {
 	}
 	
 	h_hab_scion = {
+		major = yes
 		potential = {
 			tag = HAB
 			NOT = { has_country_flag = h_hab_scion_adopted }
