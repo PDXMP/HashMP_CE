@@ -876,7 +876,7 @@ humanist_ideas = {
 		global_tax_income = 48
 	}
 	indirect_rule = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.1
 	}
 	cultural_ties = {
 		prestige = 1
