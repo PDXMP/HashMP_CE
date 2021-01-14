@@ -1022,7 +1022,7 @@ PRU_ideas = {
 
 BRA_ideas = {
 	start = {
-		army_tradition = 1
+		army_tradition = 0.5
 		build_cost = -0.1
 	}
 	
