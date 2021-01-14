@@ -108,7 +108,7 @@ innovativeness_ideas = {
 		technology_cost = -0.1
 	}
 	dynamic_court = {
-		mercenary_manpower = 0.2
+		mercenary_manpower = 0.25
 	}
 	resilient_state = {
 		drill_gain_modifier = 0.33
