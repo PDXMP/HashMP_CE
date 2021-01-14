@@ -760,7 +760,7 @@ expansion_ideas = {
 		core_creation = -0.25
 	}
 	organised_recruiting = {
-		governing_capacity = 250
+		governing_capacity = 300
 	}
 	additional_diplomats = {
 		global_unrest = -1
