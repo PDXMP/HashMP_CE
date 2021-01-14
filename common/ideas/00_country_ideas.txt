@@ -1048,8 +1048,7 @@ BRA_ideas = {
 		infantry_power = 0.10
 	}
 	seat_of_the_old_emperors = {
-		diplomatic_reputation = 1
-		imperial_authority_value = 0.1
+		diplomatic_reputation = 2
 	}
 	iron_tooth = {
 		global_unrest = -2
