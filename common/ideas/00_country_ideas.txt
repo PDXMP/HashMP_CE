@@ -479,7 +479,7 @@ FRA_ideas = {
 		diplomatic_upkeep = 1
 	}
 	elan = {
-		land_morale = 0.20
+		land_morale = 0.15
 		discipline = 0.05
 	}
 	estates_general = {
