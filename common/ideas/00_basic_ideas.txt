@@ -64,7 +64,7 @@ plutocracy_ideas = {
 		land_morale = 0.10
 	}
 	abolished_serfdom = {
-		mercenary_manpower = 0.2
+		mercenary_manpower = 0.25
 		mercenary_discipline = 0.025
 	}
 	bill_of_rights = {
