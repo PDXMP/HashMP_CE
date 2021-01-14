@@ -10,6 +10,7 @@ country_decisions = {
 			}
 			religion_group = christian
 			is_emperor = no
+			always = no
 		}
 		allow = {
 			dominant_religion = hussite
