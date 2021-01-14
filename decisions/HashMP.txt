@@ -271,8 +271,24 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				region = burma_region
-				region = indo_china_region
+				AND = {
+					OR = {
+						region = burma_region
+						region = indo_china_region
+					}
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 50 #out of 34
+								is_core = root
+								OR = {
+									region = burma_region
+									region = indo_china_region
+								}
+							}
+						}
+					}
+				}
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -281,13 +297,13 @@ country_decisions = {
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
-			burma_region = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			indo_china_region = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			num_of_owned_provinces_with = {
+				value = 50 #out of 34
+				is_core = root
+				OR = {
+					region = burma_region
+					region = indo_china_region
+				}
 			}
 			is_at_war = no
 		}
