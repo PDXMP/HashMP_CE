@@ -999,7 +999,7 @@ PRU_ideas = {
 		global_tax_modifier = 0.1
 	}
 	divided_estates = {
-		stability_cost_modifier = -0.1
+		build_cost = -0.1
 	}
 	army_professionalism = {
 		land_morale = 0.10
