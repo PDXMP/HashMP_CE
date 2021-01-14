@@ -1022,8 +1022,8 @@ PRU_ideas = {
 
 BRA_ideas = {
 	start = {
-		fabricate_claims_cost= -0.2
-		build_cost = -0.15
+		army_tradition = 1
+		build_cost = -0.1
 	}
 	
 	bonus = {
@@ -1034,18 +1034,18 @@ BRA_ideas = {
 		tag = BRA
 	}
 	free = yes		#will be added at load.
-	
-	northern_march = {
-		infantry_power = 0.10
-	}
+
 	kammergericht = {
 		global_tax_modifier = 0.1
+	}	
+	bra_pomeranian_wars = {
+		land_morale = 0.10
 	}
 	divided_estates = {
 		stability_cost_modifier = -0.1
 	}
-	bra_pomeranian_wars = {
-		land_morale = 0.10
+	northern_march = {
+		infantry_power = 0.10
 	}
 	seat_of_the_old_emperors = {
 		diplomatic_reputation = 1
@@ -1055,8 +1055,7 @@ BRA_ideas = {
 		global_unrest = -2
 	}
 	margrave_council = {
-		burghers_loyalty_modifier = 0.05
-		nobles_loyalty_modifier = 0.05
+		army_tradition_decay = -0.01
 	}
 }
 
