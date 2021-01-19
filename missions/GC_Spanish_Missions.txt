@@ -1276,35 +1276,33 @@ gc_spain_4 = {
 		}
 
 		effect = {
-			if = {
+			#if = {
+			#	limit = {
+			#		exists = POR
+			#		valid_for_personal_unions_trigger = yes
+			#		POR = {
+			#			valid_for_personal_unions_trigger = yes
+			#		}
+			#	}
+			#	add_casus_belli = {
+			#		type = cb_restore_personal_union
+			#		months = 300
+			#		target = POR
+			#	}
+			#}
+			alentejo_area = {
 				limit = {
-					exists = POR
-					valid_for_personal_unions_trigger = yes
-					POR = {
-						valid_for_personal_unions_trigger = yes
-					}
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
 				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = POR
-				}
+				add_permanent_claim = ROOT
 			}
-			else = {
-				alentejo_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
+			beieras_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
 				}
-				beieras_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT }
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}
+				add_permanent_claim = ROOT
 			}
 			if = {
 				limit = {
