@@ -566,10 +566,6 @@ emp_burgundy_3 = {
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
-				add_country_modifier = {
-					name = "ae_kill"
-					duration = 3650
-				}
 			}
 		}
 	}
