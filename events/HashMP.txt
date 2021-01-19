@@ -354,6 +354,7 @@ country_event = { #Poland Ruler Failsafe
 		tag = POL
 		NOT = { adm = 6 dip = 6 mil = 6 }
 		NOT = { is_year = 1470 }
+		is_free_or_tributary_trigger = yes
 		has_country_flag = hash_localnoble
 	}
 
