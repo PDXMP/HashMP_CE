@@ -659,6 +659,10 @@ mongolia_region = {
 		xilin_gol_area
 		chahar_area
 		cicigar_area
+		ulanqab_area
+		ejin_area
+		alxa_area
+		chifeng_area
 	}
 }
 
@@ -674,6 +678,8 @@ manchuria_region = {
 		central_heilongjiang_area
 		sakhalin_area
 		furdan_area
+		dalian_area
+		shenyang_area
 	}
 }
 
