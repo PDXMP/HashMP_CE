@@ -14799,10 +14799,10 @@ LOT_ideas = {
 		advisor_pool = 1
 	}
 	lot_land_of_abbeys = {
-		development_cost = -0.1
+		missionaries = 1
 	}
 	lot_european_empire = {
-		core_creation = -0.25
+		core_creation = -0.2
 	}
 }
 
