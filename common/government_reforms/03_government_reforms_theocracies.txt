@@ -191,7 +191,6 @@ religious_administrators_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		advisor_cost = -0.1
-		stability_cost_modifier = -0.1
 	}
 }
 
@@ -199,7 +198,7 @@ pious_merchants_reform = {
 	icon = "merchant"
 	allow_normal_conversion = yes
 	modifiers = {
-		global_trade_power = 0.05
+		global_trade_power = 0.1
 		maratha_muslim_influence_modifier = 0.1
 		rajput_muslim_influence_modifier = 0.1
 		burghers_influence_modifier = 0.1
@@ -212,7 +211,7 @@ loyal_nobility_reform = {
 	icon = "nobleman"
 	allow_normal_conversion = yes
 	modifiers = {
-		army_tradition = 0.25
+		army_tradition = 0.5
 		nobles_influence_modifier = 0.1
 		maratha_exclusive_influence_modifier = 0.1
 		rajput_exclusive_influence_modifier = 0.1
@@ -312,7 +311,7 @@ warrior_monks_reform = {
 	modifiers = {
 #		discipline = 0.05
 		infantry_power = 0.05
-#		mercenary_manpower = 0.1
+		mercenary_manpower = 0.1
 	}
 }
 
@@ -327,7 +326,7 @@ guru_advisors_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		global_missionary_strength = 0.03
-		global_institution_spread = 0.1
+		advisor_cost = -0.1
 	}
 }
 
