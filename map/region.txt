@@ -470,11 +470,11 @@ guinea_region = {
 
 sahel_region = {
 	areas = {
-		darfur_central_sahara_area
+		#darfur_central_sahara_area
 		kanem_area
 		bornu_area
 		azbin_area
-		kurdufan_area
+		#kurdufan_area
 		western_sahara_area
 		dendi_area
 		baghena_area
@@ -506,6 +506,9 @@ horn_of_africa_region = {
 		damot_area
 		aussa_area
 		shewa_area
+		#from sahel
+		kurdufan_area
+		darfur_central_sahara_area
 	}
 }
 
