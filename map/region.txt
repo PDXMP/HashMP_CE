@@ -86,15 +86,15 @@ italy_region = {
 
 north_german_region = {
 	areas = { 
-		erzgebirge_area
+		#erzgebirge_area
 		south_saxony_area
 		northern_saxony_area
 		thuringia_area
 		neumark_area
 		mittelmark_area
 		vorpommern_area
-		bohemia_area
-		moravia_area
+		#bohemia_area
+		#moravia_area
 		hinter_pommern_area
 		north_rhine_area
 		lower_rhineland_area
@@ -131,6 +131,10 @@ south_german_region = {
 		romandie_area
 		palatinate_area
 		alsace_area
+		#from north germany
+		bohemia_area
+		erzgebirge_area
+		moravia_area
 	}
 }
 
