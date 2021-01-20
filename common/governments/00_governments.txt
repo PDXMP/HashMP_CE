@@ -513,8 +513,8 @@ theocracy = {
 			reforms = {
 				internal_mission_reform
 				external_mission_reform
-				mission_to_civilize_reform
-				mission_to_kill_pirates_reform
+				#mission_to_civilize_reform
+				#mission_to_kill_pirates_reform
 			}
 		}
 		divine_cause = {
