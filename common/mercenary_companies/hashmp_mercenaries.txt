@@ -465,8 +465,8 @@ h_merc_immortals = {
 		tag = PER
 	}
 	modifier = {
-		fire_damage_received = -0.05
-		shock_damage_received = -0.05
+		fire_damage_received = -0.1
+		shock_damage_received = -0.1
 	}
 }
 
