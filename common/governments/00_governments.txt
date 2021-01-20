@@ -564,7 +564,7 @@ theocracy = {
 				regionally_elected_commanders
 				monastic_elections_reform
 				commander_king_reform
-				admiral_king_reform
+				#admiral_king_reform
 			}
 		}
 		nature_of_faith = {
