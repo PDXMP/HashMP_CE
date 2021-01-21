@@ -685,7 +685,8 @@ h_merc_jianzhou = {
 		tag = MCH
 	}
 	modifier = {
-	
+		cavalry_power = 0.1
+		movement_speed = 0.1
 	}
 }
 
