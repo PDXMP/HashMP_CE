@@ -580,36 +580,42 @@ country_decisions = {
 					tag = CSH
 				}
 				country_event = { id = foffychina.9 } #Ancillary 3
+				override_country_name = CSH_Empire
 			}	
 			if = {
 				limit = {
 					tag = CXI
 				}
 				country_event = { id = foffychina.12 } #Ancillary 3
+				override_country_name = CXI_Empire
 			}
 			if = {
 				limit = {
 					tag = CYI
 				}
 				country_event = { id = foffychina.15 } #Ancillary 3
+				override_country_name = CYI_Empire
 			}
 			if = {
 				limit = {
 					tag = QIC
 				}
 				country_event = { id = foffychina.18 } #Ancillary 3
+				override_country_name = QIC_Empire
 			}
 			if = {
 				limit = {
 					tag = WUU
 				}
 				country_event = { id = foffychina.21 } #Ancillary 3
+				override_country_name = WUU_Empire
 			}
 			if = {
 				limit = {
 					tag = YUE
 				}
 				country_event = { id = foffychina.24 } #Ancillary 3
+				override_country_name = YUE_Empire
 			}
 		}
 	}
