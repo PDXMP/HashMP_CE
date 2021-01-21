@@ -18,7 +18,7 @@ estate_burghers =
 			NOT = { has_reform = celestial_empire }
 			has_dlc = "Mandate of Heaven"
 		}
-#		is_nomad = no
+		is_nomad = no
 		is_colonial_nation = no
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
