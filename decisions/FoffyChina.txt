@@ -280,7 +280,7 @@ country_decisions = {
 				tag = QIC
 				tag = CXI
 			}
-			owns = 4765
+			owns = 4861
 			NOT = { capital = 4861 }
 			NOT = { has_country_flag = h_commandery_capital }
 		}
