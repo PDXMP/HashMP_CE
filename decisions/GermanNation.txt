@@ -35,7 +35,6 @@ country_decisions = {
 				tag = HES
 				tag = SWI
 				tag = HAN
-				tag = DAN
 				tag = WES
 			}
 			is_colonial_nation = no
