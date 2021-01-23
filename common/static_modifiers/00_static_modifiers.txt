@@ -70,6 +70,8 @@ difficulty_hard_ai = {
 	war_exhaustion = -0.05
 	interest = -1
 	ae_impact = -0.33
+	missionary_maintenance_cost = -0.15
+
 }
 
 difficulty_very_hard_ai = {
@@ -89,6 +91,7 @@ difficulty_very_hard_ai = {
 	development_cost = -0.2
 	build_cost = -0.25
 	ae_impact = -0.33
+	missionary_maintenance_cost = -0.3
 }
 
 
@@ -168,11 +171,11 @@ arid = {
 }
 
 sea_zone = {
-	max_attrition = 10						#Maximum Attrition is 5
+	max_attrition = 8						#Maximum Attrition is 5
 }
 
 land_province = {
-	max_attrition = 10						#Maximum Attrition is 5
+	max_attrition = 8						#Maximum Attrition is 5
 	local_manpower_modifier = 0.25			#25% of manpower.
 }
 
