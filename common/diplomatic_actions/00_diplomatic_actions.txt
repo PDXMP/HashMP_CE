@@ -136,6 +136,27 @@ royal_marriage = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_marrynative
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_native_empire
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_nativemarry
+		potential = {
+			ROOT = { has_reform = h_reform_native_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 annexationaction = {
@@ -255,6 +276,27 @@ guaranteeaction = {
 		tooltip = h_tooltip_commanderyguarantee
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_guaranteenative
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_native_empire
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_nativeguarantee
+		potential = {
+			ROOT = { has_reform = h_reform_native_empire }
 		}
 		allow = {
 			always = no
