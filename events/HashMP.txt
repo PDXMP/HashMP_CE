@@ -780,3 +780,39 @@ country_event = { #Invite hussites
 	}
 	
 }
+
+country_event = { #Inca claims
+	id = hashmp.14
+	title = hashmp.14.t
+	desc = hashmp.14.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		tag = INC
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = hashmp.2.a
+		peru_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+		add_permanent_claim = ROOT
+		}
+		upper_peru_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+		add_permanent_claim = ROOT
+		}
+	}
+}
