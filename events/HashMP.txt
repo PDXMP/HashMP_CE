@@ -597,7 +597,7 @@ country_event = {
 		add_years_of_income = -1
 		4745 = {
 			change_trade_goods = gold
-			add_base_production = 5
+			add_base_production = 3
 		}
 	}
 	
