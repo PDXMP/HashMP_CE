@@ -124,6 +124,7 @@ h_reform_warlord_2 = {
 	allow_normal_conversion = yes
 	fixed_rank = 1
 	potential = {
+		ai = no
 		AND = {
 			NOT = { has_reform = h_reform_warlord_1 }
 			NOT = { has_reform = h_reform_warlord_3 }
@@ -155,6 +156,7 @@ h_reform_warlord_3 = {
 	allow_normal_conversion = yes
 	fixed_rank = 2
 	potential = {
+		ai = no
 		AND = {
 			NOT = { has_reform = h_reform_warlord_1 }
 			NOT = { has_reform = h_reform_warlord_2 }
@@ -186,6 +188,7 @@ h_reform_warlord_4 = {
 	allow_normal_conversion = yes
 	fixed_rank = 3
 	potential = {
+		ai = no
 		AND = {
 			NOT = { has_reform = h_reform_warlord_1 }
 			NOT = { has_reform = h_reform_warlord_2 }
