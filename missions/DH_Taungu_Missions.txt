@@ -510,7 +510,7 @@ tau_slot_3 = {
 		required_missions = { tau_conquer_pegu }
 		trigger = {
 			586 = {
-				is_capital = yes
+				#is_capital = yes
 				development = 20
 				owned_by = ROOT
 			}
@@ -518,6 +518,9 @@ tau_slot_3 = {
 		effect = {
 			586 = {
 				change_culture = ROOT
+				TAU = {
+					set_capital = 586
+				}
 				add_province_modifier = {
 					name = "tau_new_capital"
 					duration = -1
