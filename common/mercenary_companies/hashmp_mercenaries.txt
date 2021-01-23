@@ -704,6 +704,21 @@ h_merc_banner = {
 	}
 }
 
+h_merc_sileraioi = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.3
+	trigger = {
+		tag = TTS
+	}
+	modifier = {
+		shock_damage_received = -0.1
+		infantry_power = 0.05
+	}
+}
+
 ########################################
 # Unique Mercenaries - Vanilla
 ########################################
