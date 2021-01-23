@@ -181,7 +181,7 @@ danish_missions_baltic = {
 				add_unit_construction = {
 					amount = 5
 					type = galley
-					speed = 0.5
+					speed = 0.25
 					cost = 0
 				}
 			}
