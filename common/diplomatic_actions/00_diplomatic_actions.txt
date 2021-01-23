@@ -314,6 +314,15 @@ warningaction = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_nativewarn
+		potential = {
+			ROOT = { has_reform = h_reform_native_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 
