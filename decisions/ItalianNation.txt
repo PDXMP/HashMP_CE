@@ -81,6 +81,7 @@ country_decisions = {
 			}
 		}
 		allow = {
+			adm_tech = 10
 			is_free_or_tributary_trigger = yes
 			num_of_owned_provinces_with = {
 				value = 50 #out of 34
@@ -91,18 +92,6 @@ country_decisions = {
 			}
 			owns_core_province = 118			# Rome
 			is_at_war = no
-		}
-		allow = {
-			adm_tech = 10
-			is_free_or_tributary_trigger = yes
-			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 50 #out of 34
-				is_core = root
-				OR = {
-					region = italy_region
-				}
-			}
 		}
 		effect = {
 			if = {
