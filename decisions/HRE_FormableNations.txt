@@ -6,10 +6,11 @@ country_decisions = {
 			was_never_end_game_tag_trigger = yes
 			was_never_german_regional_tag_trigger = yes
 			NOT = { has_country_flag = formed_bavaria_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
+			#OR = {
+			#	ai = no
+			#	is_playing_custom_nation = no
+			#}
+			ai = yes
 			NOT = { exists = BAV }
 			primary_culture = bavarian
 		}
