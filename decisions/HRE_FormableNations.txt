@@ -816,7 +816,7 @@ country_decisions = {
 			NOT = { tag = SAX } #Saxe-Lauenburg should form either Saxony or Hannover, not both
 			NOT = { exists = HAN }
 			OR = {
-				primary_culture = hannoverian #Westphalian
+				#primary_culture = hannoverian #Westphalian
 				tag = DAN
 				tag = HES
 			}
@@ -955,8 +955,10 @@ country_decisions = {
 			NOT = { exists = WES }
 			NOT = { has_reform = celestial_empire }
 			OR = {
-				primary_culture = hannoverian #Westphalian
-				primary_culture = hessian
+				tag = DAN
+				tag = HES
+				#primary_culture = hannoverian #Westphalian
+				#primary_culture = hessian
 			}
 			is_colonial_nation = no
 			OR = {
