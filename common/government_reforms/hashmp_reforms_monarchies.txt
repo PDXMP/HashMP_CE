@@ -78,7 +78,7 @@ t2_lp_1 = { #Curtail Nobility
 	}
 	modifiers = {
 		global_tax_modifier = 0.15
-		trade_efficiency = 0.05
+		#trade_efficiency = 0.05
 	}
 }
 t2_lp_2 = { #Balanced Government
