@@ -407,7 +407,7 @@ under_siege = {
 	province_trade_power_modifier = -0.25
 	local_institution_spread = -0.1
 	
-	local_monthly_devastation = 0.6
+	local_monthly_devastation = 0.3
 }
 
 
