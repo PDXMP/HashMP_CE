@@ -14,7 +14,6 @@ country_decisions = {
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
 			OR = {
-				tag = SWI
 				tag = VEN
 				tag = SPI
 				tag = GEN
