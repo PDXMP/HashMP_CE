@@ -1657,7 +1657,7 @@ estate_church_enforced_one_faith = {
 estate_burghers_land_of_commerce = {
 	icon = privilege_diplo_power
 	land_share = 10
-#	max_absolutism = -5
+	max_absolutism = -5
 	loyalty = -0.05
 	can_select = {
 		NOT = {
@@ -2257,12 +2257,6 @@ estate_dhimmi_tolerance = {
 		NOT = { has_estate_privilege = estate_church_enforced_one_faith }
 		NOT = {
 			num_of_estate_privileges = {
-			estate = estate_burghers
-			value = 4
-			}
-		}
-		NOT = {
-			num_of_estate_privileges = {
 			estate = estate_dhimmi
 			value = 4
 			}
@@ -2607,7 +2601,7 @@ estate_brahmins_brahmin_leadership = {
 		stability_cost_modifier = 0.05
 	}
 	benefits = {
-		adm_advisor_cost = -0.15
+		adm_advisor_cost = -0.1
 	}
 	ai_will_do = {
 		factor = 10
@@ -3010,7 +3004,7 @@ estate_maratha_advisor = {
 		stability_cost_modifier = 0.05
 	}
 	benefits = {
-		mil_advisor_cost = -0.15
+		mil_advisor_cost = -0.1
 	}
 	ai_will_do = {
 		factor = 10
@@ -3366,7 +3360,7 @@ estate_rajput_advisor = {
 		stability_cost_modifier = 0.05
 	}
 	benefits = {
-		mil_advisor_cost = -0.15
+		mil_advisor_cost = -0.1
 	}
 	ai_will_do = {
 		factor = 10
@@ -3562,7 +3556,7 @@ estate_vaisyas_advisor = {
 		stability_cost_modifier = 0.05
 	}
 	benefits = {
-		dip_advisor_cost = -0.15
+		dip_advisor_cost = -0.1
 	}
 	ai_will_do = {
 		factor = 10
