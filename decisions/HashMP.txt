@@ -440,6 +440,15 @@ country_decisions = {
 			central_africa_region = {
 				discover_country = ROOT
 			}
+			upper_zambezi_area = {
+				discover_country = ROOT
+			}
+			kasai_area = {
+				discover_country = ROOT
+			}
+			lower_kasai = {
+				discover_country = ROOT
+			}
 			set_country_flag = h_rzw_explore	
 		}
 	}
