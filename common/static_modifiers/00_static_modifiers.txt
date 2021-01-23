@@ -1710,9 +1710,3 @@ lost_hegemony = {
 at_peace_revolutionary = { # Applied if at peace while reactionaries are bordering you
 	yearly_revolutionary_zeal = -4
 }
-###
-#Hash MP BURGUNDY
-##
-ae_kill = {
-	ae_impact = -0.2
-}
