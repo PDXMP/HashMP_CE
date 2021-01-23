@@ -448,9 +448,9 @@ english_monarchy = {
 		has_parliament = yes
 	}
 
-	custom_attributes = {
-		blocked_call_diet = yes
-	}
+	#custom_attributes = {
+	#	blocked_call_diet = yes
+	#}
 }
 
 ottoman_government = {
