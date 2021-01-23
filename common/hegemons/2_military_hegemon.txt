@@ -9,17 +9,16 @@ military_hegemon = {
 	
 	base = {
 		global_spy_defence = 0.25
-		war_exhaustion = -0.1
-		province_warscore_cost = -0.1
+		war_exhaustion = -0.05
 	}
 	
 	# At max 100% tickup.
 	scale = {
-		movement_speed = 0.1
+		province_warscore_cost = -0.1
 	}
 	
 	max = {
-		siege_ability = 0.2
+		siege_ability = 0.25
 	}
 	
 }

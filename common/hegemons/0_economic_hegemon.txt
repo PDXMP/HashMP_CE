@@ -7,13 +7,12 @@ economic_hegemon = {
 	}
 	
 	base = {
-		war_exhaustion = -0.1
 		global_spy_defence = 0.25
+		war_exhaustion = -0.05
 	}
 	
 	# At max 100% tickup.
 	scale = {
-		global_trade_goods_size_modifier = 0.1
 		min_autonomy_in_territories = -0.1
 	}
 	
