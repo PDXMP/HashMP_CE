@@ -272,7 +272,7 @@ lithuanian_missions_slot = {
 					estate = estate_cossacks
 					influence = 40
 				}
-				has_estate_privilege = estate_cossacks_establish_the_cossack_regiments
+				#has_estate_privilege = estate_cossacks_establish_the_cossack_regiments
 				owns_core_province = 282
 				owns_core_province = 2406
 				owns_core_province = 283
