@@ -11,6 +11,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = BAV }
+			always = no
 			primary_culture = bavarian
 		}
 		provinces_to_highlight = {
