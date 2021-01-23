@@ -607,7 +607,6 @@ negative_stability = {
 	migration_cooldown = 0.1
 	devotion = 1
 	caravan_power = 0.05
-	monthly_militarized_society = -0.05
 }
 
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
