@@ -10,11 +10,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = TTS }
-			OR = {
-				tag = NAP
-				tag = GEN
-				tag = VEN
-			}
+			tag = NAP
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
