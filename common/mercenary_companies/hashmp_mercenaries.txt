@@ -370,9 +370,9 @@ h_merc_hanseatic = {
 
 h_merc_ruthenians = {
 	regiments_per_development = 0.05
-	cavalry_weight = 0.0
+	cavalry_weight = 0.8
 	artillery_weight = 0.0
-	cavalry_cap = 0
+	cavalry_cap = 40
 	cost_modifier = 0.4
 	trigger = {
 		tag = POL
