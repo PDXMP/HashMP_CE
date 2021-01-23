@@ -305,6 +305,7 @@ patriarch_authority_local = {
 #for the country
 patriarch_authority_global = {
 	global_missionary_strength = 0.02
+	church_influence_modifier = 0.10
 }
 
 pasha_state = {
