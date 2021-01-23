@@ -553,6 +553,12 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			NOT = { tag = SYN }
 			NOT = { tag = ADU }
 			NOT = { tag = LOT }
+			NOT = { tag = WUU }
+			NOT = { tag = CXI }
+			NOT = { tag = YUE }
+			NOT = { tag = CYI }
+			NOT = { tag = CSH }
+			NOT = { tag = QIC }
 		}
 	}
 }
