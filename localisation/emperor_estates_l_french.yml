@@ -18,7 +18,7 @@
  estate_burghers_commercial_board_of_advice:0 "Conseil des négociants"
  estate_burghers_new_world_charter:0 "Chartes pour le Nouveau Monde"
  estate_burghers_indebted_to_burghers:0 "Emprunts aux [Root.GetBourgeoisName]"
- estate_burghers_indebted_to_burghers_effect_tooltip:2 "Permet §Y5§! emprunts de §Y5 ans§! au taux de §Y1%§!. Aussitôt les emprunts remboursés, ce privilège sera retiré."
+ estate_burghers_indebted_to_burghers_effect_tooltip:2 "Permet §Y5§! emprunts de §Y5 ans§! au taux de §Y2.5%§!. Aussitôt les emprunts remboursés, ce privilège sera retiré."
  estate_burghers_free_enterprise:0 "Libre entreprise"
  estate_cossacks_exploration_expedition:0 "Expéditions d'exploration cosaques"
  estate_cossacks_cossack_self_governance:0 "Autonomie cosaque"

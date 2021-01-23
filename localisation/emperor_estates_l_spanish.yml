@@ -18,7 +18,7 @@
  estate_burghers_commercial_board_of_advice:0 "Junta consultiva comercial"
  estate_burghers_new_world_charter:0 "Conceder Privilegios del Nuevo Mundo"
  estate_burghers_indebted_to_burghers:0 "En deuda con $ESTATE_NAME$"
- estate_burghers_indebted_to_burghers_effect_tooltip:2 "Pedir §Y5§! préstamos de 5 años al §Y1,0%§! de interés. El privilegio desaparecerá cuando se devuelvan."
+ estate_burghers_indebted_to_burghers_effect_tooltip:2 "Pedir §Y5§! préstamos de 5 años al §Y2,5%§! de interés. El privilegio desaparecerá cuando se devuelvan."
  estate_burghers_free_enterprise:0 "Empresas libres"
  estate_cossacks_exploration_expedition:0 "Expediciones de exploración cosacas"
  estate_cossacks_cossack_self_governance:0 "Autogobierno cosaco"
