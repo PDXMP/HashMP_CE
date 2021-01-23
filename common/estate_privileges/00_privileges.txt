@@ -6,6 +6,12 @@ estate_brahmins_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -79,6 +85,12 @@ estate_nobles_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -152,6 +164,12 @@ estate_church_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -225,6 +243,12 @@ estate_maratha_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_maratha
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -298,6 +322,12 @@ estate_burghers_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -371,6 +401,12 @@ estate_vaisyas_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -444,6 +480,12 @@ estate_cossacks_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_cossacks
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -517,6 +559,12 @@ estate_nomadic_tribes_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nomadic_tribes
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -590,6 +638,12 @@ estate_dhimmi_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_dhimmi
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -663,6 +717,12 @@ estate_jains_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -736,6 +796,12 @@ estate_rajput_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_rajput
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -815,6 +881,12 @@ estate_nobles_nobility_primacy = {
 			NOT = { has_estate_privilege = estate_rajput_military }
 			NOT = { has_estate_privilege = estate_maratha_military }
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -868,6 +940,12 @@ estate_nobles_officer_corp = {
 	influence = 0.05
 	can_select = {
 		army_tradition = 30
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_army_tradition = -15
@@ -892,6 +970,12 @@ estate_nobles_levies = {
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_nobles_golden_liberty }
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
 	}
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.25
@@ -990,6 +1074,14 @@ estate_nobles_advisors = {
 	max_absolutism = -5
 	influence = 0.1
 	loyalty = 0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		stability_cost_modifier = 0.05
 	}
@@ -1018,6 +1110,14 @@ estate_nobles_right_of_counsel = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -1072,6 +1172,12 @@ estate_nobles_french_strong_duchies = {
 		else = {
 			vassal = 2
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
 	}
 	penalties = {
 	}
@@ -1094,6 +1200,12 @@ estate_church_religious_state = {
 #	max_absolutism = -5
 	loyalty = -0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -1146,6 +1258,14 @@ estate_church_independent_inquisition = {
 	max_absolutism = -5
 	influence = 0.1
 	loyalty = 0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		stability_cost_modifier = 0.05
 	}
@@ -1180,6 +1300,14 @@ estate_church_new_world_mission = {
 			num_of_colonies = 1
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -1202,6 +1330,12 @@ estate_church_papal_emissary = {
 	can_select = {
 		papal_influence = 20
 		num_of_cardinals = 1
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_papal_influence = -5
@@ -1354,6 +1488,14 @@ estate_church_clerical_ministers = {
 			church_power_modifier = 0.1
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -1381,6 +1523,14 @@ estate_church_clerical_oversight = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -1405,6 +1555,12 @@ estate_church_inwards_perfection = {
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_church_for_the_faith }
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -1443,6 +1599,12 @@ estate_burghers_enforced_interfaith_dialogue = {
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_church_enforced_one_faith }
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
 	}
 	penalties = {
 		church_loyalty_modifier = -0.1
@@ -1468,6 +1630,12 @@ estate_church_enforced_one_faith = {
 	can_select = {
 		NOT = { has_estate_privilege = estate_burghers_enforced_interfaith_dialogue }
 		NOT = { has_estate_privilege = estate_dhimmi_tolerance }
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
 	}
 	penalties = {
 		tolerance_heathen = -2
@@ -1492,6 +1660,12 @@ estate_burghers_land_of_commerce = {
 #	max_absolutism = -5
 	loyalty = -0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -1544,6 +1718,12 @@ estate_burghers_admirals = {
 	max_absolutism = -5
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
 		navy_tradition = 30
 	}
 	on_granted = {
@@ -1565,6 +1745,14 @@ estate_burghers_commercial_board_of_advice = {
 	max_absolutism = -5
 	influence = 0.1
 	loyalty = 0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		stability_cost_modifier = 0.05
 	}
@@ -1597,6 +1785,14 @@ estate_burghers_new_world_charter = {
 		OR = {
 			num_of_colonists = 1
 			num_of_colonies = 1
+		}
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
 		}
 	}
 	penalties = {
@@ -1632,6 +1828,14 @@ estate_burghers_indebted_to_burghers = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
+	}
 	on_granted = {
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
 		add_mercantilism = -1
@@ -1681,6 +1885,14 @@ estate_burghers_free_enterprise = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -1722,6 +1934,14 @@ estate_cossacks_exploration_expedition = {
 			}
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_cossacks
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	ai_will_do = {
@@ -1756,6 +1976,14 @@ estate_cossacks_cossack_self_governance = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_cossacks
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -1775,6 +2003,12 @@ estate_cossacks_establish_the_cossack_regiments = {
 	max_absolutism = -5
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_cossacks
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -1819,6 +2053,12 @@ estate_cossacks_expand_the_cossack_regiments = {
 		has_estate_privilege = estate_cossacks_establish_the_cossack_regiments
 	}
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_cossacks
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -1897,6 +2137,14 @@ estate_dhimmi_lighter_dhimmi_taxes = {
 			}
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_dhimmi
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -1911,6 +2159,14 @@ estate_dhimmi_dhimmi_nobles = {
 	max_absolutism = -5
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_dhimmi
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		church_loyalty_modifier = -0.05
 		nobles_loyalty_modifier = -0.05
@@ -1935,6 +2191,12 @@ estate_dhimmi_manpower = {
 		}
 	}
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_dhimmi
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		custom_tooltip = estate_dhimmi_manpower_effect_tooltip
@@ -1993,6 +2255,18 @@ estate_dhimmi_tolerance = {
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_church_enforced_one_faith }
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_dhimmi
+			value = 4
+			}
+		}
 	}
 	penalties = {
 		church_loyalty_modifier = -0.05
@@ -2070,6 +2344,14 @@ estate_dhimmi_guaranteed_autonomy = {
 			}
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_dhimmi
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2091,6 +2373,14 @@ estate_nomadic_tribes_share_of_the_spoils = {
 	icon = privilege_supply_arms
 	max_absolutism = -5
 	loyalty = 0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nomadic_tribes
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		available_province_loot = -0.1
 	}
@@ -2106,6 +2396,14 @@ estate_nomadic_tribes_chieftains_autonomy = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nomadic_tribes
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2125,6 +2423,12 @@ estate_nomadic_tribes_guaranteed_leadgership_in_host = {
 	influence = 0.05
 	can_select = {
 		army_tradition = 30
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nomadic_tribes
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_army_tradition = -15
@@ -2145,6 +2449,14 @@ estate_nomadic_tribes_tribal_host = {
 	max_absolutism = -5
 	loyalty = -0.05
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nomadic_tribes
+			value = 4
+			}
+		}
+	}
 	benefits = {
 		global_manpower_modifier = 0.2
 	}
@@ -2166,6 +2478,12 @@ estate_brahmins_brahmin_governance = {
 		NOT = { religion_group = muslim }
 	}
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -2220,6 +2538,14 @@ estate_brahmins_legitimacy_to_rule = {
 	is_valid = {
 		religion_group = muslim
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		church_loyalty_modifier = -0.05
 	}
@@ -2269,6 +2595,14 @@ estate_brahmins_brahmin_leadership = {
 		NOT = { religion_group = muslim }
 	}
 	loyalty = 0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		stability_cost_modifier = 0.05
 	}
@@ -2305,6 +2639,12 @@ estate_brahmins_flexible_deities = {
 			estate = estate_brahmins
 			influence = 60
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		custom_tooltip = estate_brahmins_flexible_deities_effect_tooltip
@@ -2326,6 +2666,14 @@ estate_brahmins_loyalty_privilege = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2385,6 +2733,14 @@ estate_brahmins_guaranteed_autonomy = {
 			}
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2411,6 +2767,12 @@ estate_jains_diplomacy = {
 #		NOT = { religion_group = muslim }
 	}
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -2464,6 +2826,12 @@ estate_jains_clerical_class = {
 	max_absolutism = -10
 	influence = 0.1
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -2516,6 +2884,14 @@ estate_jains_indebted_to_jains = {
 			}
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		trade_efficiency = -0.05
 	}
@@ -2530,6 +2906,14 @@ estate_jains_conscientious_objection = {
 	icon = privilege_commission_jain_scripture
 	max_absolutism = -5
 	loyalty = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		global_manpower_modifier = -0.1
 	}
@@ -2552,6 +2936,12 @@ estate_maratha_military = {
 		custom_trigger_tooltip = {
 			tooltip = no_other_mil_privilege
 			NOT = { has_estate_privilege = estate_nobles_nobility_primacy }
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_maratha
+			value = 4
+			}
 		}
 	}
 	on_granted = {
@@ -2608,6 +2998,14 @@ estate_maratha_advisor = {
 		NOT = { religion_group = muslim }
 	}
 	loyalty = 0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_maratha
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		stability_cost_modifier = 0.05
 	}
@@ -2636,6 +3034,14 @@ estate_maratha_loyalty_privilege = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_maratha
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2659,6 +3065,14 @@ estate_maratha_levies = {
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.25
 		global_manpower_modifier = 0.5
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_maratha
+			value = 4
+			}
+		}
 	}
 	penalties = {
 	}
@@ -2783,6 +3197,14 @@ estate_maratha_levies_for_muslims = {
 			}
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_maratha
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		nobles_loyalty_modifier = -0.05
 	}
@@ -2805,6 +3227,14 @@ estate_maratha_special_privilege = {
 		discipline = 0.1
 		global_tax_modifier = -0.15
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_maratha
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2824,6 +3254,12 @@ estate_rajput_rajput_regiments = {
 	max_absolutism = -5
 	influence = 0.05
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_rajput
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 	}
@@ -2857,6 +3293,14 @@ estate_rajput_military = {
 		}
 	}
 	on_granted = {
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_rajput
+			value = 4
+			}
+		}
 	}
 	penalties = {
 	}
@@ -2910,6 +3354,14 @@ estate_rajput_advisor = {
 		NOT = { religion_group = muslim }
 	}
 	loyalty = 0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_rajput
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		stability_cost_modifier = 0.05
 	}
@@ -2938,6 +3390,14 @@ estate_rajput_loyalty_privilege = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_rajput
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2957,6 +3417,12 @@ estate_rajput_officer_corp = {
 	influence = 0.05
 	can_select = {
 		army_tradition = 30
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_rajput
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_army_tradition = -15
@@ -2989,6 +3455,12 @@ estate_rajput_look_up_purbias = {
 		has_estate_privilege = estate_rajput_rajput_regiments
 	}
 	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_rajput
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		if = {
@@ -3052,6 +3524,14 @@ estate_vaisyas_loyalty_privilege = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -3070,6 +3550,14 @@ estate_vaisyas_advisor = {
 	max_absolutism = -5
 	influence = 0.1
 	loyalty = 0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		stability_cost_modifier = 0.05
 	}
@@ -3097,6 +3585,14 @@ estate_vaisyas_wartaxes = {
 	icon = privilege_exempt_officers_from_jaziya
 	max_absolutism = -5
 	loyalty = -0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
+			}
+		}
+	}
 	benefits = {
 		war_taxes_cost_modifier = -0.5
 #		war_exhaustion = -0.02
@@ -3119,6 +3615,14 @@ estate_burghers_patronage_of_the_arts = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		global_tax_modifier = -0.05
 	}
@@ -3156,6 +3660,14 @@ estate_vaisyas_patronage_of_the_arts = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		global_tax_modifier = -0.05
 	}
@@ -3175,6 +3687,14 @@ estate_nomadic_tribes_primacy_to_the_bannermen = {
 		OR = {
 			primary_culture = manchu
 			primary_culture = manchu_new
+		}
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nomadic_tribes
+			value = 4
+			}
 		}
 	}
 	penalties = {
@@ -3204,6 +3724,14 @@ estate_nobles_supremacy_over_crown = {
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
 	}
 	penalties = {
 	}
@@ -3249,6 +3777,14 @@ estate_brahmins_supremacy_over_crown = {
 	is_valid = {
 		has_dlc = "Emperor"
 		NOT = { religion_group = muslim }
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
 	}
 	penalties = {
 	}
@@ -3311,6 +3847,12 @@ estate_burghers_monopoly_of_textiles = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
 			}
 		}
 	}
@@ -3405,6 +3947,12 @@ estate_burghers_monopoly_of_dyes = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -3492,6 +4040,12 @@ estate_burghers_monopoly_of_glass = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -3577,6 +4131,12 @@ estate_burghers_monopoly_of_paper = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
 			}
 		}
 	}
@@ -3667,6 +4227,12 @@ estate_vaisyas_monopoly_of_textiles = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
 			}
 		}
 	}
@@ -3762,6 +4328,12 @@ estate_vaisyas_monopoly_of_dyes = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -3849,6 +4421,12 @@ estate_vaisyas_monopoly_of_glass = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -3934,6 +4512,12 @@ estate_vaisyas_monopoly_of_paper = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
 			}
 		}
 	}
@@ -4026,6 +4610,12 @@ estate_jains_monopoly_of_textiles = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
 			}
 		}
 	}
@@ -4123,6 +4713,12 @@ estate_jains_monopoly_of_dyes = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -4210,6 +4806,12 @@ estate_jains_monopoly_of_glass = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
 			}
 		}
 	}
@@ -4301,6 +4903,12 @@ estate_jains_monopoly_of_paper = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -4389,6 +4997,12 @@ estate_nobles_monopoly_of_metals = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
 			}
 		}
 	}
@@ -4484,6 +5098,12 @@ estate_nobles_monopoly_of_livestock = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -4568,6 +5188,12 @@ estate_nobles_monopoly_of_gems = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
 			}
 		}
 	}
@@ -4659,6 +5285,12 @@ estate_rajput_monopoly_of_metals = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_rajput
+			value = 4
 			}
 		}
 	}
@@ -4755,6 +5387,12 @@ estate_rajput_monopoly_of_livestock = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_rajput
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -4841,6 +5479,12 @@ estate_rajput_monopoly_of_gems = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_rajput
+			value = 4
 			}
 		}
 	}
@@ -4932,6 +5576,12 @@ estate_maratha_monopoly_of_metals = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_maratha
+			value = 4
 			}
 		}
 	}
@@ -5027,6 +5677,12 @@ estate_maratha_monopoly_of_livestock = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_maratha
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -5114,6 +5770,12 @@ estate_maratha_monopoly_of_gems = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_maratha
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -5159,6 +5821,14 @@ estate_maratha_monopoly_of_gems = {
 			}
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_maratha
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -5198,6 +5868,12 @@ estate_church_monopoly_of_incense = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
 			}
 		}
 	}
@@ -5284,6 +5960,12 @@ estate_church_monopoly_of_wool = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
 			}
 		}
 	}
@@ -5373,6 +6055,12 @@ estate_church_monopoly_of_wine = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -5458,6 +6146,12 @@ estate_church_monopoly_of_slaves = {
 					disaster = french_revolution
 					value = 1
 				}
+			}
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
 			}
 		}
 	}
@@ -5547,6 +6241,12 @@ estate_brahmins_monopoly_of_incense = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -5634,6 +6334,12 @@ estate_brahmins_monopoly_of_wool = {
 				}
 			}
 		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -5698,6 +6404,14 @@ estate_cossacks_recruit_cossack_generals = {
 	icon = privilege_conscript_cossack_elite
 	max_absolutism = -5
 	influence = 0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_cossacks
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -5760,6 +6474,14 @@ estate_cossacks_prime_herding_rights = {
 			}
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_cossacks
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -5778,6 +6500,14 @@ estate_nobles_junker_primacy = {
 		OR = {
 			has_reform = prussian_monarchy
 			has_reform = prussian_republic_reform
+		}
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
 		}
 	}
 	penalties = {
@@ -5840,6 +6570,12 @@ estate_nobles_strong_duchies = {
 		}
 		else = {
 			vassal = 2
+		}
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
 		}
 	}
 	penalties = {
@@ -5935,6 +6671,14 @@ estate_nobles_golden_liberty = {
 			country_event = { id = estate_privileges_and_agendas_events.1 }
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -5962,6 +6706,14 @@ estate_nobles_nieszawa_privileges = {
 			always = no
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		technology_cost = 0.05
 	}
@@ -5987,6 +6739,14 @@ estate_nobles_pacta_conventa = {
 			always = no
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		war_exhaustion_cost = 0.5
 		inflation_action_cost = 0.5
@@ -6005,6 +6765,14 @@ estate_nobles_veto_heir_apparent = {
 	is_valid = {
 		has_dlc = "Emperor"
 		has_reform = elective_monarchy
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
 	}
 	penalties = {
 	}
@@ -6064,6 +6832,14 @@ estate_burghers_the_great_privilege = {
 					has_province_modifier = estate_burghers_the_great_privilege_mod
 				}
 				remove_province_modifier = estate_burghers_the_great_privilege_mod
+			}
+		}
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
 			}
 		}
 	}
@@ -6143,6 +6919,14 @@ estate_burghers_exclusive_trade_rights = {
 	}
 	penalties = {
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
+	}
 	benefits = {
 	}
 	ai_will_do = {
@@ -6213,6 +6997,14 @@ estate_vaisyas_exclusive_trade_rights = {
 					has_province_modifier = estate_burghers_exclusive_trade_rights_mod
 				}
 				remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
+			}
+		}
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
 			}
 		}
 	}
@@ -6292,6 +7084,14 @@ estate_jains_exclusive_trade_rights = {
 			}
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -6308,6 +7108,14 @@ estate_burghers_control_over_monetary_policy = {
 	loyalty = 0.05
 	is_valid = {
 		has_dlc = "Emperor"
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
 	}
 	penalties = {
 #		all_power_cost = 0.05
@@ -6341,6 +7149,14 @@ estate_vaisyas_control_over_monetary_policy = {
 	is_valid = {
 		has_dlc = "Emperor"
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
+			}
+		}
+	}
 	penalties = {
 #		all_power_cost = 0.05
 	}
@@ -6373,6 +7189,14 @@ estate_jains_control_over_monetary_policy = {
 	is_valid = {
 		has_dlc = "Emperor"
 		NOT = { has_estate = estate_vaisyas }
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
+			}
+		}
 	}
 	penalties = {
 #		all_power_cost = 0.05
@@ -6410,6 +7234,14 @@ estate_burghers_private_trade_fleets = {
 		}
 		navy_size = 1
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
+	}
 	penalties = {
 	}
 	benefits = {
@@ -6441,6 +7273,14 @@ estate_vaisyas_private_trade_fleets = {
 			has_port = yes
 		}
 		navy_size = 1
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_vaisyas
+			value = 4
+			}
+		}
 	}
 	penalties = {
 	}
@@ -6474,6 +7314,14 @@ estate_jains_private_trade_fleets = {
 			has_port = yes
 		}
 		navy_size = 1
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_jains
+			value = 4
+			}
+		}
 	}
 	penalties = {
 	}
@@ -6514,6 +7362,12 @@ estate_church_for_the_faith = {
 			NOT = { religion = root }
 		}
 		NOT = { has_estate_privilege = estate_church_inwards_perfection }
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		custom_tooltip = estate_church_for_the_faith_effect_tooltip
@@ -6579,6 +7433,12 @@ estate_brahmins_for_the_faith = {
 			NOT = { religion = root }
 		}
 		NOT = { has_estate_privilege = estate_church_inwards_perfection }
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
 	}
 	on_granted = {
 		custom_tooltip = estate_brahmins_for_the_faith_effect_tooltip
@@ -6648,6 +7508,14 @@ estate_burghers_prussian_confederation = {
 			share = 20
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		min_autonomy = 35
 	}
@@ -6683,6 +7551,14 @@ estate_nobles_statutory_rights = {
 			share = -30
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_nobles
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		min_autonomy = 25
 	}
@@ -6706,6 +7582,14 @@ estate_burghers_statutory_rights = {
 		change_estate_land_share = {
 			estate = all
 			share = -30
+		}
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_burghers
+			value = 4
+			}
 		}
 	}
 	penalties = {
@@ -6732,6 +7616,14 @@ estate_church_statutory_rights = {
 			share = -30
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		min_autonomy = 25
 	}
@@ -6756,6 +7648,14 @@ estate_brahmins_statutory_rights = {
 			share = -30
 		}
 	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_brahmins
+			value = 4
+			}
+		}
+	}
 	penalties = {
 		min_autonomy = 25
 	}
@@ -6777,6 +7677,12 @@ estate_rajput_levies = {
 	can_select = {
 		NOT = { has_estate = estate_nobles }
 		NOT = { has_estate = estate_maratha }
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_rajput
+			value = 4
+			}
+		}
 	}
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.25
