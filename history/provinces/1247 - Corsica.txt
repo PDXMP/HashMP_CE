@@ -1,7 +1,7 @@
 #1247 - Corsica
 
-owner = GEN
-controller = GEN
+owner = COR
+controller = COR
 culture = sardinian
 religion = catholic
 capital = "Bastia"
@@ -12,7 +12,7 @@ trade_goods = iron
 base_manpower = 4
 is_city = yes
 center_of_trade = 1
-add_core = GEN
+#add_core = GEN
 add_core = COR
 
 
