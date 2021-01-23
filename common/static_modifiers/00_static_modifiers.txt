@@ -1019,12 +1019,11 @@ prestige = {
 	land_morale = 0.1
 	naval_morale = 0.1
 	global_spy_defence = 0.1				#+10/-10
-	#mercenary_cost = -0.2					#-33 to +33%
 	legitimacy = 1.0
 	improve_relation_modifier = 0.5
 	monthly_fervor_increase = 1
 	ae_impact = -0.10
-	global_institution_spread = 0.1
+	global_institution_spread = 0.2
 
 	brahmins_hindu_loyalty_modifier = 0.05
 	brahmins_muslim_loyalty_modifier = 0.05
