@@ -1127,7 +1127,6 @@ bonus_from_merchant_republics_for_trade_league_member = {
 	trade_goods_size_modifier = 1
 }
 
-# For each province over limit
 merchant_republic_mechanics_modifier = {
 	state_governing_cost = 0.25
 	trade_company_governing_cost = -0.25
@@ -1186,6 +1185,7 @@ high_army_professionalism = {
 	fire_damage = 0.1
 	shock_damage = 0.1
 	siege_ability = 0.2
+	drill_decay_modifier = -0.5
 	mercenary_cost = 0.1
 	merc_maintenance_modifier = 0.1
 	#possible_mercenaries = -0.1
