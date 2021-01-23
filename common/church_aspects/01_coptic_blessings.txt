@@ -41,7 +41,8 @@ send_monks_to_establish_monasteries = {
 	is_blessing = yes
 
 	modifier = {
-		global_missionary_strength = 0.03
+		global_missionary_strength = 0.02
+		missionaries = 1
 	}
 	ai_will_do = {
 		factor = 10
