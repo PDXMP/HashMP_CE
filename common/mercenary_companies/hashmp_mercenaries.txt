@@ -692,9 +692,9 @@ h_merc_jianzhou = {
 
 h_merc_banner = {
 	regiments_per_development = 0.05
-	cavalry_weight = 0.0
+	cavalry_weight = 1.0
 	artillery_weight = 0.0
-	cavalry_cap = 0
+	cavalry_cap = 40
 	cost_modifier = 0.3
 	trigger = {
 		tag = QNG
