@@ -557,6 +557,51 @@ support_independence_action = {
 	}
 }
 
+improve_relation = {
+	condition = {
+		tooltip = h_tooltip_improvecommandery
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_commandery
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_commanderyimprove
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_improvenative
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_native_empire
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_nativeimprove
+		potential = {
+			ROOT = { has_reform = h_reform_native_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
 enforce_peace = {
 	condition = {
 		tooltip = h_tooltip_commanderyenforce
