@@ -564,7 +564,7 @@ country_event = {
 		name = hashmp.1.a
 		2102 = {
 			change_trade_goods = gold
-			add_base_production = 3
+			add_base_production = 2
 		}
 	}
 	
