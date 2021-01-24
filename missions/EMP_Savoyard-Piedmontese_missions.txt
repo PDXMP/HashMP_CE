@@ -1153,7 +1153,7 @@ emp_sav_missions_security = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = sav_savoyard_army
-				duration = 10950
+				duration = 3650
 			}
 		}
 	}
@@ -1400,7 +1400,7 @@ emp_sav_missions_papacy = {
 		effect = {
 			add_country_modifier = {
 				name = sav_king_of_cyprus
-				duration = 10950
+				duration = 3650
 			}
 			palestine_area = {
 				limit = {
