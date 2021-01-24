@@ -359,7 +359,7 @@ country_decisions = {
 					NOT = {
 						ROOT = {
 							num_of_owned_provinces_with = {
-								value = 25 #out of 34
+								value = 32 #out of 34
 								is_core = root
 								OR = {
 									area = alsace_area
@@ -371,6 +371,7 @@ country_decisions = {
 									area = north_brabant_area
 									area = holland_area
 									area = frisia_area
+									area = bourgogne_area
 								}
 							}
 						}
@@ -389,7 +390,7 @@ country_decisions = {
 			owns_core_province = 1878
 			owns_core_province = 189
 			num_of_owned_provinces_with = {
-				value = 25 #out of 34
+				value = 32 #out of 34
 				is_core = root
 				OR = {
 					area = alsace_area
@@ -401,6 +402,7 @@ country_decisions = {
 					area = north_brabant_area
 					area = holland_area
 					area = frisia_area
+					area = bourgogne_area
 				}
 			}
 		}
