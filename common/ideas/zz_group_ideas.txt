@@ -1686,6 +1686,7 @@ chinese_ideas = {
 	}
 	son_of_heaven = {
 		legitimacy = 1
+		imperial_mandate = 0.05
 	}
 	middle_kingdom = {
 		diplomatic_reputation = 1
