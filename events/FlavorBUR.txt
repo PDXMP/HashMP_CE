@@ -165,6 +165,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		NOT = { exists = NED }
 		is_free_or_tributary_trigger = yes
 		num_of_owned_provinces_with = {
@@ -867,14 +868,14 @@ country_event = {
 	option = {
 		name = new_flavour_bur.4.A
 		change_tag = LOT
-		if = {
-			limit = {
-				NOT = {
-					government_rank = 2
-				}
-			}
-			set_government_rank = 2
-		}
+		#if = {
+		#	limit = {
+		#		NOT = {
+		#			government_rank = 2
+		#		}
+		#	}
+		#	set_government_rank = 2
+		#}
 		add_prestige = 20
 		if = {
 			limit = {
