@@ -4,6 +4,11 @@ primary_culture = sumatran
 religion = sunni
 technology_group = chinese
 capital = 2673	# Pasai
+historical_rival = MLC
+historical_rival = MAJ
+historical_rival = KHM
+historical_rival = TAU
+historical_rival = AYU
 religious_school = shafii_school
 
 1267.1.1 = {
