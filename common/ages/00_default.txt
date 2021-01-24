@@ -116,7 +116,7 @@ age_of_discovery = {
 				set_country_flag = feudal_de_jure_law
 			}
 			modifier = {
-				war_exhaustion = -0.05
+				war_exhaustion = -0.03
 				global_autonomy = -0.05
 			}
 			ai_will_do = {
