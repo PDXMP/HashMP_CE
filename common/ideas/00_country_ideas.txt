@@ -2296,7 +2296,7 @@ ETH_ideas = {
 DAI_ideas = {
 	start = {
 		hostile_attrition = 1.0
-		enemy_core_creation = 0.5
+		culture_conversion_cost = -0.15
 	}
 	
 	bonus = {
@@ -2328,7 +2328,8 @@ DAI_ideas = {
 		core_creation = -0.10
 	}
 	thuan_thien = {
-		legitimacy = 1   
+		legitimacy = 1
+		imperial_mandate = 0.05
 	}
 	literary_reform = {
 		technology_cost = -0.05
