@@ -241,7 +241,7 @@ berber_ideas = {
 
 rajput_ideas = {
 	start = {
-		enemy_core_creation = 0.5
+		diplomatic_reputation = 1
 		manpower_recovery_speed = 0.1
 	}
 	
