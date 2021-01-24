@@ -800,7 +800,7 @@ religion_in_one_country_reform = {
 		}
 	}
 	modifiers = {
-		warscore_cost_vs_other_religion = -0.3
+		warscore_cost_vs_other_religion = -0.1
 	}
 	ai = {
 		factor = 3
