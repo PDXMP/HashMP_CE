@@ -319,7 +319,7 @@ h_merc_landsknecht = {
 		tag = GER
 	}
 	modifier = {
-		discipline = 0.05
+		discipline = 0.075
 		infantry_power = 0.05
 	}
 }
@@ -1328,7 +1328,7 @@ merc_gosains = {
 		tag = MUG
 	}
 	modifier = {
-        land_morale = 0.05
+        land_morale = 0.1
 	}
 }
 
@@ -1457,7 +1457,9 @@ merc_zeybeks = {
 	trigger = {
 		tag = RUM
 	}
-    modifier = { }
+    modifier = { 
+		discipline = 0.05
+	}
 }
 
 merc_sekban = {
