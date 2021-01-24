@@ -1304,65 +1304,6 @@ gc_spain_4 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			if = {
-				limit = {
-					NOT = { NAP = { is_subject_of = ROOT } }
-				}
-				sicily_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				calabria_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				apulia_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				naples_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			else = {
-				sicily_area = {
-					limit = {
-						NOT = { country_or_non_sovereign_subject_holds = ROOT }
-					}
-					add_permanent_claim = NAP
-				}
-				calabria_area = {
-					limit = {
-						NOT = { country_or_non_sovereign_subject_holds = ROOT }
-					}
-					add_permanent_claim = NAP
-				}
-				apulia_area = {
-					limit = {
-						NOT = { country_or_non_sovereign_subject_holds = ROOT }
-					}
-					add_permanent_claim = NAP
-				}
-				naples_area = {
-					limit = {
-						NOT = { country_or_non_sovereign_subject_holds = ROOT }
-					}
-					add_permanent_claim = NAP
-				}
-			}
 		}
 	}
 	gc_cas_spa_italian_ambition = {
