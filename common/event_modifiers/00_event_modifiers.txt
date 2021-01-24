@@ -308,7 +308,7 @@ cut_government_investments = {
 }
 
 debt_funding_plan = {
-	interest = -0.5
+	interest = -0.25
 }
 
 tax_reform = {
@@ -4346,7 +4346,7 @@ fortezza_di_sant_andrea = {
 }
 
 ven_monte_nuovo = {
-	interest = -0.5
+	interest = -0.25
 }
 
 ven_venetian_first = {
@@ -10355,7 +10355,7 @@ passive_resistance = {
 }
 
 preferred_jain_bankers = {
-	interest = -0.5
+	interest = -0.25
 }
 
 preferred_brahmin_bankers = {
@@ -10363,7 +10363,7 @@ preferred_brahmin_bankers = {
 }
 
 jain_administration = {
-	interest = -0.5
+	interest = -0.25
 	yearly_corruption = -0.02
 }
 
@@ -11178,7 +11178,7 @@ revolution_higher_taxes_for_debts = {
 }
 
 revolution_administrative_reforms = {
-	interest = -1
+	interest = -0.5
 	inflation_reduction = 0.1
 }
 

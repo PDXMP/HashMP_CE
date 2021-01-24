@@ -1773,7 +1773,7 @@ polish_renaissance = {
 }
 
 pol_thriving_jewish_community = {
-	interest = -0.5
+	interest = -0.25
 }
 
 kazimierz_modifier = {
@@ -2036,7 +2036,7 @@ barcelona_guilds = {
 }
 
 taula_de_canvi = {
-	interest = -0.5
+	interest = -0.25
 	inflation_reduction = 0.15
 }
 
@@ -3572,7 +3572,7 @@ lan_secure_public_funds = {
 
 lan_medici_banking = {
 	state_maintenance_modifier = -0.2
-	interest = -0.5
+	interest = -0.25
 }
 
 lan_arno_flood_controls = {
