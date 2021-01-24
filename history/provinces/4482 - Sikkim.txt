@@ -1,8 +1,7 @@
 #4482 - Sikkim
 
-owner = NPL
-controller = NPL
-add_core = NPL
+owner = LWA
+controller = LWA
 culture = nepali
 religion = vajrayana
 capital = "Yuksom"

@@ -1,8 +1,7 @@
 #4492 - Doti
 
-owner = NPL
-controller = NPL
-add_core = NPL
+owner = DTI
+controller = DTI
 culture = nepali
 religion = hinduism
 capital = "Doti"
