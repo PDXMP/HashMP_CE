@@ -992,7 +992,7 @@ native_ideas = {
 
 central_indic_ideas = { #Gond Ideas
 	start = {
-		enemy_core_creation = 0.5
+		land_morale = 0.1
 		global_manpower_modifier = 0.15
 	}
 
