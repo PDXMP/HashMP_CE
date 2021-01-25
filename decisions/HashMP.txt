@@ -328,7 +328,8 @@ country_decisions = {
 			}
 		}
 		allow = {
-			has_ruler = "(Regency Council)"
+			has_regency = yes
+			has_consort_regency = no
 		}
 		effect = {
 			set_country_flag = h_regency_flag
