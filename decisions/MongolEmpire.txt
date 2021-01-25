@@ -186,8 +186,9 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			capital_scope = {
-				region = persia_region
+				superregion = persia_superregion
 			}
+			is_tribal = yes
 			NOT = { tag = TIM }
 			NOT = { tag = PER }
 			NOT = { tag = PAP }
@@ -197,16 +198,37 @@ country_decisions = {
 			NOT = { tag = ARB }
 		}
 		provinces_to_highlight = {
-			region = persia_region
-			NOT = { owned_by = ROOT }
+			OR = {
+				AND = {
+					region = persia_region
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 34
+								is_core = root
+								OR = {
+									region = persia_region
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			NOT = { exists = ILK }
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
-			persia_region = {
-				type = all
-				owned_by = ROOT
+			num_of_owned_provinces_with = {
+				value = 34
+				is_core = root
+				OR = {
+					region = persia_region
+				}
 			}
 		}
 		effect = {
