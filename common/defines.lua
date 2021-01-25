@@ -1280,7 +1280,7 @@ NMilitary = {
 	FLAGSHIP_MAX_MODIFICATION = 3,					-- Maximum number of modifications on a flagship
 	FLAGSHIP_MORALE_HIT_ON_DESTRUCTION = 1.0,		-- Morale hit when the flagship is destroyed
 
-	MERCENARY_COMPANY_HIRING_COST_MONTHS = 48,		-- Initial hiring cost in months of maintenance
+	MERCENARY_COMPANY_HIRING_COST_MONTHS = 60,		-- Initial hiring cost in months of maintenance
 	MERCENARY_COMPANY_STARTING_MORALE = 0.5,		-- Starting morale
 	MERCENARY_COMPANY_MIN_REGIMENTS = 4,			-- Minimum regiments
 	MERCENARY_COMPANY_MAX_REGIMENTS = 40,			-- Maximum regiments
