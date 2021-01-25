@@ -247,7 +247,7 @@ interaction = {
 			}
 			NOT = { has_estate_privilege = estate_church_statutory_rights }
 		}
-        is_at_war = no
+        #is_at_war = no
     }
     effect = {
         custom_tooltip = ESTATES_SEIZE_LAND_DESC
