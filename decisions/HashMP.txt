@@ -454,5 +454,218 @@ country_decisions = {
 			set_country_flag = h_rzw_explore	
 		}
 	}
+	
+	h_bharat_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_india_flag }
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = BHA }
+			NOT = { exists = HIN }
+			NOT = { tag = MUG }
+			OR = {
+				tag = SRH
+				tag = DLH
+				tag = MER
+				tag = RJP
+				tag = PUN
+				tag = DEC
+				tag = BNG
+				tag = ORI
+				tag = VIJ
+				tag = GUJ
+				tag = JNP
+				tag = MLW
+				tag = NPL
+				tag = NAG
+				tag = MAR
+				tag = BAH
+			}
+			OR = {
+				religion_group = dharmic
+				religion = buddhism #Theravada
+				religion = vajrayana
+				religion = mahayana
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					superregion = india_superregion
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 175
+								is_core = root
+								OR = {
+									region = india_superregion
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			num_of_owned_provinces_with = {
+				value = 175
+				is_core = root
+				OR = {
+					region = india_superregion
+				}
+			}
+		}
+		effect = {
+			change_tag = BHA
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			india_superregion = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = BHA
+			}
+			add_prestige = 50
+			set_country_flag = formed_india_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+	}
+	
+	h_hindustan_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_india_flag }
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = BHA }
+			NOT = { exists = HIN }
+			NOT = { tag = MUG }
+			OR = {
+				tag = SRH
+				tag = DLH
+				tag = MER
+				tag = RJP
+				tag = PUN
+				tag = DEC
+				tag = BNG
+				tag = ORI
+				tag = VIJ
+				tag = GUJ
+				tag = JNP
+				tag = MLW
+				tag = NPL
+				tag = NAG
+				tag = MAR
+				tag = BAH
+			}
+			religion_group = muslim
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					superregion = india_superregion
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 175
+								is_core = root
+								OR = {
+									region = india_superregion
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			num_of_owned_provinces_with = {
+				value = 175
+				is_core = root
+				OR = {
+					region = india_superregion
+				}
+			}
+		}
+		effect = {
+			change_tag = HIN
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			india_superregion = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = HIN
+			}
+			add_prestige = 50
+			set_country_flag = formed_india_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+	}
 
 }
