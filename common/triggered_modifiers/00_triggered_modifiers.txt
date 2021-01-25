@@ -366,28 +366,28 @@ papal_subjugation = {
 ######################################
 # Italian - Submission to Emperor
 ######################################
-submission_to_emperor = {
-	potential = {
-		has_global_flag = italians_leave_hre
-		NOT = { has_country_flag = reined_in_for_shadow_kingdom }
-		is_part_of_hre = yes
-		culture_group = latin
-	}
-
-	trigger = {
-		is_emperor = no
-		NOT = { tag = ITA }
-		capital_scope = {
-			is_part_of_hre = yes
-		}
-		NOT = { is_year = 1550 }
-		NOT = { emperor = { alliance_with = ROOT } }
-	}
-
-	global_unrest = 3
-	stability_cost_modifier = 0.1
-	prestige = -1
-}
+#submission_to_emperor = {
+#	potential = {
+#		has_global_flag = italians_leave_hre
+#		NOT = { has_country_flag = reined_in_for_shadow_kingdom }
+#		is_part_of_hre = yes
+#		culture_group = latin
+#	}
+#
+#	trigger = {
+#		is_emperor = no
+#		NOT = { tag = ITA }
+#		capital_scope = {
+#			is_part_of_hre = yes
+#		}
+#		NOT = { is_year = 1550 }
+#		NOT = { emperor = { alliance_with = ROOT } }
+#	}
+#
+#	global_unrest = 3
+#	stability_cost_modifier = 0.1
+#	prestige = -1
+#}
 
 
 
@@ -689,53 +689,53 @@ golden_age_of_piracy = {
 # The Great Peasants' War
 ######################################
 
-great_peasants_war_triggered_modifier = {
-	potential = {
-		has_global_flag = great_peasants_war_flag
-		capital_scope = {
-			continent = europe
-		}
-	}
-	trigger = {
-		is_part_of_hre = yes
-		NOT = { has_reform = peasants_republic }
-	}
-	global_unrest = 6
-}
+#great_peasants_war_triggered_modifier = {
+#	potential = {
+#		has_global_flag = great_peasants_war_flag
+#		capital_scope = {
+#			continent = europe
+#		}
+#	}
+#	trigger = {
+#		is_part_of_hre = yes
+#		NOT = { has_reform = peasants_republic }
+#	}
+#	global_unrest = 6
+#}
 
-great_peasants_war_concessions_triggered_modifier = {
-	potential = {
-		OR = {
-			has_global_flag = gpw_peasants_win_major
-			has_global_flag = gpw_peasants_win_minor
-		}
-		capital_scope = {
-			continent = europe
-		}
-	}
-	trigger = {
-		is_part_of_hre = yes
-		NOT = { has_reform = peasants_republic }
-	}
-	global_tax_modifier = -0.05
-}
+#great_peasants_war_concessions_triggered_modifier = {
+#	potential = {
+#		OR = {
+#			has_global_flag = gpw_peasants_win_major
+#			has_global_flag = gpw_peasants_win_minor
+#		}
+#		capital_scope = {
+#			continent = europe
+#		}
+#	}
+#	trigger = {
+#		is_part_of_hre = yes
+#		NOT = { has_reform = peasants_republic }
+#	}
+#	global_tax_modifier = -0.05
+#}
 
 ######################################
 # Pope is in the empire
 ######################################
 
-pope_in_hre_triggered_modifier = {
-	potential = {
-		PAP = { is_part_of_hre = yes }
-		religion = catholic
-	}
-	trigger = {
-		PAP = { is_part_of_hre = yes }
-		religion = catholic
-		NOT = { is_part_of_hre = yes }
-	}
-	prestige = 0
-}
+#pope_in_hre_triggered_modifier = {
+#	potential = {
+#		PAP = { is_part_of_hre = yes }
+#		religion = catholic
+#	}
+#	trigger = {
+#		PAP = { is_part_of_hre = yes }
+#		religion = catholic
+#		NOT = { is_part_of_hre = yes }
+#	}
+#	prestige = 0
+#}
 
 ######################################
 # The Italian Wars
@@ -778,20 +778,20 @@ italian_wars_triggered_modifier = {
 # Defense of the Empire
 ######################################
 
-defense_of_the_empire_modifier = {
-	potential = {
-		has_dlc = "Emperor"
-		OR = {
-			is_emperor = yes
-			is_elector = yes
-		}
-		hre_reform_passed = emperor_reichskrieg
-	}
-	trigger = {
-		any_country = {
-			war_with = ROOT
-			NOT = { is_part_of_hre = yes }
-		}
-	}
-	war_taxes_cost_modifier = -1.0
-}
+#defense_of_the_empire_modifier = {
+#	potential = {
+#		has_dlc = "Emperor"
+#		OR = {
+#			is_emperor = yes
+#			is_elector = yes
+#		}
+#		hre_reform_passed = emperor_reichskrieg
+#	}
+#	trigger = {
+#		any_country = {
+#			war_with = ROOT
+#			NOT = { is_part_of_hre = yes }
+#		}
+#	}
+#	war_taxes_cost_modifier = -1.0
+#}
