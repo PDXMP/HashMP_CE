@@ -1157,6 +1157,7 @@ enforce_privileges_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
+		always = no
 	}
 	modifiers = {
 		global_manpower_modifier = 0.15
@@ -1175,6 +1176,7 @@ quash_noble_power_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
+		always = no
 	}
 	modifiers = {
 		global_tax_modifier = 0.1
@@ -1202,6 +1204,7 @@ enforce_trader_privileges_reform = {
 			technology_group = chinese
 			technology_group = east_african
 		}
+		always = no
 	}
 	trigger = {
 		has_reform = plutocratic_reform
@@ -1232,6 +1235,7 @@ bengali_reform = {
 		has_dlc = "Dharma"
 		primary_culture = bengali
 		religion_group = muslim
+		always = no
 	}
 	modifiers = {
 		merchants = 1
@@ -1249,6 +1253,7 @@ sufi_syncretism_reform = {
 		has_dlc = "Dharma"
 		primary_culture = bengali
 		religion_group = muslim
+		always = no
 	}
 	modifiers = {
 		global_missionary_strength = 0.01
@@ -1270,6 +1275,7 @@ poligar_reform = {
 			primary_culture = oriya
 			primary_culture = sinhala
 		}
+		always = no
 	}
 	modifiers = {
 		infantry_power = 0.1
@@ -1286,6 +1292,7 @@ khalsa_reform = {
 	potential = {
 		has_dlc = "Dharma"
 		religion = sikhism
+		always = no
 	}
 	modifiers = {
 		tolerance_heathen = 1
@@ -1309,6 +1316,7 @@ deccani_society_reform = {
 			culture_group = dravidian
 			primary_culture = marathi
 		}
+		always = no
 	}
 	modifiers = {
 		free_dip_policy = 1
@@ -1380,6 +1388,7 @@ centralize_reform = {
 			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
 		}
+		always = no
 	}
 	modifiers = {
 		global_autonomy = -0.05
@@ -1394,6 +1403,7 @@ decentralize_reform = {
 			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
 		}
+		always = no
 	}
 	modifiers = {
 		num_accepted_cultures = 2
@@ -1423,6 +1433,7 @@ sidhi_recruitment = {
 			culture_group = dravidian
 			primary_culture = marathi
 		}
+		always = no
 	}
 	modifiers = {
 		fort_maintenance_modifier = -0.1
@@ -1440,6 +1451,7 @@ mansabdari_reform = {
 		tag = MUG
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "Dharma"
+		always = no
 	}
 	modifiers = {
 		army_tradition_decay = -0.003
@@ -1460,6 +1472,7 @@ clergy_in_administration_reform = {
 			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
 		}
+		always = no
 	}
 	modifiers = {
 		free_adm_policy = 1
@@ -1513,6 +1526,7 @@ of_noble_bearing_reform = {
 				NOT = { has_estate = estate_nobles }
 			}
 		}
+		always = no
 	}
 	modifiers = {
 		leader_cost = -0.1
@@ -1558,6 +1572,7 @@ meritocratic_focus_reform = {
 			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
 		}
+		always = no
 	}
 	modifiers = {
 		advisor_cost = -0.1
@@ -1612,6 +1627,7 @@ dakhni_culture_reform = {
 			culture_group = dravidian
 			primary_culture = marathi
 		}
+		always = no
 	}
 	modifiers = {
 		state_maintenance_modifier = -0.2
@@ -1627,6 +1643,7 @@ zabt_reform = {
 	potential = {
 		has_dlc = "Dharma"
 		tag = MUG
+		always = no
 	}
 	modifiers = {
 		governing_capacity = 150
@@ -1645,6 +1662,7 @@ royal_decree_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
+		always = no
 	}
 	modifiers = {
 		max_absolutism = 5
@@ -1657,6 +1675,9 @@ royal_decree_reform = {
 aristocratic_court_reform = {
 	icon = "soldiers_2"
 	allow_normal_conversion = yes
+	potential = {
+		always = no
+	}
 	modifiers = {
 		army_tradition_decay = -0.003
 	}
@@ -1670,6 +1691,7 @@ states_general_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
+		always = no
 	}
 	trigger = {
 		NOT = { is_lesser_in_union = yes }
@@ -1715,6 +1737,7 @@ general_estates_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
+		always = no
 	}
 	modifiers = {
 		production_efficiency = 0.1
@@ -1793,6 +1816,9 @@ imperial_decree_reform = {
 letat_cest_moi_reform = {
 	icon = "queen"
 	allow_normal_conversion = yes
+	potential = {
+		always = no
+	}
 	modifiers = {
 		governing_capacity = 250
 	}
@@ -1808,6 +1834,9 @@ letat_cest_moi_reform = {
 regional_representation_reform = {
 	icon = "assembly_hall"
 	allow_normal_conversion = yes
+	potential = {
+		always = no
+	}
 	modifiers = {
 		min_autonomy_in_territories = -0.10
 	}
@@ -1835,6 +1864,7 @@ political_absolutism_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
+		always = no
 	}
 	modifiers = {
 		max_absolutism = 5
@@ -1854,6 +1884,7 @@ legislative_houses_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
+		always = no
 	}
 	modifiers = {
 		possible_adm_policy = 1
@@ -1865,6 +1896,7 @@ become_a_republic_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
+		always = no
 	}
 	trigger = {
 		NOT = { has_government_attribute_short_desc = locked_government_type }
@@ -1886,6 +1918,7 @@ install_theocratic_government_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
+		always = no
 	}
 	trigger = {
 		NOT = { has_government_attribute_short_desc = locked_government_type }
