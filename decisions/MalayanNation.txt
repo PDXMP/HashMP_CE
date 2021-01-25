@@ -44,21 +44,23 @@ country_decisions = {
 		provinces_to_highlight = {
 			OR = {
 				AND = {
-					region = region = indonesia_region
-					is_empty = no
+					OR = {
+						AND = {
+							region = indonesia_region
+							is_empty = no
+						}
+						AND = {
+							area = south_sumatra_area
+							is_empty = no
+						}
+						area = north_sumatra_area
+						area = batak_area
+						area = central_sumatra_area
+						area = minangkabau_area
+					}
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
 				}
-				AND = {
-					area = south_sumatra_area
-					is_empty = no
-				}
-				area = north_sumatra_area
-				area = batak_area
-				area = central_sumatra_area
-				area = minangkabau_area
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
 			}
 		}
 		allow = {
