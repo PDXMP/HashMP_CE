@@ -14,6 +14,14 @@ aristocracy_ideas = {
 		fire_damage_received = -0.1
 		}
 
+	#trigger = {
+	#	OR = {
+	#		has_government_attribute = enables_aristocratic_idea_group
+	#		government = theocracy
+	#		government = tribal
+	#	}
+	#}
+	
 	noble_knights = {
 		cavalry_power = 0.10
 		cav_to_inf_ratio = 0.20
@@ -39,16 +47,15 @@ aristocracy_ideas = {
 		war_exhaustion = -0.03
 		reinforce_cost_modifier = -0.1
 	}
+	
+
 	ai_will_do = {
-		factor = 9.0
+		factor = 0.45
+		
 		modifier = {
-			factor = 5
-			technology_group = muslim
-		}
-		modifier = {
-			factor = 0
-			is_colonial_nation = yes
-		}
+			factor = 0.5
+			is_subject = yes
+		}	
 	}
 }
 
@@ -59,7 +66,11 @@ plutocracy_ideas = {
 	bonus = {
 		fire_damage = 0.15
 	}
-	
+
+	#trigger = {
+	#	has_government_attribute = enables_plutocratic_idea_group
+	#}
+
 	tradition_of_payment = {
 		land_morale = 0.10
 	}
@@ -82,9 +93,9 @@ plutocracy_ideas = {
 	emancipation = {
 		leader_land_manuever = 1
 	}
-	
+
 	ai_will_do = {
-		factor = 7.5
+		factor = 0.4
 	}
 }
 
@@ -95,7 +106,7 @@ innovativeness_ideas = {
 	bonus = {
 		advisor_cost = -0.15
 	}
-	
+
 	patron_of_art  = {
 		global_institution_spread = 0.5
 		embracement_cost = -0.25
@@ -122,10 +133,18 @@ innovativeness_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.8
+		factor = 0.3
 		modifier = {
 			factor = 2
-			government = steppe_horde
+			has_reform = steppe_horde
+		}
+		modifier = {
+			factor = 2
+			num_of_cities = 20
+		}
+		modifier = {
+			factor = 2
+			num_of_cities = 50
 		}
 	}
 }
@@ -224,12 +243,56 @@ spy_ideas = {
 
 	ai_will_do = {
 		factor = 0.75
+	}
+}
+
+
+diplomatic_ideas = {
+	category = DIP
+	bonus = {
+		reduced_stab_impacts = yes
+	}
+
+	trigger = {
+		always = no
+	}
+
+	foreign_embassies = {
+		diplomats = 1
+	}
+	cabinet = {
+		diplomatic_upkeep = 1
+	}
+	grand_banquets = {
+		diplomats = 1
+	}
+	benign_diplomats = {
+		improve_relation_modifier = 0.25
+	}
+	experienced_diplomats  = {
+		diplomatic_reputation = 2
+	}
+	flexible_negotiation = {
+		province_warscore_cost = -0.2
+	}
+	diplomatic_corps = {
+		dip_tech_cost_modifier = -0.1
+	}
+
+	ai_will_do = {
+		factor = 0.67
+
 		modifier = {
-			factor = 0
-			is_vassal = yes
+			factor = 2
+			is_emperor = yes
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 2
 		}
 	}
 }
+
 
 offensive_ideas = {
 	category = MIL
@@ -264,7 +327,7 @@ offensive_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 9.0
+		factor = 0.94
 	}
 }
 
@@ -303,11 +366,7 @@ defensive_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 9.0
-		modifier = {
-			factor = 2
-			is_march = yes
-		}
+		factor = 0.77
 	}
 }
 
@@ -343,19 +402,15 @@ trade_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.75
-		modifier = {
-			factor = 0
-			is_vassal = yes
-		}
+		factor = 0.7
 		modifier = {
 			factor = 0
 			NOT = { num_of_cities = 6 }
-			NOT = { government = merchant_republic }
+			NOT = { has_government_attribute = is_merchant_republic }
 		}
 		modifier = {
-			factor = 0.33
-			NOT = { government = merchant_republic }
+			factor = 3
+			has_government_attribute = is_merchant_republic
 		}
 	}
 }
@@ -400,16 +455,20 @@ economic_ideas = {
 			inflation = 5
 		}
 		modifier = {
-			factor = 2
-			is_march = yes
-		}
-		modifier = {
 			factor = 1.5
 			inflation = 10
 		}
 		modifier = {
 			factor = 2
-			government = steppe_horde
+			has_reform = steppe_horde
+		}
+		modifier = {
+			factor = 1.3
+			num_of_cities = 20
+		}
+		modifier = {
+			factor = 1.3
+			num_of_cities = 50
 		}
 	}
 }
@@ -437,9 +496,11 @@ exploration_ideas = {
 		may_explore = yes
 		free_leader_pool = 1
 	}
+
 	colonial_ventures = {
 		colonists = 1
 	}
+	
 	overseas_exploration = {
 		range = 0.5
 	}
@@ -448,7 +509,7 @@ exploration_ideas = {
 	}
 	vice_roys  = {
 		global_tariffs = 0.10
-		envoy_travel_time = -0.25
+ 		envoy_travel_time = -0.25
  	}
 	free_colonies = {
 		colonists = 1
@@ -458,13 +519,9 @@ exploration_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.8
+		factor = 0.75
 		modifier = {
 			factor = 0
-			is_vassal = yes
-		}
-		modifier = {
-			factor = 5
 			is_colonial_nation = yes
 		}
 		modifier = {
@@ -473,10 +530,7 @@ exploration_ideas = {
 		}
 		modifier = {
 			factor = 0
-			AND = {
-				NOT = { is_colonial_nation = yes }
-				is_subject = yes
-			}
+			is_subject = yes
 		}		
 		modifier = {
 			factor = 0
@@ -484,13 +538,45 @@ exploration_ideas = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { num_of_ports = 1 }
+			current_age = age_of_revolutions #too late
+		}
+		modifier = {
+			factor = 0
 			NOT = {
 				any_owned_province = {
-					is_in_capital_area = yes
-					any_owned_province = {
-						has_empty_adjacent_province = yes
+					has_port = yes
+					sea_zone = {
+						NOT = { area = eastern_mediterrenean_area }
 					}
+				}
+			}
+			NOT = { 
+				any_owned_province = { 
+					is_in_capital_area = yes
+					has_empty_adjacent_province = yes
+				} 
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_owned_province = {
+					has_port = yes
+					sea_zone = {
+						OR = {
+							NOT = { region = mediterrenean_region }
+							province_id = 1293 #Gibraltar
+							province_id = 1294 #Almeria
+						}
+						NOT = { area = red_sea_area }
+						NOT = { area = baltic_area }
+					}
+				}
+			}
+			NOT = { 
+				any_owned_province = { 
+					is_in_capital_area = yes
+					has_empty_adjacent_province = yes
 				} 
 			}
 		}
@@ -500,11 +586,9 @@ exploration_ideas = {
 			NOT = { 
 				any_owned_province = { 
 					is_in_capital_area = yes
-					any_owned_province = {
-						has_empty_adjacent_province = yes
-					}
-				} 
-			}			
+					has_empty_adjacent_province = yes
+				}
+			}
 		}
 		modifier = {
 			factor = 0.1
@@ -566,7 +650,7 @@ exploration_ideas = {
 			}
 		}
 		modifier = {
-			factor = 10
+			factor = 2
 			OR = {
 				tag = GBR
 				tag = NED
@@ -619,14 +703,10 @@ maritime_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.01
+		factor = 0.41
 		modifier = {
 			factor = 0
 			is_tribal = yes
-		}
-		modifier = {
-			factor = 0
-			is_vassal = yes
 		}
 		modifier = {
 			factor = 0
@@ -655,14 +735,6 @@ maritime_ideas = {
 				has_reform = black_market_consortium_government
 			}
 		}
-		modifier = {
-			factor = 5
-			AND = {
-				num_of_ports = 15
-				is_colonial_nation = yes
-			}
-		}
-				
 	}
 }
 
@@ -699,11 +771,7 @@ quality_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 9.0
-		modifier = {
-			factor = 2
-			is_march = yes
-		}
+		factor = 0.49
 	}
 }
 
@@ -739,11 +807,7 @@ quantity_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 6.5
-		modifier = {
-			factor = 5
-			is_colonial_nation = yes
-		}
+		factor = 1.0
 	}
 }
 
@@ -785,20 +849,38 @@ expansion_ideas = {
 	ai_will_do = {
 		factor = 0.48
 		modifier = {
-			factor = 0
-			is_vassal = yes
+			factor = 10
+			OR = {
+				has_idea_group = exploration_ideas
+				is_colonial_nation = yes
+			}
 		}
-		#modifier = {
-		#	factor = 5
-		#	OR = {
-		#		has_idea_group = exploration_ideas
-		#		is_colonial_nation = yes
-		#	}
-		#}
 		modifier = {
-			factor = 1
+			factor = 5
+			OR = {
+				tag = CAS
+				tag = POR
+				tag = SPA
+			}
+		}
+		modifier = {
+			factor = 10
+			NOT = { has_dlc = "Third Rome" } # Has siberian frontier instead
+			tag = RUS
+			num_of_cities = 20
+			any_owned_province = {
+				has_empty_adjacent_province = yes
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { has_idea_group = exploration_ideas }
 			NOT = { is_colonial_nation = yes }
+			NOT = {
+				any_owned_province = {
+					has_empty_adjacent_province = yes
+				}
+			}
 		}
 		modifier = {
 			factor = 0.1
@@ -847,21 +929,21 @@ administrative_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.75
+		factor = 0.96
 		modifier = {
 			factor = 2
-			government = steppe_horde
+			has_reform = steppe_horde
 		}
 	}
 }
 
 humanist_ideas = {
 	category = ADM
-	
+
 	trigger = {
 		was_player = yes
 	}
-		
+
 	bonus = {
 		development_cost = -0.10
 	}
@@ -890,15 +972,11 @@ humanist_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0
-		#modifier = {
-		#	factor = 0
-		#	has_idea_group = religious_ideas
-		#}
-		#modifier = {
-		#	factor = 5
-		#	is_colonial_nation = yes
-		#}
+		factor = 0.9
+		modifier = {
+			factor = 0
+			has_idea_group = religious_ideas
+		}
 	}
 }
 
@@ -921,6 +999,7 @@ influence_ideas = {
 		unjustified_demands = -0.5
 		reduced_liberty_desire = 15
 	}
+	
 	integrated_elites = {
 		diplomatic_upkeep = 2
 	}
@@ -939,15 +1018,19 @@ influence_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0
-		#modifier = {
-		#	factor = 1.5
-		#	is_emperor = yes
-		#}
-		#modifier = {
-		#	factor = 2
-		#	num_of_vassals = 2
-		#}
+		factor = 0.5
+		modifier = {
+			factor = 1.5
+			is_emperor = yes
+		}
+		modifier = {
+			factor = 1.7
+			vassal = 1
+		}
+		modifier = {
+			factor = 1.7
+			vassal = 2
+		}
 	}
 }
 
@@ -991,14 +1074,10 @@ naval_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.20
+		factor = 0.31
 		modifier = {
 			factor = 0
 			is_tribal = yes
-		}
-		modifier = {
-			factor = 0
-			is_vassal = yes
 		}
 		modifier = {
 			factor = 0
@@ -1010,8 +1089,8 @@ naval_ideas = {
 			NOT = { is_colonial_nation = yes }
 		}
 		modifier = {
-			factor = 5
-			NOT = { num_of_ports = 15 }
+			factor = 0.31
+			NOT = { num_of_ports = 10 }
 		}
 		modifier = {
 			factor = 0.31
