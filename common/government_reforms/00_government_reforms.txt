@@ -642,16 +642,6 @@ war_against_the_world_government = {
 		has_dlc = "Golden Century"
 	}
 	
-	nation_designer_trigger = {
-		capital_scope = {
-			has_port = yes
-			OR = {
-				province_is_on_an_island = yes
-				region = maghreb_region
-			}
-		}
-	}
-	
 	factions_frame = 9
 	factions = {
 		pr_buccaneers
@@ -1719,7 +1709,6 @@ ambrosian_republic_legacy = {
 		governing_capacity = 100
 		global_tax_modifier = 0.10
 		land_morale = 0.05
-		global_autonomy = -0.025
 		max_absolutism = -30
 	}
 	ai = {
