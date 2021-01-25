@@ -318,6 +318,7 @@ republic = {
 				provincial_governments_reform
 				administrative_divisions_reform
 				union_of_states_reform
+				penal_colonies_reform
 			}
 		}
 		parliamentary_vs_presidential = {
@@ -469,6 +470,7 @@ tribal = {
 		}
 		tribal_reformation = {
 			reforms = {
+				horde_barbaric_despoilers_reform
 				horde_tribal_unity_reform
 				tribe_becomes_monarchy_reform
 				tribe_becomes_republic_reform
