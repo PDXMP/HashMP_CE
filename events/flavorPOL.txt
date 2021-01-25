@@ -1709,7 +1709,7 @@ country_event = {
 			age = 18
 			claim = 100
 			culture = polish
-			add_ruler_personality = strict_personality
+			#add_ruler_personality = strict_personality
 		}
 		set_country_flag = hash_localnoble
 		if = {
