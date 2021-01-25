@@ -537,7 +537,7 @@ country_decisions = {
 				value = 175
 				is_core = root
 				OR = {
-					region = india_superregion
+					superregion = india_superregion
 				}
 			}
 		}
@@ -641,7 +641,7 @@ country_decisions = {
 				value = 175
 				is_core = root
 				OR = {
-					region = india_superregion
+					superregion = india_superregion
 				}
 			}
 		}
