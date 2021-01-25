@@ -12,11 +12,11 @@ interaction = {
     effect = {
 	 if = {
             limit = { current_age = age_of_discovery }
-            add_years_of_estate_land_income = 2.0
+            add_years_of_estate_land_income = 1.5
         }
         else_if = {
             limit = { current_age = age_of_reformation }
-            add_years_of_estate_land_income = 1.5
+            add_years_of_estate_land_income = 1.25
         }
         else_if = {
             limit = { current_age = age_of_absolutism }
@@ -24,7 +24,7 @@ interaction = {
         }
         else_if = {
             limit = { current_age = age_of_revolutions }
-            add_years_of_estate_land_income = 0.5
+            add_years_of_estate_land_income = 0.75
         }
         custom_tooltip = ESTATES_SALE_OF_TITLES_DESC
         give_estate_land_share_gigantic = { estate = all }
