@@ -710,3 +710,7 @@
  t_over_merc_cap:0 "Mercenary Limit Reached"
  h_merc_infsmallmed_1:0 "Infantry Band"
  h_merc_sileraioi:0 "Sileraioi"
+ h_bharat_nation_title:0 "Form Bharat"
+ h_bharat_nation_desc:0 "Form the mighty Bharat and bring all the lands of the Indian subcontinent under your rule."
+ h_hindustan_nation_title:0 "Form Hindustan"
+ h_hindustan_nation_desc:0 "Form the mighty Hindustan and bring all the lands of the Indian subcontinent under your rule."
