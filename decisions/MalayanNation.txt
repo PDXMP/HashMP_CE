@@ -43,12 +43,18 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				region = indonesia_region
+				AND = {
+					region = region = indonesia_region
+					is_empty = no
+				}
+				AND = {
+					area = south_sumatra_area
+					is_empty = no
+				}
 				area = north_sumatra_area
 				area = batak_area
 				area = central_sumatra_area
 				area = minangkabau_area
-				area = south_sumatra_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -79,15 +85,31 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			south_sumatra_area = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			custom_trigger_tooltip = {
+				tooltip = h_malaya_form_tooltip2
+				south_sumatra_area = {
+					type = all
+					OR = {
+						is_empty = yes
+						AND = {
+							is_core = ROOT
+							owned_by = ROOT
+						}
+					}
+				}
 			}
-			indonesia_region = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			custom_trigger_tooltip = {
+				tooltip = h_malaya_form_tooltip
+				indonesia_region = {
+					type = all
+					OR = {
+						is_empty = yes
+						AND = {
+							is_core = ROOT
+							owned_by = ROOT
+						}
+					}
+				}
 			}
 		}
 		effect = {
@@ -104,6 +126,7 @@ country_decisions = {
 					OR = {
 						region = malaya_region
 						region = moluccas_region
+						region = indonesia_region
 					}
 				}
 				add_permanent_claim = MSA
