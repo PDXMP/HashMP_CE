@@ -16,15 +16,17 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	mongol_bow
-	mongol_swarm
-	mongol_steppe
-	mongol_steppe_tumen
-	mongol_steppe_lancer
-	mongol_steppe_arquebus
-	mongol_steppe_hussar
-	mongol_steppe_cavalry
-	mongol_steppe_dragoon
+	steppe_riders
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_cavalry
+	steppe_uhlans
+	steppe_raiders
+	steppe_footmen
+	steppe_musketeers
+	steppe_infantry
+	steppe_rifles
+	reformed_steppe_rifles
 }
 
 monarch_names = {
