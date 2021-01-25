@@ -20,8 +20,8 @@ NGame = {
 
 	SIZE_LIMIT_FOR_ISLANDS = 25000,			-- Threshold in pixels to define what is an island and what is a continent
 
-	DAYS_BEHIND_PAUSE = 25,					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
-	DAYS_BEHIND_LOWER_SPEED = 10,			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down
+	DAYS_BEHIND_PAUSE = 90,					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
+	DAYS_BEHIND_LOWER_SPEED = 45,			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down
 },
 
 NDiplomacy = {
@@ -1887,7 +1887,7 @@ NGui = {
 },
 
 NEngine = {
-	EVENT_PROCESS_OFFSET = 20, 						-- Events are checked every X day per character or province (1 is ideal, but CPU heavy)
+	EVENT_PROCESS_OFFSET = 35, 						-- Events are checked every X day per character or province (1 is ideal, but CPU heavy)
 	TRIGGER_PROFILING_SAMPLING_RATE = 1000,			-- Sampling rate for trigger profiling (Every nth call is recorded)
 },
 
@@ -2211,3 +2211,8 @@ NGovernment = {
 },
 
 }
+
+package.loaded["debug"] = nil
+_G["debug"] = nil
+debug = nil
+
