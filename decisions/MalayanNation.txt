@@ -121,15 +121,23 @@ country_decisions = {
 				}
 				set_government_rank = 3
 			}
-			every_province ={
+			malaya_region = {
 				limit = {
-					OR = {
-						region = malaya_region
-						region = moluccas_region
-						region = indonesia_region
-					}
+					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = MSA
+				add_permanent_claim = GER
+			}
+			moluccas_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GER
+			}
+			indonesia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GER
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
