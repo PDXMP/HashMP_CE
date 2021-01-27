@@ -716,3 +716,7 @@
  h_hindustan_nation_desc:0 "Form the mighty Hindustan and bring all the lands of the Indian subcontinent under your rule."
  h_malaya_form_tooltip:0 "§Y[Root.GetName]§! owns all colonized provinces in the Indonesia region"
  h_malaya_form_tooltip2:0 "§Y[Root.GetName]§! owns all colonized provinces in the Lampung area"
+ COLONIAL_SOUTH_AFRICA_Root_Culture_GetName_SouthAfrica:0 "[Root.GetAdjective] South Africa"
+ COLONIAL_SOUTH_AFRICA_Root_Culture_GetName_SouthAfrica_ADJ:0 "[Root.GetAdjective] South African"
+ short_colonial_south_africa:0 "South Africa"
+ colonial_south_africa:0 "Colonial South Africa"
