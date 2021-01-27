@@ -1,7 +1,7 @@
 #HashMP South Africa
 #Vhembe
 
-culture = khoisan
+culture = nguni
 religion = shamanism #Fetishism
 capital = "Vhembe"
 trade_goods = unknown
