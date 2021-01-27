@@ -2,9 +2,7 @@ country_decisions = {
 	shadow_kingdom_decision = {
 		major = yes
 		potential = {
-			is_emperor = yes
-			NOT = { has_global_flag = italians_leave_hre }
-			NOT = { is_year = 1500 }
+			always = no
 		}		
 		allow = {
 			custom_trigger_tooltip = {
