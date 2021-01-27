@@ -816,3 +816,40 @@ country_event = { #Inca claims
 		}
 	}
 }
+
+country_event = {
+	id = hashmp.15
+	title = hashmp.15.t
+	desc = hashmp.15.d
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+		name = hashmp.3.a
+		every_subject_country = {
+			limit = {
+				is_colonial_nation = yes
+			}		
+			country_event = { id = hashmp.16 }
+		}
+	}
+}
+
+country_event = {
+	id = hashmp.16
+	title = hashmp.16.t
+	desc = hashmp.16.d
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.16.a
+		add_country_modifier = {
+				name = "h_cn_overlord_bankrupt"
+				duration = 1825
+		}
+	}
+}
