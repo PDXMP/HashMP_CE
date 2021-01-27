@@ -3460,6 +3460,7 @@ KON_ideas = {
 	}
 	election_of_manikongos = {
 		global_missionary_strength = 0.02
+		stability_cost_modifier = -0.1
 	}
 	imported_european_weaponry = {
 		mil_tech_cost_modifier  = -0.1
@@ -3478,7 +3479,7 @@ KON_ideas = {
 		global_sailors_modifier = 0.25
 	}
 	defend_against_the_colonists = {
-		discipline = 0.05
+		artillery_power = 0.10		
 	}
 }
 
