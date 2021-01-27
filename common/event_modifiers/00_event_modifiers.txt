@@ -11401,4 +11401,9 @@ h_cn_overlord_bankrupt = {
 	manpower_recovery_speed = -0.33
 	reinforce_speed = -0.33
 }
+
+h_kongo_mod = {
+	governing_capacity = 500
+	discipline = 0.05
+}
 	
