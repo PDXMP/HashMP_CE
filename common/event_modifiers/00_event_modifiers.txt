@@ -11391,6 +11391,6 @@ h_khm_khmer_faith = {
 }
 
 h_indochina_mod = {
-	governing_capacity = 300
+	governing_capacity = 500
 	discipline = 0.05
 }
