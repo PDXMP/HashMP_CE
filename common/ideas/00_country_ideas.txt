@@ -8842,7 +8842,7 @@ RZW_ideas = {
 		inflation_reduction = 0.1
 	}
 	rzw_empowering_the_rozwi = {
-		infantry_power = 0.1
+		global_autonomy = -0.05
 	}
 	rzw_hierarchical_tax_organization = {
 		global_tax_modifier = 0.1
