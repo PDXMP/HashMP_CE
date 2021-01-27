@@ -720,3 +720,6 @@
  COLONIAL_SOUTH_AFRICA_Root_Culture_GetName_SouthAfrica_ADJ:0 "[Root.GetAdjective] South African"
  short_colonial_south_africa:0 "South Africa"
  colonial_south_africa:0 "Colonial South Africa"
+ ZUL:0 "Zulu"
+ ZUL_ADJ:0 "Zulu"
+ 
