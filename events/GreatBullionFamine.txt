@@ -53,6 +53,7 @@ country_event = {
 			NOT = { continent = europe }
 			trade_goods = gold
 		}
+		always = no
 	}
 	
 	mean_time_to_happen = {
