@@ -482,7 +482,7 @@ ZUL_ideas = {
 	free = yes
   
 	zul_1 = {
-		
+		leader_cost = -0.10
 	}
 	zul_2 = {
 		global_trade_goods_size_modifier = 0.1
