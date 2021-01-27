@@ -875,6 +875,7 @@ on_replace_governor = {
 on_bankruptcy = {
 	events = {
 		hashmp.3
+		hashmp.15
 	}
 }
 
