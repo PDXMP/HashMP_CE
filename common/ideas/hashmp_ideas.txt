@@ -1675,3 +1675,83 @@ PEU_ideas = { #Peru
 		prestige_decay = -0.01
 	}
 }
+
+# South Africa
+
+ORJ_ideas = { #Oranje
+	start = {
+		global_tax_modifier = 0.2
+		global_unrest = -1
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		tag = ORJ
+	}
+	free = yes
+	
+	orj_1 = {
+		production_efficiency = 0.1
+	}
+	orj_2 = {
+		development_cost = -0.1
+	}
+	orj_3 = {
+		republican_tradition = 0.1
+	}
+	orj_4 = {
+		infantry_cost = -0.2
+		shock_damage_received = -0.1
+	}
+	orj_5 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	orj_6 = {
+		defensiveness = 0.25
+	}
+	orj_7 = {
+		free_adm_policy = 1
+	}
+}
+
+DSA_ideas = { #South Africa
+	start = {
+		global_tax_modifier = 0.2
+		global_unrest = -1
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		tag = DSA
+	}
+	free = yes
+	
+	dsa_1 = {
+		production_efficiency = 0.1
+	}
+	dsa_2 = {
+		development_cost = -0.1
+	}
+	dsa_3 = {
+		republican_tradition = 0.1
+	}
+	dsa_4 = {
+		infantry_cost = -0.2
+		shock_damage_received = -0.1
+	}
+	dsa_5 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	dsa_6 = {
+		defensiveness = 0.25
+	}
+	dsa_7 = {
+		free_adm_policy = 1
+	}
+}
