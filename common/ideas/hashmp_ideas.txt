@@ -466,6 +466,44 @@ ARB_ideas = { #Arabian Empire
 	}
 }
 
+ZUL_ideas = {
+	start = {  
+		land_morale = 0.1
+		infantry_cost = -0.1
+	}
+  
+	bonus = {
+		shock_damage_received = -0.1
+	}
+  
+	trigger = {
+		tag = ZUL
+	}
+	free = yes
+  
+	zul_1 = {
+		build_cost = -0.1
+	}
+	zul_2 = {
+		inflation_reduction = 0.1
+	}
+	zul_3 = {
+		infantry_power = 0.1
+	}
+	zul_4 = {
+		global_tax_modifier = 0.1
+	}
+	zul_5 = {
+		discipline = 0.05
+	}
+	zul_6 = {
+		global_unrest = -1
+	}
+	zul_6 = {
+		trade_efficiency = 0.1
+	}
+}
+
 #GER_ideas = { #German Empire - Superceded by 1.30 Germany Ideas
 #	start = {
 #		global_manpower_modifier = 0.25
