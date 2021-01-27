@@ -615,6 +615,10 @@ south_africa_region = {
 		butua_area
 		limpopo_area
 		transvaal_area
+		highveld_area
+		senqu_delta_area
+		xhosa_area
+		kalahari_basin_area
 	}
 	monsoon = {
 		00.11.01
