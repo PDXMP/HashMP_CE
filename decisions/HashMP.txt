@@ -739,5 +739,70 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	
+	h_unify_kongo = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = h_kongo_unify }
+			tag = KON
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						AND = {
+							region = central_africa_region
+							is_empty = no
+						}
+						AND = {
+							area = kongo_region
+							is_empty = no
+						}
+					}
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			custom_trigger_tooltip = {
+				tooltip = h_kongo_unify_tooltip
+				central_africa_region = {
+					type = all
+					OR = {
+						is_empty = yes
+						AND = {
+							is_core = ROOT
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = h_kongo_unify_tooltip2
+				kongo_region = {
+					type = all
+					OR = {
+						is_empty = yes
+						AND = {
+							is_core = ROOT
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			set_government_rank = 3
+			add_prestige = 25
+			set_country_flag = h_kongo_unify
+			add_country_modifier = {
+				name = "h_kongo_mod"
+				duration = -1
+			}
+		}
+	}
 
 }
