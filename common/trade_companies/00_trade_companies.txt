@@ -21,22 +21,22 @@ trade_company_west_africa = {
 	}
 }
 
-trade_company_south_africa = {
-	color = { 0 175 0 }
-	
-	provinces = {
-		789 833 1175 1176 1177 1178 1179 1180 1181 1182 1801 1173 1800 2856 2864 2880 4781 4782 4783 4784
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_SOUTH_AFRICA_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_SOUTH_AFRICA_Africa_Trade_Company"
-	}
-}
+#trade_company_south_africa = {
+#	color = { 0 175 0 }
+#	
+#	provinces = {
+#		789 833 1175 1176 1177 1178 1179 1180 1181 1182 1801 1173 1800 2856 2864 2880 4781 4782 4783 4784
+#	}
+#	
+#	# Specific
+#	# Generic
+#	names = {
+#		name = "TRADE_COMPANY_SOUTH_AFRICA_Root_Culture_GetName"
+#	}
+#	names = {
+#		name = "TRADE_COMPANY_SOUTH_AFRICA_Africa_Trade_Company"
+#	}
+#}
 
 trade_company_east_africa = {
 	color = { 200 0 0 }
