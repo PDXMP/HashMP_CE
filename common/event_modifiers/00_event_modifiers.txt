@@ -11394,3 +11394,11 @@ h_indochina_mod = {
 	governing_capacity = 300
 	discipline = 0.05
 }
+
+h_cn_overlord_bankrupt = {
+	liberty_desire = 15
+	defensiveness = -0.33
+	manpower_recovery_speed = -0.33
+	reinforce_speed = -0.33
+}
+	
