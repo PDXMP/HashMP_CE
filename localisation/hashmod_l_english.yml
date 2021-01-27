@@ -784,3 +784,8 @@
  dsa_5_desc:0 ""
  dsa_6_desc:0 ""
  dsa_7_desc:0 ""
+ hashmp.16.t:0 "Bankrupt Overlord"
+ hashmp.16.d:0 "Our overlord has declared bankruptcy, this will temporarily sever our economic lifeline and severely damage our independent operations."
+ hashmp.16.a:0 "Disaster!"
+ h_cn_overlord_bankrupt:0 "Colonial Financial Collapse"
+ desc_h_bankrupt_interest:0 "Our motherland is in a state of financial upheaval, devastating our infrastructure and ability to operate independently."
