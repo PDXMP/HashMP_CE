@@ -1241,6 +1241,7 @@ h_cn_southafrica_missions = {
 		capital_scope = {
 			colonial_region = colonial_south_africa
 		}
+		is_colonial_nation = yes
 	}
 	has_country_shield = yes
 
