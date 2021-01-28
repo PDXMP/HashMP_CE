@@ -1707,10 +1707,10 @@ ORJ_ideas = { #Oranje
 		enemy_core_creation = 0.25
 	}
 	orj_5 = {
-		movement_speed = 0.1
+		movement_speed = 0.15
 	}
 	orj_6 = {
-		build_cost = -0.1
+		infantry_cost = -0.1
 	}
 	orj_7 = {
 		embracement_cost = -0.1
