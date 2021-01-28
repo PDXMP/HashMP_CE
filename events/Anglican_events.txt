@@ -1003,7 +1003,7 @@ country_event = {
 			name = "conversion_zeal"
 			duration = 3650
 		}
-		add_years_of_income = -1 # this is expensive
+		add_years_of_income = -0.5 # this is expensive
 		if = {
 			limit = {
 				religion = catholic
