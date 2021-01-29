@@ -1620,7 +1620,7 @@ paper = {
 		adm_tech_cost_modifier = -0.05
 	}
 	province = {
-		local_state_maintenance_modifier = -0.1
+		local_state_maintenance_modifier = -0.2
 	}
 	chance = {
 		factor = 5
