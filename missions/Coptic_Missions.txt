@@ -102,7 +102,7 @@ coptic_missions = {
 		trigger = {
 			1234 = {
 				owned_by = ROOT
-				religion = coptic
+				#religion = coptic
 			}
 		}
 		effect = {
