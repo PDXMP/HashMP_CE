@@ -865,6 +865,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		adm_tech = 10
 		owns_or_non_sovereign_subject_of = 1210 #Dawaro
 		tigray_area = {
 			type = all
