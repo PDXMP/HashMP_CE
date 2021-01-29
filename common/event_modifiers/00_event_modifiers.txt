@@ -8255,7 +8255,9 @@ power_to_advisors = {
 #Copts
 
 the_faithful_liberated = {
-	local_missionary_strength = 0.02
+	local_missionary_strength = 0.03
+	local_missionary_maintenance_cost = -0.5
+	local_tax_modifier = 0.25
 }
 
 enthusiastic_believer = {
