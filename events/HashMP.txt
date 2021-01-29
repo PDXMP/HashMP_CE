@@ -853,3 +853,58 @@ country_event = {
 		}
 	}
 }
+
+# Dawaro Gold Mine
+
+country_event = {
+	id = hashmp.16
+	title = hashmp.16.t
+	desc = hashmp.16.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		owns_or_non_sovereign_subject_of = 1210 #Dawaro
+		tigray_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		central_ethiopia_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		damot_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		shewa_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		southern_ethiopia_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		hadiya_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		1210 = {
+			NOT = { trade_goods = gold }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = hashmp.16.a
+		1210 = {
+			change_trade_goods = gold
+			add_base_production = 3
+		}
+	}
+	
+}
