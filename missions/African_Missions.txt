@@ -21,41 +21,14 @@ african_missions = {
 		icon = mission_african_soldier
 		required_missions = { }
 		trigger = {
-			OR = {
-				AND = {
-					production_leader = {
-						trade_goods = slaves
-					}
-					slaves = 4
-				}
-				AND = {
-					has_country_modifier = the_abolish_slavery_act
-					NOT = {
-						any_neighbor_country = {
-							slaves = 1
-						}
-					}
-				}
-			}
+			slaves = 10
 		}
 		effect = {
-			if = {
-				limit = {
-					production_leader = {
-						trade_goods = slaves
-					}
-				}
-				add_mercantilism = 2
-				add_country_modifier = {
-					name = "africa_slave_trade_mission"
-					duration = 7300
-				}
-			}
-			else = {
-				add_country_modifier = {
-					name = "african_abolitionists"
-					duration = 7300
-				}
+			add_mercantilism = 3
+			add_years_of_income = 0.25
+			add_country_modifier = {
+				name = "africa_slave_trade_mission"
+				duration = 7300
 			}
 		}
 	}
