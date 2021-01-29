@@ -795,3 +795,7 @@
  desc_h_kongo_mod:0 ""
  h_kongo_unify_tooltip:0 "§Y[Root.GetName]§! owns all colonized provinces in the Central Africa region"
  h_kongo_unify_tooltip2:0 "§Y[Root.GetName]§! owns all colonized provinces in the Kongo region"
+ h_coptic_sanaa_title:1 "The Holy Mountain"
+ h_coptic_sanaa_desc:0 "Upon the death of Noah, the city of San'a was founded at the base of Jabal Nuqum, the Holy Mountain. Long ago, this city was the seat of the ancient Himyarites, who persecuted our brothers in the faith. Now, it is time to bring the region under the care of the Coptic faith."
+ coptic_conquest_of_antioch_title:1 "The Patriarch of Antioch"
+ coptic_conquest_of_antioch_desc:0 "Centuries ago Antioch fell to outside invaders and ever since the true patriarch of Antioch has resided in Mardin in Anatolia. We must retake this ancient seat and re-establish the oldest Christian Church in the world in its rightful home."
