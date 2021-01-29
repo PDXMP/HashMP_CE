@@ -857,9 +857,9 @@ country_event = {
 # Dawaro Gold Mine
 
 country_event = {
-	id = hashmp.16
-	title = hashmp.16.t
-	desc = hashmp.16.d
+	id = hashmp.17
+	title = hashmp.17.t
+	desc = hashmp.17.d
 	picture = COURT_eventPicture
 	
 	fire_only_once = yes
@@ -901,7 +901,7 @@ country_event = {
 	}
 	
 	option = {
-		name = hashmp.16.a
+		name = hashmp.17.a
 		1210 = {
 			change_trade_goods = gold
 			add_base_production = 3
