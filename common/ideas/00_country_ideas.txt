@@ -2269,7 +2269,8 @@ ETH_ideas = {
 	free = yes		#will be added at load.
 	
 	eth_expansionist_policy = {
-		core_creation = -0.10	
+		core_creation = -0.10
+		global_autonomy = -0.05
 	}
 	eth_reformed_armies = {
 		global_manpower_modifier = 0.25
