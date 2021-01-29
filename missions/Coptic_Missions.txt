@@ -44,6 +44,39 @@ coptic_missions = {
 			}
 		}
 	}
+	h_coptic_sanaa = {
+		icon = mission_the_songhai_campaign
+		required_missions = { }
+		provinces_to_highlight = {
+			province_id = 390
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			390 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			set_country_flag = h_coptic_sanaa_flag
+			add_prestige = 10
+			upper_yemen_area = {
+				add_province_modifier = {
+					name = the_faithful_liberated
+					duration = 3650
+				}
+			}
+			yemen_area = {
+				add_province_modifier = {
+					name = the_faithful_liberated
+					duration = 3650
+				}
+			}
+		}
+	}
 	coptic_conquest_of_yerevan = {
 		icon = mission_european_church
 		required_missions = { }
