@@ -11394,3 +11394,8 @@ h_indochina_mod = {
 	governing_capacity = 500
 	discipline = 0.05
 }
+
+h_ilkhanate_mod = {
+	tolerance_heathen = 3
+	global_unrest = -1
+}
