@@ -64,18 +64,33 @@ african_missions = {
 		icon = mission_have_manufactories
 		required_missions = { }
 		trigger = {
-			is_tribal = no
-			NOT = { has_reform = iqta }
-			any_neighbor_country = {
-				technology_group = western
-				NOT = {
-					tech_difference = 1
+			#is_tribal = no
+			#NOT = { has_reform = iqta }
+			#any_neighbor_country = {
+			#	technology_group = western
+			#	NOT = {
+			#		tech_difference = 1
+			#	}
+			#}
+			adm_tech = 7
+			custom_trigger_tooltip = {
+				tooltip = h_africa_modernization_tooltip
+				OR = {
+					full_idea_group = innovativeness_ideas
+					full_idea_group = religious_ideas
+					full_idea_group = economic_ideas
+					full_idea_group = expansion_ideas
+					full_idea_group = administrative_ideas
+					full_idea_group = humanist_ideas
 				}
 			}
 		}
 		effect = {
-			add_innovativeness_big_effect = yes
-			add_prestige = 20
+			add_innovativeness_huge_effect = yes
+			add_country_modifier = {
+				name = "h_african_modernization_mod"
+				duration = 3650
+			}
 		}
 	}
 	
