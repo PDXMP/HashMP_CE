@@ -799,3 +799,6 @@
  h_coptic_sanaa_desc:0 "Upon the death of Noah, the city of San'a was founded at the base of Jabal Nuqum, the Holy Mountain. Long ago, this city was the seat of the ancient Himyarites, who persecuted our brothers in the faith. Now, it is time to bring the region under the care of the Coptic faith."
  coptic_conquest_of_antioch_title:1 "The Patriarch of Antioch"
  coptic_conquest_of_antioch_desc:0 "Centuries ago Antioch fell to outside invaders and ever since the true patriarch of Antioch has resided in Mardin in Anatolia. We must retake this ancient seat and re-establish the oldest Christian Church in the world in its rightful home."
+ h_africa_modernization_tooltip:0 "§Y[Root.GetName]§! has fully completed at least one Administrative Idea Group."
+ h_african_modernization_mod:0 "Western Ideas"
+ desc_h_african_modernization_mod:0 ""
