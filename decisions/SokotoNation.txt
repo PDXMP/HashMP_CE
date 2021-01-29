@@ -80,6 +80,12 @@ country_decisions = {
 				}
 				add_permanent_claim = SOK
 			}
+			guinea_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SOK
+			}
 			add_prestige = 25
 			change_tag = SOK
 			change_technology_group = muslim
