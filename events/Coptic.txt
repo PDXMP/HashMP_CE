@@ -262,14 +262,49 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
+	
+	immediate = {
+		hidden_effect = {
+			set_global_flag = coptic_conquest_of_antioch
+			aleppo_area = {
+				limit = { 
+					#NOT = { religion = coptic } 
+					owned_by = ROOT
+				}
+				set_province_flag = copts_liberated
+			}
+			syria_area = {
+				limit = { 
+					#NOT = { religion = coptic } 
+					owned_by = ROOT
+				}
+				set_province_flag = copts_liberated
+			}
+		}
+	}
 
 	option = {
 		name = coptic_flavor.7.a
 
 		add_prestige = 10
 
+		if = {
+			limit = {
+				any_owned_province = {
+					has_province_flag = copts_liberated
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = copts_liberated }
+				add_province_modifier = {
+					name = the_faithful_liberated
+					duration = 3650
+				}
+				clr_province_flag = copts_liberated
+			}
+		}
+
 		hidden_effect = {
-			set_global_flag = coptic_conquest_of_antioch
 			every_known_country = {
 				limit = { religion = coptic ai = no }
 				country_event = { id = coptic_flavor.8 }
@@ -289,6 +324,27 @@ country_event = {
 
 	option = {
 		name = coptic_flavor.7.a
+		custom_tooltip = coptic_flavor.7.a.tt
+		
+		tooltip = {
+			aleppo_area = {
+				limit = { 
+					#NOT = { religion = coptic } 
+					owned_by = FROM
+				}
+				add_province_modifier = {
+					name = the_faithful_liberated
+					duration = 3650
+				}
+			}
+			syria_area = {
+				limit = { 
+					#NOT = { religion = coptic } 
+					owned_by = ROOT
+				}
+				set_province_flag = copts_liberated
+			}
+		}
 	}
 }
 
