@@ -232,19 +232,19 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_tag = ILK
-			swap_non_generic_missions = yes
-			add_government_reform = steppe_horde
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
 			if = {
 				limit = { tag = QAR }
 				add_country_modifier = {
 					name = "h_ilkhanate_mod"
 					duration = 18250
 				}			
+			}
+			change_tag = ILK
+			swap_non_generic_missions = yes
+			add_government_reform = steppe_horde
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
 			}
 			add_prestige = 25
 			if = {
