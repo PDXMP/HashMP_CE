@@ -100,7 +100,7 @@ country_event = {
 			set_global_flag = coptic_alexandria_liberated
 			delta_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = ROOT
 				}
 				set_province_flag = copts_liberated
@@ -149,7 +149,7 @@ country_event = {
 		tooltip = {
 			delta_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = FROM
 				}
 				add_province_modifier = {
@@ -330,14 +330,14 @@ country_event = {
 			set_global_flag = coptic_qasr_ibrim_liberated
 			lower_nubia_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = ROOT
 				}
 				set_province_flag = copts_liberated
 			}
 			dongola_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = ROOT
 				}
 				set_province_flag = copts_liberated
@@ -392,7 +392,7 @@ country_event = {
 		tooltip = {
 			lower_nubia_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = FROM
 				}
 				add_province_modifier = {
@@ -402,7 +402,7 @@ country_event = {
 			}
 			dongola_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = ROOT
 				}
 				set_province_flag = copts_liberated
@@ -434,7 +434,7 @@ country_event = {
 		hidden_effect = {
 			gulf_of_arabia_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = ROOT
 				}
 				set_province_flag = copts_liberated
@@ -482,7 +482,7 @@ country_event = {
 		tooltip = {
 			gulf_of_arabia_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = FROM
 				}
 				add_province_modifier = {
@@ -525,7 +525,7 @@ country_event = {
 		hidden_effect = {
 			gulf_of_arabia_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = ROOT
 				}
 				set_province_flag = copts_liberated
@@ -573,7 +573,7 @@ country_event = {
 		tooltip = {
 			gulf_of_arabia_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = FROM
 				}
 				add_province_modifier = {
@@ -615,7 +615,7 @@ country_event = {
 		hidden_effect = {
 			bahari_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = ROOT
 				}
 				set_province_flag = copts_liberated
@@ -663,7 +663,7 @@ country_event = {
 		tooltip = {
 			bahari_area = {
 				limit = { 
-					NOT = { religion = coptic } 
+					#NOT = { religion = coptic } 
 					owned_by = FROM
 				}
 				add_province_modifier = {
