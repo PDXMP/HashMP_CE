@@ -35,7 +35,7 @@ coptic_missions = {
 				delta_area = {
 					add_province_modifier = {
 						name = "the_faithful_liberated"
-						duration = 3650
+						duration = 7300
 					}
 				}
 			}
@@ -66,13 +66,13 @@ coptic_missions = {
 			upper_yemen_area = {
 				add_province_modifier = {
 					name = the_faithful_liberated
-					duration = 3650
+					duration = 7300
 				}
 			}
 			yemen_area = {
 				add_province_modifier = {
 					name = the_faithful_liberated
-					duration = 3650
+					duration = 7300
 				}
 			}
 		}
@@ -124,13 +124,13 @@ coptic_missions = {
 				aleppo_area = {
 					add_province_modifier = {
 						name = the_faithful_liberated
-						duration = 3650
+						duration = 7300
 					}
 				}
 				syria_area = {
 					add_province_modifier = {
 						name = the_faithful_liberated
-						duration = 3650
+						duration = 7300
 					}
 				}
 			}
@@ -163,13 +163,13 @@ coptic_missions = {
 				lower_nubia_area = {
 					add_province_modifier = {
 						name = the_faithful_liberated
-						duration = 3650
+						duration = 7300
 					}
 				}
 				dongola_area = {
 					add_province_modifier = {
 						name = the_faithful_liberated
-						duration = 3650
+						duration = 7300
 					}
 				}
 			}
@@ -201,7 +201,7 @@ coptic_missions = {
 				bahari_area = {
 					add_province_modifier = {
 						name = "the_faithful_liberated"
-						duration = 3650
+						duration = 7300
 					}
 				}
 			}

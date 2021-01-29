@@ -118,7 +118,7 @@ country_event = {
 			limit = { has_province_flag = copts_liberated }
 			add_province_modifier = {
 				name = the_faithful_liberated
-				duration = 3650
+				duration = 7300
 			}
 			clr_province_flag = copts_liberated
 		}
@@ -154,7 +154,7 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = the_faithful_liberated
-					duration = 3650
+					duration = 7300
 				}
 			}
 		}
@@ -298,7 +298,7 @@ country_event = {
 				limit = { has_province_flag = copts_liberated }
 				add_province_modifier = {
 					name = the_faithful_liberated
-					duration = 3650
+					duration = 7300
 				}
 				clr_province_flag = copts_liberated
 			}
@@ -334,7 +334,7 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = the_faithful_liberated
-					duration = 3650
+					duration = 7300
 				}
 			}
 			syria_area = {
@@ -417,7 +417,7 @@ country_event = {
 				limit = { has_province_flag = copts_liberated }
 				add_province_modifier = {
 					name = the_faithful_liberated
-					duration = 3650
+					duration = 7300
 				}
 				clr_province_flag = copts_liberated
 			}
@@ -453,7 +453,7 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = the_faithful_liberated
-					duration = 3650
+					duration = 7300
 				}
 			}
 			dongola_area = {
@@ -508,7 +508,7 @@ country_event = {
 			limit = { has_province_flag = copts_liberated }
 			add_province_modifier = {
 				name = the_faithful_liberated
-				duration = 3650
+				duration = 7300
 			}
 			clr_province_flag = copts_liberated
 		}
@@ -543,7 +543,7 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = the_faithful_liberated
-					duration = 3650
+					duration = 7300
 				}
 			}
 		}
@@ -599,7 +599,7 @@ country_event = {
 			limit = { has_province_flag = copts_liberated }
 			add_province_modifier = {
 				name = the_faithful_liberated
-				duration = 3650
+				duration = 7300
 			}
 			clr_province_flag = copts_liberated
 		}
@@ -634,7 +634,7 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = the_faithful_liberated
-					duration = 3650
+					duration = 7300
 				}
 			}
 		}
@@ -689,7 +689,7 @@ country_event = {
 			limit = { has_province_flag = copts_liberated }
 			add_province_modifier = {
 				name = the_faithful_liberated
-				duration = 3650
+				duration = 7300
 			}
 			clr_province_flag = copts_liberated
 		}
@@ -724,7 +724,7 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = the_faithful_liberated
-					duration = 3650
+					duration = 7300
 				}
 			}
 		}
