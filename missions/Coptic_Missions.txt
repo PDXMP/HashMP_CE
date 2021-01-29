@@ -77,30 +77,30 @@ coptic_missions = {
 			}
 		}
 	}
-	coptic_conquest_of_yerevan = {
-		icon = mission_european_church
-		required_missions = { }
-		provinces_to_highlight = {
-			province_id = 419
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			has_discovered = ROOT
-		}
-		trigger = {
-			419 = {
-				owned_by = ROOT
-				is_core = ROOT
-			}
-		}
-		effect = {
-			set_country_flag = yerevan_mission_flag
-			tooltip = { add_prestige = 10 }
-			hidden_effect = {
-				country_event = { id = coptic_flavor.5 }
-			}
-		}
-	}
+#	coptic_conquest_of_yerevan = {
+#		icon = mission_european_church
+#		required_missions = { }
+#		provinces_to_highlight = {
+#			province_id = 419
+#			NOT = {
+#				country_or_non_sovereign_subject_holds = ROOT
+#			}
+#			has_discovered = ROOT
+#		}
+#		trigger = {
+#			419 = {
+#				owned_by = ROOT
+#				is_core = ROOT
+#			}
+#		}
+#		effect = {
+#			set_country_flag = yerevan_mission_flag
+#			tooltip = { add_prestige = 10 }
+#			hidden_effect = {
+#				country_event = { id = coptic_flavor.5 }
+#			}
+#		}
+#	}
 	coptic_conquest_of_antioch = {
 		icon = mission_religious
 		required_missions = { }
