@@ -25,6 +25,7 @@ coptic_missions = {
 		trigger = {
 			358 = {
 				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 		effect = {
@@ -56,6 +57,7 @@ coptic_missions = {
 		trigger = {
 			419 = {
 				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 		effect = {
@@ -79,6 +81,7 @@ coptic_missions = {
 		trigger = {
 			2313 = {
 				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 		effect = {
@@ -102,6 +105,7 @@ coptic_missions = {
 		trigger = {
 			1234 = {
 				owned_by = ROOT
+				is_core = ROOT
 				#religion = coptic
 			}
 		}
@@ -140,6 +144,7 @@ coptic_missions = {
 		trigger = {
 			361 = {
 				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 		effect = {
