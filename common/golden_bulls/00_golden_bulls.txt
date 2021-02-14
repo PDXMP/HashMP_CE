@@ -1,7 +1,7 @@
 illius_qui_se_pro_divini = {
-    mechanics = {
-        crusades_after_age_limit
-    }
+    #mechanics = {
+    #    crusades_after_age_limit
+    #}
 	modifier = {
 		ae_impact = -0.1
 	}
