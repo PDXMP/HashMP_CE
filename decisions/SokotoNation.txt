@@ -24,7 +24,6 @@ country_decisions = {
 				tag = SON
 				tag = TUN
 				tag = MOR
-				tag = KON
 			}
 			#has_country_flag = sok_dan_fodio_happened
 		}

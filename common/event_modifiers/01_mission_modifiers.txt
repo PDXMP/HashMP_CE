@@ -760,7 +760,8 @@ mug_south_bengal_mod = {
 
 # African misions
 africa_slave_trade_mission = {
-	trade_efficiency = 0.1
+	global_trade_goods_size_modifier = 0.1
+	global_prov_trade_power_modifier = 0.1
 }
 
 african_abolitionists = {

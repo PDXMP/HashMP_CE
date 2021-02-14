@@ -1,0 +1,73 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+primary_culture = shona
+religion = shamanism
+mercantilism = 0.1
+technology_group = central_african
+capital = 1181	# Natal
+
+1816.1.1 = {
+	monarch = {
+		name = "Shaka"
+		monarch_name = "Shaka"
+		dynasty = "Zulu"
+		birth_date = 1787.1.1
+		death_date = 1828.1.1
+		claim = 100
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1828.1.1 = {
+	monarch = {
+		name = "Dingane"
+		dynasty = "Zulu"
+		birth_date = 1792.1.1
+		death_date = 1838.1.1
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1838.1.1 = {
+	monarch = {
+		name = "Mpande"
+		monarch_name = "Mpande"
+		dynasty = "Zulu"
+		birth_date = 1795.1.1
+		death_date = 1872.1.1
+		claim = 85
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1872.1.1 = {
+	monarch = {
+		name = "Cetshwayo"
+		dynasty = "Zulu"
+		birth_date = 1843.1.1
+		death_date = 1884.1.1
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1884.1.1 = {
+	monarch = {
+		name = "Dinzulu"
+		dynasty = "Zulu"
+		birth_date = 1869.1.1
+		death_date = 1913.1.1
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+

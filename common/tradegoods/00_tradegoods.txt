@@ -682,6 +682,10 @@ gold = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0.5
+			region = south_africa_region
+		}
 	}
 }
 

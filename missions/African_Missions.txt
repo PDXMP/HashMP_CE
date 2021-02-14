@@ -1,0 +1,94 @@
+african_missions = {
+	slot = 5
+	generic = yes
+	ai = yes
+	potential = {
+		capital_scope = {
+			OR = {
+				region = sahel_region
+				region = niger_region
+				region = guinea_region
+				region = horn_of_africa_region
+				region = east_africa_region
+				region = central_africa_region
+				region = kongo_region
+				region = south_africa_region
+			}
+		}
+	}
+
+	africa_slave_trade = {
+		icon = mission_african_soldier
+		required_missions = { }
+		trigger = {
+			slaves = 10
+		}
+		effect = {
+			add_mercantilism = 3
+			add_years_of_income = 0.25
+			add_country_modifier = {
+				name = "africa_slave_trade_mission"
+				duration = 7300
+			}
+		}
+	}
+	
+	africa_modernization = {
+		icon = mission_have_manufactories
+		required_missions = { }
+		trigger = {
+			#is_tribal = no
+			#NOT = { has_reform = iqta }
+			#any_neighbor_country = {
+			#	technology_group = western
+			#	NOT = {
+			#		tech_difference = 1
+			#	}
+			#}
+			adm_tech = 7
+			custom_trigger_tooltip = {
+				tooltip = h_africa_modernization_tooltip
+				OR = {
+					full_idea_group = innovativeness_ideas
+					full_idea_group = religious_ideas
+					full_idea_group = economic_ideas
+					full_idea_group = expansion_ideas
+					full_idea_group = administrative_ideas
+					full_idea_group = humanist_ideas
+				}
+			}
+		}
+		effect = {
+			add_innovativeness_huge_effect = yes
+			add_country_modifier = {
+				name = "h_african_modernization_mod"
+				duration = 3650
+			}
+		}
+	}
+	
+	african_wealth_mission = {
+		icon = mission_war_chest
+		required_missions = { }
+		trigger = {
+			OR = {
+				gold = 3
+				AND = {
+					production_leader = {
+						trade_goods = ivory
+					}
+					ivory = 7
+				}
+				production_leader = {
+					trade_goods = coffee
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "wealth_of_africa_modifier"
+				duration = 7300
+			}
+		}
+	}
+}

@@ -816,3 +816,97 @@ country_event = { #Inca claims
 		}
 	}
 }
+
+country_event = {
+	id = hashmp.15
+	title = hashmp.15.t
+	desc = hashmp.15.d
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+		name = hashmp.3.a
+		every_subject_country = {
+			limit = {
+				is_colonial_nation = yes
+			}		
+			country_event = { id = hashmp.16 }
+		}
+	}
+}
+
+country_event = {
+	id = hashmp.16
+	title = hashmp.16.t
+	desc = hashmp.16.d
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.16.a
+		add_country_modifier = {
+				name = "h_cn_overlord_bankrupt"
+				duration = 1825
+		}
+	}
+}
+
+# Dawaro Gold Mine
+
+country_event = {
+	id = hashmp.17
+	title = hashmp.17.t
+	desc = hashmp.17.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_subject = no
+		adm_tech = 10
+		owns_or_non_sovereign_subject_of = 1210 #Dawaro
+		tigray_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		central_ethiopia_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		damot_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		shewa_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		southern_ethiopia_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		hadiya_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		1210 = {
+			NOT = { trade_goods = gold }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = hashmp.17.a
+		1210 = {
+			change_trade_goods = gold
+			add_base_production = 3
+		}
+	}
+	
+}

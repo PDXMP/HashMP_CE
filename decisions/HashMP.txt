@@ -668,5 +668,141 @@ country_decisions = {
 			}
 		}
 	}
+	
+	h_zulu_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_zul_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = ZUL }
+			OR = {
+				tag = RZW
+				tag = ZIM
+				tag = ZAN
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = butua_area
+				area = zimbabwe_area
+				area = lower_zambezi_area
+				area = transvaal_area
+				area = highveld_area
+				area = limpopo_area
+				area = quelimane_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			butua_area = { type = all is_core = ROOT owned_by = ROOT }
+			zimbabwe_area = { type = all is_core = ROOT owned_by = ROOT }
+			lower_zambezi_area = { type = all is_core = ROOT owned_by = ROOT }
+			transvaal_area = { type = all is_core = ROOT owned_by = ROOT }
+			highveld_area = { type = all is_core = ROOT owned_by = ROOT }
+			limpopo_area = { type = all is_core = ROOT owned_by = ROOT }
+			quelimane_area = { type = all is_core = ROOT owned_by = ROOT }
+		}
+	 	effect = {
+			change_tag = ZUL
+			add_prestige = 25
+			set_government_rank = 3
+			ZUL = {
+				set_capital = 1181 # Natal
+			}
+			1181 = {
+				change_province_name = "Bulawayo"
+				rename_capital = "Bulawayo"
+			 	add_base_tax = 3
+				add_base_production = 3
+			 	add_base_manpower = 3
+				change_trade_goods = gold
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_zul_flag
+			swap_non_generic_missions = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	h_unify_kongo = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = h_kongo_unify }
+			tag = KON
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						AND = {
+							region = central_africa_region
+							is_empty = no
+						}
+						AND = {
+							area = kongo_region
+							is_empty = no
+						}
+					}
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			custom_trigger_tooltip = {
+				tooltip = h_kongo_unify_tooltip
+				central_africa_region = {
+					type = all
+					OR = {
+						is_empty = yes
+						AND = {
+							is_core = ROOT
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = h_kongo_unify_tooltip2
+				kongo_region = {
+					type = all
+					OR = {
+						is_empty = yes
+						AND = {
+							is_core = ROOT
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			set_government_rank = 3
+			add_prestige = 25
+			set_country_flag = h_kongo_unify
+			add_country_modifier = {
+				name = "h_kongo_mod"
+				duration = -1
+			}
+		}
+	}
 
 }

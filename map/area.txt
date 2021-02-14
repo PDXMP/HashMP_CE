@@ -1884,13 +1884,28 @@ angola_namibia_area = { #5
 }
 
 cape_of_good_hope_area = { #5
-	833 1175 1177 1179 1180
+	1176 1175 1177 4967 4968
 }
 
 south_african_plateau_area = { #5
-	1176 1178 2856 2880 2864
+	1178 2880 4969 4965
 }
 
+highveld_area = {
+	2856 4962 4963
+}
+
+senqu_delta_area = {
+	2864 4959 4960 4973
+}
+
+xhosa_area = {
+	833 1179 1180 4964 4966
+}
+
+kalahari_basin_area = {
+	4961 4970 4972
+}
 
 ########################################
 # Greater Persia		               #
@@ -3729,7 +3744,7 @@ windward_islands_area = { #5
 }
 
 transvaal_area = { #4
-	4781 4782 4783 4784
+	4781 4782 4783 4784 4971
 }
 
 #############################

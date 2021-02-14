@@ -1230,3 +1230,36 @@ h_angkor_missions = {
 		}
 	}
 }
+
+h_cn_southafrica_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_south_africa
+		}
+		is_colonial_nation = yes
+	}
+	has_country_shield = yes
+
+	h_cn_southafrica_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_south_africa = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_southafrica_dominion_request
+		}
+	}
+}
