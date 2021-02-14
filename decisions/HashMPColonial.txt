@@ -1771,7 +1771,7 @@ country_decisions = {
 			colonial_parent = {
 				has_country_flag = h_ili_enabled
 			}
-			NOT = { exists = LOU }
+			NOT = { exists = ILI }
 		}
 		effect  = {
 			change_tag = ILI
