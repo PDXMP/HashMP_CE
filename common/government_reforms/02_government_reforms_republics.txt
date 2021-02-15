@@ -987,6 +987,12 @@ colonial_government = {
 				tag = NZL
 				tag = BLV
 				tag = CSC
+				tag = WSI
+				tag = FLO
+				tag = ILI
+				tag = VRM
+				tag = ORJ
+				tag = DSA
 			}
 		}
 	}
