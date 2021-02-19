@@ -1545,7 +1545,7 @@ NAP_ideas = {
 		technology_cost = -0.05
 	}
 	encouraged_city_living = {
-		development_cost = -0.1 #Often among the largest cities of Europe
+		global_tax_modifier = 0.1 #Often among the largest cities of Europe
 	}
 	expanded_arsenale = {
 		global_ship_cost = -0.1
