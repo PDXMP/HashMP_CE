@@ -2795,8 +2795,8 @@ swi_expanded_papal_guard = {
 }
 
 ended_the_habsburgs = {
-	prestige = 1
-	land_morale = 0.05
+	prestige = 0.5
+	global_trade_goods_size_modifier = 0.05
 }
 
 swiss_mountains_modifier = {
