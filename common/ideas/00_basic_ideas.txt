@@ -518,7 +518,7 @@ exploration_ideas = {
 		colonists = 1
 	}
 	global_empire = {
-		expel_minorities_cost = -0.33
+		expel_minorities_cost = -0.5
 	}
 
 	ai_will_do = {
