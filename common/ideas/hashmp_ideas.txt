@@ -1739,8 +1739,7 @@ DSA_ideas = { #South Africa
 		development_cost = -0.1
 	}
 	dsa_3 = {
-		culture_conversion_cost = -0.25
-		harsh_treatment_cost = -0.25
+		stability_cost_modifier = -0.1
 	}
 	dsa_4 = {
 		global_sailors_modifier = 0.5
