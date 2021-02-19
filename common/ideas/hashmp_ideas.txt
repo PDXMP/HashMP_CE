@@ -1732,26 +1732,26 @@ DSA_ideas = { #South Africa
 	}
 	free = yes
 	
-	dsa_1 = {
+	dsa_1 = { #Kimberlite
 		global_trade_goods_size_modifier = 0.1
 	}
-	dsa_2 = {
+	dsa_2 = { #Kalahari Reclamation
 		development_cost = -0.1
 	}
-	dsa_3 = {
+	dsa_3 = { #Orderly State
 		stability_cost_modifier = -0.1
 	}
-	dsa_4 = {
+	dsa_4 = { #Cape of Storms
 		global_sailors_modifier = 0.5
 		global_ship_trade_power = 0.1
 	}
-	dsa_5 = {
+	dsa_5 = { #Mosetsana
 		war_exhaustion = -0.03
 	}
-	dsa_6 = {
+	dsa_6 = { #Gateway to India
 		trade_efficiency = 0.10
 	}
-	dsa_7 = {
+	dsa_7 = { #The Drift
 		infantry_power = 0.1
 	}
 }
