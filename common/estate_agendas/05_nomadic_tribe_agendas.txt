@@ -1564,6 +1564,7 @@ estate_nomadic_tribes_vassalise_vulnerable_country = {
 		num_of_cities = 12
 		any_neighbor_country = {
 			NOT = { has_reform = free_city }
+			NOT = { has_reform = h_reform_commandery }
 			is_free_or_tributary_trigger = yes
 			OR = {
 				NOT = { num_of_cities = 4 }
@@ -1633,6 +1634,7 @@ estate_nomadic_tribes_vassalise_vulnerable_country = {
 		random_neighbor_country = {
 			limit = {
 				NOT = { has_reform = free_city }
+				NOT = { has_reform = h_reform_commandery }
 				is_free_or_tributary_trigger = yes
 				OR = {
 					NOT = { num_of_cities = 4 }
