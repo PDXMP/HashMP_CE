@@ -917,6 +917,9 @@ has_final_tier_reforms_trigger = {
 			has_reform = many_fingers_of_god_reform
 			has_reform = religious_permanent_revolution_reform
 			has_reform = religion_in_one_country_reform
+			has_reform = t7_np_1
+			has_reform = t7_np_2
+			has_reform = t7_lp_1
 		}
 	}
 }
