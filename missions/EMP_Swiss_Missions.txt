@@ -471,17 +471,18 @@ swiss_missions_4 = {
 		icon = end_the_habsburgs
 		required_missions = { emp_swi_protect_against_austria }
 		provinces_to_highlight = {
-			owner = {
-				dynasty = "von Habsburg"
+			OR = {
+				area = tirol_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		position = 5
 		trigger = {
-			NOT = { exists = HAB }
-			NOT = {
-				any_country = {
-					dynasty = "von Habsburg"
-				}
+			tirol_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
