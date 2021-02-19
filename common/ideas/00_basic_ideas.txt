@@ -1010,7 +1010,7 @@ influence_ideas = {
 		diplomats = 1
 	}
 	diplomatic_influence = {
-		merc_maintenance_modifier = -0.2
+		merc_maintenance_modifier = -0.25
 	}
 	postal_service = {
 		war_exhaustion = -0.05
