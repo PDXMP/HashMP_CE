@@ -641,7 +641,7 @@ church_sponsored_guilds = {
 		full_idea_group = trade_ideas
 	}
 	
-	center_of_trade_upgrade_cost = -0.5
+	center_of_trade_upgrade_cost = -0.75
 	
 	ai_will_do = {
 		factor = 1
