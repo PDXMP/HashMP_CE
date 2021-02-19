@@ -820,14 +820,14 @@ expansion_ideas = {
 	important = yes
 
 	bonus = {
- 		land_attrition = -0.2
+ 		governing_capacity_modifier = 0.15
 	}
 
 	additional_colonists = {
 		core_creation = -0.25
 	}
 	organised_recruiting = {
-		governing_capacity = 300
+		global_autonomy = -0.05
 	}
 	additional_diplomats = {
 		global_unrest = -1
@@ -842,7 +842,7 @@ expansion_ideas = {
 		land_forcelimit_modifier = 0.15
 	}
 	competetive_merchants  = {
-		global_own_trade_power = 0.25
+		land_attrition = -0.1
 	}
 	additional_merchants = {
 		merchants = 1
