@@ -1569,10 +1569,7 @@ SIC_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = TTS
-			tag = SIC
-		}
+		tag = SIC
 	}
 	
 	free = yes
