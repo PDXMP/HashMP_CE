@@ -1707,6 +1707,7 @@ ORJ_ideas = { #Oranje
 		enemy_core_creation = 0.25
 	}
 	orj_5 = {
+		land_attrition = -0.1
 		movement_speed = 0.15
 	}
 	orj_6 = {
