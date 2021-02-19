@@ -266,7 +266,6 @@ the_foreign_support_act = {
 	}
 
 	development_cost = -0.075
-	inflation_reduction = 0.05
 	
 	ai_will_do = {
 		factor = 1
