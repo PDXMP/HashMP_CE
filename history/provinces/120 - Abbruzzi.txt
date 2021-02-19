@@ -5,14 +5,12 @@ controller = NAP
 culture = neapolitan 
 religion = catholic 
 hre = yes 
-base_tax = 3
-base_production = 3
+base_tax = 5 
+base_production = 5 
 trade_goods = wine 
-base_manpower = 1
+base_manpower = 3
 capital = "L'Aquila" 
-estate = estate_church
 is_city = yes 
-fort_15th = yes
 add_core = NAP
 
 
