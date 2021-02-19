@@ -782,10 +782,10 @@ mughal_government = {
 			free_leader_pool = 1
 			governing_capacity = 100
 		}
-		byzantine = {
-			legitimacy = 1
-			governing_capacity = 100
-		}
+		#byzantine = {
+		#	legitimacy = 1
+		#	governing_capacity = 100
+		#}
 		carpathian = {
 			mercenary_cost = -0.1
 			governing_capacity = 100
