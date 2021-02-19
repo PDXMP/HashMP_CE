@@ -1415,7 +1415,7 @@ HUN_ideas = {
 		global_unrest = -1
 	}
 	bulwark_of_christianity = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.2
 	}
 	found_the_black_army = {
 		discipline = 0.05
