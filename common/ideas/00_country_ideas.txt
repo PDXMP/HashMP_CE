@@ -1815,7 +1815,8 @@ BYZ_ideas = {
 		infantry_cost = -0.1
 	}
 	repopulation_of_countryside = {
-		global_manpower_modifier = 0.25
+		global_trade_goods_size_modifier = 0.05
+		global_manpower_modifier = 0.10
 	}
 	byz_state_admin_reform = {
 		global_tax_modifier = 0.2
