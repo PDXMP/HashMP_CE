@@ -71,12 +71,12 @@ plutocracy_ideas = {
 	#	has_government_attribute = enables_plutocratic_idea_group
 	#}
 
-	tradition_of_payment = {
-		land_morale = 0.10
-	}
 	abolished_serfdom = {
 		mercenary_manpower = 0.25
 		mercenary_discipline = 0.025
+	}
+	tradition_of_payment = {
+		land_morale = 0.10
 	}
 	bill_of_rights = {
 		global_unrest = -1
@@ -339,11 +339,11 @@ defensive_ideas = {
 		shock_damage_received = -0.1
 	}
 
-	military_drill = {
-		land_morale = 0.10
-	}
 	battlefield_commisions = {
 		army_tradition = 0.5
+	}
+	military_drill = {
+		land_morale = 0.10
 	}
 	improved_manuever = {
 		leader_land_manuever = 1
