@@ -1,6 +1,6 @@
-# Savoy and Geneva
+# Savoy and Geneva - Now SWI
 vassal = {
-	first = SAV
+	first = SWI
 	second = GNV
 	start_date = 1444.1.1
 	end_date = 1526.1.1
