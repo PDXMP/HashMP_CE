@@ -33,6 +33,10 @@ aristocracy_ideas = {
 	serfdom = {
 		global_manpower_modifier = 0.3
 	}
+	noble_resilience = {
+		war_exhaustion = -0.03
+		reinforce_cost_modifier = -0.1
+	}
 	local_nobility = {
 		merchants = 1
 	}
@@ -43,9 +47,8 @@ aristocracy_ideas = {
 		leader_siege = 1
 		free_leader_pool = 1
 	}
-	noble_resilience = {
-		war_exhaustion = -0.03
-		reinforce_cost_modifier = -0.1
+	local_nobility = {
+		merchants = 1
 	}
 	
 
