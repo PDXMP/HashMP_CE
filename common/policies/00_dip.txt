@@ -695,7 +695,7 @@ taxation_with_representation = {
 	}
 	
 	manpower_recovery_speed = 0.15
-	production_efficiency = 0.10
+	production_efficiency = 0.15
 
 	ai_will_do = {
 		factor = 1
