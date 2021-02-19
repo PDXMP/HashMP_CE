@@ -1714,7 +1714,7 @@ ORJ_ideas = { #Oranje
 		infantry_cost = -0.1
 	}
 	orj_7 = {
-		embracement_cost = -0.1
+		reinforce_speed = 0.2
 	}
 }
 
