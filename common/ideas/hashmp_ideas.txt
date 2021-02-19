@@ -1756,3 +1756,48 @@ DSA_ideas = { #South Africa
 		infantry_power = 0.1
 	}
 }
+
+TTS_ideas = { #By Xaime
+	start = {
+		manpower_recovery_speed = 0.15 ##Replacing max MP, intention to encourage more aggressive behaviour and benefits plus cut down scaling potential.
+		leader_land_shock = 1
+	}
+	
+	bonus = {
+		cavalry_shock = 0.5 ##Legacy of Norman Doctrine
+	}
+	
+	trigger = {
+		tag = TTS
+	}
+	
+	free = yes
+	
+
+	tts_one = { ##consolidate_the_royal_domain // Carried over one Economic benefit, still lacks longterm scaling seen with Development Cost on Naples.
+		global_trade_goods_size_modifier = 0.10
+	}
+	tts_two = { ##sic_grand_navy // Changed Naval Morale to the bonuses below as I feel it actually fits the idea of a 'Grand Navy'. Also Marines is a cool niche for a nation that is prone to fight on islands.
+		allowed_marine_fraction = 0.05
+		global_sailors_modifier = 0.33
+	}
+	tts_three = { ##academia_pontaniana // Carried over technology cost for consistency.
+		technology_cost = -0.1
+	}
+	tts_four = { ##Norman Knights/Horsemen of Europe also inspired by Murat's short reign of Naples, who was nicknamed the 'First Horsemen of Europe'
+		cavalry_power = 0.15
+		cavalry_cost = -0.10
+	}
+	tts_five = { ##sic_noble_admirals // Extra leader pool so having an admiral isn't agony when focusing on land.
+		navy_tradition = 1
+		free_leader_pool = 1
+	}
+	tts_six = { ##city_of_artists // Carried over prestige for consistency, loses out on legitimacy gain.
+		prestige = 1 
+	}
+	tts_seven = { ##Hohenstaufen oppression against Muslims, eventually deported and sold into slavery. Jews were expelled once Spain had rule over Sicily. 
+		missionaries = 1
+		global_heathen_missionary_strength = 0.02
+		expel_minorities_cost = -0.25
+	}
+}
