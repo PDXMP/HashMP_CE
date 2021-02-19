@@ -1168,7 +1168,7 @@ HAB_ideas = {
 	free = yes		#will be added at load.
 
 	imperial_ambitions = {
-		diplomatic_annexation_cost = -0.2
+		diplomatic_annexation_cost = -0.15
 	}
 	military_border = {
 		global_garrison_growth = 0.1
@@ -1176,7 +1176,7 @@ HAB_ideas = {
 	}
 	fugger_banks = {
 		inflation_reduction = 0.05
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.1
 	}
 	habsburg_dominance = {
 		land_morale = 0.10
