@@ -1,8 +1,7 @@
 #4491 - Dang
 
-owner = NPL
-controller = NPL
-add_core = NPL
+owner = DNG
+controller = DNG
 culture = nepali
 religion = hinduism
 capital = "Dang"

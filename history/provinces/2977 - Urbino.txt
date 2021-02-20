@@ -25,13 +25,14 @@ center_of_trade = 1
 1626.1.1 = { controller = PAP owner = PAP add_core = PAP } # Annexed to the Holy See
 1750.1.1 = { add_core = ITA }
 1805.12.26 = {
-	owner = FRA
-	controller = FRA
-	add_core = FRA
+	owner = ITA
+	controller = ITA
+	add_core = ITA
 	remove_core = PAP
 } # Treaty of Pressburg
-1814.4.11 = {	owner = PAP
+1814.4.11 = {
+	owner = PAP
 	controller = PAP
 	add_core = PAP
-	remove_core = FRA
+	remove_core = ITA
 } # Treaty of Fontainebleau, Napoleon abdicates unconditionally

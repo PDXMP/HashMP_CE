@@ -46,6 +46,7 @@ country_decisions = {
 			OR = {
 				religion = protestant
 				religion = reformed
+				religion = hussite
 			}
 			owns_core_province = 40	# Memel
 			owns_core_province = 41	# Königsberg

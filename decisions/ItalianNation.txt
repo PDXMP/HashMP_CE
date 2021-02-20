@@ -14,7 +14,6 @@ country_decisions = {
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
 			OR = {
-				tag = SWI
 				tag = VEN
 				tag = SPI
 				tag = GEN
@@ -37,6 +36,7 @@ country_decisions = {
 				tag = LUC
 				tag = LAN
 				tag = JAI
+				tag = TTS
 			}
 			OR = {
 				ai = no
@@ -56,7 +56,23 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				region = italy_region
+				province_id = 118
+				AND = {
+					OR = {
+						region = italy_region
+					}
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 50 #out of 34
+								is_core = root
+								OR = {
+									region = italy_region
+								}
+							}
+						}
+					}
+				}
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -66,11 +82,15 @@ country_decisions = {
 		allow = {
 			adm_tech = 10
 			is_free_or_tributary_trigger = yes
-			is_at_war = no
-			italy_region = {
-				type = all
-				owned_by = ROOT
+			num_of_owned_provinces_with = {
+				value = 50 #out of 34
+				is_core = root
+				OR = {
+					region = italy_region
+				}
 			}
+			owns_core_province = 118			# Rome
+			is_at_war = no
 		}
 		effect = {
 			if = {
@@ -88,13 +108,14 @@ country_decisions = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
+			swap_non_generic_missions = yes
 			set_country_flag = formed_italy_flag
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	gods_kingdom = {
 		major = yes
 		potential = {
@@ -105,7 +126,7 @@ country_decisions = {
 			}
 			NOT = { exists = ITA }
 			tag = PAP
-			NOT = { has_country_modifier = kingdom_of_god }
+			NOT = { has_country_flag = is_kingdom_of_god_flag }
 			OR = {
 				ai = no
 				AND = {
@@ -155,10 +176,6 @@ country_decisions = {
 			owns_core_province = 2977	# Pesaro
 		}
 		effect = {
-			add_country_modifier = {
-				name = "kingdom_of_god"
-				duration = -1
-			}
 			country_event  = { id = catholic_flavor.2 }
 			every_province = {
 				limit = {
@@ -167,6 +184,8 @@ country_decisions = {
 				}
 				add_permanent_claim = ROOT
 			}
+			override_country_name = KINGDOM_OF_GOD
+			set_country_flag = is_kingdom_of_god_flag
 		}
 		ai_will_do = {
 			factor = 1

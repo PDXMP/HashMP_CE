@@ -48,7 +48,7 @@ h_cwonder_beijing = {
 	}
 	legitimacy = 1
 	global_unrest = -2
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -68,7 +68,7 @@ h_cwonder_changsha = {
 	}
 	technology_cost = -0.05
 	idea_cost = -0.05
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -87,7 +87,7 @@ h_cwonder_chengdu = {
 		is_core = ROOT
 	}
 	development_cost = -0.05
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -106,7 +106,7 @@ h_cwonder_chongqing = {
 		is_core = ROOT
 	}
 	defensiveness = 0.2
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -125,7 +125,7 @@ h_cwonder_dalian = {
 		is_core = ROOT
 	}
 	num_accepted_cultures = 2
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -144,7 +144,7 @@ h_cwonder_guangzhou = {
 		is_core = ROOT
 	}
 	global_trade_goods_size_modifier = 0.1
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -164,7 +164,7 @@ h_cwonder_hangzhou = {
 	}
 	global_ship_cost = -0.1
 	global_trade_power = 0.1
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -183,7 +183,7 @@ h_cwonder_kunming = {
 		is_core = ROOT
 	}
 	global_prov_trade_power_modifier = 0.2
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -202,7 +202,7 @@ h_cwonder_luoyang = {
 		is_core = ROOT
 	}
 	prestige = 1
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -221,7 +221,7 @@ h_cwonder_nanjing = {
 		is_core = ROOT
 	}
 	advisor_cost = -0.15
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -241,7 +241,7 @@ h_cwonder_wuchang = {
 	}
 	build_cost = -0.05
 	build_time = -0.1
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -261,7 +261,7 @@ h_cwonder_xian = {
 	}
 	army_tradition = 0.5
 	infantry_cost = -0.05
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}
@@ -280,7 +280,7 @@ h_cwonder_xiamen = {
 		is_core = ROOT
 	}
 	trade_efficiency = 0.1
-	max_states = 1
+	governing_capacity = 50
 	#Province scope
 	on_activation = {
 	}

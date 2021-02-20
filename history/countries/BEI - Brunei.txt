@@ -11,7 +11,7 @@ historical_rival = BNG
 historical_rival = MLC
 historical_rival = YUE
 historical_rival = CYI
-historical_rival = MJP
+historical_rival = MAJ
 
 1399.1.1 = {
 	monarch = {

@@ -35,8 +35,8 @@ country_decisions = {
 				tag = HES
 				tag = SWI
 				tag = HAN
-				tag = DAN
 				tag = WES
+				tag = SWA
 			}
 			is_colonial_nation = no
 			OR = {
@@ -49,17 +49,27 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				region = north_german_region
-				area = lower_bavaria_area
-				area = upper_bavaria_area
-				area = franconia_area
-				area = lower_swabia_area
-				area = upper_swabia_area
-				area = upper_rhineland_area
-				area = palatinate_area
-				area = silesia_area
 				province_id = 188
 				province_id = 189
+				area = silesia_area
+				AND = {
+					OR = {
+						region = north_german_region
+						region = south_german_region
+					}
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 100
+								is_core = root
+								OR = {
+									region = north_german_region
+									region = south_german_region
+								}
+							}
+						}
+					}
+				}
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -71,14 +81,14 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			north_german_region = { type = all is_core = ROOT owned_by = ROOT }
-			lower_bavaria_area = { type = all is_core = ROOT owned_by = ROOT }
-			upper_bavaria_area = { type = all is_core = ROOT owned_by = ROOT }
-			franconia_area = { type = all is_core = ROOT owned_by = ROOT }
-			lower_swabia_area = { type = all is_core = ROOT owned_by = ROOT }
-			upper_swabia_area = { type = all is_core = ROOT owned_by = ROOT }
-			upper_rhineland_area = { type = all is_core = ROOT owned_by = ROOT }
-			palatinate_area = { type = all is_core = ROOT owned_by = ROOT }
+			num_of_owned_provinces_with = {
+				value = 100
+				is_core = root
+				OR = {
+					region = north_german_region
+					region = south_german_region
+				}
+			}
 			silesia_area = { type = all is_core = ROOT owned_by = ROOT }
 			owns_core_province = 188
 			owns_core_province = 189
@@ -102,19 +112,22 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
+			add_prestige = 25
+			set_country_flag = formed_germany_flag
 			if = {
 				limit = {
 					has_custom_ideas = no
-					NOT = { has_idea_group = NED_ideas }
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
-			}			
-			add_prestige = 25
-			set_country_flag = formed_germany_flag
+			}
+			swap_non_generic_missions = yes
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				tag = HAB
+			}
 		}
 	}
-
 }

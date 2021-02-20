@@ -177,6 +177,14 @@ danish_missions_baltic = {
 				manuever = 4
 				siege = 0
 			}
+			12 = {
+				add_unit_construction = {
+					amount = 5
+					type = galley
+					speed = 0.25
+					cost = 0
+				}
+			}
 			35 = { # osel
 				if = {
 					limit = {

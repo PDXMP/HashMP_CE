@@ -42,6 +42,7 @@
 # warsubsidy
 # sellprov
 # imperial_relations_action
+# imperial_realm_war_action
 # religious_unity_action
 # grant_electorate
 # remove_electorate
@@ -59,7 +60,6 @@
 # sabotage_reputation
 # support_rebels
 # sow_discontent
-# study_technology
 # agitate_for_liberty
 # form_coalition
 # request_to_join_federation
@@ -69,8 +69,21 @@
 # designate_march
 # ask_for_march
 # sell_ships_action
-# counterespionage
-# abandon_union_action
+# abandon_union
+# takeondebt
+# influence_nation
+# claim_states
+# steer_trade
+# stealmap
+# spy_network
+# invite_to_trade_league
+# request_to_join_trade_league
+# sharemap
+# intervene_in_war
+# break_alliance
+# tributary_state_action
+# ask_for_tributary_state_action
+# knowledge_sharing
 
 declarewar = {
 	condition = {
@@ -118,6 +131,27 @@ royal_marriage = {
 		tooltip = h_tooltip_commanderymarry
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_marrynative
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_native_empire
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_nativemarry
+		potential = {
+			ROOT = { has_reform = h_reform_native_empire }
 		}
 		allow = {
 			always = no
@@ -247,6 +281,27 @@ guaranteeaction = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_guaranteenative
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_native_empire
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_nativeguarantee
+		potential = {
+			ROOT = { has_reform = h_reform_native_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 warningaction = {
@@ -254,6 +309,15 @@ warningaction = {
 		tooltip = h_tooltip_commanderywarn
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_nativewarn
+		potential = {
+			ROOT = { has_reform = h_reform_native_empire }
 		}
 		allow = {
 			always = no
@@ -286,9 +350,6 @@ abandon_union_action = {
 		}
 	}
 }
-
-
-
 
 form_coalition = {
 	condition = {
@@ -489,6 +550,51 @@ support_independence_action = {
 		tooltip = h_tooltip_commanderysupport
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+improve_relation = {
+	condition = {
+		tooltip = h_tooltip_improvecommandery
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_commandery
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_commanderyimprove
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_improvenative
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_native_empire
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_nativeimprove
+		potential = {
+			ROOT = { has_reform = h_reform_native_empire }
 		}
 		allow = {
 			always = no

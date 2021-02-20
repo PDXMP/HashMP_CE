@@ -4,5 +4,5 @@ government_rank = 1
 primary_culture = miao
 religion = confucianism
 technology_group = chinese
-capital = 4717	# Chenzhou
+capital = 4813 # Chenzhou
 

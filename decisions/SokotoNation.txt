@@ -24,28 +24,29 @@ country_decisions = {
 				tag = SON
 				tag = TUN
 				tag = MOR
-				tag = KON
 			}
 			#has_country_flag = sok_dan_fodio_happened
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = manding_area
-				area = baghena_area
-				area = massina_area
-				area = kong_area
-				area = jenne_area
-				area = upper_volta_area
-				area = niger_bend_area
-				area = dendi_area
-				area = atacora_oueme_area
-				area = lower_niger_area
-				area = zazzau_area
-				area = katsina_area
-				area = azbin_area
-				area = hausa_area
-				area = bornu_area
-				area = kanem_area
+				AND = {
+					OR = {
+						region = sahel_region
+						region = niger_region
+					}
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 58
+								is_core = root
+								OR = {
+									region = sahel_region
+									region = niger_region
+								}
+							}
+						}
+					}
+				}
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -56,22 +57,14 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			religion_group = muslim
-			manding_area = { type = all is_core = ROOT owned_by = ROOT }
-			baghena_area = { type = all is_core = ROOT owned_by = ROOT }
-			massina_area = { type = all is_core = ROOT owned_by = ROOT }
-			kong_area = { type = all is_core = ROOT owned_by = ROOT }
-			jenne_area = { type = all is_core = ROOT owned_by = ROOT }
-			upper_volta_area = { type = all is_core = ROOT owned_by = ROOT }
-			niger_bend_area = { type = all is_core = ROOT owned_by = ROOT }
-			dendi_area = { type = all is_core = ROOT owned_by = ROOT }
-			atacora_oueme_area = { type = all is_core = ROOT owned_by = ROOT }
-			lower_niger_area = { type = all is_core = ROOT owned_by = ROOT }
-			zazzau_area = { type = all is_core = ROOT owned_by = ROOT }
-			katsina_area = { type = all is_core = ROOT owned_by = ROOT }
-			azbin_area = { type = all is_core = ROOT owned_by = ROOT }
-			hausa_area = { type = all is_core = ROOT owned_by = ROOT }
-			bornu_area = { type = all is_core = ROOT owned_by = ROOT }
-			kanem_area = { type = all is_core = ROOT owned_by = ROOT }
+			num_of_owned_provinces_with = {
+				value = 58
+				is_core = root
+				OR = {
+					region = sahel_region
+					region = niger_region
+				}
+			}
 		}
 		effect = {
 			niger_region = {
@@ -86,6 +79,12 @@ country_decisions = {
 				}
 				add_permanent_claim = SOK
 			}
+			guinea_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SOK
+			}
 			add_prestige = 25
 			change_tag = SOK
 			change_technology_group = muslim
@@ -93,10 +92,14 @@ country_decisions = {
 			if = {
 				limit = {
 					NOT = { government = monarchy }
+					is_revolutionary = no
 				}
-				change_government = monarchy
+				change_government_to_monarchy = yes
 			}
-			add_government_reform = feudal_theocracy
+			if = {
+				limit = { is_revolutionary = no }
+				add_government_reform = feudal_theocracy
+			}
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 3 } }

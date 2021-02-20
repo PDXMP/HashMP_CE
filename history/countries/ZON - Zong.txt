@@ -4,5 +4,5 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = sichuanese #ganyu
-capital = 4841 #Zigong
-fixed_capital = 4841
+capital = 4937 #Zigong
+fixed_capital = 4937

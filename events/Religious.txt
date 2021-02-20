@@ -2632,45 +2632,52 @@ country_event = {
 	option = {
 		name = "religious_events.18.a" #
 		ai_chance = { factor = 100 }
-		trigger = { any_owned_province = { religion = catholic } }
+		#trigger = { any_owned_province = { religion = catholic } }
 		change_religion = catholic
-		add_stability = -4
+		add_stability = -2
 	}
-	option = {
-		name = "religious_events.18.b" #
-		ai_chance = { factor = 100 }
-		trigger = { any_owned_province = { religion = orthodox } }
-		change_religion = orthodox
-		add_stability = -4
-	}
-	option = {
-		name = "religious_events.18.c" #
-		ai_chance = { factor = 100 }
-		trigger = { any_owned_province = { religion = coptic } }
-		change_religion = coptic
-		add_stability = -4
-	}
+	#option = {
+	#	name = "religious_events.18.b" #
+	#	ai_chance = { factor = 100 }
+	#	trigger = { any_owned_province = { religion = orthodox } }
+	#	change_religion = orthodox
+	#	add_stability = -4
+	#}
+	#option = {
+	#	name = "religious_events.18.c" #
+	#	ai_chance = { factor = 100 }
+	#	trigger = { any_owned_province = { religion = coptic } }
+	#	change_religion = coptic
+	#	add_stability = -4
+	#}
 	option = {
 		name = "religious_events.18.dd" #
 		ai_chance = { factor = 100 }
 		trigger = { any_owned_province = { religion = reformed } }
 		change_religion = reformed
-		add_stability = -4
+		add_stability = -2
 	}
 	option = {
 		name = "religious_events.18.e" #
 		ai_chance = { factor = 100 }
 		trigger = { any_owned_province = { religion = protestant } }
 		change_religion = protestant
-		add_stability = -4
+		add_stability = -2
 	}
 	option = {
 		name = "religious_events.18.g" #
 		ai_chance = { factor = 100 }
 		trigger = { any_owned_province = { religion = anglican } }
 		change_religion = anglican
-		add_stability = -4
+		add_stability = -2
 	}
+	#option = {
+	#	name = "religious_events.18.h" #
+	#	ai_chance = { factor = 100 }
+	#	trigger = { any_owned_province = { religion = hussite } }
+	#	change_religion = hussite
+	#	add_stability = -4
+	#}
 	option = {
 		name = "religious_events.18.f" #
 		ai_chance = { factor = 1 } #AI should pick this if the event somehow triggers despite none of the above being possible.
@@ -2734,6 +2741,13 @@ country_event = {
 		ai_chance = { factor = 100 }
 		trigger = { any_owned_province = { religion = vajrayana } }
 		change_religion = vajrayana
+		add_stability = -4
+	}
+	option = {
+		name = "religious_events.20.b2" #
+		ai_chance = { factor = 100 }
+		trigger = { any_owned_province = { religion = mahayana } }
+		change_religion = mahayana
 		add_stability = -4
 	}
 	option = {

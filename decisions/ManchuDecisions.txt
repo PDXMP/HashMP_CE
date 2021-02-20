@@ -11,8 +11,10 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = MCH }
-			tag = MJZ
-			primary_culture = manchu
+			OR = {
+				primary_culture = manchu
+				primary_culture = manchu_new
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -74,6 +76,12 @@ country_decisions = {
 				add_core = MCH
 			}
 			central_heilongjiang_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_core = MCH
+			}
+			furdan_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 				}
@@ -183,7 +191,7 @@ country_decisions = {
 					has_reform = steppe_horde
 				}
 				change_government = monarchy
-				set_legacy_government = despotic_monarchy
+				#set_legacy_government = despotic_monarchy
 			}
 			if = {
 				limit = {

@@ -4,5 +4,5 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = hubei #ganyu
-capital = 4787 #Dezhou
-fixed_capital = 4787 #Dezhou
+capital = 4883 #Dezhou
+fixed_capital = 4883 #Dezhou

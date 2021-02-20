@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = hakka #ganyu
-capital = 4792
+capital = 4888

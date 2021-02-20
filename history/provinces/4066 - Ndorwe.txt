@@ -1,5 +1,9 @@
 #Ndorwe
 
+latent_trade_goods = {
+	coal
+}
+
 owner = NKO
 controller = NKO
 add_core = NKO

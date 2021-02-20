@@ -629,6 +629,7 @@ gold = {
 			NOT = { region = east_siberia_region }
 			NOT = { region = australia_region }
 			NOT = { region = south_africa_region }
+			NOT = { region = central_africa_region }
 		}
 		modifier = {
 			factor = 0
@@ -680,6 +681,10 @@ gold = {
 					colonial_parent = { has_country_flag = por_bandeirantes_flag }
 				}
 			}
+		}
+		modifier = {
+			factor = 0.5
+			region = south_africa_region
 		}
 	}
 }
@@ -1619,7 +1624,7 @@ paper = {
 		adm_tech_cost_modifier = -0.05
 	}
 	province = {
-		local_state_maintenance_modifier = -0.1
+		local_state_maintenance_modifier = -0.2
 	}
 	chance = {
 		factor = 5
@@ -1697,6 +1702,15 @@ gems = {
 			NOT = { region = east_siberia_region }
 			NOT = { region = australia_region }
 			NOT = { region = south_africa_region }
+			NOT = { region = indonesia_region }
+			NOT = { region = moluccas_region }
+			NOT = { region = hindusthan_region }
+			NOT = { region = west_india_region }
+			NOT = { region = bengal_region }
+			NOT = { region = deccan_region }
+			NOT = { region = coromandel_region }
+			NOT = { region = indo_china_region }
+			NOT = { continent = oceania }
 		}
 		modifier = {
 			factor = 0

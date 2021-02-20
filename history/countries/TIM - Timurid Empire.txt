@@ -16,6 +16,15 @@ historical_rival = KHO
 historical_rival = ORM
 religious_school = hanafi_school
 
+change_estate_land_share = {
+	estate = estate_church
+	share = -12
+}
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 12
+}
+
 1370.1.1 = {
 	monarch = {
 		name = "Timur"

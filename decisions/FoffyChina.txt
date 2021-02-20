@@ -26,7 +26,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_core = 1816
 			1816 = {
 				move_capital_effect = yes
@@ -49,19 +49,19 @@ country_decisions = {
 				tag = QIC
 				tag = CXI
 			}
-			owns = 4697
-			NOT = { capital = 4697 }
+			owns = 4793
+			NOT = { capital = 4793}
 			NOT = { has_country_flag = h_commandery_capital }
 		}
 		allow = {
 			is_at_war = no
-			controls = 4697		
+			controls = 4793
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
-			add_core = 4697
-			4697 = {
+			add_stability_or_adm_power = yes
+			add_core = 4793
+			4793 = {
 				move_capital_effect = yes
 				change_culture = ROOT
 				add_base_tax = 1
@@ -69,7 +69,7 @@ country_decisions = {
 				add_base_manpower = 1
 			}
 		}
-		do_not_core = 4697 # Changsha
+		do_not_core = 4793 # Changsha
 	}
 	
 	h_cgd_capital = {
@@ -82,19 +82,19 @@ country_decisions = {
 				tag = QIC
 				tag = CXI
 			}
-			owns = 4698
-			NOT = { capital = 4698 }
+			owns = 4794 
+			NOT = { capital = 4794 }
 			NOT = { has_country_flag = h_commandery_capital }
 		}
 		allow = {
 			is_at_war = no
-			controls = 4698		
+			controls = 4794 
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
-			add_core = 4698
-			4698 = {
+			add_stability_or_adm_power = yes
+			add_core = 4794 
+			4794 = {
 				move_capital_effect = yes
 				change_culture = ROOT
 				add_base_tax = 1
@@ -102,7 +102,7 @@ country_decisions = {
 				add_base_manpower = 1
 			}
 		}
-		do_not_core = 4698 # Constantinople
+		do_not_core = 4794 # Constantinople
 	}
 
 	h_cqg_capital = {
@@ -125,7 +125,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_core = 680
 			680 = {
 				move_capital_effect = yes
@@ -158,7 +158,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_core = 726
 			726 = {
 				move_capital_effect = yes
@@ -191,7 +191,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_core = 667
 			667 = {
 				move_capital_effect = yes
@@ -224,7 +224,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_core = 684
 			684 = {
 				move_capital_effect = yes
@@ -257,7 +257,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_core = 662
 			662 = {
 				move_capital_effect = yes
@@ -280,19 +280,19 @@ country_decisions = {
 				tag = QIC
 				tag = CXI
 			}
-			owns = 4765
-			NOT = { capital = 4765 }
+			owns = 4861
+			NOT = { capital = 4861 }
 			NOT = { has_country_flag = h_commandery_capital }
 		}
 		allow = {
 			is_at_war = no
-			controls = 4765		
+			controls = 4861 
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
-			add_core = 4765
-			4765 = {
+			add_stability_or_adm_power = yes
+			add_core = 4861 
+			4861 = {
 				move_capital_effect = yes
 				change_culture = ROOT
 				add_base_tax = 1
@@ -300,7 +300,7 @@ country_decisions = {
 				add_base_manpower = 1
 			}
 		}
-		do_not_core = 4765 # Luoyang
+		do_not_core = 4861 # Luoyang
 	}
 	
 	h_njg_capital = {
@@ -323,7 +323,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_core = 1821
 			1821 = {
 				move_capital_effect = yes
@@ -356,7 +356,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_core = 682
 			682 = {
 				move_capital_effect = yes
@@ -389,7 +389,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_core = 700
 			700 = {
 				move_capital_effect = yes
@@ -422,7 +422,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = h_commandery_capital
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_core = 1829
 			1829 = {
 				move_capital_effect = yes
@@ -450,7 +450,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_government_reform = h_reform_warlord_2
 			if = {
 				limit = {
@@ -506,7 +506,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_government_reform = h_reform_warlord_3
 			if = {
 				limit = {
@@ -569,7 +569,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = "h_chinese_empire"
 				duration = 9125
@@ -580,36 +580,42 @@ country_decisions = {
 					tag = CSH
 				}
 				country_event = { id = foffychina.9 } #Ancillary 3
+				override_country_name = CSH_Empire
 			}	
 			if = {
 				limit = {
 					tag = CXI
 				}
 				country_event = { id = foffychina.12 } #Ancillary 3
+				override_country_name = CXI_Empire
 			}
 			if = {
 				limit = {
 					tag = CYI
 				}
 				country_event = { id = foffychina.15 } #Ancillary 3
+				override_country_name = CYI_Empire
 			}
 			if = {
 				limit = {
 					tag = QIC
 				}
 				country_event = { id = foffychina.18 } #Ancillary 3
+				override_country_name = QIC_Empire
 			}
 			if = {
 				limit = {
 					tag = WUU
 				}
 				country_event = { id = foffychina.21 } #Ancillary 3
+				override_country_name = WUU_Empire
 			}
 			if = {
 				limit = {
 					tag = YUE
 				}
 				country_event = { id = foffychina.24 } #Ancillary 3
+				override_country_name = YUE_Empire
 			}
 		}
 	}

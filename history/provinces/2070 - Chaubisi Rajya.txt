@@ -1,8 +1,7 @@
 #2070 - Chaubisi Rayja
 
-owner = NPL
-controller = NPL
-add_core = NPL
+owner = GRK
+controller = GRK
 culture = nepali
 religion = hinduism
 capital = "Ghurka"

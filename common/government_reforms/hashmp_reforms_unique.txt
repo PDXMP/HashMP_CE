@@ -29,11 +29,17 @@ h_reform_dominion = {
 			tag = NZL
 			tag = BLV
 			tag = CSC
+			tag = WSI
+			tag = FLO
+			tag = ILI
+			tag = VRM
+			tag = ORJ
+			tag = DSA
 		}
 	}
 	modifiers = {
 		max_absolutism = -50
-		max_states = 5
+		governing_capacity = 250
 	}
 
 	custom_attributes = {
@@ -73,9 +79,9 @@ h_reform_commandery = {
 		defensiveness = 0.33
 		hostile_attrition = 1
 		global_tax_income = 60
-		land_forcelimit = 20
+		land_forcelimit = 25
 		global_manpower = 20
-		max_states = -10
+		governing_capacity = -500
 		possible_condottieri = -10.0
 	}
 
@@ -124,6 +130,7 @@ h_reform_warlord_2 = {
 	allow_normal_conversion = yes
 	fixed_rank = 1
 	potential = {
+		ai = no
 		AND = {
 			NOT = { has_reform = h_reform_warlord_1 }
 			NOT = { has_reform = h_reform_warlord_3 }
@@ -155,6 +162,7 @@ h_reform_warlord_3 = {
 	allow_normal_conversion = yes
 	fixed_rank = 2
 	potential = {
+		ai = no
 		AND = {
 			NOT = { has_reform = h_reform_warlord_1 }
 			NOT = { has_reform = h_reform_warlord_2 }
@@ -186,6 +194,7 @@ h_reform_warlord_4 = {
 	allow_normal_conversion = yes
 	fixed_rank = 3
 	potential = {
+		ai = no
 		AND = {
 			NOT = { has_reform = h_reform_warlord_1 }
 			NOT = { has_reform = h_reform_warlord_2 }
@@ -307,7 +316,7 @@ h_reform_citystate = {
 	}
 	modifiers = {
 		ae_impact = 0.1
-		max_states = -5
+		governing_capacity = -250
 		diplomatic_upkeep = -1
 	}
 

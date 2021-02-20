@@ -1,8 +1,7 @@
 #4484 - Makwanpur
 
-owner = NPL
-controller = NPL
-add_core = NPL
+owner = KTU
+controller = KTU
 culture = nepali
 religion = hinduism
 capital = "Makwanpur"

@@ -10,7 +10,9 @@ historical_rival = BNG
 historical_rival = MLC
 historical_rival = YUE
 historical_rival = CYI
-historical_rival = MJP
+historical_rival = MAJ
+historical_rival = PSA
+historical_rival = SUN
 
 1395.1.1 = {
 	monarch = {
@@ -45,7 +47,8 @@ historical_rival = MJP
 		mil = 5
 		#leader = { 
 		#	name = "Borommaracha II"
-		#	type = general
+		#	type = general
+
 		#	fire = 2	
 		#	shock = 4	
 		#	manuever = 4	

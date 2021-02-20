@@ -1,5 +1,5 @@
-name="HashMP CE China Alpha 1.28.3"
-archive="mod/HashMP_CE_China.zip"
+name="HashMP CE Multiplayer Mod"
+path="mod/HashMP_CE"
 picture = "HashMP.jpg"
 tags={
 	"Multiplayer"

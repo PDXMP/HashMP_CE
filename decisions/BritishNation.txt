@@ -116,15 +116,10 @@ country_decisions = {
 					add_permanent_claim = GBR
 				}
 				1979 = {
-				add_permanent_claim = GBR
+					add_permanent_claim = GBR
 				}
-				iceland_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { owned_by = ROOT }
-					}
-					add_claim = GBR
-				}
+				370 = { add_claim = GBR }
+				371 = { add_claim = GBR }
 			}
 			if = {
 				limit = {

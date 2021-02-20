@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = xiang
-capital = 4832	#Yiyang
+capital = 4928 #Yiyang

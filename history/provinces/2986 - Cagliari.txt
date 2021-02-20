@@ -1,4 +1,8 @@
-# - Cagliari
+# 2986 - Cagliari
+
+latent_trade_goods = {
+	coal
+}
 
 owner = GEN
 controller = GEN

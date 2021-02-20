@@ -1,10 +1,10 @@
-#136 - Dalmatia
+#136 - Split
 
-owner = CRO
-controller = CRO
-culture = croatian
+owner = DAL
+controller = DAL
+culture = dalmatian
 religion = catholic
-capital = "Zadar"
+capital = "Split"
 trade_goods = wool
 hre = no
 base_tax = 6 
@@ -12,8 +12,8 @@ base_production = 4
 base_manpower = 3
 is_city = yes
 fort_15th = yes # Klis Fortress
-#add_core = HUN
 add_core = CRO
+add_core = DAL
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

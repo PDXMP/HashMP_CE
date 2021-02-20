@@ -98,40 +98,40 @@
 
 #Switzerland
 
-h_swi_missions = {
-
-	slot = 1
-	generic = no
-	ai = yes
-	
-	potential = {
-		tag = SWI
-	}
-	has_country_shield = yes
-
-	h_switzerland_mission_1 = { #Guilds of Zurich
-		icon = mission_hanseatic_city
-		required_missions = { }
-		position = 1
-		
-		trigger = {
-			1869 = {
-				owned_by = ROOT
-				province_has_center_of_trade_of_level  = 3
-			}
-			1876 = {
-				is_strongest_trade_power = ROOT
-			}
-		}
-		
-		effect = {
-			1869 = {
-				add_base_production = 5
-				change_trade_goods = cloth
-			}
-		}
-	}
-}
+#h_swi_missions = {
+#
+#	slot = 1
+#	generic = no
+#	ai = yes
+#	
+#	potential = {
+#		tag = SWI
+#	}
+#	has_country_shield = yes
+#
+#	h_switzerland_mission_1 = { #Guilds of Zurich
+#		icon = mission_hanseatic_city
+#		required_missions = { }
+#		position = 1
+#		
+#		trigger = {
+#			1869 = {
+#				owned_by = ROOT
+#				province_has_center_of_trade_of_level  = 3
+#			}
+#			1876 = {
+#				is_strongest_trade_power = ROOT
+#			}
+#		}
+#		
+#		effect = {
+#			1869 = {
+#				add_base_production = 5
+#				change_trade_goods = cloth
+#			}
+#		}
+#	}
+#}
 
 h_qar_missions = {
 
@@ -492,7 +492,7 @@ h_orm_missions = {
 			}
 		}
 		effect = {
-			add_army_tradition = 10
+			add_army_tradition = 20
 			mecca_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
@@ -967,7 +967,7 @@ h_khm_missions = {
 		trigger = {
 			609 = {
 				NOT = { unrest = 1 }
-				NOT = { local_autonomy = 50 }
+				NOT = { local_autonomy = 20 }
 			}
 		}
 		effect = {
@@ -1227,6 +1227,39 @@ h_angkor_missions = {
 				name = "h_khm_khmer_faith"
 				duration = 5475
 			}
+		}
+	}
+}
+
+h_cn_southafrica_missions = {
+
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		capital_scope = {
+			colonial_region = colonial_south_africa
+		}
+		is_colonial_nation = yes
+	}
+	has_country_shield = yes
+
+	h_cn_southafrica_missions_1 = { #Petition for Dominion Status
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			colonial_south_africa = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = h_southafrica_dominion_request
 		}
 	}
 }

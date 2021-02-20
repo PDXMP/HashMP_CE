@@ -18,14 +18,14 @@ h_china_all = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 1816
-				province_id = 4697
-				province_id = 4698
+				province_id = 4793
+				province_id = 4794
 				province_id = 680
 				province_id = 726
 				province_id = 667
 				province_id = 684
 				province_id = 662
-				province_id = 4765
+				province_id = 4861
 				province_id = 1821
 				province_id = 682
 				province_id = 700
@@ -71,7 +71,7 @@ h_csh_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 5475
+				duration = 3650
 			}
 			gansu_area = {
 				limit = {
@@ -103,18 +103,18 @@ h_cxi_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 5475
+				duration = 3650
 			}
 			if = {
 				limit = {
-					4840 = {
+					4936 = {
 						NOT = {
 							is_permanent_claim = ROOT
 							is_core = ROOT
 						}
 					}
 				}
-				4840 = {
+				4936 = {
 					add_permanent_claim = ROOT
 				}
 			}
@@ -133,14 +133,14 @@ h_cxi_1 = {
 			}
 			if = {
 				limit = {
-					4857 = {
+					4953 = {
 						NOT = {
 							is_permanent_claim = ROOT
 							is_core = ROOT
 						}
 					}
 				}
-				4857 = {
+				4953 = {
 					add_permanent_claim = ROOT
 				}
 			}
@@ -167,7 +167,7 @@ h_cyi_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 5475
+				duration = 3650
 			}
 			if = {
 				limit = {
@@ -218,7 +218,7 @@ h_qic_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 5475
+				duration = 3650
 			}
 			shandong_area = {
 				limit = {
@@ -250,7 +250,7 @@ h_wuu_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 5475
+				duration = 3650
 			}
 			country_event = { id = foffychina.5 } #Ruler Event
 			zhejiang_area = {
@@ -297,7 +297,7 @@ h_wuu_5 = {
 #		effect = {
 #			add_country_modifier = {
 #				name = "h_warlord_startmod"
-#				duration = 5475
+#				duration = 3650
 #			}
 #			if = {
 #				limit = {
@@ -361,7 +361,7 @@ h_yue_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "h_warlord_startmod"
-				duration = 5475
+				duration = 3650
 			}
 			yanshan_area = {
 				limit = {

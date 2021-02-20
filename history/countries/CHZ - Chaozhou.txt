@@ -4,5 +4,5 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = chimin #ganyu
-capital = 4709 #Chaozhou
-fixed_capital = 4709
+capital = 4805 #Chaozhou
+fixed_capital = 4805

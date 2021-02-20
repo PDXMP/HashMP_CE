@@ -41,7 +41,8 @@ send_monks_to_establish_monasteries = {
 	is_blessing = yes
 
 	modifier = {
-		global_missionary_strength = 0.03
+		global_missionary_strength = 0.02
+		missionaries = 1
 	}
 	ai_will_do = {
 		factor = 10
@@ -71,7 +72,7 @@ promote_territorial_rights = {
 
 	modifier = {
 		core_creation = -0.1
-		max_states = 5
+		governing_capacity = 250
 	}
 	ai_will_do = {
 		factor = 10

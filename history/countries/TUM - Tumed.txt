@@ -4,6 +4,6 @@ government_rank = 1
 technology_group = nomad_group
 religion = vajrayana
 primary_culture = mongol
-capital = 4702 #Zhanye
+capital = 4798 #Zhanye
 
 

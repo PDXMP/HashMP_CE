@@ -1847,7 +1847,7 @@ country_event = {
 		add_mil_power = 50
 		add_incident_variable_value = {
 			incident = incident_firearms
-			value = 3
+			value = 1
 		}
 		hidden_effect = {
 			country_event = {
@@ -1864,7 +1864,7 @@ country_event = {
 		add_army_tradition = 10
 		add_incident_variable_value = {
 			incident = incident_firearms
-			value = 1
+			value = 3
 		}
 		hidden_effect = {
 			country_event = {
@@ -2528,16 +2528,7 @@ country_event = {
 	desc = "shinto_events.46.d"
 	picture = SHOGUNATE_AUTHORITY_INCIDENT_eventPicture
 	
-	trigger = {
-		tag = JAP
-		NOT = { has_country_flag = decided_on_christianity_flag }
-		has_country_flag = a_kirishitan_realm
-		religion = shinto
-	}
-	
-	mean_time_to_happen = {
-		months = 120
-	}
+	is_triggered_only = yes
 	
 	immediate = {
 		hidden_effect = {
@@ -2548,7 +2539,16 @@ country_event = {
 	option = {
 		name = "shinto_events.46.a" #No, we could never turn our back on tradition entirely!
 		ai_chance = {
-			factor = 80
+			factor = 20
+			modifier = {
+				factor = 3.5
+				NOT = { tag = JAP }
+				NOT = { tag = OTM }
+				any_known_country = {
+					capital_scope = { region = japan_region }
+					religion = catholic
+				}
+			}
 		}
 		add_prestige = 10
 	}
@@ -2557,6 +2557,19 @@ country_event = {
 		name = "shinto_events.46.b" #
 		ai_chance = {
 			factor = 20
+			modifier = {
+				factor = 0.5
+				NOT = { tag = JAP }
+				NOT = { tag = OTM }
+				any_known_country = {
+					capital_scope = { region = japan_region }
+					religion = catholic
+				}
+			}
+			modifier = {
+				factor = 4
+				tag = OTM
+			}
 		}
 		change_religion = catholic
 		capital_scope = {
@@ -2739,7 +2752,7 @@ country_event = {
 		}
 		add_incident_variable_value = {
 			incident = incident_shogunate_authority
-			value = 3
+			value = 1
 		}
 		hidden_effect = {
 			country_event = {
@@ -2781,7 +2794,7 @@ country_event = {
 		custom_tooltip = shinto_events.open.tt
 		add_incident_variable_value = {
 			incident = incident_shogunate_authority
-			value = 1
+			value = 3
 		}
 		add_country_modifier = {
 			name = "cadastral_survey_modifier"
@@ -3095,16 +3108,7 @@ country_event = {
 	desc = "shinto_events.58.d"
 	picture = SHOGUNATE_AUTHORITY_INCIDENT_eventPicture
 	
-	trigger = {
-		tag = JAP
-		NOT = { has_country_flag = decided_on_mahayana_flag }
-		has_country_flag = supporters_in_the_ikko_iki
-		religion = shinto
-	}
-	
-	mean_time_to_happen = {
-		months = 120
-	}
+	is_triggered_only = yes
 	
 	immediate = {
 		hidden_effect = {
@@ -3116,18 +3120,14 @@ country_event = {
 		name = "shinto_events.58.a" #No, we could never turn our back on tradition entirely!
 		add_prestige = 10
 		ai_chance = {
-			factor = 80
-		}
-		capital_scope = {
-			spawn_rebels = {
-				type = ikko_ikki_rebels
-				size = 1
-			}
-			random_neighbor_province = {
-				change_religion = mahayana
-				spawn_rebels = {
-					type = ikko_ikki_rebels
-					size = 1
+			factor = 20
+			modifier = {
+				factor = 2
+				NOT = { tag = JAP }
+				NOT = { tag = TKD }
+				any_known_country = {
+					capital_scope = { region = japan_region }
+					religion = mahayana
 				}
 			}
 		}
@@ -3137,11 +3137,23 @@ country_event = {
 		name = "shinto_events.58.b" #
 		ai_chance = {
 			factor = 20
+			modifier = {
+				factor = 0.5
+				NOT = { tag = JAP }
+				NOT = { tag = TKD }
+				any_known_country = {
+					capital_scope = { region = japan_region }
+					religion = mahayana
+				}
+			}
 		}
 		change_religion = mahayana
 		capital_scope = {
 			change_religion = mahayana
 			random_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+				}
 				spawn_rebels = {
 					type = shinto_rebels
 					size = 1
@@ -3152,5 +3164,54 @@ country_event = {
 			name = "shinto_converted_to_mahayana"
 			duration = 3650
 		}
+	}
+}
+
+#Convert to Confuciansim
+country_event = {
+	id = shinto_events.59
+	title = "shinto_events.59.t"
+	desc = "shinto_events.59.d"
+	picture = SHOGUNATE_AUTHORITY_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = decided_on_confucian_flag
+		}
+	}
+	
+	option = {
+		name = "shinto_events.46.a" #No, we could never turn our back on tradition entirely!
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 2
+				NOT = { tag = JAP }
+				any_known_country = {
+					capital_scope = { region = japan_region }
+					religion = confucianism
+				}
+			}
+		}
+		add_prestige = 10
+	}
+	
+	option = {
+		name = "shinto_events.46.b" #
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0.1
+				NOT = { tag = JAP }
+				any_known_country = {
+					capital_scope = { region = japan_region }
+					religion = confucianism
+				}
+			}
+		}
+		change_religion = confucianism
+		add_harmonized_religion = shinto
 	}
 }

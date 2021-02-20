@@ -1,0 +1,6 @@
+add_innovativeness_huge_effect = {
+	if = {
+		limit = { has_dlc = "Rule Britannia" }
+		change_innovativeness = 5
+	}
+}

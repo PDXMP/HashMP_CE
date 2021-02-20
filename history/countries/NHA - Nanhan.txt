@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = cantonese #ganyu
-capital = 4843 #Yanshan
+capital = 4939 #Yanshan

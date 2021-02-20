@@ -105,17 +105,17 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					NOT = {
-						government = monarchy
-					}
+					NOT = { government = monarchy }
+					is_revolutionary = no
 				}
-				change_government = monarchy
+				change_government_to_monarchy = yes
 			}
-			add_government_reform = indian_sultanate_reform
 			if = {
 				limit = {
 					has_dlc = "Dharma"
+					is_revolutionary = no
 				}
+				add_government_reform = indian_sultanate_reform
 				add_government_reform = mughal_government
 			}
 			if = {

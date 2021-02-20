@@ -1,0 +1,367 @@
+emperor_reichsreform = {
+	empire = hre
+	potential = {
+		has_dlc = "Emperor"
+	}
+	member = {
+		global_tax_income = 6
+		global_autonomy = -0.025
+	}
+	emperor = {
+		global_tax_income = 18
+		global_autonomy = -0.025
+		global_manpower = 4
+	}
+	on_effect = {
+		imperial_ban_allowed = yes
+	}
+	off_effect = {
+		imperial_ban_allowed = no
+	}
+	gui_container = mainline
+}
+
+emperor_reichsregiment = {
+	empire = hre
+	potential = {
+		has_dlc = "Emperor"
+	}
+	member = {
+		global_unrest = -2
+		adm_tech_cost_modifier = -0.05
+	}
+	emperor = {
+		global_unrest = -2
+		adm_tech_cost_modifier = -0.05
+		global_manpower = 4
+	}
+	required_reform = emperor_reichsreform
+	gui_container = mainline
+}
+
+emperor_reichsstabilitaet = {
+	empire = hre
+	required_reform = emperor_reichsregiment
+	gui_container = mainline
+
+	potential = {
+		has_dlc = "Emperor"
+	}
+	member = {
+		global_tax_modifier = 0.075
+		build_cost = -0.075
+	}
+	emperor = {
+		global_tax_modifier = 0.15
+		build_cost = -0.1
+		global_manpower = 4
+	}
+}
+
+emperor_gemeinerpfennig = {
+	empire = hre
+	potential = {
+		has_dlc = "Emperor"
+	}
+	member = {
+		global_tax_income = 12
+		legitimacy = 0.5
+		republican_tradition = 0.1
+	}
+	emperor = {
+		global_tax_income = 24
+		legitimacy = 0.5
+		republican_tradition = 0.1
+		global_manpower = 4
+	}
+	required_reform = emperor_reichsstabilitaet
+	gui_container = mainline
+}
+
+emperor_perpetual_diet = {
+	empire = hre
+	required_reform = emperor_gemeinerpfennig
+	gui_container = mainline
+
+	potential = {
+		has_dlc = "Emperor"
+	}
+	member = {
+		army_tradition = 0.5
+		prestige = 0.5
+	}
+	emperor = {
+		army_tradition = 0.5
+		prestige = 0.5
+		global_manpower = 4
+	}
+	on_effect = {
+		custom_tooltip = "PERPETUAL_DIET_ESTABLISHED"
+		hidden_effect = {
+			random_province = {
+				limit = {
+					is_part_of_hre = yes
+					is_capital = yes
+					OR = {
+						AND = {
+							has_dlc = "Art of War"
+							owner = { has_reform = free_city }
+						}
+						AND = {
+							owner = { is_elector = yes }
+							development = 20
+						}
+						development = 30
+						province_id = 2957 # Regensburg
+						province_id = 1868 # Augsburg
+						province_id = 1872 # Ulm
+					}
+				}
+				province_event = {
+					id = hre_event.6
+				}
+				add_province_triggered_modifier = perpetual_diet
+			}
+		}
+	}
+	off_effect = {
+		every_province = {
+			remove_province_triggered_modifier = perpetual_diet
+		}
+	}
+}
+
+emperor_landsknechtswesen = {
+	empire = hre
+	required_reform = emperor_perpetual_diet
+	gui_container = mainline
+
+	potential = {
+		has_dlc = "Emperor"
+	}
+	member = {
+		development_cost = -0.075
+	}
+	emperor = {
+		development_cost = -0.1
+		imperial_authority = 0.1
+		global_manpower = 4
+	}
+}
+
+emperor_landfriede = {
+	empire = hre
+	potential = {
+		has_dlc = "Emperor"
+	}
+	member = {
+		infantry_power = 0.075
+		land_morale = 0.05
+	}
+	emperor = {
+		infantry_power = 0.10
+		land_morale = 0.05
+		yearly_absolutism = 0.1
+		global_manpower = 6
+	}
+#	on_effect = {
+#		internal_hre_cb = no
+#	}
+#	off_effect = {
+#		internal_hre_cb = yes
+#	}
+	required_reform = emperor_landsknechtswesen
+	gui_container = mainline
+}
+
+emperor_reichstag_collegia = {
+	empire = hre
+	required_reform = emperor_perpetual_diet
+	disabled_by = emperor_hofgericht
+	gui_container = left_branch
+
+	potential = {
+		has_dlc = "Emperor"
+		always = no
+	}
+	emperor = {
+		max_free_cities = 3
+	}
+}
+
+emperor_expand_gemeiner_pfennig = {
+	empire = hre
+	required_reform = emperor_reichstag_collegia
+	gui_container = left_branch
+
+	potential = {
+		has_dlc = "Emperor"
+		always = no
+	}
+	emperor_per_prince = {
+		global_manpower = 0.1
+	}
+	elector_per_prince = {
+		global_manpower = 0.2
+	}
+	province = {
+		local_friendly_movement_speed = 0.1
+	}
+}
+
+emperor_rechenschaft = {
+	empire = hre
+	required_reform = emperor_expand_gemeiner_pfennig
+	gui_container = left_branch
+
+	potential = {
+		has_dlc = "Emperor"
+		always = no
+	}
+	emperor_per_prince = {
+		imperial_authority = 0.01
+	}
+	emperor = {
+#		max_electors = 1 dropped bc/ we dont need more m8
+		prestige = 1
+	}
+}
+
+emperor_geteilte_macht = {
+	empire = hre
+	required_reform = emperor_rechenschaft
+	gui_container = left_branch
+
+	potential = {
+		has_dlc = "Emperor"
+		always = no
+	}
+	elector_per_prince = {
+		global_tax_income = 0.5
+	}
+	province = {
+		local_development_cost = -0.05
+	}
+}
+
+emperor_reichskrieg = {
+	empire = hre
+	required_reform = emperor_geteilte_macht
+	gui_container = left_branch
+
+	potential = {
+		has_dlc = "Emperor"
+		always = no
+	}
+	on_effect = {
+		enable_imperial_realm_war = yes
+		custom_tooltip = REICHSKRIEG_DEFENSE_OF_REALM_MODIFIER
+	}
+
+	off_effect = {
+		enable_imperial_realm_war = no
+	}
+}
+
+emperor_hofgericht = { 
+	empire = hre
+	potential = {
+		has_dlc = "Emperor"
+		always = no
+	}
+	emperor = {
+		core_creation = -0.10
+	}
+	required_reform = emperor_perpetual_diet
+	disabled_by = emperor_reichstag_collegia
+	gui_container = right_branch
+}
+
+emperor_imperial_estates = {
+	empire = hre
+	required_reform = emperor_hofgericht
+	gui_container = right_branch
+	potential = {
+		has_dlc = "Emperor"
+		always = no
+	}
+	emperor = {
+		imperial_authority = 0.25
+	}
+}
+
+emperor_erbkaisertum = {
+	empire = hre
+	potential = {
+		has_dlc = "Emperor"
+		always = no
+	}
+	emperor = {
+		imperial_authority = 0.25
+	}
+#	on_effect = {
+#		if = {
+#			limit = {
+#				hre_religion_locked = no
+#				hre_religion_treaty = no
+#			}
+#			set_hre_religion_treaty = yes
+#		}
+#		hre_inheritable = no
+#	}
+#	off_effect = {
+#		hre_inheritable = no
+#	}
+	required_reform = emperor_imperial_estates
+	gui_container = right_branch
+}
+
+emperor_privilegia_de_non_appelando = {
+	empire = hre
+	war = yes			#this may cause a war, so special AI check needed, to not lose many.
+	potential = {
+		has_dlc = "Emperor"
+		always = no
+	}
+	member = {
+		stability_cost_modifier = -0.10
+	}
+	
+	emperor = {
+		imperial_authority = 0.25
+	}
+#	on_effect = {
+#	
+#		emperor = {
+#			country_event = { id = 9073 tooltip = vassalize_empire2 }
+#		}
+#		hidden_effect = {
+#			every_country = {
+#				limit = {
+#					is_part_of_hre = yes
+#					is_emperor = no
+#					num_of_cities = 1
+#					NOT = { vassal_of = ROOT }
+#				}
+#				country_event = { id = 9074 }
+#			}
+#		}
+#	}
+	required_reform = emperor_erbkaisertum
+	gui_container = right_branch
+}
+
+emperor_renovatio = {
+	empire = hre
+	potential = {
+		has_dlc = "Emperor"
+		always = no
+	}
+#	on_effect = {
+#		emperor = {
+#			country_event = { id = 9075 tooltip = renovatio_effect }
+#		}
+#	}
+	required_reform = emperor_privilegia_de_non_appelando
+	gui_container = right_branch
+}

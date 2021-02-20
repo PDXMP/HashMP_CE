@@ -10,6 +10,7 @@ manchu_missions_1 = {
 			tag = MCH
 			tag = QNG
 			tag = EJZ
+			tag = NHX
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -300,7 +301,7 @@ manchu_missions_1_b = {
 		effect = {
 			add_country_modifier = {
 				name = "terrified_china"
-				duration = 3650
+				duration = 7300
 			}
 			every_province = {
 				limit = {
@@ -517,6 +518,7 @@ manchu_missions_2 = {
 			tag = MCH
 			tag = QNG
 			tag = EJZ
+			tag = NHX
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -585,12 +587,9 @@ manchu_missions_2 = {
 			}
 		}
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = manchu_manchuria.tooltip
-				num_of_owned_provinces_with = {
-					region = manchuria_region
-					value = 25
-				}
+			num_of_owned_provinces_with = {
+				region = manchuria_region
+				value = 25
 			}
 		}
 		effect = {
@@ -852,7 +851,7 @@ manchu_missions_2_b = {
 			if = {
 				limit = {
 					has_dlc = "Mandate of Heaven"
-					religion = confucian
+					religion = confucianism
 				}
 				harmony = 100
 				num_of_harmonized = 3
@@ -900,6 +899,7 @@ manchu_missions_3 = {
 			tag = MCH
 			tag = QNG
 			tag = EJZ
+			tag = NHX
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -988,7 +988,12 @@ manchu_missions_3_b = {
 		icon = mission_scholar_officials
 		required_missions = { mch_reform_the_censorate }
 		trigger = {
-			absolutism = 50
+			if = {
+				limit = {
+					is_revolutionary = no
+				}
+				absolutism = 50
+			}
 			university = 10
 		}
 		effect = {
