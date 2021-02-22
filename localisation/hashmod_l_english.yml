@@ -838,3 +838,5 @@
  h_horde_autonomy_revoke_tooltip:0 "Removes §YAutonomous Chieftains§! from all owned Steppe provinces."
  h_manchu_culture_mod:0 "Manchurian Unity"
  h_manchu_culture_mod_desc:0 ""
+ LOM:0 "Lombardy"
+ LOM_ADJ:0 "Lombardian"
