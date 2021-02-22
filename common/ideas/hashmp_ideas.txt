@@ -1801,3 +1801,45 @@ TTS_ideas = { #By Xaime
 		expel_minorities_cost = -0.25
 	}
 }
+
+LOM_ideas = {
+	start = {
+		recover_army_morale_speed = 0.05
+		land_morale = 0.1
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.20
+	}
+	
+	trigger = {
+		tag = LOM
+
+	}
+	free = yes		#will be added at load.
+	
+	lom_1 = {
+		reform_progress_growth = 0.2
+		global_unrest = -1
+	}
+	lom_2 = {
+		republican_tradition = 0.1
+		legitimacy = 1
+	}
+	lom_3 = {
+		diplomatic_upkeep = 2
+		vassal_income = 0.25
+	}
+	lom_4 = {
+		development_cost = -0.1
+	}
+	lom_5 = {
+		global_tax_modifier = 0.2
+	}
+	lom_6 = {
+		naval_morale = 0.1
+	}
+	lom_7 = {
+		stability_cost_modifier = -0.1
+	}
+}
