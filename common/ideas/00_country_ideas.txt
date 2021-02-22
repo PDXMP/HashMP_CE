@@ -2202,6 +2202,7 @@ MCH_ideas = {
 	}	
 	link_with_the_mongol_dynasty = {
 		cavalry_power = 0.2
+		cav_to_inf_ratio = 0.1
 	}
 	manchu_chinese_learning = {
 		mil_tech_cost_modifier = -0.1
