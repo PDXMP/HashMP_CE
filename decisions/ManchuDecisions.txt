@@ -122,6 +122,10 @@ country_decisions = {
 			#	}
 			#	add_core = MCH
 			#}
+			add_country_modifier = {
+				name = "h_manchu_culture_mod"
+				duration = 18250
+			}
 			add_prestige = 25
 			change_tag = MCH
 			swap_non_generic_missions = yes
