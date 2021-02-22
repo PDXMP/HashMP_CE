@@ -11418,3 +11418,8 @@ h_kongo_mod = {
 h_african_modernization_mod ={
 	development_cost = -0.1
 }
+
+h_manchu_culture_mod = {
+	horde_unity = 1
+	legitimacy = 1
+}
