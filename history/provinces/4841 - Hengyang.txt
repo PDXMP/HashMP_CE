@@ -1,5 +1,9 @@
 # 2693 - Hengyang
 
+latent_trade_goods = {
+	coal
+}
+
 owner = CMI
 controller = CMI
 add_core = CMI
