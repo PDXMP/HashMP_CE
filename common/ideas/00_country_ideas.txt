@@ -1439,8 +1439,8 @@ HUN_ideas = {
 
 JAP_ideas = {
 	start = {
-		stability_cost_modifier = -0.1
-		global_unrest = -2
+		discipline = 0.05
+		global_manpower_modifier = 0.25
 	}
 	
 	bonus = {
@@ -1457,7 +1457,7 @@ JAP_ideas = {
 		yearly_absolutism = 0.2
 	}
 	reformed_land_holding = {
-		global_manpower_modifier = 0.25
+		development_cost = -0.1
 	}
 	jap_modernization = {
 		technology_cost = -0.05
@@ -1471,7 +1471,7 @@ JAP_ideas = {
 		defensiveness = 0.1
 	}
 	jap_kaitakudan = {
-		global_colonial_growth = 25
+		colonists = 1
 	}
 	jap_great_power_diplomacy = {
 		diplomats = 1
