@@ -2219,7 +2219,7 @@ QNG_ideas = {
 	}
 	
 	bonus = {
-		advisor_cost = -0.15
+		development_cost = -0.1
 	}
 	
 	trigger = {
@@ -2235,6 +2235,10 @@ QNG_ideas = {
 		manpower_recovery_speed = 0.2
 		global_manpower_modifier = 0.2
 	}
+	the_ten_great_campaigns = {
+		land_morale = 0.15
+		prestige_from_land = 0.5
+	}
 	pigtail_or_death = {
 		global_unrest = -2
 	}
@@ -2249,10 +2253,6 @@ QNG_ideas = {
 	qing_viceroyalties = {
 		state_maintenance_modifier = -0.15
 		global_autonomy = -0.05
-	}
-	the_ten_great_campaigns = {
-		land_morale = 0.15
-		prestige_from_land = 0.5
 	}
 }
 
