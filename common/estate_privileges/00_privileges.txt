@@ -2378,6 +2378,7 @@ estate_nomadic_tribes_share_of_the_spoils = {
 		}
 	}
 	benefits = {
+		development_cost = -0.05
 	}
 	modifier_by_land_ownership = {
 		horde_unity = -1.5
