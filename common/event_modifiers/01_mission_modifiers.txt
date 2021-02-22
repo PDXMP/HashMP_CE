@@ -2387,6 +2387,7 @@ inner_asian_trade = {
 }
 
 mch_combat_modifier = {
+	siege_ability = 0.1
 	shock_damage = 0.1
 }
 
