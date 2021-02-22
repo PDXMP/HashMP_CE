@@ -2158,6 +2158,7 @@ MJZ_ideas = {
 	}
 	jurchen_border_skirmishes = {
 		cavalry_power = 0.1
+		cav_to_inf_ratio = 0.1
 	}
 	jurchen_many_wives = {
 		heir_chance = 0.5
