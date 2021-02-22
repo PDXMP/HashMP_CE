@@ -830,5 +830,34 @@ country_decisions = {
 			country_event = { id = hashmp.10 } #Manchu Gold Event
 		}
 	}
+	
+	h_prospect_dec_hengyang = {
+		potential = {
+			OR = {
+				tag = CXI
+				tag = CYI
+				tag = WUU
+				tag = QIC
+				tag = CSH
+				tag = YUE
+			}
+			NOT = { has_country_flag = h_prospect_hengyang_flag }
+		}
+		allow = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
+			owns = 4745 #Hengyang
+			is_core = 4745
+			4745 = {
+				NOT = { trade_goods = gold }
+			}
+		}
+		effect = {
+			set_country_flag = h_prospect_hengyang_flag
+			country_event = { id = hashmp.11 } #Hengyang Gold Event
+		}
+	}
 
 }
