@@ -144,7 +144,7 @@ tropical = {
 	supply_limit_modifier = -0.3
 	local_hostile_attrition = 1
 
-	local_development_cost = 0.10
+	#local_development_cost = 0.10
 
 	picture = "climate_tropical"
 }
