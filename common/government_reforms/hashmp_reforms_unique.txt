@@ -367,7 +367,7 @@ h_reform_sinicized_horde = {
 	}
 	modifiers = {
 		monarch_admin_power = 1
-		administrative_efficiency = 0.05
+		#administrative_efficiency = 0.05
 		land_forcelimit_modifier = 0.2
 		cav_to_inf_ratio = 0.2
 	}
