@@ -898,7 +898,7 @@ legitimacy = {
 horde_unity = {
 	global_unrest = -4
 	discipline = 0.10
-	nomadic_tribes_loyalty_modifier = 0.05
+	nomadic_tribes_loyalty_modifier = 0.20
 }
 
 
