@@ -534,30 +534,27 @@ manchu_missions_2 = {
 		ai_priority = {
 			factor = 5
 		}
-		provinces_to_highlight = {
-			OR = {
-				province_id = 730
-				province_id = 2108
-				province_id = 731
-				province_id = 4200
-			}
-			NOT = {
-				AND = {
-					owned_by = ROOT
-					is_core = ROOT
-				}
-			}
-		}
+		#provinces_to_highlight = {
+		#	OR = {
+		#		province_id = 730
+		#		province_id = 2108
+		#		province_id = 731
+		#		province_id = 4200
+		#	}
+		#	NOT = {
+		#		AND = {
+		#			owned_by = ROOT
+		#			is_core = ROOT
+		#		}
+		#	}
+		#}
 		trigger = {
-			owns_core_province = 730
-			owns_core_province = 2108
-			owns_core_province = 731
-			owns_core_province = 4200
+			army_size_percentage = 1
 		}
 		effect = {
 			add_country_modifier = {
 				name = "mch_combat_modifier"
-				duration = 7300
+				duration = 9125
 			}
 			manchuria_region = {
 				limit = {
