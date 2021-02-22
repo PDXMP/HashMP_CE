@@ -1,7 +1,7 @@
 #4774 - Fulda
-owner = WBG
-controller = WBG
-add_core = WBG
+owner = HES
+controller = HES
+add_core = HES
 culture = hessian
 religion = catholic
 base_tax = 2
