@@ -1,8 +1,8 @@
 #Edala
 
-owner = MHX
-controller = MHX
-add_core = MHX
+owner = MJZ
+controller = MJZ
+add_core = MJZ
 culture = manchu
 religion = confucianism
 capital = "Edala"
