@@ -1,5 +1,9 @@
 #1871 - Wallis
 
+latent_trade_goods = {
+	coal
+}
+
 owner = SWI
 controller = SWI
 culture = swiss
