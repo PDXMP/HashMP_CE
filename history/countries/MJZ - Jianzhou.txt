@@ -61,7 +61,7 @@ capital = 2108
 		adm = 5
 		dip = 3
 		mil = 6
-		leader = { name = "Cungsan" type = general	fire = 2	shock = 4	manuever = 4	siege = 1 }
+		#leader = { name = "Cungsan" type = general	fire = 2	shock = 4	manuever = 4	siege = 1 }
 	}
 }
 
