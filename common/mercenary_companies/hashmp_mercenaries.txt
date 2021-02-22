@@ -2080,7 +2080,10 @@ merc_swiss_canton_mercenaries = {
 	cost_modifier = 0.4
 	sprites = { westerngfx_sprite_pack }
 	trigger = {
-		tag = SWI
+		OR = {
+			tag = SWI
+			tag = SWA
+		}
 		mission_completed = emp_swi_mercenaries
 	}
 	modifier = {
