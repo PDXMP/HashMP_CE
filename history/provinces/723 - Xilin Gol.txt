@@ -15,6 +15,7 @@ is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
 add_core = CHH
+center_of_trade = 1
 
 1552.1.1 = {
 	owner = KHA
