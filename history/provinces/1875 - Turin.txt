@@ -1,7 +1,7 @@
 #1875 - Cuneo (can't change filename)
 
-owner = SAV
-controller = SAV
+owner = GEN
+controller = GEN
 culture = piedmontese
 religion = catholic
 hre = yes
@@ -13,6 +13,7 @@ base_manpower = 4
 capital = "Cuneo"
 is_city = yes		# Estimated
 add_core = SAV
+add_core = GEN
 
 
 
