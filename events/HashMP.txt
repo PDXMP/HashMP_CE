@@ -543,22 +543,7 @@ country_event = {
 	desc = hashmp.10.d
 	picture = COURT_eventPicture
 	
-	fire_only_once = yes
-	
-	trigger = {
-		owns = 2102 #Urkan
-		OR = {
-			tag = MCH
-			tag = QNG
-		}
-		2102 = {
-			NOT = { trade_goods = gold }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 24
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = hashmp.1.a
