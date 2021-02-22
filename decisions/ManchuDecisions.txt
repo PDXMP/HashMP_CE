@@ -18,9 +18,32 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 730		#Girin
-				province_id = 1053		#Hinggan
-				province_id = 2108		#Huncun
+				OR = {
+					province_id = 730		#Girin
+					province_id = 2108		#Huncun
+				}
+				OR = {
+					AND = {
+						OR = {
+							culture = manchu
+							culture = manchu_new
+						}
+						ROOT = {
+							NOT = {
+								num_of_owned_provinces_with = {
+									value = 20
+									OR = {
+										culture = manchu
+										culture = manchu_new
+									}
+									owned_by = ROOT
+								}
+							}
+							owns_core_province = 730
+							owns_core_province = 2108
+						}
+					}
+				}
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -29,75 +52,75 @@ country_decisions = {
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
-			is_at_war = no
-			
+			is_at_war = no			
 			owns_core_province = 730		#Girin
-			owns_core_province = 1053		#Hinggan
-			owns_core_province = 2108		#Huncun
+			owns_core_province = 2108		#Huncun			
+			custom_trigger_tooltip = {
+				tooltip = manchu_manchuria_decision.tooltip
+				num_of_owned_provinces_with = {
+					is_core = ROOT
+					OR = {
+						culture = manchu_new
+						culture = manchu
+					}
+					value = 20
+				}
+			}
 		}
 		effect = {
+			change_primary_culture = manchu_new
+			set_ruler_culture = manchu_new
+			if = {
+				limit = {
+					has_heir = yes
+				}
+				set_heir_culture = manchu_new
+			}
+			if = {
+				limit = {
+					has_consort = yes
+					consort_culture = manchu
+				}
+				set_consort_culture = manchu_new
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture = manchu
+					}
+					change_culture = manchu_new
+				}
+				every_country = {
+					limit = {
+						primary_culture = manchu
+					}
+					change_primary_culture = manchu_new
+					set_ruler_culture = manchu_new
+					if = {
+						limit = {
+							has_heir = yes
+						}
+						set_heir_culture = manchu_new
+					}
+					if = {
+						limit = {
+							has_consort = yes
+							consort_culture = manchu
+						}
+						set_consort_culture = manchu_new
+					}
+				}
+			}
+			custom_tooltip = manchu_culture_tt
 			730 = {
 				move_capital_effect = yes
 			}
-			ilan_hala_area = {
+			manchuria_region = {
 				limit = {
 					NOT = { is_core = ROOT }
+					is_city = yes
 				}
 				add_core = MCH
-			}
-			central_jilin_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-				}
-				add_core = MCH
-			}
-			ningguta_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-				}
-				add_core = MCH
-			}
-			jilin_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-				}
-				add_core = MCH
-			}
-			liaoning_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-				}
-				add_core = MCH
-			}
-			shenyang_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-				}
-				add_core = MCH
-			}
-			central_heilongjiang_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-				}
-				add_core = MCH
-			}
-			furdan_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-				}
-				add_core = MCH
-			}
-			heilongjiang_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = MCH
-			}
-			east_heilongjiang_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = MCH
 			}
 			add_prestige = 25
 			change_tag = MCH
