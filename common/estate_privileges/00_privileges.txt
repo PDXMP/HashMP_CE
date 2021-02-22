@@ -2521,7 +2521,7 @@ estate_nomadic_tribes_guaranteed_leadgership_in_host = {
 				add_unit_construction = {
 					type = cavalry
 					amount = 5
-					speed = 0.1
+					speed = 1
 					cost = 0
 				}
 			}
