@@ -1,15 +1,14 @@
-owner = HES
-controller = HES
+owner = NSA
+controller = NSA
 add_core = NSA
-add_core = HES
 capital = "Wiesbaden"
 trade_goods = copper
 hre = yes
 culture = hessian
 religion = catholic
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 3 
+base_production = 3
+base_manpower = 3
 is_city = yes
 
 
