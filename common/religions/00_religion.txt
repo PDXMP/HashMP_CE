@@ -1305,7 +1305,7 @@ eastern = {
 		}
 		country_as_secondary = {
 			technology_cost = -0.05
-			stability_cost_modifier = -0.1
+			global_autonomy = -0.05
 		}
 		heretic = { TAOIST }
 		uses_harmony = yes
