@@ -815,6 +815,10 @@ country_decisions = {
 			NOT = { has_country_flag = h_prospect_manchu_flag }
 		}
 		allow = {
+			OR = {
+				tag = MCH
+				tag = QNG
+			}
 			owns = 2102 #Urkan
 			is_core = 2102
 			2102 = {
