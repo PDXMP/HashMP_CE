@@ -829,7 +829,7 @@ age_of_revolutions = {
 				tag = RUS
 			}
 			modifier = {
-				governing_capacity = 1000
+				governing_capacity_modifier = 0.33
 				core_creation = -0.15
 			}
 			ai_will_do = {
