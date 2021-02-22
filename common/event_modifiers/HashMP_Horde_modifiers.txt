@@ -5,7 +5,7 @@
 ########################################
 
 h_horde_steppe_devcost = {
-	local_development_cost = -0.15
+	local_development_cost = -0.1
 }
 
 h_horde_autonomy_grant = {
