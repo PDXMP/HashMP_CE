@@ -1,6 +1,6 @@
 #4727 - Saluzzo
-owner = SZO
-controller = SZO
+owner = GEN
+controller = GEN
 culture = piedmontese
 religion = catholic
 hre = yes
@@ -12,6 +12,7 @@ fort_15th = yes #Cittadellla of Alessandria
 capital = "Saluzzo"
 is_city = yes
 add_core = SZO
+add_core = GEN
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
