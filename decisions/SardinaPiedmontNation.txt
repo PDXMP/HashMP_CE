@@ -19,7 +19,7 @@ country_decisions = {
 					ai = no
 				}
 			}
-			tag = MLO
+			tag = GEN
 			#OR = {
 			#	primary_culture = ligurian
 			#	primary_culture = sardinian
@@ -56,14 +56,14 @@ country_decisions = {
 			piedmont_area = { type = all is_core = ROOT owned_by = ROOT }
 			liguria_area = { type = all is_core = ROOT owned_by = ROOT }
 			corsica_sardinia_area = { type = all is_core = ROOT owned_by = ROOT }
-			owns_core_province = 102		# Nice
-			owns_core_province = 103		# Piedmont
-			owns_core_province = 127		# Sassari
-			owns_core_province = 1247       # Corsica
-			owns_core_province = 2986       # Cagliari
-			owns_core_province = 1875		# Cuneo
-			owns_core_province = 2981       # Montferrat
-			owns_core_province = 2979       # Novara
+			#owns_core_province = 102		# Nice
+			#owns_core_province = 103		# Piedmont
+			#owns_core_province = 127		# Sassari
+			#owns_core_province = 1247       # Corsica
+			#owns_core_province = 2986       # Cagliari
+			#owns_core_province = 1875		# Cuneo
+			#owns_core_province = 2981       # Montferrat
+			#owns_core_province = 2979       # Novara
 		}
 		effect = {
 			#103 = {
