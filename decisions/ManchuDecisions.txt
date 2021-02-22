@@ -115,13 +115,13 @@ country_decisions = {
 			730 = {
 				move_capital_effect = yes
 			}
-			manchuria_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					is_city = yes
-				}
-				add_core = MCH
-			}
+			#manchuria_region = {
+			#	limit = {
+			#		NOT = { is_core = ROOT }
+			#		is_city = yes
+			#	}
+			#	add_core = MCH
+			#}
 			add_prestige = 25
 			change_tag = MCH
 			swap_non_generic_missions = yes
