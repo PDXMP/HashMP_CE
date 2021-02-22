@@ -167,28 +167,57 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = dalian_area
-				area = shenyang_area
-				area = liaoning_area
-				area = weichang_area		# Liaoxi
-				area = datong_area		# Xilin Gol
-				area = chengde_area		# Liaodong
-				area = hebei_area		# Beijing
-				area = shanxi_area
-				area = jinzhong_area
+				area = weichang_area
+				area = datong_area
+				area = chengde_area
+				area = hebei_area
+				AND = {
+					OR = {
+						region = north_china_region
+					}
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 25
+								is_core = root
+								OR = {
+									region = north_china_region
+								}
+							}
+						}
+					}
+				}
 			}
-			NOT = { owned_by = ROOT }
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
-			dalian_area = { type = all is_core = ROOT owned_by = ROOT }
-			shenyang_area = { type = all is_core = ROOT owned_by = ROOT }
-			liaoning_area = { type = all is_core = ROOT owned_by = ROOT }
+			num_of_owned_provinces_with = {
+				value = 45 #out of 34
+				is_core = root
+				OR = {
+					region = manchuria_region
+				}
+			}
+			num_of_owned_provinces_with = {
+				value = 25 #out of 34
+				is_core = root
+				OR = {
+					region = north_china_region
+				}
+			}
+			#owns_core_province = 1816 #Beijing
+			#dalian_area = { type = all is_core = ROOT owned_by = ROOT }
+			#shenyang_area = { type = all is_core = ROOT owned_by = ROOT }
+			#liaoning_area = { type = all is_core = ROOT owned_by = ROOT }
 			weichang_area = { type = all is_core = ROOT owned_by = ROOT }
 			datong_area = { type = all is_core = ROOT owned_by = ROOT }
 			chengde_area = { type = all is_core = ROOT owned_by = ROOT }
 			hebei_area = { type = all is_core = ROOT owned_by = ROOT }
-			shanxi_area = { type = all is_core = ROOT owned_by = ROOT }
-			jinzhong_area = { type = all is_core = ROOT owned_by = ROOT }
+			#shanxi_area = { type = all is_core = ROOT owned_by = ROOT }
+			#jinzhong_area = { type = all is_core = ROOT owned_by = ROOT }
 			is_free_or_tributary_trigger = yes
 			NOT = {
 				has_ruler_modifier = tribal_succession_crisis
