@@ -726,7 +726,7 @@ h_merc_lombard = {
 	cavalry_cap = 0
 	cost_modifier = 0.4
 	trigger = {
-		tag = TTS
+		tag = LOM
 	}
 	modifier = {
 		land_morale = 0.1
