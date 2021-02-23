@@ -398,12 +398,40 @@ t_vassal_to_horde = {
 	cav_to_inf_ratio = 0.5
 }
 
-t_over_merc_cap = {
+t_over_merc_cap_early = {
 	potential = {
 		was_player = yes
+		current_age = age_of_discovery
+	}
+	trigger = {
+		num_of_hired_mercenary_companies = 4
+	}
+	mercenary_discipline = -0.1
+	merc_maintenance_modifier = 2
+}
+
+t_over_merc_cap_mid = {
+	potential = {
+		was_player = yes
+		current_age = age_of_reformation
 	}
 	trigger = {
 		num_of_hired_mercenary_companies = 5
+	}
+	mercenary_discipline = -0.1
+	merc_maintenance_modifier = 2
+}
+
+t_over_merc_cap_late = {
+	potential = {
+		was_player = yes
+		OR = {
+			current_age = age_of_absolutism
+			current_age = age_of_revolutions
+		}
+	}
+	trigger = {
+		num_of_hired_mercenary_companies = 6
 	}
 	mercenary_discipline = -0.1
 	merc_maintenance_modifier = 2
