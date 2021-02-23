@@ -194,14 +194,14 @@ t_cn_navy_1 = {
 	trigger = {
 		was_player = yes
 		OR = {
-			num_of_heavy_ship = 15
-			navy_size = 40
+			num_of_heavy_ship = 20
+			navy_size = 60
 		}
 	}
 	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
+	global_ship_recruit_speed = 0.2
+	global_ship_repair = -0.2
+	global_ship_cost = 0.2
 	naval_maintenance_modifier = 0.1
 }
 
@@ -212,14 +212,14 @@ t_cn_navy_2 = {
 	trigger = {
 		was_player = yes
 		OR = {
-			num_of_heavy_ship = 30
-			navy_size = 80
+			num_of_heavy_ship = 40
+			navy_size = 120
 		}
 	}
 	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
+	global_ship_recruit_speed = 0.2
+	global_ship_repair = -0.2
+	global_ship_cost = 0.2
 	naval_maintenance_modifier = 0.1
 }
 
@@ -230,52 +230,52 @@ t_cn_navy_3 = {
 	trigger = {
 		was_player = yes
 		OR = {
-			num_of_heavy_ship = 45
-			navy_size = 120
-		}
-	}
-	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
-	naval_maintenance_modifier = 0.1
-}
-
-t_cn_navy_4 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		OR = {
 			num_of_heavy_ship = 60
-			navy_size = 160
+			navy_size = 180
 		}
 	}
 	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
+	global_ship_recruit_speed = 0.2
+	global_ship_repair = -0.2
+	global_ship_cost = 0.2
 	naval_maintenance_modifier = 0.1
 }
 
-t_cn_navy_5 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		OR = {
-			num_of_heavy_ship = 75
-			navy_size = 200
-		}
-	}
-	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
-	naval_maintenance_modifier = 0.1
-}
+#t_cn_navy_4 = {
+#	potential = {
+#		is_colonial_nation = yes
+#	}
+#	trigger = {
+#		was_player = yes
+#		OR = {
+#			num_of_heavy_ship = 60
+#			navy_size = 160
+#		}
+#	}
+#	sailor_maintenance_modifer = 0.1
+#	global_ship_recruit_speed = 0.15
+#	global_ship_repair = -0.15
+#	global_ship_cost = 0.1
+#	naval_maintenance_modifier = 0.1
+#}
+
+#t_cn_navy_5 = {
+#	potential = {
+#		is_colonial_nation = yes
+#	}
+#	trigger = {
+#		was_player = yes
+#		OR = {
+#			num_of_heavy_ship = 75
+#			navy_size = 200
+#		}
+#	}
+#	sailor_maintenance_modifer = 0.1
+#	global_ship_recruit_speed = 0.15
+#	global_ship_repair = -0.15
+#	global_ship_cost = 0.1
+#	naval_maintenance_modifier = 0.1
+#}
 
 ###########################################
 # HRE Rework
