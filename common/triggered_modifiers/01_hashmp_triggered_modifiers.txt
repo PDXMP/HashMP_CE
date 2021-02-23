@@ -128,11 +128,11 @@ t_cn_army_1 = {
 	}
 	trigger = {
 		was_player = yes
-		army_size = 60
+		army_size = 100
 	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
-	global_regiment_cost = 0.075
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.25
+	global_regiment_cost = 0.1
 }
 
 t_cn_army_2 = {
@@ -141,11 +141,11 @@ t_cn_army_2 = {
 	}
 	trigger = {
 		was_player = yes
-		army_size = 120
+		army_size = 200
 	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
-	global_regiment_cost = 0.075
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.25
+	global_regiment_cost = 0.1
 }
 
 t_cn_army_3 = {
@@ -154,38 +154,38 @@ t_cn_army_3 = {
 	}
 	trigger = {
 		was_player = yes
-		army_size = 180
-	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
-	global_regiment_cost = 0.075
-}
-
-t_cn_army_4 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		army_size = 240
-	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
-	global_regiment_cost = 0.075
-}
-
-t_cn_army_5 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
 		army_size = 300
 	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
-	global_regiment_cost = 0.075
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.25
+	global_regiment_cost = 0.1
 }
+
+#t_cn_army_4 = {
+#	potential = {
+#		is_colonial_nation = yes
+#	}
+#	trigger = {
+#		was_player = yes
+#		army_size = 240
+#	}
+#	reinforce_cost_modifier = 0.1
+#	reinforce_speed = -0.15
+#	global_regiment_cost = 0.075
+#}
+
+#t_cn_army_5 = {
+#	potential = {
+#		is_colonial_nation = yes
+#	}
+#	trigger = {
+#		was_player = yes
+#		army_size = 300
+#	}
+#	reinforce_cost_modifier = 0.1
+#	reinforce_speed = -0.15
+#	global_regiment_cost = 0.075
+#}
 
 t_cn_navy_1 = {
 	potential = {
