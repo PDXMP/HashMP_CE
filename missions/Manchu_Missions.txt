@@ -357,12 +357,12 @@ manchu_missions_1_b = {
 		trigger = {
 			army_size = 100
 			manpower_percentage = 0.8
-			#if = {
-			#	limit = {
-			#		has_dlc = "Mandate of Heaven"
-			#	}
-			#	num_of_banners = 20
-			#}
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+				}
+				num_of_banners = 20
+			}
 		}
 		effect = {
 			tibet_region = {
