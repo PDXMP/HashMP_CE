@@ -734,6 +734,20 @@ h_merc_lombard = {
 	}
 }
 
+h_merc_zulu = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.4
+	trigger = {
+		tag = ZUL
+	}
+	modifier = {
+		fire_damage_received = -0.2
+	}
+}
+
 ########################################
 # Unique Mercenaries - Vanilla
 ########################################
