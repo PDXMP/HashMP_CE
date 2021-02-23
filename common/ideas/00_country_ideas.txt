@@ -3530,7 +3530,7 @@ KON_ideas = {
 	}
 
 	bonus = {
-		heavy_ship_power = 0.1
+		colonists = 1
 	}
 
 	trigger = {	
@@ -3566,7 +3566,8 @@ KON_ideas = {
 		global_sailors_modifier = 0.25
 	}
 	defend_against_the_colonists = {
-		artillery_power = 0.10		
+		artillery_power = 0.10
+		heavy_ship_power = 0.1
 	}
 }
 
