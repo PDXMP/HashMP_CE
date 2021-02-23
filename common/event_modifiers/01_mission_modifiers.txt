@@ -2336,8 +2336,8 @@ mch_treason_modifier = {
 }
 
 mukden_palace_modifier = {
-	legitimacy = 0.5
-	years_of_nationalism = -2
+	heir_chance = 0.5
+	monarch_lifespan = 0.1
 }
 
 mukden_palace_modifier_fallback = {
