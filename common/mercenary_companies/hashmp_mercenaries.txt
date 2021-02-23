@@ -18,6 +18,64 @@
 # Infantry
 ###########
 
+#350
+
+h_merc_d_350_large_1 = {
+	regiments_per_development = 0.04
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		total_development = 301
+		NOT = { total_development = 351 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_350_med_1 = {
+	regiments_per_development = 0.038
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		total_development = 301
+		NOT = { total_development = 351 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_350_small_2 = {
+	regiments_per_development = 0.028
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		total_development = 301
+		NOT = { total_development = 351 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_350_small_1 = {
+	regiments_per_development = 0.028
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		total_development = 301
+		NOT = { total_development = 351 }
+	}
+	modifier = {
+	}
+}
+
 #300
 
 h_merc_d_300_large_1 = {
