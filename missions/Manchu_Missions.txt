@@ -728,23 +728,23 @@ manchu_missions_2 = {
 			}
 		}
 		effect = {
+			cicigar_area = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				add_base_manpower = 2
+			}
 			eastern_mongolia = {
 				limit = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
-				add_base_manpower = 1
+				add_base_manpower = 2
 			}
-			inner_mongolia_area = {
+			ankang_area = {
 				limit = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
-				add_base_manpower = 1
-			}
-			outer_mongolia_area = {
-				limit = {
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				add_base_manpower = 1
+				add_base_manpower = 2
 			}
 		}
 	}
