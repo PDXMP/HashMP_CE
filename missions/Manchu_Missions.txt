@@ -648,14 +648,16 @@ manchu_missions_2 = {
 		position = 5
 		completed_by = 1616.1.1
 		trigger = {
-			#if = {
-			#	limit = {
-			#		has_dlc = "Mandate of Heaven"
-			#	}
-			#	num_of_banners = 8
-			#}
-			army_size_percentage = 0.9
-			cavalry_fraction = 0.4
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+				}
+				num_of_banners = 8
+			}
+			else = {
+				army_size_percentage = 0.9
+				cavalry_fraction = 0.4
+			}
 		}
 		effect = {
 			korea_region = {
