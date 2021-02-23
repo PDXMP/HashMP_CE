@@ -57,52 +57,17 @@ manchu_missions_1 = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 726
-				province_id = 1816
+				province_id = 726 #Dalian
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			NOT = { owner = { war_with = ROOT } }
+			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			OR = {
-				AND = {
-					726 = { country_or_non_sovereign_subject_holds = ROOT }
-					1816 = { country_or_non_sovereign_subject_holds = ROOT }
-				}
-				726 = {
-					owner = {
-						war_with = ROOT
-						OR = {
-							is_emperor_of_china = no
-							NOT = { imperial_mandate = 50 }
-						}
-					}
-				}
-			}
+			owns_core_province = 726 #Dalian
 		}
 		effect = {
-			if = {
-				limit = {
-					726 = {
-						owner = {
-							war_with = ROOT
-							OR = {
-								tag = CSH
-								AND = {
-									NOT = { imperial_mandate = 50 }
-									is_emperor_of_china = yes
-								}
-							}
-						}
-					}
-				}
-				country_event = { id = mch_missions.1 }
-			}
-			else = {
-				add_country_modifier = {
-					name = "breached_great_wall"
-					duration = 7300
-				}
+			add_country_modifier = {
+				name = "breached_great_wall"
+				duration = 7300
 			}
 		}
 	}
