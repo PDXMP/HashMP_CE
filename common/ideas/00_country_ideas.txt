@@ -2127,7 +2127,8 @@ ITA_ideas = {
 
 MJZ_ideas = {
 	start = {
-		leader_land_shock = 1	
+		leader_land_shock = 1
+		core_creation = -0.1
 		land_maintenance_modifier = -0.05
 	}
 	
