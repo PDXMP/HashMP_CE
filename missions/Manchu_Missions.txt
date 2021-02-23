@@ -127,45 +127,36 @@ manchu_missions_1 = {
 		required_missions = { start_the_conquest_of_ming_china }
 		position = 6
 		provinces_to_highlight = {
-			owner = {
-				is_emperor_of_china = yes
+			OR = {
+				province_id = 1816
+				province_id = 4793
+				province_id = 4794
+				province_id = 680
+				province_id = 726
+				province_id = 667
+				province_id = 684
+				province_id = 662
+				province_id = 4861
+				province_id = 1821
+				province_id = 682
+				province_id = 700
+				province_id = 1829
 			}
 		}
-		completed_by = 1644.4.22
 		trigger = {
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
+			calc_true_if = {
+				all_owned_province = {
+					is_core = ROOT
+					has_province_modifier = h_commandery_province
 				}
-				OR = {
-					is_emperor_of_china = yes
-					NOT = {
-						any_country = { is_emperor_of_china = yes }
-					}
-				}
-			}
-			else = {
-				prestige = 50
+				amount = 3
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-				}
-				capital_scope = {
-					add_province_modifier = {
-						name = "mukden_palace_modifier"
-						duration = -1
-					}
-				}
-			}
-			else = {
-				capital_scope = {
-					add_province_modifier = {
-						name = "mukden_palace_modifier_fallback"
-						duration = -1
-					}
+			capital_scope = {
+				add_province_modifier = {
+					name = "mukden_palace_modifier"
+					duration = -1
 				}
 			}
 		}
