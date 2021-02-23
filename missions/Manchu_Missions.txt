@@ -510,7 +510,7 @@ manchu_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "mch_combat_modifier"
-				duration = 9125
+				duration = 3650
 			}
 			manchuria_region = {
 				limit = {
