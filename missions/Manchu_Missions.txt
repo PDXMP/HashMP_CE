@@ -335,13 +335,6 @@ manchu_missions_1_b = {
 				}
 				add_permanent_claim = ROOT
 			}
-			korea_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 			mongolia_region = {
 				limit = {
 					NOT = { is_core = ROOT }
