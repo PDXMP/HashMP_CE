@@ -5,6 +5,73 @@
 ########################################
 
 ########################################
+# New Common Mercenaries 
+########################################
+
+#Separated by age and dev
+
+###########
+# Age of Discovery
+###########
+
+###########
+# Infantry
+###########
+
+h_merc_d_60_large_1 = {
+	regiments_per_development = 0.15
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		NOT = { total_development = 61 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_60_med_1 = {
+	regiments_per_development = 0.12
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		NOT = { total_development = 61 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_60_small_2 = {
+	regiments_per_development = 0.09
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		NOT = { total_development = 61 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_60_small_1 = {
+	regiments_per_development = 0.09
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		NOT = { total_development = 61 }
+	}
+	modifier = {
+	}
+}
+
+
+########################################
 # Common Mercenaries 
 ########################################
 
