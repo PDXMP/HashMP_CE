@@ -719,6 +719,21 @@ h_merc_sileraioi = {
 	}
 }
 
+h_merc_lombard = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.4
+	trigger = {
+		tag = TTS
+	}
+	modifier = {
+		land_morale = 0.1
+		reinforce_speed = 0.25
+	}
+}
+
 ########################################
 # Unique Mercenaries - Vanilla
 ########################################
