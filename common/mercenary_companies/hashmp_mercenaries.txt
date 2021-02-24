@@ -18,6 +18,60 @@
 # Infantry
 ###########
 
+#750
+
+h_merc_d_700up_large_1 = {
+	regiments_per_development = 0.031
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		total_development = 701
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_700up_med_1 = {
+	regiments_per_development = 0.025
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		total_development = 701
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_700up_small_2 = {
+	regiments_per_development = 0.02
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		total_development = 701
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_700up_small_1 = {
+	regiments_per_development = 0.02
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+		total_development = 701
+	}
+	modifier = {
+	}
+}
+
 #700
 
 h_merc_d_700_large_1 = {
