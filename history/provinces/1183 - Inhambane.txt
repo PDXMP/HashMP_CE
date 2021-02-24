@@ -1,16 +1,19 @@
 #1183 - Inhambane
 
+owner = SFA
+controller = SFA
+add_core = SFA
 culture = nguni
-religion = shamanism #Fetishism
+religion = sunni
 capital = "Inhambane"
-trade_goods = unknown
+trade_goods = ivory
 hre = no
-base_tax = 4 
-base_production = 4
+base_tax = 1
+base_production = 1
 base_manpower = 1
-native_size = 30
-native_ferocity = 4
-native_hostileness = 9
+#native_size = 30
+#native_ferocity = 4
+#native_hostileness = 9
 discovered_by = east_african
 discovered_by = central_african
 discovered_by = ETH
@@ -23,8 +26,8 @@ discovered_by = MDI
 discovered_by = MLI
 discovered_by = SFA
 discovered_by = ZIM
-extra_cost = 8
-center_of_trade = 1
+#extra_cost = 8
+#center_of_trade = 1
 
 
 1498.1.15 = { discovered_by = POR } #Vasco Da Gama
