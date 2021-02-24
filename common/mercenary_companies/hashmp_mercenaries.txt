@@ -16,49 +16,67 @@
 
 #750
 
-h_merc_d_700up_large_1 = {
+h_merc_d_750_large_1 = {
 	regiments_per_development = 0.031
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
 		total_development = 701
+		NOT = { total_development = 751 }
 	}
 	modifier = {
 	}
 }
 
-h_merc_d_700up_med_1 = {
+h_merc_d_750_med_2 = {
+	regiments_per_development = 0.025
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 701
+		NOT = { total_development = 751 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_750_med_1 = {
 	regiments_per_development = 0.025
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
 		total_development = 701
+		NOT = { total_development = 751 }
 	}
 	modifier = {
 	}
 }
 
-h_merc_d_700up_small_2 = {
+h_merc_d_750_small_2 = {
 	regiments_per_development = 0.02
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
 		total_development = 701
+		NOT = { total_development = 751 }
 	}
 	modifier = {
 	}
 }
 
-h_merc_d_700up_small_1 = {
+h_merc_d_750_small_1 = {
 	regiments_per_development = 0.02
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
 		total_development = 701
+		NOT = { total_development = 751 }
 	}
 	modifier = {
 	}
@@ -72,6 +90,20 @@ h_merc_d_700_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		total_development = 651
+		NOT = { total_development = 701 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_700_med_2 = {
+	regiments_per_development = 0.026
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
 		total_development = 651
 		NOT = { total_development = 701 }
 	}
@@ -133,6 +165,20 @@ h_merc_d_650_large_1 = {
 	}
 }
 
+h_merc_p_650_med_2 = {
+	regiments_per_development = 0.027
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 601
+		NOT = { total_development = 651 }
+	}
+	modifier = {
+	}
+}
+
 h_merc_d_650_med_1 = {
 	regiments_per_development = 0.027
 	cavalry_weight = 0.0
@@ -180,6 +226,20 @@ h_merc_d_600_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		total_development = 551
+		NOT = { total_development = 601 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_600_med_2 = {
+	regiments_per_development = 0.028
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
 		total_development = 551
 		NOT = { total_development = 601 }
 	}
@@ -241,6 +301,20 @@ h_merc_d_550_large_1 = {
 	}
 }
 
+h_merc_p_550_med_2 = {
+	regiments_per_development = 0.029
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 501
+		NOT = { total_development = 551 }
+	}
+	modifier = {
+	}
+}
+
 h_merc_d_550_med_1 = {
 	regiments_per_development = 0.029
 	cavalry_weight = 0.0
@@ -288,6 +362,20 @@ h_merc_d_500_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		total_development = 451
+		NOT = { total_development = 501 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_500_med_2 = {
+	regiments_per_development = 0.03
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
 		total_development = 451
 		NOT = { total_development = 501 }
 	}
@@ -349,6 +437,20 @@ h_merc_d_450_large_1 = {
 	}
 }
 
+h_merc_p_450_med_2 = {
+	regiments_per_development = 0.031
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 401
+		NOT = { total_development = 451 }
+	}
+	modifier = {
+	}
+}
+
 h_merc_d_450_med_1 = {
 	regiments_per_development = 0.031
 	cavalry_weight = 0.0
@@ -396,6 +498,20 @@ h_merc_d_400_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		total_development = 351
+		NOT = { total_development = 401 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_400_med_2 = {
+	regiments_per_development = 0.032
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
 		total_development = 351
 		NOT = { total_development = 401 }
 	}
@@ -457,6 +573,20 @@ h_merc_d_350_large_1 = {
 	}
 }
 
+h_merc_p_350_med_2 = {
+	regiments_per_development = 0.038
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 301
+		NOT = { total_development = 351 }
+	}
+	modifier = {
+	}
+}
+
 h_merc_d_350_med_1 = {
 	regiments_per_development = 0.038
 	cavalry_weight = 0.0
@@ -504,6 +634,20 @@ h_merc_d_300_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		total_development = 251
+		NOT = { total_development = 301 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_300_med_2 = {
+	regiments_per_development = 0.04
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
 		total_development = 251
 		NOT = { total_development = 301 }
 	}
@@ -565,6 +709,20 @@ h_merc_d_250_large_1 = {
 	}
 }
 
+h_merc_p_250_med_2 = {
+	regiments_per_development = 0.04
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 201
+		NOT = { total_development = 251 }
+	}
+	modifier = {
+	}
+}
+
 h_merc_d_250_med_1 = {
 	regiments_per_development = 0.04
 	cavalry_weight = 0.0
@@ -612,6 +770,20 @@ h_merc_d_200_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		total_development = 151
+		NOT = { total_development = 201 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_200_med_2 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
 		total_development = 151
 		NOT = { total_development = 201 }
 	}
@@ -673,6 +845,20 @@ h_merc_d_150_large_1 = {
 	}
 }
 
+h_merc_p_150_med_2 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 101
+		NOT = { total_development = 151 }
+	}
+	modifier = {
+	}
+}
+
 h_merc_d_150_med_1 = {
 	regiments_per_development = 0.06
 	cavalry_weight = 0.0
@@ -727,6 +913,20 @@ h_merc_d_100_large_1 = {
 	}
 }
 
+h_merc_p_100_med_2 = {
+	regiments_per_development = 0.08
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 61
+		NOT = { total_development = 101 }
+	}
+	modifier = {
+	}
+}
+
 h_merc_d_100_med_1 = {
 	regiments_per_development = 0.08
 	cavalry_weight = 0.0
@@ -774,6 +974,19 @@ h_merc_d_60_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { total_development = 61 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_60_med_2 = {
+	regiments_per_development = 0.12
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
 		NOT = { total_development = 61 }
 	}
 	modifier = {
