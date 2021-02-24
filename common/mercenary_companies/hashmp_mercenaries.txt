@@ -1232,7 +1232,7 @@ merc_lombard_free_company = {
 	cost_modifier = 0.4
 	sprites = { dlc056_mlo_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		tag = MLO
+		tag = GEN
 	}
 	modifier = { 
 		infantry_power = 0.1
