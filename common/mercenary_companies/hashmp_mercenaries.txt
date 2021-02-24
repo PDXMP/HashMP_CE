@@ -14,6 +14,137 @@
 # Infantry
 ###########
 
+#1500up
+
+h_merc_d_1500up_large_1 = {
+	regiments_per_development = 0.0235
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1501
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_1500up_med_2 = {
+	regiments_per_development = 0.0182
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 1501
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_1500up_med_1 = {
+	regiments_per_development = 0.0182
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1501
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_1500up_small_2 = {
+	regiments_per_development = 0.0138
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1501
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_1500up_small_1 = {
+	regiments_per_development = 0.0138
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1501
+	}
+	modifier = {
+	}
+}
+
+#1500
+
+h_merc_d_1500_large_1 = {
+	regiments_per_development = 0.0237
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1401
+		NOT = { total_development = 1501 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_1500_med_2 = {
+	regiments_per_development = 0.0185
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 1401
+		NOT = { total_development = 1501 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_1500_med_1 = {
+	regiments_per_development = 0.0185
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1401
+		NOT = { total_development = 1501 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_1500_small_2 = {
+	regiments_per_development = 0.014
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1401
+		NOT = { total_development = 1501 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_1500_small_1 = {
+	regiments_per_development = 0.014
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1401
+		NOT = { total_development = 1501 }
+	}
+	modifier = {
+	}
+}
+
 #1400
 
 h_merc_d_1400_large_1 = {
