@@ -29,7 +29,7 @@ h_merc_d_800_large_1 = {
 	}
 }
 
-h_merc_d_800_med_2 = {
+h_merc_p_800_med_2 = {
 	regiments_per_development = 0.024
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
@@ -97,7 +97,7 @@ h_merc_d_750_large_1 = {
 	}
 }
 
-h_merc_d_750_med_2 = {
+h_merc_p_750_med_2 = {
 	regiments_per_development = 0.025
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
