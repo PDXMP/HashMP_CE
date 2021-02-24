@@ -8,11 +8,79 @@
 # New Common Mercenaries 
 ########################################
 
-#Separated by age and dev
+#Separated by dev
 
 ###########
 # Infantry
 ###########
+
+#800
+
+h_merc_d_800_large_1 = {
+	regiments_per_development = 0.03
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 751
+		NOT = { total_development = 801 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_800_med_2 = {
+	regiments_per_development = 0.024
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 751
+		NOT = { total_development = 801 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_800_med_1 = {
+	regiments_per_development = 0.024
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 751
+		NOT = { total_development = 801 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_800_small_2 = {
+	regiments_per_development = 0.019
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 751
+		NOT = { total_development = 801 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_800_small_1 = {
+	regiments_per_development = 0.019
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 751
+		NOT = { total_development = 801 }
+	}
+	modifier = {
+	}
+}
 
 #750
 
