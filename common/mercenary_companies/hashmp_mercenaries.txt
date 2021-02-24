@@ -14,6 +14,74 @@
 # Infantry
 ###########
 
+#1300
+
+h_merc_d_1300_large_1 = {
+	regiments_per_development = 0.0245
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1201
+		NOT = { total_development = 1301 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_1300_med_2 = {
+	regiments_per_development = 0.0195
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		NOT = {	current_age = age_of_discovery }
+		total_development = 1201
+		NOT = { total_development = 1301 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_1300_med_1 = {
+	regiments_per_development = 0.0195
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1201
+		NOT = { total_development = 1301 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_1300_small_2 = {
+	regiments_per_development = 0.0147
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1201
+		NOT = { total_development = 1301 }
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_1300_small_1 = {
+	regiments_per_development = 0.0147
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		total_development = 1201
+		NOT = { total_development = 1301 }
+	}
+	modifier = {
+	}
+}
+
 #1200
 
 h_merc_d_1200_large_1 = {
