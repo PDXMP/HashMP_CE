@@ -1509,7 +1509,7 @@ quelimane_area = { #3
 }
 
 limpopo_area = { #4
-	789 1181 1182 1800
+	789 1181 1182 1800 4975
 }
 
 central_swahili_coast_area = { #5
@@ -1896,7 +1896,7 @@ highveld_area = {
 }
 
 senqu_delta_area = {
-	2864 4959 4960 4973
+	2864 4959 4960 4973 4974
 }
 
 xhosa_area = {
