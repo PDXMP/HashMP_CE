@@ -53,7 +53,7 @@ t_free_colonist = {
 				capital_scope = { continent = europe }
 				has_institution = new_world_i
 			}
-			has_institution = global_trade
+			has_institution = printing_press
 		}
 		NOT = {
 			OR = {
