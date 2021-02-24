@@ -11,10 +11,6 @@
 #Separated by age and dev
 
 ###########
-# Age of Discovery
-###########
-
-###########
 # Infantry
 ###########
 
@@ -26,7 +22,6 @@ h_merc_d_700up_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 701
 	}
 	modifier = {
@@ -39,7 +34,6 @@ h_merc_d_700up_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 701
 	}
 	modifier = {
@@ -52,7 +46,6 @@ h_merc_d_700up_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 701
 	}
 	modifier = {
@@ -65,7 +58,6 @@ h_merc_d_700up_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 701
 	}
 	modifier = {
@@ -80,7 +72,6 @@ h_merc_d_700_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 651
 		NOT = { total_development = 701 }
 	}
@@ -94,7 +85,6 @@ h_merc_d_700_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 651
 		NOT = { total_development = 701 }
 	}
@@ -108,7 +98,6 @@ h_merc_d_700_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 651
 		NOT = { total_development = 701 }
 	}
@@ -122,7 +111,6 @@ h_merc_d_700_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 651
 		NOT = { total_development = 701 }
 	}
@@ -138,7 +126,6 @@ h_merc_d_650_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 601
 		NOT = { total_development = 651 }
 	}
@@ -152,7 +139,6 @@ h_merc_d_650_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 601
 		NOT = { total_development = 651 }
 	}
@@ -166,7 +152,6 @@ h_merc_d_650_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 601
 		NOT = { total_development = 651 }
 	}
@@ -180,7 +165,6 @@ h_merc_d_650_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 601
 		NOT = { total_development = 651 }
 	}
@@ -196,7 +180,6 @@ h_merc_d_600_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 551
 		NOT = { total_development = 601 }
 	}
@@ -210,7 +193,6 @@ h_merc_d_600_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 551
 		NOT = { total_development = 601 }
 	}
@@ -224,7 +206,6 @@ h_merc_d_600_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 551	
 		NOT = { total_development = 601 }
 	}
@@ -238,7 +219,6 @@ h_merc_d_600_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 551
 		NOT = { total_development = 601 }
 	}
@@ -254,7 +234,6 @@ h_merc_d_550_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 501
 		NOT = { total_development = 551 }
 	}
@@ -268,7 +247,6 @@ h_merc_d_550_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 501
 		NOT = { total_development = 551 }
 	}
@@ -282,7 +260,6 @@ h_merc_d_550_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 501
 		NOT = { total_development = 551 }
 	}
@@ -296,7 +273,6 @@ h_merc_d_550_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 501
 		NOT = { total_development = 551 }
 	}
@@ -312,7 +288,6 @@ h_merc_d_500_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 451
 		NOT = { total_development = 501 }
 	}
@@ -326,7 +301,6 @@ h_merc_d_500_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 451
 		NOT = { total_development = 501 }
 	}
@@ -340,7 +314,6 @@ h_merc_d_500_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 451
 		NOT = { total_development = 501 }
 	}
@@ -354,7 +327,6 @@ h_merc_d_500_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 451
 		NOT = { total_development = 501 }
 	}
@@ -370,7 +342,6 @@ h_merc_d_450_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 401
 		NOT = { total_development = 451 }
 	}
@@ -384,7 +355,6 @@ h_merc_d_450_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 401
 		NOT = { total_development = 451 }
 	}
@@ -398,7 +368,6 @@ h_merc_d_450_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 401
 		NOT = { total_development = 451 }
 	}
@@ -412,7 +381,6 @@ h_merc_d_450_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 401
 		NOT = { total_development = 451 }
 	}
@@ -428,7 +396,6 @@ h_merc_d_400_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 351
 		NOT = { total_development = 401 }
 	}
@@ -442,7 +409,6 @@ h_merc_d_400_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 351
 		NOT = { total_development = 401 }
 	}
@@ -456,7 +422,6 @@ h_merc_d_400_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 351
 		NOT = { total_development = 401 }
 	}
@@ -470,7 +435,6 @@ h_merc_d_400_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 351
 		NOT = { total_development = 401 }
 	}
@@ -486,7 +450,6 @@ h_merc_d_350_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 301
 		NOT = { total_development = 351 }
 	}
@@ -500,7 +463,6 @@ h_merc_d_350_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 301
 		NOT = { total_development = 351 }
 	}
@@ -514,7 +476,6 @@ h_merc_d_350_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 301
 		NOT = { total_development = 351 }
 	}
@@ -528,7 +489,6 @@ h_merc_d_350_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 301
 		NOT = { total_development = 351 }
 	}
@@ -544,7 +504,6 @@ h_merc_d_300_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 251
 		NOT = { total_development = 301 }
 	}
@@ -558,7 +517,6 @@ h_merc_d_300_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 251
 		NOT = { total_development = 301 }
 	}
@@ -572,7 +530,6 @@ h_merc_d_300_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 251
 		NOT = { total_development = 301 }
 	}
@@ -586,7 +543,6 @@ h_merc_d_300_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 251
 		NOT = { total_development = 301 }
 	}
@@ -602,7 +558,6 @@ h_merc_d_250_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 201
 		NOT = { total_development = 251 }
 	}
@@ -616,7 +571,6 @@ h_merc_d_250_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 201
 		NOT = { total_development = 251 }
 	}
@@ -630,7 +584,6 @@ h_merc_d_250_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 201
 		NOT = { total_development = 251 }
 	}
@@ -644,7 +597,6 @@ h_merc_d_250_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 201
 		NOT = { total_development = 251 }
 	}
@@ -660,7 +612,6 @@ h_merc_d_200_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 151
 		NOT = { total_development = 201 }
 	}
@@ -674,7 +625,6 @@ h_merc_d_200_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 151
 		NOT = { total_development = 201 }
 	}
@@ -688,7 +638,6 @@ h_merc_d_200_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 151
 		NOT = { total_development = 201 }
 	}
@@ -702,7 +651,6 @@ h_merc_d_200_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 151
 		NOT = { total_development = 201 }
 	}
@@ -718,7 +666,6 @@ h_merc_d_150_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 101
 		NOT = { total_development = 151 }
 	}
@@ -732,7 +679,6 @@ h_merc_d_150_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 101
 		NOT = { total_development = 151 }
 	}
@@ -746,7 +692,6 @@ h_merc_d_150_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 101
 		NOT = { total_development = 151 }
 	}
@@ -760,7 +705,6 @@ h_merc_d_150_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 101
 		NOT = { total_development = 151 }
 	}
@@ -776,7 +720,6 @@ h_merc_d_100_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 61
 		NOT = { total_development = 101 }
 	}
@@ -790,7 +733,6 @@ h_merc_d_100_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 61
 		NOT = { total_development = 101 }
 	}
@@ -804,7 +746,6 @@ h_merc_d_100_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 61
 		NOT = { total_development = 101 }
 	}
@@ -818,7 +759,6 @@ h_merc_d_100_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		total_development = 61
 		NOT = { total_development = 101 }
 	}
@@ -834,7 +774,6 @@ h_merc_d_60_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		NOT = { total_development = 61 }
 	}
 	modifier = {
@@ -847,7 +786,6 @@ h_merc_d_60_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		NOT = { total_development = 61 }
 	}
 	modifier = {
@@ -860,7 +798,6 @@ h_merc_d_60_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		NOT = { total_development = 61 }
 	}
 	modifier = {
@@ -873,7 +810,6 @@ h_merc_d_60_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_discovery
 		NOT = { total_development = 61 }
 	}
 	modifier = {
