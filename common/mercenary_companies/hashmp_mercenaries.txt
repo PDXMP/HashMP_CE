@@ -18,10 +18,10 @@
 # Infantry
 ###########
 
-#350 and up
+#400
 
-h_merc_d_350up_large_1 = {
-	regiments_per_development = 0.035
+h_merc_d_400_large_1 = {
+	regiments_per_development = 0.038
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
@@ -33,8 +33,8 @@ h_merc_d_350up_large_1 = {
 	}
 }
 
-h_merc_d_350up_med_1 = {
-	regiments_per_development = 0.03
+h_merc_d_400_med_1 = {
+	regiments_per_development = 0.032
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
@@ -46,8 +46,8 @@ h_merc_d_350up_med_1 = {
 	}
 }
 
-h_merc_d_350up_small_2 = {
-	regiments_per_development = 0.025
+h_merc_d_400_small_2 = {
+	regiments_per_development = 0.027
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
@@ -59,8 +59,8 @@ h_merc_d_350up_small_2 = {
 	}
 }
 
-h_merc_d_350up_small_1 = {
-	regiments_per_development = 0.025
+h_merc_d_400_small_1 = {
+	regiments_per_development = 0.027
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
