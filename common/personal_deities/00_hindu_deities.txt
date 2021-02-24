@@ -92,7 +92,7 @@ ganga =
 shakti = 
 { 
 	#(Military - Offensive) 
-	siege_ability = 0.05
+	manpower_recovery_speed = 0.1
 	discipline = 0.025
 	
 	allow = { religion = hinduism }
