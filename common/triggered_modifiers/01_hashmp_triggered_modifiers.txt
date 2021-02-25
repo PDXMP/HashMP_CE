@@ -407,8 +407,9 @@ t_over_merc_cap_early = {
 	trigger = {
 		num_of_hired_mercenary_companies = 4
 	}
-	mercenary_discipline = -0.1
-	merc_maintenance_modifier = 2
+	mercenary_discipline = -0.25
+	mercenary_cost = 1
+	merc_maintenance_modifier = 1
 }
 
 t_over_merc_cap_mid = {
@@ -419,8 +420,9 @@ t_over_merc_cap_mid = {
 	trigger = {
 		num_of_hired_mercenary_companies = 5
 	}
-	mercenary_discipline = -0.1
-	merc_maintenance_modifier = 2
+	mercenary_discipline = -0.25
+	mercenary_cost = 1
+	merc_maintenance_modifier = 1
 }
 
 t_over_merc_cap_late = {
@@ -434,6 +436,7 @@ t_over_merc_cap_late = {
 	trigger = {
 		num_of_hired_mercenary_companies = 6
 	}
-	mercenary_discipline = -0.1
-	merc_maintenance_modifier = 2
+	mercenary_discipline = -0.25
+	mercenary_cost = 1
+	merc_maintenance_modifier = 1
 }
