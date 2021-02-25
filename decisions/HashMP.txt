@@ -918,5 +918,22 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	
+	h_french_mercs_gascon = {
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = h_gascon_company_unlocked }
+		}
+		allow = {
+			mil_tech = 11
+			mil_power = 100
+		}
+		effect = {
+			set_country_flag = h_gascon_company_unlocked
+			add_mil_power = -100
+			add_years_of_income = -0.5
+			custom_tooltip = h_gascon_tt
+		}
+	}
 
 }
