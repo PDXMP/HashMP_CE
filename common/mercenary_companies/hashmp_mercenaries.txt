@@ -3447,7 +3447,8 @@ merc_miquelet_company = {
 		tag = CAS
 	}
     modifier = {
-		infantry_shock = 0.5
+		infantry_shock = 0.25
+		movement_speed = 0.10
 	}
 }
 
