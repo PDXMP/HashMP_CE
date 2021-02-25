@@ -2580,7 +2580,11 @@ merc_routiers = {
 	cost_modifier = 0.4
 	sprites = { dlc001_bri_sprite_pack dlc087_bri_sprite_pack westerngfx_sprite_pack }
     trigger = {
-		always = no
+		tag = FRA
+	}
+	modifier = {
+		land_morale = 0.05
+		loot_amount = 0.5
 	}
 }
 
