@@ -795,3 +795,4 @@
  h_french_mercs_gascon_title:0 "Retain the Men of Gascony"
  h_french_mercs_gascon_desc:0 "The invention of Matchlock Muskets has revolutionized warfare. Many mercenaries now specialize in this new instrument of war, and these Men of Gascony are no exception."
  h_gascon_tt:0 "The Gascon Musket Company becomes available for hire."
+ h_gascon_trigger_tt:0 "Enact the French Decision 'Retain the Men of Gascony'"

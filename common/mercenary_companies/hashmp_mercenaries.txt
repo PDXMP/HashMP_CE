@@ -3699,7 +3699,10 @@ merc_gascon_musket_company = {
     cost_modifier = 0.4
 	sprites = { dlc001_amg_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack }
     trigger = {
-		tag = FRA
+		custom_trigger_tooltip = {
+			tooltip = h_gascon_trigger_tt
+			has_country_flag = h_gascon_company_unlocked
+		}
 	}
 	modifier = {
         infantry_fire = 0.5
