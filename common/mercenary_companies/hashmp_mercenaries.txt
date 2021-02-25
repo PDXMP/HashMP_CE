@@ -3407,7 +3407,7 @@ merc_almogavars = {
 		tag = SPA
 	}
     modifier = {
-        infantry_shock = 1
+        infantry_shock = 0.5
 	}
 }
 
