@@ -790,3 +790,8 @@
  LOM_ADJ:0 "Lombardian"
  h_lombardy_nation_title:0 "Form Lombardy"
  h_lombardy_nation_desc:0 "With our renewed focus on Northern Italy, many are suggesting that we revive the Liga Lombarda. This would allow us to assert our claim to the rich northern heartland of the Italy."
+ h_prospect_dec_manchu_title:0 "Prospect in Urkan"
+ h_prospect_dec_manchu_desc:0 "Our economy is in dire need of a boost. Urkan has been determined to be the most likely site of a gold deposit."
+ h_french_mercs_gascon_title:0 "Retain the Men of Gascony"
+ h_french_mercs_gascon_desc:0 "The invention of Matchlock Muskets has revolutionized warfare. Many mercenaries now specialize in this new instrument of war, and these Men of Gascony are no exception."
+ h_gascon_tt:0 "The Gascon Musket Company becomes available for hire."
