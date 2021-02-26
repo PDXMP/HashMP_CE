@@ -1758,6 +1758,7 @@ ORJ_ideas = { #Oranje
 	}
 	orj_6 = { #Transvaal Steel
 		infantry_cost = -0.1
+		build_cost = -0.1
 	}
 	orj_7 = { #Versterken
 		reinforce_speed = 0.2
@@ -1767,7 +1768,7 @@ ORJ_ideas = { #Oranje
 DSA_ideas = { #South Africa
 	start = {
 		land_forcelimit_modifier = 0.2
-		global_unrest = -2
+		colonists = 1
 	}
 	
 	bonus = {
@@ -1797,6 +1798,7 @@ DSA_ideas = { #South Africa
 	}
 	dsa_6 = { #Gateway to India
 		trade_efficiency = 0.10
+		merchants = 1
 	}
 	dsa_7 = { #The Drift
 		infantry_power = 0.1
