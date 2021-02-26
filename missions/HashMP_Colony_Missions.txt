@@ -17,7 +17,7 @@ colonial_branch_1 = {
 	
 	##Mission Start
 	COLONY_government = {
-		icon = gfx_placeholder
+		icon = contracts_of_correspondence
 		required_missions = {
 			
 		}
@@ -42,7 +42,7 @@ colonial_branch_1 = {
 	##Mission End
 	##Mission Start
 	COLONY_reforms = {
-		icon = gfx_placeholder
+		icon = mission_noble_council
 		required_missions = {
 			COLONY_government
 		}
@@ -77,7 +77,7 @@ colonial_branch_1 = {
 	##Mission End
 	##Mission Start
 	COLONY_edict = {
-		icon = gfx_placeholder
+		icon = mission_early_modern_university
 		required_missions = {
 			COLONY_reforms
 		}
@@ -115,7 +115,7 @@ colonial_branch_2 = {
 	
 	##Mission Start
 	COLONY_scale_1 = {
-		icon = gfx_placeholder
+		icon = mission_colonial
 		required_missions = {
 			COLONY_founded
 		}
@@ -154,7 +154,7 @@ colonial_branch_2 = {
 	##Mission End
 	##Mission Start
 	COLONY_scale_2 = {
-		icon = gfx_placeholder
+		icon = the_london_steelyard
 		required_missions = {
 			COLONY_scale_1
 		}
@@ -196,7 +196,7 @@ colonial_branch_2 = {
 	##Mission End
 	##Mission Start
 	COLONY_scale_3 = {
-		icon = gfx_placeholder
+		icon = mission_court_education
 		required_missions = {
 			COLONY_scale_2
 		}
@@ -238,7 +238,7 @@ colonial_branch_3 = {
 	
 	##Mission Start
 	COLONY_founded = {
-		icon = gfx_placeholder
+		icon = mission_settlers_north_america
 		required_missions = {
 			
 		}
@@ -261,7 +261,7 @@ colonial_branch_3 = {
 	##Mission End
 	##Mission Start
 	COLONY_frontier = {
-		icon = gfx_placeholder
+		icon = mission_expel_the_moriscos
 		required_missions = {
 			COLONY_founded
 		}
@@ -282,7 +282,7 @@ colonial_branch_3 = {
 	##Mission End
 	##Mission Start
 	COLONY_dominion = {
-		icon = gfx_placeholder
+		icon = mission_empire
 		required_missions = {
 			COLONY_scale_3 COLONY_frontier COLONY_mil_3
 		}
@@ -318,7 +318,7 @@ colonial_branch_4 = {
 	has_country_shield = yes
 	
 	COLONY_marines = {
-		icon = gfx_placeholder
+		icon = mission_launch_a_flagship
 		required_missions = {
 		}
 		position = 1
@@ -338,7 +338,7 @@ colonial_branch_4 = {
 	
 	##Mission Start
 	COLONY_mil_1 = {
-		icon = gfx_placeholder
+		icon = mission_assemble_an_army
 		required_missions = {
 			COLONY_founded
 		}
@@ -377,7 +377,7 @@ colonial_branch_4 = {
 	##Mission End
 	##Mission Start
 	COLONY_mil_2 = {
-		icon = gfx_placeholder
+		icon = army_reforms
 		required_missions = {
 			COLONY_mil_1
 		}
@@ -416,7 +416,7 @@ colonial_branch_4 = {
 	##Mission End
 	##Mission Start
 	COLONY_mil_3 = {
-		icon = gfx_placeholder
+		icon = professional_army
 		required_missions = {
 			COLONY_mil_2
 		}
@@ -473,7 +473,7 @@ colonial_branch_5 = {
 	
 	##Mission Start
 	COLONY_fortify = {
-		icon = gfx_placeholder
+		icon = mission_rb_increase_our_reach
 		required_missions = {
 			
 		}
@@ -516,7 +516,7 @@ colonial_branch_5 = {
 	##Mission End
 	##Mission Start
 	COLONY_culture = {
-		icon = gfx_placeholder
+		icon = mission_native_reductions
 		required_missions = {
 			
 		}
@@ -544,7 +544,7 @@ colonial_branch_5 = {
 	##Mission End
 	##Mission Start
 	COLONY_religion = {
-		icon = gfx_placeholder
+		icon = support_the_orders
 		required_missions = {
 			
 		}
@@ -567,7 +567,7 @@ colonial_branch_5 = {
 	##Mission End
 	##Mission Start
 	COLONY_production = {
-		icon = gfx_placeholder
+		icon = reform_the_state
 		required_missions = {
 			
 		}
