@@ -5,6 +5,7 @@ primary_culture = ainu
 religion = animism
 technology_group = chinese
 capital = 1852
+historical_rival = NVK
 
 
 1444.11.11 = {
