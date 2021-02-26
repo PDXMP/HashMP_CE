@@ -483,7 +483,7 @@ exploration_ideas = {
 			technology_group = western 
             technology_group = eastern 
             technology_group = muslim 
-			is_year = 1492
+			adm_tech = 7
 		}
 	}
 
