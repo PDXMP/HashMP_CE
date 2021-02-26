@@ -145,24 +145,24 @@ h_manchu_culture_mod = {
 }
 
 h_colony_founded_modifier = {
-	advisor_cost = -0.05
+	#advisor_cost = -0.05
 	core_creation = -0.10
 	global_colonial_growth = 10
 }
 
 h_colony_develop_economy_modifier = {
-	global_tax_income = 36
+	global_tax_income = 48
 	production_efficiency = 0.10	
 }
 
 h_colony_expand_infrastructure_modifier = {
 	build_cost = -0.10
-	build_time = -0.15
+	build_time = -0.2
 }
 
 h_colony_infrastructure_center_modifier = {
-	allowed_num_of_buildings = 1
-	trade_goods_size_modifier = 0.25
+	local_development_cost = -0.1
+	trade_goods_size = 1
 }
 
 h_colony_colonial_militia = {
@@ -187,7 +187,7 @@ h_colony_governor_general = {
 }
 
 h_colony_colonial_marines = {
-	allowed_marine_fraction = 0.20
+	allowed_marine_fraction = 0.1
 }
 
 h_colony_expand_frontier = {
@@ -200,7 +200,7 @@ h_colony_dominion_founded = {
 }
 
 h_colony_parliament_established = {
-	republican_tradition = 0.25
+	republican_tradition = 0.1
 }
 
 h_colony_government_reform = {
@@ -236,7 +236,7 @@ h_colony_religion = {
 }
 
 h_colonial_industry = {
-	production_efficiency = 0.10
+	global_trade_goods_size_modifier = 0.1
 }
 
 h_event_adm = {
