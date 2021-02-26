@@ -1412,7 +1412,7 @@ LAP_ideas = { #La Plata
 		production_efficiency = 0.1
 	}
 	lap_2 = { #Transverse Valleys
-		development_cost = -0.1
+		development_cost = -0.15
 	}
 	lap_3 = { #Sun of May
 		republican_tradition = 0.1
