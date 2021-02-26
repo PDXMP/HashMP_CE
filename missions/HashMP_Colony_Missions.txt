@@ -124,18 +124,8 @@ colonial_branch_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			num_of_owned_provinces_with = {
-				value = 5
-				has_building = temple
-			}
-			num_of_owned_provinces_with = {
-				value = 5
-				has_building = workshop
-			}
-			capital_scope = {
-				has_building = temple
-				has_building = workshop
-			}
+			temple = 5
+			workshop = 5
 			development_in_provinces = {
 				value = 50
 				area = capital
