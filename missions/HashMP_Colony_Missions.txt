@@ -553,11 +553,12 @@ colonial_branch_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			stability = 3
+			stability = 2
 			religious_unity = 1
 			average_unrest = -1
 		}
 		effect = {
+			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = h_colony_religion
 				duration = 9125
