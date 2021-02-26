@@ -1639,8 +1639,8 @@ BLV_ideas = { #Bolivia
 
 PEU_ideas = { #Peru
 	start = {
-		stability_cost_modifier = -0.1
-		land_attrition = -0.10
+		global_tax_modifier = 0.2
+		land_attrition = -0.15
 	}
 	
 	bonus = {
@@ -1658,6 +1658,7 @@ PEU_ideas = { #Peru
 	}
 	peu_2 = { #Andes Rangers
 		movement_speed = 0.1
+		reinforce_speed = 0.1
 	}
 	peu_3 = { #Blast Charges
 		siege_ability = 0.15
@@ -1666,7 +1667,7 @@ PEU_ideas = { #Peru
 		republican_tradition = 0.1
 	}
 	peu_5 = { #Sacred Valley
-		development_cost = -0.1
+		development_cost = -0.15
 	}
 	peu_6 = { #Faithful Unto Death
 		land_morale = 0.1
