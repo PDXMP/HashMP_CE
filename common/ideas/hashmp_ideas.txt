@@ -332,7 +332,7 @@ CXI_ideas = { #Xi
 		production_efficiency = 0.15
 	}
 	CXI_7 = {
-		governing_capacity = 150
+		governing_capacity_modifier = 0.1
 		administrative_efficiency = 0.05
 	}
 }
