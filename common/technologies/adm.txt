@@ -114,6 +114,7 @@ technology = { #Modern Theocracy
 	
 	allowed_idea_groups = 3
 	theocratic_government = yes
+	governing_capacity = 100
 }
 
 technology = { #Textile Manufactory
