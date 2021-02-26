@@ -1312,6 +1312,44 @@ VRM_ideas = { #Vermont
 	}
 }
 
+FLO_ideas = { #Florida
+	start = {
+		global_tax_modifier = 0.15
+		global_institution_spread = 0.2
+	}
+	
+	bonus = {
+		build_time = -0.25
+	}
+	
+	trigger = {
+		tag = FLO
+	}
+	free = yes
+	
+	flo_1 = { #Grand Plantations
+		global_trade_goods_size_modifier = 0.1
+	}
+	flo_2 = { #Center of Innovation
+		technology_cost = -0.05
+	}
+	flo_3 = { #City of Guilds
+		trade_efficiency = 0.1
+	}
+	flo_4 = { #Melting Pot
+		num_accepted_cultures = 1
+	}
+	flo_5 = { #Settle the Interior
+		development_cost = -0.1
+	}
+	flo_6 = { #Life and Liberty
+		republican_tradition = 0.1
+	}
+	flo_7 = { #Manufacturing Standards
+		production_efficiency = 0.1
+	}
+}
+
 # La Plata
 
 CHL_ideas = { #Chile
