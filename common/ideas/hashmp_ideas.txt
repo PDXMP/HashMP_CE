@@ -1559,7 +1559,7 @@ MEX_ideas = { #Mexico
 CAM_ideas = { #United Central America
 	start = {
 		free_leader_pool = 2
-		reinforce_speed = 0.25
+		reinforce_speed = 0.33
 	}
 	
 	bonus = {
@@ -1582,7 +1582,7 @@ CAM_ideas = { #United Central America
 		idea_cost = -0.1
 	}
 	cam_4 = { #Forced Conversion
-		culture_conversion_cost = -0.33
+		culture_conversion_cost = -0.5
 	}
 	cam_5 = { #Highland Conscription
 		manpower_recovery_speed = 0.25
