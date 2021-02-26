@@ -151,6 +151,7 @@ technology = { #Scientific Experimentation
 	
 	plantations = yes
 	allowed_idea_groups	= 4
+	governing_capacity = 100
 }
 
 technology = { #Military Administration
