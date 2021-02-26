@@ -1600,12 +1600,12 @@ CAM_ideas = { #United Central America
 
 BLV_ideas = { #Bolivia
 	start = {
-		land_forcelimit_modifier = 0.2
-		global_prov_trade_power_modifier = 0.2
+		land_forcelimit_modifier = 0.25
+		global_prov_trade_power_modifier = 0.25
 	}
 	
 	bonus = {
-		advisor_cost = -0.1
+		advisor_cost = -0.15
 	}
 	
 	trigger = {
@@ -1627,6 +1627,7 @@ BLV_ideas = { #Bolivia
 	}
 	blv_5 = { #Mountain Lessons
 		leader_land_manuever = 1
+		manpower_recovery_speed = 0.1
 	}
 	blv_6 = { #Overland Caravans
 		merchants = 1
@@ -1661,7 +1662,7 @@ PEU_ideas = { #Peru
 		reinforce_speed = 0.1
 	}
 	peu_3 = { #Blast Charges
-		siege_ability = 0.15
+		siege_ability = 0.2
 	}
 	peu_4 = { #Loyalists
 		republican_tradition = 0.1
