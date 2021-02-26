@@ -1,5 +1,5 @@
 ########################################
-# Custom missions for the HashMP Multiplayer mod
+# Custom China missions for the HashMP CE Multiplayer mod
 #
 # by Foffy123
 ########################################
