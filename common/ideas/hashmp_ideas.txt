@@ -1426,7 +1426,7 @@ TEX_ideas = { #Texas
 		movement_speed = 0.15
 	}
 	tejanos = {
-		stability_cost_modifier = -0.1
+		stability_cost_modifier = -0.15
 	}
 	adelsverin = {
 		technology_cost = -0.05
