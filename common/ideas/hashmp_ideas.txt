@@ -1449,7 +1449,7 @@ LOU_ideas = { #Louisiana
 	free = yes
 	
 	lou_1 = { #Masters of the Gulf
-		global_trade_power = 0.1
+		global_trade_power = 0.2
 	}
 	lou_2 = { #Port of New Orleans
 		light_ship_cost = -0.25
@@ -1459,7 +1459,13 @@ LOU_ideas = { #Louisiana
 		global_trade_goods_size_modifier = 0.1
 	}
 	lou_4 = { #Voodoo
-		stability_cost_modifier = -0.1
+		tolerance_own = 1
+		papal_influence = 2
+		devotion = 0.5
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.2
+		monthly_karma = 0.25
+		monthly_piety = 0.1
 	}
 	lou_5 = { #Mississippi Watershed
 		development_cost = -0.1
@@ -1468,7 +1474,7 @@ LOU_ideas = { #Louisiana
 		build_time = -0.25
 	}
 	lou_7 = { #Soldiers of Fortune
-		mercenary_manpower = 0.25
+		mercenary_manpower = 0.5
 		mercenary_discipline = 0.05
 	}
 }
