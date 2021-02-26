@@ -217,10 +217,7 @@ colonial_branch_2 = {
 		}
 		effect = {
 			add_years_of_income = -1
-			country_event = { 
-				id = hashmp.99
-				days = -1
-			}
+			country_event = { id = hashmp.18 }
 		}
 	}
 	##Mission End
