@@ -6,12 +6,12 @@ technology_group = chinese
 capital = 604 # Phnom Penh
 
 
-1415.1.1 = {
+1425.1.1 = {
 	monarch = {
 		name = "Barom Reachea II"
 		dynasty = "Khmer"
-		adm = 4
-		dip = 4
+		adm = 5
+		dip = 5
 		mil = 4
 	}
 }
