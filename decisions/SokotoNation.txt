@@ -89,7 +89,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			change_tag = SOK
-			swap_non_generic_missions = yes
+			#swap_non_generic_missions = yes
 			change_technology_group = muslim
 			change_unit_type = muslim
 			if = {
