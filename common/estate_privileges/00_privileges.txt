@@ -1548,7 +1548,7 @@ estate_church_inwards_perfection = {
 	icon = privilege_grant_autonomy
 	land_share = 5
 	max_absolutism = -5
-	loyalty = 0.1
+	loyalty = 0.05
 	influence = 0.05
 	is_valid = {
 		religion_group = eastern
@@ -1565,7 +1565,7 @@ estate_church_inwards_perfection = {
 	on_granted = {
 	}
 	modifier_by_land_ownership = {
-		development_cost = -0.15
+		development_cost = -0.1
 	}
 	penalties = {
 		stability_cost_to_declare_war = 1
