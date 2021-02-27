@@ -71,6 +71,10 @@ great_mongol_state_reform = {
 		movement_speed = 0.2
 		years_of_nationalism = -5
 	}
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		allow_banners = yes
+	}
 }
 
 tribal_federation = {
