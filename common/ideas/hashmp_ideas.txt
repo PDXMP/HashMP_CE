@@ -1857,7 +1857,7 @@ LOM_ideas = {
 	}
 	
 	bonus = {
-		global_manpower_modifier = 0.20
+		global_manpower_modifier = 0.15
 	}
 	
 	trigger = {
