@@ -314,3 +314,100 @@ lom_church_happy = {
 lom_ris_1 = {
 	governing_capacity = 200
 }
+
+sok_increased_gold = {
+	global_trade_goods_size_modifier = 0.125
+}
+
+sok_inflation = {
+	inflation_reduction = 0.2
+	trade_efficiency = 0.1
+}
+
+sok_colonial = {
+	global_colonial_growth = 15
+}
+
+sok_col = {
+	colonists = 1
+}
+
+sok_mor = {
+	infantry_cost = -0.1
+}
+
+sok_kon = {
+	global_ship_cost = -0.1
+	global_ship_repair = 0.1
+}
+
+sok_iberian = {
+	trade_efficiency = 0.1
+	trade_steering = 0.1
+}
+
+sok_inner = {
+	global_tax_modifier = 0.1
+}
+
+sok_north = {
+	cavalry_power = 0.1
+	cavalry_cost = -0.1
+}
+
+sok_south = {
+	merchants = 1
+	naval_forcelimit_modifier = 0.1
+	governing_capacity = 200
+}
+
+sok_east = {
+	infantry_power = 0.10
+	governing_capacity = 200
+}
+
+sok_navy = {
+	naval_forcelimit_modifier = 0.1
+}
+
+sok_conv = {
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.2
+	missionaries = 1
+}
+
+sok_aland = {
+	church_loyalty_modifier = .2
+	governing_capacity = 200
+}
+
+sok_al = {
+	development_cost = -0.35
+	local_manpower_modifier = 0.33
+}
+
+sok_al2 = {
+	num_accepted_cultures = 1
+}
+
+sok_rel = {
+	land_morale = 0.10
+	tolerance_own = 1
+}
+
+sok_mec = {
+	prestige = 0.5
+	monarch_military_power = 1
+}
+
+sok_kangz = {
+	governing_capacity = 1500
+	discipline = 0.05
+	global_manpower_modifier = 0.33
+	global_trade_goods_size_modifier = 0.1
+	naval_forcelimit_modifier = 0.25
+	infantry_power = 0.1
+	cavalry_power = 0.1
+	cavalry_cost = 0.1
+	merchants = 1
+}
