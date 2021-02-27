@@ -2421,6 +2421,10 @@ estate_nomadic_tribes_chieftains_autonomy = {
 	icon = privilege_grant_autonomy
 	max_absolutism = -10
 	influence = 0.10
+	cooldown_years = 5
+	on_cooldown_expires = { 
+		remove_estate_privilege = estate_nomadic_tribes_chieftains_autonomy
+	}
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
