@@ -10,6 +10,7 @@ trade_goods = grain
 base_manpower = 1
 capital = "Rylsk"
 is_city = yes
+fort_15th = yes
 add_core = CHR
 add_core = LIT
 add_local_autonomy = 25
