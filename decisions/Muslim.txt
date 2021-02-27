@@ -61,9 +61,9 @@ country_decisions = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
 			}
-			all_owned_province = {
-				religion_group = muslim
-			}
+			#all_owned_province = {
+			#	religion_group = muslim
+			#}
 		}
 		effect = {
 			add_country_modifier = {
