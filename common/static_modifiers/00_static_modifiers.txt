@@ -1420,7 +1420,7 @@ karma_too_high =
 
 karma_too_low =
 {
-	discipline = 0.025
+	discipline = 0.05
 }
 
 ########################################
