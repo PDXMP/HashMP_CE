@@ -1,0 +1,894 @@
+########################################
+# Custom Lombardy missions for the HashMP CE Multiplayer mod
+#
+# by mio
+#
+# Tool by Xaime
+########################################
+
+##BranchStart 0
+lom_branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = LOM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	lom_conquer_romagna = {
+		icon = conquer_romagna
+		required_missions {
+			lom_consolidate_lombardy
+		}
+		position = 2
+		provinces_to_highlight = {
+			area = emilia_romagna_area
+			NOT = { country_or_non_sovereign_subject_holds = root }
+		}
+		trigger = {
+			emilia_romagna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+		}
+		effect = {
+				piedmont_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			liguria_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	lom_conquest_nitaly = {
+		icon = conquest_nitaly
+		required_missions {
+			lom_conquer_romagna
+		}
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						area = liguria_area
+						area = piedmont_area
+					}
+					NOT = { country_or_non_sovereign_subject_holds = root }
+					ROOT = {
+						NOT = {
+							num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+								value = 5
+								OR = {
+									area = liguria_area
+									area = piedmont_area
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					province_id = 101
+					NOT = { country_or_non_sovereign_subject_holds = root }
+				}
+			}
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 101
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5 #those held by Genoa at start
+				OR = {
+					area = liguria_area
+					area = piedmont_area
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = lom_nitaly
+				duration = 3650
+			}
+			central_italy_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			lazio_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			tuscany_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+		}
+	}
+	##Mission End
+	##
+	lom_conq_pope = {
+		icon = new_st_peters_basilica
+		required_missions {
+			lom_conquest_nitaly
+		}
+		position = 4
+		provinces_to_highlight = {
+			province_id = 118
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			area = tuscany_area
+			NOT = { country_or_non_sovereign_subject_holds = root }
+		}
+		trigger = {
+			118 = {
+				owned_by = ROOT
+			}
+			tuscany_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "healing_the_schism"
+				duration = -1
+			}
+			naples_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			calabria_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			apulia_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	lom_rule_nap = {
+		icon = mission_rule_italy
+		required_missions {
+			lom_conq_pope
+		}
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						area = naples_area
+						area = calabria_area
+						area = apulia_area
+					}
+					NOT = { country_or_non_sovereign_subject_holds = root }
+					ROOT = {
+						NOT = {
+							num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+								value = 8
+								OR = {
+									area = naples_area
+									area = calabria_area
+									area = apulia_area
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					province_id = 121
+					NOT = { country_or_non_sovereign_subject_holds = root }
+				}
+			}
+		}
+		trigger = {
+			121 = {
+				owned_by = ROOT
+			}
+			naples_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+			calabria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+			apulia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "nap_italian_wars_modifier"
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##
+}
+##BranchEnd 0
+##BranchStart 1
+lom_branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = LOM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	lom_destroy_swiss = {
+		icon = mission_assemble_an_army
+		required_missions {
+			lom_consolidate_lombardy
+		}
+		position = 2
+		provinces_to_highlight = {
+				OR = {
+				province_id = 104
+				province_id = 4740
+			}
+			OR = {
+				NOT = { is_core = root }
+				NOT = { owned_by = root }
+			}
+		}
+		trigger = {
+			army_size_percentage = 0.9
+			army_size = 40
+			owns_core_province = 104
+
+				owns_core_province = 4740
+		}
+		effect = {
+				romandie_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			switzerland_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	lom_fortify_swim = {
+		icon = fortify_the_passes
+		required_missions {
+			lom_destroy_swiss
+		}
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4722
+				province_id = 1873
+				province_id = 166
+				province_id = 4740
+				province_id = 1871
+				province_id = 103
+				province_id = 110
+			}
+			OR = {
+				NOT = { owned_by = root }
+				AND = {
+					NOT = { has_building = fort_15th }
+					NOT = { has_building = fort_16th }
+					NOT = { has_building = fort_17th }
+					NOT = { has_building = fort_18th }
+				}
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 3
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+				OR = {
+					province_id = 4722
+					province_id = 1873
+					province_id = 166
+					province_id = 4740
+					province_id = 1871
+					province_id = 103
+					province_id = 110
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+					OR = {
+						province_id = 4722
+						province_id = 1873
+						province_id = 166
+						province_id = 4740
+						province_id = 1871
+						province_id = 103
+						province_id = 110
+					}				
+				}
+				add_province_modifier = {
+					name = lom_swim
+					duration = 7300
+				}
+			}
+		}
+	}
+	##Mission End
+	##
+	lom_fight_hab = {
+		icon = humiliate_austria
+		required_missions {
+			lom_fortify_swim
+		}
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						area = tirol_area
+						area = carinthia_area
+					}
+					NOT = { country_or_non_sovereign_subject_holds = root }
+					ROOT = {
+						NOT = {
+							num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+								value = 6
+								OR = {
+									area = tirol_area
+									area = carinthia_area
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				AND = {
+					province_id = 4738
+					NOT = { country_or_non_sovereign_subject_holds = root }
+				}	
+				AND = {
+					province_id = 110
+					NOT = { country_or_non_sovereign_subject_holds = root }
+				}	
+			}	
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 4738
+			owns_or_non_sovereign_subject_of = 110
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 7
+				OR = {
+					area = tirol_area
+					area = carinthia_area
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = lom_aus
+				duration = 7300
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	lom_please_church = {
+		icon = new_st_peters_basilica
+		required_missions {
+			lom_conq_pope
+		}
+		position = 5
+		provinces_to_highlight = {
+			province_id = 118
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			118 = {
+				has_cathedral_building_trigger = no
+			}
+		}
+		trigger = {
+			118 = {
+				has_cathedral_building_trigger = yes
+			}
+			118 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "lom_church_happy"
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##
+}
+##BranchEnd 1
+##BranchStart 2
+lom_branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = LOM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	lom_consolidate_lombardy = {
+		icon = seize_lombardy
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 104
+				province_id = 109
+			}
+			OR = {
+				NOT = { is_core = root }
+				NOT = { owned_by = root }
+			}
+		}
+		trigger = {
+			owns_core_province = 104
+			owns_core_province = 109
+			owns_core_province = 112
+		}
+		effect = {
+			104 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 2
+			}
+			emilia_romagna_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+				
+			}
+		}
+	}
+	lom_twin_cities = {
+		icon = new_pilings
+		required_missions {
+			lom_consolidate_lombardy
+		}
+		position = 1
+		provinces_to_highlight = {
+			province_id = 112
+			NOT = { controlled_by = ROOT }
+		}
+		trigger = {
+				112 = {
+				owned_by = ROOT
+				grown_by_development = 10
+			}
+			104 = {
+				owned_by = ROOT
+				grown_by_development = 10
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = lom_grown_dev
+				duration = 3650
+			}
+		}
+	}
+	lom_italy_unite = {
+		icon = a_place_among_the_great_powers
+		required_missions {
+			lom_rule_nap lom_take_isles
+		}
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				province_id = 118
+				AND = {
+					OR = {
+						region = italy_region
+					}
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 45 #out of 34
+								is_core = root
+								OR = {
+									region = italy_region
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		trigger = {
+				adm_tech = 14
+			is_free_or_tributary_trigger = yes
+			num_of_owned_provinces_with = {
+				value = 45 #out of 34
+				is_core = root
+				OR = {
+					region = italy_region
+				}
+			}	
+		}
+		effect = {
+			add_country_modifier = {
+			name = "lom_ris_1"
+			}
+		}	
+	}
+	##Mission End
+	##	
+}
+##BranchEnd 2
+##BranchStart 3
+lom_branch_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = LOM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	lom_renovate_zeno = {
+		icon = italian_riches
+		required_missions {
+			
+		}
+		position = 2
+		provinces_to_highlight = {
+			province_id = 108
+		}
+		trigger = {
+			OR = {
+				philosopher = 3
+				artist = 3
+				inquisitor = 3
+			}
+			108 = {
+				has_building = temple
+			}
+		}
+		effect = {
+			add_prestige = 15
+			108 = {
+					remove_building = temple
+					add_building = cathedral 
+			}
+		}
+	}
+	lom_plague_yoink = {
+		icon = plague_doctor_training
+		position = 3
+		required_missions = { lom_renovate_zeno }
+		
+		trigger = {
+			112 = {
+				has_building = university
+			}
+			104 = {
+				has_building = university
+			}
+		}
+		effect = {
+			custom_tooltip = emp_ven_plague_doctor_training_tt
+			set_country_flag = has_competent_doctors
+		}
+	}
+	lom_reclaim_crete = {
+		icon = mission_occupy_alexandria
+		required_missions {
+			lom_med_heg
+		}
+		position = 5
+		provinces_to_highlight = {
+				province_id = 163
+		}
+		trigger = {
+			163 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			320 = {
+				add_permanent_claim = root
+			}		
+			321 = {
+				add_permanent_claim = root
+			}		
+				cyrenaica_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			} 
+		}
+	}
+	##Mission End
+	##
+	
+	##Mission End
+	##
+}
+##BranchEnd 3
+##BranchStart 4
+lom_branch_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = LOM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	
+	##Mission End
+	##Mission Start
+	lom_grand_dock = {
+		icon = toulon_dockyards
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			province_id = 112
+			OR = {
+				has_shipyard_building_trigger = no
+				has_dock_building_trigger = no
+				has_naval_battery_building_trigger = no
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			112 = {
+				has_shipyard_building_trigger = yes
+				has_dock_building_trigger = yes
+				has_naval_battery_building_trigger = yes
+				owned_by = ROOT
+			}
+			navy_size_percentage = 0.5
+		}
+		effect = {
+			112 = {
+				add_province_modifier = {
+					name = "lom_navy_2"
+					duration = -1
+				}	
+			}	
+			add_country_modifier = {
+				name = "lom_navy_1"
+				duration = 9125
+			}
+		}
+	}
+	lom_expand_arsenal = {
+		icon = mission_combat_barbary_piracy
+		required_missions {
+			lom_grand_dock
+		}
+		position = 2
+		provinces_to_highlight = {
+			province_id = 112
+		}
+		trigger = {
+			num_of_total_ports = 8
+			num_of_galley = 35
+			112 = {
+				has_shipyard_building_trigger = yes
+				has_dock_building_trigger = yes
+				has_naval_battery_building_trigger = yes
+				owned_by = ROOT
+			}
+			navy_size_percentage = 0.9
+		}
+		effect = {
+			112 = {
+				remove_province_modifier = lom_navy_2
+			}
+			112 = {
+				add_province_modifier = {
+					name = "lom_navy_2a"
+					duration = -1
+				}	
+			}		
+		}
+	}
+	##Mission End
+	##	
+	lom_est_trade = {
+		icon = mission_develop_nevas_port
+		required_missions {
+			lom_expand_arsenal
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			1298 = {
+				trade_share = {
+					country = root
+					share = 20
+				}
+			}
+			137 = {
+				trade_share = {
+					country = root
+					share = 10
+				}
+			}
+			home_trade_node = {
+				is_strongest_trade_power = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "lom_trade_1"
+				duration = 5475			
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	lom_med_heg = {
+		icon = mission_mare_nostrum
+		required_missions {
+			lom_est_trade
+		}
+		position = 4
+		provinces_to_highlight = {
+			
+		}
+		trigger = {
+			NOT = { any_country = { num_of_galley = root } }
+
+		}
+		effect = {
+			add_country_modifier = {
+				name = "lom_navy_3"
+				duration = 5475
+			}
+			163 = {
+				add_permanent_claim = root
+			}		
+			sicily_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			western_sicily_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			corsica_sardinia_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}  
+		}
+	}
+	##Mission End
+	##Mission Start
+	lom_take_isles = {
+		icon = mission_seize_the_isles
+		required_missions {
+			lom_med_heg
+		}
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						area = corsica_sardinia_area
+						area = western_sicily_area
+						area = sicily_area
+					} 
+					NOT = { country_or_non_sovereign_subject_holds = root }
+				}
+			}
+		}
+		trigger = {
+			OR = {
+				AND = {
+					corsica_sardinia_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					western_sicily_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					sicily_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+			}
+		}		
+		effect = {
+			add_country_modifier = {
+				name = "lom_navy_4"
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##
+}
+##BranchEnd 4
