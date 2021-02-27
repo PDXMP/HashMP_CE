@@ -7220,7 +7220,7 @@ estate_burghers_control_over_monetary_policy = {
 	benefits = {
 		inflation_reduction = 0.05
 #		interest = -0.5
-		production_efficiency = 0.05
+		production_efficiency = 0.1
 	}
 	ai_will_do = {
 		factor = 1
