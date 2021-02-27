@@ -1568,7 +1568,7 @@ estate_church_inwards_perfection = {
 		development_cost = -0.1
 	}
 	penalties = {
-		stability_cost_to_declare_war = 1
+		technology_cost = 0.1
 	}
 	benefits = {
 	}
