@@ -2661,6 +2661,7 @@ LIT_ideas = {
 	}
 	lithuanian_hussars = {
 		cavalry_power = 0.2
+		cav_to_inf_ratio = 0.10
 	}
 	statutes_of_lithuania = {
 		global_unrest = -2
