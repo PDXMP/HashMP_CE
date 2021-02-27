@@ -4831,7 +4831,7 @@ unified_islam = {
 	tolerance_own = 2
 	tolerance_heretic = 2
 	global_missionary_strength = 0.03
-	land_morale = 0.10
+	#land_morale = 0.10
 	religion = yes
 }
 
