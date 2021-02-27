@@ -1807,7 +1807,7 @@ DSA_ideas = { #South Africa
 
 TTS_ideas = { #By Xaime
 	start = {
-		manpower_recovery_speed = 0.15 ##Replacing max MP, intention to encourage more aggressive behaviour and benefits plus cut down scaling potential.
+		manpower_recovery_speed = 0.2 ##Replacing max MP, intention to encourage more aggressive behaviour and benefits plus cut down scaling potential.
 		leader_land_shock = 1
 	}
 	
