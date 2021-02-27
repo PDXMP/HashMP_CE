@@ -19,7 +19,7 @@ lom_branch_1 = {
 	
 	##Mission Start
 	lom_conquer_romagna = {
-		icon = conquer_romagna
+		icon = reclaim_the_ducal_lands
 		required_missions {
 			lom_consolidate_lombardy
 		}
@@ -54,7 +54,7 @@ lom_branch_1 = {
 	##Mission End
 	##Mission Start
 	lom_conquest_nitaly = {
-		icon = conquest_nitaly
+		icon = kingdom_of_lombardy
 		required_missions {
 			lom_conquer_romagna
 		}
@@ -251,7 +251,7 @@ lom_branch_2 = {
 	
 	##Mission Start
 	lom_destroy_swiss = {
-		icon = mission_assemble_an_army
+		icon = swiss_mercenaries
 		required_missions {
 			lom_consolidate_lombardy
 		}
@@ -425,7 +425,7 @@ lom_branch_2 = {
 	##Mission End
 	##Mission Start
 	lom_please_church = {
-		icon = new_st_peters_basilica
+		icon = control_the_church
 		required_missions {
 			lom_conq_pope
 		}
