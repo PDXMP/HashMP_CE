@@ -2476,7 +2476,7 @@ estate_nomadic_tribes_chieftains_autonomy = {
 
 estate_nomadic_tribes_guaranteed_leadgership_in_host = {
 	icon = privilege_conscript_cossack_elite
-	absolutism = -5
+	max_absolutism = -5
 	influence = 0.10
 	cooldown_years = 5
 	on_cooldown_expires = { 
