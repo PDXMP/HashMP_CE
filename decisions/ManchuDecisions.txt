@@ -227,7 +227,7 @@ country_decisions = {
 			1816 = {
 				move_capital_effect = yes
 				change_culture = ROOT
-				add_core = QNG
+				#add_core = QNG
 			}
 			change_tag = QNG
 			swap_non_generic_missions = yes
