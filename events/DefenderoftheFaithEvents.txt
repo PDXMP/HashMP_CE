@@ -621,17 +621,17 @@ country_event = {
 			name = "new_era_for_islam"
 			duration = -1
 		}
-		every_country = {
-			limit = {
-				same_continent = ROOT
-				religion_group = ROOT
-				NOT = { religion = ROOT }
-				NOT = {
-					total_development = 150
-				}
-			}
-			country_event = { id = dotf.10 days = 3 }
-		}
+		#every_country = {
+		#	limit = {
+		#		same_continent = ROOT
+		#		religion_group = ROOT
+		#		NOT = { religion = ROOT }
+		#		NOT = {
+		#			total_development = 150
+		#		}
+		#	}
+		#	country_event = { id = dotf.10 days = 3 }
+		#}
 	}
 }
 
