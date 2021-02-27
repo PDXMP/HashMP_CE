@@ -890,7 +890,7 @@ country_event = {
 	id = hashmp.18
 	title = hashmp.18.title
 	desc = hashmp.18.desc
-	picture = 
+	picture = BIG_BOOK_eventPicture
 	
 	is_triggered_only = yes
 	
