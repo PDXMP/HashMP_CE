@@ -836,7 +836,7 @@
  COLONY_marines_title:0 "Colonial Marines"
  COLONY_marines_desc:0 "There will be times when the crown demands that we send our men to fight, and be it sea or land, we should ensure we're fully prepared. We have our colonial army, let us now establish a marine corps."
  hashmp.18.title:0 "Colonial Edict of [GetYear]"
- hashmp.18.desc:0 "The expansion of our economy and colonial infrastructure is now complete. With the authority invested in [Root.Monarch.GetTitle] [Root.Monarch.GetName] by decree of the crown, [GetHerHis] hereby announces and enacts the Edict of [Root.Capital.GetCapitalName] which..."
+ hashmp.18.desc:0 "The expansion of our economy and colonial infrastructure is now complete. With the authority invested in [Root.Monarch.GetTitle] [Root.Monarch.GetName] by decree of the crown, [Root.Monarch.GetSheHe] hereby announces and enacts the Edict of [Root.Capital.GetCapitalName] which..."
  hashmp.18.a:0 "Expands the State Administration."
  hashmp.18.b:0 "Introduces Statewide Education."
  hashmp.18.c:0 "Founds a Cadet Academy."
