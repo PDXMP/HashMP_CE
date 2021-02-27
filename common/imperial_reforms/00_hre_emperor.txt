@@ -2,6 +2,7 @@ emperor_reichsreform = {
 	empire = hre
 	potential = {
 		has_dlc = "Emperor"
+	}
 	province = {
 		local_autonomy = -0.025
 	}
@@ -25,6 +26,7 @@ emperor_reichsregiment = {
 	empire = hre
 	potential = {
 		has_dlc = "Emperor"
+	}
 	province = {
 		local_unrest = -2
 	}
@@ -46,15 +48,12 @@ emperor_reichsstabilitaet = {
 
 	potential = {
 		has_dlc = "Emperor"
+	}
 	province = {
 		local_build_cost = -0.075
 		local_tax_modifier = 0.075
 	}
-	member = {
-		global_tax_modifier = 0.075
-	}
 	emperor = {
-		global_tax_modifier = 0.075
 		global_manpower = 4
 	}
 }
