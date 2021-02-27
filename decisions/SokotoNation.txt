@@ -33,6 +33,7 @@ country_decisions = {
 					OR = {
 						region = sahel_region
 						region = niger_region
+						region = guinea_region
 					}
 					NOT = {
 						ROOT = {
@@ -42,6 +43,7 @@ country_decisions = {
 								OR = {
 									region = sahel_region
 									region = niger_region
+									region = guinea_region
 								}
 							}
 						}
