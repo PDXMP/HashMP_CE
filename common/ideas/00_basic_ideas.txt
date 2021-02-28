@@ -37,9 +37,6 @@ aristocracy_ideas = {
 		war_exhaustion = -0.03
 		reinforce_cost_modifier = -0.1
 	}
-	local_nobility = {
-		merchants = 1
-	}
 	noble_officers = {
 		army_tradition_decay = -0.01
 	}
@@ -486,7 +483,8 @@ exploration_ideas = {
 			technology_group = western 
             technology_group = eastern 
             technology_group = muslim 
-			is_year = 1492
+			technology_group = ottoman
+			adm_tech = 7
 		}
 	}
 

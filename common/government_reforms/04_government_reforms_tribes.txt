@@ -36,7 +36,7 @@ steppe_horde = {
 		land_forcelimit_modifier = 0.2
 		loot_amount = 1.0
 		reinforce_cost_modifier = -0.33
-		cav_to_inf_ratio = 0.3
+		cav_to_inf_ratio = 0.5
 		movement_speed = 0.2
 		years_of_nationalism = -5
 	}
@@ -61,15 +61,18 @@ great_mongol_state_reform = {
 	valid_for_nation_designer = no
 	nomad = yes
 	modifiers = {
-		horde_unity = 2.0
-		global_manpower_modifier = 0.33
-		land_forcelimit_modifier = 0.33
-		governing_capacity = 500
+		horde_unity = 1
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
 		loot_amount = 1.0
 		reinforce_cost_modifier = -0.33
-		cav_to_inf_ratio = 0.3
+		cav_to_inf_ratio = 0.5
 		movement_speed = 0.2
 		years_of_nationalism = -5
+	}
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		allow_banners = yes
 	}
 }
 

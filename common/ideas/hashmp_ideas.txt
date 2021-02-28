@@ -332,7 +332,7 @@ CXI_ideas = { #Xi
 		production_efficiency = 0.15
 	}
 	CXI_7 = {
-		governing_capacity = 150
+		governing_capacity_modifier = 0.1
 		administrative_efficiency = 0.05
 	}
 }
@@ -1312,6 +1312,44 @@ VRM_ideas = { #Vermont
 	}
 }
 
+FLO_ideas = { #Florida
+	start = {
+		global_tax_modifier = 0.15
+		global_institution_spread = 0.2
+	}
+	
+	bonus = {
+		build_time = -0.25
+	}
+	
+	trigger = {
+		tag = FLO
+	}
+	free = yes
+	
+	flo_1 = { #Grand Plantations
+		global_trade_goods_size_modifier = 0.1
+	}
+	flo_2 = { #Center of Innovation
+		technology_cost = -0.05
+	}
+	flo_3 = { #City of Guilds
+		trade_efficiency = 0.1
+	}
+	flo_4 = { #Melting Pot
+		num_accepted_cultures = 1
+	}
+	flo_5 = { #Settle the Interior
+		development_cost = -0.1
+	}
+	flo_6 = { #Life and Liberty
+		republican_tradition = 0.1
+	}
+	flo_7 = { #Manufacturing Standards
+		production_efficiency = 0.1
+	}
+}
+
 # La Plata
 
 CHL_ideas = { #Chile
@@ -1374,7 +1412,7 @@ LAP_ideas = { #La Plata
 		production_efficiency = 0.1
 	}
 	lap_2 = { #Transverse Valleys
-		development_cost = -0.1
+		development_cost = -0.15
 	}
 	lap_3 = { #Sun of May
 		republican_tradition = 0.1
@@ -1426,7 +1464,7 @@ TEX_ideas = { #Texas
 		movement_speed = 0.15
 	}
 	tejanos = {
-		stability_cost_modifier = -0.1
+		stability_cost_modifier = -0.15
 	}
 	adelsverin = {
 		technology_cost = -0.05
@@ -1449,7 +1487,7 @@ LOU_ideas = { #Louisiana
 	free = yes
 	
 	lou_1 = { #Masters of the Gulf
-		global_trade_power = 0.1
+		global_trade_power = 0.2
 	}
 	lou_2 = { #Port of New Orleans
 		light_ship_cost = -0.25
@@ -1459,7 +1497,13 @@ LOU_ideas = { #Louisiana
 		global_trade_goods_size_modifier = 0.1
 	}
 	lou_4 = { #Voodoo
-		stability_cost_modifier = -0.1
+		tolerance_own = 1
+		papal_influence = 2
+		devotion = 0.5
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.2
+		monthly_karma = 0.25
+		monthly_piety = 0.1
 	}
 	lou_5 = { #Mississippi Watershed
 		development_cost = -0.1
@@ -1468,7 +1512,7 @@ LOU_ideas = { #Louisiana
 		build_time = -0.25
 	}
 	lou_7 = { #Soldiers of Fortune
-		mercenary_manpower = 0.25
+		mercenary_manpower = 0.5
 		mercenary_discipline = 0.05
 	}
 }
@@ -1559,7 +1603,7 @@ MEX_ideas = { #Mexico
 CAM_ideas = { #United Central America
 	start = {
 		free_leader_pool = 2
-		reinforce_speed = 0.25
+		reinforce_speed = 0.33
 	}
 	
 	bonus = {
@@ -1582,7 +1626,7 @@ CAM_ideas = { #United Central America
 		idea_cost = -0.1
 	}
 	cam_4 = { #Forced Conversion
-		culture_conversion_cost = -0.33
+		culture_conversion_cost = -0.5
 	}
 	cam_5 = { #Highland Conscription
 		manpower_recovery_speed = 0.25
@@ -1600,12 +1644,12 @@ CAM_ideas = { #United Central America
 
 BLV_ideas = { #Bolivia
 	start = {
-		land_forcelimit_modifier = 0.2
-		global_prov_trade_power_modifier = 0.2
+		land_forcelimit_modifier = 0.25
+		global_prov_trade_power_modifier = 0.25
 	}
 	
 	bonus = {
-		advisor_cost = -0.1
+		advisor_cost = -0.15
 	}
 	
 	trigger = {
@@ -1627,6 +1671,7 @@ BLV_ideas = { #Bolivia
 	}
 	blv_5 = { #Mountain Lessons
 		leader_land_manuever = 1
+		manpower_recovery_speed = 0.1
 	}
 	blv_6 = { #Overland Caravans
 		merchants = 1
@@ -1639,8 +1684,8 @@ BLV_ideas = { #Bolivia
 
 PEU_ideas = { #Peru
 	start = {
-		stability_cost_modifier = -0.1
-		land_attrition = -0.10
+		global_tax_modifier = 0.2
+		land_attrition = -0.15
 	}
 	
 	bonus = {
@@ -1658,15 +1703,16 @@ PEU_ideas = { #Peru
 	}
 	peu_2 = { #Andes Rangers
 		movement_speed = 0.1
+		reinforce_speed = 0.1
 	}
 	peu_3 = { #Blast Charges
-		siege_ability = 0.15
+		siege_ability = 0.2
 	}
 	peu_4 = { #Loyalists
 		republican_tradition = 0.1
 	}
 	peu_5 = { #Sacred Valley
-		development_cost = -0.1
+		development_cost = -0.15
 	}
 	peu_6 = { #Faithful Unto Death
 		land_morale = 0.1
@@ -1712,6 +1758,7 @@ ORJ_ideas = { #Oranje
 	}
 	orj_6 = { #Transvaal Steel
 		infantry_cost = -0.1
+		build_cost = -0.1
 	}
 	orj_7 = { #Versterken
 		reinforce_speed = 0.2
@@ -1721,7 +1768,7 @@ ORJ_ideas = { #Oranje
 DSA_ideas = { #South Africa
 	start = {
 		land_forcelimit_modifier = 0.2
-		global_unrest = -2
+		colonists = 1
 	}
 	
 	bonus = {
@@ -1751,6 +1798,7 @@ DSA_ideas = { #South Africa
 	}
 	dsa_6 = { #Gateway to India
 		trade_efficiency = 0.10
+		merchants = 1
 	}
 	dsa_7 = { #The Drift
 		infantry_power = 0.1
@@ -1759,7 +1807,7 @@ DSA_ideas = { #South Africa
 
 TTS_ideas = { #By Xaime
 	start = {
-		manpower_recovery_speed = 0.15 ##Replacing max MP, intention to encourage more aggressive behaviour and benefits plus cut down scaling potential.
+		manpower_recovery_speed = 0.2 ##Replacing max MP, intention to encourage more aggressive behaviour and benefits plus cut down scaling potential.
 		leader_land_shock = 1
 	}
 	
@@ -1799,5 +1847,47 @@ TTS_ideas = { #By Xaime
 		missionaries = 1
 		global_heathen_missionary_strength = 0.02
 		expel_minorities_cost = -0.25
+	}
+}
+
+LOM_ideas = {
+	start = {
+		recover_army_morale_speed = 0.05
+		land_morale = 0.1
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.15
+	}
+	
+	trigger = {
+		tag = LOM
+
+	}
+	free = yes		#will be added at load.
+	
+	lom_1 = {
+		reform_progress_growth = 0.2
+		global_unrest = -1
+	}
+	lom_2 = {
+		republican_tradition = 0.1
+		legitimacy = 1
+	}
+	lom_3 = {
+		diplomatic_upkeep = 2
+		vassal_income = 0.25
+	}
+	lom_4 = {
+		development_cost = -0.1
+	}
+	lom_5 = {
+		global_tax_modifier = 0.2
+	}
+	lom_6 = {
+		naval_morale = 0.1
+	}
+	lom_7 = {
+		stability_cost_modifier = -0.1
 	}
 }

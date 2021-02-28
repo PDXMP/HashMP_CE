@@ -1,0 +1,15 @@
+########################################
+# Custom modifiers for the HashMP Multiplayer mod
+# Horde Modifiers
+# by Xaime
+########################################
+
+h_horde_steppe_devcost = {
+	local_development_cost = -0.1
+}
+
+h_horde_autonomy_grant = {
+	min_local_autonomy = 10
+	local_monthly_devastation = -0.33
+	local_unrest = -3
+}

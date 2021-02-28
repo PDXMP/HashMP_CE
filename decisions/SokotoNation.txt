@@ -33,15 +33,17 @@ country_decisions = {
 					OR = {
 						region = sahel_region
 						region = niger_region
+						region = guinea_region
 					}
 					NOT = {
 						ROOT = {
 							num_of_owned_provinces_with = {
-								value = 58
+								value = 50
 								is_core = root
 								OR = {
 									region = sahel_region
 									region = niger_region
+									region = guinea_region
 								}
 							}
 						}
@@ -58,7 +60,7 @@ country_decisions = {
 			is_at_war = no
 			religion_group = muslim
 			num_of_owned_provinces_with = {
-				value = 58
+				value = 50
 				is_core = root
 				OR = {
 					region = sahel_region
@@ -87,6 +89,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			change_tag = SOK
+			#swap_non_generic_missions = yes
 			change_technology_group = muslim
 			change_unit_type = muslim
 			if = {

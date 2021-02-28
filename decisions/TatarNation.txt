@@ -10,6 +10,15 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				tag = SHY
+				tag = NOG
+				tag = GOL
+				tag = CRI
+				tag = KAZ
+				tag = KZH
+				tag = AST
+			}
 			NOT = { tag = MUG }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }

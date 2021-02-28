@@ -1,5 +1,5 @@
 ########################################
-# Custom missions for the HashMP Multiplayer mod
+# Custom missions for the HashMP CE Multiplayer mod
 #
 # by Foffy123
 ########################################
@@ -625,6 +625,7 @@ h_cn_australia_missions = {
 		
 		effect = {
 			set_country_flag = h_australia_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }
@@ -657,6 +658,7 @@ h_cn_brazil_missions = {
 		
 		effect = {
 			set_country_flag = h_brazil_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }
@@ -689,6 +691,7 @@ h_cn_california_missions = {
 		
 		effect = {
 			set_country_flag = h_california_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }
@@ -721,6 +724,7 @@ h_cn_canada_missions = {
 		
 		effect = {
 			set_country_flag = h_canada_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }
@@ -753,6 +757,7 @@ h_cn_caribbean_missions = {
 		
 		effect = {
 			set_country_flag = h_caribbean_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }
@@ -785,6 +790,7 @@ h_cn_colombia_missions = {
 		
 		effect = {
 			set_country_flag = h_colombia_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }
@@ -817,6 +823,7 @@ h_cn_easternamerica_missions = {
 		
 		effect = {
 			set_country_flag = h_easternamerica_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }
@@ -849,6 +856,7 @@ h_cn_laplata_missions = {
 		
 		effect = {
 			set_country_flag = h_laplata_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }
@@ -881,6 +889,7 @@ h_cn_louisiana_missions = {
 		
 		effect = {
 			set_country_flag = h_louisiana_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }
@@ -913,6 +922,7 @@ h_cn_mexico_missions = {
 		
 		effect = {
 			set_country_flag = h_mexico_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }
@@ -945,6 +955,7 @@ h_cn_peru_missions = {
 		
 		effect = {
 			set_country_flag = h_peru_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }
@@ -1260,6 +1271,7 @@ h_cn_southafrica_missions = {
 		
 		effect = {
 			set_country_flag = h_southafrica_dominion_request
+			custom_tooltip = h_dominion_status_tt
 		}
 	}
 }

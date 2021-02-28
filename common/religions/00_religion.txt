@@ -1305,7 +1305,7 @@ eastern = {
 		}
 		country_as_secondary = {
 			technology_cost = -0.05
-			stability_cost_modifier = -0.1
+			global_autonomy = -0.05
 		}
 		heretic = { TAOIST }
 		uses_harmony = yes
@@ -1565,7 +1565,7 @@ pagan = {
 		icon = 27
 		color = { 25 76 217 }
 		country = {
-			cav_to_inf_ratio = 0.25
+			cavalry_power = 0.1
 			global_regiment_cost = -0.2
 		}
 		can_have_secondary_religion = yes

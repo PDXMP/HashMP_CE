@@ -1548,7 +1548,7 @@ estate_church_inwards_perfection = {
 	icon = privilege_grant_autonomy
 	land_share = 5
 	max_absolutism = -5
-	loyalty = 0.1
+	loyalty = 0.05
 	influence = 0.05
 	is_valid = {
 		religion_group = eastern
@@ -1565,10 +1565,10 @@ estate_church_inwards_perfection = {
 	on_granted = {
 	}
 	modifier_by_land_ownership = {
-		development_cost = -0.15
+		development_cost = -0.1
 	}
 	penalties = {
-		stability_cost_to_declare_war = 1
+		technology_cost = 0.1
 	}
 	benefits = {
 	}
@@ -2363,10 +2363,12 @@ estate_dhimmi_guaranteed_autonomy = {
 	}
 }
 
+##Horde Privilege Changes -- Start
 estate_nomadic_tribes_share_of_the_spoils = {
 	icon = privilege_supply_arms
-	max_absolutism = -5
-	loyalty = 0.05
+	max_absolutism = -10
+	land_share = 5
+	influence = 0.05
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
@@ -2375,10 +2377,40 @@ estate_nomadic_tribes_share_of_the_spoils = {
 			}
 		}
 	}
-	penalties = {
-		available_province_loot = -0.1
-	}
 	benefits = {
+		development_cost = -0.05
+	}
+	modifier_by_land_ownership = {
+		horde_unity = -1.5
+	}
+	on_granted = {
+		custom_tooltip = h_horde_dev_grant_tooltip
+	
+		hidden_effect = {
+			every_owned_province = { 
+				limit = {
+					has_terrain = steppe
+				}
+				
+				add_province_modifier = {
+					name = h_horde_steppe_devcost
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = h_horde_dev_revoke_tooltip
+	
+		hidden_effect = {
+			every_owned_province = { 
+				limit = {
+					has_province_modifier = h_horde_steppe_devcost
+				}
+
+				remove_province_modifier = h_horde_steppe_devcost
+			}
+		}
 	}
 	ai_will_do = {
 		factor = 0
@@ -2388,8 +2420,11 @@ estate_nomadic_tribes_share_of_the_spoils = {
 estate_nomadic_tribes_chieftains_autonomy = {
 	icon = privilege_grant_autonomy
 	max_absolutism = -10
-	loyalty = 0.1
-	influence = 0.1
+	influence = 0.10
+	cooldown_years = 5
+	on_cooldown_expires = { 
+		remove_estate_privilege = estate_nomadic_tribes_chieftains_autonomy
+	}
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
@@ -2397,6 +2432,38 @@ estate_nomadic_tribes_chieftains_autonomy = {
 			value = 4
 			}
 		}
+	}
+	on_granted = {
+		custom_tooltip = h_horde_autonomy_grant_tooltip
+	
+		hidden_effect = {
+			every_owned_province = { 
+				limit = {
+					unrest = 2
+				}
+
+				add_province_modifier = {
+					name = h_horde_autonomy_grant
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = h_horde_autonomy_revoke_tooltip
+	
+		hidden_effect = {
+			every_owned_province = { 
+				limit = {
+					has_province_modifier = h_horde_autonomy_grant
+				}
+
+				remove_province_modifier = h_horde_autonomy_grant
+			}
+		}	
+	}
+	modifier_by_land_ownership = {
+		available_province_loot = -0.33
 	}
 	penalties = {
 	}
@@ -2414,9 +2481,12 @@ estate_nomadic_tribes_chieftains_autonomy = {
 estate_nomadic_tribes_guaranteed_leadgership_in_host = {
 	icon = privilege_conscript_cossack_elite
 	max_absolutism = -5
-	influence = 0.05
+	influence = 0.10
+	cooldown_years = 5
+	on_cooldown_expires = { 
+		remove_estate_privilege = estate_nomadic_tribes_guaranteed_leadgership_in_host
+	}
 	can_select = {
-		army_tradition = 30
 		NOT = {
 			num_of_estate_privileges = {
 			estate = estate_nomadic_tribes
@@ -2425,13 +2495,46 @@ estate_nomadic_tribes_guaranteed_leadgership_in_host = {
 		}
 	}
 	on_granted = {
-		add_army_tradition = -15
+		create_general = {
+			add_shock = 1
+			tradition = 30
+		}
+		if = {
+			limit = {
+				capital_scope = { 
+					owned_by = ROOT
+				}
+			}
+			capital_scope = { 
+				add_unit_construction = {
+					type = cavalry
+					amount = 5
+					speed = 1
+					cost = 0
+				}
+			}
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+			}
+			random_owned_province = { 
+				add_unit_construction = {
+					type = cavalry
+					amount = 5
+					speed = 1
+					cost = 0
+				}
+			}
+		}
 	}
 	penalties = {
 	}
 	benefits = {
-		general_cost = -0.1
-		army_tradition_decay = -0.005
 	}
 	ai_will_do = {
 		factor = 0
@@ -2440,7 +2543,7 @@ estate_nomadic_tribes_guaranteed_leadgership_in_host = {
 
 estate_nomadic_tribes_tribal_host = {
 	icon = privilege_raise_host
-	max_absolutism = -5
+	max_absolutism = -10
 	loyalty = -0.05
 	influence = 0.1
 	can_select = {
@@ -2454,6 +2557,9 @@ estate_nomadic_tribes_tribal_host = {
 	benefits = {
 		global_manpower_modifier = 0.2
 	}
+	modifier_by_land_ownership = {
+		cavalry_cost = -0.1
+	}
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -2462,6 +2568,7 @@ estate_nomadic_tribes_tribal_host = {
 		}
 	}
 }
+##Horde Privilege Changes -- End
 
 estate_brahmins_brahmin_governance = {
 	icon = privilege_admin_power
@@ -7115,9 +7222,9 @@ estate_burghers_control_over_monetary_policy = {
 #		all_power_cost = 0.05
 	}
 	benefits = {
-		inflation_reduction = 0.1
+		inflation_reduction = 0.05
 #		interest = -0.5
-		production_efficiency = 0.05
+		production_efficiency = 0.1
 	}
 	ai_will_do = {
 		factor = 1

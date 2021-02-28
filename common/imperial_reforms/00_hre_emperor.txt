@@ -3,20 +3,21 @@ emperor_reichsreform = {
 	potential = {
 		has_dlc = "Emperor"
 	}
+	province = {
+		local_autonomy = -0.025
+	}
 	member = {
 		global_tax_income = 6
-		global_autonomy = -0.025
 	}
 	emperor = {
 		global_tax_income = 18
-		global_autonomy = -0.025
 		global_manpower = 4
 	}
 	on_effect = {
 		imperial_ban_allowed = yes
 	}
 	off_effect = {
-		imperial_ban_allowed = no
+		imperial_ban_allowed = yes
 	}
 	gui_container = mainline
 }
@@ -26,12 +27,13 @@ emperor_reichsregiment = {
 	potential = {
 		has_dlc = "Emperor"
 	}
+	province = {
+		local_unrest = -2
+	}
 	member = {
-		global_unrest = -2
 		adm_tech_cost_modifier = -0.05
 	}
 	emperor = {
-		global_unrest = -2
 		adm_tech_cost_modifier = -0.05
 		global_manpower = 4
 	}
@@ -47,13 +49,11 @@ emperor_reichsstabilitaet = {
 	potential = {
 		has_dlc = "Emperor"
 	}
-	member = {
-		global_tax_modifier = 0.075
-		build_cost = -0.075
+	province = {
+		local_build_cost = -0.075
+		local_tax_modifier = 0.075
 	}
 	emperor = {
-		global_tax_modifier = 0.15
-		build_cost = -0.1
 		global_manpower = 4
 	}
 }
@@ -139,11 +139,10 @@ emperor_landsknechtswesen = {
 	potential = {
 		has_dlc = "Emperor"
 	}
-	member = {
+	province = {
 		development_cost = -0.075
 	}
 	emperor = {
-		development_cost = -0.1
 		imperial_authority = 0.1
 		global_manpower = 4
 	}

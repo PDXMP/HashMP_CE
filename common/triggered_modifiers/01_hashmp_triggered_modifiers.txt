@@ -53,7 +53,7 @@ t_free_colonist = {
 				capital_scope = { continent = europe }
 				has_institution = new_world_i
 			}
-			has_institution = global_trade
+			has_institution = printing_press
 		}
 		NOT = {
 			OR = {
@@ -84,8 +84,8 @@ t_player_cn = {
 	}
 	naval_forcelimit_modifier = -0.5
 	land_forcelimit_modifier = -0.25
-	mercenary_manpower = -0.5
-	development_cost = 0.5
+	mercenary_manpower = -0.75
+	development_cost = 0.6
 	manpower_recovery_speed = -0.5
 	sailors_recovery_speed = -0.5
 	global_sailors_modifier = -1.0
@@ -103,8 +103,9 @@ t_player_dominion = {
 		}
 	}
 	naval_forcelimit_modifier = -0.25
-	mercenary_manpower = -0.25
-	development_cost = 0.25
+	land_forcelimit_modifier = -0.25
+	mercenary_manpower = -0.5
+	development_cost = 0.3
 	manpower_recovery_speed = -0.5
 	sailors_recovery_speed = -0.5
 	global_sailors_modifier = -1.0
@@ -128,11 +129,11 @@ t_cn_army_1 = {
 	}
 	trigger = {
 		was_player = yes
-		army_size = 60
+		army_size = 100
 	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
-	global_regiment_cost = 0.075
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.25
+	global_regiment_cost = 0.1
 }
 
 t_cn_army_2 = {
@@ -141,11 +142,11 @@ t_cn_army_2 = {
 	}
 	trigger = {
 		was_player = yes
-		army_size = 120
+		army_size = 200
 	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
-	global_regiment_cost = 0.075
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.25
+	global_regiment_cost = 0.1
 }
 
 t_cn_army_3 = {
@@ -154,38 +155,38 @@ t_cn_army_3 = {
 	}
 	trigger = {
 		was_player = yes
-		army_size = 180
-	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
-	global_regiment_cost = 0.075
-}
-
-t_cn_army_4 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		army_size = 240
-	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
-	global_regiment_cost = 0.075
-}
-
-t_cn_army_5 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
 		army_size = 300
 	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
-	global_regiment_cost = 0.075
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.25
+	global_regiment_cost = 0.1
 }
+
+#t_cn_army_4 = {
+#	potential = {
+#		is_colonial_nation = yes
+#	}
+#	trigger = {
+#		was_player = yes
+#		army_size = 240
+#	}
+#	reinforce_cost_modifier = 0.1
+#	reinforce_speed = -0.15
+#	global_regiment_cost = 0.075
+#}
+
+#t_cn_army_5 = {
+#	potential = {
+#		is_colonial_nation = yes
+#	}
+#	trigger = {
+#		was_player = yes
+#		army_size = 300
+#	}
+#	reinforce_cost_modifier = 0.1
+#	reinforce_speed = -0.15
+#	global_regiment_cost = 0.075
+#}
 
 t_cn_navy_1 = {
 	potential = {
@@ -194,14 +195,14 @@ t_cn_navy_1 = {
 	trigger = {
 		was_player = yes
 		OR = {
-			num_of_heavy_ship = 15
-			navy_size = 40
+			num_of_heavy_ship = 20
+			navy_size = 60
 		}
 	}
 	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
+	global_ship_recruit_speed = 0.2
+	global_ship_repair = -0.2
+	global_ship_cost = 0.2
 	naval_maintenance_modifier = 0.1
 }
 
@@ -212,14 +213,14 @@ t_cn_navy_2 = {
 	trigger = {
 		was_player = yes
 		OR = {
-			num_of_heavy_ship = 30
-			navy_size = 80
+			num_of_heavy_ship = 40
+			navy_size = 120
 		}
 	}
 	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
+	global_ship_recruit_speed = 0.2
+	global_ship_repair = -0.2
+	global_ship_cost = 0.2
 	naval_maintenance_modifier = 0.1
 }
 
@@ -230,52 +231,52 @@ t_cn_navy_3 = {
 	trigger = {
 		was_player = yes
 		OR = {
-			num_of_heavy_ship = 45
-			navy_size = 120
-		}
-	}
-	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
-	naval_maintenance_modifier = 0.1
-}
-
-t_cn_navy_4 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		OR = {
 			num_of_heavy_ship = 60
-			navy_size = 160
+			navy_size = 180
 		}
 	}
 	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
+	global_ship_recruit_speed = 0.2
+	global_ship_repair = -0.2
+	global_ship_cost = 0.2
 	naval_maintenance_modifier = 0.1
 }
 
-t_cn_navy_5 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		OR = {
-			num_of_heavy_ship = 75
-			navy_size = 200
-		}
-	}
-	sailor_maintenance_modifer = 0.1
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
-	naval_maintenance_modifier = 0.1
-}
+#t_cn_navy_4 = {
+#	potential = {
+#		is_colonial_nation = yes
+#	}
+#	trigger = {
+#		was_player = yes
+#		OR = {
+#			num_of_heavy_ship = 60
+#			navy_size = 160
+#		}
+#	}
+#	sailor_maintenance_modifer = 0.1
+#	global_ship_recruit_speed = 0.15
+#	global_ship_repair = -0.15
+#	global_ship_cost = 0.1
+#	naval_maintenance_modifier = 0.1
+#}
+
+#t_cn_navy_5 = {
+#	potential = {
+#		is_colonial_nation = yes
+#	}
+#	trigger = {
+#		was_player = yes
+#		OR = {
+#			num_of_heavy_ship = 75
+#			navy_size = 200
+#		}
+#	}
+#	sailor_maintenance_modifer = 0.1
+#	global_ship_recruit_speed = 0.15
+#	global_ship_repair = -0.15
+#	global_ship_cost = 0.1
+#	naval_maintenance_modifier = 0.1
+#}
 
 ###########################################
 # HRE Rework
@@ -378,15 +379,17 @@ t_hre_strongemperor = {
 # Misc Modifiers
 ###########################################
 
-t_vassal_to_horde = {
+t_vassal_cav_ratio = {
 	potential = {
 		is_subject = yes
 		ai = yes
 	}
 	trigger = {
-		OR = {
-			overlord = { has_reform = great_mongol_state_reform }
-			overlord = { has_reform = steppe_horde }
+		overlord = {
+			has_global_modifier_value = {
+				which = cav_to_inf_ratio
+				value = 1
+			}
 		}
 		OR = {
 			is_subject_of_type = client_march
@@ -398,13 +401,44 @@ t_vassal_to_horde = {
 	cav_to_inf_ratio = 0.5
 }
 
-t_over_merc_cap = {
+t_over_merc_cap_early = {
 	potential = {
 		was_player = yes
+		current_age = age_of_discovery
+	}
+	trigger = {
+		num_of_hired_mercenary_companies = 4
+	}
+	mercenary_discipline = -0.25
+	mercenary_cost = 1
+	merc_maintenance_modifier = 1
+}
+
+t_over_merc_cap_mid = {
+	potential = {
+		was_player = yes
+		current_age = age_of_reformation
 	}
 	trigger = {
 		num_of_hired_mercenary_companies = 5
 	}
-	mercenary_discipline = -0.1
-	merc_maintenance_modifier = 2
+	mercenary_discipline = -0.25
+	mercenary_cost = 1
+	merc_maintenance_modifier = 1
+}
+
+t_over_merc_cap_late = {
+	potential = {
+		was_player = yes
+		OR = {
+			current_age = age_of_absolutism
+			current_age = age_of_revolutions
+		}
+	}
+	trigger = {
+		num_of_hired_mercenary_companies = 6
+	}
+	mercenary_discipline = -0.25
+	mercenary_cost = 1
+	merc_maintenance_modifier = 1
 }

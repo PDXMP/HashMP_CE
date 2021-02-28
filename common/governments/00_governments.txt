@@ -185,7 +185,7 @@ monarchy = {
 		military_dictatorship_reform
 		protectorate_parliament_reform
 		prussian_republic_reform
-		admiralty_reform
+		#admiralty_reform
 		nepotism_reform
 		lottery_reform
 		dutch_republic
@@ -355,7 +355,7 @@ republic = {
 			reforms = {
 				landholders_reform
 				citizenry_reform
-				admiralty_reform
+				#admiralty_reform
 				equal_electorate_reform
 				three_classes_reform
 				military_electorate_reform

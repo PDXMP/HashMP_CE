@@ -2336,8 +2336,8 @@ mch_treason_modifier = {
 }
 
 mukden_palace_modifier = {
-	legitimacy = 0.5
-	years_of_nationalism = -2
+	heir_chance = 0.5
+	monarch_lifespan = 0.1
 }
 
 mukden_palace_modifier_fallback = {
@@ -2346,7 +2346,6 @@ mukden_palace_modifier_fallback = {
 }
 
 terrified_china = {
-	province_warscore_cost = -0.2
 	siege_ability = 0.2
 }
 
@@ -2387,7 +2386,8 @@ inner_asian_trade = {
 }
 
 mch_combat_modifier = {
-	shock_damage = 0.1
+	siege_ability = 0.1
+	manpower_recovery_speed = 0.1
 }
 
 # Mongol missions

@@ -543,22 +543,7 @@ country_event = {
 	desc = hashmp.10.d
 	picture = COURT_eventPicture
 	
-	fire_only_once = yes
-	
-	trigger = {
-		owns = 2102 #Urkan
-		OR = {
-			tag = MCH
-			tag = QNG
-		}
-		2102 = {
-			NOT = { trade_goods = gold }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 24
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = hashmp.1.a
@@ -578,19 +563,7 @@ country_event = {
 	desc = hashmp.11.d
 	picture = COURT_eventPicture
 	
-	fire_only_once = yes
-	
-	trigger = {
-		owns = 4745 #Hengyang
-		has_reform = h_reform_warlord_3
-		4745 = {
-			NOT = { trade_goods = gold }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 24
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = hashmp.11.a
@@ -909,4 +882,57 @@ country_event = {
 		}
 	}
 	
+}
+
+#Colony Missions Event
+
+country_event = {
+	id = hashmp.18
+	title = hashmp.18.title
+	desc = hashmp.18.desc
+	picture = BIG_BOOK_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.18.a
+		add_adm_power = 25
+		add_country_modifier = {
+			name = h_event_adm
+			duration = -1
+		}
+		define_advisor = {
+			type = treasurer
+			skill = 1
+			discount = yes
+		}
+	}
+	
+	option = {
+		name = hashmp.18.b
+		add_dip_power = 25
+		add_country_modifier = {
+			name = h_event_dip
+			duration = -1
+		}
+		define_advisor = {
+			type = statesman
+			skill = 1
+			discount = yes
+		}
+	}
+	
+	option = {
+		name = hashmp.18.c
+		add_mil_power = 25
+		add_country_modifier = {
+			name = h_event_mil
+			duration = -1
+		}
+		define_advisor = {
+			type = grand_captain
+			skill = 1
+			discount = yes
+		}
+	}
 }

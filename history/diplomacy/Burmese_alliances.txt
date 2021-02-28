@@ -12,13 +12,13 @@ dependency = {
 	start_date = 1444.1.1
 	end_date = 1502.1.1
 }
-dependency = {
-	subject_type = "tributary_state"
-	first = AVA
-	second = MYA
-	start_date = 1444.1.1
-	end_date = 1502.1.1
-}
+#dependency = {
+#	subject_type = "tributary_state"
+#	first = AVA
+#	second = MYA
+#	start_date = 1444.1.1
+#	end_date = 1502.1.1
+#}
 dependency = {
 	subject_type = "tributary_state"
 	first = AVA
@@ -33,20 +33,20 @@ dependency = {
 	start_date = 1444.1.1
 	end_date = 1502.1.1
 }
-dependency = {
-	subject_type = "tributary_state"
-	first = AVA
-	second = MKA
-	start_date = 1444.1.1
-	end_date = 1502.1.1
-}
-dependency = {
-	subject_type = "tributary_state"
-	first = AVA
-	second = HSE
-	start_date = 1444.1.1
-	end_date = 1502.1.1
-}
+#dependency = {
+#	subject_type = "tributary_state"
+#	first = AVA
+#	second = MKA
+#	start_date = 1444.1.1
+#	end_date = 1502.1.1
+#}
+#dependency = {
+#	subject_type = "tributary_state"
+#	first = AVA
+#	second = HSE
+#	start_date = 1444.1.1
+#	end_date = 1502.1.1
+#}
 dependency = {
 	subject_type = "tributary_state"
 	first = AVA

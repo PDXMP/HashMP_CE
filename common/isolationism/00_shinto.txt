@@ -4,8 +4,8 @@ open_doors_isolation = {
 	isolation_value = 0
 
 	modifier = {
-		naval_forcelimit_modifier = 0.25
-		ship_durability = 0.05
+		naval_forcelimit_modifier = 0.2
+		#ship_durability = 0.05
 	}
 }
 
@@ -13,7 +13,7 @@ adaptive_isolation = {
 	isolation_value = 1
 
 	modifier = {
-		global_institution_spread = 0.1
+		#global_institution_spread = 0.1
 		development_cost = -0.1
 	}
 }
@@ -23,7 +23,7 @@ selective_integration_isolation = {
 
 	modifier = {
 		global_trade_goods_size_modifier = 0.1
-		global_tax_modifier = 0.1
+		#global_tax_modifier = 0.1
 	}
 }
 
@@ -31,7 +31,7 @@ isolationism_isolation = {
 	isolation_value = 3
 
 	modifier = {
-		idea_cost = -0.1
+		#idea_cost = -0.1
 		build_cost = -0.1
 	}
 }
@@ -40,7 +40,7 @@ closed_doors_isolation = {
 	isolation_value = 4
 
 	modifier = {
-		land_forcelimit_modifier = 0.25
-		missionaries = 1
+		land_forcelimit_modifier = 0.2
+		#missionaries = 1
 	}
 }

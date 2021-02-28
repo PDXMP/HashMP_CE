@@ -144,7 +144,7 @@ tropical = {
 	supply_limit_modifier = -0.3
 	local_hostile_attrition = 1
 
-	local_development_cost = 0.10
+	#local_development_cost = 0.10
 
 	picture = "climate_tropical"
 }
@@ -165,7 +165,7 @@ arid = {
 	supply_limit_modifier = -0.2
 	local_hostile_attrition = 1
 
-	local_development_cost = 0.10
+	#local_development_cost = 0.10
 
 	picture = "climate_arid"
 }
@@ -898,7 +898,7 @@ legitimacy = {
 horde_unity = {
 	global_unrest = -4
 	discipline = 0.10
-	nomadic_tribes_loyalty_modifier = 0.05
+	nomadic_tribes_loyalty_modifier = 0.20
 }
 
 
@@ -1420,7 +1420,7 @@ karma_too_high =
 
 karma_too_low =
 {
-	discipline = 0.025
+	discipline = 0.05
 }
 
 ########################################

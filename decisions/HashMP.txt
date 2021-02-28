@@ -804,5 +804,136 @@ country_decisions = {
 			}
 		}
 	}
+	
+	h_prospect_dec_manchu = {
+		potential = {
+			OR = {
+				tag = MJZ
+				tag = MCH
+				tag = QNG
+			}
+			NOT = { has_country_flag = h_prospect_manchu_flag }
+		}
+		allow = {
+			OR = {
+				tag = MCH
+				tag = QNG
+			}
+			owns = 2102 #Urkan
+			is_core = 2102
+			2102 = {
+				NOT = { trade_goods = gold }
+			}
+		}
+		effect = {
+			set_country_flag = h_prospect_manchu_flag
+			country_event = { id = hashmp.10 } #Manchu Gold Event
+		}
+	}
+	
+	h_prospect_dec_hengyang = {
+		potential = {
+			OR = {
+				tag = CXI
+				tag = CYI
+				tag = WUU
+				tag = QIC
+				tag = CSH
+				tag = YUE
+			}
+			NOT = { has_country_flag = h_prospect_hengyang_flag }
+		}
+		allow = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
+			owns = 4745 #Hengyang
+			is_core = 4745
+			4745 = {
+				NOT = { trade_goods = gold }
+			}
+		}
+		effect = {
+			set_country_flag = h_prospect_hengyang_flag
+			country_event = { id = hashmp.11 } #Hengyang Gold Event
+		}
+	}
+
+	h_lombardy_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_lom_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				tag = VEN
+				tag = MLO
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = po_valley_area
+				area = lombardy_area
+				area = venetia_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			po_valley_area = { type = all is_core = ROOT owned_by = ROOT }
+			lombardy_area = { type = all is_core = ROOT owned_by = ROOT }
+			venetia_area = { type = all is_core = ROOT owned_by = ROOT }
+		}
+	 	effect = {
+			change_tag = LOM
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 2
+					}
+				}
+				set_government_rank = 2
+			}
+			change_primary_culture = lombard
+			add_accepted_culture = venetian
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_lom_flag
+			swap_non_generic_missions = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	h_french_mercs_gascon = {
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = h_gascon_company_unlocked }
+		}
+		allow = {
+			mil_tech = 11
+			mil_power = 100
+		}
+		effect = {
+			set_country_flag = h_gascon_company_unlocked
+			add_mil_power = -100
+			add_years_of_income = -0.5
+			custom_tooltip = h_gascon_tt
+		}
+	}
 
 }

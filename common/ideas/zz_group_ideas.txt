@@ -1505,6 +1505,7 @@ ruthenian_ideas = {
 	}
 	zaporizhian_cossacs = {
 		cavalry_power = 0.20
+		cav_to_inf_ratio = 0.10
 	}
 	east_and_west = {
 		global_trade_power = 0.15

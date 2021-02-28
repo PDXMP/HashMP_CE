@@ -575,6 +575,8 @@ country_decisions = {
 		effect = {
 			change_tag = SWA
 			restore_country_name_effect = yes
+			change_primary_culture = swabian
+			add_accepted_culture = swiss
 			lower_swabia_area = {
 				limit = {
 					NOT = { owned_by = root }

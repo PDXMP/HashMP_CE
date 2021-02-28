@@ -1,5 +1,5 @@
 ########################################
-# Custom modifiers for the HashMP Multiplayer mod
+# Custom modifiers for Foffy's China in HashMP
 #
 # by Foffy123
 ########################################
