@@ -22,7 +22,7 @@ center_of_trade = 1
 
 add_permanent_province_modifier = {
 	name = sound_toll
-	duration = -1f
+	duration = -1
 }
 1523.1.1 = {
 	fort_15th = no
