@@ -15,6 +15,7 @@ base_production = 3
 base_manpower = 3
 hre = yes
 is_city = yes
+fort_15th = yes
 add_core = HES
 discovered_by = eastern
 discovered_by = western

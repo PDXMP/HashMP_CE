@@ -468,7 +468,7 @@ FRA_ideas = {
 	}
 	
 	bonus = {
-		fire_damage = 0.10
+		discipline = 0.05
 	}	
 
 	trigger = {
@@ -480,8 +480,7 @@ FRA_ideas = {
 		diplomatic_upkeep = 1
 	}
 	elan = {
-		land_morale = 0.15
-		discipline = 0.05
+		land_morale = 0.20
 	}
 	estates_general = {
 		global_tax_modifier = 0.2
@@ -491,11 +490,11 @@ FRA_ideas = {
 		native_assimilation = 0.5
 		heavy_ship_power = 0.10
 	}
-	vauban_fortifications = {	
+	vauban_fortifications = {
 		fort_maintenance_modifier = -0.2
 	}
 	the_philosophes = {
-		technology_cost = -0.1	
+		technology_cost = -0.1
 	}
 	liberty_egalite_fraternity = {
 		tolerance_heathen = 2
@@ -3243,12 +3242,12 @@ TUS_ideas = {
 
 SWI_ideas = {
 	start = {
-		mercenary_discipline = 0.075
-		infantry_power = 0.1
+		defensiveness = 0.25
+		infantry_power = 0.15
 	}
 	
 	bonus = {
-		defensiveness = 0.2
+		trade_efficiency = 0.1
 	}
 	
 	trigger = {
@@ -3260,7 +3259,7 @@ SWI_ideas = {
 		stability_cost_modifier = -0.1
 	}
 	swiss_mercenaries = {
-		possible_condottieri = 0.5
+		mercenary_discipline = 0.05
 		merc_maintenance_modifier = -0.25
 	}
 	alpine_defensiveness = {
