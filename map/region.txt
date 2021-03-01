@@ -704,6 +704,7 @@ korea_region = {
 		western_korea_area
 		eastern_korea_area
 		south_korea_area
+		korea_test_area
 	}
 	monsoon = {
 		00.06.01
