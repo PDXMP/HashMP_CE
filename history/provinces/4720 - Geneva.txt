@@ -1,5 +1,5 @@
-owner = GNV
-controller = GNV
+owner = SWI
+controller = SWI
 culture = swiss
 religion = catholic
 capital = "Geneva"
@@ -10,6 +10,7 @@ base_production = 4
 base_manpower = 3
 is_city = yes
 add_core = GNV
+add_core = SWI
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
