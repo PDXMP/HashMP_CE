@@ -1654,6 +1654,7 @@ MUG_ideas = {
 	
 	mansabdari_system = {
 		discipline = 0.05
+		land_morale = 0.05
 	}
 	control_of_the_ulema = {
 		global_manpower_modifier = 0.33
