@@ -2032,7 +2032,7 @@ NReligion = {
 	KARMA_FOR_CONVERSION = 0.1,
 	MIN_CARDINALS = 7,											-- Least amount of cardinals/ Starting cardinals
 	MAX_CARDINALS = 49,											-- Max amount of cardinals
-	MAX_CARDINALS_PER_COUNTRY = 7,								-- Max cardinals in a single country
+	MAX_CARDINALS_PER_COUNTRY = 5,								-- Max cardinals in a single country
 	
 	YEARLY_PAPAL_INFLUENCE_CATHOLIC = 2.0,						-- The amount of yearly papal influence you receive each year for being catholic
 	YEARLY_PAPAL_INFLUENCE_PER_CARDINAL = 0.25,					-- The amount of yearly papal influence you receive each year for each cardinal you have active
