@@ -3940,7 +3940,7 @@ payment_demands = {
 }
 
 relentless_drill = {
-	land_morale = 0.15
+	land_morale = 0.1
 }
 
 regimental_pride = {
