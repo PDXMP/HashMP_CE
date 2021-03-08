@@ -527,6 +527,7 @@ TUR_ideas = {
 	}		
 	timariot_system = {
 		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.2
 	}
 	autonmous_pashas = {
 		war_exhaustion_cost = -0.10
@@ -1136,7 +1137,7 @@ POL_ideas = {
 	}
 	winged_hussars = {
 		cavalry_power = 0.25
-		cav_to_inf_ratio = 0.10
+		cav_to_inf_ratio = 0.2
 	}
 	wojsko_komputoe = {
 		global_regiment_cost = -0.10
@@ -1420,6 +1421,7 @@ HUN_ideas = {
 	}
 	found_the_black_army = {
 		discipline = 0.05
+		cav_to_inf_ratio = 0.2
 	}
 	reformed_coinage = {
 		global_tax_modifier = 0.15
@@ -1506,6 +1508,7 @@ MAM_ideas = {
 	}
 	mam_army_reform = {
 		discipline = 0.05
+		cav_to_inf_ratio = 0.2
 	}
 	reform_fellah_system = {
 		production_efficiency = 0.1
@@ -1857,6 +1860,7 @@ VIJ_ideas = {
 	}
 	arab_horses = {
 		cavalry_power = 0.10
+		cav_to_inf_ratio = 0.2
 	}
 	harsh_penal_code = {
 		stability_cost_modifier = -0.1
@@ -2158,7 +2162,7 @@ MJZ_ideas = {
 	}
 	jurchen_border_skirmishes = {
 		cavalry_power = 0.1
-		cav_to_inf_ratio = 0.1
+		cav_to_inf_ratio = 0.2
 	}
 	jurchen_many_wives = {
 		heir_chance = 0.5
@@ -2203,7 +2207,7 @@ MCH_ideas = {
 	}	
 	link_with_the_mongol_dynasty = {
 		cavalry_power = 0.2
-		cav_to_inf_ratio = 0.1
+		cav_to_inf_ratio = 0.2
 	}
 	manchu_chinese_learning = {
 		mil_tech_cost_modifier = -0.1
@@ -2661,7 +2665,7 @@ LIT_ideas = {
 	}
 	lithuanian_hussars = {
 		cavalry_power = 0.2
-		cav_to_inf_ratio = 0.10
+		cav_to_inf_ratio = 0.2
 	}
 	statutes_of_lithuania = {
 		global_unrest = -2
@@ -2742,7 +2746,7 @@ TAU_ideas = {
 	}
 	tau_elephant_battles = {
 		cavalry_power = 0.20
-		cav_to_inf_ratio = 0.10
+		cav_to_inf_ratio = 0.2
 	}
 	nat_worship = {
 		global_unrest = -2
@@ -2990,6 +2994,7 @@ PUN_ideas = {
 	}
 	strength_of_the_misls = {
 		cavalry_cost = -0.10
+		cav_to_inf_ratio = 0.2
 	}
 	reforming_the_punjabi_army = {
 		land_morale = 0.1
@@ -4160,7 +4165,7 @@ AFG_ideas = {
 	
 	durrani_imperialism = {
 		cavalry_power = 0.15
-		cavalry_flanking = 0.50
+		cav_to_inf_ratio = 0.2
 	}
 	pashtunwali = {
 		war_exhaustion_cost = -0.15
@@ -6344,6 +6349,7 @@ BAH_ideas = {
 	
 	gharbians = {
 		manpower_recovery_speed = 0.1
+		cav_to_inf_ratio = 0.2
 	}
 	legacy_of_gisu_daraz = {
 		religious_unity = 0.25
@@ -7929,6 +7935,7 @@ ORM_ideas = {
 	}
 	orm_secure_trading_monopoly = {
 		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.2
 	}
 	orm_moqarrariya = {
 		stability_cost_modifier = -0.1
@@ -9268,7 +9275,7 @@ GLH_ideas = {
 	}
 	glh_tatar_traditions = {
 		cavalry_power = 0.20
-		cav_to_inf_ratio = 0.10
+		cav_to_inf_ratio = 0.2
 	}
 	glh_secure_the_trade_routes = {
 		global_prov_trade_power_modifier = 0.2
@@ -10872,7 +10879,7 @@ TPR_ideas = {
 HAN_ideas = {
 	start = {
 		cavalry_power = 0.15
-		cav_to_inf_ratio = 0.1
+		cav_to_inf_ratio = 0.2
 	}
 	bonus = {
 		discipline = 0.05
@@ -11564,6 +11571,7 @@ TRS_ideas = {
 	
 	trs_mawarannahr = {
 		cavalry_power = 0.2
+		cav_to_inf_ratio = 0.2
 	}
 	trs_threshold_of_paradise = {
 		prestige = 1
@@ -13505,6 +13513,7 @@ DLH_ideas = {
 	
 	dlh_afghan_nobility = {
 		army_tradition = 0.5
+		cav_to_inf_ratio = 0.2
 	}
 	dlh_suppress_rebellion = {
 		global_unrest = -1
@@ -13542,7 +13551,7 @@ BHA_ideas = {
 
 	bha_modernized_war_elephants = {
 		cavalry_power = 0.2
-		cav_to_inf_ratio = 0.10
+		cav_to_inf_ratio = 0.2
 	}
 	bha_united_india = {
 		num_accepted_cultures = 2
@@ -13623,10 +13632,11 @@ RJP_ideas = {
 	}
 	marwari_horses = {
 		cavalry_power = 0.1
-		movement_speed = 0.1
+		cav_to_inf_ratio = 0.2
 	}
 	rjp_purbia_legacy = {
 		fire_damage = 0.1
+		movement_speed = 0.1
 	}
 	rjp_protectors_of_the_dharma = {
 		tolerance_own = 2
@@ -14015,7 +14025,7 @@ CHR_ideas = {
 ILK_ideas = {
 	start = {
 		cavalry_power = 0.2
-		cav_to_inf_ratio = 0.10
+		cav_to_inf_ratio = 0.2
 	}
 	bonus = {
 		cavalry_cost = -0.1
@@ -14643,6 +14653,7 @@ KHA_ideas = {
 	
 	ghostly_horses_of_the_plain = {
 		cavalry_power = 0.20
+		cav_to_inf_ratio = 0.2
 	}
 	ikh_mongol_uls = {
 		ae_impact = -0.15
