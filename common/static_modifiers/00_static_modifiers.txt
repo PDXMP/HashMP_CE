@@ -560,7 +560,7 @@ base_values = {
 	num_accepted_cultures = 2
 	monthly_splendor = 1
 	artillery_bonus_vs_fort = 5
-	cav_to_inf_ratio = 0.5
+	cav_to_inf_ratio = 0.6
 	merc_maintenance_modifier = 1.0
 }
 
