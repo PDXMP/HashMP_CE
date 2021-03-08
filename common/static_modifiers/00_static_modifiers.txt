@@ -1073,10 +1073,10 @@ curia_controller = {
 	prestige = 1							#1% extra prestige yearly
 	stability_cost_modifier = -0.1			#10% cheaper stability
 	advisor_pool = 2
-	advisor_cost = -0.2
+	advisor_cost = -0.1
 	free_leader_pool = 1
 	ae_impact = -0.2
-	technology_cost = -0.05
+	#technology_cost = -0.05
 	church_loyalty_modifier = 0.1
 }
 
