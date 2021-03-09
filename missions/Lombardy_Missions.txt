@@ -434,12 +434,12 @@ lom_branch_2 = {
 			province_id = 118
 			NOT = { country_or_non_sovereign_subject_holds = root }
 			118 = {
-				has_cathedral_building_trigger = no
+				has_building = cathedral
 			}
 		}
 		trigger = {
 			118 = {
-				has_cathedral_building_trigger = yes
+				has_building = cathedral
 			}
 			118 = {
 				owned_by = ROOT
