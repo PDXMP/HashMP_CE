@@ -56,15 +56,19 @@ difficulty_very_hard_player = {
 ##########################################################################
 
 difficulty_very_easy_ai = {
+	global_autonomy = -0.05
 }
 
 difficulty_easy_ai = {
+	global_autonomy = -0.05
 }
 
 difficulty_normal_ai = {
+	global_autonomy = -0.05
 }
 
 difficulty_hard_ai = {
+	global_autonomy = -0.05
 	manpower_recovery_speed = 0.50
 	global_unrest = -1
 	war_exhaustion = -0.05
@@ -75,6 +79,7 @@ difficulty_hard_ai = {
 }
 
 difficulty_very_hard_ai = {
+	global_autonomy = -0.05
 	manpower_recovery_speed = 0.50
 	global_manpower_modifier = 0.5
 	land_forcelimit_modifier = 0.5
@@ -555,7 +560,7 @@ base_values = {
 	num_accepted_cultures = 2
 	monthly_splendor = 1
 	artillery_bonus_vs_fort = 5
-	cav_to_inf_ratio = 0.5
+	cav_to_inf_ratio = 0.6
 	merc_maintenance_modifier = 1.0
 }
 
@@ -1068,10 +1073,10 @@ curia_controller = {
 	prestige = 1							#1% extra prestige yearly
 	stability_cost_modifier = -0.1			#10% cheaper stability
 	advisor_pool = 2
-	advisor_cost = -0.2
+	advisor_cost = -0.1
 	free_leader_pool = 1
 	ae_impact = -0.2
-	technology_cost = -0.05
+	#technology_cost = -0.05
 	church_loyalty_modifier = 0.1
 }
 

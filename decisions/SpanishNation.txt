@@ -95,10 +95,10 @@ country_decisions = {
 				tag = ARA
 				tag = CAS
 			}
-			iberia_region = {
-				type = all
-				NOT = { owner = { religion_group = muslim } }
-			}
+			#iberia_region = {
+			#	type = all
+			#	NOT = { owner = { religion_group = muslim } }
+			#}
 		}
 		effect = {
 			change_tag = SPA
@@ -204,10 +204,10 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			iberia_region = {
-				type = all
-				NOT = { owner = { religion_group = muslim } }
-			}
+			#iberia_region = {
+			#	type = all
+			#	NOT = { owner = { religion_group = muslim } }
+			#}
 			custom_trigger_tooltip = {
 				tooltip = forming_spain_diplomatically_tooltip
 				OR = {

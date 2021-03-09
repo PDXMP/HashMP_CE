@@ -958,7 +958,7 @@ dlh_textile_modifier = {
 }
 
 dlh_bengal_modifier = {
-	land_morale = 0.15
+	land_morale = 0.1
 }
 dlh_grand_trunk_road_modifier = {
 	local_friendly_movement_speed = 0.25
@@ -997,7 +997,7 @@ ori_vedic_education = {
 	idea_cost = -0.1
 }
 ori_bengal_inland_modifier = {
-	land_morale = 0.15
+	land_morale = 0.1
 }
 
 # TR Russian missions
@@ -1635,7 +1635,7 @@ coromandel_traders = {
 # Generic Indian missions
 
 gen_delhi_conquest = {
-	land_morale = 0.15
+	land_morale = 0.1
 }
 
 warrior_castes_promoted = {
@@ -1745,7 +1745,7 @@ sikh_conversion = {
 # Tibetan modifiers
 
 tibet_restored_pala = {
-	land_morale = 0.15
+	land_morale = 0.1
 }
 
 tibet_china_defeated = {
@@ -1995,7 +1995,7 @@ conquest_of_air = {
 }
 
 tun_conquest_of_kanem = {
-	land_morale = 0.15
+	land_morale = 0.1
 }
 
 tun_med_conquest = {
@@ -2726,7 +2726,7 @@ pro_imperial_diplomacy = {
 }
 
 pro_king_of_france = {
-	land_morale = 0.15
+	land_morale = 0.1
 }
 
 toulon_dockyards = {
@@ -3237,7 +3237,7 @@ bur_english_diplomacy = {
 
 bur_king_of_franks = {
 	diplomatic_upkeep = 1
-	land_morale = 0.15
+	land_morale = 0.1
 }
 
 bur_influence_over_princes = {
@@ -3980,7 +3980,7 @@ likedeelers_modifier = {
 }
 
 hemmingstedt_victory = {
-	land_morale = 0.15
+	land_morale = 0.1
 }
 
 integrating_the_peasantry = {
