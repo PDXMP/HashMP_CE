@@ -1,7 +1,7 @@
 #5001 - Samjiyeon
 
-owner = KOR
-controller = KOR
+owner = OKJ
+controller = OKJ
 culture = manchu
 religion = confucianism
 capital = "Samjiyeon"

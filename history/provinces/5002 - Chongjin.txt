@@ -1,7 +1,7 @@
 #5002 - Chongjin
 
-owner = KOR
-controller = KOR
+owner = OKJ
+controller = OKJ
 culture = manchu
 religion = confucianism
 capital = "Chongjin"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = KOR
+add_core = OKJ
 discovered_by = chinese
 discovered_by = nomad_group
 

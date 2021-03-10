@@ -1,7 +1,7 @@
 #4987 - Chuncheon
 
-owner = KOR
-controller = KOR
+owner = BYH
+controller = BYH
 culture = korean
 religion = confucianism
 capital = "Chuncheon"
@@ -11,7 +11,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = KOR
+add_core = BYH
 discovered_by = chinese
 discovered_by = nomad_group
 
