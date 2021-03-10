@@ -1,10 +1,10 @@
-#4998 - Hamheung
+#4998 - Sinpo
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Hamheung"
+capital = "Sinpo"
 trade_goods = chinaware
 hre = no
 base_tax = 3
