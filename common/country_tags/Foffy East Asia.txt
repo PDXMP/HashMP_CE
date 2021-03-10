@@ -13,6 +13,7 @@ JHN = "countries/Jinhan.txt"
 BYH = "countries/Byeonhan.txt"
 NAE = "countries/Naemi.txt"
 BLH = "countries/Balhae.txt"
+TMN = "countries/Tamna.txt"
 
 #City States
 BUS = "countries/Busan.txt"
