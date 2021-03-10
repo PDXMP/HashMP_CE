@@ -1,11 +1,11 @@
-#2744 - Nyeongbyeon
+#2744 - Taechon
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Yeongbyeon"
-trade_goods = naval_supplies
+capital = "Taechon"
+trade_goods = cotton
 hre = no
 base_tax = 2
 base_production = 2
