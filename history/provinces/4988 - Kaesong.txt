@@ -1,10 +1,10 @@
-#4988 - Kor13
+#4988 - Kaesong
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Kaesong"
 trade_goods = chinaware
 hre = no
 base_tax = 3

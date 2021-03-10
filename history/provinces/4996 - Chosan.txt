@@ -1,10 +1,10 @@
-#4996 - Kor21
+#4996 - Chosan
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Chosan"
 trade_goods = chinaware
 hre = no
 base_tax = 3

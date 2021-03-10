@@ -1,10 +1,10 @@
-#5002 - Kor27
+#5002 - Chongjin
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Chongjin"
 trade_goods = chinaware
 hre = no
 base_tax = 3

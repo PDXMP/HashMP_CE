@@ -1,10 +1,10 @@
-#5001 - Kor26
+#5001 - Samjiyeon
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Samjiyeon"
 trade_goods = chinaware
 hre = no
 base_tax = 3

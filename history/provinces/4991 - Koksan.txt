@@ -1,10 +1,10 @@
-#4991 - Kor16
+#4991 - Koksan
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Koksan"
 trade_goods = chinaware
 hre = no
 base_tax = 3

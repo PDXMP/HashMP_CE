@@ -1,10 +1,10 @@
-#4980 - Kor5
+#4980 - Yeoju
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Yeoju"
 trade_goods = chinaware
 hre = no
 base_tax = 3

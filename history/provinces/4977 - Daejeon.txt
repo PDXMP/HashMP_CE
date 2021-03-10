@@ -1,10 +1,10 @@
-#4977 - Kor2
+#4977 - Daejeon
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Daejeon"
 trade_goods = chinaware
 hre = no
 base_tax = 3

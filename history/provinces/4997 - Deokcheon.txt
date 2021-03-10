@@ -1,10 +1,10 @@
-#4997 - Kor22
+#4997 - Deokcheon
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Deokcheon"
 trade_goods = chinaware
 hre = no
 base_tax = 3

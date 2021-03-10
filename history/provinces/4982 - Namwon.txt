@@ -1,10 +1,10 @@
-#4982 - Kor7
+#4982 - Namwon
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Namwon"
 trade_goods = chinaware
 hre = no
 base_tax = 3

@@ -1,10 +1,10 @@
-#5000 - Kor25
+#5000 - Hyesan
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Hyesan"
 trade_goods = chinaware
 hre = no
 base_tax = 3

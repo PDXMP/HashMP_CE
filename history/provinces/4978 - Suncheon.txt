@@ -1,10 +1,10 @@
-#4978 - Kor3
+#4978 - Suncheon
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Suncheon"
 trade_goods = chinaware
 hre = no
 base_tax = 3

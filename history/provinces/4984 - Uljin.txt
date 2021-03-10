@@ -1,10 +1,10 @@
-#4984 - Kor9
+#4984 - Uljin
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Uljin"
 trade_goods = chinaware
 hre = no
 base_tax = 3

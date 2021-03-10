@@ -1,10 +1,10 @@
-#4981 - Kor6
+#4981 - Busan
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Busan"
 trade_goods = chinaware
 hre = no
 base_tax = 3

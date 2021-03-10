@@ -1,10 +1,10 @@
-#4993 - Kor18
+#4993 - Oncheon
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Oncheon"
 trade_goods = chinaware
 hre = no
 base_tax = 3

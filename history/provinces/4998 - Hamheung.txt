@@ -1,10 +1,10 @@
-#4998 - Kor23
+#4998 - Hamheung
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Hamheung"
 trade_goods = chinaware
 hre = no
 base_tax = 3

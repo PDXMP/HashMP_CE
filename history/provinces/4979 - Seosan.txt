@@ -1,10 +1,10 @@
-#4979 - Kor4
+#4979 - Seosan
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Seosan"
 trade_goods = chinaware
 hre = no
 base_tax = 3

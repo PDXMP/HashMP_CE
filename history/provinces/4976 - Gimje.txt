@@ -1,10 +1,10 @@
-#4976 - Kor1
+#4976 - Gimje
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Gimje"
 trade_goods = chinaware
 hre = no
 base_tax = 3

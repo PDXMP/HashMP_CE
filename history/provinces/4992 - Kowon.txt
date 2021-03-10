@@ -1,10 +1,10 @@
-#4992 - Kor17
+#4992 - Kowon
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Kowon"
 trade_goods = chinaware
 hre = no
 base_tax = 3

@@ -1,10 +1,10 @@
-#4995 - Kor20
+#4995 - Sakchu
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Sakchu"
 trade_goods = chinaware
 hre = no
 base_tax = 3

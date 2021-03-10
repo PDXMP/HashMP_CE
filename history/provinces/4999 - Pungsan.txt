@@ -1,10 +1,10 @@
-#4999 - Kor24
+#4999 - Pungsan
 
 owner = KOR
 controller = KOR
 culture = korean
 religion = confucianism
-capital = "Suwon"
+capital = "Pungsan"
 trade_goods = chinaware
 hre = no
 base_tax = 3
