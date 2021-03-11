@@ -206,3 +206,61 @@ gov_citystate = {
 		has_reform = h_reform_citystate
 	}
 }
+gov_protectorate = {
+	rank = {
+		1 = H_PROTECTORATE
+		2 = H_PROTECTORATE
+		3 = H_PROTECTORATE
+	}
+	
+	ruler_male = {
+		1 = H_ProtectorateTitle
+		2 = H_ProtectorateTitle
+		3 = H_ProtectorateTitle
+	}
+	
+	ruler_female = {
+		1 = H_ProtectorateTitle
+		2 = H_ProtectorateTitle
+		3 = H_ProtectorateTitle
+	}
+	
+	trigger = {
+		has_reform = h_reform_protectorate
+	}
+}
+gov_kdukedom = {
+	rank = {
+		1 = DUCHY
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = DUKE
+		2 = KING
+		3 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = DUCHESS
+		2 = QUEEN
+		3 = EMPRESS
+	}
+	
+	consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	trigger = {
+		has_reform = h_reform_kdukedom
+	}
+}
