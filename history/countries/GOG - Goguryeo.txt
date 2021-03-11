@@ -5,3 +5,5 @@ technology_group = chinese
 religion = confucianism
 primary_culture = korean
 capital = 1845
+historical_rival = KSL
+historical_rival = BKJ
