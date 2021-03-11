@@ -1,7 +1,8 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = h_reform_citystate
 government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = korean
 capital = 4981
+fixed_capital = 4981
