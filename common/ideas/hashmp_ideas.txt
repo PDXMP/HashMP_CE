@@ -5,10 +5,10 @@
 ########################################
 
 ########################################
-# Starting Group Ideas - China Rework
+# Starting Group Ideas
 ########################################
 
-commandery_ideas = { #Thirteen Commanderies
+commandery_ideas = { #Chinese Thirteen Commanderies
 	start = {
 		liberty_desire = 500
 		land_morale = 0.25
@@ -132,6 +132,47 @@ citystate_ideas = { #Chinese City States
 	citystate_idea_7 = {
 		infantry_power = 0.1
 	}
+}
+
+korean_ideas = {
+	start = {
+		global_own_trade_power = 0.25
+		build_cost = -0.1
+	}
+	
+	bonus = {
+		infantry_power = 0.1
+	}
+	
+	trigger = {
+		OR = {
+			culture_group = korean_g #Korean
+		}
+	}
+	free = yes
+	
+	hanguel_alphabet = {
+		technology_cost = -0.05
+	}
+	grand_code = {
+		stability_cost_modifier = -0.10
+	}
+	hyanyak_system = {
+		production_efficiency = 0.10
+	}
+	geobukseon = {
+		ship_durability = 0.05
+	}
+	hopae_system = {
+		global_manpower_modifier = 0.10
+	}
+	kyujanggak = {
+		idea_cost = -0.1
+	}
+	kor_economy_reform = {
+		global_tax_modifier = 0.10
+	}
+	
 }
 
 ########################################
@@ -467,7 +508,7 @@ ARB_ideas = { #Arabian Empire
 	}
 }
 
-ZUL_ideas = {
+ZUL_ideas = { #Zulu Empire
 	start = {  
 		governing_capacity_modifier = 0.1
 		leader_land_manuever = 1
@@ -509,7 +550,7 @@ ZUL_ideas = {
 	}
 }
 
-GOG_ideas = {
+GOG_ideas = { #Korea - Goguryeo
 	start = {  
 		advisor_cost = -0.1
 		global_manpower_modifier = 0.2
@@ -547,7 +588,7 @@ GOG_ideas = {
 	}
 }
 
-BKJ_ideas = {
+BKJ_ideas = { #Korea - Baekje
 	start = {  
 		advisor_cost = -0.1
 		shock_damage_received = -0.10
@@ -585,7 +626,7 @@ BKJ_ideas = {
 	}
 }
 
-KSL_ideas = {
+KSL_ideas = { #Korea - Silla
 	start = {  
 		advisor_cost = -0.1
 		infantry_power = 0.1
