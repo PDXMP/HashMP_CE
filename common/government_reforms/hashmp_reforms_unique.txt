@@ -264,6 +264,16 @@ h_reform_prefecture = {
 			tag = YUN
 			tag = ZHA
 			tag = CZH
+			tag = OKJ
+			tag = BLH
+			tag = NAE
+			tag = BYH
+			tag = JHN
+			tag = MHN
+			tag = GOR
+			tag = BIH
+			tag = GAR
+			tag = TMN
 		}
 	}
 	modifiers = {
