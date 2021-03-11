@@ -322,6 +322,10 @@ h_reform_citystate = {
 			tag = XYU
 			tag = XUZ
 			tag = YNG
+			tag = SEO
+			tag = BUS
+			tag = JGY
+			tag = SGY
 		}
 	}
 	modifiers = {
