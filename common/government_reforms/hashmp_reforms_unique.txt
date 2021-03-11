@@ -376,3 +376,28 @@ h_reform_sinicized_horde = {
 		locked_government_type = yes
 	}
 }
+
+h_reform_kdukedom = {
+	icon = "fist_in_air"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		OR = {
+			tag = OKJ
+			tag = KSL
+			tag = BKJ
+			tag = GOG
+		}
+	}
+	modifiers = {
+		ae_impact = 0.2
+		diplomatic_reputation = -2
+		land_maintenance_modifier = -0.2
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
