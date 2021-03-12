@@ -18,7 +18,8 @@ country_decisions = {
 				NOT = { exists = DAL}
 				ai = no
 			}
-			primary_culture = dalmatian
+			#primary_culture = dalmatian
+			tag = RAG
 			OR = {
 				ai = no
 				AND = {
