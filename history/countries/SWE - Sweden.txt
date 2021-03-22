@@ -10,37 +10,49 @@ capital = 1	#Stockholm
 
 national_focus = MIL
 
-change_estate_land_share = {
-	estate = estate_church
-	share = -6
-}
-change_estate_land_share = {
-	estate = estate_nobles
-	share = 10
+#change_estate_land_share = {
+#	estate = estate_church
+#	share = -6
+#}
+#change_estate_land_share = {
+#	estate = estate_nobles
+#	share = 10
+#}
+
+#Replaced when the player chooses their ruler
+1444.1.1 = {
+	monarch = {
+		name = "Nils"
+		dynasty = "Sture"
+		birth_date = 1426.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
 }
 
-1443.6.20 = {
-	monarch = {
-		name = "Johan"
-		dynasty = "Vasa"
-		birth_date = 1426.1.1
-		adm = 3
-		dip = 2
-		mil = 5
-		#leader = {	name = "Karl VIII"   type = general	fire = 2	shock = 2	manuever = 3	siege = 0 }
-	}
-	queen = {
-		country_of_origin = SWE
-		name = "Birgitta"
-		dynasty = "Sture"
-		birth_date = 1425.1.1
-		death_date = 1451.1.1
-		female = yes
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
+#1444.1.1 = {
+#	monarch = {
+#		name = "Johan"
+#		dynasty = "Vasa"
+#		birth_date = 1426.1.1
+#		adm = 3
+#		dip = 2
+#		mil = 5
+#		#leader = {	name = "Karl VIII"   type = general	fire = 2	shock = 2	manuever = 3	siege = 0 }
+#	}
+#	queen = {
+#		country_of_origin = SWE
+#		name = "Birgitta"
+#		dynasty = "Sture"
+#		birth_date = 1425.1.1
+#		death_date = 1451.1.1
+#		female = yes
+#		adm = 3
+#		dip = 3
+#		mil = 3
+#	}
+#}
 
 1457.2.25 = { government = republic
 add_government_reform = noble_elite_reform

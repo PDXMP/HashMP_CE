@@ -1,0 +1,1079 @@
+##BranchStart 0
+h_swedish_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = SWE
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	swedish_reform_1 = {
+		icon = balance_the_estates 
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			adm_tech = 5
+			stability = 1
+		}
+		effect = {
+			country_event = {
+				id = flavor_swe.1
+			}
+			add_country_modifier = {
+				name = h_swedish_centralization
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_reform_2 = {
+		icon = medici_bank_ledgers 
+		required_missions {
+			swedish_reform_1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			adm_power = 100
+			crown_land_share = 30
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				value = 5
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			define_advisor = {
+				type = treasurer
+				culture = ROOT
+				religion = ROOT
+				skill = 1
+				discount = yes
+			}
+			add_country_modifier = {
+				name = h_swedish_tax_reform
+				duration = -1
+			}
+			add_adm_power = -100
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_reform_3 = {
+		icon = neapolitan_govenance 
+		required_missions {
+			swedish_reform_2
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			crown_land_share = 30
+			OR = {
+				num_of_owned_provinces_with = {
+					is_core = ROOT
+					value = 10
+					OR = {
+						has_building = barracks
+						has_building = training_fields
+					}
+				}
+				num_of_owned_provinces_with = {
+					is_core = ROOT
+					value = 10
+					OR = {
+						has_building = regimental_camp
+						has_building = conscription_center
+					}
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = flavor_swe.3244
+			}
+			add_country_modifier = {
+				name = h_swedish_allotment_system
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_reform_4 = {
+		icon = mission_wine_monopolies 
+		required_missions {
+			swedish_reform_3
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			crown_land_share = 30
+			dip_power = 100
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				value = 15
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = flavor_swe.3264
+			}
+			
+			add_country_modifier = {
+				name = h_swedish_agriculture_boost
+				duration = 3650
+			}
+			
+			add_dip_power = -100
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_reform_5 = {
+		icon = letat_cest_moi 
+		required_missions {
+			swedish_reform_4
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			current_age = age_of_absolutism
+			absolutism = 30
+			crown_land_share = 50
+		}
+		effect = {
+			country_event = {
+				id = flavor_swe.3232
+			}
+			add_absolutism = 10
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_religion_1 = {
+		icon = mission_luther_theses
+		required_missions {
+			
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			OR = {
+				religion = protestant
+				religion = reformed
+			}
+			current_age = age_of_reformation
+		}
+		effect = {
+			country_event = {
+				id = flavor_swe.2
+			}
+			add_country_modifier = { 
+				name = h_swedish_lutheran_support
+				duration = 9125
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_religion_2 = {
+		icon = h_missions_drake_wars
+		required_missions {
+			swedish_religion_1
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			religious_unity = 0.50
+			custom_trigger_tooltip = {
+				tooltip = h_swedish_missions_event_tooltip_2
+				has_country_flag = had_the_dacke_feud
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_religion_3 = {
+		icon = mission_european_church
+		required_missions {
+			swedish_religion_2
+		}
+		position = 8
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			OR = {
+				dominant_religion = protestant
+				dominant_religion = religion
+			}
+			religious_unity = 0.85
+		}
+		effect = {
+			add_country_modifier = { 
+				name = h_swedish_church_of_sweden
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##
+}
+##BranchEnd 0
+##BranchStart 1
+h_swedish_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = SWE
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	swedish_military_1 = {
+		icon = assert_our_sovereignty 
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			mil_tech = 5
+			mil_power = 100
+		}
+		effect = {
+			add_mil_power = -100
+			country_event = {
+				id = hashmp.101
+			}
+			define_advisor = {
+				type = army_reformer
+				culture = ROOT
+				religion = ROOT
+				skill = 1
+				discount = yes
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_military_2 = {
+		icon = mission_cannons_firing 
+		required_missions {
+			swedish_military_1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			mil_tech = 12
+			num_of_artillery = 10
+		}
+		effect = {
+			country_event = {
+				id = flavor_swe.3228
+			}
+			add_country_modifier = {
+				name = h_swedish_innovative_warfare
+				duration = 9125
+			}
+		}
+	}
+	
+	swedish_military_3 = {
+		icon = h_missions_caroleans 
+		required_missions {
+			swedish_military_2
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			monthly_mil = 12
+			has_global_modifier_value = {
+				which = discipline
+				value = 0.10
+			}
+			army_professionalism = 0.30
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_swedish_carolean_regiments
+				duration = -1
+			}
+			country_event = {
+				id = hashmp.102
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_russia_1 = {
+		icon = mission_develop_nevas_port 
+		required_missions {
+			swedish_baltic_1
+		}
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = karelia_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			karelia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			karelia_area = {
+				add_province_modifier = {
+					name = h_swedish_neva_conquered
+					duration = 9125
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_russia_2 = {
+		icon = mission_defeat_muscovy 
+		required_missions {
+			swedish_russia_1
+		}
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				region = russia_region
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 30
+				is_core = root
+				owned_by = ROOT
+				OR = {
+					region = russia_region
+				}
+			}
+		}
+		effect = {
+			add_army_tradition = 15
+			country_event = {
+				id = hashmp.103
+			}
+		}
+	}
+}
+##BranchEnd 1
+##BranchStart 2
+h_swedish_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = SWE
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	swedish_main_1 = {
+		icon = holy_state
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = h_swedish_missions_tooltip_1
+				OR = {
+					has_country_flag = gustavking
+					has_country_flag = johanking
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = johanking
+				}
+				
+				add_prestige = 5
+			}
+			if = {
+				limit = {
+					has_country_flag = gustavking
+				}
+				
+				define_ruler_to_general = {
+					fire = 2
+					shock = 4
+					manuever = 1
+					siege = 1
+				}
+			}
+
+			add_legitimacy = 5
+			
+			#Gotland
+			25 = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_main_2 = {
+		icon = h_missions_gustav 
+		required_missions {
+			swedish_main_1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			army_size_percentage = 1
+			mil_tech = 4
+		}
+		effect = {
+			#Bahuslen
+			16 = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			eastern_norway = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			northern_norway = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			western_norway = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			jemtland_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_baltic_1 = {
+		icon = return_visby_to_the_league 
+		required_missions {
+			swedish_main_2
+		}
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 25
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			25  = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			estonia_ingria_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			livonia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			curonia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			karelia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			25 = {
+				add_center_of_trade_level = 1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_baltic_2 = {
+		icon = mission_eastern_european_city 
+		required_missions {
+			swedish_baltic_1
+		}
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = estonia_ingria_area
+				area = livonia_area
+				area = curonia_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			estonia_ingria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			livonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			curonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			west_prussia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			east_prussia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			samogitia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_baltic_3 = {
+		icon = mission_danzig_or_war 
+		required_missions {
+			swedish_baltic_2
+		}
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				area = west_prussia_area
+				area = east_prussia_area
+				area = samogitia_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			west_prussia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_prussia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			samogitia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_swedish_baltic_supremacy
+				duration = -1
+			}
+			add_mercantilism = 5
+		}
+	}
+	##Mission End
+	##
+		##Mission Start
+	swedish_main_3 = {
+		icon = mission_empire 
+		required_missions {
+			swedish_baltic_3 swedish_scand_3
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			total_development = 1000
+			prestige = 75
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			
+			add_country_modifier = {
+				name = h_swedish_empire
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##
+}
+##BranchEnd 2
+##BranchStart 3
+h_swedish_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = SWE
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	swedish_tech_1 = {
+		icon = mission_early_modern_university 
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			province_id = 1
+		}
+		trigger = {
+			1 = {
+				has_building = university
+			}
+		}
+		effect = {
+			add_ruler_modifier = {
+				name = h_swedish_enlightened_ruler
+				duration = -1
+			}
+			add_country_modifier = {
+				name = h_swedish_uppsala_university
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_tech_2 = {
+		icon = Compulsory_Education 
+		required_missions {
+			swedish_tech_1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			has_institution = enlightenment
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_swedish_age_of_liberty
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_scand_1 = {
+		icon = mission_protect_white_sea_trade 
+		required_missions {
+			swedish_main_2
+		}
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = eastern_norway
+				area = northern_norway
+				area = western_norway
+				area = jemtland_area
+				province_id = 16
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			16 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			eastern_norway = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_norway = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			western_norway = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jemtland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			denmark_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_scand_2 = {
+		icon = mission_scandinavian_port_authority 
+		required_missions {
+			swedish_scand_1
+		}
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = denmark_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			denmark_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			jutland_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			south_jutland_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_scand_3 = {
+		icon = mission_monarch_in_throne_room 
+		required_missions {
+			swedish_scand_2
+		}
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				region = scandinavia_region
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 80
+				is_core = root
+				owned_by = root
+				OR = {
+					region = scandinavia_region
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_swedish_one_king_in_the_north
+				duration = -1
+			}
+		}
+	}
+	##Mission End	
+}
+##BranchEnd 3
+##BranchStart 4
+h_swedish_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = SWE
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	swedish_economic_1 = {
+		icon = mission_african_gold 
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			province_id = 8
+		}
+		trigger = {
+			8 = {
+				base_production = 5
+			}
+		}
+		effect = {
+			add_years_of_owned_provinces_production_income = {
+				years = 10
+				trigger = {
+					trade_goods = copper
+				}
+			}
+			
+			dalarna_area = {
+				add_permanent_province_modifier = {
+					name = h_swedish_dalarna_state_local_1
+					duration = -1
+				}
+			}
+			
+			add_country_modifier = {
+				name = h_swedish_falun_mine_global
+				duration = 9125
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_economic_2 = {
+		icon = mission_colonial 
+		required_missions {
+			swedish_economic_1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			dalarna_area = {
+				type = all
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+			#Dalaskogen
+			8 = {
+				base_production = 6
+			}
+			#Kopparberg
+			5013 = {
+				base_production = 6
+			}
+			4 = {
+				base_production = 6
+			}
+		}
+		effect = {
+			dalarna_area = {
+				add_permanent_province_modifier = {
+					name = h_swedish_dalarna_state_local_2
+					duration = -1
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_economic_3 = {
+		icon = mission_have_manufactories
+		required_missions {
+			swedish_economic_2
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_manufactory_trigger = yes
+			}
+		}
+		effect = {
+			country_event = {
+				id = flavor_swe.3227
+			}
+			
+			add_country_modifier = {
+				name = h_swedish_industry
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+		##Mission Start
+	swedish_navy_1 = {
+		icon = secure_the_republic 
+		required_missions {
+			
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			naval_forcelimit = 25
+			navy_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_swedish_fleet
+				duration = 9125
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_navy_2 = {
+		icon = mission_launch_a_flagship 
+		required_missions {
+			swedish_navy_1
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			has_flagship = yes
+		}
+		effect = {
+			define_admiral = {
+				name = "Clas Eriksson"
+				shock = 3
+				fire = 3
+				manuever = 3
+				siege = 1
+			}
+			
+			define_advisor = {
+				type = naval_reformer
+				culture = ROOT
+				religion = ROOT
+				skill = 1
+				discount = yes
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	swedish_navy_3 = {
+		icon = Burn_Wooden_Wall 
+		required_missions {
+			swedish_navy_2
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			naval_forcelimit = 100
+			navy_size_percentage = 1
+		}
+		effect = {
+			add_navy_tradition = 20
+			
+			add_country_modifier = {
+				name = h_swedish_naval_supremacy
+				duration = 3650
+			}
+		}
+	}
+	##Mission End
+	##
+}
+##BranchEnd 4

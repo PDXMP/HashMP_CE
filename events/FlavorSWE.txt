@@ -14,17 +14,7 @@ country_event = {
 	picture = REFORM_eventPicture
 
 
-	fire_only_once = yes
-
-	trigger = {
-		tag = SWE
-		is_free_or_tributary_trigger = yes
-		is_at_war = no
-	}
-
-	mean_time_to_happen = {
-		months = 200
-	}
+	is_triggered_only = yes
 
 	option = {		# Reform and claim
 		name = flavor_swe.1.a
@@ -98,12 +88,6 @@ country_event = {
 		add_adm_power = -50
 		add_dip_power = -50
 		add_mil_power = -50
-		
-		add_country_modifier = {
-			name = vasa_centralization_reforms
-			duration = -1
-		}		
-
 	}
 	option = {		# Let things be as they are
 		name = flavor_swe.1.b
@@ -289,20 +273,7 @@ country_event = {
 	picture = LIBERUM_VETO_eventPicture
 	
 	
-	fire_only_once = yes
-
-	trigger = {
-		tag = SWE
-		is_free_or_tributary_trigger = yes
-		OR = {
-			religion = protestant
-			religion = reformed
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 64
-	}
+	is_triggered_only = yes
 
 
 	option = {		# This is the One True Faith!
@@ -411,16 +382,7 @@ country_event = {
 
 	fire_only_once = yes
 
-
-	trigger = {
-		tag = SWE
-		is_free_or_tributary_trigger = yes
-		OR = {
-			iron = 1
-			copper = 1
-		}
-		is_year = 1600
-	}
+	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		months = 240
@@ -461,20 +423,11 @@ country_event = {
 
 	fire_only_once = yes
 
-	trigger = {
-		tag = SWE
-		is_free_or_tributary_trigger = yes
-		MIL = 5
-	}
-
-	mean_time_to_happen = {
-		months = 64
-		
-	}
+	is_triggered_only = yes
 
 
-	option = {		# Regional Conscription
-		name = "flavor_swe.EVTOPTA3228"
+	option = {		# Professional Army
+		name = "h_swedish_events_override_reforms_option"
 		ai_chance = { factor = 80 }
 		add_army_professionalism = 0.05
 		add_country_modifier = {
@@ -492,7 +445,6 @@ country_event = {
 			duration = -1
 		}
 		add_innovativeness_small_effect = yes
-		#custom_tooltip = generic_more_mercs_available_indefinite_tt
 	}
 	option = {		# Naval Expansion
 		name = "flavor_swe.EVTOPTC3228"
@@ -669,35 +621,22 @@ country_event = {
 	desc = "flavor_swe.EVTDESC3232"
 	picture = COURT_eventPicture
 
-	fire_only_once = yes
-
-
-	trigger = {
-		tag = SWE
-		is_year = 1600
-		is_free_or_tributary_trigger = yes
-		government = monarchy
-	}
-
-	mean_time_to_happen = {
-		months = 200
-	}
+	is_triggered_only = yes
 
 
 	option = {		# The King shall rule supreme
 		name = "flavor_swe.EVTOPTA3232"
 		ai_chance = { factor = 90 }
 		add_stability = -1
-		add_absolutism = 15
 		add_country_modifier = {
-			name = the_absolutism
+			name = h_swedish_absolutism
 			duration = -1
 		}
 	}
 	option = {		# The King must heed the Council
 		name = "flavor_swe.EVTOPTB3232"
 		ai_chance = { factor = 10 }
-		add_stability = 3
+		add_stability_or_adm_power = yes
 	}
 }
 	
@@ -1065,18 +1004,7 @@ country_event = {
 	picture = MILITARY_CAMP_eventPicture
 
 
-	fire_only_once = yes
-
-	trigger = {
-		tag = SWE
-		is_year = 1650
-		NOT = { is_year = 1750 }
-	}
-
-	mean_time_to_happen = {
-		months = 200
-	}
-
+	is_triggered_only = yes
 
 	option = {		# Reform the army.
 		name = "flavor_swe.EVTOPTA3244"
@@ -1362,14 +1290,7 @@ country_event = {
 
 	fire_only_once = yes
 
-	trigger = {
-		tag = SWE
-		is_year = 1700
-	}
-
-	mean_time_to_happen = {
-		months = 400
-	}
+	is_triggered_only = yes
 
 
 	option = {		# Initiate the reform
@@ -1588,7 +1509,7 @@ country_event = {
 	trigger = {
 		tag = SWE
 		is_year = 1700
-		has_country_modifier = the_absolutism
+		has_country_modifier = swe_mod_swedish_absolutism
 		government = monarchy
 		OR = {
 			NOT = { ADM = 4 }
@@ -1616,9 +1537,9 @@ country_event = {
 		add_stability = 3
 		if = {
 			limit = {
-				has_country_modifier = the_absolutism
+				has_country_modifier = swe_mod_swedish_absolutism
 			}
-			remove_country_modifier = the_absolutism
+			remove_country_modifier = swe_mod_swedish_absolutism
 		}
 		add_country_modifier = {
 			name = age_of_fredom

@@ -936,3 +936,148 @@ country_event = {
 		}
 	}
 }
+
+#Swedish Missions Event
+
+#Coronation of a Swedish King
+country_event = {
+	id = hashmp.100
+	title = hashmp.100.title
+	desc = hashmp.100.desc
+	picture = BIG_BOOK_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.100.a
+		define_ruler = {
+			name = "Johan I"
+			dynasty = "Vasa"
+			adm = 4
+			dip = 4
+			mil = 2
+			fixed = yes
+			age = 20
+			claim = 80
+		}
+		
+		define_consort = {
+			name = "Birgitta"
+			dynasty = "Sture"
+			culture = ROOT
+			religion = ROOT
+			age = 19
+			adm = 3
+			dip = 3
+			mil = 3
+			female = yes
+		}
+		
+		custom_tooltip = h_swedish_missions_event_tooltip_1
+		
+		hidden_effect = {
+			set_country_flag = johanking
+			add_ruler_personality = lawgiver_personality
+		}
+	}
+	
+	option = {
+		name = hashmp.100.b
+		define_ruler = {
+			name = "Gustav I"
+			dynasty = "Vasa"
+			adm = 3
+			dip = 2
+			mil = 5
+			fixed = yes
+			age = 20
+			claim = 80
+		}
+		
+		define_consort = {
+			name = "Birgitta"
+			dynasty = "Sture"
+			culture = ROOT
+			religion = ROOT
+			age = 19
+			adm = 3
+			dip = 3
+			mil = 3
+			female = yes
+		}
+		
+		custom_tooltip = h_swedish_missions_event_tooltip_1
+		
+		hidden_effect = {
+			set_country_flag = gustavking
+			add_ruler_personality = martial_educator_personality
+		}
+	}
+}
+
+##Military Reforms for Sweden
+country_event = {
+	id = hashmp.101
+	title = hashmp.101.title
+	desc = hashmp.101.desc
+	picture = BIG_BOOK_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.101.a
+		add_country_modifier = {
+			name = h_swedish_reform_infantry_core
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = hashmp.101.b
+		add_country_modifier = {
+			name = h_swedish_reform_leadership
+			duration = -1
+		}
+	}
+}
+
+##Ga-Pa
+country_event = {
+	id = hashmp.102
+	title = hashmp.102.title
+	desc = hashmp.102.desc
+	picture = BIG_BOOK_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.102.a
+		add_country_modifier = {
+			name = h_swedish_ga_pa_doctrine
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = hashmp.102.b
+		add_army_tradition = 25
+	}
+}
+
+##Alexander of the North
+country_event = {
+	id = hashmp.103
+	title = hashmp.103.title
+	desc = hashmp.103.desc
+	picture = BIG_BOOK_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.103.a
+		add_ruler_modifier = {
+			name = h_swedish_alexander_of_the_north
+			duration = -1
+		}
+	}
+}

@@ -1,0 +1,147 @@
+##Missions
+
+##Sweden
+
+h_swedish_reform_infantry_core = {
+	land_morale = 0.05
+}
+
+h_swedish_reform_leadership = {
+	free_leader_pool = 1
+	leader_land_shock = 1
+	leader_naval_shock = 1
+}
+
+h_swedish_innovative_warfare = {
+	artillery_power = 0.1
+	movement_speed = 0.1
+}
+
+h_swedish_carolean_regiments = {
+	infantry_power = 0.10
+}
+
+h_swedish_ga_pa_doctrine = {
+	land_maintenance_modifier = 0.10
+	land_morale = 0.05
+	recover_army_morale_speed = 0.05
+}
+
+h_swedish_uppsala_university = {
+	innovativeness_gain = 0.33
+}
+
+h_swedish_age_of_liberty = {
+	global_unrest = -1
+	global_institution_spread = 0.15
+}
+
+h_swedish_falun_mine_global = {
+	land_maintenance_modifier = -0.05
+	reinforce_cost_modifier  = -0.10
+}
+
+h_swedish_dalarna_state_local_1 = {
+	local_development_cost = -0.1
+}
+
+h_swedish_dalarna_state_local_2 = {
+	trade_goods_size_modifier = 0.25
+}
+
+h_swedish_lutheran_support = {
+	missionaries = 1
+	relation_with_heretics = -25
+}
+
+h_swedish_church_of_sweden = {
+	church_power_modifier = 0.25
+	monthly_fervor_increase = 0.5
+	global_religious_conversion_resistance = 1
+	relation_with_heretics = -10
+}
+
+h_swedish_absolutism = {
+	global_autonomy = -0.05
+	max_absolutism = 20
+}
+
+h_swedish_centralization = {
+	global_autonomy = -0.025
+	nobles_influence_modifier = -0.1
+	possible_adm_policy = 1
+}
+
+h_swedish_tax_reform = {
+	global_tax_modifier = 0.10
+}
+
+h_swedish_allotment_system = {
+	manpower_recovery_speed = 0.05
+	global_regiment_recruit_speed = -0.10
+}
+
+h_swedish_baltic_supremacy = {
+	trade_efficiency = 0.10
+}
+
+h_swedish_one_king_in_the_north = {
+	prestige = 1
+}
+
+h_swedish_empire = {
+	land_forcelimit_modifier = 0.10
+	state_maintenance_modifier = -0.10
+}
+
+h_swedish_fleet = {
+	naval_maintenance_modifier = -0.10
+	galley_power = 0.10
+	sailors_recovery_speed = 0.33
+}
+
+h_swedish_neva_conquered = {
+	local_missionary_strength = 0.03
+	local_culture_conversion_cost = -0.33
+}
+
+h_swedish_enlightened_ruler = {
+	idea_cost = -0.10
+}
+
+h_swedish_alexander_of_the_north = {
+	country_military_power = 1
+}
+
+h_swedish_agriculture_boost = {
+	production_efficiency = 0.15
+}
+
+h_swedish_industry = {
+	infantry_cost = -0.10
+}
+
+h_swedish_naval_supremacy = {
+	naval_morale = 0.10
+}
+
+##Override
+
+swedish_military_reforms = {
+	drill_gain_modifier = 0.15
+	drill_decay_modifier = -0.10
+}
+
+swedish_mercenary_core = {
+	mercenary_discipline = 0.05
+	mercenary_cost = -0.10
+}
+
+swedish_naval_reforms = {
+	global_ship_cost = -0.10
+	naval_morale = 0.10
+}
+
+wallon_immigrants = {
+	trade_goods_size_modifier = 0.05
+}
