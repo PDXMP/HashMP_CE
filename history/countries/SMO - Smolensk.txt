@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = ryazanian
+religion = orthodox
+technology_group = eastern
+capital = 293	# Smolensk
+fixed_capital = 293 # Cannot move capital away from this province & no power cost to move to it
+1440.1.1 = {
+	monarch = {	
+		name = "Yury I"		
+		adm = 0		
+		dip = 0
+		mil = 3  
+		birth_date = 1386.1.1         # Used to set the age of the ruler. Derived from the date of the history entry the monarch scope is found in.
+		female = no                # Whether the ruler is female
+		regent = no                # Whether the ruler is considered a regency
+		religion = orthodox       # The religion of the ruler
+		culture = ruthenian         # The culture of the ruler
+	}
+}
