@@ -1,16 +1,16 @@
-#4543 - Rylsk
+#298 - Kursk
+
 owner = CHR
 controller = CHR 
 culture = ryazanian
 religion = orthodox
 hre = no
-base_tax = 1
+base_tax = 2
 base_production = 1
 trade_goods = grain
 base_manpower = 1
-capital = "Rylsk"
+capital = "Kursk"
 is_city = yes
-fort_15th = yes
 add_core = CHR
 add_core = LIT
 add_local_autonomy = 25

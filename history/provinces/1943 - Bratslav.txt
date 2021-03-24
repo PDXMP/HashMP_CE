@@ -1,15 +1,15 @@
-# Winnica / Vinnystia
+#Bratslav/East Podolia
 
 owner = KIE
 controller = KIE
 culture = ruthenian
 religion = orthodox
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 3
 trade_goods = livestock 
-base_manpower = 1
-capital = "Vinnytsia"
+base_manpower = 2
+capital = "Bratslav"
 is_city = yes
 #fort_15th = yes #Bratslav Castle
 add_local_autonomy = 25

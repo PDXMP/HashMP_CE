@@ -1,7 +1,7 @@
 #4246 - Mstislav
 
-owner = LIT
-controller = LIT  
+owner = PLT
+controller = PLT  
 culture = byelorussian
 religion = orthodox 
 hre = no
