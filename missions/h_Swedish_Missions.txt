@@ -236,7 +236,7 @@ h_swedish_missions_1 = {
 		trigger = {
 			OR = {
 				dominant_religion = protestant
-				dominant_religion = religion
+				dominant_religion = reformed
 			}
 			religious_unity = 0.85
 		}
