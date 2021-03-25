@@ -941,7 +941,10 @@ humanist_ideas = {
 	category = ADM
 
 	trigger = {
-		was_player = yes
+		OR = {
+			was_player = yes
+			is_colonial_nation = yes
+		}
 	}
 
 	bonus = {
@@ -984,7 +987,10 @@ influence_ideas = {
 	category = DIP
 	
 	trigger = {
-		was_player = yes
+		OR = {
+			was_player = yes
+			is_colonial_nation = yes
+		}
 	}
 
 	bonus = {

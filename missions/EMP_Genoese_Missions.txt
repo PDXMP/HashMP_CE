@@ -751,7 +751,7 @@ emp_gen_missions_western_med_2 = {
 	
 	emp_gen_venetian_naval_power = {
 		icon = overshadow_venice
-		required_missions = { tradenode_ferrara }
+		required_missions = { }
 		position = 3
 		trigger = {
 			OR = {
