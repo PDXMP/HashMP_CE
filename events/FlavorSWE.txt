@@ -1509,7 +1509,7 @@ country_event = {
 	trigger = {
 		tag = SWE
 		is_year = 1700
-		has_country_modifier = swe_mod_swedish_absolutism
+		has_country_modifier = h_swedish_absolutism
 		government = monarchy
 		OR = {
 			NOT = { ADM = 4 }
@@ -1537,9 +1537,9 @@ country_event = {
 		add_stability = 3
 		if = {
 			limit = {
-				has_country_modifier = swe_mod_swedish_absolutism
+				has_country_modifier = h_swedish_absolutism
 			}
-			remove_country_modifier = swe_mod_swedish_absolutism
+			remove_country_modifier = h_swedish_absolutism
 		}
 		add_country_modifier = {
 			name = age_of_fredom
