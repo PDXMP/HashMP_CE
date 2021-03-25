@@ -3,7 +3,7 @@ union = {
 	first = DAN
 	second = NOR
 	#start_date = 1397.6.17
-	start_date = 1444.1.1
+	start_date = 1445.1.1
 	end_date = 1449.11.20
 }
 
