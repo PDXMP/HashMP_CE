@@ -59,6 +59,9 @@ categories =  {
 		nation_designer_cost_multiplier = 1.05
 		
 		terrain_override = {
+			#Denmark
+			5004 
+		
 			104 109 108 1744
 			
 			45 44 1874 113 172 
@@ -145,7 +148,10 @@ categories =  {
 		nation_designer_cost_multiplier = 0.9
 		
 		terrain_override = { 
-			2 4 8 9 11 18 29 30 31 315 4123 4124 # Sweden
+			#Sweden
+			5025 5023 19 5030
+		
+			4 8 9 11 18 29 30 31 315 4123 4124 # Sweden
 			309 1955 #Russia
 			2611 996 997 998 2575 #n am
 			
@@ -175,6 +181,9 @@ categories =  {
 		supply_limit = 5
 		
 		terrain_override = {
+			#Norway
+			5031 
+		
 			508 509 511 515 525 527 530 545 550 554 557 1947 2036 
 			2037 2040 2043 2056 2058 2069 2070 2071 2080 2090 2092 2097
 			
@@ -207,7 +216,7 @@ categories =  {
 			1792 4023 #Madagascar
 			4046 4050 4063 4066 4068 4069 4070 4072 4098 4102 #Central Africa
 			156 1951 #Carpathians
-			4144 4145 4164 #Scandinavia
+			4144 4145 #Scandinavia
 			232 #Iberia
 			2742 #Korea
 			1018 1025 1029 1820 1830 1832 1843 1852 4180 4183 4185 4188 4191 4192 #Japan
@@ -253,6 +262,9 @@ categories =  {
 		supply_limit = 6
 		
 		terrain_override = {
+			#Sweden
+			5009 4164 5008 5010 2 5012 5
+		
 			206 1851 # Spain
 			374 375 376 4118 4119 4120 4121 #Ireland
 			129 4755 4757 4703 # Balkans
@@ -279,7 +291,7 @@ categories =  {
 			181 1866 94 93 188 189 1880 72 69 1761 66 63 80 1760 83 81 1762 1742 1878 85 84 86
 			56 1758 82 
 			53 1857 46 52 51 50 1759 47 48 49 1763 60 61 59 
-			57 38 296 297 1945 298 239 372 247 1863 3 2 1985 2749 1753 307 1956 1754 
+			57 38 296 297 1945 298 239 372 247 1863 3 1985 2749 1753 307 1956 1754 
 			2423 306 1957 1083 1079 1972 2427 1074 2428 2433 2429 1068 1064 480 1065 
 			2432 2443 1062 1063 1060 2442 2435 1056 2446 
 			2551 2013 971 2566 2570 985 984 2569 2568 945 2521 2522 2587 912 2487 973 874 873 2482 
@@ -325,6 +337,8 @@ categories =  {
 		supply_limit = 4
 		
 		terrain_override = {
+			#Norway
+			5029
 			210	226 # Spain
 			139 1831 143 138 4175  #Balkans
 			158 1952 #Hungary
@@ -413,6 +427,9 @@ categories =  {
 		nation_designer_cost_multiplier = 1
 		
 		terrain_override = {
+			#Denmark
+			5005 5006 5007 5003 
+		
 			2666 # North America
 			213 218 219 #Spain
 			526 #India
@@ -697,6 +714,9 @@ categories =  {
 		nation_designer_cost_multiplier = 0.9	
 
 		terrain_override = {
+			#Norway
+			5032
+		
 			520 536 542 544 578 2035 2077 2079 2085 2087 2093
 			850 852 853 2018 2621 2622 2623 2626 2628 2629 2644 2646 2645 
 			588 2401 2301 324 1224 
