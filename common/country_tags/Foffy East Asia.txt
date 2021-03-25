@@ -1,0 +1,26 @@
+#Duchies
+KSL = "countries/Silla.txt"
+BKJ = "countries/Baekje.txt"
+GOG = "countries/Goguryeo.txt"
+OKJ = "countries/Okjeo.txt"
+
+#Prefectures
+GAR = "countries/Garak.txt"
+BIH = "countries/Bihwa.txt"
+GOR = "countries/Goryeong.txt"
+MHN = "countries/Mahan.txt"
+JHN = "countries/Jinhan.txt"
+BYH = "countries/Byeonhan.txt"
+NAE = "countries/Naemi.txt"
+BLH = "countries/Balhae.txt"
+TMN = "countries/Tamna.txt"
+
+#City States
+BUS = "countries/Busan.txt"
+SEO = "countries/Seoul.txt"
+JGY = "countries/Jangyeon.txt"
+SGY = "countries/Sogyeong.txt"
+
+#Protectorates
+ZHE = "countries/Zhenfan.txt"
+LIN = "countries/Lintun.txt"

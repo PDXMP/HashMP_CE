@@ -2484,23 +2484,51 @@ south_sulawesi_area = { #4
 ########################################
 
 pyongan_area = { #3
-	1845 2744 4232
+	1845 4993 733 4991
 }
 
 hamgyeong_area = { #3
-	732 2742 2743
+	732 2743 4998
 }
 
-western_korea_area = { #4 (Hwanghae + Gyeonggi)
-	733 735 4230 4231
+western_korea_area = { #4 Hanseong
+	735 4230 734 4980
 }
 
 eastern_korea_area = { #5 (Gangwon +  Gyeongsang)
-	734 736 2694 2745 4227
+	2745 4227 4981 4982
 }
 
 south_korea_area = { #4 (Jeolla, Chungcheong) +Jeju
-	 737 1013 2741 4228 4229
+	 737 2741 4228 4978 4976
+}
+
+yukjin_area = {
+	2742 5001 5002
+}
+
+yanggang_area = {
+	4999 5000 4232
+}
+
+chagang_area = {
+	4994 4995 4996 2744 4997
+}
+
+kangwon_area = {
+	4992 4989 2694 4987
+}
+
+hwanghae_area = {
+	4990 4231 4988
+}
+
+gangwon_area = {
+	4986 4985 4984 4983
+}
+
+jeolla_area = {
+	4979 1013 4229 4977 736
 }
 
 hokkaido_area = { #5
