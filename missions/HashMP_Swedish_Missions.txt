@@ -783,7 +783,6 @@ h_swedish_missions_4 = {
 		}
 		trigger = {
 			16 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			eastern_norway = {
