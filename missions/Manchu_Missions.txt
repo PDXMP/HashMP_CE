@@ -637,7 +637,7 @@ manchu_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			ankang_area = {
+			chifeng_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -689,7 +689,7 @@ manchu_missions_2 = {
 				}
 				add_base_manpower = 2
 			}
-			ankang_area = {
+			chifeng_area = {
 				limit = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
