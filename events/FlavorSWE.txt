@@ -384,11 +384,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-	mean_time_to_happen = {
-		months = 240
-	}
-
-
 	option = {		# Encourage Walloon immigration
 		name = "flavor_swe.EVTOPTA3227"
 		ai_chance = { factor = 90 }
