@@ -125,7 +125,7 @@ h_swedish_missions_1 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			crown_land_share = 30
+			crown_land_share = 50
 			dip_power = 100
 			num_of_owned_provinces_with = {
 				is_core = ROOT
