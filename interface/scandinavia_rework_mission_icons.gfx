@@ -1,0 +1,17 @@
+	### Emperor Mission Icons ###	
+	
+spriteTypes = {	
+	
+	spriteType = {
+		name = "h_missions_caroleans"
+		texturefile = "gfx//modgfx/h_missions_caroleans.dds"
+	}
+	spriteType = {
+		name = "h_missions_drake_wars"
+		texturefile = "gfx//modgfx/h_missions_drake_wars.dds"
+	}
+	spriteType = {
+		name = "h_missions_gustav"
+		texturefile = "gfx//modgfx/h_missions_gustav.dds"
+	}
+}

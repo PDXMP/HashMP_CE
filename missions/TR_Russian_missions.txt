@@ -515,6 +515,20 @@ tr_russia_conquest_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			inner_finland_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			nyland_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	# liberate ruthenia
@@ -773,6 +787,8 @@ tr_russia_conquest_2 = {
 				area = finland_area
 				area = bothnia_area
 				area = laponia_area
+				area = nyland_area
+				area = inner_finland_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -788,6 +804,14 @@ tr_russia_conquest_2 = {
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
 			laponia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			inner_finland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			nyland_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
