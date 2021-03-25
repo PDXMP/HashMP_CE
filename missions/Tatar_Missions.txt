@@ -336,7 +336,7 @@ tatar_missions_slot_2 = {
 			tag = BSH
 			tag = AST
 			tag = QAS
-			tag = KZH
+			#tag = KZH
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -629,7 +629,7 @@ tatar_missions_2 = {
 			tag = BSH
 			tag = AST
 			tag = QAS
-			tag = KZH
+			#tag = KZH
 		}
 		NOT = { map_setup = map_setup_random }
 	}
