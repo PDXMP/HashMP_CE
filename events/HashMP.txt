@@ -568,7 +568,7 @@ country_event = {
 	option = {
 		name = hashmp.11.a
 		add_years_of_income = -1
-		4745 = {
+		4841 = {
 			change_trade_goods = gold
 			add_base_production = 3
 		}
@@ -576,7 +576,7 @@ country_event = {
 	
 	option = {
 		name = hashmp.11.b
-		4745 = {
+		4841 = {
 			change_trade_goods = gold
 		}
 	}
