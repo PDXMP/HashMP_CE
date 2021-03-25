@@ -133,6 +133,7 @@ h_cyi_anc2_3 = {
 
 h_cyi_anc3_1 = {
 	cavalry_power = 0.2
+	cav_to_inf_ratio = 0.3
 }
 
 h_cyi_anc3_2 = {

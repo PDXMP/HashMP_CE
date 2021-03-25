@@ -1041,6 +1041,12 @@ has_courthouse_building_trigger = {
 	}
 }
 
+has_naval_battery_building_trigger = {
+	OR = {
+		has_building = naval_battery
+		has_building = coastal_defence
+	}
+}
 has_been_insulted_by_root = {
 	custom_trigger_tooltip = {
 		tooltip = has_been_insulted_by_root

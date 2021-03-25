@@ -1,6 +1,6 @@
 #Paderborn
-owner = PAD
-controller = PAD
+owner = HES
+controller = HES
 culture = hannoverian
 religion = catholic
 trade_goods = wool
@@ -12,6 +12,7 @@ hre = yes
 is_city = yes # Paderborn is through its history dependant on Münster and Köln.
 #add_core = KOL
 add_core = PAD
+add_core = HES
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

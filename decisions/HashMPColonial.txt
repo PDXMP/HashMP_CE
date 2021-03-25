@@ -968,7 +968,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_aus_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_australia_dominion_request
 			}
 		}
@@ -992,7 +992,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_nzl_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_australia_dominion_request
 			}
 		}
@@ -1016,7 +1016,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_brz_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_brazil_dominion_request
 			}
 		}
@@ -1040,7 +1040,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_prg_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_brazil_dominion_request
 			}
 		}
@@ -1064,7 +1064,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_cal_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_california_dominion_request
 			}
 		}
@@ -1088,7 +1088,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_csc_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_california_dominion_request
 			}
 		}
@@ -1112,7 +1112,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_can_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_canada_dominion_request
 			}
 		}
@@ -1136,7 +1136,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_que_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_canada_dominion_request
 			}
 		}
@@ -1160,7 +1160,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_cub_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_caribbean_dominion_request
 			}
 		}
@@ -1184,7 +1184,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_hat_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_caribbean_dominion_request
 			}
 		}
@@ -1208,7 +1208,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_col_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_colombia_dominion_request
 			}
 		}
@@ -1232,7 +1232,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_vnz_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_colombia_dominion_request
 			}
 		}
@@ -1280,7 +1280,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_usa_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_easternamerica_dominion_request
 			}
 		}
@@ -1304,7 +1304,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_chl_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_laplata_dominion_request
 			}
 		}
@@ -1328,7 +1328,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_lap_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_laplata_dominion_request
 			}
 		}
@@ -1352,7 +1352,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_lou_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_louisiana_dominion_request
 			}
 		}
@@ -1376,7 +1376,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_tex_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_louisiana_dominion_request
 			}
 		}
@@ -1400,7 +1400,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_mex_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_mexico_dominion_request
 			}
 		}
@@ -1424,7 +1424,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_cam_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_mexico_dominion_request
 			}
 		}
@@ -1448,7 +1448,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_blv_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_peru_dominion_request
 			}
 		}
@@ -1472,7 +1472,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_peu_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_peru_dominion_request
 			}
 		}
@@ -1541,7 +1541,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_ala_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_california_dominion_request
 			}
 		}
@@ -1608,7 +1608,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_sna_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_california_dominion_request
 			}
 		}
@@ -1675,7 +1675,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_wsi_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_caribbean_dominion_request
 			}
 		}
@@ -1742,7 +1742,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_flo_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_easternamerica_dominion_request
 			}
 		}
@@ -1809,7 +1809,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_ili_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_louisiana_dominion_request
 			}
 		}
@@ -1876,7 +1876,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_vrm_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_easternamerica_dominion_request
 			}
 		}
@@ -1943,7 +1943,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_orj_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_southafrica_dominion_request
 			}
 		}
@@ -2010,7 +2010,7 @@ country_decisions = {
 		}
 		effect  = {
 			set_country_flag = h_dsa_enabled
-			any_subject_country = {
+			every_subject_country = {
 				clr_country_flag = h_southafrica_dominion_request
 			}
 		}

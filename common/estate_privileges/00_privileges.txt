@@ -3387,12 +3387,6 @@ estate_rajput_military = {
 	loyalty = -0.05
 	is_valid = {
 	}
-	can_select = {
-		custom_trigger_tooltip = {
-			tooltip = no_other_mil_privilege
-			NOT = { has_estate_privilege = estate_nobles_nobility_primacy }
-		}
-	}
 	on_granted = {
 	}
 	can_select = {
@@ -3401,6 +3395,10 @@ estate_rajput_military = {
 			estate = estate_rajput
 			value = 4
 			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = no_other_mil_privilege
+			NOT = { has_estate_privilege = estate_nobles_nobility_primacy }
 		}
 	}
 	penalties = {
@@ -3799,10 +3797,10 @@ estate_nomadic_tribes_primacy_to_the_bannermen = {
 		}
 	}
 	penalties = {
-		amount_of_banners = -0.25
+		amount_of_banners = -0.2
 	}
 	benefits = {
-		land_morale = 0.1
+		land_morale = 0.05
 	}
 	ai_will_do = {
 		factor = 1

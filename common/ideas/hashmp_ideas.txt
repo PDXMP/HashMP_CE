@@ -406,6 +406,7 @@ AHU_ideas = {
 	}
 	ahu_3 = {
 		cavalry_power = 0.1
+		cav_to_inf_ratio = 0.2
 	}
 	ahu_4 = {
 		inflation_reduction = 0.05
@@ -443,8 +444,8 @@ ARB_ideas = { #Arabian Empire
 		global_sailors_modifier = 0.25
 	}
 	arb_2 = { #Arabian Horsemanship
-		cavalry_cost = -0.1
 		cavalry_power = 0.2
+		cav_to_inf_ratio = 0.2
 	}
 	arb_3 = { #Bedouin Raiders
 		hostile_attrition = 1
@@ -1833,8 +1834,8 @@ TTS_ideas = { #By Xaime
 		technology_cost = -0.1
 	}
 	tts_four = { ##Norman Knights/Horsemen of Europe also inspired by Murat's short reign of Naples, who was nicknamed the 'First Horsemen of Europe'
-		cavalry_power = 0.15
-		cavalry_cost = -0.10
+		cav_to_inf_ratio = 0.2
+		cavalry_cost = -0.15
 	}
 	tts_five = { ##sic_noble_admirals // Extra leader pool so having an admiral isn't agony when focusing on land.
 		navy_tradition = 1
