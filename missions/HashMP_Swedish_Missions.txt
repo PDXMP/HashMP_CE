@@ -481,7 +481,7 @@ h_swedish_missions_3 = {
 		}
 		trigger = {
 			army_size_percentage = 1
-			mil_tech = 4
+			navy_size_percentage = 1
 		}
 		effect = {
 			#Bahuslen
