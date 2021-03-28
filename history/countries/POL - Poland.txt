@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = h_reform_elective_monarchy
 primary_culture = polish
 religion = catholic
 technology_group = eastern
