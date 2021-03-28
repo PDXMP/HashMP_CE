@@ -11,7 +11,7 @@ add_accepted_culture = ruthenian
 national_focus = ADM
 
 1444.10.1 = {
-	set_estate_privilege = estate_nobles_golden_liberty
+	set_estate_privilege = estate_polish_nobility_golden_liberty
 }
 
 1440.1.1 = {
