@@ -447,3 +447,33 @@ h_reform_protectorate = {
 	}
 	duration = 5
 }
+
+h_reform_elective_monarchy = {
+	icon = "elective_monarchy"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+				tag = PLC
+				tag = POL
+			}
+
+	}
+	queen = yes
+	maintain_dynasty = yes 
+
+	modifiers = {
+		num_accepted_cultures = 3
+		#-50% cost to promote cultures
+		global_autonomy = -0.025
+		governing_capacity = 50
+	}
+
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			mamluk_mechanic
+		}
+		heir = no
+		foreign_slave_rulers = no
+	}
+}
