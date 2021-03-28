@@ -39,6 +39,7 @@ monarchy = {
 				h_reform_warlord_4
 				h_reform_sinicized_horde
 				h_reform_kdukedom
+				h_reform_elective_monarchy
 			}
 		}
 		hereditary_vs_nobility = { #Noble Privileges
@@ -179,6 +180,7 @@ monarchy = {
 		parliamentary_reform
 		english_monarchy
 		states_general_reform
+		h_reform_elective_monarchy
 	}
 	
 	# Dictatorships etc
@@ -203,6 +205,7 @@ monarchy = {
 		prussian_monarchy
 		elective_monarchy
 		celestial_empire
+		h_reform_elective_monarchy
 	}
 
 	#Flavor
