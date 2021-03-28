@@ -460,12 +460,13 @@ h_reform_elective_monarchy = {
 	}
 	queen = yes
 	maintain_dynasty = yes 
+	lock_level_when_selected = yes
 
 	modifiers = {
-		num_accepted_cultures = 3
-		#-50% cost to promote cultures
-		global_autonomy = -0.025
-		governing_capacity = 50
+		vassal_income = 0.25
+		global_unrest = -1
+		max_absolutism = -30
+		governing_capacity = 100
 	}
 
 	conditional = {
