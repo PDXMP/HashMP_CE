@@ -1,6 +1,6 @@
 
 #This one or the next one will always be valid
-estate_nobles_hire_advisor = {
+estate_polish_nobility_hire_advisor = {
 	can_select = {
 		NOT = {
 			employed_advisor = {
@@ -19,13 +19,13 @@ estate_nobles_hire_advisor = {
 	}
     task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
     }
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -33,7 +33,7 @@ estate_nobles_hire_advisor = {
     }
 }
 
-estate_nobles_fire_advisor = {
+estate_polish_nobility_fire_advisor = {
 	can_select = {
 		employed_advisor = {
 			category = MIL
@@ -62,7 +62,7 @@ estate_nobles_fire_advisor = {
 	}
     task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		clr_country_flag = just_fired_mil_advisor
@@ -78,7 +78,7 @@ estate_nobles_fire_advisor = {
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -88,7 +88,7 @@ estate_nobles_fire_advisor = {
 }
 
 #Get allies
-estate_nobles_get_allies = {
+estate_polish_nobility_get_allies = {
 	can_select = {
 		NOT = { num_of_allies = 3 }
 		NOT = { num_of_subjects = 3 }
@@ -106,7 +106,7 @@ estate_nobles_get_allies = {
 	}
 	pre_effect = {
 		set_variable = {
-			which = estate_nobles_get_allies_variable
+			which = estate_polish_nobility_get_allies_variable
 			value = 0
 		}
 		if = {
@@ -124,13 +124,13 @@ estate_nobles_get_allies = {
 				}
 			}
 			set_variable = {
-				which = estate_nobles_get_allies_variable
+				which = estate_polish_nobility_get_allies_variable
 				value = 1
 			}
 		}
 		else = {
 			set_variable = {
-				which = estate_nobles_get_allies_variable
+				which = estate_polish_nobility_get_allies_variable
 				value = 2
 			}
 		}
@@ -142,7 +142,7 @@ estate_nobles_get_allies = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_nobles_get_allies_variable
+					which = estate_polish_nobility_get_allies_variable
 					value = 2
 				}
 			}
@@ -154,7 +154,7 @@ estate_nobles_get_allies = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		add_country_modifier = {
@@ -164,7 +164,7 @@ estate_nobles_get_allies = {
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -174,7 +174,7 @@ estate_nobles_get_allies = {
 
 
 #Befriend Rival of Rival
-estate_nobles_befriend_rival_of_rival = {
+estate_polish_nobility_befriend_rival_of_rival = {
 	can_select = {
 		any_rival_country = {
 			any_rival_country = {
@@ -336,7 +336,7 @@ estate_nobles_befriend_rival_of_rival = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		generate_scaled_advisor_of_type_and_religion_effect = {
@@ -347,7 +347,7 @@ estate_nobles_befriend_rival_of_rival = {
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -356,7 +356,7 @@ estate_nobles_befriend_rival_of_rival = {
 }
 
 #Restore legitimacy
-estate_nobles_restore_legitimacy = {
+estate_polish_nobility_restore_legitimacy = {
 	can_select = {
 		NOT = { legitimacy_equivalent = 65 }
 		government = monarchy
@@ -385,7 +385,7 @@ estate_nobles_restore_legitimacy = {
 	}
     task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		if = {
@@ -403,7 +403,7 @@ estate_nobles_restore_legitimacy = {
     }
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -413,7 +413,7 @@ estate_nobles_restore_legitimacy = {
 
 
 #Improve Relations with X
-estate_nobles_relations_with_X = {
+estate_polish_nobility_relations_with_X = {
 	can_select = {
 		any_known_country = {
 			NOT = { is_rival = root }
@@ -487,7 +487,7 @@ estate_nobles_relations_with_X = {
 	}
 	pre_effect = {
 		set_variable = {
-			which = estate_nobles_relations_with_X
+			which = estate_polish_nobility_relations_with_X
 			value = 0
 		}
 		random_known_country = {
@@ -553,13 +553,13 @@ estate_nobles_relations_with_X = {
 				}
 			}
 			set_variable = {
-				which = estate_nobles_relations_with_X
+				which = estate_polish_nobility_relations_with_X
 				value = 1
 			}
 		}
 		else = {
 			set_variable = {
-				which = estate_nobles_relations_with_X
+				which = estate_polish_nobility_relations_with_X
 				value = 2
 			}
 		}
@@ -571,7 +571,7 @@ estate_nobles_relations_with_X = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_nobles_relations_with_X
+					which = estate_polish_nobility_relations_with_X
 					value = 2
 				}
 			}
@@ -593,13 +593,13 @@ estate_nobles_relations_with_X = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 15
 		}
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -610,7 +610,7 @@ estate_nobles_relations_with_X = {
 
 
 #Get AE down (if there is a coalition) 
-estate_nobles_break_coalition = {
+estate_polish_nobility_break_coalition = {
 	can_select = {
 		any_country = {
 			coalition_target = root
@@ -705,14 +705,14 @@ estate_nobles_break_coalition = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		add_dip_power = 50
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -722,7 +722,7 @@ estate_nobles_break_coalition = {
 
 
 #Condottieri against rival (with Mare Nostrum)
-estate_nobles_condottieri_rivals = {
+estate_polish_nobility_condottieri_rivals = {
 	can_select = {
 		has_dlc = "Mare Nostrum"
 		is_at_war = no
@@ -859,14 +859,14 @@ estate_nobles_condottieri_rivals = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		add_mil_power = 50
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -876,7 +876,7 @@ estate_nobles_condottieri_rivals = {
 
 
 #Support independence of X (subject of rival)
-estate_nobles_support_independence = {
+estate_polish_nobility_support_independence = {
 	can_select = {
 		OR = {
 			has_dlc = "Conquest of Paradise"
@@ -958,14 +958,14 @@ estate_nobles_support_independence = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		add_dip_power = 50
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -975,7 +975,7 @@ estate_nobles_support_independence = {
 
 
 #Retake Core
-estate_nobles_retake_core = {
+estate_polish_nobility_retake_core = {
 	can_select = {
 		is_free_or_tributary_trigger = yes
 		OR = {
@@ -1091,7 +1091,7 @@ estate_nobles_retake_core = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		add_country_modifier = {
@@ -1101,7 +1101,7 @@ estate_nobles_retake_core = {
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -1110,7 +1110,7 @@ estate_nobles_retake_core = {
 }
 
 #Crush Revolts (not heretics)
-estate_nobles_crush_revolts = {
+estate_polish_nobility_crush_revolts = {
 	can_select = {
 		num_of_rebel_armies = 1
 		NOT = {
@@ -1148,14 +1148,14 @@ estate_nobles_crush_revolts = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		add_prestige = 10
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -1165,7 +1165,7 @@ estate_nobles_crush_revolts = {
 
 
 #Regain liberty
-estate_nobles_regain_liberty = {
+estate_polish_nobility_regain_liberty = {
 	can_select = {
 		is_subject = yes
 		is_at_war = no
@@ -1206,7 +1206,7 @@ estate_nobles_regain_liberty = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		create_general = {
@@ -1216,7 +1216,7 @@ estate_nobles_regain_liberty = {
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -1226,7 +1226,7 @@ estate_nobles_regain_liberty = {
 
 
 #Convert province culture
-estate_nobles_convert_province_culture = {
+estate_polish_nobility_convert_province_culture = {
 	can_select = {
 		any_owned_province = {
 			NOT = { culture = root }
@@ -1314,7 +1314,7 @@ estate_nobles_convert_province_culture = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		event_target:agenda_province = {
@@ -1333,7 +1333,7 @@ estate_nobles_convert_province_culture = {
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -1351,7 +1351,7 @@ estate_nobles_convert_province_culture = {
 }
 
 #Protect our Culture in X
-estate_nobles_protect_our_culture = {
+estate_polish_nobility_protect_our_culture = {
 	can_select = {
 		is_free_or_tributary_trigger = yes
 		is_at_war = no
@@ -1533,15 +1533,15 @@ estate_nobles_protect_our_culture = {
 				add_nationalism = -5
 			}
 		}
-		else = { custom_tooltip = estate_nobles_protect_our_culture_effect_tooltip }
+		else = { custom_tooltip = estate_polish_nobility_protect_our_culture_effect_tooltip }
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 15
 		}
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -1570,7 +1570,7 @@ estate_nobles_protect_our_culture = {
 
 
 #Vassalise X country (less than 3 provinces, you have at least 12)
-estate_nobles_vassalise_vulnerable_country = {
+estate_polish_nobility_vassalise_vulnerable_country = {
 	can_select = {
 		is_free_or_tributary_trigger = yes
 		is_at_war = no
@@ -1724,7 +1724,7 @@ estate_nobles_vassalise_vulnerable_country = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		add_country_modifier = {
@@ -1740,7 +1740,7 @@ estate_nobles_vassalise_vulnerable_country = {
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -1762,7 +1762,7 @@ estate_nobles_vassalise_vulnerable_country = {
 
 
 #Conquer X area from country you don't have great relations with
-estate_nobles_expand_into_x = {
+estate_polish_nobility_expand_into_x = {
 	can_select = {
 		is_free_or_tributary_trigger = yes
 		is_at_war = no
@@ -1966,14 +1966,14 @@ estate_nobles_expand_into_x = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 15
 		}
 		add_adm_power = 50
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -2001,7 +2001,7 @@ estate_nobles_expand_into_x = {
 }
 
 #Complete conquest of X area from country you don't have great relations with
-estate_nobles_complete_conquest_of_x = {
+estate_polish_nobility_complete_conquest_of_x = {
 	can_select = {
 		is_free_or_tributary_trigger = yes
 		is_at_war = no
@@ -2233,14 +2233,14 @@ estate_nobles_complete_conquest_of_x = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 15
 		}
 		add_adm_power = 50
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -2269,7 +2269,7 @@ estate_nobles_complete_conquest_of_x = {
 
 
 #Annex vassal
-estate_nobles_annex_subject = {
+estate_polish_nobility_annex_subject = {
 	can_select = {
 		is_at_war = no
 		diplomatic_reputation = 0
@@ -2362,14 +2362,14 @@ estate_nobles_annex_subject = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		custom_tooltip = no_penalties_annexing_tt
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -2384,7 +2384,7 @@ estate_nobles_annex_subject = {
 
 
 #Bigger Army
-estate_nobles_build_an_army = {
+estate_polish_nobility_build_an_army = {
 	can_select = {
 		NOT = { has_country_modifier = thriving_arms_industry }
 		NOT = { army_size_percentage = 0.5 }
@@ -2439,7 +2439,7 @@ estate_nobles_build_an_army = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		create_general = {
@@ -2448,7 +2448,7 @@ estate_nobles_build_an_army = {
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -2458,7 +2458,7 @@ estate_nobles_build_an_army = {
 
 
 #Bigger Army than Rival
-#estate_nobles_bigger_army_than_rival = {
+#estate_polish_nobility_bigger_army_than_rival = {
 #	can_select = {
 #		NOT = { has_country_modifier = thriving_arms_industry }
 #		NOT = { army_size_percentage = 1 }
@@ -2513,7 +2513,7 @@ estate_nobles_build_an_army = {
 #	}
 #	task_completed_effect = {
 #		add_estate_loyalty = {
-#			estate = estate_nobles
+#			estate = estate_polish_nobility
 #			loyalty = 10
 #		}
 #		add_country_modifier = {
@@ -2523,7 +2523,7 @@ estate_nobles_build_an_army = {
 #	}
 #    failing_effect = {
 #        add_estate_loyalty_modifier = {
-#            estate = estate_nobles
+#            estate = estate_polish_nobility
 #			desc = EST_VAL_AGENDA_DENIED
 #			loyalty = -5
 #			duration = 7300
@@ -2532,7 +2532,7 @@ estate_nobles_build_an_army = {
 #}
 
 #Manpower reserves
-estate_nobles_build_up_manpower_reserves = {
+estate_polish_nobility_build_up_manpower_reserves = {
 	can_select = {
 		is_at_war = no
 		NOT = { manpower_percentage = 0.40 }
@@ -2562,7 +2562,7 @@ estate_nobles_build_up_manpower_reserves = {
 	}
 	pre_effect = {
 		set_variable = {
-			which = estate_nobles_build_up_manpower_reserves_variable
+			which = estate_polish_nobility_build_up_manpower_reserves_variable
 			value = 0
 		}
 		if = {
@@ -2572,7 +2572,7 @@ estate_nobles_build_up_manpower_reserves = {
 				}
 			}
 			set_variable = {
-				which = estate_nobles_build_up_manpower_reserves_variable
+				which = estate_polish_nobility_build_up_manpower_reserves_variable
 				value = 1
 			}
 		}
@@ -2583,13 +2583,13 @@ estate_nobles_build_up_manpower_reserves = {
 				}
 			}
 			set_variable = {
-				which = estate_nobles_build_up_manpower_reserves_variable
+				which = estate_polish_nobility_build_up_manpower_reserves_variable
 				value = 2
 			}
 		}
 		else = {
 			set_variable = {
-				which = estate_nobles_build_up_manpower_reserves_variable
+				which = estate_polish_nobility_build_up_manpower_reserves_variable
 				value = 3
 			}
 		}
@@ -2602,7 +2602,7 @@ estate_nobles_build_up_manpower_reserves = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_nobles_build_up_manpower_reserves_variable
+					which = estate_polish_nobility_build_up_manpower_reserves_variable
 					value = 3
 				}
 			}
@@ -2611,7 +2611,7 @@ estate_nobles_build_up_manpower_reserves = {
 		else_if = {
 			limit = {
 				check_variable = {
-					which = estate_nobles_build_up_manpower_reserves_variable
+					which = estate_polish_nobility_build_up_manpower_reserves_variable
 					value = 2
 				}
 			}
@@ -2623,7 +2623,7 @@ estate_nobles_build_up_manpower_reserves = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		generate_scaled_military_advisor_of_religion_effect = {
@@ -2634,7 +2634,7 @@ estate_nobles_build_up_manpower_reserves = {
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -2645,7 +2645,7 @@ estate_nobles_build_up_manpower_reserves = {
 
 
 #Recover bad prestige
-estate_nobles_recover_abysmal_prestige = {
+estate_polish_nobility_recover_abysmal_prestige = {
 	can_select = {
 		NOT = { prestige = -30 }
 	}
@@ -2654,7 +2654,7 @@ estate_nobles_recover_abysmal_prestige = {
 	}
 	pre_effect = {
 		set_variable = {
-			which = estate_nobles_improve_prestige_var
+			which = estate_polish_nobility_improve_prestige_var
 			value = 0
 		}
 		if = {
@@ -2664,13 +2664,13 @@ estate_nobles_recover_abysmal_prestige = {
 				}
 			}
 			set_variable = {
-				which = estate_nobles_improve_prestige_var
+				which = estate_polish_nobility_improve_prestige_var
 				value = 1
 			}
 		}
 		else = {
 			set_variable = {
-				which = estate_nobles_improve_prestige_var
+				which = estate_polish_nobility_improve_prestige_var
 				value = 2
 			}
 		}
@@ -2679,7 +2679,7 @@ estate_nobles_recover_abysmal_prestige = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_nobles_improve_prestige_var
+					which = estate_polish_nobility_improve_prestige_var
 					value = 2
 				}
 			}
@@ -2691,14 +2691,14 @@ estate_nobles_recover_abysmal_prestige = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		add_stability_or_adm_power = yes
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
@@ -2709,7 +2709,7 @@ estate_nobles_recover_abysmal_prestige = {
 
 #Get good prestige
 
-estate_nobles_improve_prestige = {
+estate_polish_nobility_improve_prestige = {
 	can_select = {
 		prestige = -30
 		NOT = { prestige = 20 }
@@ -2725,7 +2725,7 @@ estate_nobles_improve_prestige = {
 	}
 	pre_effect = {
 		set_variable = {
-			which = estate_nobles_improve_prestige_var
+			which = estate_polish_nobility_improve_prestige_var
 			value = 0
 		}
 		if = {
@@ -2735,7 +2735,7 @@ estate_nobles_improve_prestige = {
 				}
 			}
 			set_variable = {
-				which = estate_nobles_improve_prestige_var
+				which = estate_polish_nobility_improve_prestige_var
 				value = 1
 			}
 		}
@@ -2746,13 +2746,13 @@ estate_nobles_improve_prestige = {
 				}
 			}
 			set_variable = {
-				which = estate_nobles_improve_prestige_var
+				which = estate_polish_nobility_improve_prestige_var
 				value = 2
 			}
 		}
 		else = {
 			set_variable = {
-				which = estate_nobles_improve_prestige_var
+				which = estate_polish_nobility_improve_prestige_var
 				value = 3
 			}
 		}
@@ -2761,7 +2761,7 @@ estate_nobles_improve_prestige = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_nobles_improve_prestige_var
+					which = estate_polish_nobility_improve_prestige_var
 					value = 3
 				}
 			}
@@ -2770,7 +2770,7 @@ estate_nobles_improve_prestige = {
 		else_if = {
 			limit = {
 				check_variable = {
-					which = estate_nobles_improve_prestige_var
+					which = estate_polish_nobility_improve_prestige_var
 					value = 2
 				}
 			}
@@ -2782,14 +2782,14 @@ estate_nobles_improve_prestige = {
 	}
 	task_completed_effect = {
 		add_estate_loyalty = {
-			estate = estate_nobles
+			estate = estate_polish_nobility
 			loyalty = 10
 		}
 		add_adm_power = 50
 	}
     failing_effect = {
         add_estate_loyalty_modifier = {
-            estate = estate_nobles
+            estate = estate_polish_nobility
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
