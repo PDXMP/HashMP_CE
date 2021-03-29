@@ -1,4 +1,4 @@
-estate_lithuania_nobles =
+estate_lithuanian_nobility =
 {
 	icon = 2
 
@@ -187,7 +187,7 @@ estate_lithuania_nobles =
 	
 	
 
-	color = { 200 0 50 }
+	color = { 230 145 20 }
 	
 	privileges = {
 		estate_lithuanian_nobility_land_rights
@@ -196,15 +196,10 @@ estate_lithuania_nobles =
 		estate_lithuanian_nobility_levies
 		estate_lithuanian_nobility_advisors
 		estate_lithuanian_nobility_right_of_counsel
-		estate_lithuanian_nobility_french_strong_duchies
-		estate_lithuanian_nobility_supremacy_over_crown
-		estate_lithuanian_nobility_junker_primacy
 		estate_lithuanian_nobility_strong_duchies
 		estate_lithuanian_nobility_golden_liberty
-		estate_lithuanian_nobility_veto_heir_apparent
 		estate_lithuanian_nobility_nieszawa_privileges
 		estate_lithuanian_nobility_pacta_conventa
-		estate_lithuanian_nobility_monopoly_of_metals
 		estate_lithuanian_nobility_monopoly_of_livestock
 		estate_lithuanian_nobility_monopoly_of_gems
 		estate_lithuanian_nobility_statutory_rights
@@ -233,7 +228,6 @@ estate_lithuania_nobles =
 		estate_lithuanian_nobility_complete_conquest_of_x
 		estate_lithuanian_nobility_annex_subject
 		estate_lithuanian_nobility_build_an_army
-		estate_lithuanian_nobility_bigger_army_than_rival
 		estate_lithuanian_nobility_build_up_manpower_reserves
 		estate_lithuanian_nobility_recover_abysmal_prestige
 		estate_lithuanian_nobility_improve_prestige
