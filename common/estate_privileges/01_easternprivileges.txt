@@ -338,57 +338,6 @@ estate_polish_nobility_right_of_counsel = {
 	}
 }
 
-estate_polish_nobility_supremacy_over_crown = {
-	icon = privilege_empty_throne
-	max_absolutism = -5
-	influence = 0.1
-	loyalty = 0.1
-	is_valid = {
-		has_dlc = "Emperor"
-	}
-	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_polish_nobility
-			value = 4
-			}
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-		burghers_loyalty_modifier = 0.1
-		church_loyalty_modifier = 0.1
-		dhimmi_loyalty_modifier = 0.1
-		cossacks_loyalty_modifier = 0.1
-		rajput_loyalty_modifier = 0.1
-		brahmins_hindu_loyalty_modifier = 0.1
-		brahmins_muslim_loyalty_modifier = 0.1
-		brahmins_other_loyalty_modifier = 0.1
-		maratha_loyalty_modifier = 0.1
-		jains_loyalty_modifier = 0.1
-		vaisyas_loyalty_modifier = 0.1
-		nomadic_tribes_loyalty_modifier = 0.1
-		burghers_influence_modifier = 0.1
-		church_influence_modifier = 0.1
-		dhimmi_influence_modifier = 0.1
-		cossacks_influence_modifier = 0.1
-		rajput_influence_modifier = 0.1
-		brahmins_hindu_influence_modifier = 0.1
-		brahmins_muslim_influence_modifier = 0.1
-		brahmins_other_influence_modifier = 0.1
-		maratha_influence_modifier = 0.1
-		jains_influence_modifier = 0.1
-		vaisyas_influence_modifier = 0.1
-		nomadic_tribes_influence_modifier = 0.1
-	}
-	mechanics = {
-		can_give_agendas_without_interaction
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
 estate_polish_nobility_monopoly_of_metals = {
 	icon = privilege_monopoly_of_goods_iron
 	max_absolutism = -10
@@ -485,98 +434,6 @@ estate_polish_nobility_monopoly_of_metals = {
 	cooldown_years = 10
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.5 }
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
-
-estate_polish_nobility_monopoly_of_livestock = {
-	icon = privilege_monopoly_of_goods_livestock
-	max_absolutism = -10
-	loyalty = 0.1
-	is_valid = {
-		has_dlc = "Emperor"
-		any_owned_province = {
-			trade_goods = livestock
-		}
-	}
-	can_select = {
-		custom_trigger_tooltip = {
-			tooltip = unavailable_during_revolution_disaster
-			NOT = { has_disaster = revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
-		}
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_polish_nobility
-			value = 4
-			}
-		}
-	}
-	on_granted = {
-		add_mercantilism = 0.5
-		add_years_of_owned_provinces_production_income = {
-			years = 8
-			trigger = {
-				trade_goods = livestock
-			}
-			custom_tooltip = MONOPOLY_INCOME_LIVESTOCK_DESC
-		}
-		custom_tooltip = estate_polish_nobility_monopoly_of_livestock_effect_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = livestock
-				}
-				add_province_modifier = {
-					name = estate_polish_nobility_monopoly_of_livestock_mod
-					duration = -1
-				}
-			}
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_polish_nobility_monopoly_of_livestock_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = estate_polish_nobility_monopoly_of_livestock_mod
-				}
-				remove_province_modifier = estate_polish_nobility_monopoly_of_livestock_mod
-			}
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_polish_nobility_monopoly_of_livestock_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = estate_polish_nobility_monopoly_of_livestock_mod
-				}
-				remove_province_modifier = estate_polish_nobility_monopoly_of_livestock_mod
-			}
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-	cooldown_years = 10
-	on_cooldown_expires = {
-		country_event = { id = monopoly_privileges.6 }
 	}
 	ai_will_do = {
 		factor = 0
@@ -688,13 +545,6 @@ estate_polish_nobility_strong_duchies = {
 			}
 			vassal = 1
 		}
-		NOT = { has_estate_privilege = estate_polish_nobility_french_strong_duchies }
-		NOT = {
-			AND = {
-				tag = FRA
-				NOT = { has_estate_privilege = estate_polish_nobility_strong_duchies }
-			}
-		}
 	}
 	can_select = {
 		if = {
@@ -747,7 +597,7 @@ estate_polish_nobility_golden_liberty = {
 	is_valid = {
 		OR = {
 			has_estate_privilege = estate_polish_nobility_golden_liberty #Poland starts with it
-			has_reform = h_reform_h_reform_elective_monarchy
+			has_reform = h_reform_elective_monarchy
 		}
 		government = monarchy
 	}
@@ -832,6 +682,7 @@ estate_polish_nobility_golden_liberty = {
 	}
 	mechanics = {
 		exempt_from_seize_land
+		can_give_agendas_without_interaction
 	}
 	ai_will_do = {
 		factor = 0
@@ -898,32 +749,6 @@ estate_polish_nobility_pacta_conventa = {
 		inflation_action_cost = 0.5
 	}
 	benefits = {
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
-
-estate_polish_nobility_veto_heir_apparent = {
-	icon = privilege_royal_authority
-	max_absolutism = -5
-	loyalty = -0.05
-	is_valid = {
-		has_dlc = "Emperor"
-		has_reform = h_reform_elective_monarchy
-	}
-	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_polish_nobility
-			value = 4
-			}
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-		monthly_support_heir_gain = 0.33
 	}
 	ai_will_do = {
 		factor = 0
@@ -1382,159 +1207,6 @@ estate_lithuanian_nobility_right_of_counsel = {
 	}
 }
 
-estate_lithuanian_nobility_supremacy_over_crown = {
-	icon = privilege_empty_throne
-	max_absolutism = -5
-	influence = 0.1
-	loyalty = 0.1
-	is_valid = {
-		has_dlc = "Emperor"
-	}
-	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-		burghers_loyalty_modifier = 0.1
-		church_loyalty_modifier = 0.1
-		dhimmi_loyalty_modifier = 0.1
-		cossacks_loyalty_modifier = 0.1
-		rajput_loyalty_modifier = 0.1
-		brahmins_hindu_loyalty_modifier = 0.1
-		brahmins_muslim_loyalty_modifier = 0.1
-		brahmins_other_loyalty_modifier = 0.1
-		maratha_loyalty_modifier = 0.1
-		jains_loyalty_modifier = 0.1
-		vaisyas_loyalty_modifier = 0.1
-		nomadic_tribes_loyalty_modifier = 0.1
-		burghers_influence_modifier = 0.1
-		church_influence_modifier = 0.1
-		dhimmi_influence_modifier = 0.1
-		cossacks_influence_modifier = 0.1
-		rajput_influence_modifier = 0.1
-		brahmins_hindu_influence_modifier = 0.1
-		brahmins_muslim_influence_modifier = 0.1
-		brahmins_other_influence_modifier = 0.1
-		maratha_influence_modifier = 0.1
-		jains_influence_modifier = 0.1
-		vaisyas_influence_modifier = 0.1
-		nomadic_tribes_influence_modifier = 0.1
-	}
-	mechanics = {
-		can_give_agendas_without_interaction
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
-estate_lithuanian_nobility_monopoly_of_metals = {
-	icon = privilege_monopoly_of_goods_iron
-	max_absolutism = -10
-	loyalty = 0.1
-	is_valid = {
-		has_dlc = "Emperor"
-		any_owned_province = {
-			OR = {
-				trade_goods = iron
-				trade_goods = copper
-			}
-		}
-	}
-	can_select = {
-		custom_trigger_tooltip = {
-			tooltip = unavailable_during_revolution_disaster
-			NOT = { has_disaster = revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
-		}
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
-	}
-	on_granted = {
-		add_mercantilism = 0.5
-		add_years_of_owned_provinces_production_income = {
-			years = 8
-			trigger = {
-				OR = {
-					trade_goods = iron
-					trade_goods = copper
-				}
-			}
-			custom_tooltip = MONOPOLY_INCOME_IRON_DESC
-		}
-		custom_tooltip = estate_lithuanian_nobility_monopoly_of_metals_effect_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					OR = {
-						trade_goods = iron
-						trade_goods = copper
-					}
-				}
-				add_province_modifier = {
-					name = estate_lithuanian_nobility_monopoly_of_metals_mod
-					duration = -1
-				}
-			}
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_lithuanian_nobility_monopoly_of_metals_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = estate_lithuanian_nobility_monopoly_of_metals_mod
-				}
-				remove_province_modifier = estate_lithuanian_nobility_monopoly_of_metals_mod
-			}
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_lithuanian_nobility_monopoly_of_metals_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = estate_lithuanian_nobility_monopoly_of_metals_mod
-				}
-				remove_province_modifier = estate_lithuanian_nobility_monopoly_of_metals_mod
-			}
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-
-	cooldown_years = 10
-	on_cooldown_expires = {
-		country_event = { id = monopoly_privileges.5 }
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
-
 estate_lithuanian_nobility_monopoly_of_livestock = {
 	icon = privilege_monopoly_of_goods_livestock
 	max_absolutism = -10
@@ -1732,13 +1404,6 @@ estate_lithuanian_nobility_strong_duchies = {
 			}
 			vassal = 1
 		}
-		NOT = { has_estate_privilege = estate_lithuanian_nobility_french_strong_duchies }
-		NOT = {
-			AND = {
-				tag = FRA
-				NOT = { has_estate_privilege = estate_lithuanian_nobility_strong_duchies }
-			}
-		}
 	}
 	can_select = {
 		if = {
@@ -1791,7 +1456,7 @@ estate_lithuanian_nobility_golden_liberty = {
 	is_valid = {
 		OR = {
 			has_estate_privilege = estate_lithuanian_nobility_golden_liberty #Poland starts with it
-			has_reform = h_reform_h_reform_elective_monarchy
+			has_reform = h_reform_elective_monarchy
 		}
 		government = monarchy
 	}
@@ -1876,6 +1541,7 @@ estate_lithuanian_nobility_golden_liberty = {
 	}
 	mechanics = {
 		exempt_from_seize_land
+		can_give_agendas_without_interaction
 	}
 	ai_will_do = {
 		factor = 0
@@ -1942,32 +1608,6 @@ estate_lithuanian_nobility_pacta_conventa = {
 		inflation_action_cost = 0.5
 	}
 	benefits = {
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
-
-estate_lithuanian_nobility_veto_heir_apparent = {
-	icon = privilege_royal_authority
-	max_absolutism = -5
-	loyalty = -0.05
-	is_valid = {
-		has_dlc = "Emperor"
-		has_reform = h_reform_elective_monarchy
-	}
-	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-		monthly_support_heir_gain = 0.33
 	}
 	ai_will_do = {
 		factor = 0
