@@ -1,4 +1,4 @@
-estate_polish_nobles =
+estate_polish_nobility =
 {
 	icon = 2
 
@@ -196,16 +196,11 @@ estate_polish_nobles =
 		estate_polish_nobility_levies
 		estate_polish_nobility_advisors
 		estate_polish_nobility_right_of_counsel
-		estate_polish_nobility_french_strong_duchies
-		estate_polish_nobility_supremacy_over_crown
-		estate_polish_nobility_junker_primacy
 		estate_polish_nobility_strong_duchies
 		estate_polish_nobility_golden_liberty
-		estate_polish_nobility_veto_heir_apparent
 		estate_polish_nobility_nieszawa_privileges
 		estate_polish_nobility_pacta_conventa
 		estate_polish_nobility_monopoly_of_metals
-		estate_polish_nobility_monopoly_of_livestock
 		estate_polish_nobility_monopoly_of_gems
 		estate_polish_nobility_statutory_rights
 	}
@@ -233,7 +228,6 @@ estate_polish_nobles =
 		estate_polish_nobility_complete_conquest_of_x
 		estate_polish_nobility_annex_subject
 		estate_polish_nobility_build_an_army
-		estate_polish_nobility_bigger_army_than_rival
 		estate_polish_nobility_build_up_manpower_reserves
 		estate_polish_nobility_recover_abysmal_prestige
 		estate_polish_nobility_improve_prestige
