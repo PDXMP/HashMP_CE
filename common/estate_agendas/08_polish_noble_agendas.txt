@@ -106,7 +106,7 @@ estate_polish_nobility_get_allies = {
 	}
 	pre_effect = {
 		set_variable = {
-			which = estate_polish_nobility_get_allies_variable
+			which = estate_nobles_get_allies_variable
 			value = 0
 		}
 		if = {
@@ -124,13 +124,13 @@ estate_polish_nobility_get_allies = {
 				}
 			}
 			set_variable = {
-				which = estate_polish_nobility_get_allies_variable
+				which = estate_nobles_get_allies_variable
 				value = 1
 			}
 		}
 		else = {
 			set_variable = {
-				which = estate_polish_nobility_get_allies_variable
+				which = estate_nobles_get_allies_variable
 				value = 2
 			}
 		}
@@ -142,7 +142,7 @@ estate_polish_nobility_get_allies = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_polish_nobility_get_allies_variable
+					which = estate_nobles_get_allies_variable
 					value = 2
 				}
 			}
@@ -487,7 +487,7 @@ estate_polish_nobility_relations_with_X = {
 	}
 	pre_effect = {
 		set_variable = {
-			which = estate_polish_nobility_relations_with_X
+			which = estate_nobles_relations_with_X
 			value = 0
 		}
 		random_known_country = {
@@ -553,13 +553,13 @@ estate_polish_nobility_relations_with_X = {
 				}
 			}
 			set_variable = {
-				which = estate_polish_nobility_relations_with_X
+				which = estate_nobles_relations_with_X
 				value = 1
 			}
 		}
 		else = {
 			set_variable = {
-				which = estate_polish_nobility_relations_with_X
+				which = estate_nobles_relations_with_X
 				value = 2
 			}
 		}
@@ -571,7 +571,7 @@ estate_polish_nobility_relations_with_X = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_polish_nobility_relations_with_X
+					which = estate_nobles_relations_with_X
 					value = 2
 				}
 			}
@@ -1533,7 +1533,7 @@ estate_polish_nobility_protect_our_culture = {
 				add_nationalism = -5
 			}
 		}
-		else = { custom_tooltip = estate_polish_nobility_protect_our_culture_effect_tooltip }
+		else = { custom_tooltip = estate_nobles_protect_our_culture_effect_tooltip }
 		add_estate_loyalty = {
 			estate = estate_polish_nobility
 			loyalty = 15
@@ -2457,80 +2457,6 @@ estate_polish_nobility_build_an_army = {
 }
 
 
-#Bigger Army than Rival
-#estate_polish_nobility_bigger_army_than_rival = {
-#	can_select = {
-#		NOT = { has_country_modifier = thriving_arms_industry }
-#		NOT = { army_size_percentage = 1 }
-#		any_rival_country = {
-#			NOT = { war_with = root }
-#			NOT = { root = { army_size = prev } }
-#			army_balance = {
-#				who = root
-#				value = 1.05
-#			}
-#			NOT = {
-#				army_balance = {
-#					who = root
-#					value = 1.25
-#				}
-#			}
-#		}
-#	}
-#	selection_weight = {
-#		factor = 5
-#	}
-#	pre_effect = {
-#		random_rival_country = {
-#			limit = {
-#				NOT = { war_with = root }
-#				NOT = { root = { army_size = prev } }
-#				army_balance = {
-#					who = root
-#					value = 1.05
-#				}
-#				NOT = {
-#					army_balance = {
-#						who = root
-#						value = 1.25
-#					}
-#				}
-#			}
-#			save_event_target_as = agenda_country
-#		}
-#	}
-#	provinces_to_highlight = {
-#		is_capital_of = event_target:agenda_country
-#	}
-#	task_requirements = {
-#		if = {
-#			limit = { event_target:agenda_country = { num_of_cities = 1 } }
-#			army_size = event_target:agenda_country
-#		}
-#		else = {
-#			always = yes
-#		}
-#	}
-#	task_completed_effect = {
-#		add_estate_loyalty = {
-#			estate = estate_polish_nobility
-#			loyalty = 10
-#		}
-#		add_country_modifier = {
-#			name = thriving_arms_industry
-#			duration = 3650
-#		}
-#	}
-#    failing_effect = {
-#        add_estate_loyalty_modifier = {
-#            estate = estate_polish_nobility
-#			desc = EST_VAL_AGENDA_DENIED
-#			loyalty = -5
-#			duration = 7300
-#        }
-#    }
-#}
-
 #Manpower reserves
 estate_polish_nobility_build_up_manpower_reserves = {
 	can_select = {
@@ -2562,7 +2488,7 @@ estate_polish_nobility_build_up_manpower_reserves = {
 	}
 	pre_effect = {
 		set_variable = {
-			which = estate_polish_nobility_build_up_manpower_reserves_variable
+			which = estate_nobles_build_up_manpower_reserves_variable
 			value = 0
 		}
 		if = {
@@ -2572,7 +2498,7 @@ estate_polish_nobility_build_up_manpower_reserves = {
 				}
 			}
 			set_variable = {
-				which = estate_polish_nobility_build_up_manpower_reserves_variable
+				which = estate_nobles_build_up_manpower_reserves_variable
 				value = 1
 			}
 		}
@@ -2583,13 +2509,13 @@ estate_polish_nobility_build_up_manpower_reserves = {
 				}
 			}
 			set_variable = {
-				which = estate_polish_nobility_build_up_manpower_reserves_variable
+				which = estate_nobles_build_up_manpower_reserves_variable
 				value = 2
 			}
 		}
 		else = {
 			set_variable = {
-				which = estate_polish_nobility_build_up_manpower_reserves_variable
+				which = estate_nobles_build_up_manpower_reserves_variable
 				value = 3
 			}
 		}
@@ -2602,7 +2528,7 @@ estate_polish_nobility_build_up_manpower_reserves = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_polish_nobility_build_up_manpower_reserves_variable
+					which = estate_nobles_build_up_manpower_reserves_variable
 					value = 3
 				}
 			}
@@ -2611,7 +2537,7 @@ estate_polish_nobility_build_up_manpower_reserves = {
 		else_if = {
 			limit = {
 				check_variable = {
-					which = estate_polish_nobility_build_up_manpower_reserves_variable
+					which = estate_nobles_build_up_manpower_reserves_variable
 					value = 2
 				}
 			}
@@ -2654,7 +2580,7 @@ estate_polish_nobility_recover_abysmal_prestige = {
 	}
 	pre_effect = {
 		set_variable = {
-			which = estate_polish_nobility_improve_prestige_var
+			which = estate_nobles_improve_prestige_var
 			value = 0
 		}
 		if = {
@@ -2664,13 +2590,13 @@ estate_polish_nobility_recover_abysmal_prestige = {
 				}
 			}
 			set_variable = {
-				which = estate_polish_nobility_improve_prestige_var
+				which = estate_nobles_improve_prestige_var
 				value = 1
 			}
 		}
 		else = {
 			set_variable = {
-				which = estate_polish_nobility_improve_prestige_var
+				which = estate_nobles_improve_prestige_var
 				value = 2
 			}
 		}
@@ -2679,7 +2605,7 @@ estate_polish_nobility_recover_abysmal_prestige = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_polish_nobility_improve_prestige_var
+					which = estate_nobles_improve_prestige_var
 					value = 2
 				}
 			}
@@ -2725,7 +2651,7 @@ estate_polish_nobility_improve_prestige = {
 	}
 	pre_effect = {
 		set_variable = {
-			which = estate_polish_nobility_improve_prestige_var
+			which = estate_nobles_improve_prestige_var
 			value = 0
 		}
 		if = {
@@ -2735,7 +2661,7 @@ estate_polish_nobility_improve_prestige = {
 				}
 			}
 			set_variable = {
-				which = estate_polish_nobility_improve_prestige_var
+				which = estate_nobles_improve_prestige_var
 				value = 1
 			}
 		}
@@ -2746,13 +2672,13 @@ estate_polish_nobility_improve_prestige = {
 				}
 			}
 			set_variable = {
-				which = estate_polish_nobility_improve_prestige_var
+				which = estate_nobles_improve_prestige_var
 				value = 2
 			}
 		}
 		else = {
 			set_variable = {
-				which = estate_polish_nobility_improve_prestige_var
+				which = estate_nobles_improve_prestige_var
 				value = 3
 			}
 		}
@@ -2761,7 +2687,7 @@ estate_polish_nobility_improve_prestige = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_polish_nobility_improve_prestige_var
+					which = estate_nobles_improve_prestige_var
 					value = 3
 				}
 			}
@@ -2770,7 +2696,7 @@ estate_polish_nobility_improve_prestige = {
 		else_if = {
 			limit = {
 				check_variable = {
-					which = estate_polish_nobility_improve_prestige_var
+					which = estate_nobles_improve_prestige_var
 					value = 2
 				}
 			}
@@ -2797,4 +2723,1437 @@ estate_polish_nobility_improve_prestige = {
     }
 }
 
+estate_polish_nobility_build_army_building_in_y = {
+	can_select = {
+		mil_tech = 6
+		any_owned_province = {
+			is_state_core = root
+			OR = {
+				NOT = { has_building = training_fields }
+				NOT = { has_building = conscription_center }
+			}
+			OR = {
+				AND = {
+					NOT = { has_building = barracks }
+					num_free_building_slots = 1
+				}
+				AND = {
+					ROOT = { mil_tech = 8 }
+					NOT = { has_building = regimental_camp }
+					num_free_building_slots = 1
+				}
+				AND = {
+					NOT = { has_building = training_fields }
+					ROOT = { mil_tech = 16 }
+					OR = {
+						has_building = barracks
+						num_free_building_slots = 1
+					}
+				}
+				AND = {
+					NOT = { has_building = conscription_center }
+					ROOT = { mil_tech = 22 }
+					OR = {
+						has_building = regimental_camp
+						num_free_building_slots = 1
+					}
+				}
+			}
+		}
+	}
+	selection_weight = {
+		factor = 1
+		modifier = {
+			factor = 0.65
+			NOT = {
+				any_owned_province = {
+					is_state_core = root
+					base_manpower = 3
+					OR = {
+						NOT = { has_building = training_fields }
+						NOT = { has_building = conscription_center }
+					}
+					OR = {
+						AND = {
+							NOT = { has_building = barracks }
+							num_free_building_slots = 1
+						}
+						AND = {
+							ROOT = { mil_tech = 8 }
+							NOT = { has_building = regimental_camp }
+							num_free_building_slots = 1
+						}
+						AND = {
+							NOT = { has_building = training_fields }
+							ROOT = { mil_tech = 16 }
+							OR = {
+								has_building = barracks
+								num_free_building_slots = 1
+							}
+						}
+						AND = {
+							NOT = { has_building = conscription_center }
+							ROOT = { mil_tech = 22 }
+							OR = {
+								has_building = regimental_camp
+								num_free_building_slots = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_owned_province = {
+				is_state_core = root
+				base_manpower = 6
+				OR = {
+					NOT = { has_building = training_fields }
+					NOT = { has_building = conscription_center }
+				}
+				OR = {
+					AND = {
+						NOT = { has_building = barracks }
+						num_free_building_slots = 1
+					}
+					AND = {
+						ROOT = { mil_tech = 8 }
+						NOT = { has_building = regimental_camp }
+						num_free_building_slots = 1
+					}
+					AND = {
+						NOT = { has_building = training_fields }
+						ROOT = { mil_tech = 16 }
+						OR = {
+							has_building = barracks
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
+						NOT = { has_building = conscription_center }
+						ROOT = { mil_tech = 22 }
+						OR = {
+							has_building = regimental_camp
+							num_free_building_slots = 1
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				crown_land_share = 15
+			}
+		}
+	}
+	pre_effect = {
+		set_variable = {
+			which = estate_nobles_build_army_building_in_y_var
+			value = 0
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				OR = {
+					NOT = { has_building = training_fields }
+					NOT = { has_building = conscription_center }
+				}
+				OR = {
+					AND = {
+						NOT = { has_building = barracks }
+						num_free_building_slots = 1
+					}
+					AND = {
+						ROOT = { mil_tech = 8 }
+						NOT = { has_building = regimental_camp }
+						num_free_building_slots = 1
+					}
+					AND = {
+						NOT = { has_building = training_fields }
+						ROOT = { mil_tech = 16 }
+						OR = {
+							has_building = barracks
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
+						NOT = { has_building = conscription_center }
+						ROOT = { mil_tech = 22 }
+						OR = {
+							has_building = regimental_camp
+							num_free_building_slots = 1
+						}
+					}
+				}
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				base_manpower = 3
+				OR = {
+					NOT = { has_building = training_fields }
+					NOT = { has_building = conscription_center }
+				}
+				OR = {
+					AND = {
+						NOT = { has_building = barracks }
+						num_free_building_slots = 1
+					}
+					AND = {
+						ROOT = { mil_tech = 8 }
+						NOT = { has_building = regimental_camp }
+						num_free_building_slots = 1
+					}
+					AND = {
+						NOT = { has_building = training_fields }
+						ROOT = { mil_tech = 16 }
+						OR = {
+							has_building = barracks
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
+						NOT = { has_building = conscription_center }
+						ROOT = { mil_tech = 22 }
+						OR = {
+							has_building = regimental_camp
+							num_free_building_slots = 1
+						}
+					}
+				}
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				base_manpower = 6
+				OR = {
+					NOT = { has_building = training_fields }
+					NOT = { has_building = conscription_center }
+				}
+				OR = {
+					AND = {
+						NOT = { has_building = barracks }
+						num_free_building_slots = 1
+					}
+					AND = {
+						ROOT = { mil_tech = 8 }
+						NOT = { has_building = regimental_camp }
+						num_free_building_slots = 1
+					}
+					AND = {
+						NOT = { has_building = training_fields }
+						ROOT = { mil_tech = 16 }
+						OR = {
+							has_building = barracks
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
+						NOT = { has_building = conscription_center }
+						ROOT = { mil_tech = 22 }
+						OR = {
+							has_building = regimental_camp
+							num_free_building_slots = 1
+						}
+					}
+				}
+			}
+			save_event_target_as = agenda_province
+		}
+		event_target:agenda_province = {
+			if = {
+				limit = {
+					NOT = { has_building = training_fields }
+					ROOT = { mil_tech = 16 }
+					OR = {
+						num_free_building_slots = 1
+						has_building = barracks
+					}
+				}
+				ROOT = {
+					set_variable = {
+						which = estate_nobles_build_army_building_in_y_var
+						value = 4
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_building = barracks }
+					NOT = { has_building = training_fields }
+					num_free_building_slots = 1
+				}
+				ROOT = {
+					set_variable = {
+						which = estate_nobles_build_army_building_in_y_var
+						value = 3
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_building = regimental_camp
+				}
+				ROOT = {
+					set_variable = {
+						which = estate_nobles_build_army_building_in_y_var
+						value = 2
+					}
+				}
+			}
+			else = {
+				ROOT = {
+					set_variable = {
+						which = estate_nobles_build_army_building_in_y_var
+						value = 1
+					}
+				}
+			}
+		}
+	}
+	provinces_to_highlight = {
+		province_id = event_target:agenda_province
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			NOT = { owned_by = root }
+		}
+	}
+    task_requirements = {
+		if = {
+			limit = {
+				check_variable = {
+					which = estate_nobles_build_army_building_in_y_var
+					value = 4
+				}
+			}
+			event_target:agenda_province = {
+				has_building = training_fields
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = estate_nobles_build_army_building_in_y_var
+					value = 3
+				}
+			}
+			event_target:agenda_province = {
+				OR = {
+					has_building = barracks
+					has_building = training_fields
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = estate_nobles_build_army_building_in_y_var
+					value = 2
+				}
+			}
+			event_target:agenda_province = {
+				has_building = conscription_center
+			}
+		}
+		else = {
+			event_target:agenda_province = {
+				OR = {
+					has_building = regimental_camp
+					has_building = conscription_center
+				}
+			}
+		}
+    }
+    task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = 10
+		}
+		if = {
+			limit = {
+				NOT = { crown_land_share = 15 }
+				estate_territory = {
+					estate = estate_polish_nobility
+					territory = 10
+				}
+			}
+			take_estate_land_share_small = { estate = estate_polish_nobility }
+		}
+		else = {
+			event_target:agenda_province = {
+				add_base_manpower = 1
+			}
+		}
+    }
+    failing_effect = {
+		event_target:agenda_province = {
+			if = {
+				limit = { owned_by = root }
+				add_named_unrest = {
+					name = local_nobles_displeased
+					value = 5
+				}
+			}
+		}
+        add_estate_loyalty_modifier = {
+            estate = estate_polish_nobility
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
 
+
+estate_polish_nobility_build_fort_building_in_y = {
+	can_select = {
+		any_owned_province = {
+			OR = {
+				AND = {
+					NOT = { has_building = fort_15th }
+					NOT = { has_building = fort_16th }
+					NOT = { has_building = fort_17th }
+					NOT = { has_building = fort_18th }
+					num_free_building_slots = 1
+					any_neighbor_province = {
+						owner = {
+							OR = {
+								is_rival = root
+								root = { is_rival = prev }
+								AND = {
+									is_subject_other_than_tributary_trigger = yes
+									overlord = {
+										OR = {
+											is_rival = root
+											root = { is_rival = prev }
+										}
+									}
+								}
+							}
+						}
+					}
+					NOT = {
+						any_neighbor_province = {
+							owned_by = root
+							OR = {
+								has_building = fort_15th
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+				}
+				AND = {
+					NOT = { has_building = fort_15th }
+					NOT = { has_building = fort_16th }
+					NOT = { has_building = fort_17th }
+					NOT = { has_building = fort_18th }
+					num_free_building_slots = 1
+					any_neighbor_province = {
+						owned_by = root
+						any_neighbor_province = {
+							owner = {
+								OR = {
+									is_rival = root
+									root = { is_rival = prev }
+									AND = {
+										is_subject_other_than_tributary_trigger = yes
+										overlord = {
+											OR = {
+												is_rival = root
+												root = { is_rival = prev }
+											}
+										}
+									}
+								}
+							}
+							NOT = {
+								any_neighbor_province = {
+									owned_by = root
+									OR = {
+										has_building = fort_15th
+										has_building = fort_16th
+										has_building = fort_17th
+										has_building = fort_18th
+									}
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					has_building = fort_15th
+					ROOT = { mil_tech = 14 }
+				}
+				AND = {
+					has_building = fort_16th
+					ROOT = { mil_tech = 19 }
+				}
+				AND = {
+					has_building = fort_17th
+					ROOT = { mil_tech = 24 }
+				}
+			}
+			NOT = { has_building = fort_18th }
+		}
+	}
+	selection_weight = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				OR = {
+					is_rival = root
+					root = { is_rival = prev }
+				}
+				army_size = root
+			}
+		}
+	}
+	pre_effect = {
+		set_variable = {
+			which = estate_nobles_build_fort_building_in_y_var
+			value = 0
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					AND = {
+						NOT = { has_building = fort_15th }
+						NOT = { has_building = fort_16th }
+						NOT = { has_building = fort_17th }
+						NOT = { has_building = fort_18th }
+						num_free_building_slots = 1
+						any_neighbor_province = {
+							owner = {
+								OR = {
+									is_rival = root
+									root = { is_rival = prev }
+									AND = {
+										is_subject_other_than_tributary_trigger = yes
+										overlord = {
+											OR = {
+												is_rival = root
+												root = { is_rival = prev }
+											}
+										}
+									}
+								}
+							}
+						}
+						NOT = {
+							any_neighbor_province = {
+								owned_by = root
+								OR = {
+									has_building = fort_15th
+									has_building = fort_16th
+									has_building = fort_17th
+									has_building = fort_18th
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { has_building = fort_15th }
+						NOT = { has_building = fort_16th }
+						NOT = { has_building = fort_17th }
+						NOT = { has_building = fort_18th }
+						num_free_building_slots = 1
+						any_neighbor_province = {
+							owned_by = root
+							any_neighbor_province = {
+								owner = {
+									OR = {
+										is_rival = root
+										root = { is_rival = prev }
+										AND = {
+											is_subject_other_than_tributary_trigger = yes
+											overlord = {
+												OR = {
+													is_rival = root
+													root = { is_rival = prev }
+												}
+											}
+										}
+									}
+								}
+								NOT = {
+									any_neighbor_province = {
+										owned_by = root
+										OR = {
+											has_building = fort_15th
+											has_building = fort_16th
+											has_building = fort_17th
+											has_building = fort_18th
+										}
+									}
+								}
+							}
+						}
+					}
+					AND = {
+						has_building = fort_15th
+						ROOT = { mil_tech = 14 }
+					}
+					AND = {
+						has_building = fort_16th
+						ROOT = { mil_tech = 19 }
+					}
+					AND = {
+						has_building = fort_17th
+						ROOT = { mil_tech = 24 }
+					}
+				}
+				NOT = { has_building = fort_18th }
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					AND = {
+						NOT = { has_building = fort_15th }
+						NOT = { has_building = fort_16th }
+						NOT = { has_building = fort_17th }
+						NOT = { has_building = fort_18th }
+						num_free_building_slots = 1
+						any_neighbor_province = {
+							owner = {
+								OR = {
+									is_rival = root
+									root = { is_rival = prev }
+									AND = {
+										is_subject_other_than_tributary_trigger = yes
+										overlord = {
+											OR = {
+												is_rival = root
+												root = { is_rival = prev }
+											}
+										}
+									}
+								}
+							}
+						}
+						NOT = {
+							any_neighbor_province = {
+								owned_by = root
+								OR = {
+									has_building = fort_15th
+									has_building = fort_16th
+									has_building = fort_17th
+									has_building = fort_18th
+								}
+							}
+						}
+						has_terrain = hills
+					}
+					AND = {
+						NOT = { has_building = fort_15th }
+						NOT = { has_building = fort_16th }
+						NOT = { has_building = fort_17th }
+						NOT = { has_building = fort_18th }
+						num_free_building_slots = 1
+						any_neighbor_province = {
+							owned_by = root
+							any_neighbor_province = {
+								owner = {
+									OR = {
+										is_rival = root
+										root = { is_rival = prev }
+										AND = {
+											is_subject_other_than_tributary_trigger = yes
+											overlord = {
+												OR = {
+													is_rival = root
+													root = { is_rival = prev }
+												}
+											}
+										}
+									}
+								}
+								NOT = {
+									any_neighbor_province = {
+										owned_by = root
+										OR = {
+											has_building = fort_15th
+											has_building = fort_16th
+											has_building = fort_17th
+											has_building = fort_18th
+										}
+									}
+								}
+							}
+						}
+						has_terrain = hills
+					}
+					AND = {
+						has_building = fort_15th
+						ROOT = { mil_tech = 14 }
+					}
+					AND = {
+						has_building = fort_16th
+						ROOT = { mil_tech = 19 }
+					}
+					AND = {
+						has_building = fort_17th
+						ROOT = { mil_tech = 24 }
+					}
+				}
+				NOT = { has_building = fort_18th }
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					AND = {
+						NOT = { has_building = fort_15th }
+						NOT = { has_building = fort_16th }
+						NOT = { has_building = fort_17th }
+						NOT = { has_building = fort_18th }
+						num_free_building_slots = 1
+						any_neighbor_province = {
+							owner = {
+								OR = {
+									is_rival = root
+									root = { is_rival = prev }
+									AND = {
+										is_subject_other_than_tributary_trigger = yes
+										overlord = {
+											OR = {
+												is_rival = root
+												root = { is_rival = prev }
+											}
+										}
+									}
+								}
+							}
+						}
+						NOT = {
+							any_neighbor_province = {
+								owned_by = root
+								OR = {
+									has_building = fort_15th
+									has_building = fort_16th
+									has_building = fort_17th
+									has_building = fort_18th
+								}
+							}
+						}
+						has_terrain = highlands
+					}
+					AND = {
+						NOT = { has_building = fort_15th }
+						NOT = { has_building = fort_16th }
+						NOT = { has_building = fort_17th }
+						NOT = { has_building = fort_18th }
+						num_free_building_slots = 1
+						any_neighbor_province = {
+							owned_by = root
+							any_neighbor_province = {
+								owner = {
+									OR = {
+										is_rival = root
+										root = { is_rival = prev }
+										AND = {
+											is_subject_other_than_tributary_trigger = yes
+											overlord = {
+												OR = {
+													is_rival = root
+													root = { is_rival = prev }
+												}
+											}
+										}
+									}
+								}
+								NOT = {
+									any_neighbor_province = {
+										owned_by = root
+										OR = {
+											has_building = fort_15th
+											has_building = fort_16th
+											has_building = fort_17th
+											has_building = fort_18th
+										}
+									}
+								}
+							}
+						}
+						has_terrain = highlands
+					}
+					AND = {
+						has_building = fort_15th
+						ROOT = { mil_tech = 14 }
+					}
+					AND = {
+						has_building = fort_16th
+						ROOT = { mil_tech = 19 }
+					}
+					AND = {
+						has_building = fort_17th
+						ROOT = { mil_tech = 24 }
+					}
+				}
+				NOT = { has_building = fort_18th }
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					AND = {
+						NOT = { has_building = fort_15th }
+						NOT = { has_building = fort_16th }
+						NOT = { has_building = fort_17th }
+						NOT = { has_building = fort_18th }
+						num_free_building_slots = 1
+						any_neighbor_province = {
+							owner = {
+								OR = {
+									is_rival = root
+									root = { is_rival = prev }
+									AND = {
+										is_subject_other_than_tributary_trigger = yes
+										overlord = {
+											OR = {
+												is_rival = root
+												root = { is_rival = prev }
+											}
+										}
+									}
+								}
+							}
+						}
+						NOT = {
+							any_neighbor_province = {
+								owned_by = root
+								OR = {
+									has_building = fort_15th
+									has_building = fort_16th
+									has_building = fort_17th
+									has_building = fort_18th
+								}
+							}
+						}
+						has_terrain = mountain
+					}
+					AND = {
+						NOT = { has_building = fort_15th }
+						NOT = { has_building = fort_16th }
+						NOT = { has_building = fort_17th }
+						NOT = { has_building = fort_18th }
+						num_free_building_slots = 1
+						any_neighbor_province = {
+							owned_by = root
+							any_neighbor_province = {
+								owner = {
+									OR = {
+										is_rival = root
+										root = { is_rival = prev }
+										AND = {
+											is_subject_other_than_tributary_trigger = yes
+											overlord = {
+												OR = {
+													is_rival = root
+													root = { is_rival = prev }
+												}
+											}
+										}
+									}
+								}
+								NOT = {
+									any_neighbor_province = {
+										owned_by = root
+										OR = {
+											has_building = fort_15th
+											has_building = fort_16th
+											has_building = fort_17th
+											has_building = fort_18th
+										}
+									}
+								}
+							}
+						}
+						has_terrain = mountain
+					}
+					AND = {
+						has_building = fort_15th
+						ROOT = { mil_tech = 14 }
+					}
+					AND = {
+						has_building = fort_16th
+						ROOT = { mil_tech = 19 }
+					}
+					AND = {
+						has_building = fort_17th
+						ROOT = { mil_tech = 24 }
+					}
+				}
+				NOT = { has_building = fort_18th }
+			}
+			save_event_target_as = agenda_province
+		}
+		event_target:agenda_province = {
+			if = {
+				limit = {
+					has_building = fort_17th
+				}
+				ROOT = {
+					set_variable = {
+						which = estate_nobles_build_fort_building_in_y_var
+						value = 4
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_building = fort_16th
+				}
+				ROOT = {
+					set_variable = {
+						which = estate_nobles_build_fort_building_in_y_var
+						value = 3
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_building = fort_15th
+				}
+				ROOT = {
+					set_variable = {
+						which = estate_nobles_build_fort_building_in_y_var
+						value = 2
+					}
+				}
+			}
+			else = {
+				ROOT = {
+					set_variable = {
+						which = estate_nobles_build_fort_building_in_y_var
+						value = 1
+					}
+				}
+			}
+		}
+	}
+	provinces_to_highlight = {
+		province_id = event_target:agenda_province
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			NOT = { owned_by = root }
+		}
+	}
+    task_requirements = {
+		if = {
+			limit = {
+				check_variable = {
+					which = estate_nobles_build_fort_building_in_y_var
+					value = 4
+				}
+			}
+			event_target:agenda_province = {
+				has_building = fort_18th
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = estate_nobles_build_fort_building_in_y_var
+					value = 3
+				}
+			}
+			event_target:agenda_province = {
+				OR = {
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = estate_nobles_build_fort_building_in_y_var
+					value = 2
+				}
+			}
+			event_target:agenda_province = {
+				OR = {
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+		}
+		else = {
+			event_target:agenda_province = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+		}
+    }
+    task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = 10
+		}
+		event_target:agenda_province = {
+			add_base_manpower = 1
+		}
+    }
+    failing_effect = {
+		event_target:agenda_province = {
+			if = {
+				limit = { owned_by = root }
+				add_named_unrest = {
+					name = local_nobles_displeased
+					value = 5
+				}
+			}
+		}
+        add_estate_loyalty_modifier = {
+            estate = estate_polish_nobility
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+estate_polish_nobility_build_university_in_y = {
+	can_select = {
+		government = monarchy
+		adm_tech = 17
+		any_owned_province = {
+			is_state_core = root
+			NOT = { has_building = university }
+			OR = {
+				development = 10
+				is_capital = yes
+			}
+		}
+	}
+	selection_weight = {
+		factor = 1
+		modifier = {
+			factor = 0.75
+			NOT = {
+				any_owned_province = {
+					is_state_core = root
+					NOT = { has_building = university }
+					development = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_owned_province = {
+				is_state_core = root
+				NOT = { has_building = university }
+				development = 20
+			}
+		}
+		modifier = {
+			factor = 2
+			is_institution_enabled = enlightenment
+			NOT = { has_institution = enlightenment }
+		}
+	}
+	pre_effect = {
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				NOT = { has_building = university }
+				development = 10
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				NOT = { has_building = university }
+				development = 15
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				NOT = { has_building = university }
+				development = 20
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				NOT = { has_building = university }
+				is_capital = yes
+			}
+			save_event_target_as = agenda_province
+		}
+	}
+	provinces_to_highlight = {
+		province_id = event_target:agenda_province
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			NOT = { owned_by = root }
+		}
+	}
+    task_requirements = {
+		event_target:agenda_province = {
+			has_building = university
+		}
+    }
+    task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = 10
+		}
+		add_adm_power = 35
+		add_dip_power = 35
+		add_mil_power = 35
+    }
+    failing_effect = {
+		event_target:agenda_province = {
+			if = {
+				limit = { owned_by = root }
+				add_named_unrest = {
+					name = local_nobles_displeased
+					value = 5
+				}
+			}
+		}
+        add_estate_loyalty_modifier = {
+            estate = estate_polish_nobility
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+
+estate_polish_nobility_develop_x = {
+	selection_weight = {
+		factor = 1
+	}
+	can_select = {
+		capital_scope = {
+			is_state_core = root
+		}
+	}
+	pre_effect = {
+		random_list = {
+			1 = {
+				random_owned_province = {
+					limit = {
+						is_state_core = root
+						area_for_scope_province = {
+							is_capital_of = root
+						}
+					}
+					save_event_target_as = agenda_province
+				}
+			}
+			2 = {
+				trigger = {
+					any_owned_province = {
+						is_state_core = root
+						OR = {
+							AND = {
+								religion = root
+								OR = {
+									culture = root
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						region_for_scope_province = {
+							is_capital_of = root
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_state_core = root
+						OR = {
+							AND = {
+								religion = root
+								OR = {
+									culture = root
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						region_for_scope_province = {
+							is_capital_of = root
+						}
+					}
+					save_event_target_as = agenda_province
+				}
+			}
+			1 = {
+				random_owned_province = {
+					limit = {
+						is_state_core = root
+					}
+					save_event_target_as = agenda_province
+				}
+			}
+		}
+		event_target:agenda_province = {
+			if = {
+				limit = {
+					check_variable = {
+						which = province_mil_var
+						value = 1
+					}
+				}
+				set_variable = {
+					which = province_mil_var
+					value = 0
+				}
+			}
+			export_to_variable = {
+				which = province_mil_var
+				value = trigger_value:base_manpower
+			}
+			change_variable = {
+				which = province_mil_var
+				value = 2
+			}
+		}
+	}
+	provinces_to_highlight = {
+		province_id = event_target:agenda_province
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			NOT = { owned_by = root }
+		}
+	}
+    task_requirements = {
+		event_target:agenda_province = {
+			base_manpower = "province_mil_var"
+		}
+    }
+    task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = 10
+		}
+		 add_yearly_manpower = 0.3
+    }
+    failing_effect = {
+		event_target:agenda_province = {
+			if = {
+				limit = { owned_by = root }
+				add_named_unrest = {
+					name = local_nobles_displeased
+					value = 5
+				}
+			}
+		}
+        add_estate_loyalty_modifier = {
+            estate = estate_polish_nobility
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+estate_polish_nobility_build_manufactory_in_y = {
+	can_select = {
+		any_owned_province = {
+			is_state_core = root
+			root_can_build_manufactory_here_trigger = yes
+			has_nobles_trade_good_trigger = yes
+		}
+		monthly_income = 30
+	}
+	selection_weight = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			OR = {
+				current_age = age_of_discovery
+				current_age = age_of_reformation
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { monthly_income = 40 }
+		}
+		modifier = {
+			factor = 2
+			monthly_income = 60
+		}
+		modifier = {
+			factor = 2
+			is_institution_enabled = manufactories
+			NOT = { has_institution = manufactories }
+		}
+	}
+	pre_effect = {
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				root_can_build_manufactory_here_trigger = yes
+				has_nobles_trade_good_trigger = yes
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				base_production = 5
+				root_can_build_manufactory_here_trigger = yes
+				has_nobles_trade_good_trigger = yes
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				base_production = 10
+				root_can_build_manufactory_here_trigger = yes
+				has_nobles_trade_good_trigger = yes
+			}
+			save_event_target_as = agenda_province
+		}
+	}
+	provinces_to_highlight = {
+		province_id = event_target:agenda_province
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			NOT = { owned_by = root }
+		}
+	}
+    task_requirements = {
+		event_target:agenda_province = {
+			custom_trigger_tooltip = {
+				tooltip = has_manufactory_trigger_tooltip
+				
+				if = {
+					limit = {
+						OR = {
+							trade_goods = naval_supplies
+							trade_goods = fish
+							trade_goods = salt
+						}
+					}
+					has_building = wharf
+				}
+				else_if = {
+					limit = {
+						OR = {
+							trade_goods = copper
+							trade_goods = iron
+						}
+					}
+					has_building = weapons
+				}
+				else_if = {
+					limit = {
+						OR = {
+							trade_goods = wool
+							trade_goods = cloth
+							trade_goods = silk
+							trade_goods = dyes
+						}
+					}
+					has_building = textile
+				}
+				else_if = {
+					limit = {
+						OR = {
+							trade_goods = ivory
+							trade_goods = slaves
+							trade_goods = spices
+							trade_goods = fur
+							trade_goods = incense
+						}
+					}
+					has_building = tradecompany
+				}
+				else_if = {
+					limit = {
+						OR = {
+							trade_goods = grain
+							trade_goods = livestock
+							trade_goods = wine
+						}
+					}
+					has_building = farm_estate
+				}
+				else_if = {
+					limit = {
+						OR = {
+							trade_goods = paper
+							trade_goods = gems
+							trade_goods = tropical_wood
+							trade_goods = glass
+							trade_goods = chinaware
+						}
+					}
+					has_building = mills
+				}
+				else_if = {
+					limit = {
+						trade_goods = coal
+					}
+					has_building = furnace
+				}
+				else = {
+					has_building = plantations
+				}
+			}
+		}
+    }
+    task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = 10
+		}
+		event_target:agenda_province = {
+			add_base_manpower = 1
+			add_province_modifier = {
+				name = prospering_production
+				duration = 5475
+			}
+		}
+    }
+    failing_effect = {
+		event_target:agenda_province = {
+			if = {
+				limit = { owned_by = root }
+				add_named_unrest = {
+					name = local_nobles_displeased
+					value = 5
+				}
+			}
+		}
+        add_estate_loyalty_modifier = {
+            estate = estate_polish_nobility
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
