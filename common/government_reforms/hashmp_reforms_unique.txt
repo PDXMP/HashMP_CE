@@ -264,6 +264,16 @@ h_reform_prefecture = {
 			tag = YUN
 			tag = ZHA
 			tag = CZH
+			tag = OKJ
+			tag = BLH
+			tag = NAE
+			tag = BYH
+			tag = JHN
+			tag = MHN
+			tag = GOR
+			tag = BIH
+			tag = GAR
+			tag = TMN
 		}
 	}
 	modifiers = {
@@ -312,6 +322,10 @@ h_reform_citystate = {
 			tag = XYU
 			tag = XUZ
 			tag = YNG
+			tag = SEO
+			tag = BUS
+			tag = JGY
+			tag = SGY
 		}
 	}
 	modifiers = {
@@ -375,4 +389,61 @@ h_reform_sinicized_horde = {
 	custom_attributes = {
 		locked_government_type = yes
 	}
+}
+
+h_reform_kdukedom = {
+	icon = "fist_in_air"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		OR = {
+			tag = OKJ
+			tag = KSL
+			tag = BKJ
+			tag = GOG
+		}
+	}
+	modifiers = {
+		ae_impact = 0.2
+		diplomatic_reputation = -2
+		land_maintenance_modifier = -0.2
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_protectorate = {
+	icon = "chinese_palace"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		AND = {
+			OR = {
+				tag = ZHE
+				tag = LIN
+			}
+			is_subject = no
+		}
+	}
+	modifiers = {
+		garrison_size = 1.0
+		defensiveness = 0.33
+		hostile_attrition = 1
+		global_tax_income = 60
+		land_forcelimit = 25
+		global_manpower = 20
+		governing_capacity = -500
+		possible_condottieri = -10.0
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	duration = 5
 }
