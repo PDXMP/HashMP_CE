@@ -7,7 +7,6 @@ color = { 65 140 60 }
 
 historical_idea_groups = {
 	maritime_ideas
-	indigenous_ideas
 	economic_ideas
 	naval_ideas
 	religious_ideas

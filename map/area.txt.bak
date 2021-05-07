@@ -1787,11 +1787,11 @@ south_queensland_area = { #4
 }
 
 pilbara_area = { #4
-	2726 5105 5106 5107
+	2726 5115 5116 5117
 }
 
 tasmania_area = { #3
-	1085 5108 5109
+	1085 5118 5119
 }
 
 northern_polynesia_area = { #3
@@ -2398,7 +2398,7 @@ malacca_area = { #3
 }
 
 khorat_area = { #5
-	612 4836 2383 2386
+	612 5086 2383 2386
 }
 
 champasak_area = {
@@ -2463,7 +2463,7 @@ vientiane_area = { #5
 }
 
 central_thai_area = { #5
-	600 4831 5082 5080 603
+	600 5081 5082 5080 603
 }
 
 sukhothai_area = { #5
@@ -2559,7 +2559,7 @@ brunei_area = { #5
 }
 
 kalimantan_area = { #5
-	640 2706 4802 5053 5054
+	640 2706 5052 5053 5054
 }
 
 banjar_area = { # 5
@@ -3694,24 +3694,32 @@ notre_dame_mountains_area = { #5
     986 994 995 2582 2583
 }
 
-lower_canada_area = { #4
-    990 993 2584 2012
+lower_canada_area = { #3
+    993 2584 5145
 }
 
-upper_canada_area = { #4
-    987 989 2585 2670
+trois_rivieres_area = { #4 NEW
+    990 2012 2580 5143
 }
 
-laurentian_area = { #4
-    992 2579 2580 2581
+upper_canada_area = { #3
+    987 2586 2587
 }
 
-upper_ontario_area = { #4
-    991 1001 1007 2015
+laurentian_area = { #3
+    992 2581 5144
+}
+
+upper_ontario_area = { #5
+    991 1001 1007 2015 2671
 }
 
 huronia_area = { #4
-    988 2586 2587 2671
+    989 988 2585 2570
+}
+
+ottawa_valley_area = { #3 NEW
+    5140 5142 5147
 }
 
 james_bay_area = { #5
@@ -3727,14 +3735,19 @@ hudson_bay_area = { #5
 }
 
 red_river_area = { #5
-    1008 1010 2016 2511 2593
+    2016 2511 5152
+}
+
+manitoba_area = { #5 NEW
+    1008 1010 1011 2593 5169
 }
 
 assiniboia_area = { #3
-    2005 2596 2598
+    2005 2596 2598 5170
 }
+
 saskatchewan_area = { #3
-    1011 1813 2597
+    1813 2595 2597
 }
 
 prairies_area = { #5
@@ -3742,7 +3755,7 @@ prairies_area = { #5
 }
 
 athabasca_area = { #5
-    2595 2599 2600 2601 2603
+    2599 2600 2601 2603
 }
 
 northeast_mexico_area = { #5

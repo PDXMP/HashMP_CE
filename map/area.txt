@@ -1787,11 +1787,11 @@ south_queensland_area = { #4
 }
 
 pilbara_area = { #4
-	2726 5105 5106 5107
+	2726 5115 5116 5117
 }
 
 tasmania_area = { #3
-	1085 5108 5109
+	1085 5118 5119
 }
 
 northern_polynesia_area = { #3
@@ -2398,7 +2398,7 @@ malacca_area = { #3
 }
 
 khorat_area = { #5
-	612 4836 2383 2386
+	612 5086 2383 2386
 }
 
 champasak_area = {
@@ -2463,7 +2463,7 @@ vientiane_area = { #5
 }
 
 central_thai_area = { #5
-	600 4831 5082 5080 603
+	600 5081 5082 5080 603
 }
 
 sukhothai_area = { #5
@@ -2559,7 +2559,7 @@ brunei_area = { #5
 }
 
 kalimantan_area = { #5
-	640 2706 4802 5053 5054
+	640 2706 5052 5053 5054
 }
 
 banjar_area = { # 5
@@ -3532,7 +3532,7 @@ western_kentucky_area = { #3 NEW
 }
 
 ohio_country_area = { #4
-    946 947 948 2525 5127
+    946 947 948 2525 5157
 }
 
 miami_river_area = { #4
