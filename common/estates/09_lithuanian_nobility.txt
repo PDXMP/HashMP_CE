@@ -21,7 +21,7 @@ estate_lithuanian_nobility =
 		global_unrest = 2
 	}
 	land_ownership_modifier = {
-		nobles_loyalty_modifier = 0.2
+		lithuanian_nobility_loyalty_modifier = 0.2
 	}
 
 	province_independence_weight = {
@@ -174,19 +174,6 @@ estate_lithuanian_nobility =
 		loyalty = -10
 	}
 	
-
-	custom_name = {
-		desc = estate_boyars
-		trigger = {
-			OR = {
-				tag = POL
-				tag = PLC
-			}
-		}
-	}
-	
-	
-
 	color = { 230 145 20 }
 	
 	privileges = {
@@ -201,7 +188,6 @@ estate_lithuanian_nobility =
 		estate_lithuanian_nobility_nieszawa_privileges
 		estate_lithuanian_nobility_pacta_conventa
 		estate_lithuanian_nobility_monopoly_of_livestock
-		estate_lithuanian_nobility_monopoly_of_gems
 		estate_lithuanian_nobility_statutory_rights
 	}
 
