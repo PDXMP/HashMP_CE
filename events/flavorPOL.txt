@@ -1834,6 +1834,11 @@ country_event = {
 			inherit = VOL
 		}	
 		
+		change_variable {
+			which = balanceOfPower
+			value = 1
+		}
+		
 	}
 	option = {
 		name = flavor_pol.23.b
@@ -1851,6 +1856,10 @@ country_event = {
 		POL = {
 			inherit = KIE
 			inherit = VOL
+		}
+		subtract_variable {
+			which = balanceOfPower
+			value = 3
 		}
 	}
 }
@@ -1876,7 +1885,6 @@ country_event = {
 				which = balanceOfPower
 				value = 10
 			}
-
 		}
 	}
 }
