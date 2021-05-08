@@ -1854,3 +1854,29 @@ country_event = {
 		}
 	}
 }
+
+# Setup event for poland and lithuania
+country_event = {
+	id = flavor_pol.24
+	title = flavor_pol.24.t
+	desc = flavor_pol.24.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		always = yes
+	}
+
+	option = {
+		name = flavor_pol.24.a
+		ai_chance = { factor = 1 }
+		POL = {
+			set_variable = {
+				which = balanceOfPower
+				value = 10
+			}
+
+		}
+	}
+}
