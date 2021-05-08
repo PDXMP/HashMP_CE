@@ -21,7 +21,7 @@ estate_polish_nobility =
 		global_unrest = 2
 	}
 	land_ownership_modifier = {
-		nobles_loyalty_modifier = 0.2
+		polish_nobility_loyalty_modifier = 0.2
 	}
 
 	province_independence_weight = {
@@ -174,18 +174,7 @@ estate_polish_nobility =
 		loyalty = -10
 	}
 	
-	#Alternative naming of estates
 
-	custom_name = {
-		desc = estate_szlachta
-		trigger = {
-			OR = {
-				tag = POL
-				tag = PLC
-			}
-		}
-	}
-	
 
 	color = { 200 0 50 }
 	
@@ -196,7 +185,6 @@ estate_polish_nobility =
 		estate_polish_nobility_levies
 		estate_polish_nobility_advisors
 		estate_polish_nobility_right_of_counsel
-		estate_polish_nobility_strong_duchies
 		estate_polish_nobility_golden_liberty
 		estate_polish_nobility_nieszawa_privileges
 		estate_polish_nobility_pacta_conventa
