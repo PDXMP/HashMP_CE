@@ -56,19 +56,15 @@ difficulty_very_hard_player = {
 ##########################################################################
 
 difficulty_very_easy_ai = {
-	global_autonomy = -0.05
 }
 
 difficulty_easy_ai = {
-	global_autonomy = -0.05
 }
 
 difficulty_normal_ai = {
-	global_autonomy = -0.05
 }
 
 difficulty_hard_ai = {
-	global_autonomy = -0.05
 	manpower_recovery_speed = 0.50
 	global_unrest = -1
 	war_exhaustion = -0.05
@@ -79,7 +75,6 @@ difficulty_hard_ai = {
 }
 
 difficulty_very_hard_ai = {
-	global_autonomy = -0.05
 	manpower_recovery_speed = 0.50
 	global_manpower_modifier = 0.5
 	land_forcelimit_modifier = 0.5
@@ -560,7 +555,7 @@ base_values = {
 	num_accepted_cultures = 2
 	monthly_splendor = 1
 	artillery_bonus_vs_fort = 5
-	cav_to_inf_ratio = 0.6
+	cav_to_inf_ratio = 0.5
 	merc_maintenance_modifier = 1.0
 }
 
@@ -774,6 +769,8 @@ army_tradition = {
 	rr_girondists_influence = 0.1
 	monthly_militarized_society = 0.4
 	nobles_loyalty_modifier = 0.05
+	polish_nobility_loyalty_modifier = 0.05
+	lithuanian_nobility_loyalty_modifier = 0.05
 	maratha_loyalty_modifier = 0.05
 	rajput_loyalty_modifier = 0.05
 }
@@ -841,7 +838,7 @@ states_in_hre = {							#bonuses for each non-free city with capital in HRE.. as
 }
 
 free_cities_in_hre = {							#bonuses for each free city in the HRE.. as emperor
-	global_tax_income = 2
+	global_tax_income = 3
 	global_manpower = 1
 	land_forcelimit	= 0.5
 }
@@ -862,7 +859,7 @@ occupied_imperial = {
 }
 
 emperor_revoked_reform =  {
-	diplomatic_reputation = -3
+	diplomatic_reputation = 0
 }
 
 num_of_marriages = {
@@ -897,6 +894,8 @@ legitimacy = {
 	monthly_militarized_society = 0.05
 	max_absolutism = 20
 	nobles_loyalty_modifier = 0.1
+	polish_nobility_loyalty_modifier = 0.01
+	lithuanian_nobility_loyalty_modifier = 0.01
 }
 
 #Multiplied by current Horde Unity - 50
@@ -942,6 +941,8 @@ corruption = {
 	church_loyalty_modifier = 0.1
 	maratha_loyalty_modifier = 0.1
 	nobles_loyalty_modifier = 0.1
+	polish_nobility_loyalty_modifier = 0.01
+	lithuanian_nobility_loyalty_modifier = 0.01
 	burghers_loyalty_modifier = 0.1
 	vaisyas_loyalty_modifier = 0.1
 	cossacks_loyalty_modifier = 0.1
@@ -1036,6 +1037,8 @@ prestige = {
 	church_loyalty_modifier = 0.05
 	maratha_loyalty_modifier = 0.05
 	nobles_loyalty_modifier = 0.05
+	polish_nobility_loyalty_modifier = 0.05
+	lithuanian_nobility_loyalty_modifier = 0.05
 	burghers_loyalty_modifier = 0.05
 	vaisyas_loyalty_modifier = 0.05
 	cossacks_loyalty_modifier = 0.05
@@ -1073,10 +1076,10 @@ curia_controller = {
 	prestige = 1							#1% extra prestige yearly
 	stability_cost_modifier = -0.1			#10% cheaper stability
 	advisor_pool = 2
-	advisor_cost = -0.1
+	advisor_cost = -0.2
 	free_leader_pool = 1
 	ae_impact = -0.2
-	#technology_cost = -0.05
+	technology_cost = -0.05
 	church_loyalty_modifier = 0.1
 }
 
