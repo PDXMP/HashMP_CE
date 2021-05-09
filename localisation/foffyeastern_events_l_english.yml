@@ -23,3 +23,8 @@
  flavor_lit.16.b:0 "Reject the treaty, they are a hindrance"
  flavor_lit.16.c:0 "The Sejm will control them" 
  flavor_lit.16.e:0 "We will recover the Knights lands!"
+ flavor_lit.17.t:0 "The Northern Marches"
+ flavor_lit.17.d:0 "While the duchies of Polotsk and Smolensk initially supported Svitrigaila, they left the Polish-Lithuanian civil war early to prepare their duchies against a posible Muscovite offensive. They are gladly offering us their troops and services if we agree to keep to support the march status of these duchies. Otherwise, we could force them to integrate faster into either Lithuania or Poland even if this action would leave those duchies weaker against an enemy invasion"
+ flavor_lit.17.a:0 "They shall remain vigilant against muscovite aggresion"
+ flavor_lit.17.b:0 "Integrate them into Lithuania"
+ flavor_lit.17.c:0 "They will respond to the Sejm now" 
