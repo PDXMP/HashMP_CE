@@ -1,3 +1,21 @@
-##################################################################################################
-# Privileges modifiers
-##################################################################################################
+########################################
+# Custom modifiers for Foffy's China in HashMP
+#
+# by Kabian
+########################################
+
+northern_marches = {
+	land_morale = 0.15
+	land_maintenance_modifier = -0.10
+	local_development_cost = -0.05
+	global_manpower_modifier = 1
+	land_forcelimit_modifier = 1
+	technology_cost = -0.05
+	idea_cost = -0.05
+	diplomatic_annexation_cost = 1
+}
+
+teachings_of_northern_marches = {
+	land_morale = 0.05
+	land_attrition = -0.005
+}
