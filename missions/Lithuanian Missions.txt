@@ -214,13 +214,33 @@ LIT_diplomatic_branch = {
 		required_missions { }
 		position = 1
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR {
+				NOT = { exist = KIE }
+				NOT = {
+					KIE ={
+						OR  { 
+							is_subject_of = POL
+							is_subject_of = LIT
+						}
+					}
+				}
+				AND {
+					is_subject_of = ROOT
+					NOT = {
+						KIE = {
+							has_ruler = "Svitrigaila I"
+						}
+					}
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			POL = {
+				set_country_flag = pol_kie_integrate_mission
+			}
 		}
 	}
 	##Mission End
@@ -235,10 +255,30 @@ LIT_diplomatic_branch = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR =	{
+				NOT = {
+					KIE ={
+						OR  { 
+						is_subject_of = POL
+						is_subject_of = LIT
+						}
+					}
+				}
+				AND {
+					is_subject_of = ROOT
+					NOT = {
+						CHR = {
+						liberty_desire = 30
+						}
+					}	
+				}
+
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			POL = {
+				set_country_flag = pol_chr_integrate_mission
+			}
 		}
 	}
 	##Mission End
@@ -253,10 +293,28 @@ LIT_diplomatic_branch = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR =	{
+				NOT = {
+					ZAZ ={
+						OR  { 
+						is_subject_of = POL
+						is_subject_of = LIT
+						}
+					}
+				}
+				AND {
+					is_subject_of = ROOT
+					NOT = {
+						ZAZ = {
+						liberty_desire = 25
+						}
+					}	
+				}
+				ZAZ ={ is_core = 284}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			set_country_flag = pol_zaz_integrate_mission
 		}
 	}
 	##Mission End
@@ -271,10 +329,9 @@ LIT_diplomatic_branch = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+
 		}
 		effect = {
-			##MISSIONEFFECT
 		}
 	}
 	##Mission End
@@ -302,10 +359,33 @@ LIT_expansion_branch = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR =	{
+				NOT = {
+					ZAZ ={
+						OR  { 
+						is_subject_of = POL
+						is_subject_of = LIT
+						}
+					}
+				}
+				AND {
+					is_subject_of = ROOT
+					NOT = {
+						ZAZ = {
+							liberty_desire = 50
+						}
+					}	
+				}
+				ZAZ = {
+					has_opinion = {
+						who = POL
+						value = 150
+					}
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			set_country_flag = pol_zaz_invasion_mission
 		}
 	}
 	##Mission End
