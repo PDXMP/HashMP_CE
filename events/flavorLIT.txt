@@ -812,7 +812,7 @@ country_event = {
 		POL = {
 			has_country_flag = pol_kie_mission
 		}
-		KIE ={
+		KIE = {
 			OR  { 
 				is_subject_of = POL
 				is_subject_of = LIT
@@ -1078,131 +1078,6 @@ country_event = {
 	}	
 }
 
-# The Treaty of Melno
-country_event = {
-	id = flavor_lit.16
-	title = flavor_lit.16.t
-	desc = flavor_lit.16.d
-	picture = SEJM_eventPicture
-	fire_only_once = yes
-	trigger = {
-		tag = POL
-		POL = {
-			has_country_flag = pol_liv_melno_mission
-		}
-	}
-	mean_time_to_happen = {
-		months = 1
-	}
-	option = {
-		name = flavor_lit.16.a
-		custom_tooltip = flavor_lit.bop.plus2
-		trigger = {
-			AND {
-				exists = LIV 
-				NOT = {
-					LIV = {
-						OR  { 
-							is_subject_of = SWE
-						}
-					}
-				}	
-			}
-		}
-		LIT = {
-			create_march = LIV
-		}
-		add_estate_loyalty = {
-				estate = estate_lithuanian_nobility
-				loyalty = 10
-			}
-		add_estate_loyalty = {
-				estate = estate_polish_nobility
-				loyalty = -20
-		}
-		
-		change_variable {
-			which = balanceOfPower
-			value = 2
-		}
-		
-	}
-	option = {
-		name = flavor_lit.16.b
-
-		add_estate_loyalty = {
-				estate = estate_lithuanian_nobility
-				loyalty = -10
-			}
-		add_estate_loyalty = {
-				estate = estate_polish_nobility
-				loyalty = -10
-		}
-		add_prestige = -10
-	}
-	option = {
-		name = flavor_lit.16.c
-		trigger = {
-			AND {
-				exists = LIV 
-				NOT = {
-					LIV = {
-						OR  { 
-							is_subject_of = SWE
-						}
-					}
-				}	
-			}
-		}	
-		POL = {
-			create_march = LIV
-		}
-		add_estate_loyalty = {
-				estate = estate_lithuanian_nobility
-				loyalty = -10
-			}
-		add_estate_loyalty = {
-				estate = estate_polish_nobility
-				loyalty = 10
-		}
-		custom_tooltip = flavor_lit.bop.minus1
-		subtract_variable {
-			which = balanceOfPower
-			value = 1
-		}
-		
-	}	
-	option = {
-		name = flavor_lit.16.e
-		trigger = {
-			OR {
-				NOT = { exists = LIV }
-				NOT {	
-					LIV = {			
-						is_subject_of = POL
-						is_subject_of = LIT
-					}
-				}
-			}
-			LIV = { is_subject = yes }
-		}		
-		every_owned_province = {
-			limit = {
-				OR = {
-					NOT = { is_core = LIT }
-					NOT = { is_core = POL }
-				}
-				OR = {
-					area = estonia_area
-					area = curonia_area
-					area = livonia_area
-				}
-			}
-			add_permanent_claim = POL
-		}	
-	}	
-}
-
 # The Northern Marches
 country_event = {
 	id = flavor_lit.17
@@ -1221,13 +1096,13 @@ country_event = {
 				exists = SMO
 			}
 			OR = {
-				PLT ={
+				PLT = {
 					OR  { 
 						is_subject_of = POL
 						is_subject_of = LIT
 					}
 				}
-				SMO ={
+				SMO = {
 					OR  { 
 						is_subject_of = POL
 						is_subject_of = LIT
@@ -1344,7 +1219,7 @@ country_event = {
 				exists = CHR 
 			}
 			OR = {
-				CHR ={
+				CHR = {
 					OR  { 
 						is_subject_of = POL
 						is_subject_of = LIT
@@ -1421,7 +1296,7 @@ country_event = {
 				exists = ZAZ 
 			}
 			OR = {
-				ZAZ ={
+				ZAZ = {
 					OR  { 
 						is_subject_of = POL
 						is_subject_of = LIT
@@ -1519,7 +1394,7 @@ country_event = {
 				exists = ZAZ 
 			}
 			OR = {
-				ZAZ ={
+				ZAZ = {
 					OR  { 
 						is_subject_of = POL
 						is_subject_of = LIT
@@ -1533,7 +1408,6 @@ country_event = {
 	}
 	option = {
 		name = flavor_lit.20.a
-
 		POL = {
 			add_manpower = -5
 			add_treasury = -250
@@ -1551,8 +1425,8 @@ country_event = {
 				loyalty = -20
 		}
 				hidden_effect = {
-			ZAZ = {
-				country_event = { id = flavor_lit_zaz.1 days = 365 }
+			POL = {
+				country_event = { id = flavor_lit.101 days = 365 }
 			}
 		}
 		custom_tooltip = flavor_lit.bop.plus2
@@ -1576,8 +1450,8 @@ country_event = {
 				loyalty = 10
 		}
 		hidden_effect = {
-			ZAZ = {
-				country_event = { id = flavor_lit_zaz.2 days = 365 }
+			POL = {
+				country_event = { id = flavor_lit.102 days = 365 }
 			}
 		}
 		custom_tooltip = flavor_lit.bop.minus1
@@ -1602,10 +1476,145 @@ country_event = {
 			value = 2
 		}
 		hidden_effect = {
-			ZAZ = {
-				country_event = { id = flavor_lit_zaz.3 days = 365 }
+			POL = {
+				country_event = { id = flavor_lit.103 days = 365 }
 			}
 		}
 	}
 }
 
+# Zaz Invasion of CRI with pol and lit
+country_event = {
+	id = flavor_lit.101
+	title = flavor_lit.101.t
+	desc = flavor_lit.101.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = flavor_lit.101.a
+		random_list = {
+			50 = {
+				CRI = {
+					every_owned_province = {
+						limit = {
+							OR = {
+								area = zaporizhia_area
+								area = yedisan_area
+								area = crimea_area
+							}
+						}
+						add_core = ZAZ
+						cede_province = ZAZ
+					}
+				}
+			}
+			30 = {
+				CRI = {
+					every_owned_province = {
+						limit = {
+							OR = {
+								area = zaporizhia_area
+								area = yedisan_area
+							}
+						}
+						add_core = ZAZ
+						cede_province = ZAZ
+					}
+				}
+			} 
+			20 = {
+				CRI = {
+					every_owned_province = {
+						limit = {
+							area = zaporizhia_area
+						}
+						add_core = ZAZ
+						cede_province = ZAZ
+					}
+				}
+			}
+		}
+	}
+}
+
+# Zaz Invasion of CRI with lit
+country_event = {
+	id = flavor_lit.102
+	title = flavor_lit.101.t
+	desc = flavor_lit.102.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = flavor_lit.101.a
+		random_list = {
+			50 = {
+				CRI = {
+					every_owned_province = {
+						limit = {
+							OR = {
+								area = zaporizhia_area
+								area = yedisan_area
+							}
+						}
+						add_core = ZAZ
+						cede_province = ZAZ
+					}
+				}
+			}
+			30 = {
+				CRI = {
+					every_owned_province = {
+						limit = {
+							area = zaporizhia_area
+						}
+						add_core = ZAZ
+						cede_province = ZAZ
+					}
+				}
+			}
+			20 = {
+			}
+		}
+	}
+}
+
+# Zaz Invasion of CRI with alone
+country_event = {
+	id = flavor_lit.103
+	title = flavor_lit.101.t
+	desc = flavor_lit.103.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = flavor_lit.101.a
+		random_list = {
+			40 = {
+				CRI = {
+					every_owned_province = {
+						limit = {
+							area = zaporizhia_area
+						}
+						add_core = ZAZ
+						cede_province = ZAZ
+					}
+				}
+			}
+			30 = {
+			}
+			30 = {
+				ZAZ = {
+					every_owned_province = {
+						limit = {
+							area = zaporizhia_area
+						}
+						add_core = CRI
+						cede_province = CRI
+					}
+				}
+			}
+		}
+	}
+}
