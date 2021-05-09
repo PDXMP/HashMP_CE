@@ -20,11 +20,35 @@ LIT_political_branch = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			average_autonomy_above_min = 25
-			average_effective_unrest = -4		
+			OR = {
+				NOT = { 
+					any_owned_province = {
+						OR = {
+							local_autonomy = 5
+							unrest = -2
+						}	
+					}
+				}
+				AND = {
+					is_subject_of = POL
+					NOT = {
+						LIT = {
+						liberty_desire = 10
+						}
+					}	
+					LIT = {
+						has_opinion = {
+							who = POL
+							value = 150
+						}
+					}
+				}				
 			}
+		}
 		effect = {
-
+			POL = {
+				set_country_flag = pol_liv_vytautas_mission
+			}
 		}
 	}
 	##Mission End
@@ -39,10 +63,25 @@ LIT_political_branch = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR {
+				NOT = { exists = LIV }
+				LIV ={
+					OR  { 
+						is_subject_of = SWE
+					}
+				}
+				LIV = {
+					has_opinion = {
+						who = POL
+						value = 200
+					}
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			POL = {
+				set_country_flag = 	pol_liv_melno_mission
+			}
 		}
 	}
 	##Mission End
@@ -57,10 +96,52 @@ LIT_political_branch = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			
+			OR = {
+				NOT = { exists = SMO }
+				NOT = {
+					SMO ={
+						OR  { 
+							is_subject_of = POL
+							is_subject_of = LIT
+						}
+					}
+				}	
+				AND {
+					is_subject_of = ROOT
+					NOT = {
+						SMO = {
+						liberty_desire = 10
+						}
+					}	
+				}
+			}
+			OR = {
+				NOT = { exists = PLT }
+				NOT = {
+					PLT ={
+						OR  { 
+							is_subject_of = POL
+							is_subject_of = LIT
+						}
+					}
+				}	
+				AND {
+					is_subject_of = ROOT
+					NOT = {
+						PLT = {
+						liberty_desire = 10
+						}
+					}	
+				}
+			}
+		
 		}
+		
 		effect = {
-			##MISSIONEFFECT
+			POL = {
+				set_country_flag = pol_northern_marches_mission
+			}
 		}
 	}
 	##Mission End
@@ -218,7 +299,7 @@ LIT_diplomatic_branch = {
 		}
 		trigger = {
 			OR {
-				NOT = { exist = KIE }
+				NOT = { exists = KIE }
 				NOT = {
 					KIE ={
 						OR  { 
@@ -256,8 +337,9 @@ LIT_diplomatic_branch = {
 		}
 		trigger = {
 			OR =	{
+				NOT = { exists = CHR }
 				NOT = {
-					KIE ={
+					CHR ={
 						OR  { 
 						is_subject_of = POL
 						is_subject_of = LIT
@@ -294,6 +376,7 @@ LIT_diplomatic_branch = {
 		}
 		trigger = {
 			OR =	{
+				NOT = { exists = ZAZ }
 				NOT = {
 					ZAZ ={
 						OR  { 
@@ -314,7 +397,9 @@ LIT_diplomatic_branch = {
 			}
 		}
 		effect = {
-			set_country_flag = pol_zaz_integrate_mission
+			POL = {
+				set_country_flag = pol_zaz_integrate_mission
+			}
 		}
 	}
 	##Mission End
@@ -332,6 +417,9 @@ LIT_diplomatic_branch = {
 
 		}
 		effect = {
+			POL = {
+				set_country_flag = pol_lit_end_mission
+			}
 		}
 	}
 	##Mission End
@@ -360,6 +448,8 @@ LIT_expansion_branch = {
 		}
 		trigger = {
 			OR =	{
+				NOT = { exists = ZAZ }
+				NOT = { exists = CRI }
 				NOT = {
 					ZAZ ={
 						OR  { 
@@ -385,7 +475,9 @@ LIT_expansion_branch = {
 			}
 		}
 		effect = {
-			set_country_flag = pol_zaz_invasion_mission
+			POL = {
+				set_country_flag = pol_zaz_invasion_mission
+			}
 		}
 	}
 	##Mission End
@@ -400,10 +492,37 @@ LIT_expansion_branch = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR =	{
+				NOT = { exists = ZAZ }
+				NOT = { exists = CRI }
+				NOT = {
+					ZAZ ={
+						OR  { 
+						is_subject_of = POL
+						is_subject_of = LIT
+						}
+					}
+				}
+				AND {
+					is_subject_of = ROOT
+					NOT = {
+						ZAZ = {
+							liberty_desire = 50
+						}
+					}	
+				}
+				ZAZ = {
+					defensive_war_with = CRI
+				}
+				POL = {
+					offensive_war_with = CRI
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			pol = { 
+				set_country_flag = pol_zaz_defense_mission 
+				}
 		}
 	}
 	##Mission End
