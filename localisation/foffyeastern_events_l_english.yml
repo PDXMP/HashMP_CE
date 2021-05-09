@@ -42,3 +42,8 @@
  flavor_lit.20.a:0 "Both Poland and Lithuania will commit to this endeavour."
  flavor_lit.20.b:0 "Make Lithuania pay for it"
  flavor_lit.20.c:0 "Lets not waste resources on some cossack mercenaries"
+ flavor_lit.101.t:0 "Zaphorozia invades Crimea"
+ flavor_lit.101.d:0 "A boldened cossack messenger brings great news of the conflict between Crimea and Zaphorozia, thanks to our extensive help they have managed to push back the Crimeans and take plenty of territory, eager, he shows us the new maps."
+ flavor_lit.102.d:0 "The cossack messenger brings news of the conflict between Crimea and Zaphorozia, with Lithuanian help they have managed to push back the Crimeans and seize some territory, but not without loses, after a brief respite, he shows us the new maps."
+ flavor_lit.103.d:0 "A tattered cossack messenger brings news of the conflict between Crimea and Zaphorozia, without any help, the Zaphorozian cossacks still had to fight the Crimean khanate and the conflict is progressing worse than expected, doubtful, he shows us the new maps"
+ flavor_lit.101.a:0 "Lets see the aftereffects..."
