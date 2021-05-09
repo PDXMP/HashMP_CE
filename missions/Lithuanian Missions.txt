@@ -462,7 +462,7 @@ LIT_expansion_branch = {
 					is_subject_of = ROOT
 					NOT = {
 						ZAZ = {
-							liberty_desire = 35
+							liberty_desire = 50
 						}
 					}	
 				}
@@ -507,7 +507,7 @@ LIT_expansion_branch = {
 					is_subject_of = ROOT
 					NOT = {
 						ZAZ = {
-							liberty_desire = 50
+							liberty_desire = 25
 						}
 					}	
 				}
