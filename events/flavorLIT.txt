@@ -1404,3 +1404,100 @@ country_event = {
 }
 
 
+# Integrate the cossacks
+country_event = {
+	id = flavor_lit.19
+	title = flavor_lit.19.t
+	desc = flavor_lit.19.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = POL
+		POL = {
+			has_country_flag = pol_zaz_integrate_mission
+		}
+		AND {
+			OR = {
+				exists = ZAZ 
+			}
+			OR = {
+				ZAZ ={
+					OR  { 
+						is_subject_of = POL
+						is_subject_of = LIT
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = flavor_lit.19.a
+		ZAZ = {
+			add_country_modifier = {
+				name = cossack_autonomy
+				duration = 18250
+			}
+		}
+		POL = {
+			add_country_modifier = {
+				name = cossack_support
+				duration = -1
+			}
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = 10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = -20
+		}
+		custom_tooltip = flavor_lit.bop.plus2
+		change_variable {
+			which = balanceOfPower
+			value = 2
+		}
+	}
+	option = {
+		name = flavor_lit.19.b
+		LIT = { 
+			inherit = ZAZ
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = 10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = -10
+		}
+		custom_tooltip = flavor_lit.bop.plus1
+		change_variable {
+			which = balanceOfPower
+			value = 1
+		}
+	}
+	option = {
+		name = flavor_lit.19.c
+		custom_tooltip = flavor_lit.bop.minus1
+		POL = {
+			inherit = ZAZ
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = -10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 10
+		}
+		subtract_variable {
+			which = balanceOfPower
+			value = 1
+		}
+	}
+}
