@@ -982,20 +982,136 @@ country_event = {
 	title = flavor_lit.16.t
 	desc = flavor_lit.16.d
 	picture = SEJM_eventPicture
-
 	fire_only_once = yes
 	trigger = {
 		tag = POL
 		POL = {
 			has_country_flag = pol_liv_melno_mission
 		}
-
 	}
 	mean_time_to_happen = {
 		months = 1
 	}
-	
-	
+	option = {
+		name = flavor_lit.16.a
+		custom_tooltip = flavor_lit.bop.plus2
+		trigger = {
+			AND {
+				exists = LIV 
+				NOT = {
+					LIV = {
+						OR  { 
+							is_subject_of = SWE
+						}
+					}
+				}	
+			}
+		}
+		LIT = {
+			create_march = LIV
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = 10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = -20
+		}
+		
+		change_variable {
+			which = balanceOfPower
+			value = 2
+		}
+		
+	}
+	option = {
+		name = flavor_lit.16.b
+
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = -10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = -10
+		}
+		add_prestige = -10
+	}
+	option = {
+		name = flavor_lit.16.c
+		trigger = {
+			AND {
+				exists = LIV 
+				NOT = {
+					LIV = {
+						OR  { 
+							is_subject_of = SWE
+						}
+					}
+				}	
+			}
+		}	
+		POL = {
+			create_march = LIV
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = -10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 10
+		}
+		custom_tooltip = flavor_lit.bop.minus1
+	}	
+	option = {
+		name = flavor_lit.16.e
+		trigger = {
+			OR {
+				NOT = { exists = LIV }
+				NOT {	
+					LIV = {			
+						is_subject_of = POL
+						is_subject_of = LIT
+					}
+				}
+			}
+			LIV = { is_subject = yes }
+		}		
+		every_owned_province = {
+			limit = {
+				OR = {
+					NOT = { is_core = LIT }
+					NOT = { is_core = POL }
+				}
+				OR = {
+					area = estonia_area
+					area = curonia_area
+					area = livonia_area
+				}
+			}
+			add_permanent_claim = POL
+		}	
+	}	
+}
+
+# The Treaty of Melno
+country_event = {
+	id = flavor_lit.16
+	title = flavor_lit.16.t
+	desc = flavor_lit.16.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = POL
+		POL = {
+			has_country_flag = pol_liv_melno_mission
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
 	option = {
 		name = flavor_lit.16.a
 		custom_tooltip = flavor_lit.bop.plus3
@@ -1042,7 +1158,6 @@ country_event = {
 		}
 		add_prestige = -10
 	}
-	
 	option = {
 		name = flavor_lit.16.c
 		trigger = {
@@ -1056,8 +1171,7 @@ country_event = {
 					}
 				}	
 			}
-		}
-		
+		}	
 		POL = {
 			create_march = LIV
 		}
@@ -1070,8 +1184,7 @@ country_event = {
 				loyalty = 10
 		}
 		custom_tooltip = flavor_lit.bop.minus1
-	}
-	
+	}	
 	option = {
 		name = flavor_lit.16.e
 		trigger = {
@@ -1085,9 +1198,7 @@ country_event = {
 				}
 			}
 			LIV = { is_subject = yes }
-		}
-	
-			
+		}		
 		every_owned_province = {
 			limit = {
 				OR = {
@@ -1102,8 +1213,7 @@ country_event = {
 			}
 			add_permanent_claim = POL
 		}	
-	}
-	
-	
-	
+	}	
 }
+
+
