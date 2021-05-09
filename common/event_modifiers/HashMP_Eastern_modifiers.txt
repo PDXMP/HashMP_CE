@@ -19,3 +19,8 @@ teachings_of_northern_marches = {
 	land_morale = 0.05
 	land_attrition = -0.005
 }
+
+support_central_lithuania = {
+	global_trade_goods_size_modifier = 0.05
+	production_efficiency = 0.1
+}
