@@ -833,7 +833,7 @@ country_event = {
 	
 	option = {
 		name = flavor_lit.14.a
-		custom_tooltip = flavor_lit.14.a.t
+		custom_tooltip = flavor_lit.bop.plus1
 		LIT = { 
 			inherit = KIE
 			inherit = VOL
@@ -857,7 +857,7 @@ country_event = {
 	
 	option = {
 		name = flavor_lit.14.c
-		custom_tooltip = flavor_lit.14.c.t
+		custom_tooltip = flavor_lit.bop.mi
 		POL = {
 			inherit = KIE
 			inherit = VOL
@@ -869,3 +869,49 @@ country_event = {
 	}
 }
 
+# The Vytautas reforms
+country_event = {
+	id = flavor_lit.15
+	title = flavor_lit.15.t
+	desc = flavor_lit.15.d
+	picture = SEJM_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		tag = POL
+		POL = {
+			has_country_flag = pol_liv_vytautas_mission
+		}
+
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	
+	option = {
+		name = flavor_lit.15.a
+		custom_tooltip = flavor_lit.bop.plus1
+
+		
+		change_variable {
+			which = balanceOfPower
+			value = 1
+		}
+		
+	}
+	option = {
+		name = flavor_lit.15.b
+
+	}
+	
+	option = {
+		name = flavor_lit.15.c
+		custom_tooltip = flavor_lit.bop.minus1
+
+		subtract_variable {
+			which = balanceOfPower
+			value = 1
+		}
+	}
+}
