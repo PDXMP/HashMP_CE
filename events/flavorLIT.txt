@@ -1501,3 +1501,111 @@ country_event = {
 		}
 	}
 }
+
+# Befriend the Cossacks
+country_event = {
+	id = flavor_lit.20
+	title = flavor_lit.20.t
+	desc = flavor_lit.20.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = POL
+		POL = {
+			has_country_flag = pol_zaz_invasion_mission
+		}
+		AND {
+			OR = {
+				exists = ZAZ 
+			}
+			OR = {
+				ZAZ ={
+					OR  { 
+						is_subject_of = POL
+						is_subject_of = LIT
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = flavor_lit.20.a
+
+		POL = {
+			add_manpower = -5
+			add_treasury = -250
+		}
+		LIT = {
+			add_manpower = -5
+			add_treasury = -250
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = 10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = -20
+		}
+				hidden_effect = {
+			ZAZ = {
+				country_event = { id = flavor_lit_zaz.1 days = 365 }
+			}
+		}
+		custom_tooltip = flavor_lit.bop.plus2
+		change_variable {
+			which = balanceOfPower
+			value = 2
+		}
+	}
+	option = {
+		name = flavor_lit.20.b
+		LIT = {
+			add_manpower = -10
+			add_treasury = -500
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = -10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 10
+		}
+		hidden_effect = {
+			ZAZ = {
+				country_event = { id = flavor_lit_zaz.2 days = 365 }
+			}
+		}
+		custom_tooltip = flavor_lit.bop.minus1
+		subtract_variable {
+			which = balanceOfPower
+			value = 1
+		}
+	}
+	option = {
+		name = flavor_lit.20.c
+		custom_tooltip = flavor_lit.bop.minus2
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = -20
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 10
+		}
+		subtract_variable {
+			which = balanceOfPower
+			value = 2
+		}
+		hidden_effect = {
+			ZAZ = {
+				country_event = { id = flavor_lit_zaz.3 days = 365 }
+			}
+		}
+	}
+}
+
