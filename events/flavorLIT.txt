@@ -836,7 +836,7 @@ country_event = {
 			}
 			add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -30
+				loyalty = -10
 			}
 		}
 		change_variable {
@@ -855,7 +855,7 @@ country_event = {
 	}
 	option = {
 		name = flavor_lit.14.c
-		custom_tooltip = flavor_lit.bop.mi
+		custom_tooltip = flavor_lit.bop.minus3
 		POL = {
 			inherit = KIE
 			inherit = VOL
@@ -1042,6 +1042,10 @@ country_event = {
 				loyalty = 10
 		}
 		custom_tooltip = flavor_lit.bop.minus1
+		subtract_variable {
+			which = balanceOfPower
+			value = 1
+		}
 	}	
 	option = {
 		name = flavor_lit.16.e
@@ -1092,7 +1096,7 @@ country_event = {
 	}
 	option = {
 		name = flavor_lit.16.a
-		custom_tooltip = flavor_lit.bop.plus3
+		custom_tooltip = flavor_lit.bop.plus2
 		trigger = {
 			AND {
 				exists = LIV 
@@ -1162,6 +1166,11 @@ country_event = {
 				loyalty = 10
 		}
 		custom_tooltip = flavor_lit.bop.minus1
+		subtract_variable {
+			which = balanceOfPower
+			value = 1
+		}
+		
 	}	
 	option = {
 		name = flavor_lit.16.e
@@ -1194,4 +1203,128 @@ country_event = {
 	}	
 }
 
+# The Northern Marches
+country_event = {
+	id = flavor_lit.17
+	title = flavor_lit.17.t
+	desc = flavor_lit.17.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = POL
+		POL = {
+			has_country_flag = pol_northern_marches_mission
+		}
+		AND {
+			OR = {
+				exists = PLT 
+				exists = SMO
+			}
+			OR = {
+				PLT ={
+					OR  { 
+						is_subject_of = POL
+						is_subject_of = LIT
+					}
+				}
+				SMO ={
+					OR  { 
+						is_subject_of = POL
+						is_subject_of = LIT
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = flavor_lit.17.a
+		custom_tooltip = flavor_lit.bop.plus1
+		SMO = {
+			add_country_modifier = {
+				name = northern_marches
+				duration = 18250
+			}
+		}
+		PLT = {
+			add_country_modifier = {
+				name = northern_marches
+				duration = 18250
+			}
+		}
+		POL = {
+			add_country_modifier = {
+				name = teachings_of_northern_marches
+				duration = -1
+			}
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = 10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = -10
+		}
+		change_variable {
+			which = balanceOfPower
+			value = 1
+		}
+	}
+	option = {
+		name = flavor_lit.17.b
+		custom_tooltip = flavor_lit.bop.plus2
+		LIT = { 
+			inherit = PLT
+			inherit = SMO
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = 10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = -20
+		}
+		change_variable {
+			which = balanceOfPower
+			value = 2
+		}
+	}
+	option = {
+		name = flavor_lit.17.c
+		custom_tooltip = flavor_lit.bop.minus1
+		SMO = {
+			add_country_modifier = {
+				name = northern_marches
+				duration = 18250
+			}
+		}
+		PLT = {
+			add_country_modifier = {
+				name = northern_marches
+				duration = 18250
+			}
+		}
+		
+		POL = {
+			create_march = PLT
+			create_march = SMO
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = -10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 10
+		}
+		subtract_variable {
+			which = balanceOfPower
+			value = 1
+		}
+	}
+}
 
