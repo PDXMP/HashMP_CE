@@ -1,12 +1,12 @@
 ﻿l_english:
 #lithuanian side events
 
- flavor_lit.bop.plus3:0 "§R This will greatly disminish the lithuanian nobility influence§!"
- flavor_lit.bop.plus2:0 "§R This will disminish the lithuanian nobility influence§!"
- flavor_lit.bop.plus1:0 "§R This will slighly disminish the lithuanian nobility influence§!"
- flavor_lit.bop.minus3:0 "§R This will greatly disminish our polish nobility influence§!"
- flavor_lit.bop.minus2:0 "§R This will disminish our polish nobility influence§!"
- flavor_lit.bop.minus1:0 "§R This will slighly disminish our polish nobility influence§!"
+ flavor_lit.bop.minus3:0 "§R This will greatly disminish the lithuanian nobility influence§!"
+ flavor_lit.bop.minus2:0 "§R This will disminish the lithuanian nobility influence§!"
+ flavor_lit.bop.minus1:0 "§R This will slighly disminish the lithuanian nobility influence§!"
+ flavor_lit.bop.plus3:0 "§R This will greatly disminish our polish nobility influence§!"
+ flavor_lit.bop.plus2:0 "§R This will disminish our polish nobility influence§!"
+ flavor_lit.bop.plus1:0 "§R This will slighly disminish our polish nobility influence§!"
  flavor_lit.14.t:0 "The succesion of Svitrigaila"
  flavor_lit.14.d:0 "Svitrigaila, the deposed Grand Duke, has died of old age. He has bequeated both of his duchies, Kiev and Galicia-Volhynia to lithuania. We could dispute this action, demanding that galicia-volhynia is given to Poland for a more direct control, or even force the integration of Kiev even if that angers the lithuanian nobility."
  flavor_lit.14.a:0 "Respect the wishes of Svitrigaila"
@@ -28,3 +28,7 @@
  flavor_lit.17.a:0 "They shall remain vigilant against muscovite aggresion"
  flavor_lit.17.b:0 "Integrate them into Lithuania"
  flavor_lit.17.c:0 "They will respond to the Sejm now" 
+ flavor_lit.17.t:0 "Reign Chernigov"
+ flavor_lit.17.d:0 "While the duchy of Chernigov didnt support any side during the Polish-Lithuanian civil war, now their Grand Dukes are declared they loyalty to the crown. The duchy of Chernigov has grown rich and plentiful, and while we would suffer some oposition, we could force that land into our Polish Hinderland instead of letting in re-integrate to Lithuania."
+ flavor_lit.17.a:0 "They will be re-integrated into Lithuania."
+ flavor_lit.17.b:0 "Neutrality is as bad as traitors, seize their lands"
