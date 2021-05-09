@@ -1810,59 +1810,7 @@ country_event = {
 	}
 }
 
-# The succesion of Svitrigaila
-country_event = {
-	id = flavor_pol.23
-	title = flavor_pol.23.t
-	desc = flavor_pol.23.d
-	picture = SEJM_eventPicture
 
-	fire_only_once = yes
-	trigger = {
-	tag = POL
-	}
-	mean_time_to_happen = {
-		months = 12
-	}
-	
-	
-	option = {
-		name = flavor_pol.23.a
-		custom_tooltip = flavor_pol.23.a.t
-		LIT = { 
-			inherit = KIE
-			inherit = VOL
-		}	
-		
-		change_variable {
-			which = balanceOfPower
-			value = 1
-		}
-		
-	}
-	option = {
-		name = flavor_pol.23.b
-		LIT = { 
-			inherit = KIE
-		}
-		POL = {
-			inherit = VOL
-		}
-	}
-	
-	option = {
-		name = flavor_pol.23.c
-		custom_tooltip = flavor_pol.23.c.t
-		POL = {
-			inherit = KIE
-			inherit = VOL
-		}
-		subtract_variable {
-			which = balanceOfPower
-			value = 3
-		}
-	}
-}
 
 # Setup event for poland and lithuania
 country_event = {
