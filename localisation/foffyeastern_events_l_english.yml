@@ -1,9 +1,9 @@
 ﻿l_english:
 #lithuanian side events
- flavor_pol.23.t:0 "The succesion of Svitrigaila"
- flavor_pol.23.d:0 "Svitrigaila, the deposed Grand Duke, has died of old age. He has bequeated both of his duchies, Kiev and Galicia-Volhynia to lithuania. We could dispute this action, demanding that galicia-volhynia is given to Poland for a more direct control, or even force the integration of Kiev even if that angers the lithuanian nobility."
- flavor_pol.23.a:0 "Respect the wishes of Svitrigaila"
- flavor_pol.23.a.t:0 "§R This will disminish our polish nobility influence§!"
- flavor_pol.23.b:0 "Negotiate with the lithuanian nobility"
- flavor_pol.23.c:0 "Demand both Kiev and Galicia-Volhynia"
- flavor_pol.23.c.t:0 "§R This will greatly disminish the lithuanian nobility influence§!"
+ flavor_lit.14.t:0 "The succesion of Svitrigaila"
+ flavor_lit.14.d:0 "Svitrigaila, the deposed Grand Duke, has died of old age. He has bequeated both of his duchies, Kiev and Galicia-Volhynia to lithuania. We could dispute this action, demanding that galicia-volhynia is given to Poland for a more direct control, or even force the integration of Kiev even if that angers the lithuanian nobility."
+ flavor_lit.14.a:0 "Respect the wishes of Svitrigaila"
+ flavor_lit.14.a.t:0 "§R This will disminish our polish nobility influence§!"
+ flavor_lit.14.b:0 "Negotiate with the lithuanian nobility"
+ flavor_lit.14.c:0 "Demand both Kiev and Galicia-Volhynia"
+ flavor_lit.14.c.t:0 "§R This will greatly disminish the lithuanian nobility influence§!"
