@@ -1701,6 +1701,7 @@ TIM_ideas = {
 	}
 	unleash_the_tiger = {
 		shock_damage = 0.1
+		cav_to_inf_ratio = 0.20
 	}
 	chagatai_literature = {
 		legitimacy = 1
@@ -8130,6 +8131,7 @@ CYI_ideas = {
 	}
 	cyi_strengthen_yi_caste_system = {
 		stability_cost_modifier = -0.15
+		cav_to_inf_ratio = 0.20
 	}
 	cyi_deep_in_mountains = {
 		hostile_attrition = 1.0
@@ -9314,6 +9316,7 @@ YUA_ideas = {
 	}
 	yua_keshik_and_weijun = {
 		shock_damage = 0.1
+		cav_to_inf_ratio = 0.20
 	}
 	yua_a_thousand_miles_as_if_at_home = {
 		movement_speed = 0.15
@@ -11929,7 +11932,7 @@ SIS_ideas = {
 RUM_ideas = {
 	start = {
 		manpower_recovery_speed = 0.2
-		land_morale = 0.1
+		land_morale = 0.15
 	}
 	bonus = {
 		land_forcelimit_modifier = 0.25
@@ -11941,6 +11944,7 @@ RUM_ideas = {
 	
 	rum_abul_fath = {
 		discipline = 0.05
+		cav_to_inf_ratio = 0.20
 	}
 	rum_king_of_the_east_and_west = {
 		core_creation = -0.20
@@ -14109,6 +14113,7 @@ MOR_ideas = {
 	free = yes
 	mor_marabouts = {
 		idea_cost = -0.1
+		cav_to_inf_ratio = 0.20
 	}
 	mor_slave_soldiers = {
 		land_maintenance_modifier = -0.1
