@@ -15738,7 +15738,7 @@ MSA_ideas = {
 		land_morale = 0.1
 	}
 	bonus = {
-		ship_durability = 0.1
+		discipline = 0.05
 	}
 	trigger = {
 		tag = MSA
@@ -15746,15 +15746,18 @@ MSA_ideas = {
 	free = yes
 	settle_the_islands = { # same as malay ideas
 		global_colonial_growth = 20
+		colonists = 1
+		
 	}
 	msa_advanced_galley_warfare = {
-		galley_power = 0.25
+		global_ship_cost = -0.1
+		sailor_maintenance_modifer = -0.1
 	}
 	msa_expert_haggling = {
 		trade_efficiency = 0.15
 	}
 	msa_chart_the_seas = {
-		own_coast_naval_combat_bonus = 1
+#		own_coast_naval_combat_bonus = 1
 		naval_morale = 0.15
 	}
 	msa_in_every_port = {
