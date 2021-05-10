@@ -1426,7 +1426,10 @@ country_event = {
 		}
 				hidden_effect = {
 			POL = {
-				country_event = { id = flavor_lit.101 days = 365 }
+				country_event = { 
+				id = flavor_lit.101 days = 365 
+				id = flavor_lit.104 days = 730 
+				}
 			}
 		}
 		custom_tooltip = flavor_lit.bop.plus2
@@ -1451,7 +1454,9 @@ country_event = {
 		}
 		hidden_effect = {
 			POL = {
-				country_event = { id = flavor_lit.102 days = 365 }
+				country_event = { 
+				id = flavor_lit.102 days = 365 
+				id = flavor_lit.104 days = 730 }
 			}
 		}
 		custom_tooltip = flavor_lit.bop.minus1
@@ -1477,7 +1482,10 @@ country_event = {
 		}
 		hidden_effect = {
 			POL = {
-				country_event = { id = flavor_lit.103 days = 365 }
+				country_event = { 
+				id = flavor_lit.103 days = 365 
+				id = flavor_lit.104 days = 730 
+				}
 			}
 		}
 	}
@@ -1615,6 +1623,59 @@ country_event = {
 					}
 				}
 			}
+		}
+	}
+}
+
+# Crimean retaliation
+country_event = {
+	id = flavor_lit.104
+	title = flavor_lit.104.t
+	desc = flavor_lit.104.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			GOL = { form_coalition_against = ZAZ }
+			CRI = {
+				form_coalition_against = ZAZ
+				declare_war_with_cb = {
+					who = ZAZ
+					casus_belli = cb_super_badboy	
+				}
+			}
+		}
+	}
+	option = {
+		name = flavor_lit.104.a	
+		ZAZ = {
+			add_liberty_desire = -25
+			CRI ={ 
+				add_country_modifier = {
+					name = crimean_invasion
+					duration = 1825
+				}
+			}
+			GOL = {
+				add_country_modifier = {
+					name = crimean_invasion
+					duration = 1825
+				}
+			}
+			
+		}
+	}
+	option = {
+		name = flavor_lit.104.b
+		ZAZ = {
+			every_owned_province = {
+				add_core = CRI
+				cede_province = CRI
+			}
+		}
+		POL = {
+			white_peace = CRI
 		}
 	}
 }
