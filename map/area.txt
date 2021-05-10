@@ -3500,7 +3500,7 @@ north_florida_area = { #5
 }
 
 appalachia_area = { #3
-    951 2526 5139
+    951 2551 5139
 }
 
 south_appalachia_area = { #3
@@ -3715,7 +3715,7 @@ upper_ontario_area = { #5
 }
 
 huronia_area = { #4
-    989 988 2585 2570
+    989 988 2585 2670
 }
 
 ottawa_valley_area = { #3 NEW

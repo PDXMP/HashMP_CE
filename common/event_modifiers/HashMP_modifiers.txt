@@ -377,7 +377,7 @@ sok_conv = {
 }
 
 sok_aland = {
-	church_loyalty_modifier = .2
+	church_loyalty_modifier = 0.2
 	governing_capacity = 200
 }
 
