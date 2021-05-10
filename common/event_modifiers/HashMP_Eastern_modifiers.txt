@@ -37,3 +37,8 @@ cossack_support = {
 	cavalry_shock = 0.30
 	cavalry_fire = 0.20
 }
+
+crimean_invasion = {
+	land_forcelimit_modifier = 0.2
+	land_morale = 0.15
+}
