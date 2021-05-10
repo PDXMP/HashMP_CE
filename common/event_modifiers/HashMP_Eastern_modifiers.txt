@@ -5,13 +5,13 @@
 ########################################
 
 northern_marches = {
-	land_morale = 0.15
-	land_maintenance_modifier = -0.10
 	local_development_cost = -0.05
-	global_manpower_modifier = 1
-	land_forcelimit_modifier = 1
+	defensiveness = 0.25
+	hostile_attrition = 1
+	land_forcelimit_modifier = -1
 	technology_cost = -0.05
 	idea_cost = -0.05
+	war_exhaustion = -0.1
 	diplomatic_annexation_cost = 1
 }
 
