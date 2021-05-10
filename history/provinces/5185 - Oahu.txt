@@ -1,14 +1,14 @@
 #4935 - Oahu
 
-add_core = OAH
-owner = OAH
-controller = OAH
+#add_core = OAH
+#owner = OAH
+#controller = OAH
 culture = polynesian
 religion = animism
 hre = no
 capital = "Honolulu"
-is_city = yes
-trade_goods = cloth
+is_city = no
+trade_goods = unknown
 base_tax = 2 
 base_production = 2
 base_manpower = 1

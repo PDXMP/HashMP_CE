@@ -212,7 +212,7 @@ country_event = {
 					limit = {
 						has_dlc = "Emperor"
 					}
-					set_imperial_incident = incident_burgundian_succ_alone
+#					set_imperial_incident = incident_burgundian_succ_alone
 				}
 				else = {
 					country_event = {
@@ -267,7 +267,7 @@ country_event = {
 					limit = {
 						has_dlc = "Emperor"
 					}
-					set_imperial_incident = incident_burgundian_succ_alone
+#					set_imperial_incident = incident_burgundian_succ_alone
 				}
 				else = {
 					country_event = {

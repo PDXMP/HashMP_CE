@@ -828,7 +828,10 @@ malayan_ideas = {
 	}
 	
 	trigger = {
-		religion_group = muslim
+		OR = {
+			religion_group = muslim
+			tag = PAH
+		}
 		culture_group = malay
 		NOT = {
 			primary_culture = sumatran
@@ -1119,7 +1122,7 @@ sumatran_ideas = {
 	
 	trigger = {
 		primary_culture = sumatran
-		religion_group = muslim
+#		religion_group = muslim
 	}
 	free = yes
 
@@ -1986,11 +1989,7 @@ sulawesi_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = MKS
-			tag = BTN
-			tag = LUW
-		}
+		primary_culture = sulawesi
 	}
 	free = yes
 	
@@ -3008,99 +3007,98 @@ sw_native_ideas = {
 	}
 }
 	
-fijian_ideas = { #Credit to James Beaumont
-	start = {
-		light_ship_power = 0.1
-		naval_attrition = -0.1
-	}
-	
-	bonus = {
-		ae_impact = -0.2
-	}
-	
-	trigger = {
-		OR = {
-			tag = LAI
-			tag = VIL
-			tag = VIT
-			tag = VNL
-		}
-	}
-	free = yes
-	
-	fijian_crossroad = {
-		num_accepted_cultures = 2
-	}
-	fijian_degel = {
-		range = 0.1
-		global_ship_trade_power = 0.1
-	}
-	fijian_conjoined = {
-		global_missionary_strength = 0.02
-	}
-	fijian_waqa = {
-		prestige_from_naval = 1
-		naval_tradition_from_battle = 0.5
-	}
-	fijian_warlords = {
-		army_tradition = 0.5
-		land_morale = 0.1
-	}
-	fijian_kai = {
-		land_attrition = -0.25
-	}
-	fijian_confederacy = {
-		global_tax_modifier = 0.05
-		production_efficiency = 0.05
-	}
-}
+#fijian_ideas = { #Credit to James Beaumont
+#	start = {
+#		light_ship_power = 0.1
+#		naval_attrition = -0.1
+#	}
+#	
+#	bonus = {
+#		ae_impact = -0.2
+#	}
+#	
+#	trigger = {
+#		OR = {
+#			tag = LAI
+#			tag = VIL
+#			tag = VIT
+#			tag = VNL
+#		}
+#	}
+#	free = yes
+#	
+#	fijian_crossroad = {
+#		num_accepted_cultures = 2
+#	}
+#	fijian_degel = {
+#		range = 0.1
+#		global_ship_trade_power = 0.1
+#	}
+#	fijian_conjoined = {
+#		global_missionary_strength = 0.02
+#	}
+#	fijian_waqa = {
+#		prestige_from_naval = 1
+#		naval_tradition_from_battle = 0.5
+#	}
+#	fijian_warlords = {
+#		army_tradition = 0.5
+#		land_morale = 0.1
+#	}
+#	fijian_kai = {
+#		land_attrition = -0.25
+#	}
+#	fijian_confederacy = {
+#		global_tax_modifier = 0.05
+#		production_efficiency = 0.05
+#	}
+#}
 
-hawaiian_ideas = { #Credit to James Beaumont
-	start = {
-		light_ship_power = 0.2
-		navy_tradition = 0.5
-	}
-
-	bonus = {
-		may_explore = yes
-	}
-	
-	trigger = {
-		OR = {
-			tag = HAW
-			tag = KAA
-			tag = MAU
-			tag = OAH
-			tag = UHW
-		}
-	}
-	free = yes		#will be added at load.
-
-	kapu_system = {
-		global_missionary_strength = 0.01
-		tolerance_own = 2
-	}
-	alii_nui = {
-		legitimacy = 1
-	}
-	hula_idea = {
-		prestige = 1
-	}
-	ohana = {
-		diplomatic_upkeep = 1
-		num_accepted_cultures = 2
-	}
-	kanawai_mamalahoe = {
-		manpower_recovery_speed = 0.2
-	}
-	naha_prophecy = {
-		core_creation = -0.15
-	}
-	legendary_voyagers = {
-		range = 0.4
-		leader_naval_manuever = 1
-	}
-}
+#hawaiian_ideas = { #Credit to James Beaumont
+#	start = {
+#		light_ship_power = 0.2
+#		navy_tradition = 0.5
+#	}
+#
+#	bonus = {
+#		may_explore = yes
+#	}
+#	
+#	trigger = {
+#		OR = {
+#			tag = HAW
+#			tag = KAA
+#			tag = MAU
+#			tag = OAH
+#			tag = UHW
+#		}
+#	}
+#	free = yes		#will be added at load.
+#	kapu_system = {
+#		global_missionary_strength = 0.01
+#		tolerance_own = 2
+#	}
+#	alii_nui = {
+#		legitimacy = 1
+#	}
+#	hula_idea = {
+#		prestige = 1
+#	}
+#	ohana = {
+#		diplomatic_upkeep = 1
+#		num_accepted_cultures = 2
+#	}
+#	kanawai_mamalahoe = {
+#		manpower_recovery_speed = 0.2
+#	}
+#	naha_prophecy = {
+#		core_creation = -0.15
+#	}
+#	legendary_voyagers = {
+#		range = 0.4
+#		leader_naval_manuever = 1
+#	}
+#}
 
 iroquoian_federation_ideas = {
 	start = {

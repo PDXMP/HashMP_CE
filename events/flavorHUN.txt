@@ -2763,39 +2763,39 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { #Go for it
-		name = new_flavour_hun.1.A
-		set_country_flag = hungary_flag_incident
-		set_imperial_incident = incident_hungary_mission
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 0
-				OR = {
-					NOT = { prestige = 0 }
-					emperor = {
-						NOT = { tag = HAB }
-					}
-				}
-				emperor = {
-					OR = {
-						ai_attitude = {
-							who = root
-							attitude = attitude_threatened
-						}
-						ai_attitude = {
-							who = root
-							attitude = attitude_hostile
-						}
-						ai_attitude = {
-							who = root
-							attitude = attitude_outraged
-						}
-					}
-				}
-			}
-		}
-	}
+#	option = { #Go for it
+#		name = new_flavour_hun.1.A
+#		set_country_flag = hungary_flag_incident
+#		set_imperial_incident = incident_hungary_mission
+#		ai_chance = {
+#			factor = 100
+#			modifier = {
+#				factor = 0
+#				OR = {
+#					NOT = { prestige = 0 }
+#					emperor = {
+#						NOT = { tag = HAB }
+#					}
+#				}
+#				emperor = {
+#					OR = {
+#						ai_attitude = {
+#							who = root
+#							attitude = attitude_threatened
+#						}
+#						ai_attitude = {
+#							who = root
+#							attitude = attitude_hostile
+#						}
+#						ai_attitude = {
+#							who = root
+#							attitude = attitude_outraged
+#						}
+#					}
+#				}
+#			}
+#		}
+#	}
 	option = { #Nah
 		name = new_flavour_hun.1.B
 
