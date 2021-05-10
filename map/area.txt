@@ -1735,43 +1735,67 @@ vogelkop_area = { #4
 }
 
 melanesia_area = { #5
-	1236 1238 1239 1242 1986
+	1236 1238 1239 1986
+}
+
+fiji_area = { #3
+	1242 5187 5188
 }
 
 micronesia_area = { #4
-	1241 1991 1993
+	1241 1991 1993 1994
 }
 
 west_micronesia_area = { #3
 	1235 1995 1996
 }
 
-western_australia_area = { #3
-	1084 2726 2727
+western_australia_area = { #4
+	1084 2727 5113 5114
 }
 
-top_end_area = { #2
-	2728 2729 
+northern_australia_area = { #5 (Capricornia)
+	2730 2731 2732 5098 5099
 }
 
-northern_australia_area = { #3
-	2730 2731 2732
+top_end_area = { #4 (Tiwi and stuff)
+	2728 2729 5096 5097
 }
 
-eastern_australia_area = { #5
-	1091 1092 1093 1094 2733
+eastern_australia_area = { #4 (New South Wales)
+	1091 1092 5105 5106
 }
 
-southern_australia_area = { #4
-	1085 1089 1090 2734
+southern_australia_area = { #4 (Melbourne/Victoria)
+	1087 1088 2734 5111 1089
 }
 
-murray_river_area = { #5
-	1086 1087 1088 2735 2736
+murray_river_area = { #4
+	1086 2735 2736 5112
+}
+
+illawara_area = { #5
+	1090 5107 5108 5109 5110
+}
+
+north_queensland_area = { #4
+	1094 2733 5100 1093
+}
+
+south_queensland_area = { #4
+	5101 5102 5103 5104
+}
+
+pilbara_area = { #4
+	2726 5115 5116 5117
+}
+
+tasmania_area = { #3
+	1085 5118 5119
 }
 
 northern_polynesia_area = { #3
-	1240 1997 1994
+	1240 1997 5184 5185 5186
 }
 
 eastern_polynesia_area = { #3
@@ -1782,8 +1806,12 @@ polynesia_area = { #5
 	1243 1989 1990 1992
 }
 
-te_ika_a_maui_area = { #5
-	1106 1107 1108 2737 2739
+te_ika_a_maui_hauauru_area = { #3
+	1106 1107 2739
+}
+
+te_ika_a_maui_waho_area = { #3
+	1108 2737 5189
 }
 
 te_waipounamu_area = { #3
@@ -2357,8 +2385,12 @@ karenni_area = { #3 #Southern Shan States
 }
 
 
-malaya_area = { #5
-	597 598 599 2393 2686
+malaya_area = { #4
+	 598 599 2393 5064
+}
+
+johor_area = { # 3
+	597 2686 5065
 }
 
 malacca_area = { #3
@@ -2366,15 +2398,27 @@ malacca_area = { #3
 }
 
 khorat_area = { #5
-	612 2383 2384 2385 2386 
+	612 5086 2383 2386
+}
+
+champasak_area = {
+	608 5089 5090 2382 5088
 }
 
 champa_area = { #5
-	606 607 1022 2374 2375
+	606 607 1022 2374 5072
+}
+
+tay_nguyen_area = { #3
+	2375 5073 5074
 }
 
 cambodia_area = { #5
-	604 609 1823 2378 2379
+	604 5075 5076 2379
+}
+
+angkor_area = { #5
+	609 5078 5077 1823 2378
 }
 
 lower_burma_area = { #5
@@ -2387,39 +2431,47 @@ arakan_area = { #3
 
 mekong_area = { #4
 	color = { 220 218 51 }
-	605 2376 2377 2380
+	605 2376 2377 5079 2380
 }
 
 tenasserim_area = { #5
-	593 594 2390 2391 2394
+	593 2390 2391
 }
 
-north_tenasserim_area = { #4
-	591 592 2404 2387
+north_tenasserim_area = { #5
+	591 592 2404 2387 5085
 }
 
-vietnam_area = { #3
-	610 1016 2373
+north_malaya_area = { # 4
+	594 2394 5062 5063
 }
 
-red_river_delta_area = { #3
-	613 616 2372
+vietnam_area = { #4
+	610 1016 2373 5071
 }
 
-south_laos_area = { #4
-	608 611 614 2382
+red_river_delta_area = { #5
+	613 616 2372 5069 5070
 }
 
 north_laos_area = { #4
-	615 1844 2371 2381
+	615 2371 2381 5087 1844
 }
 
-central_thai_area = { #4
-	600 603 2388 2389
+vientiane_area = { #5
+	614 2384 2385 611
 }
 
-northern_thai_area = { #4
-	601 602 1817 589
+central_thai_area = { #5
+	600 5081 5082 5080 603
+}
+
+sukhothai_area = { #5
+	2388 2389 601 5083 5084
+}
+
+northern_thai_area = { #5
+	602 1817 589 5092 5091
 }
 
 ########################################
@@ -2450,80 +2502,96 @@ southern_luzon_area = { #5
 	656 2697 2699 4349 4350
 }
 
-north_sumatra_area = { #3
-	617 2673 2685
+north_sumatra_area = { # 5
+	617 2673 2685 2674 5059
 }
 
-batak_area = { #3
-	618 619 2674
+batak_area = { #4
+	 619 5061 2684 2682
 }
 
-central_sumatra_area = { #5
-	620 659 2675 2676 2677
+central_sumatra_area = { #4
+	620 2675 618 5060
+}
+
+jambi_area = { # 4
+	2677 659 2676 5066
 }
  
-minangkabau_area = { #3
-	2680 2681 2682
+minangkabau_area = { #5
+	2680 2681 2683 5067 5068
 }
 
 south_sumatra_area = { #5
-	621 622 623 2678
+	621 622 623 2678 2679
 }
 
-indonesian_islands_area = { #4
-	2679 2683 2684
+east_java_area = { #3
+	627 2691 5044
 }
 
-east_java_area = { #4
-	627 628 2691 2692
+surabaya_area = { #4
+	629 5043 628 2692
 }
 
 central_java_area = { #4
-	626 629 2689 2690
+	626 2689 2690 5042
 }
 
-west_java_area = { #5
-	624 630 2687 2688 625
+west_java_area = { #3
+	2688 625 5041
+}
+
+banten_area = { #4
+	624 630 2687 5040
 }
 
 kutai_area = { #5
-	638 2709 2710 2711 2712
+	638 2712 5049 2711 2710
+}
+
+sabah_area = { # 3
+	2709 637 2703
 }
 
 brunei_area = { #5
-	636 637 2703 2704 2705
+	636  2704 2705 5055 5056
 }
 
 kalimantan_area = { #5
-	639 640 2706 2707 2708
+	640 2706 5052 5053 5054
+}
+
+banjar_area = { # 5
+	639 2707 5050 5051 2708
 }
 
 molluca_area = { #4
-	645 2696 2717 2725
+	645 2717 646 647
 }
 
 spice_islands_area = { #3
-	648 649 650
-}
-
-ceram_area = { #2
-	646 647
+	648 649 650 
 }
 
 lesser_sunda_islands_area = { #3
 	631 632 634 2693
 }
 
-timor_area = { #3
-	633 635 2695
+timor_area = { #5
+	633 635 2695 2696 2725
+}
+
+makassar_area = { # 4
+	5047 5048 5045 641
 }
 
 sulawesi_area = { #4
-	643 644 2713 2714
+	643 644 2713 2714 5095
 }
 
 south_sulawesi_area = { #4
-	641 642 2715 2716
+	642 2715 2716 5046
 }
 
 ########################################
@@ -3344,35 +3412,47 @@ great_woods_area = { #3
 }
 
 maine_area = { #5
-	971 2013 2565 2566 2567
+    2013 2565 5123
+}
+
+eastern_maine_area = { #3 NEW
+    971 2566 2567
 }
 
 massachusetts_bay_area = { #3
-   966 968 2561
+   966 968 2561 5124
 }
 
 connecticut_valley_area = { #3
-     967 2010 2560
+    967 2010 2560
 }
 
 hudson_valley_area = { #4
-    963 965 2558 2639
+    961 963 964 2559 5162
+}
+
+new_york_area = { #3 NEW
+    965 2558 2639
 }
 
 delaware_valley_area = { #5
-    955 956 957 962 2023
+    956 957 962 2023
 }
 
 iroquoisia_area = { #5
-    958 959 960 961 964
+    958 959 960 5122
 }
 
 south_iroquoisia_area = { #3
-	969 2559 2563
+	969 2563 5121
 }
 
 susquehanna_area = { #4
-    954 2555 2556 2557
+    955 2556 2557 5126
+}
+
+westsylvania_area = { #3 NEW
+    954 2555 5125
 }
 
 maryland_area = { #3
@@ -3380,31 +3460,35 @@ maryland_area = { #3
 }
 
 chesapeake_area = { #4
-    950 952 2549 2550
+    950 952 2549 2550 5127
 }
 
 great_valley_area = { #3
-    949 2011 2552
+    949 2011 2548 2552
 }
 
 piedmont_north_america_area = { #3
-    937 2544 2545
+    2544 2545 5128
 }
 
 carolinas_area = { #3
-    938 2546 2547
+    937 938 2546 2547
 }
 
 south_carolina_area = { #5
-	932 933 2541 2542 2543
+	932 2542 2543
 }
 
-american_georgia_area = { #3
-    929 2539 2540
+south_carolina_piedmont_area = { #4 NEW
+	933 2541 5132
 }
 
-upper_american_georgia_area = { #3
-	930 931 2537 2538
+american_georgia_area = { #5
+    929 2537 2538 2539 5130
+}
+
+upper_american_georgia_area = { #4
+	930 931 2540 5131
 }
 
 florida_area = { #3
@@ -3416,11 +3500,11 @@ north_florida_area = { #5
 }
 
 appalachia_area = { #3
-    951 2526 2551
+    951 2551 5139
 }
 
 south_appalachia_area = { #3
-	935 936 2548
+	935 936 2527 5129
 }
 
 west_florida_area = { #5
@@ -3428,36 +3512,43 @@ west_florida_area = { #5
 }
 
 mississippi_area = { #4
-    919 920 2528 2529
+    919 920 2528 2529 5134
 }
 
 choctaw_area = { #3
-    918 934 2527
-
+    918 934 939 5163
 }
 
 alabama_area = { #4
-    924 925 2531 2532
+    924 925 2531 2532 5133
 }
 
 kentucky_area = { #3
-    939 940 941
+    941 2526 5138
+}
+
+western_kentucky_area = { #3 NEW
+    940 5137 5171
 }
 
 ohio_country_area = { #4
-    946 947 948 2525
+    946 947 948 2525 5157
 }
 
 miami_river_area = { #4
-	942 943 2523 2524
+	942 943 2523 2524 5172
 }
 
 illinois_country_area = { #4
-    915 916 917 2519 2520
+    915 916 917 5153
+}
+
+southern_illinois_area = { #3 NEW
+    2519 2520 5154
 }
 
 mississippi_plain_area = { #3
-	894 895 897
+	894 895 897 5135 5173
 }
 
 michigan_area = { #4
@@ -3465,11 +3556,11 @@ michigan_area = { #4
 }
 
 lake_superior_area = { #4
-    910 911 2517 2518
+    910 911 2517 2518 5148
 }
 
 wisconsin_area = { #3
-	912 913 914
+	912 913 914 5149
 }
 
 lower_louisiana_area = { # 3
@@ -3477,39 +3568,51 @@ lower_louisiana_area = { # 3
 }
 
 upper_louisiana_area = { #4
-    900 902 2513 2514
+    900 902 2514 5156
 }
 
 ozarks_area = { #3
-    899 2509 2515
+    899 2509 2515 5136
+}
+
+iowa_area = { # 4 NEW
+    905 2513 5150 5155
 }
 
 lower_plains_area = { #3
-	891 892 896
+	891 892 896 5158
 }
 
 central_plains_area = { #5
-    898 901 903 2508 2672 
+    901 903 2009 2508 5165 
+}
+
+kansas_area = { #4 NEW
+    890 898 2672 5164
 }
 
 high_plains_area = { #5
-    889 890 2506 2507 2625
+    889 2507 2625
 }
 
 dakota_area = { #5
-    905 906 907 909 2007
+    906 909 2510 5168
 }
 
 south_dakota_area = { #3
-	904 908 2512
+    907 2007 2008 5166
+}
+
+minnessota_area = { #4 NEW
+    904 908 2512 5151
 }
 
 upper_missouri_area = { #5
-    2006 2501 2502 2503 2510
+    2006 2501 2502 2503 5167
 }
 
 badlands_area = { #5
-    1809 2008 2009 2504 2505
+    1809 2504 2505
 }
 
 llano_estacado_area = { #5
@@ -3517,11 +3620,15 @@ llano_estacado_area = { #5
 }
 
 texas_area = { #4
-    884 887 888 2665 2669
+    884 888 2665 2669
 }
 
 coastal_prarie_area = { #4
-	883 886 2500 4627
+	887 883 4627 5161
+}
+
+texas_plains_area = { #4 NEW
+    886 2500 5159 5160
 }
 
 oregon_area = { #4
@@ -3533,7 +3640,7 @@ columbia_river_area = { #4
 }
 
 snake_river_area = { #4
-    2019 2020 2489 2490
+    2019 2020 2489 2490 2506
 }
 
 salish_sea_area = { #3
@@ -3557,14 +3664,18 @@ east_alaska_area = { #3
 }
 
 lower_acadia_area = { #5
-    982 983 984 2568 2569
+    982 984 2568 2569 5141
 }
 
 straits_of_georgia_area = { #4
    972 973 974 2610
 }
 upper_acadia_area = { #4
-   985 2570 2571 2572
+   983 985 2572
+}
+
+st_john_valley_area = { #3 NEW
+   2570 2571 5146
 }
 
 newfoundland_area = { #3
@@ -3576,31 +3687,39 @@ labrador_area = { #3
 }
 
 cote_nord_area = { #4
-    996 2576 2577 2578
+    996 2576 2577 2578 2579 
 }
 
 notre_dame_mountains_area = { #5
     986 994 995 2582 2583
 }
 
-lower_canada_area = { #4
-    990 993 2584 2012
+lower_canada_area = { #3
+    993 2584 5145
 }
 
-upper_canada_area = { #4
-    987 989 2585 2670
+trois_rivieres_area = { #4 NEW
+    990 2012 2580 5143
 }
 
-laurentian_area = { #4
-    992 2579 2580 2581
+upper_canada_area = { #3
+    987 2586 2587
 }
 
-upper_ontario_area = { #4
-    991 1001 1007 2015
+laurentian_area = { #3
+    992 2581 5144
+}
+
+upper_ontario_area = { #5
+    991 1001 1007 2015 2671
 }
 
 huronia_area = { #4
-    988 2586 2587 2671
+    989 988 2585 2670
+}
+
+ottawa_valley_area = { #3 NEW
+    5140 5142 5147
 }
 
 james_bay_area = { #5
@@ -3616,14 +3735,19 @@ hudson_bay_area = { #5
 }
 
 red_river_area = { #5
-    1008 1010 2016 2511 2593
+    2016 2511 5152
+}
+
+manitoba_area = { #5 NEW
+    1008 1010 1011 2593 5169
 }
 
 assiniboia_area = { #3
-    2005 2596 2598
+    2005 2596 2598 5170
 }
+
 saskatchewan_area = { #3
-    1011 1813 2597
+    1813 2595 2597
 }
 
 prairies_area = { #5
@@ -3631,7 +3755,7 @@ prairies_area = { #5
 }
 
 athabasca_area = { #5
-    2595 2599 2600 2601 2603
+    2599 2600 2601 2603
 }
 
 northeast_mexico_area = { #5
@@ -3957,4 +4081,10 @@ magadan_area = { }
 
 netherlands_area = { }
 
+indonesian_islands_area = {  }
+
 iceland_area = { }
+
+ceram_area = { }
+
+south_laos_area = { }
