@@ -1,7 +1,7 @@
 #615 - Luang Prabang
 
-owner = LUA
-controller = LUA
+owner = LXA
+controller = LXA
 culture = lao
 religion = buddhism
 capital = "Xieng Tong"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = LUA
+add_core = LXA
 discovered_by = chinese
 discovered_by = indian
 
