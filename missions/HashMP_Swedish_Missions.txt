@@ -12,7 +12,7 @@ h_swedish_missions_1 = {
 	##Mission Start
 	swedish_reform_1 = {
 		icon = balance_the_estates 
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -37,7 +37,7 @@ h_swedish_missions_1 = {
 	##Mission Start
 	swedish_reform_2 = {
 		icon = medici_bank_ledgers 
-		required_missions {
+		required_missions = {
 			swedish_reform_1
 		}
 		position = 2
@@ -75,7 +75,7 @@ h_swedish_missions_1 = {
 	##Mission Start
 	swedish_reform_3 = {
 		icon = neapolitan_govenance 
-		required_missions {
+		required_missions = {
 			swedish_reform_2
 		}
 		position = 3
@@ -117,7 +117,7 @@ h_swedish_missions_1 = {
 	##Mission Start
 	swedish_reform_4 = {
 		icon = mission_wine_monopolies 
-		required_missions {
+		required_missions = {
 			swedish_reform_3
 		}
 		position = 4
@@ -153,7 +153,7 @@ h_swedish_missions_1 = {
 	##Mission Start
 	swedish_reform_5 = {
 		icon = letat_cest_moi 
-		required_missions {
+		required_missions = {
 			swedish_reform_4
 		}
 		position = 5
@@ -176,7 +176,7 @@ h_swedish_missions_1 = {
 	##Mission Start
 	swedish_religion_1 = {
 		icon = mission_luther_theses
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 6
@@ -204,7 +204,7 @@ h_swedish_missions_1 = {
 	##Mission Start
 	swedish_religion_2 = {
 		icon = h_missions_drake_wars
-		required_missions {
+		required_missions = {
 			swedish_religion_1
 		}
 		position = 7
@@ -226,7 +226,7 @@ h_swedish_missions_1 = {
 	##Mission Start
 	swedish_religion_3 = {
 		icon = mission_european_church
-		required_missions {
+		required_missions = {
 			swedish_religion_2
 		}
 		position = 8
@@ -265,7 +265,7 @@ h_swedish_missions_2 = {
 	##Mission Start
 	swedish_military_1 = {
 		icon = assert_our_sovereignty 
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -294,7 +294,7 @@ h_swedish_missions_2 = {
 	##Mission Start
 	swedish_military_2 = {
 		icon = mission_cannons_firing 
-		required_missions {
+		required_missions = {
 			swedish_military_1
 		}
 		position = 2
@@ -318,7 +318,7 @@ h_swedish_missions_2 = {
 	
 	swedish_military_3 = {
 		icon = h_missions_caroleans 
-		required_missions {
+		required_missions = {
 			swedish_military_2
 		}
 		position = 3
@@ -347,7 +347,7 @@ h_swedish_missions_2 = {
 	##Mission Start
 	swedish_russia_1 = {
 		icon = mission_develop_nevas_port 
-		required_missions {
+		required_missions = {
 			swedish_baltic_1
 		}
 		position = 4
@@ -376,7 +376,7 @@ h_swedish_missions_2 = {
 	##Mission Start
 	swedish_russia_2 = {
 		icon = mission_defeat_muscovy 
-		required_missions {
+		required_missions = {
 			swedish_russia_1
 		}
 		position = 5
@@ -419,7 +419,7 @@ h_swedish_missions_3 = {
 	##Mission Start
 	swedish_main_1 = {
 		icon = holy_state
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -474,7 +474,7 @@ h_swedish_missions_3 = {
 	##Mission Start
 	swedish_main_2 = {
 		icon = h_missions_gustav 
-		required_missions {
+		required_missions = {
 			swedish_main_1
 		}
 		position = 2
@@ -530,7 +530,7 @@ h_swedish_missions_3 = {
 	##Mission Start
 	swedish_baltic_1 = {
 		icon = return_visby_to_the_league 
-		required_missions {
+		required_missions = {
 			swedish_main_2
 		}
 		position = 3
@@ -583,7 +583,7 @@ h_swedish_missions_3 = {
 	##Mission Start
 	swedish_baltic_2 = {
 		icon = mission_eastern_european_city 
-		required_missions {
+		required_missions = {
 			swedish_baltic_1
 		}
 		position = 4
@@ -637,7 +637,7 @@ h_swedish_missions_3 = {
 	##Mission Start
 	swedish_baltic_3 = {
 		icon = mission_danzig_or_war 
-		required_missions {
+		required_missions = {
 			swedish_baltic_2
 		}
 		position = 5
@@ -676,7 +676,7 @@ h_swedish_missions_3 = {
 		##Mission Start
 	swedish_main_3 = {
 		icon = mission_empire 
-		required_missions {
+		required_missions = {
 			swedish_baltic_3 swedish_scand_3
 		}
 		position = 6
@@ -719,7 +719,7 @@ h_swedish_missions_4 = {
 	##Mission Start
 	swedish_tech_1 = {
 		icon = mission_early_modern_university 
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -746,7 +746,7 @@ h_swedish_missions_4 = {
 	##Mission Start
 	swedish_tech_2 = {
 		icon = Compulsory_Education 
-		required_missions {
+		required_missions = {
 			swedish_tech_1
 		}
 		position = 2
@@ -767,7 +767,7 @@ h_swedish_missions_4 = {
 	##Mission Start
 	swedish_scand_1 = {
 		icon = mission_protect_white_sea_trade 
-		required_missions {
+		required_missions = {
 			swedish_main_2
 		}
 		position = 3
@@ -816,7 +816,7 @@ h_swedish_missions_4 = {
 	##Mission Start
 	swedish_scand_2 = {
 		icon = mission_scandinavian_port_authority 
-		required_missions {
+		required_missions = {
 			swedish_scand_1
 		}
 		position = 4
@@ -853,7 +853,7 @@ h_swedish_missions_4 = {
 	##Mission Start
 	swedish_scand_3 = {
 		icon = mission_monarch_in_throne_room 
-		required_missions {
+		required_missions = {
 			swedish_scand_2
 		}
 		position = 5
@@ -897,7 +897,7 @@ h_swedish_missions_5 = {
 	##Mission Start
 	swedish_economic_1 = {
 		icon = mission_african_gold 
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -934,7 +934,7 @@ h_swedish_missions_5 = {
 	##Mission Start
 	swedish_economic_2 = {
 		icon = mission_colonial 
-		required_missions {
+		required_missions = {
 			swedish_economic_1
 		}
 		position = 2
@@ -974,7 +974,7 @@ h_swedish_missions_5 = {
 	##Mission Start
 	swedish_economic_3 = {
 		icon = mission_have_manufactories
-		required_missions {
+		required_missions = {
 			swedish_economic_2
 		}
 		position = 3
@@ -1002,7 +1002,7 @@ h_swedish_missions_5 = {
 		##Mission Start
 	swedish_navy_1 = {
 		icon = secure_the_republic 
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 4
@@ -1024,7 +1024,7 @@ h_swedish_missions_5 = {
 	##Mission Start
 	swedish_navy_2 = {
 		icon = mission_launch_a_flagship 
-		required_missions {
+		required_missions = {
 			swedish_navy_1
 		}
 		position = 5
@@ -1056,7 +1056,7 @@ h_swedish_missions_5 = {
 	##Mission Start
 	swedish_navy_3 = {
 		icon = Burn_Wooden_Wall 
-		required_missions {
+		required_missions = {
 			swedish_navy_2
 		}
 		position = 6
