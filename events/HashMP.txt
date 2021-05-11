@@ -977,7 +977,7 @@ country_event = {
 		
 		hidden_effect = {
 			set_country_flag = johanking
-			add_ruler_personality = lawgiver_personality
+			add_ruler_personality = scholar_personality
 		}
 	}
 	
@@ -1010,7 +1010,7 @@ country_event = {
 		
 		hidden_effect = {
 			set_country_flag = gustavking
-			add_ruler_personality = martial_educator_personality
+			add_ruler_personality = inspiring_leader_personality
 		}
 	}
 }
