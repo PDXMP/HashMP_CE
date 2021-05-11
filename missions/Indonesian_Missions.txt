@@ -15,12 +15,12 @@ indonesians_3 = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			num_of_galley = 30
+			num_of_ships= 30
 		}
 		effect = {
 			add_country_modifier = {
 				name = malay_galleys
-				duration = 7300
+				duration = 3650
 			}
 		}
 	}
@@ -831,13 +831,13 @@ indonesians_5 = {
 			649 = {
 				add_permanent_province_modifier = {
 					name = clove_boom
-					duration = -1
+					duration = 3650
 				}
 			}
 			650 = {
 				add_permanent_province_modifier = {
 					name = clove_boom
-					duration = -1
+					duration = 3650
 				}
 			}
 		}

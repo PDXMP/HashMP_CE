@@ -4215,7 +4215,7 @@ maj_china_trade = {
 }
 
 maj_great_blockade = {
-	naval_morale = 0.1
+#	naval_morale = 0.1
 	siege_blockade_progress = 1
 	blockade_efficiency = 0.25
 }
@@ -4250,7 +4250,7 @@ tiwi_sea_cucumbers = {
 }
 
 malay_galleys = {
-	galley_power = 0.2
+	ship_durability = 0.1
 }
 
 indonesia_trade_dominance = {
