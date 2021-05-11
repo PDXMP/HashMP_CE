@@ -119,55 +119,63 @@ tau_slot_1 = {
 				duration = 7300
 			}
 			if = {
-				limit = {
-					2400 = {
-						base_tax = 3
-					}
-				}
-				2400 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 2
-				}
-			}
-			if = {
-				limit = {
-					583 = {
-						base_tax = 3
-					}
-				}
-				583 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 2
+#				limit = {
+#					2400 = {
+#						base_tax = 3
+#					}
+#				}
+#				2400 = {
+#					add_base_tax = -2
+#				}
+				585 = {
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
 				}
 			}
 			if = {
-				limit = {
-					582 = {
-						base_tax = 3
-					}
-				}
-				582 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 2
+#				limit = {
+#					583 = {
+#						base_tax = 3
+#					}
+#				}
+#				583 = {
+#					add_base_tax = -2
+#				}
+				585 = {
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
 				}
 			}
 			if = {
-				limit = {
-					2401 = {
-						base_tax = 3
-					}
+#				limit = {
+#					582 = {
+#						base_tax = 3
+#					}
+#				}
+#				582 = {
+#					add_base_tax = -2
+#				}
+				585 = {
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
 				}
-				2401 = {
-					add_base_tax = -2
-				}
-				capital_scope = {
-					add_base_tax = 2
+			}
+			if = {
+#				limit = {
+#					2401 = {
+#						base_tax = 3
+#					}
+#				}
+#				2401 = {
+#					add_base_tax = -2
+#				}
+				585 = {
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
 				}
 			}
 		}

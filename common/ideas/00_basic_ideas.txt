@@ -24,7 +24,7 @@ aristocracy_ideas = {
 	
 	noble_knights = {
 		cavalry_power = 0.10
-		cav_to_inf_ratio = 0.20
+		cav_to_inf_ratio = 0.30
 	}
 	military_traditions = {
 		mil_tech_cost_modifier = -0.1

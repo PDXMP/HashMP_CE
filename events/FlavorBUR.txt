@@ -262,7 +262,7 @@ country_event = {
 					}
 					has_dlc = "Emperor"
 				}
-				set_imperial_incident = incident_dutch_revolt
+#				set_imperial_incident = incident_dutch_revolt
 			}
 		}
 	}

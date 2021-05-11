@@ -13,6 +13,7 @@ historical_rival = CYI
 historical_rival = MAJ
 historical_rival = PSA
 historical_rival = SUN
+historical_rival = ARK
 
 1395.1.1 = {
 	monarch = {
