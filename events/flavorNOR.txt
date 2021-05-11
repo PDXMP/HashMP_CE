@@ -985,7 +985,11 @@ country_event = {
 				has_country_flag = nor_mines_found
 			}
 			AND = {
-				tag = NOR
+				OR = {
+					tag = NOR
+					tag = DAN
+					tag = SWE
+				}
 				is_year = 1600
 				NOT = { is_year = 1620 }
 			}
