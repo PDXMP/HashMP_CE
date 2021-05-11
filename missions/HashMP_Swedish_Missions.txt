@@ -188,7 +188,6 @@ h_swedish_missions_1 = {
 				religion = protestant
 				religion = reformed
 			}
-			current_age = age_of_reformation
 		}
 		effect = {
 			country_event = {
