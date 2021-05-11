@@ -730,9 +730,9 @@ mnd_maj_3 = {
 					share = 85
 				}
 			}
-			production_leader = {
-				trade_goods = cloves
-			}
+#			production_leader = {
+#				trade_goods = cloves
+#			}
 		}
 		effect = {
 			add_country_modifier = {
