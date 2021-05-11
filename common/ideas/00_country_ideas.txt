@@ -176,10 +176,7 @@ SWE_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = SWE
-			tag = SCA
-		}
+		tag = SWE
 	}
 	free = yes		#will be added at load.
 
