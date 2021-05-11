@@ -72,9 +72,8 @@ h_swedish_absolutism = {
 }
 
 h_swedish_centralization = {
-	global_autonomy = -0.025
 	nobles_influence_modifier = -0.1
-	possible_adm_policy = 1
+	free_adm_policy = 1
 }
 
 h_swedish_tax_reform = {
