@@ -853,6 +853,7 @@ country_event = {
 		OR = {
 			tag = NOR
 			tag = DAN
+			tag = SWE
 		}
 		owns = 17
 		owns = 20
