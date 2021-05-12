@@ -183,7 +183,7 @@ mnd_maj_2 = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			stability = 2
+			stability = 1
 			if = {
 				limit = {
 					government = monarchy
