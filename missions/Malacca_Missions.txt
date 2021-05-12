@@ -622,7 +622,7 @@ mnd_mlc_2 = {
 		}
 	}
 	
-	mnd_maj_prepare_eastern_campaigns = {
+	mnd_mlc_prepare_eastern_campaigns = {
 		icon = mission_mnd_maj_prepare_eastern_campaigns
 		required_missions = { mnd_mlc_destroy_majapahit }
 		provinces_to_highlight = {
@@ -658,9 +658,9 @@ mnd_mlc_2 = {
 			}
 		}
 	}
-	mnd_maj_subjugate_makassar = {
+	mnd_mlc_subjugate_makassar = {
 		icon = mission_mnd_maj_subjugate_makassar
-		required_missions = { mnd_maj_prepare_eastern_campaigns }
+		required_missions = { mnd_mlc_prepare_eastern_campaigns }
 		provinces_to_highlight = {
 			OR = {
 				owner = {
@@ -728,9 +728,9 @@ mnd_mlc_2 = {
 			}
 		}
 	}
-	mnd_maj_cloves = {
+	mnd_mlc_cloves = {
 		icon = mission_mnd_maj_cloves
-		required_missions = { mnd_maj_subjugate_makassar }
+		required_missions = { mnd_mlc_subjugate_makassar }
 		provinces_to_highlight = {
 			province_id = 1357
 		}
