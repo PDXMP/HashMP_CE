@@ -58,9 +58,9 @@ capital = 2108
 	monarch = {
 		name = "Cungsan"
 		dynasty = "Aisin Gioro"
-		adm = 6
+		adm = 3
 		dip = 3
-		mil = 6
+		mil = 4
 		#leader = { name = "Cungsan" type = general	fire = 2	shock = 4	manuever = 4	siege = 1 }
 	}
 	clear_scripted_personalities = yes
