@@ -1475,6 +1475,15 @@ tau_new_capital = {
 	local_build_cost = -0.2
 }
 
+#new taungu
+tau_ae = {
+	ae_impact = -0.1
+}
+
+tau_rice = {
+	trade_goods_size = 2
+}
+
 #Mughals
 
 lahore_subah = {
