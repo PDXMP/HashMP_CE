@@ -687,7 +687,6 @@ h_swedish_missions_3 = {
 		}
 		trigger = {
 			total_development = 1000
-			prestige = 75
 		}
 		effect = {
 			if = {
