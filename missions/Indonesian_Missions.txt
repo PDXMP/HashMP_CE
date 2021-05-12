@@ -20,7 +20,7 @@ indonesians_3 = {
 		effect = {
 			add_country_modifier = {
 				name = malay_galleys
-				duration = 3650
+				duration = 9125
 			}
 		}
 	}
@@ -167,7 +167,7 @@ indonesians_4 = {
 		effect = {
 			add_country_modifier = {
 				name = malay_vassal_income
-				duration = 7300
+				duration = 9125
 			}
 		}
 	}	

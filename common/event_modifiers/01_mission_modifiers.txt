@@ -4250,7 +4250,7 @@ tiwi_sea_cucumbers = {
 }
 
 malay_galleys = {
-	ship_durability = 0.1
+	global_ship_cost = -0.1
 }
 
 indonesia_trade_dominance = {
@@ -4262,7 +4262,8 @@ indonesia_spice_must_flow = {
 }
 
 malay_vassal_income = {
-	vassal_income = 1
+	reduced_liberty_desire = 10
+	diplomatic_annexation_cost = -0.25
 }
 
 malay_convert_cost_modifier = {
