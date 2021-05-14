@@ -15745,9 +15745,9 @@ MSA_ideas = {
 		tag = MSA
 	}
 	free = yes
-	settle_the_islands = { # same as malay ideas
-		global_colonial_growth = 20
+	settle_the_island = { # same as malay ideas
 		colonists = 1
+		global_colonial_growth = 20
 		
 	}
 	msa_advanced_galley_warfare = {

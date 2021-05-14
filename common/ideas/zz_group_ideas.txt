@@ -2809,7 +2809,7 @@ plains_native_ideas = {
 		fire_damage = 0.10
 	}
 	dwellers_of_tipis = {
-		migration_cost = -0.20
+#		migration_cost = -0.20
 	}
 	peaceful_people = {
 		diplomatic_reputation = 1

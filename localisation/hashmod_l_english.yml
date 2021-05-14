@@ -1030,3 +1030,5 @@
  desc_tau_rice:0 "Major Rice Export"
  tau_ae:0 "AE Reduction"
  desc_tau_ae:0 "AE Reduction"
+ settle_the_island:0 "Settle the Islands"
+ desc_settle_the_island:0 "Colonize the islands fast"
