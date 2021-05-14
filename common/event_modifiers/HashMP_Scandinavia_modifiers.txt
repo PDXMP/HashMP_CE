@@ -1,5 +1,19 @@
 ##Missions
 
+##Denmark
+
+h_christopher_iii = {
+	monarch_lifespan = 1
+	heir_chance = -1
+	block_introduce_heir = yes
+}
+
+h_danish_defeat = {
+	prestige = -0.5
+	global_unrest = 2
+	stability_cost_to_declare_war = 1
+}
+
 ##Sweden
 
 h_swedish_visby = {

@@ -59,6 +59,26 @@ on_startup = {
 			days = 7
 		} 
 	}
+	##Danish Recovery
+	if = {
+		limit = {
+			tag = DAN
+			NOT = { is_year = 1449 }
+		}
+
+		add_ruler_modifier = {
+			name = h_christopher_iii
+			duration = -1  
+			desc = h_christopher_iii_desc
+			hidden = yes
+		}
+
+		add_country_modifier = { 
+			name = h_danish_defeat
+			duration = -1  
+			desc = h_danish_defeat_desc
+		}
+	}
 }
 
 # country

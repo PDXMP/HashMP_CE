@@ -26,7 +26,7 @@ dan_prologue_b_2 = {
 	
 	##Mission Start
 	h_dan_build_navy = {
-		icon = gfxplaceholder
+		icon = overshadow_venice
 		required_missions {
 			h_dan_defeat
 		}
@@ -35,7 +35,8 @@ dan_prologue_b_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			sailors_percentage = 0.25
+			navy_size_percentage = 1
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -59,7 +60,7 @@ dan_prologue_b_3 = {
 	
 	##Mission Start
 	h_dan_defeat = {
-		icon = gfxplaceholder
+		icon = boh_humiliate_austria
 		required_missions {
 			
 		}
@@ -68,7 +69,7 @@ dan_prologue_b_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			has_country_flag = h_dan_christopher_iii
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -77,7 +78,7 @@ dan_prologue_b_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_build_army = {
-		icon = gfxplaceholder
+		icon = assert_our_sovereignty
 		required_missions {
 			h_dan_defeat
 		}
@@ -86,7 +87,8 @@ dan_prologue_b_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			manpower_percentage = 0.50
+			army_size_percentage = 1
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -95,7 +97,7 @@ dan_prologue_b_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_court = {
-		icon = gfxplaceholder
+		icon = medici_bank_ledgers
 		required_missions {
 			h_dan_build_navy h_dan_build_army h_dan_estates
 		}
@@ -104,7 +106,10 @@ dan_prologue_b_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			adm_power = 50
+			dip_power = 50
+			mil_power = 50
+			years_of_income = 0.25
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -113,7 +118,7 @@ dan_prologue_b_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_rebuild_sjaeland = {
-		icon = gfxplaceholder
+		icon = mission_early_game_buildings
 		required_missions {
 			h_dan_court
 		}
@@ -122,7 +127,11 @@ dan_prologue_b_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			5004 = {
+				development = 20
+				province_has_center_of_trade_of_level = 2
+			}
+			NOT = { num_of_revolts = 1 }
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -131,7 +140,7 @@ dan_prologue_b_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_death_king = {
-		icon = gfxplaceholder
+		icon = the_hungarian_succession
 		required_missions {
 			h_dan_rebuild_sjaeland
 		}
@@ -140,7 +149,7 @@ dan_prologue_b_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			NOT = { has_ruler_modifier = h_christopher_iii }
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -164,7 +173,7 @@ dan_prologue_b_4 = {
 	
 	##Mission Start
 	h_dan_estates = {
-		icon = gfxplaceholder
+		icon = balance_the_estates
 		required_missions {
 			h_dan_defeat
 		}
@@ -173,7 +182,19 @@ dan_prologue_b_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			stability = 1
+			num_of_estate_privileges = {
+				estate = estate_church
+				value = 2
+			}
+			num_of_estate_privileges = {
+				estate = estate_nobles
+				value = 2
+			}
+			num_of_estate_privileges = {
+				estate = estate_burghers
+				value = 2
+			}
 		}
 		effect = {
 			##MISSIONEFFECT
