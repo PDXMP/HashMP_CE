@@ -49,12 +49,12 @@ mnd_maj_1 = {
 		provinces_to_highlight = {
 			is_capital = yes
 			owned_by = ROOT
-			NOT = { development = 50 }
+			NOT = { development = 25 }
 		}
 		position = 3
 		trigger = {
 			capital_scope = {
-				development = 50
+				development = 25
 			}
 #			num_of_times_used_transfer_development = 3
 		}
