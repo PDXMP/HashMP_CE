@@ -1,0 +1,201 @@
+##BranchStart 0
+dan_prologue_b_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##
+	
+}
+##BranchEnd 0
+##BranchStart 1
+dan_prologue_b_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_build_navy = {
+		icon = gfxplaceholder
+		required_missions {
+			h_dan_defeat
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 1
+##BranchStart 2
+dan_prologue_b_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_defeat = {
+		icon = gfxplaceholder
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_build_army = {
+		icon = gfxplaceholder
+		required_missions {
+			h_dan_defeat
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_court = {
+		icon = gfxplaceholder
+		required_missions {
+			h_dan_build_navy h_dan_build_army h_dan_estates
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_rebuild_sjaeland = {
+		icon = gfxplaceholder
+		required_missions {
+			h_dan_court
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_death_king = {
+		icon = gfxplaceholder
+		required_missions {
+			h_dan_rebuild_sjaeland
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 2
+##BranchStart 3
+dan_prologue_b_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_estates = {
+		icon = gfxplaceholder
+		required_missions {
+			h_dan_defeat
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 3
+##BranchStart 4
+dan_prologue_b_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##
+	
+}
+##BranchEnd 4
