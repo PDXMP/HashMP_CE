@@ -1,7 +1,9 @@
 #4232 - Ganggye
 
-owner = LIN
-controller = LIN
+owner = KOR
+controller = KOR
+#owner = LIN
+#controller = LIN
 culture = korean
 religion = confucianism
 capital = "Ganggye"
@@ -11,7 +13,8 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = LIN
+add_core = KOR
+#add_core = LIN
 #add_local_autonomy = 35
 fort_15th = yes
 discovered_by = chinese
