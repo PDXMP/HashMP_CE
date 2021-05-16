@@ -382,47 +382,47 @@ CXI_ideas = { #Xi
 # Formable National Ideas
 ########################################
 
-malayan_empire_ideas = { #Malayan empire
-	start = {
-		discipline = 0.05
-		global_ship_cost = -0.1
-	}
-	
-	bonus = {
-		heavy_ship_power = 0.1
-	}
-	
-	trigger = {
-		tag = MSA
-	}
-	free = yes
-	
-	indian_ocean_trade = {
-		merchants = 1
-		trade_steering = 0.1
-	}
-	sufi_legacy = {
-		tolerance_heathen = 2
-		land_morale = 0.10
-	}
-	mal_spice_islands = {
-		production_efficiency = 0.15
-	}
-	classical_malay = {
-		idea_cost = -0.10
-	}
-	trading_fleets = {
-		naval_maintenance_modifier = -0.1
-		sailor_maintenance_modifer = -0.1
-	}
-	heirs_of_pasai = {
-		prestige = 1
-	}
-	settle_the_islands = {
-		colonists = 1
-		global_colonial_growth = 20
-	}
-}
+#malayan_empire_ideas = { #Malayan empire
+#	start = {
+#		discipline = 0.05
+#		global_ship_cost = -0.1
+#	}
+#	
+#	bonus = {
+#		heavy_ship_power = 0.1
+#	}
+#	
+#	trigger = {
+#		tag = MSA
+#	}
+#	free = yes
+#	
+#	indian_ocean_trade = {
+#		merchants = 1
+#		trade_steering = 0.1
+#	}
+#	sufi_legacy = {
+#		tolerance_heathen = 2
+#		land_morale = 0.10
+#	}
+#	mal_spice_islands = {
+#		production_efficiency = 0.15
+#	}
+#	classical_malay = {
+#		idea_cost = -0.10
+#	}
+#	trading_fleets = {
+#		naval_maintenance_modifier = -0.1
+#		sailor_maintenance_modifer = -0.1
+#	}
+#	heirs_of_pasai = {
+#		prestige = 1
+#	}
+#	settle_the_islands = {
+#		colonists = 1
+#		global_colonial_growth = 20
+#	}
+#}
 
 AHU_ideas = {
 	start = {
