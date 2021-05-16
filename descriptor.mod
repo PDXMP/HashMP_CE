@@ -1,5 +1,5 @@
-name="HashMP CE Multiplayer Mod"
-path="mod/HashMP_CE"
+name="HashMP CE Multiplayer Mod Development"
+path="mod/HashMP_CE_Development"
 picture = "HashMP.jpg"
 tags={
 	"Multiplayer"

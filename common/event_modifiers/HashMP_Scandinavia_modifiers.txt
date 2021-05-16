@@ -1,6 +1,17 @@
 ##Missions
 
 ##Denmark
+h_danish_copenhagen_recovering = {
+	local_development_cost = -0.05
+	local_build_cost = -0.20
+	local_build_time = -0.20
+}
+
+h_danish_estates_placated = {
+	church_loyalty_modifier = 0.1
+	burghers_loyalty_modifier = 0.1
+	nobles_loyalty_modifier = 0.1
+}
 
 h_christopher_iii = {
 	monarch_lifespan = 1
@@ -9,7 +20,25 @@ h_christopher_iii = {
 }
 
 h_danish_defeat = {
+	prestige = -1
+	global_unrest = 5
+	stability_cost_to_declare_war = 2
+}
+
+h_danish_defeat_ii = {
+	prestige = -0.75
+	global_unrest = 4
+	stability_cost_to_declare_war = 2
+}
+
+h_danish_defeat_iii = {
 	prestige = -0.5
+	global_unrest = 3
+	stability_cost_to_declare_war = 1
+}
+
+h_danish_defeat_iv = {
+	prestige = -0.25
 	global_unrest = 2
 	stability_cost_to_declare_war = 1
 }

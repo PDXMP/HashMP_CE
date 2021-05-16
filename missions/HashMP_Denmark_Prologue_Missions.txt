@@ -35,11 +35,15 @@ dan_prologue_b_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
+			has_ruler_modifier = h_christopher_iii
 			sailors_percentage = 0.25
 			navy_size_percentage = 1
+			num_of_admirals = 1
 		}
 		effect = {
-			##MISSIONEFFECT
+			custom_tooltip = h_danish_expand_navy_tooltip
+			custom_tooltip = h_danish_missions_space_tooltip
+			add_navy_tradition = 5
 		}
 	}
 	##Mission End
@@ -69,108 +73,19 @@ dan_prologue_b_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			has_country_flag = h_dan_christopher_iii
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##Mission Start
-	h_dan_build_army = {
-		icon = assert_our_sovereignty
-		required_missions {
-			h_dan_defeat
-		}
-		position = 2
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			manpower_percentage = 0.50
-			army_size_percentage = 1
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##Mission Start
-	h_dan_court = {
-		icon = medici_bank_ledgers
-		required_missions {
-			h_dan_build_navy h_dan_build_army h_dan_estates
-		}
-		position = 3
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			adm_power = 50
-			dip_power = 50
-			mil_power = 50
-			years_of_income = 0.25
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##Mission Start
-	h_dan_rebuild_sjaeland = {
-		icon = mission_early_game_buildings
-		required_missions {
-			h_dan_court
-		}
-		position = 4
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			5004 = {
-				development = 20
-				province_has_center_of_trade_of_level = 2
+			custom_trigger_tooltip = {
+				tooltip = h_recover_nation_tooltip
+
+				has_country_flag = h_kalmar_union_event_choice_concluded
 			}
-			NOT = { num_of_revolts = 1 }
 		}
 		effect = {
-			##MISSIONEFFECT
+			custom_tooltip = h_danish_recover_nation_effect_tooltip
+			custom_tooltip = h_danish_missions_space_tooltip
+			add_legitimacy = -50
 		}
 	}
 	##Mission End
-	##Mission Start
-	h_dan_death_king = {
-		icon = the_hungarian_succession
-		required_missions {
-			h_dan_rebuild_sjaeland
-		}
-		position = 5
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			NOT = { has_ruler_modifier = h_christopher_iii }
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##
-	
-}
-##BranchEnd 2
-##BranchStart 3
-dan_prologue_b_4 = {
-	slot = 4
-	generic = no
-	ai = yes
-	potential = {
-		tag = DAN
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
 	##Mission Start
 	h_dan_estates = {
 		icon = balance_the_estates
@@ -197,7 +112,203 @@ dan_prologue_b_4 = {
 			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			hidden_effect = {
+				remove_country_modifier = h_danish_defeat
+				add_country_modifier = {
+					name = h_danish_defeat_ii
+					duration = -1
+				}
+			}
+
+			custom_tooltip = h_christopher_iii_falls_ill_1_tooltip
+			custom_tooltip = h_defeat_modifier_change_tooltip
+			custom_tooltip = h_danish_missions_space_tooltip
+			add_ruler_modifier = {
+				name = h_danish_estates_placated
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_court = {
+		icon = medici_bank_ledgers
+		required_missions {
+			h_dan_estates
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			adm_power = 50
+			dip_power = 50
+			mil_power = 50
+			years_of_income = 0.25
+		}
+		effect = {
+			hidden_effect = {
+				remove_country_modifier = h_danish_defeat_ii
+				add_country_modifier = {
+					name = h_danish_defeat_iii
+					duration = -1
+				}
+
+				random_owned_province = {
+					limit = {
+						fort_level = 1
+					}
+	
+					spawn_rebels = {
+						type = anti_tax
+						win = yes
+						size = 1
+					}
+				}
+			}
+			custom_tooltip = h_danish_missions_peasants_rebel
+			custom_tooltip = h_danish_missions_space_tooltip
+			custom_tooltip = h_christopher_iii_falls_ill_2_tooltip
+			custom_tooltip = h_defeat_modifier_change_tooltip
+			custom_tooltip = h_danish_missions_space_tooltip
+			add_years_of_income = -0.25
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_rebuild_sjaeland = {
+		icon = mission_early_game_buildings
+		required_missions {
+			h_dan_court
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			5004 = {
+				development = 20
+				province_has_center_of_trade_of_level = 2
+			}
+			NOT = { 
+				num_of_revolts = 1 
+				num_of_rebel_armies = 1
+			}
+		}
+		effect = {
+			hidden_effect = {
+				remove_country_modifier = h_danish_defeat_iii
+				add_country_modifier = {
+					name = h_danish_defeat_iv
+					duration = -1
+				}
+			}
+
+			custom_tooltip = h_christopher_iii_falls_ill_3_tooltip
+			custom_tooltip = h_defeat_modifier_change_tooltip
+			custom_tooltip = h_danish_missions_space_tooltip
+			5004 = {
+				add_province_modifier = {
+					name = h_danish_copenhagen_recovering
+					duration = 9125
+				}
+
+				if = {
+					limit = {
+						NOT = { province_has_center_of_trade_of_level = 3 }
+					}
+
+					add_center_of_trade_level = 1
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_death_king = {
+		icon = the_hungarian_succession
+		required_missions {
+			h_dan_rebuild_sjaeland
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = h_danish_succession_tooltip
+
+				has_country_flag = h_kalmar_union_event_choice_concluded
+
+				NOT = { 
+					has_ruler_modifier = h_christopher_iii 
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_country_modifier = h_danish_defeat
+				}
+
+				remove_country_modifier = h_danish_defeat
+			}
+			else_if = {
+				limit = {
+					has_country_modifier = h_danish_defeat_ii
+				}
+
+				remove_country_modifier = h_danish_defeat_ii
+			}
+			else_if = {
+				limit = {
+					has_country_modifier = h_danish_defeat_iii
+				}
+
+				remove_country_modifier = h_danish_defeat_iii
+			}
+			else = {
+				remove_country_modifier = h_danish_defeat_iv
+			}
+			swap_non_generic_missions = yes
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 2
+##BranchStart 3
+dan_prologue_b_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_build_army = {
+		icon = assert_our_sovereignty
+		required_missions {
+			h_dan_defeat
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			has_ruler_modifier = h_christopher_iii
+			manpower_percentage = 0.60
+			army_size_percentage = 1
+			num_of_generals = 1
+		}
+		effect = {
+			custom_tooltip = h_danish_expand_army_tooltip
+			custom_tooltip = h_danish_missions_space_tooltip
+			add_army_tradition = 5
 		}
 	}
 	##Mission End
