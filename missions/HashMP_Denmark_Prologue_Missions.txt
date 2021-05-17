@@ -1,20 +1,5 @@
-##BranchStart 0
-dan_prologue_b_1 = {
-	slot = 1
-	generic = no
-	ai = yes
-	potential = {
-		tag = DAN
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-	##
-	
-}
-##BranchEnd 0
 ##BranchStart 1
-dan_prologue_b_2 = {
+h_danish_missions_charlesi_2 = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -24,6 +9,343 @@ dan_prologue_b_2 = {
 	}
 	has_country_shield = yes
 	
+	##Mission Start
+	h_dan_quality_1 = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_quality_2 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_quality_1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_wismar = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_own_holstein
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_pomerania = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_wismar
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_germany = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_pomerania
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 1
+##BranchStart 2
+h_danish_missions_charlesi_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_charles_i = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_gotland = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_charles_i
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_osel = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_gotland
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_estonia = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_osel
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_norway_1 = {
+		icon = placeholdergfx
+		required_missions {
+			 
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_kalmar_union = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_norway_1 h_dan_sweden_4
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 2
+##BranchStart 3
+h_danish_missions_charlesi_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_cadets = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_1 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_charles_i
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_2 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_sweden_1
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_3 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_sweden_2
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_4 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_sweden_3
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 3
+
+##BranchEnd 4
+##BranchStart 1
+dan_prologue_b_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		tag = DAN
+		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
 	##Mission Start
 	h_dan_build_navy = {
 		icon = overshadow_venice
@@ -44,6 +366,10 @@ dan_prologue_b_2 = {
 			custom_tooltip = h_danish_expand_navy_tooltip
 			custom_tooltip = h_danish_missions_space_tooltip
 			add_navy_tradition = 5
+
+			hidden_effect = {
+				set_country_flag = h_denmark_navy_prepared
+			}
 		}
 	}
 	##Mission End
@@ -57,7 +383,9 @@ dan_prologue_b_3 = {
 	generic = no
 	ai = yes
 	potential = {
+		always = no
 		tag = DAN
+		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -284,11 +612,13 @@ dan_prologue_b_4 = {
 	generic = no
 	ai = yes
 	potential = {
+		always = no
 		tag = DAN
+		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
-	
+
 	##Mission Start
 	h_dan_build_army = {
 		icon = assert_our_sovereignty
@@ -309,6 +639,575 @@ dan_prologue_b_4 = {
 			custom_tooltip = h_danish_expand_army_tooltip
 			custom_tooltip = h_danish_missions_space_tooltip
 			add_army_tradition = 5
+
+			hidden_effect = {
+				set_country_flag = h_denmark_army_prepared
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 3
+
+##BranchStart 0
+h_dan_missions_main_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_sound_toll = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_own_holstein = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_hanseatic_league = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_own_holstein
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_own_lubeck = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_hanseatic_league
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_iceland = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_british_isles = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_iceland
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_scotland_1 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_british_isles
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_scotland_2 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_scotland_1
+		}
+		position = 8
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_counts_feud = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 9
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_reformation = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_counts_feud
+		}
+		position = 10
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_fishing_industry = {
+		icon = placeholdergfx
+		required_missions {
+
+		}
+		position = 11
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_naval_supplies = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_fishing_industry
+		}
+		position = 12
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 0
+##BranchStart 1
+h_dan_missions_main_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	##Mission Start
+	h_dan_greenland = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_iceland
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_danelaw = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_british_isles
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_england = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_danelaw
+		}
+		position = 8
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_north_sea_empire = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_england h_dan_scotland_2
+		}
+		position = 9
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_enlightenment = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_university
+		}
+		position = 11
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 1
+##BranchStart 2
+h_dan_missions_main_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_canada = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_discover_na h_dan_greenland
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_hudson = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_canada
+		}
+		position = 8
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_university = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 10
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_innovation = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_university
+		}
+		position = 11
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_industrial_revolution = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_innovation h_dan_naval_supplies
+		}
+		position = 13
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 2
+##BranchStart 3
+h_dan_missions_main_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_discover_na = {
+		icon = placeholdergfx
+		required_missions {
+			 
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_chesapeake = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_discover_na
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial_empire = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_chesapeake h_dan_hudson
+		}
+		position = 9
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial_dominions = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_colonial_empire
+		}
+		position = 10
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_indonesia = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_the_cape
+		}
+		position = 11
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_east_india_trading = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_indonesia h_dan_coromandel
+		}
+		position = 13
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
 		}
 	}
 	##Mission End
@@ -317,7 +1216,7 @@ dan_prologue_b_4 = {
 }
 ##BranchEnd 3
 ##BranchStart 4
-dan_prologue_b_5 = {
+h_dan_missions_main_5 = {
 	slot = 5
 	generic = no
 	ai = yes
@@ -327,7 +1226,223 @@ dan_prologue_b_5 = {
 	}
 	has_country_shield = yes
 	
+	##Mission Start
+	h_dan_expand_income = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_industry = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_expand_income
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_consolidate_crown = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_industry
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_absolutism = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_consolidate_crown
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+		
+	##Mission Start
+	h_dan_fortify_denmark = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_fortify_holstein = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_fortify_denmark
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_carrib = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_discover_na
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_south_trade = {
+		icon = placeholdergfx
+		required_missions {
+			 
+		}
+		position = 8
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_ivory = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_south_trade
+		}
+		position = 9
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_the_cape = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_ivory
+		}
+		position = 10
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_india = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_the_cape
+		}
+		position = 11
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_coromandel = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_india
+		}
+		position = 12
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
 	##
 	
 }
-##BranchEnd 4
