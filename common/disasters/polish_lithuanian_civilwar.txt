@@ -1,0 +1,152 @@
+polish_lithuanian_civilwar = {
+
+	potential = {
+			NOT = {
+					TAG = PLC
+			}
+			TAG = POL
+	}
+
+	can_start = {
+			has_any_disaster = no
+	}
+
+	can_stop = {
+			has_any_disaster = yes
+	}
+
+
+	progress = {
+        modifier = {
+                factor = 5
+                LIT = {
+					OR {
+						is_subject = no
+						NOT { is_subject_of = POL }
+					}     
+                }
+				exists = LIT
+        }
+		
+		modifier = {
+                factor = 2
+                LIT = {
+					is_subject_of = POL 
+					NOT = { 
+						liberty_desire = 50 
+						has_opinion = {
+							who = POL
+							value = 0
+						}
+					}    
+                }
+				exists = LIT
+        }
+		
+        modifier = {
+                factor = 0.5
+				NOT {
+					estate_loyalty {
+						estate = estate_polish_nobility
+						loyalty = 30
+					}
+				}
+        }
+        modifier = {
+                factor = 0.5
+				NOT {
+					estate_loyalty {
+						estate = estate_lithuanian_nobility
+						loyalty = 30
+					}
+				}
+        }
+		
+        modifier = {
+			factor = -0.5
+			estate_loyalty {
+				estate = estate_lithuanian_nobility
+				loyalty = 60
+			}
+        }
+		
+        modifier = {
+			factor = -0.5
+			estate_loyalty {
+				estate = estate_polish_nobility
+				loyalty = 60
+			}
+        }
+		
+		modifier = {
+			factor = 2
+			is_in_war = {
+				attacker_leader = ROOT
+			}
+			
+        }
+		
+		modifier = {
+			factor = 2
+			any_country = {
+				defensive_war_with = POL
+			}
+        }
+		
+		modifier = {
+			factor = -1
+			any_country = {
+				offensive_war_with = POL
+			}
+        }
+        modifier = {
+			factor = -0.5
+			has_country_flag = pol_northern_marches_mission
+        }
+		
+        modifier = {
+			factor = -0.5
+			has_country_flag = pol_zaz_integrate_mission
+        }
+		
+        modifier = {
+			factor = -1
+			has_country_flag = pol_lit_end_mission
+        }
+	}
+
+	can_end = {
+			OR {
+				AND {
+					had_country_flag = { flag = polish_lithuanian_cw = 3650 }
+
+				}
+				TAG = PLC
+			}
+	}
+	
+	modifier = {
+        global_unrest = 4
+        reduced_liberty_desire = -30
+		LIT = {
+			global_unrest = 2
+			reduced_liberty_desire = -15
+		}
+}
+	on_start = pol_lit_cw.1
+	on_end = pol_lit_cw.2
+	
+	
+	on_monthly = {
+        events = {
+        }
+        random_events = { 
+                1000 = 0
+                100 = pol_lit_cw.3
+				50 = civil_war.7
+				50 = civil_war.8
+				50 = civil_war.5
+        }
+	}
+	
+}
