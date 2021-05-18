@@ -4,6 +4,11 @@
 # by Kabian
 ########################################
 
+
+
+########################################
+# Lithuanian mission events modifiers
+########################################
 northern_marches = {
 	local_development_cost = -0.05
 	defensiveness = 0.25
@@ -42,3 +47,14 @@ crimean_invasion = {
 	land_forcelimit_modifier = 0.2
 	land_morale = 0.15
 }
+
+
+########################################
+# Polish Lithuanian civil war disaster modifiers
+########################################
+
+magnate_support = {
+	global_unrest = -2
+	reduced_liberty_desire = -15
+}
+
