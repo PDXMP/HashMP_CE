@@ -697,38 +697,7 @@ country_event = {
 	}
 }
 
-# Civil War in Lithuania
-country_event = {
-	id = flavor_lit.11
-	title = "flavor_lit.EVTNAME11"
-	desc = "flavor_lit.EVTDESC11"
-	picture = CIVIL_WAR_eventPicture
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "flavor_lit.EVTOPTA11"
-		add_stability_or_adm_power = yes
-		add_years_of_income = -0.5
-		every_owned_province = {
-			limit = {
-				is_core = ROOT
-				unrest = 1
-			}
-			create_revolt = 1
-		}
-	}
-	option = {
-		name = "flavor_lit.EVTOPTB11"
-		every_owned_province = {
-			limit = {
-				unrest = 1
-				is_core = ROOT
-			}
-			create_revolt = 1
-		}
-	}
-}
+
 
 # The Horrible Plague in Lithuania
 country_event = {
