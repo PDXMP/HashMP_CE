@@ -51,3 +51,12 @@
  flavor_lit.104.d:0 "My liege, the beacons of Ochakov, the beacons of Zaphorozia are lit. Zaphorozia calls for aid, they are getting invaded by the dark forces of Golden Horde and Crimea"
  flavor_lit.104.a:0 "And Poland will answer, muster the Hussars"
  flavor_lit.104.b:0 "They are not worth the effort..."
+ 
+ #polish lithuanian civil war events
+ pol_lit_cw.1.a:0 "The Commonwealth will survive"
+ pol_lit_cw.1.t:0 "Civil war between the Sejm and the Bajorais"
+ pol_lit_cw.1.d:0 "The tensions between the Polish Sejm and the Lithuanian Bajorais have reached a breaking point. Both factions have called their banners and for the time being, refuse to try any negotiations. While this conflict is on-going we will have great problems to consolidate our subjects, we must force both factions to stand down and bow to [Root.GetName].
+ 
+ pol_lit_cw.2.a:0 "The nobility has been reigned"
+ pol_lit_cw.2.t:0 "Civil war ends"
+ pol_lit_cw.2.d:0 "While the Polish and the Lithuanian nobilities fought, [Root.GetName] managed to raise enough loyal troops and support to defeat both factions, that have seen their influence curtailed for the time being. Even if this civil war is behind us now, the Commonwealth has suffered enough loses to be set back for the time being. Will we ever leave the cycles of hatred between Polish and Lithuanians behind? 
