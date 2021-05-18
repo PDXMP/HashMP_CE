@@ -1,9 +1,676 @@
-##BranchStart 1
+##Christian 1st Branch
+h_danish_christian_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_forces_1 = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_forces_2 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_forces_1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_wismar = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_own_holstein
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_pomerania = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_wismar
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_germany = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_pomerania
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Christian 2nd Branch
+h_danish_christian_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_christian = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_government_1 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_christian
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_government_2 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_government_1
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_government_3 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_government_2
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_norway_1 = {
+		icon = placeholdergfx
+		required_missions {
+			 
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_kalmar_union = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_norway_1 h_dan_sweden_4
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Christian 3rd Branch
+h_danish_christian_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_cannons = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_1 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_christian
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_2 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_sweden_1
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_3 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_sweden_2
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_4 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_sweden_3
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Dorothea 1st Branch
+h_danish_dorothea_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_naval_1 = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_naval_2 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_naval_1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_trade_1 = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_trade_2 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_trade_1
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_trade_3 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_trade_2
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Dorothea 2nd Branch
+h_danish_dorothea_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_dorothea = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_flagship = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_dorothea
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_naval_3 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_flagship
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_naval_4 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_naval_3
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_naval_5 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_naval_4
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_rule_the_sea = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_trade_3 h_dan_naval_5 h_dan_colonial_3
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Dorothea 3rd Branch
+h_danish_dorothea_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_admiralty = {
+		icon = placeholdergfx
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_dorothea
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial_1 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_colonial
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial_2 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_colonial_1
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial_3 = {
+		icon = placeholdergfx
+		required_missions {
+			h_dan_colonial_2
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Charles 1st Branch
 h_danish_missions_charlesi_2 = {
 	slot = 2
 	generic = no
 	ai = yes
 	potential = {
+		always = no
 		tag = DAN
 		NOT = { map_setup = map_setup_random }
 	}
@@ -102,13 +769,13 @@ h_danish_missions_charlesi_2 = {
 	##
 	
 }
-##BranchEnd 1
-##BranchStart 2
+##Charles 2nd Branch
 h_danish_missions_charlesi_3 = {
 	slot = 3
 	generic = no
 	ai = yes
 	potential = {
+		always = no
 		tag = DAN
 		NOT = { map_setup = map_setup_random }
 	}
@@ -225,13 +892,13 @@ h_danish_missions_charlesi_3 = {
 	##
 	
 }
-##BranchEnd 2
-##BranchStart 3
+##Charles 3rd Branch
 h_danish_missions_charlesi_4 = {
 	slot = 4
 	generic = no
 	ai = yes
 	potential = {
+		always = no
 		tag = DAN
 		NOT = { map_setup = map_setup_random }
 	}
@@ -330,16 +997,12 @@ h_danish_missions_charlesi_4 = {
 	##
 	
 }
-##BranchEnd 3
-
-##BranchEnd 4
-##BranchStart 1
+##Prologue 1st Branch
 dan_prologue_b_2 = {
 	slot = 2
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
 		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
 		NOT = { map_setup = map_setup_random }
@@ -376,14 +1039,12 @@ dan_prologue_b_2 = {
 	##
 	
 }
-##BranchEnd 1
-##BranchStart 2
+##Prologue 2nd Branch
 dan_prologue_b_3 = {
 	slot = 3
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
 		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
 		NOT = { map_setup = map_setup_random }
@@ -605,14 +1266,12 @@ dan_prologue_b_3 = {
 	##
 	
 }
-##BranchEnd 2
-##BranchStart 3
+##Prologue 3rd Branch
 dan_prologue_b_4 = {
 	slot = 4
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
 		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
 		NOT = { map_setup = map_setup_random }
@@ -649,9 +1308,7 @@ dan_prologue_b_4 = {
 	##
 	
 }
-##BranchEnd 3
-
-##BranchStart 0
+##Main Missions 1st Branch
 h_dan_missions_main_1 = {
 	slot = 1
 	generic = no
@@ -881,8 +1538,7 @@ h_dan_missions_main_1 = {
 	##
 	
 }
-##BranchEnd 0
-##BranchStart 1
+##Main Missions 2nd Branch
 h_dan_missions_main_2 = {
 	slot = 2
 	generic = no
@@ -986,8 +1642,7 @@ h_dan_missions_main_2 = {
 	##
 	
 }
-##BranchEnd 1
-##BranchStart 2
+##Main Missions 3rd Branch
 h_dan_missions_main_3 = {
 	slot = 3
 	generic = no
@@ -1091,8 +1746,7 @@ h_dan_missions_main_3 = {
 	##
 	
 }
-##BranchEnd 2
-##BranchStart 3
+##Main Missions 4th Branch
 h_dan_missions_main_4 = {
 	slot = 4
 	generic = no
@@ -1214,8 +1868,7 @@ h_dan_missions_main_4 = {
 	##
 	
 }
-##BranchEnd 3
-##BranchStart 4
+##Main Missions 5th Branch
 h_dan_missions_main_5 = {
 	slot = 5
 	generic = no
