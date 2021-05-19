@@ -53,7 +53,7 @@ h_remove_stability_or_adm_power_with_input = {
 		}
 	}
 
-	while = {
+	while = {	
 		limit = {
 			NOT = {
 				check_variable = {
@@ -79,4 +79,4 @@ h_remove_stability_or_adm_power_with_input = {
 			value = 1
 		}
 	}
-}
+}	

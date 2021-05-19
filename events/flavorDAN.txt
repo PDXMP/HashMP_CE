@@ -281,18 +281,18 @@ country_event = {
 		ai_chance = { factor = 90 }
 		add_absolutism = 20
 		reduce_stability_or_adm_power = yes
+		h_remove_stability_or_adm_power_with_input = {
+			valuetooltip = h_REMOVE_STABILITY_OR_ADM_VALUE_1
+			value = 1
+		}
 	}
 	option = {
 		name = "flavor_swe.EVTOPTB3232" # The King must heed the Council
 		ai_chance = { factor = 10 }
-		if = {
-			limit = { stability = 3 }
-
-			add_stability_or_adm_power = yes
-		}
-		else = {
-			add_stability = 3
-		}
+		h_add_stability_or_adm_power_with_input = {
+			valuetooltip = h_ADD_STABILITY_OR_ADM_VALUE_3
+			value = 3
+		}	
 	}
 }
 
