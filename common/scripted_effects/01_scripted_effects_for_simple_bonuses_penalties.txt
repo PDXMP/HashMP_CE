@@ -26,7 +26,6 @@ reduce_stability_or_adm_power = {
 	else = { add_adm_power = -50 }
 }
 
-
 #Legitimacy
 #Country Scope
 increase_legitimacy_huge_effect = {

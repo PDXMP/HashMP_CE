@@ -1,6 +1,33 @@
 ##Missions
 
 ##Denmark
+h_centralize_denmark = {
+	global_tax_modifier = 0.05
+	church_influence_modifier = -0.1
+	burghers_influence_modifier = -0.1
+	nobles_influence_modifier = -0.1
+}
+
+h_danish_artisans = {
+	global_trade_goods_size_modifier = 0.10
+}
+
+h_danish_crown_revenue = {
+	global_tax_modifier = 0.10
+}
+
+h_danish_lubeck = {
+	mercantilism_cost = -0.5
+}
+
+h_danish_hanseatic_boats = {
+	light_ship_cost = -0.25
+}
+
+h_danish_holstein_integration = {
+	local_culture_conversion_cost = -0.25
+}
+
 h_danish_copenhagen_recovering = {
 	local_development_cost = -0.05
 	local_build_cost = -0.20

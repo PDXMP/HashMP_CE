@@ -1,0 +1,8 @@
+﻿l_english:
+ h_ADD_STABILITY_OR_ADM_VALUE_1:0 "Gain §G1§! Stability."
+ h_ADD_STABILITY_OR_ADM_VALUE_2:0 "Gain §G2§! Stability."
+ h_ADD_STABILITY_OR_ADM_VALUE_3:0 "Gain §G3§! Stability."
+ h_REMOVE_STABILITY_OR_ADM_VALUE_1:0 "Lose §R1§! Stability."
+ h_REMOVE_STABILITY_OR_ADM_VALUE_2:0 "Lose §R2§! Stability."
+ h_REMOVE_STABILITY_OR_ADM_VALUE_3:0 "Lose §R3§! Stability."
+ h_ESTATES_SEIZE_LAND_LARGE_DESC:0 "Will seize §Y10% Estate Land§! for the §YCrown§!."

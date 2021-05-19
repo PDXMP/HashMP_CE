@@ -1177,7 +1177,6 @@ dan_prologue_b_3 = {
 		trigger = {
 			5004 = {
 				development = 20
-				province_has_center_of_trade_of_level = 2
 			}
 			NOT = { 
 				num_of_revolts = 1 
@@ -1200,14 +1199,6 @@ dan_prologue_b_3 = {
 				add_province_modifier = {
 					name = h_danish_copenhagen_recovering
 					duration = 9125
-				}
-
-				if = {
-					limit = {
-						NOT = { province_has_center_of_trade_of_level = 3 }
-					}
-
-					add_center_of_trade_level = 1
 				}
 			}
 		}
@@ -1330,10 +1321,21 @@ h_dan_missions_main_1 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			5004 = {
+				has_building = marketplace
+				province_has_center_of_trade_of_level = 2
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			5004 = {
+				if = {
+					limit = {
+						NOT = { province_has_center_of_trade_of_level = 3 }
+					}
+	
+					add_center_of_trade_level = 1
+				}
+			}
 		}
 	}
 	##Mission End
@@ -1348,10 +1350,46 @@ h_dan_missions_main_1 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			4141 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			1775 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			4141 = {
+				add_province_modifier = {
+					name = h_danish_holstein_integration
+					duration = 9125
+				}
+			}
+			1775 = {
+				add_province_modifier = {
+					name = h_danish_holstein_integration
+					duration = 9125
+				}
+			}
+			45 = {
+				add_claim = ROOT
+			}
+			add_casus_belli = {
+				target = HSA
+				type = cb_vassalize_mission
+				months = 300
+			}
+			add_casus_belli = {
+				target = HAM
+				type = cb_trade_conflict
+				months = 300
+			}
+			add_casus_belli = {
+				target = BRE
+				type = cb_trade_conflict
+				months = 300
+			}
 		}
 	}
 	##Mission End
@@ -1366,10 +1404,52 @@ h_dan_missions_main_1 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			45 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			if = {
+				limit = {
+					exists = HAM
+				}
+				NOT = {
+					45 = {
+						trade_share = {
+							country = HAM
+							share = 10
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					exists = BRE
+				}
+				NOT = {
+					45 = {
+						trade_share = {
+							country = BRE
+							share = 10
+						}
+					}
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_hanseatic_boats
+				duration = -1
+			}
+
+			5004 = {
+				add_unit_construction = {
+					type = light_ship
+					amount = 5
+					speed = 0.1
+					cost = 0
+				}
+			}
 		}
 	}
 	##Mission End
@@ -1384,10 +1464,30 @@ h_dan_missions_main_1 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			45 = {
+				trade_share = {
+					country = DAN
+					share = 80
+				}
+			}
+			45 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			44 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			1874 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_lubeck
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -1890,10 +1990,25 @@ h_dan_missions_main_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			monthly_income = 20
+
+			OR = {
+				temple = 5
+				cathedral = 5
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_crown_revenue
+				duration = 3650
+			}
+
+			custom_tooltip = ESTATES_SEIZE_LAND_DESC
+			take_estate_land_share_massive = { estate = all }
+			add_estate_loyalty = {
+				estate = all
+				loyalty = -10
+			}
 		}
 	}
 	##Mission End
@@ -1908,10 +2023,32 @@ h_dan_missions_main_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			any_owned_province = { }
+			calc_true_if = {
+				any_owned_province = { 
+					base_production = 5
+				}
+
+				amount = 5
+			}
+
+			OR = {
+				workshop = 5
+				counting_house = 5
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_artisans
+				duration = 3650
+			}
+
+			add_years_of_owned_provinces_production_income = {
+				years = 5
+				trigger = {
+					base_production = 5
+				}
+			}
 		}
 	}
 	##Mission End
@@ -1926,10 +2063,30 @@ h_dan_missions_main_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			stability = 1
+			legitimacy = 90
+			crown_land_share = 30
 		}
 		effect = {
-			##MISSIONEFFECT
+			change_government_reform_progress = 10
+
+			add_country_modifier = {
+				name = h_centralize_denmark
+				duration = -1
+			}
+
+			custom_tooltip = h_ESTATES_SEIZE_LAND_LARGE_DESC
+			if = {
+				limit = {
+					NOT = { crown_land_share = 90 }
+				}
+
+				take_estate_land_share_gigantic = { estate = all}
+			}
+			add_estate_loyalty = {
+				estate = all
+				loyalty = -20
+			}
 		}
 	}
 	##Mission End
@@ -1944,10 +2101,13 @@ h_dan_missions_main_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			crown_land_share = 70
+			current_age = age_of_absolutism
 		}
 		effect = {
-			##MISSIONEFFECT
+			country_event = {
+				id = flavor_dan.3297
+			}
 		}
 	}
 	##Mission End
@@ -1966,7 +2126,7 @@ h_dan_missions_main_5 = {
 			##MISSIONTRIGGER
 		}
 		effect = {
-			##MISSIONEFFECT
+			##
 		}
 	}
 	##Mission End

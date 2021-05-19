@@ -1,4 +1,10 @@
 ﻿l_english:
+ h_centralize_denmark:0 "Centralization"
+ h_danish_artisans:0 "Boosted Productivity"
+ h_danish_crown_revenue:0 "Increased Crown Revenue"
+ h_danish_lubeck:0 "Monopoly over the Lubeck"
+ h_danish_hanseatic_boats:0 "Captured Hansa Ships"
+ h_danish_holstein_integration:0 "Conquest of Schleswig-Holstein"
  h_danish_missions_peasants_rebel:0 "§RThere is a peasants uprising against the crown.§!"
  h_danish_missions_space_tooltip:0 " "
  h_danish_expand_army_tooltip:0 "You will reap the rewards of having restored the army once §YThe Danish Succession§! is concluded."
