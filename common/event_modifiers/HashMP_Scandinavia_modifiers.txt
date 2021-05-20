@@ -280,5 +280,5 @@ swedish_naval_reforms = {
 }
 
 wallon_immigrants = {
-	trade_goods_size_modifier = 0.05
+	trade_goods_size_modifier = 0.10
 }
