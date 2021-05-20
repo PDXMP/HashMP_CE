@@ -1105,14 +1105,7 @@ country_event = {
 	
 	fire_only_once = yes
 	
-	trigger = {
-		tag = DAN
-		NOT = { is_year = 1450 }
-	}
-	
-	mean_time_to_happen = {
-		months = 12 #Should trigger close to start
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "flavor_dan.6.a" #Nobility must aid and advice, never rule.

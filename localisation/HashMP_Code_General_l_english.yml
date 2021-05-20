@@ -5,4 +5,4 @@
  h_REMOVE_STABILITY_OR_ADM_VALUE_1:0 "Lose §R1§! Stability."
  h_REMOVE_STABILITY_OR_ADM_VALUE_2:0 "Lose §R2§! Stability."
  h_REMOVE_STABILITY_OR_ADM_VALUE_3:0 "Lose §R3§! Stability."
- h_ESTATES_SEIZE_LAND_LARGE_DESC:0 "Will seize §Y10% Estate Land§! for the §YCrown§!."
+ h_ESTATES_SEIZE_LAND_SMALL_DESC:0 "Will seize §Y3% Estate Land§! for the §YCrown§!."

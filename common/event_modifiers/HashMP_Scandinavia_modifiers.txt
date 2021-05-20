@@ -1,6 +1,69 @@
 ##Missions
 
 ##Denmark
+h_danish_crown_investment = {
+	development_cost = -0.05
+}
+
+h_danish_colonial_empire = {
+	global_tariffs = 0.25
+	reduced_liberty_desire = 10
+}
+
+h_hudson_trading_company = {
+	merchants = 1
+}
+
+h_danes_discovered_america = {
+	colonist_placement_chance = 0.10
+	global_colonial_growth = 20
+}
+
+h_northern_colonial_route = {
+	colonists = 1
+}
+
+h_north_sea_empire = {
+	monarch_diplomatic_power = 1
+	governing_capacity_modifier = 0.33
+	navy_tradition_decay = -0.01
+	army_tradition_decay = -0.01
+}
+
+h_englished_defeated = {
+	culture_conversion_cost = -0.33
+}
+
+h_danelaw = {
+	prestige = 0.5
+}
+
+h_reclaimed_york = {
+	local_manpower_modifier = 0.25
+	local_production_efficiency = 0.15
+	local_development_cost = -0.10
+}
+
+h_danish_highlanders = {
+	shock_damage = 0.15
+}
+
+h_danish_north_sea_ambitions = {
+	naval_morale = 0.10
+	transport_cost = -0.30
+	sailor_maintenance_modifer = -0.10
+	sailors_recovery_speed = 0.20
+}
+
+h_danish_iceland = {
+	range = 0.25
+}
+
+h_dannevirke_fortifications_reinforced = {
+	local_defensiveness = 0.10
+	local_hostile_movement_speed = -0.20
+}
+
 h_centralize_denmark = {
 	global_tax_modifier = 0.05
 	church_influence_modifier = -0.1
@@ -21,7 +84,7 @@ h_danish_lubeck = {
 }
 
 h_danish_hanseatic_boats = {
-	light_ship_cost = -0.25
+	light_ship_cost = -0.20
 }
 
 h_danish_holstein_integration = {

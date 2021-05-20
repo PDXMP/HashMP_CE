@@ -1502,10 +1502,34 @@ h_dan_missions_main_1 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			370 = {
+				owned_by = DAN
+				is_core = DAN
+			}
+			371 = {
+				owned_by = DAN
+				is_core = DAN
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			370 = {
+				center_of_trade = 1
+				add_base_tax = 2
+				add_base_production = 2
+			}
+			add_country_modifier = {
+				name = h_danish_iceland
+				duration = 3650
+			}
+			1979 = {
+				add_permanent_claim = ROOT
+			}
+			1978 = {
+				add_permanent_claim = ROOT
+			}
+			369 = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	##Mission End
@@ -1520,10 +1544,53 @@ h_dan_missions_main_1 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			1979 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			1978 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			369 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_north_sea_ambitions
+				duration = 3650
+			}
+
+			kingdom_of_the_isles_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			yorkshire_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			east_midlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			east_anglia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	##Mission End
@@ -1538,10 +1605,31 @@ h_dan_missions_main_1 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			kingdom_of_the_isles_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_highlanders
+				duration = 3650
+			}
+
+			highlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			lowlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	##Mission End
@@ -1555,11 +1643,18 @@ h_dan_missions_main_1 = {
 		provinces_to_highlight = {
 			##PROVINCESHIGHLIGHTCODE
 		}
-		trigger = {
-			##MISSIONTRIGGER
+		trigger = { 
+			highlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lowlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_army_tradition = 10
 		}
 	}
 	##Mission End
@@ -1660,10 +1755,81 @@ h_dan_missions_main_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR = {
+				1104 = {
+					OR = {
+						AND = {
+							owned_by = ROOT
+							is_colony = yes
+							colonysize = 500
+						}
+						AND = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+				}
+				1105 = {
+					OR = {
+						AND = {
+							owned_by = ROOT
+							is_colony = yes
+							colonysize = 500
+						}
+						AND = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			1104 = {
+				if = {
+					limit = {
+						owned_by = ROOT
+						is_colony = yes
+					}
+
+					add_colonysize = 500
+				}
+
+				if = {
+					limit = {
+						owned_by = ROOT
+					}
+
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+			}
+			1105 = {
+				if = {
+					limit = {
+						owned_by = ROOT
+						is_colony = yes
+					}
+
+					add_colonysize = 500
+				}
+
+				if = {
+					limit = {
+						owned_by = ROOT
+					}
+
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+			}
+
+			add_country_modifier = {
+				name = h_northern_colonial_route
+				duration = 3650
+			}
 		}
 	}
 	##Mission End
@@ -1678,10 +1844,65 @@ h_dan_missions_main_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			yorkshire_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			east_midlands_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			east_anglia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danelaw
+				duration = -1
+			}
+
+			245 = {
+				add_province_modifier = {
+					name = h_reclaimed_york
+					duration = -1
+				}
+
+				add_base_manpower = 3
+			}
+
+			scottish_marches_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			west_midlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			home_counties_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			wessex_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
 		}
 	}
 	##Mission End
@@ -1696,10 +1917,34 @@ h_dan_missions_main_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			scottish_marches_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			west_midlands_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			home_counties_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			wessex_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_dip_power = 100
+
+			add_country_modifier = {
+				name = h_englished_defeated
+				duration = 9125
+			}
 		}
 	}
 	##Mission End
@@ -1714,10 +1959,25 @@ h_dan_missions_main_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			calc_true_if = {
+				british_isles_region = {
+					owned_by = ROOT
+					is_core = ROOT
+					culture = danish
+				}
+
+				amount = 20
+			}
+
+			245 = {
+				development = 30
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_north_sea_empire
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -1764,10 +2024,27 @@ h_dan_missions_main_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_canada
+				is_city = yes
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_dip_power = 100
+
+			custom_tooltip = h_colony_increase_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					if = {
+						limit = {
+							is_colony = yes
+						}
+	
+						add_colonysize = 100
+					}
+				}
+			}
 		}
 	}
 	##Mission End
@@ -1782,10 +2059,26 @@ h_dan_missions_main_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 40
+				colonial_region = colonial_canada
+				is_city = yes
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			change_price = {
+				trade_goods = fur
+				key = fur_hudson_trade
+				value = 0.10
+				duration = -1
+			}
+
+			add_treasury = 500
+
+			add_country_modifier = {
+				name = h_hudson_trading_company
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -1868,10 +2161,26 @@ h_dan_missions_main_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = miss_discover_canada
+					colonial_canada = { has_discovered = ROOT }
+				}
+				custom_trigger_tooltip = {
+					tooltip = miss_discover_eastern_america
+					colonial_eastern_america = { has_discovered = ROOT }
+				}
+				custom_trigger_tooltip = {
+					tooltip = miss_discover_caribbean
+					colonial_the_carribean = { has_discovered = ROOT }
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danes_discovered_america
+				duration = 3650
+			}
 		}
 	}
 	##Mission End
@@ -1886,10 +2195,15 @@ h_dan_missions_main_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 13
+				colonial_region = colonial_eastern_america
+				is_city = yes
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_adm_power = 100
+			add_treasury = 250
 		}
 	}
 	##Mission End
@@ -1904,10 +2218,13 @@ h_dan_missions_main_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			colony = 3
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_colonial_empire
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -1922,10 +2239,32 @@ h_dan_missions_main_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			DAN = {
+				any_subject_country = { 
+					has_reform = h_reform_dominion
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_manpower = 10
+			add_sailors = 2500
+
+			custom_tooltip = h_danish_crown_investment_tooltip
+
+			hidden_effect = {
+				DAN = {
+					every_subject_country = {
+						limit = {
+							has_reform = h_reform_dominion
+						}
+	
+						add_country_modifier = {
+							name = h_danish_crown_investment
+							duration = 3650
+						}
+					}
+				}
+			}
 		}
 	}
 	##Mission End
@@ -2003,8 +2342,8 @@ h_dan_missions_main_5 = {
 				duration = 3650
 			}
 
-			custom_tooltip = ESTATES_SEIZE_LAND_DESC
-			take_estate_land_share_massive = { estate = all }
+			custom_tooltip = h_ESTATES_SEIZE_LAND_SMALL_DESC
+			take_estate_land_share_large = { estate = all }
 			add_estate_loyalty = {
 				estate = all
 				loyalty = -10
@@ -2068,24 +2407,24 @@ h_dan_missions_main_5 = {
 			crown_land_share = 30
 		}
 		effect = {
-			change_government_reform_progress = 10
+			change_government_reform_progress = 25
 
 			add_country_modifier = {
 				name = h_centralize_denmark
 				duration = -1
 			}
 
-			custom_tooltip = h_ESTATES_SEIZE_LAND_LARGE_DESC
+			custom_tooltip = h_ESTATES_SEIZE_LAND_SMALL_DESC
 			if = {
 				limit = {
 					NOT = { crown_land_share = 90 }
 				}
 
-				take_estate_land_share_gigantic = { estate = all}
+				take_estate_land_share_large = { estate = all}
 			}
 			add_estate_loyalty = {
 				estate = all
-				loyalty = -20
+				loyalty = -10
 			}
 		}
 	}
@@ -2101,7 +2440,7 @@ h_dan_missions_main_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			crown_land_share = 70
+			crown_land_share = 50
 			current_age = age_of_absolutism
 		}
 		effect = {
@@ -2123,10 +2462,49 @@ h_dan_missions_main_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			14 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+			12 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+			5004 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+
+			capital_scope = {
+				area_for_scope_province = { 
+					has_state_edict = edict_defensive_edict
+				}
+			}
 		}
 		effect = {
-			##
+			5004 = {
+				add_province_triggered_modifier = h_denmark_coastal_defenses
+			}
+			12 = {
+				add_province_triggered_modifier = h_denmark_coastal_defenses
+			}
+			14 = {
+				add_province_triggered_modifier = h_denmark_coastal_defenses
+			}
+
+			custom_tooltip = h_denmark_coastal_defenses_tooltip
 		}
 	}
 	##Mission End
@@ -2141,10 +2519,33 @@ h_dan_missions_main_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			4141 = {
+				owned_by = ROOT
+				is_core = ROOT
+				culture = danish
+			}
+			1775 = {
+				owned_by = ROOT
+				is_core = ROOT
+				culture = danish
+			}
+
+			4141 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			4141 = {
+				add_province_modifier = {
+					name = h_dannevirke_fortifications_reinforced
+					duration = -1
+				}
+			}
 		}
 	}
 	##Mission End
@@ -2159,10 +2560,15 @@ h_dan_missions_main_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 20
+				colonial_region = colonial_eastern_america
+				is_city = yes
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_navy_tradition = 25
+			add_treasury = 250
 		}
 	}
 	##Mission End
