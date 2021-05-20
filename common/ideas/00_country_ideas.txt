@@ -197,7 +197,8 @@ SWE_ideas = {
 		yearly_absolutism = 0.2
 	}
 	produktplakatet = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.05
+		production_efficiency = 0.05
 	}
 	union_and_security_act = {
 		war_exhaustion_cost = -0.10
