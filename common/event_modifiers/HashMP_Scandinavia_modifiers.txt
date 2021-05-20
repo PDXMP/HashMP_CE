@@ -218,7 +218,7 @@ h_swedish_allotment_system = {
 }
 
 h_swedish_baltic_supremacy = {
-	trade_efficiency = 0.10
+	trade_efficiency = 0.15
 }
 
 h_swedish_one_king_in_the_north = {
