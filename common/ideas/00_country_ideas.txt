@@ -201,7 +201,7 @@ SWE_ideas = {
 	}
 	union_and_security_act = {
 		war_exhaustion_cost = -0.10
-		mil_advisor_cost = -0.10
+		mil_advisor_cost = -0.15
 	}
 }
 
