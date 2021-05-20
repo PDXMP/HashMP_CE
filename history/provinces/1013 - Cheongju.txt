@@ -1,7 +1,9 @@
 #1013 - Cheongju
 
-owner = BKJ
-controller = BKJ
+owner = KOR
+controller = KOR
+#owner = BKJ
+#controller = BKJ
 culture = korean
 religion = confucianism
 capital = "Cheongju"
@@ -11,7 +13,8 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = BKJ
+add_core = KOR
+#add_core = BKJ
 discovered_by = chinese
 discovered_by = nomad_group
 

@@ -711,13 +711,13 @@ korea_region = {
 		western_korea_area
 		eastern_korea_area
 		south_korea_area
-		yukjin_area
-		yanggang_area
-		chagang_area
-		kangwon_area
-		hwanghae_area
-		gangwon_area
-		jeolla_area
+#		yukjin_area
+#		yanggang_area
+#		chagang_area
+#		kangwon_area
+#		hwanghae_area
+#		gangwon_area
+#		jeolla_area
 	}
 	monsoon = {
 		00.06.01

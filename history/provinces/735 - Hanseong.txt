@@ -1,7 +1,9 @@
 #735 - Hanseong
 
-owner = SEO
-controller = SEO
+owner = KOR
+controller = KOR
+#owner = SEO
+#controller = SEO
 culture = korean
 religion = confucianism
 capital = "Hanseong"
@@ -11,7 +13,8 @@ base_tax = 7
 base_production = 7
 base_manpower = 7
 is_city = yes
-add_core = SEO
+add_core = KOR
+#add_core = SEO
 fort_15th = yes
 discovered_by = chinese
 discovered_by = nomad_group

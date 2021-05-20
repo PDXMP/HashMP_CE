@@ -995,6 +995,13 @@ h_khm_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
+			tay_nguyen_area  = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	
@@ -1005,6 +1012,7 @@ h_khm_missions = {
 		provinces_to_highlight = {
 			OR = {
 				area = champa_area
+				area = tay_nguyen_area 
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -1015,10 +1023,21 @@ h_khm_missions = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
+			tay_nguyen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			add_navy_tradition = 20
 			khorat_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			champasak_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
@@ -1035,6 +1054,7 @@ h_khm_missions = {
 		provinces_to_highlight = {
 			OR = {
 				area = khorat_area
+				area = champasak_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -1042,6 +1062,10 @@ h_khm_missions = {
 		}
 		trigger = {
 			khorat_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			champasak_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1062,6 +1086,13 @@ h_khm_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
+			vientiane_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 
@@ -1073,6 +1104,7 @@ h_khm_missions = {
 			OR = {
 				area = south_laos_area
 				area = north_laos_area
+				area = vientiane_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -1111,6 +1143,13 @@ h_khm_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
+			sukhothai_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 
@@ -1123,6 +1162,7 @@ h_khm_missions = {
 				area = northern_thai_area
 				area = central_thai_area
 				area = north_tenasserim_area
+				area = sukhothai_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -1138,6 +1178,10 @@ h_khm_missions = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			north_tenasserim_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sukhothai_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

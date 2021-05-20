@@ -1475,6 +1475,15 @@ tau_new_capital = {
 	local_build_cost = -0.2
 }
 
+#new taungu
+tau_ae = {
+	ae_impact = -0.1
+}
+
+tau_rice = {
+	trade_goods_size = 2
+}
+
 #Mughals
 
 lahore_subah = {
@@ -4215,7 +4224,7 @@ maj_china_trade = {
 }
 
 maj_great_blockade = {
-	naval_morale = 0.1
+#	naval_morale = 0.1
 	siege_blockade_progress = 1
 	blockade_efficiency = 0.25
 }
@@ -4250,7 +4259,7 @@ tiwi_sea_cucumbers = {
 }
 
 malay_galleys = {
-	galley_power = 0.2
+	global_ship_cost = -0.1
 }
 
 indonesia_trade_dominance = {
@@ -4262,7 +4271,8 @@ indonesia_spice_must_flow = {
 }
 
 malay_vassal_income = {
-	vassal_income = 1
+	reduced_liberty_desire = 10
+	diplomatic_annexation_cost = -0.25
 }
 
 malay_convert_cost_modifier = {

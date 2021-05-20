@@ -43,10 +43,10 @@ country_event = {
 	option = {
 		ai_chance = { factor = 9 }
 		name = flavor_nap.1.a
-		add_stability = -2
-		random_owned_province = {
-			noble_rebels = 2
-		}
+		add_stability = 1
+#		random_owned_province = {
+#			noble_rebels = 2
+#		}
 		FRA = {
 			add_opinion = {
 				who = root
@@ -56,12 +56,12 @@ country_event = {
 	}
 	option = {
 		name = flavor_nap.1.b
-		FRA = {
-			country_event = {
-				id = flavor_nap.2
-			}
-			create_union = NAP
-		}
+#		FRA = {
+#			country_event = {
+#				id = flavor_nap.2
+#			}
+#			create_union = NAP
+#		}
 		
 	}
 	
