@@ -227,7 +227,8 @@ h_swedish_one_king_in_the_north = {
 
 h_swedish_empire = {
 	land_forcelimit_modifier = 0.10
-	state_maintenance_modifier = -0.10
+	global_manpower_modifier = 0.15
+	state_maintenance_modifier = -0.15
 }
 
 h_swedish_fleet = {
