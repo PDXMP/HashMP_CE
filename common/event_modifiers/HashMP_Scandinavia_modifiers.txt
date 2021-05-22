@@ -1,6 +1,67 @@
 ##Missions
 
 ##Denmark
+h_danish_industrial_revolution = {
+	production_efficiency = 0.20
+}
+
+h_danish_naval_supplies = {
+	global_Ship_cost = -0.1
+}
+
+h_danish_innovation = {
+	technology_cost = -0.05
+	innovativeness_gain = 0.33
+}
+
+h_danish_enlightened_ruler = {
+	idea_cost = -0.10
+}
+
+h_danish_reformation = {
+	tolerance_own = 1
+	global_religious_conversion_resistance = 0.50
+	church_power_modifier = 0.25
+	monthly_fervor_increase = 1
+}
+
+h_danish_indian_trade = {
+	trade_efficiency = 0.15
+}
+
+h_danish_kotte_naval_outpost = {
+	naval_forcelimit = 10
+	local_sailors_modifier = 0.50
+	local_ship_repair = 0.25
+}
+
+h_danish_india_investments = {
+	local_development_cost = -0.10
+	local_build_cost = -0.10
+	trade_company_investment_cost = -0.75
+}
+
+h_danish_cape = {
+	range = 0.50
+}
+
+h_danish_southern_route = {
+	colonists = 1
+	global_colonial_growth = 25
+}
+
+h_danish_east_indies = {
+	global_colonial_growth = 25
+	naval_attrition = -0.33
+}
+
+h_danish_east_india_company = {
+	merchants = 1
+	trade_steering = 0.20
+	trade_company_investment_cost = -0.50
+	light_ship_cost = -0.10
+}
+
 h_danish_crown_investment = {
 	development_cost = -0.05
 }
@@ -21,6 +82,7 @@ h_danes_discovered_america = {
 
 h_northern_colonial_route = {
 	colonists = 1
+	range = 0.25
 }
 
 h_north_sea_empire = {
@@ -53,10 +115,6 @@ h_danish_north_sea_ambitions = {
 	transport_cost = -0.30
 	sailor_maintenance_modifer = -0.10
 	sailors_recovery_speed = 0.20
-}
-
-h_danish_iceland = {
-	range = 0.25
 }
 
 h_dannevirke_fortifications_reinforced = {

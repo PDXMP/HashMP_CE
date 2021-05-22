@@ -20,7 +20,7 @@ SOKEXPEURO = {
 	##Mission Start
 	SOK_Morocco = {
 		icon = mission_saharan_route
-		required_missions {
+		required_missions = {
 			SOK_Coast
 		}
 		position = 3
@@ -76,7 +76,7 @@ SOKEXPEURO = {
 	##Mission Start
 	SOK_Spain1 = {
 		icon = mission_unite_home_region
-		required_missions {
+		required_missions = {
 			SOK_Morocco
 		}
 		position = 4
@@ -111,7 +111,7 @@ SOKEXPEURO = {
 	##Mission Start
 	SOK_Spain2 = {
 		icon = mission_assemble_an_army
-		required_missions {
+		required_missions = {
 			SOK_Spain1
 		}
 		position = 5
@@ -140,7 +140,7 @@ SOKEXPEURO = {
 	##Mission Start
 	SOK_Paris = {
 		icon = versailles_palace
-		required_missions {
+		required_missions = {
 			SOK_Spain2
 		}
 		position = 6
@@ -170,7 +170,7 @@ SOKEXPEURO = {
 	##Mission Start
 	SOK_North = {
 		icon = mission_egyptian_mamluk_soldier
-		required_missions {
+		required_missions = {
 			SOK_East
 		}
 		position = 7
@@ -206,7 +206,7 @@ SOKEXPEURO = {
 	##Mission Start
 	SOK_Iberia = {
 		icon = mission_religious
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 9
@@ -249,7 +249,7 @@ SOKEXPEURO = {
 	##Mission Start
 	SOK_Alhambra = {
 		icon = mission_conquer_50_development
-		required_missions {
+		required_missions = {
 			SOK_Iberia
 		}
 		position = 10
@@ -296,7 +296,7 @@ SOKEXPAFRICA = {
 	##Mission Start
 	SOK_REL = {
 		icon = mission_religious
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -321,7 +321,7 @@ SOKEXPAFRICA = {
 	##Mission Start
 	SOK_Kongo = {
 		icon = mission_persian_soldiers
-		required_missions {
+		required_missions = {
 			SOK_Coast
 		}
 		position = 3
@@ -350,7 +350,7 @@ SOKEXPAFRICA = {
 	##Mission Start
 	SOK_Inner = {
 		icon = mission_mayan_conquest
-		required_missions {
+		required_missions = {
 			SOK_Kongo
 		}
 		position = 4
@@ -416,7 +416,7 @@ SOKEXPAFRICA = {
 	##Mission Start
 	SOK_East = {
 		icon = mission_bedouins
-		required_missions {
+		required_missions = {
 			SOK_Inner
 		}
 		position = 6
@@ -445,7 +445,7 @@ SOKEXPAFRICA = {
 	##Mission Start
 	SOK_Mecca = {
 		icon = mission_mosque
-		required_missions {
+		required_missions = {
 			SOK_East
 		}
 		position = 7
@@ -481,7 +481,7 @@ SOKEXPAFRICA = {
 	##Mission Start
 	SOK_Mos = {
 		icon = mission_mosque
-		required_missions {
+		required_missions = {
 			SOK_Iberia
 		}
 		position = 10
@@ -543,7 +543,7 @@ SOKMAIN = {
 	##Mission Start
 	SOK_Unite = {
 		icon = mission_west_african_ports
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -602,7 +602,7 @@ SOKMAIN = {
 	##Mission Start
 	SOK_Coast = {
 		icon = mission_aragonese_navy
-		required_missions {
+		required_missions = {
 			SOK_Unite
 		}
 		position = 2
@@ -715,7 +715,7 @@ SOKMAIN = {
 	##Mission Start
 	SOK_Coast2 = {
 		icon = mission_african_soldier
-		required_missions {
+		required_missions = {
 			SOK_Coast
 		}
 		position = 4
@@ -757,7 +757,7 @@ SOKMAIN = {
 	##Mission Start
 	SOK_South = {
 		icon = mission_high_income
-		required_missions {
+		required_missions = {
 			SOK_Inner
 		}
 		position = 6
@@ -785,7 +785,7 @@ SOKMAIN = {
 	##Mission Start
 	SOK_Kangs = {
 		icon = mission_monarch_in_throne_room
-		required_missions {
+		required_missions = {
 			SOK_South SOK_Cape SOK_North
 		}
 		position = 8
@@ -827,7 +827,7 @@ SOKCOL = {
 	##Mission Start
 	SOK_Col1 = {
 		icon = mission_establish_high_seas_navy
-		required_missions {
+		required_missions = {
 			SOK_Coast
 		}
 		position = 3
@@ -856,7 +856,7 @@ SOKCOL = {
 	##Mission Start
 	SOK_Navy = {
 		icon = mission_combat_barbary_piracy
-		required_missions {
+		required_missions = {
 			SOK_Col3 SOK_Coast2
 		}
 		position = 6
@@ -878,7 +878,7 @@ SOKCOL = {
 	##Mission Start
 	SOK_Cape = {
 		icon = mission_sea_battles
-		required_missions {
+		required_missions = {
 			SOK_South SOK_Navy
 		}
 		position = 7
@@ -922,7 +922,7 @@ SOKECO = {
 	##Mission Start
 	SOK_ECO1 = {
 		icon = mission_portuguese_malabar
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -964,7 +964,7 @@ SOKECO = {
 	##Mission Start
 	SOK_ECO2 = {
 		icon = mission_great_trading_houses
-		required_missions {
+		required_missions = {
 			SOK_ECO1
 		}
 		position = 2
@@ -997,7 +997,7 @@ SOKECO = {
 	##Mission Start
 	SOK_ECO3 = {
 		icon = mission_have_manufactories
-		required_missions {
+		required_missions = {
 			SOK_ECO2
 		}
 		position = 3
@@ -1037,7 +1037,7 @@ SOKECO = {
 		##Mission Start
 	SOK_Col2 = {
 		icon = mission_iberian_conquistador
-		required_missions {
+		required_missions = {
 			SOK_Col1
 		}
 		position = 4
@@ -1064,7 +1064,7 @@ SOKECO = {
 	##Mission Start
 	SOK_Col3 = {
 		icon = mission_found_havana
-		required_missions {
+		required_missions = {
 			SOK_Col2
 		}
 		position = 5

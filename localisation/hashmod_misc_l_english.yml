@@ -1,0 +1,12 @@
+﻿l_english:
+ h_miss_discover_west_africa_8:0 "§Y[Root.GetName]§! has discovered 8 provinces in the West African Coast Trade Company."
+ h_miss_discover_malaya_5:0 "§Y[Root.GetName]§! has discovered 5 provinces in the Malaya region."
+ h_ADD_MERCANTILISM_OR_DIP_VALUE_10:0 "Gain §G10§! Mercantilism or §G50§! Diplomatic Power for every addition over the maximum amount."
+ h_ADD_STABILITY_OR_ADM_VALUE_1:0 "Gain §G1§! Stability or §G50§! Administrative Power for every addition over the maximum amount."
+ h_ADD_STABILITY_OR_ADM_VALUE_2:0 "Gain §G2§! Stability or §G50§! Administrative Power for every addition over the maximum amount."
+ h_ADD_STABILITY_OR_ADM_VALUE_3:0 "Gain §G3§! Stability or §G50§! Administrative Power for every addition over the maximum amount."
+ h_REMOVE_STABILITY_OR_ADM_VALUE_1:0 "Lose §R1§! Stability or §R50§! Administrative Power for every addition over the maximum amount."
+ h_REMOVE_STABILITY_OR_ADM_VALUE_2:0 "Lose §R2§! Stability or §R50§! Administrative Power for every addition over the maximum amount."
+ h_REMOVE_STABILITY_OR_ADM_VALUE_3:0 "Lose §R3§! Stability or §R50§! Administrative Power for every addition over the maximum amount."
+ h_ESTATES_SEIZE_LAND_SMALL_DESC:0 "Will seize §Y3% Estate Land§! for the §YCrown§!."
+ h_ESTATES_SEIZE_LAND_MEDIUM_DESC:0 "Will seize §Y2% Estate Land§! for the §YCrown§!."

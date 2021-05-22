@@ -5,6 +5,44 @@ add_innovativeness_huge_effect = {
 	}
 }
 
+h_add_mercantilism_or_dip_power_with_input = {
+	custom_tooltip = $valuetooltip$
+
+	hidden_effect = {
+		set_variable = {
+			which = mercantilismncount
+			value = 0
+		}
+	}
+
+	while = {
+		limit = {
+			NOT = {
+				check_variable = {
+					which = mercantilismncount
+					value = $value$
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				mercantilism = 100
+			}
+
+			add_dip_power = 50
+		}
+		else = {
+			add_mercantilism = 1
+		}
+
+		change_variable = {
+			which = mercantilismncount
+			value = 1
+		}
+	}
+}
+
 h_add_stability_or_adm_power_with_input = {
 	custom_tooltip = $valuetooltip$
 
