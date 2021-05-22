@@ -27,4 +27,6 @@
  desc_polish_lithuanian_civilwar:0 "The tensions between the Polish and Lithuanian factions have reached a breaking point"
  pol_lit_cw_sejm_reigned:0 "The Sejm has been reigned"
  pol_lit_cw_bajorais_reigned:0 "The Bajorais have been reigned"
- pol_lit_cw_bajorais_reigned:0 "The nobility is on rebellion!"
+ invade_silesia:0 "The Sejm is supporting our war against Silesia"
+ tolerant_commonwealth:0 "We are tolerant with all branches of christianity"
+ catholic_commonwealth:0 "We are true and proven catholics, deus vult."
