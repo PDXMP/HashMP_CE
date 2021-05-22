@@ -1836,3 +1836,194 @@ country_event = {
 		}
 	}
 }
+
+
+# Invasion of Silesia
+country_event = {
+	id = flavor_pol.25
+	title = flavor_pol.25.t
+	desc = flavor_pol.25.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = flavor_pol.25.a
+		custom_tooltip = flavor_lit.bop.minus3		
+		POL = {
+			add_country_modifier = {
+				name = invade_silesia
+				duration = 1825
+			} 
+		}
+		random_owned_province = {
+			add_local_autonomy = 30	
+		}
+				
+		random_owned_province = {
+			add_local_autonomy = 25	
+		}
+				
+		every_owned_province = {
+			add_local_autonomy = 10	
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = -30
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 10
+		}
+		subtract_variable {
+			which = balanceOfPower
+			value = 3
+		}
+	}
+	option = {
+		name = flavor_pol.25.b
+				custom_tooltip = flavor_lit.bop.minus1	
+		POL = {
+			add_country_modifier = {
+				name = invade_silesia
+				duration = 730
+			} 
+		}
+				
+		random_owned_province = {
+			add_local_autonomy = 25	
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = -10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 10
+		}
+		subtract_variable {
+			which = balanceOfPower
+			value = 1
+		}
+	}
+}
+
+
+# A matter of faiths
+country_event = {
+	id = flavor_pol.26
+	title = flavor_pol.26.t
+	desc = flavor_pol.26.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = flavor_pol.26.a
+		custom_tooltip = flavor_lit.bop.minus3		
+		POL = {
+			add_country_modifier = {
+				name = catholic_commonwealth
+				duration = -1
+			} 
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = -30
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 10
+		}
+		subtract_variable {
+			which = balanceOfPower
+			value = 3
+		}
+		random_owned_province = {
+			limit = {
+				religion = orthodox
+			}
+			spawn_rebels = {
+				type = orthodox_rebels
+				size = 3
+			}
+		}
+	}
+	option = {
+		name = flavor_pol.26.b
+		POL = {
+			add_country_modifier = {
+				name = tolerant_commonwealth
+				duration = -1
+			} 
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = -10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = -10
+		}
+		random_owned_province = {
+			limit = {
+				religion = orthodox
+			}
+			spawn_rebels = {
+				type = orthodox_rebels
+				size = 3
+			}
+		}
+		random_owned_province = {
+			limit = {
+				religion = catholic
+			}
+			spawn_rebels = {
+				type = catholic_rebels
+				size = 3
+			}
+		}
+	}
+	option = {
+		name = flavor_pol.26.c
+				custom_tooltip = flavor_lit.bop.plus2	
+		POL = {
+			add_country_modifier = {
+				name = orthodox_commonwealth
+				duration = -1
+			} 
+		}
+		add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = 10
+			}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = -20
+		}
+		random_owned_province = {
+			limit = {
+				religion = catholic
+			}
+			spawn_rebels = {
+				type = catholic_rebels
+				size = 3
+			}
+		}
+		random_owned_province = {
+			limit = {
+				religion = catholic
+			}
+			spawn_rebels = {
+				type = catholic_rebels
+				size = 2
+			}
+		}
+		change_variable {
+			which = balanceOfPower
+			value = 2
+		}
+	}
+}
