@@ -182,27 +182,27 @@ SWE_ideas = {
 
 	kung_och_riksdag = {
 		legitimacy = 1
+		nobles_loyalty_modifier = 0.10
 	}
 	swedish_steel = {
 		discipline = 0.05
 	}
-	hakkapelitta = {
-		cavalry_cost = -0.1
+	produktplakatet = {
+		production_efficiency = 0.10
 	}
-	indelningsverket = {
-		manpower_recovery_speed = 0.20
+	h_swedish_armies = {
+		army_tradition_decay = -0.01
 	}
 	swedish_absolutism = {
 		stability_cost_modifier = -0.1
 		yearly_absolutism = 0.2
 	}
-	produktplakatet = {
-		global_trade_goods_size_modifier = 0.05
-		production_efficiency = 0.05
+	indelningsverket = {
+		manpower_recovery_speed = 0.20
 	}
 	union_and_security_act = {
-		war_exhaustion_cost = -0.10
-		mil_advisor_cost = -0.15
+		possible_mil_policy = 1
+		mil_advisor_cost = -0.10
 	}
 }
 
