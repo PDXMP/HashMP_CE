@@ -2027,3 +2027,79 @@ country_event = {
 		}
 	}
 }
+
+# Purge the lithuanians
+country_event = {
+	id = flavor_pol.101
+	title = flavor_pol.101.t
+	desc = flavor_pol.101.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	trigger = {
+		NOT = {
+			check_variable = {
+			which = balanceOfPower
+			value = 1
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	option = {
+		name = flavor_pol.101.a
+		custom_tooltip = removal_bajorais	
+		POL = {
+			add_country_flag = {
+				name = purged_bajorais
+			} 
+			add_country_modifier = {
+				name = sejm_ascendant
+				duration = -1
+			}
+		}
+		add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 20
+		}
+		all_owned_province = {
+			limit = {
+				culture = lithuanian
+				culture = ruthenian
+			}
+			spawn_rebels = {
+				type = magnate_rebels
+				size = 1
+			}
+		}
+	}
+	option = {
+		name = flavor_pol.101.b
+		custom_tooltip = flavor_lit.bop.plus3
+		stability = -2
+		random_owned_province = {
+			limit = {
+				culture = polish
+			}
+			spawn_rebels = {
+				type = magnate_rebels
+				size = 3
+			}
+		}
+		POL = {
+			add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = 10
+			}
+			add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = -30
+			}
+		}
+		change_variable {
+			which = balanceOfPower
+			value = 3
+		}
+	}
+}
