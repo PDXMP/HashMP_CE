@@ -60,3 +60,14 @@
  pol_lit_cw.2.a:0 "The nobility has been reigned"
  pol_lit_cw.2.t:0 "Civil war ends"
  pol_lit_cw.2.d:0 "While the Polish and the Lithuanian nobilities fought, [Root.GetName] managed to raise enough loyal troops and support to defeat both factions, that have seen their influence curtailed for the time being. Even if this civil war is behind us now, the Commonwealth has suffered enough loses to be set back for the time being. Will we ever leave the cycles of hatred between Polish and Lithuanians behind? 
+
+ #polish events
+ flavor_pol.25.t:0 "The Sejm proposes the invasion of Silesia"
+ flavor_pol.25.d:0 "While the Commonwealth its in a period of inestability that makes offensive wars dangerous, the Sejm has proposed [Root.GetName] to initiate an invasion of Silesia now that the kingdom of Bohemia has been weakened after the hussite wars. It's certain that having the Sejm support will easy this conquest, but they also demand a price for it."
+ flavor_pol.25.a:0 "Accept the proposal of the Sejm"
+ flavor_pol.25.b:0 "Ask only for minimal support"
+ flavor_pol.26.t:0 "A matter of faiths"
+ flavor_pol.26.d:0 "Catholic Sejm. Orthodox Bajorais. Two factions, two religions fighting for control. There hasnt been declared a oficial religion in the Commonwealth yet, and so, both factions are pushing for their own to be declared as the true and only religion. No matter the choice, someone is going to be angry."
+ flavor_pol.26.a:0 "We are catholic first and always"
+ flavor_pol.26.b:0 "I shall have no infighting for such trivial matters"
+ flavor_pol.26.c:0 "Orthodox should be our true religion"
