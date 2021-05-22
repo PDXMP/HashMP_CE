@@ -434,14 +434,21 @@ expand poland = {
 			deal_with_the_sejm_mission
 		}
 		position = 2
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
+
 		trigger = {
-			##MISSIONTRIGGER
+			estate_loyalty = {
+				estate = eSstate_lithuanian_nobility
+				loyalty = 70
+			}
+			NOT = {
+				estate_influence = {
+					estate = estate_lithuania_nobility
+					influence = 40
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			country_event = { id = flavor_pol.28 }
 		}
 	}
 	##Mission End
