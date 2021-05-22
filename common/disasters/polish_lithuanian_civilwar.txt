@@ -29,6 +29,15 @@ polish_lithuanian_civilwar = {
         }
 		
 		modifier = {
+                factor = -3
+                POL = {
+					offensive_war_with = SIL
+					has_country_modifier = invade_silesia
+                }
+				exists = LIT
+        }
+		
+		modifier = {
                 factor = 2
                 LIT = {
 					is_subject_of = POL 
