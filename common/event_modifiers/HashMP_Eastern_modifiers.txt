@@ -58,3 +58,19 @@ magnate_support = {
 	reduced_liberty_desire = -15
 }
 
+invade_silesia = {
+	siege_ability = 0.2
+}
+
+tolerant_commonwealth = {
+	tolerance_own = 2
+	tolerance_heretic = 4
+	global_heathen_missionary_strength = -0.02
+}
+
+catholic_commonwealth = {
+	tolerance_own = 3
+	tolerance_heretic = -3
+	global_heathen_missionary_strength = 0.02
+	missionaries = 1
+}
