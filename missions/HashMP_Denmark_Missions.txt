@@ -1695,7 +1695,7 @@ h_danish_missions_main_1 = {
 		effect = {
 			change_estate_land_share = {
 				estate = estate_church
-				share = -2.5
+				share = -1
 			}
 
 			add_country_modifier = {

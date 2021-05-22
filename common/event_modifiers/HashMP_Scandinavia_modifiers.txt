@@ -59,7 +59,6 @@ h_danish_east_india_company = {
 	merchants = 1
 	trade_steering = 0.20
 	trade_company_investment_cost = -0.50
-	light_ship_cost = -0.10
 }
 
 h_danish_crown_investment = {
@@ -67,7 +66,7 @@ h_danish_crown_investment = {
 }
 
 h_danish_colonial_empire = {
-	global_tariffs = 0.25
+	global_tariffs = 0.10
 	reduced_liberty_desire = 10
 }
 
@@ -76,8 +75,8 @@ h_hudson_trading_company = {
 }
 
 h_danes_discovered_america = {
-	colonist_placement_chance = 0.10
-	global_colonial_growth = 20
+	colonist_placement_chance = 0.05
+	global_colonial_growth = 25
 }
 
 h_northern_colonial_route = {
@@ -87,7 +86,7 @@ h_northern_colonial_route = {
 
 h_north_sea_empire = {
 	monarch_diplomatic_power = 1
-	governing_capacity_modifier = 0.33
+	governing_capacity_modifier = 0.25
 	navy_tradition_decay = -0.01
 	army_tradition_decay = -0.01
 }
@@ -113,7 +112,6 @@ h_danish_highlanders = {
 h_danish_north_sea_ambitions = {
 	naval_morale = 0.10
 	transport_cost = -0.30
-	sailor_maintenance_modifer = -0.10
 	sailors_recovery_speed = 0.20
 }
 
@@ -142,7 +140,7 @@ h_danish_lubeck = {
 }
 
 h_danish_hanseatic_boats = {
-	light_ship_cost = -0.20
+	light_ship_cost = -0.10
 }
 
 h_danish_holstein_integration = {
