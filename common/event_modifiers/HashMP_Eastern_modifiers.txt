@@ -74,3 +74,9 @@ catholic_commonwealth = {
 	global_heathen_missionary_strength = 0.02
 	missionaries = 1
 }
+
+sejm_ascendant = {
+	global_unrest = 2
+	infantry_power = 0.2
+	polish_nobility_influence_modifier 
+}
