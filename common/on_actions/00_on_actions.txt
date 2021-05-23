@@ -78,6 +78,10 @@ on_startup = {
 			duration = -1  
 			desc = h_danish_defeat_desc
 		}
+
+		country_event = { 
+			id = hashmp.110
+		}
 	}
 }
 

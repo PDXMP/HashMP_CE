@@ -4,8 +4,8 @@ h_danish_missions_christian_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
+		has_country_flag = h_danes_king_christian
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -109,8 +109,8 @@ h_danish_missions_christian_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
+		has_country_flag = h_danes_king_christian
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -232,8 +232,8 @@ h_danish_missions_christian_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
+		has_country_flag = h_danes_king_christian
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -337,8 +337,8 @@ h_danish_missions_dorothea_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
+		has_country_flag = h_danes_queen_dorothea
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -442,8 +442,8 @@ h_danish_missions_dorothea_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
+		has_country_flag = h_danes_queen_dorothea
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -565,8 +565,8 @@ h_danish_missions_dorothea_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
+		has_country_flag = h_danes_queen_dorothea
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -670,8 +670,8 @@ h_danish_missions_charles_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
+		has_country_flag = h_danes_king_charles
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -775,8 +775,8 @@ h_danish_missions_charles_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
+		has_country_flag = h_danes_king_charles
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -898,8 +898,8 @@ h_danish_missions_charles_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		tag = DAN
+		has_country_flag = h_danes_king_charles
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1069,9 +1069,28 @@ h_danish_missions_prologue_3 = {
 			}
 		}
 		effect = {
-			custom_tooltip = h_danish_recover_nation_effect_tooltip
-			custom_tooltip = h_danish_missions_space_tooltip
-			add_legitimacy = -50
+			if = {
+				limit = {
+					has_country_flag = h_restore_the_union
+				}
+				add_legitimacy = -25
+			}
+			else = {
+				add_legitimacy = -50
+			}
+
+			define_consort = {
+				name = "Dorothea"
+				dynasty = "von Hohenzollern"
+				country_of_origin = BRA
+				religion = ROOT
+				culture = saxon
+				adm = 5
+				dip = 6
+				mil = 1
+				age = 16
+				female = yes
+			}
 		}
 	}
 	##Mission End
@@ -1132,8 +1151,7 @@ h_danish_missions_prologue_3 = {
 		trigger = {
 			adm_power = 50
 			dip_power = 50
-			mil_power = 50
-			years_of_income = 0.25
+			mil_power = 50	
 		}
 		effect = {
 			hidden_effect = {
@@ -1160,7 +1178,9 @@ h_danish_missions_prologue_3 = {
 			custom_tooltip = h_christopher_iii_falls_ill_2_tooltip
 			custom_tooltip = h_defeat_modifier_change_tooltip
 			custom_tooltip = h_danish_missions_space_tooltip
-			add_years_of_income = -0.25
+			country_event = {
+				id = hashmp.112
+			}
 		}
 	}
 	##Mission End
@@ -1195,6 +1215,9 @@ h_danish_missions_prologue_3 = {
 			custom_tooltip = h_christopher_iii_falls_ill_3_tooltip
 			custom_tooltip = h_defeat_modifier_change_tooltip
 			custom_tooltip = h_danish_missions_space_tooltip
+			country_event = {
+				id = hashmp.111
+			}
 			5004 = {
 				add_province_modifier = {
 					name = h_danish_copenhagen_recovering
@@ -1218,7 +1241,7 @@ h_danish_missions_prologue_3 = {
 			custom_trigger_tooltip = {
 				tooltip = h_danish_succession_tooltip
 
-				has_country_flag = h_kalmar_union_event_choice_concluded
+				has_country_flag = h_danish_succession_concluded
 
 				NOT = { 
 					has_ruler_modifier = h_christopher_iii 
@@ -2470,9 +2493,8 @@ h_danish_missions_main_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			any_owned_province = { }
 			calc_true_if = {
-				any_owned_province = { 
+				all_owned_province = { 
 					base_production = 5
 				}
 

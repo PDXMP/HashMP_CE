@@ -100,8 +100,8 @@ h_danelaw = {
 }
 
 h_reclaimed_york = {
-	local_manpower_modifier = 0.25
-	local_production_efficiency = 0.15
+	local_manpower_modifier = 0.33
+	local_production_efficiency = 0.20
 	local_development_cost = -0.10
 }
 
@@ -128,7 +128,8 @@ h_centralize_denmark = {
 }
 
 h_danish_artisans = {
-	global_trade_goods_size_modifier = 0.10
+	production_efficiency = 0.10
+	build_cost = -0.10
 }
 
 h_danish_crown_revenue = {
