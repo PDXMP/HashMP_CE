@@ -75,3 +75,7 @@
  flavor_pol.101.d:0 "It's late at night, but yet [Root.GetName] is working without stopping at its residence. Without warming, four Bajorai nobles interrupt [Root.GetName]. \"My liege, our rights, lands and our own people have been opressed too long, we demand you must act up and protect us, your loyal subjects, or we will consider this a breach of the Commonwealth.\""
  flavor_pol.101.a:0 "\"It's treason then...\""
  flavor_pol.101.b:0 "Agree and grant them concessions"
+ flavor_pol.102.t:0 "The Sejm Coup"
+ flavor_pol.101.d:0 "It's late at night, but yet [Root.GetName] is working without stopping at its residence. Without warming, four Slaytza nobles, members of the sejm interrupt [Root.GetName]. \"My liege, our rights, lands and our own people have been opressed too long in favour of the lithuanian Bajorais, we demand you must act up and protect us, your loyal subjects, or we will consider this a breach of the Commonwealth.\""
+ flavor_pol.101.a:0 "\"It's treason then...\""
+ flavor_pol.101.b:0 "They are right, its Poland first and always"
