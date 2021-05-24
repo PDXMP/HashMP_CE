@@ -529,8 +529,12 @@ LIT_expansion_branch = {
 		effect = {
 			pol = { 
 				set_country_flag = pol_zaz_defense_mission 
-				}
+			}
+			azov_area = {
+				add_core = ZAZ
+			}
 		}
+		
 	}
 	##Mission End
 	##
