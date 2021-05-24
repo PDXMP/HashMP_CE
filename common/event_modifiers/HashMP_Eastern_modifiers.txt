@@ -78,5 +78,12 @@ catholic_commonwealth = {
 sejm_ascendant = {
 	global_unrest = 2
 	infantry_power = 0.2
-	polish_nobility_influence_modifier 
+	polish_nobility_influence_modifier = 0.2
+}
+
+
+bajorais_ascendant = {
+	global_unrest = 2
+	cavalry_power = 0.2
+	lithuanian_nobility_influence_modifier = 0.2
 }
