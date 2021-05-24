@@ -44,9 +44,15 @@ scandinavia_region = {
 		western_norway
 		bothnia_area
 		subarctic_islands_area
-		laponia_area
 		vastra_gotaland_area
 		ostra_svealand_area
+		jemtland_area
+		inner_finland_area
+		nyland_area
+		soderland_area
+		smaland_area
+		dalarna_area
+		south_jutland_area
 	}
 }
 
@@ -156,6 +162,7 @@ russia_region = {
 		oka_area
 		arkhangelsk_area
 		vologda_area
+		laponia_area
 	}
 }
 
@@ -704,6 +711,13 @@ korea_region = {
 		western_korea_area
 		eastern_korea_area
 		south_korea_area
+		yukjin_area
+		yanggang_area
+		chagang_area
+		kangwon_area
+		hwanghae_area
+		gangwon_area
+		jeolla_area
 	}
 	monsoon = {
 		00.06.01

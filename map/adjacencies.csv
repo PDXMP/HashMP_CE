@@ -1,12 +1,13 @@
 ﻿From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+1984;5003;sea;1259;-1;-1;-1;-1;Nordjylland-Aalborg
 333;4559;sea;1300;-1;-1;-1;-1;Majorca-Minorca
 4560;333;sea;1295;-1;-1;-1;-1;Ibiza-Majorca
 366;4565;sea;1471;-1;-1;-1;-1;Canaries
-6;12;sea;1258;3008;1633;3000;1630;Skåne-Sjaelland
+6;5004;sea;1258;-1;-1;-1;-1;Skåne-Sjaelland
 12;14;sea;1258;2980;1631;2975;1631;Sjaelland-Fyn
 14;4142;sea;1258;2965;1635;2963;1641;Fyn-Aarhus
 14;4149;sea;1258;-1;-1;-1;-1;Fyn-Kolding
-14;1983;sea;1258;2975;1618;2978;1619;Fyn-Lolland
+14;1983;sea;1258;-1;-1;-1;-1;Fyn-Lolland
 12;1983;sea;1258;2983;1619;2986;1626;Sjaelland-Lolland
 123;124;sea;1307;3050;1286;3045;1284;Calabria-Messina
 151;316;sea;1320;3261;1343;3258;1344;Thrace-Bithynia
@@ -115,6 +116,6 @@
 497;496;sea;1523;-1;-1;-1;-1;Dominica-Guadelupe
 494;1881;sea;1523;-1;-1;-1;-1;St Kitts-St Martin
 489;2654;sea;1516;-1;-1;-1;-1;Tortuga-Baracoa
-2745;4651;sea;1376;-1;-1;-1;-1;Gyeongju-Tsushima
+4981;4651;sea;1376;-1;-1;-1;-1;Busan-Tsushima
 4651;1818;sea;1376;-1;-1;-1;-1;Tsushima-Chikuzen
 -1;-1;;-1;-1;-1;-1;-1;-1;

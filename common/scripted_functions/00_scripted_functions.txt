@@ -55,8 +55,16 @@ can_add_province_to_hre = {
 }
 
 can_remove_province_from_hre = {
-	
-
+	condition = {
+		potential = {
+			ai = yes
+		}
+		allow = {
+			NOT = {
+				has_country_flag = permanently_left_hre_flag
+			}
+		}
+	}
 }
 
 can_increase_autonomy = {
@@ -212,20 +220,21 @@ is_possible_hre_province = {
 		potential = {
 		}
 		allow = {
-			OR = {
-				region = low_countries_region
-				region = italy_region
-				region = north_german_region
-				region = south_german_region
-				area = silesia_area
-				area = jutland_area
-				area = denmark_area
-				area = west_prussia_area
-				area = east_prussia_area
-				area = lorraine_area
-				province_id = 193 #franche comte
-				province_id = 205 #savoie
-			}
+			continent = europe
+			#OR = {
+			#	region = low_countries_region
+			#	region = italy_region
+			#	region = north_german_region
+			#	region = south_german_region
+			#	area = silesia_area
+			#	area = jutland_area
+			#	area = denmark_area
+			#	area = west_prussia_area
+			#	area = east_prussia_area
+			#	area = lorraine_area
+			#	province_id = 193 #franche comte
+			#	province_id = 205 #savoie
+			#}
 		}
 	}
 }

@@ -38,6 +38,7 @@ monarchy = {
 				h_reform_warlord_3
 				h_reform_warlord_4
 				h_reform_sinicized_horde
+				h_reform_kdukedom
 			}
 		}
 		hereditary_vs_nobility = { #Noble Privileges
@@ -284,6 +285,7 @@ republic = {
 				united_cantons_reform
 				h_reform_dominion
 				h_reform_commandery
+				h_reform_protectorate
 			}
 		}
 		republican_virtues = {
@@ -822,5 +824,13 @@ pre_dharma_mapping = {
 	h_reform_sinicized_horde = {
 		government = monarchy
 		legacy_government = despotic_monarchy
+	}
+	h_reform_kdukedom = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_protectorate = {
+		government = republic
+		legacy_government = oligarchic_republic
 	}
 }
