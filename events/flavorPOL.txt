@@ -2103,3 +2103,76 @@ country_event = {
 		}
 	}
 }
+
+# Purge the polish
+country_event = {
+	id = flavor_pol.102
+	title = flavor_pol.102.t
+	desc = flavor_pol.102.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	trigger = {
+		check_variable = {
+		which = balanceOfPower
+		value = 19
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	option = {
+		name = flavor_pol.102.a
+		custom_tooltip = removal_polish	
+		POL = {
+			add_country_flag = {
+				name = purged_polish
+			} 
+			add_country_modifier = {
+				name = bajorais_ascendant
+				duration = -1
+			}
+		}
+		add_estate_loyalty = {
+				estate = estate_polish_lithuania
+				loyalty = 20
+		}
+		all_owned_province = {
+			limit = {
+				culture = polish
+			}
+			spawn_rebels = {
+				type = magnate_rebels
+				size = 1
+			}
+		}
+	}
+	option = {
+		name = flavor_pol.102.b
+		custom_tooltip = flavor_lit.bop.minus
+		stability = -2
+		random_owned_province = {
+			limit = {
+				culture = lithuanian
+			}
+			spawn_rebels = {
+				type = magnate_rebels
+				size = 3
+			}
+		}
+		POL = {
+			add_estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = -30
+			}
+			add_estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 10
+			}
+		}
+		substract_variable {
+			which = balanceOfPower
+			value = 3
+		}
+	}
+}
