@@ -2126,7 +2126,7 @@ country_event = {
 		custom_tooltip = removal_polish	
 		POL = {
 			add_country_flag = {
-				name = purged_polish
+				name = purged_sejm
 			} 
 			add_country_modifier = {
 				name = bajorais_ascendant
