@@ -1,5 +1,5 @@
 ##BranchStart 0
-expand poland = {
+POL_expand = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -104,7 +104,7 @@ expand poland = {
 			army_size_percentage = 1
 		}
 		effect = {
-			country_event = { flavor_pol.25 }
+			country_event = { id = flavor_pol.25 }
 			silesia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -209,7 +209,7 @@ expand poland = {
 }
 ##BranchEnd 0
 ##BranchStart 1
- = {
+develop_poland = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -367,13 +367,12 @@ expand poland = {
 			}
 		}
 	}
-}
 	##Mission End
 	##Mission Start
 	vassalize_lithuania = {
-		icon = 
+		icon = mission_restore_kiev
 		required_missions {
-			a_matter_of_faith invest_in_eastern_poland_mision annex_mazovia
+			a_matter_of_faiths invest_in_eastern_poland_mission annex_mazovia
 		}
 		position = 4
 
@@ -381,7 +380,7 @@ expand poland = {
 
 		}
 		effect = {
-			##MISSIONEFFECT
+			set_country_flag = pol_end_mission
 		}
 	}
 	##Mission End
@@ -390,7 +389,7 @@ expand poland = {
 }
 ##BranchEnd 1
 ##BranchStart 2
- = {
+politic_poland = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -417,7 +416,7 @@ expand poland = {
 				NOT = {
 					estate_influence = {
 						estate = estate_polish_nobility
-						influence = 40
+						influence = 30
 					}
 				}
 			}
@@ -429,7 +428,7 @@ expand poland = {
 	##Mission End
 	##Mission Start
 	rights_and_privileges = {
-		icon = 
+		icon = mission_noble_council
 		required_missions {
 			deal_with_the_sejm_mission
 		}
@@ -437,7 +436,7 @@ expand poland = {
 
 		trigger = {
 			estate_loyalty = {
-				estate = eSstate_lithuanian_nobility
+				estate = estate_lithuanian_nobility
 				loyalty = 70
 			}
 			NOT = {
@@ -454,7 +453,7 @@ expand poland = {
 	##Mission End
 	##Mission Start
 	a_matter_of_faiths = {
-		icon = 
+		icon = mission_noble_council
 		required_missions {
 			rights_and_privileges
 		}
@@ -478,4 +477,22 @@ expand poland = {
 	##Mission End
 	##
 	
+}
+empty_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = POL
+		NOT = { map_setup = map_setup_random }
+	}
+}
+empty_branch2 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = POL
+		NOT = { map_setup = map_setup_random }
+	}
 }
