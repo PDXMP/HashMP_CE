@@ -1,0 +1,33 @@
+name = "Polish Lithuanian Civil war"
+war_goal = {
+	type = take_capital_personal_union
+	casus_belli = cb_restore_personal_union
+	tag = LIT
+}
+
+1432.1.1 = {
+	add_attacker = POL
+	add_attacker = TEU
+	add_attacker = MOL
+	add_attacker = MAZ
+	add_attacker = ZAZ
+	add_attacker = CHR
+	add_attacker = KIE
+	add_attacker = PLT
+	add_attacker = SMO
+	add_defender = LIT
+}
+
+
+1443.11.11 = {
+	rem_attacker = POL
+	rem_attacker = TEU
+	rem_attacker = MOL
+	rem_attacker = MAZ
+	rem_attacker = ZAZ
+	rem_attacker = CHR
+	rem_attacker = KIE
+	rem_attacker = PLT
+	rem_attacker = SMO
+	rem_defender = LIT
+}
