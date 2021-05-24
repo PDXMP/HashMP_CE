@@ -1,0 +1,82 @@
+########################################
+# Custom modifiers for Foffy's China in HashMP
+#
+# by Kabian
+########################################
+
+
+
+########################################
+# Lithuanian mission events modifiers
+########################################
+northern_marches = {
+	local_development_cost = -0.05
+	defensiveness = 0.25
+	hostile_attrition = 1
+	land_forcelimit_modifier = -1
+	technology_cost = -0.05
+	idea_cost = -0.05
+	war_exhaustion = -0.1
+	diplomatic_annexation_cost = 1
+}
+
+teachings_of_northern_marches = {
+	land_morale = 0.05
+	land_attrition = -0.005
+}
+
+support_central_lithuania = {
+	global_trade_goods_size_modifier = 0.05
+	production_efficiency = 0.1
+}
+
+cossack_autonomy = {
+	land_forcelimit_modifier = -1
+	local_development_cost = -0.05
+	diplomatic_annexation_cost = 1
+	technology_cost = -0.05
+	idea_cost = -0.05
+}
+
+cossack_support = {
+	cavalry_shock = 0.30
+	cavalry_fire = 0.20
+}
+
+crimean_invasion = {
+	land_forcelimit_modifier = 0.2
+	land_morale = 0.15
+}
+
+
+########################################
+# Polish Lithuanian civil war disaster modifiers
+########################################
+
+magnate_support = {
+	global_unrest = -2
+	reduced_liberty_desire = -15
+}
+
+invade_silesia = {
+	siege_ability = 0.2
+}
+
+tolerant_commonwealth = {
+	tolerance_own = 2
+	tolerance_heretic = 4
+	global_heathen_missionary_strength = -0.02
+}
+
+catholic_commonwealth = {
+	tolerance_own = 3
+	tolerance_heretic = -3
+	global_heathen_missionary_strength = 0.02
+	missionaries = 1
+}
+
+sejm_ascendant = {
+	global_unrest = 2
+	infantry_power = 0.2
+	polish_nobility_influence_modifier 
+}

@@ -447,3 +447,34 @@ h_reform_protectorate = {
 	}
 	duration = 5
 }
+
+h_reform_elective_monarchy = {
+	icon = "elective_monarchy"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+				tag = PLC
+				tag = POL
+			}
+
+	}
+	queen = yes
+	maintain_dynasty = yes 
+	lock_level_when_selected = yes
+
+	modifiers = {
+		vassal_income = 0.25
+		global_unrest = -1
+		max_absolutism = -30
+		governing_capacity = 100
+	}
+
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			mamluk_mechanic
+		}
+		heir = no
+		foreign_slave_rulers = no
+	}
+}

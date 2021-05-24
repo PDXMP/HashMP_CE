@@ -1,4 +1,4 @@
-#4542 - Lubnie
+#2407 - Pereyaslav
 
 owner = CHR
 controller = CHR
@@ -9,12 +9,11 @@ base_tax = 2
 base_production = 2
 trade_goods = grain
 base_manpower = 1
-capital = "Lubnie"
+capital = "Pereyaslav"
 is_city = yes
 #add_local_autonomy = 10
 add_core = LIT
 add_core = CHR
-#fort_15th = yes
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

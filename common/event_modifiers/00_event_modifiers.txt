@@ -10875,6 +10875,18 @@ estate_nobles_monopoly_of_livestock_mod = {
 	local_production_efficiency = -10
 }
 
+estate_lithuanian_nobility_monopoly_of_livestock_mod = {
+	local_production_efficiency = -10
+}
+
+estate_polish_nobility_monopoly_of_metals_mod = {
+	local_production_efficiency = -10
+}
+
+estate_polish_nobility_monopoly_of_gems_mod = {
+	local_production_efficiency = -10
+}
+
 estate_nobles_monopoly_of_gems_mod = {
 	local_production_efficiency = -10
 }

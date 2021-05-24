@@ -1,0 +1,132 @@
+# Civil War in Lithuania
+country_event = {
+	id = pol_lit_cw.1
+	title = "pol_lit_cw.1.t"
+	desc = "pol_lit_cw.1.d"
+	picture = CIVIL_WAR_eventPicture
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		random_owned_province = {
+			limit = {
+				is_core = ROOT 
+				development = 10
+				is_capital = no
+			}
+			spawn_rebels = {
+				type = 	magnate_rebels
+				religion = ROOT
+				size = 2
+				win = yes
+			}
+			add_local_autonomy = 25
+		}
+		set_country_flag = polish_lithuanian_cw
+	}
+	
+	option = {
+		name = "pol_lit_cw.1.a"
+		add_prestige = -10
+		add_estate_loyalty_modifier = {
+			estate = estate_polish_nobility
+			desc = pol_lit_cw_rebel
+			influence = -20
+			duration = 14600
+		}
+		add_estate_influence_modifier = {
+			estate = estate_lithuanian_nobility
+			desc = pol_lit_cw_rebel
+			influence = -20
+			duration = 14600
+		}
+	}
+}
+
+# End of Civil War
+country_event = {
+	id = pol_lit_cw.2
+	title = "pol_lit_cw.2.t"
+	desc = "pol_lit_cw.2.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+	option = {
+		name = "pol_lit_cw.2.a"
+		clr_country_flag = civilwar_on_capital
+		clr_country_flag = civil_war_knees_event
+		add_legitimacy = 10
+		add_horde_unity = 10
+		add_mandate_large_effect = yes
+		add_stability = 1
+		add_estate_influence_modifier = {
+			estate = estate_polish_nobility
+			desc = pol_lit_cw_sejm_reigned
+			influence = -20
+			duration = 7300
+		}
+		add_estate_influence_modifier = {
+			estate = estate_lithuanian_nobility
+			desc = pol_lit_cw_bajorais_reigned
+			influence = -20
+			duration = 7300
+		}
+	}
+	
+	
+}
+
+
+
+# Civil War in Lithuania
+country_event = {
+	id = pol_lit_cw.3
+	title = "flavor_lit.EVTNAME11"
+	desc = "flavor_lit.EVTDESC11"
+	picture = CIVIL_WAR_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "flavor_lit.EVTOPTA11"
+		add_stability_or_adm_power = yes
+		add_years_of_income = -0.5
+		LIT = {
+			add_country_modifier = {
+				name = magnate_support
+				duration = 3650
+			}
+		}
+		POL = {	
+			add_country_modifier = {
+				name = magnate_support
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "flavor_lit.EVTOPTB11"
+		LIT = {
+			every_owned_province = {
+				limit = {
+					unrest = 1
+					is_core = ROOT
+				}
+				create_revolt = 1
+			}
+		}
+
+	}
+}
