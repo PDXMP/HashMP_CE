@@ -8,8 +8,6 @@ historical_rival = TEU
 capital = 262 # Krakow
 add_accepted_culture = ruthenian
 
-national_focus = ADM
-
 1444.10.1 = {
 	set_estate_privilege = estate_polish_nobility_golden_liberty
 }
