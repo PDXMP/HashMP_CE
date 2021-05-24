@@ -311,12 +311,10 @@ LIT_diplomatic_branch = {
 						}
 					}
 				}
-				AND {
+				KIE = {
 					is_subject_of = ROOT
 					NOT = {
-						KIE = {
-							has_ruler = "Svitrigaila I"
-						}
+						has_ruler = "Svitrigaila I"
 					}
 				}
 			}
