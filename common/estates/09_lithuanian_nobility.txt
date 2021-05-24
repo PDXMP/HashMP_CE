@@ -6,7 +6,7 @@ estate_lithuanian_nobility =
 	trigger = {
 		has_reform = h_reform_elective_monarchy
 		NOT = {
-			has_country_flag = purged_bajorais
+			has_country_flag = purged_bajorais	
 		}
 	}
 
@@ -15,14 +15,17 @@ estate_lithuanian_nobility =
 		land_maintenance_modifier = -0.1
 		monthly_support_heir_gain = 0.33
 	}
+	
 	country_modifier_neutral = {
 		manpower_recovery_speed = 0.2 
 	}	
+	
 	country_modifier_angry = {
 		manpower_recovery_speed = -0.1
 		land_maintenance_modifier = 0.1
 		global_unrest = 2
 	}
+	
 	land_ownership_modifier = {
 		lithuanian_nobility_loyalty_modifier = 0.2
 	}

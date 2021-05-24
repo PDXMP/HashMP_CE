@@ -5,6 +5,9 @@ estate_polish_nobility =
 	# If true, country will get estate
 	trigger = {
 		has_reform = h_reform_elective_monarchy
+		NOT ={
+			has_country_flag = purged_sejm
+		}
 	}
 
 	country_modifier_happy = {
