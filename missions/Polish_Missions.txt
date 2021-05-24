@@ -1,10 +1,10 @@
 ##BranchStart 0
-expand poland = {
+h_expand_poland = {
 	slot = 1
 	generic = no
 	ai = yes
 	potential = {
-		tag = 
+		tag = POL
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -12,6 +12,7 @@ expand poland = {
 	##Mission Start
 	prussian_confederation_mission_pol = {
 		icon = mission_alliances
+		position = 1
 		required_missions = { }
 		completed_by = 1466.10.19
 		provinces_to_highlight = {
@@ -90,7 +91,7 @@ expand poland = {
 	##Mission Start
 	conquer_silesia = {
 		icon = mission_conquer_5_states
-		required_missions {
+		required_missions = {
 			prussian_confederation_mission_pol
 		}
 		position = 2
@@ -104,7 +105,9 @@ expand poland = {
 			army_size_percentage = 1
 		}
 		effect = {
-			country_event = { flavor_pol.25 }
+			country_event = { 
+				id = flavor_pol.25 
+			}
 			silesia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -118,7 +121,7 @@ expand poland = {
 	##Mission Start
 	annex_mazovia = {
 		icon = mission_have_two_subjects
-		required_missions {
+		required_missions = {
 			conquer_silesia
 		}
 		position = 3
@@ -205,16 +208,15 @@ expand poland = {
 	}
 	##Mission End
 	##
-	
 }
 ##BranchEnd 0
 ##BranchStart 1
- = {
+h_expand_poland_2 = {
 	slot = 2
 	generic = no
 	ai = yes
 	potential = {
-		tag = 
+		tag = POL
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -222,7 +224,7 @@ expand poland = {
 	##Mission Start
 	expand_kazimierz_mission = {
 		icon = mission_eastern_european_city
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -277,7 +279,7 @@ expand poland = {
 	##Mission Start
 	polish_renaissance_mission = {
 		icon = mission_early_modern_university
-		required_missions {
+		required_missions = {
 			expand_kazimierz_mission
 		}
 		position = 2
@@ -299,7 +301,7 @@ expand poland = {
 	##Mission Start
 	invest_in_eastern_poland_mission = {
 		icon = mission_have_manufactories
-		required_missions {
+		required_missions = {
 			polish_renaissance_mission
 		}
 		position = 3
@@ -367,13 +369,14 @@ expand poland = {
 			}
 		}
 	}
-}
 	##Mission End
 	##Mission Start
 	vassalize_lithuania = {
-		icon = 
-		required_missions {
-			a_matter_of_faith invest_in_eastern_poland_mision annex_mazovia
+		icon = placeholder
+		required_missions = {
+			a_matter_of_faiths 
+			invest_in_eastern_poland_mission
+			annex_mazovia
 		}
 		position = 4
 
@@ -390,12 +393,12 @@ expand poland = {
 }
 ##BranchEnd 1
 ##BranchStart 2
- = {
+h_expand_poland_3 = {
 	slot = 3
 	generic = no
 	ai = yes
 	potential = {
-		tag = 
+		tag = POL
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -403,7 +406,7 @@ expand poland = {
 	##Mission Start
 	deal_with_the_sejm_mission = {
 		icon = mission_noble_council
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -423,39 +426,43 @@ expand poland = {
 			}
 		}
 		effect = {
-			country_event = { id = flavor_pol.27 }
+			country_event = { 
+				id = flavor_pol.27 
+			}
 		}
 	}
 	##Mission End
 	##Mission Start
 	rights_and_privileges = {
-		icon = 
-		required_missions {
+		icon = placeholder
+		required_missions = {
 			deal_with_the_sejm_mission
 		}
 		position = 2
 
 		trigger = {
 			estate_loyalty = {
-				estate = eSstate_lithuanian_nobility
+				estate = estate_lithuanian_nobility
 				loyalty = 70
 			}
 			NOT = {
 				estate_influence = {
-					estate = estate_lithuania_nobility
+					estate = estate_lithuanian_nobility
 					influence = 40
 				}
 			}
 		}
 		effect = {
-			country_event = { id = flavor_pol.28 }
+			country_event = { 
+				id = flavor_pol.28 
+			}
 		}
 	}
 	##Mission End
 	##Mission Start
 	a_matter_of_faiths = {
-		icon = 
-		required_missions {
+		icon = placeholder
+		required_missions = {
 			rights_and_privileges
 		}
 		position = 3
@@ -477,5 +484,4 @@ expand poland = {
 	}
 	##Mission End
 	##
-	
 }
