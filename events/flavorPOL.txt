@@ -756,7 +756,7 @@ country_event = {
 	}
 	option = {
 		name = "flavor_pol.EVTOPTA3738"
-		add_legitimacy = -20
+		add_legitimacy = -10
 		add_stability = -1
 	}
 }
@@ -831,7 +831,7 @@ country_event = {
 	}
 	option = {
 		name = "flavor_pol.EVTOPTA3738"
-		add_legitimacy = -20
+		add_legitimacy = -10
 		add_stability = -1
 	}
 
@@ -1306,9 +1306,9 @@ country_event = {
 		}
 		set_country_flag = pol_concedes_2
 		custom_tooltip = pol_disaster_concede_tt
-		add_adm_power = -100
-		add_dip_power = -100
-		add_mil_power = -100
+		add_adm_power = -50
+		add_dip_power = -50
+		add_mil_power = -50
 		add_legitimacy = -50
 		give_estate_land_share_small = { estate = estate_nobles }
 		every_neighbor_country = {
@@ -1767,7 +1767,7 @@ country_event = {
 	
 	option = {
 		name = "flavor_pol.EVTOPTB3481" # Resign completely and read theological books instead
-		add_prestige = -100
+		add_prestige = -50
 		give_estate_land_share_large = { estate = estate_nobles }
 		if = {
 			limit = { NOT = { has_reform = celestial_empire } }
@@ -1870,7 +1870,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -30
+				loyalty = -15
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
@@ -1896,7 +1896,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -10
+				loyalty = -5
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
@@ -1931,7 +1931,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -30
+				loyalty = -15
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
@@ -1961,11 +1961,11 @@ country_event = {
 		}
 		add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -10
+				loyalty = -5
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -10
+				loyalty = -5
 		}
 		random_owned_province = {
 			limit = {
@@ -2001,7 +2001,7 @@ country_event = {
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -20
+				loyalty = -10
 		}
 		random_owned_province = {
 			limit = {
@@ -2094,13 +2094,79 @@ country_event = {
 			}
 			add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -30
+				loyalty = -15
 			}
 		}
 		change_variable {
 			which = balanceOfPower
 			value = 3
 		}
+	}
+}
+
+# deal with the sejm
+country_event = {
+	id = flavor_pol.27
+	title = flavor_pol.27.t
+	desc = flavor_pol.27.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = flavor_pol.27.a
+		set_estate_privilege = estate_polish_nobility_pacta_conventa
+		set_country_flag = pol_pact_conventa_flag
+		custom_tooltip = flavor_lit.bop.minus3
+		add_estate_loyalty = {
+			estate = estate_lithuanian_nobility
+			loyalty = -15
+		}
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = 10
+		}
+	
+		substract_variable {
+			which = balanceOfPower
+			value = 3
+		}
+	}
+	option = {
+		name = flavor_pol.27.b
+		set_estate_privilege = estate_polish_nobility_pacta_conventa
+		set_estate_privilege = estate_lithuanian_nobility_pacta_conventa
+		set_country_flag = pol_pact_conventa_shared_flag
+		custom_tooltip = flavor_lit.bop.minus1
+		add_estate_loyalty = {
+			estate = estate_lithuanian_nobility
+			loyalty = -5
+		}
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = 10
+		}
+	
+		substract_variable {
+			which = balanceOfPower
+			value = 1
+		}
+		
+	}
+	
+	option = {
+		name = flavor_pol.27.c
+		custom_tooltip = flavor_lit.bop.minus3
+		add_estate_loyalty = {
+			estate = estate_lithuanian_nobility
+			loyalty = -10
+		}
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = -10
+		}
+	
+		stability = -1	
 	}
 }
 
@@ -2149,7 +2215,7 @@ country_event = {
 	}
 	option = {
 		name = flavor_pol.102.b
-		custom_tooltip = flavor_lit.bop.minus
+		custom_tooltip = flavor_lit.bop.minus3
 		stability = -2
 		random_owned_province = {
 			limit = {
@@ -2163,7 +2229,7 @@ country_event = {
 		POL = {
 			add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -30
+				loyalty = -15
 			}
 			add_estate_loyalty = {
 				estate = estate_polish_nobility
