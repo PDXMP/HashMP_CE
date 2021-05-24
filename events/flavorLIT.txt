@@ -788,9 +788,7 @@ country_event = {
 			}
 		}
 	}
-	mean_time_to_happen = {
-		months = 1
-	}
+	is_triggered_only = yes
 	option = {
 		name = flavor_lit.14.a
 		custom_tooltip = flavor_lit.bop.plus1
@@ -805,7 +803,7 @@ country_event = {
 			}
 			add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -10
+				loyalty = -5
 			}
 		}
 		change_variable {
@@ -831,7 +829,7 @@ country_event = {
 			
 			add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -30
+				loyalty = -15
 			}
 			add_estate_loyalty = {
 				estate = estate_polish_nobility
@@ -859,9 +857,7 @@ country_event = {
 		}
 
 	}
-	mean_time_to_happen = {
-		months = 1
-	}
+	is_triggered_only = yes
 	option = {
 		name = flavor_lit.15.a
 		custom_tooltip = flavor_lit.bop.plus1
@@ -875,7 +871,7 @@ country_event = {
 			}
 			add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -10
+				loyalty = -5
 			}
 		}
 		change_variable {
@@ -911,7 +907,7 @@ country_event = {
 		add_mil_power = 150
 		add_estate_loyalty = {
 			estate = estate_lithuanian_nobility
-			loyalty = -10
+			loyalty = -5
 		}
 		add_estate_loyalty = {
 			estate = estate_polish_nobility
@@ -937,9 +933,8 @@ country_event = {
 			has_country_flag = pol_liv_melno_mission
 		}
 	}
-	mean_time_to_happen = {
-		months = 1
-	}
+	is_triggered_only = yes
+
 	option = {
 		name = flavor_lit.16.a
 		custom_tooltip = flavor_lit.bop.plus2
@@ -964,7 +959,7 @@ country_event = {
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -20
+				loyalty = -10
 		}
 		change_variable {
 			which = balanceOfPower
@@ -977,13 +972,13 @@ country_event = {
 
 		add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -10
+				loyalty = -5
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -10
+				loyalty = -5
 		}
-		add_prestige = -10
+		add_prestige = -5
 	}
 	option = {
 		name = flavor_lit.16.c
@@ -1004,7 +999,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -10
+				loyalty = -5
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
@@ -1080,9 +1075,8 @@ country_event = {
 			}
 		}
 	}
-	mean_time_to_happen = {
-		months = 1
-	}
+	is_triggered_only = yes
+
 	option = {
 		name = flavor_lit.17.a
 		custom_tooltip = flavor_lit.bop.plus1
@@ -1110,7 +1104,7 @@ country_event = {
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -10
+				loyalty = -5
 		}
 		change_variable {
 			which = balanceOfPower
@@ -1130,7 +1124,7 @@ country_event = {
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -20
+				loyalty = -10
 		}
 		change_variable {
 			which = balanceOfPower
@@ -1158,7 +1152,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -10
+				loyalty = -5
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
@@ -1197,9 +1191,8 @@ country_event = {
 			}
 		}
 	}
-	mean_time_to_happen = {
-		months = 1
-	}
+	is_triggered_only = yes
+
 	option = {
 		name = flavor_lit.18.a
 		custom_tooltip = flavor_lit.bop.plus3
@@ -1218,7 +1211,7 @@ country_event = {
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -30
+				loyalty = -15
 		}
 		change_variable {
 			which = balanceOfPower
@@ -1238,7 +1231,7 @@ country_event = {
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -30
+				loyalty = -15
 		}
 		subtract_variable {
 			which = balanceOfPower
@@ -1274,9 +1267,7 @@ country_event = {
 			}
 		}
 	}
-	mean_time_to_happen = {
-		months = 1
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = flavor_lit.19.a
@@ -1298,7 +1289,7 @@ country_event = {
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -20
+				loyalty = -10
 		}
 		custom_tooltip = flavor_lit.bop.plus2
 		change_variable {
@@ -1317,7 +1308,7 @@ country_event = {
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -10
+				loyalty = -5
 		}
 		custom_tooltip = flavor_lit.bop.plus1
 		change_variable {
@@ -1333,7 +1324,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -10
+				loyalty = -5
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
@@ -1372,9 +1363,8 @@ country_event = {
 			}
 		}
 	}
-	mean_time_to_happen = {
-		months = 1
-	}
+	is_triggered_only = yes
+
 	option = {
 		name = flavor_lit.20.a
 		POL = {
@@ -1391,7 +1381,7 @@ country_event = {
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
-				loyalty = -20
+				loyalty = -10
 		}
 				hidden_effect = {
 			POL = {
@@ -1410,12 +1400,12 @@ country_event = {
 	option = {
 		name = flavor_lit.20.b
 		LIT = {
-			add_manpower = -10
+			add_manpower = -5
 			add_treasury = -500
 		}
 		add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -10
+				loyalty = -5
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
@@ -1439,7 +1429,7 @@ country_event = {
 		custom_tooltip = flavor_lit.bop.minus2
 		add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = -20
+				loyalty = -10
 			}
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
