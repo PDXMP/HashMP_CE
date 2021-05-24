@@ -3,7 +3,8 @@ danish_missions_kalmar = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		always = no
+		##tag = DAN
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -158,7 +159,8 @@ danish_missions_baltic = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		always = no
+		##tag = DAN
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes

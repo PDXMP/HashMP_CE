@@ -1475,6 +1475,15 @@ tau_new_capital = {
 	local_build_cost = -0.2
 }
 
+#new taungu
+tau_ae = {
+	ae_impact = -0.1
+}
+
+tau_rice = {
+	trade_goods_size = 2
+}
+
 #Mughals
 
 lahore_subah = {
@@ -4174,4 +4183,124 @@ hsa_north_sea_trading = {
 hanseatic_queen_modifier = {
 	diplomatic_reputation = 1
 	advisor_cost = -0.1
+}
+
+# Majapahit Missions
+maj_subject_liberty_modifier = {
+	reduced_liberty_desire = 10
+}
+
+maj_legitimacy_modifier = {
+	legitimacy = 1
+}
+
+maj_religion_modifier = {
+	missionary_maintenance_cost = -0.33
+}
+
+majapahit_respected = {
+	diplomatic_upkeep = 1
+}
+
+negara_agung = {
+	development_cost = -0.05
+}
+
+maj_colony_modifier = {
+	local_colonial_growth = 50
+}
+
+maj_trade_modifier = {
+	trade_efficiency = 0.05
+	range = 0.25
+}
+
+maj_privateer_china = {
+	privateer_efficiency = 0.33
+}
+
+maj_china_trade = {
+	global_trade_power = 0.2
+}
+
+maj_great_blockade = {
+#	naval_morale = 0.1
+	siege_blockade_progress = 1
+	blockade_efficiency = 0.25
+}
+
+maj_religious_unity = {
+	religious_unity = 0.1
+}
+
+maj_reduced_lib_desire = {
+	liberty_desire = -100
+}
+
+# Indonesian Missions
+palopo_iron = {
+	trade_goods_size = 2
+}
+
+banjar_textiles = {
+	local_production_efficiency = 0.25
+}
+
+lampung_pepper = {
+	trade_goods_size = 2
+}
+
+clove_boom = {
+	local_production_efficiency = 0.2
+}
+
+tiwi_sea_cucumbers = {
+	trade_goods_size = 3
+}
+
+malay_galleys = {
+	global_ship_cost = -0.1
+}
+
+indonesia_trade_dominance = {
+	trade_efficiency = 0.15
+}
+
+indonesia_spice_must_flow = {
+	global_trade_goods_size_modifier = 0.05
+}
+
+malay_vassal_income = {
+	reduced_liberty_desire = 10
+	diplomatic_annexation_cost = -0.25
+}
+
+malay_convert_cost_modifier = {
+	missionary_maintenance_cost = -0.2
+}
+
+malay_tolerance_own = {
+	tolerance_own = 2
+}
+
+malay_united_nusantara = {
+	diplomatic_reputation = 1
+}
+
+malay_military_domination = {
+	land_morale = 0.1
+}
+
+# Malacca Missions
+mlc_trade_modifier = {
+	province_trade_power_modifier = 0.2
+}
+
+mlc_morale = {
+	land_morale = 0.1
+	naval_morale = 0.1
+}
+
+mlc_subjects = {
+	reduced_liberty_desire = 10
 }

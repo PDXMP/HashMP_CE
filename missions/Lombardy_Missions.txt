@@ -20,7 +20,7 @@ lom_branch_1 = {
 	##Mission Start
 	lom_conquer_romagna = {
 		icon = reclaim_the_ducal_lands
-		required_missions {
+		required_missions = {
 			lom_consolidate_lombardy
 		}
 		position = 2
@@ -55,7 +55,7 @@ lom_branch_1 = {
 	##Mission Start
 	lom_conquest_nitaly = {
 		icon = kingdom_of_lombardy
-		required_missions {
+		required_missions = {
 			lom_conquer_romagna
 		}
 		position = 3
@@ -127,7 +127,7 @@ lom_branch_1 = {
 	##
 	lom_conq_pope = {
 		icon = new_st_peters_basilica
-		required_missions {
+		required_missions = {
 			lom_conquest_nitaly
 		}
 		position = 4
@@ -178,7 +178,7 @@ lom_branch_1 = {
 	##Mission Start
 	lom_rule_nap = {
 		icon = mission_rule_italy
-		required_missions {
+		required_missions = {
 			lom_conq_pope
 		}
 		position = 5
@@ -252,7 +252,7 @@ lom_branch_2 = {
 	##Mission Start
 	lom_destroy_swiss = {
 		icon = swiss_mercenaries
-		required_missions {
+		required_missions = {
 			lom_consolidate_lombardy
 		}
 		position = 2
@@ -294,7 +294,7 @@ lom_branch_2 = {
 	##Mission Start
 	lom_fortify_swim = {
 		icon = fortify_the_passes
-		required_missions {
+		required_missions = {
 			lom_destroy_swiss
 		}
 		position = 3
@@ -368,7 +368,7 @@ lom_branch_2 = {
 	##
 	lom_fight_hab = {
 		icon = humiliate_austria
-		required_missions {
+		required_missions = {
 			lom_fortify_swim
 		}
 		position = 4
@@ -426,7 +426,7 @@ lom_branch_2 = {
 	##Mission Start
 	lom_please_church = {
 		icon = control_the_church
-		required_missions {
+		required_missions = {
 			lom_conq_pope
 		}
 		position = 5
@@ -470,7 +470,7 @@ lom_branch_3 = {
 	##Mission Start
 	lom_consolidate_lombardy = {
 		icon = seize_lombardy
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -507,7 +507,7 @@ lom_branch_3 = {
 	}
 	lom_twin_cities = {
 		icon = new_pilings
-		required_missions {
+		required_missions = {
 			lom_consolidate_lombardy
 		}
 		position = 1
@@ -534,7 +534,7 @@ lom_branch_3 = {
 	}
 	lom_italy_unite = {
 		icon = a_place_among_the_great_powers
-		required_missions {
+		required_missions = {
 			lom_rule_nap lom_take_isles
 		}
 		position = 6
@@ -598,7 +598,7 @@ lom_branch_4 = {
 	##Mission Start
 	lom_renovate_zeno = {
 		icon = italian_riches
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 2
@@ -643,7 +643,7 @@ lom_branch_4 = {
 	}
 	lom_reclaim_crete = {
 		icon = mission_occupy_alexandria
-		required_missions {
+		required_missions = {
 			lom_med_heg
 		}
 		position = 5
@@ -695,7 +695,7 @@ lom_branch_5 = {
 	##Mission Start
 	lom_grand_dock = {
 		icon = toulon_dockyards
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -732,7 +732,7 @@ lom_branch_5 = {
 	}
 	lom_expand_arsenal = {
 		icon = mission_combat_barbary_piracy
-		required_missions {
+		required_missions = {
 			lom_grand_dock
 		}
 		position = 2
@@ -766,7 +766,7 @@ lom_branch_5 = {
 	##	
 	lom_est_trade = {
 		icon = mission_develop_nevas_port
-		required_missions {
+		required_missions = {
 			lom_expand_arsenal
 		}
 		position = 3
@@ -801,7 +801,7 @@ lom_branch_5 = {
 	##Mission Start
 	lom_med_heg = {
 		icon = mission_mare_nostrum
-		required_missions {
+		required_missions = {
 			lom_est_trade
 		}
 		position = 4
@@ -847,7 +847,7 @@ lom_branch_5 = {
 	##Mission Start
 	lom_take_isles = {
 		icon = mission_seize_the_isles
-		required_missions {
+		required_missions = {
 			lom_med_heg
 		}
 		position = 5

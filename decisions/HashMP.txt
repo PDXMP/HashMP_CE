@@ -4,6 +4,22 @@
 # by Foffy123
 ########################################
 
+##Debug, remove layer
+country_decisions = {
+	h_debug_denmark = {
+		major = yes
+		potential = {
+			tag = DAN
+		}
+		allow = {
+			has_country_flag = h_danish_succession_concluded
+		}
+		effect = {
+			swap_non_generic_missions = yes
+		}
+	}
+}
+
 country_decisions = {
 
 	h_combat_janissary_decadence = {

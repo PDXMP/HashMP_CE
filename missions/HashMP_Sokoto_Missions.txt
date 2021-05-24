@@ -1,0 +1,1096 @@
+########################################
+# Custom Sokoto missions for the HashMP CE Multiplayer mod
+#
+# by Pieman
+#
+# Tool by Xaime
+########################################
+
+##BranchStart 0
+SOKEXPEURO = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = SOK
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	SOK_Morocco = {
+		icon = mission_saharan_route
+		required_missions = {
+			SOK_Coast
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			OR = {
+				area = tafilalt_area
+				area = sus_area
+				area = southern_morocco_area
+				area = gharbia_area
+				area = marrekesh_area
+				area = northern_morocco_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			tafilalt_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sus_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			southern_morocco_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			gharbia_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			marrekesh_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_morocco_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_mor
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Spain1 = {
+		icon = mission_unite_home_region
+		required_missions = {
+			SOK_Morocco
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			OR ={
+				area = lower_andalucia_area
+				area = upper_andalucia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			lower_andalucia_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_andalucia_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_mercantilism = 3
+			add_mil_power = 150
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Spain2 = {
+		icon = mission_assemble_an_army
+		required_missions = {
+			SOK_Spain1
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			region = iberia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			iberia_region ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_iberian
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Paris = {
+		icon = versailles_palace
+		required_missions = {
+			SOK_Spain2
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			province_id = 118 #paris
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			183 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_prestige = 10
+			add_core = 183
+			183 = {
+				change_culture = mali 
+				change_religion = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_North = {
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {
+			SOK_East
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			OR = {
+				region = maghreb_region
+				region = egypt_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			egypt_region ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			maghreb_region ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_north
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Iberia = {
+		icon = mission_religious
+		required_missions = {
+			
+		}
+		position = 9
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			OR = {
+				area = lower_andalucia_area
+				area = upper_andalucia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			lower_andalucia_area = {
+				type = all
+				religion = sunni
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_andalucia_area = {
+				type = all
+				religion = sunni
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_aland
+				duration = -1
+			}
+			add_country_modifier = {
+				name = sok_al2
+				duration = -1
+			}
+			add_accepted_culture = andalusian
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Alhambra = {
+		icon = mission_conquer_50_development
+		required_missions = {
+			SOK_Iberia
+		}
+		position = 10
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			province_id = 223 #granada
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			223 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			#-35 makes it farmland
+			223 = {
+				add_province_modifier = {
+					name = sok_al
+					duration = -1
+				}
+			}
+			
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 0
+##BranchStart 1
+SOKEXPAFRICA = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = SOK
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	SOK_REL = {
+		icon = mission_religious
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			ROOT = {
+				dominant_religion = sunni
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_rel
+				duration = 3650
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Kongo = {
+		icon = mission_persian_soldiers
+		required_missions = {
+			SOK_Coast
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			region = kongo_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			kongo_region ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_kon
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Inner = {
+		icon = mission_mayan_conquest
+		required_missions = {
+			SOK_Kongo
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			OR = {
+				area = chokwe_area
+				area = sankuru_area
+				area = katanga_area 
+				area = luba_area
+				area = rwanda_area
+				area = uganda_area
+				area = buzinza_area
+				area = buha_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			chokwe_area	={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}	
+			sankuru_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			katanga_area  ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			luba_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			rwanda_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			uganda_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			buzinza_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			buha_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_inner
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_East = {
+		icon = mission_bedouins
+		required_missions = {
+			SOK_Inner
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			region = horn_of_africa_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			horn_of_africa_region ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_east
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Mecca = {
+		icon = mission_mosque
+		required_missions = {
+			SOK_East
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			OR = {
+				area = mecca_area
+				area = medina_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			mecca_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			medina_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_mec
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Mos = {
+		icon = mission_mosque
+		required_missions = {
+			SOK_Iberia
+		}
+		position = 10
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			OR = {
+				province_id = 219 #toledo
+				province_id = 227 #lisboa
+				province_id = 220 #valencia 
+				province_id = 224 #sevilla
+				province_id = 213 #barcelona
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			219 = {
+				has_building = temple
+			}
+			227 = {
+				has_building = temple
+			}
+			220 = {
+				has_building = temple
+			}
+			224 = {
+				has_building = temple
+			}
+			213 = {
+				has_building = temple
+			}
+			
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_conv
+				duration = 3650
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 1
+##BranchStart 2
+SOKMAIN = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = SOK
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	SOK_Unite = {
+		icon = mission_west_african_ports
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			
+			OR = {
+				region = niger_region
+				area= baghena_area
+				area= niger_bend_area
+				area= dendi_area
+				area= azbin_area
+				area= bornu_area
+				area= kanem_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			niger_region ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			baghena_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			niger_bend_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			dendi_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			azbin_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bornu_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kanem_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_adm_power = 150
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Coast = {
+		icon = mission_aragonese_navy
+		required_missions = {
+			SOK_Unite
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			OR = {
+				area = jolof_area
+				area = benin_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			jolof_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			benin_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_sailors = 1000
+			1114 = {
+				add_unit_construction = {
+					type = heavy_ship
+					amount = 2
+					speed = 2
+					cost = 0
+				}
+			}
+			1147 = {
+				add_unit_construction = {
+					type = heavy_ship
+					amount = 2
+					speed = 2
+					cost = 0
+				}
+			}
+			2290 = {
+				add_unit_construction = {
+					type = transport
+					amount = 5
+					speed = 3
+					cost = 0
+				}
+			}
+			2294 = {
+				add_unit_construction = {
+					type = transport
+					amount = 5
+					speed = 3
+					cost = 0
+				}
+			}
+			sus_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tafilalt_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			southern_morocco_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			marrekesh_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			gharbia_area= {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			northern_morocco_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			kongo_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Coast2 = {
+		icon = mission_african_soldier
+		required_missions = {
+			SOK_Coast
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			OR = {
+				area = guinea_coast_area
+				area = west_africa_coast_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			guinea_coast_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			west_africa_coast_area ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_treasury = 400
+			1139 = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 2
+			}
+			2258 = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 2
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_South = {
+		icon = mission_high_income
+		required_missions = {
+			SOK_Inner
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			region = east_africa_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			east_africa_region ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_south
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Kangs = {
+		icon = mission_monarch_in_throne_room
+		required_missions = {
+			SOK_South SOK_Cape SOK_North
+		}
+		position = 8
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+			remove_country_modifier = sok_east
+			remove_country_modifier = sok_north
+			remove_country_modifier = sok_kon
+			remove_country_modifier = sok_inner
+			remove_country_modifier = sok_south
+			add_country_modifier = {
+				name = sok_kangz
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 2
+##BranchStart 3
+SOKCOL = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = SOK
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	SOK_Col1 = {
+		icon = mission_establish_high_seas_navy
+		required_missions = {
+			SOK_Coast
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			has_idea_group = exploration_ideas
+			has_idea = quest_for_the_new_world
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_navy_tradition = 15
+			ROOT = {
+				define_conquistador = {
+					shock = 4
+					fire = 3
+					manuever = 3
+					siege = 2
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Navy = {
+		icon = mission_combat_barbary_piracy
+		required_missions = {
+			SOK_Col3 SOK_Coast2
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_navy
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Cape = {
+		icon = mission_sea_battles
+		required_missions = {
+			SOK_South SOK_Navy
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			region = south_africa_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			south_africa_region ={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_col
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 3
+##BranchStart 4
+SOKECO = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = SOK
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	SOK_ECO1 = {
+		icon = mission_portuguese_malabar
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			province_id = 1120
+			province_id = 1121
+			province_id = 2252
+			province_id = 2269
+			province_id = 2287
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			1120 = {
+				development = 15
+			}
+			1121 = {
+				development = 15
+			}
+			2252 = {
+				development = 15
+			}
+			2269 = {
+				development = 15
+			}
+			2287 = {
+				development = 15
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_increased_gold 
+				duration = 7300
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_ECO2 = {
+		icon = mission_great_trading_houses
+		required_missions = {
+			SOK_ECO1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			OR = {
+				province_id = 1121
+				province_id = 1133
+			}
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			1121 = {
+				province_has_center_of_trade_of_level = 3
+			}
+			1133 = {
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_mercantilism = 5
+			add_country_modifier = {
+				name = sok_inflation
+				duration = 7300
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_ECO3 = {
+		icon = mission_have_manufactories
+		required_missions = {
+			SOK_ECO2
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			calc_true_if = {
+				desc = build_manufactories_mission_tooltip
+				all_owned_province = {
+					OR = {
+						has_building = mills
+						has_building = farm_estate
+						has_building = tradecompany
+						has_building = plantations
+						has_building = textile
+						has_building = weapons
+						has_building = wharf
+						has_building = furnace
+					}
+				}
+				amount = 20
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_years_of_income = 1.5
+			add_innovativeness_huge_effect = yes
+			add_country_modifier = {
+				name = "h_african_modernization_mod"
+				duration = 3650
+			}
+		}
+	}
+	##Mission End
+		##Mission Start
+	SOK_Col2 = {
+		icon = mission_iberian_conquistador
+		required_missions = {
+			SOK_Col1
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				colonial_region = colonial_brazil
+				is_city = yes
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_country_modifier = {
+				name = sok_colonial
+				duration = 5475
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	SOK_Col3 = {
+		icon = mission_found_havana
+		required_missions = {
+			SOK_Col2
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+			has_discovered = ROOT
+			colonial_region = colonial_brazil
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			##MISSIONTRIGGER
+			colonial_brazil = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			##MISSIONEFFECT
+			add_dip_power = 200
+			
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 4

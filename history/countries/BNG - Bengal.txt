@@ -5,6 +5,7 @@ religion = sunni
 technology_group = indian
 capital = 563	# Pandua
 religious_school = hanafi_school
+historical_rival = ARK
 
 change_estate_land_share = {
 	estate = estate_church

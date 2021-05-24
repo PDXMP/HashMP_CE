@@ -287,3 +287,35 @@ h_cwonder_xiamen = {
 	on_deactivation = {
 	}
 }
+
+h_denmark_coastal_defenses = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			OR = {
+				tag = DAN
+				tag = SCA
+			}
+		}
+		OR = {
+			has_building = coastal_defence
+			has_building = naval_battery
+		}
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+	}
+
+	local_defensiveness = 0.1
+	allowed_num_of_buildings = 1
+
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}

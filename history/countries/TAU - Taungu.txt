@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = mandala_reform
 primary_culture = burmese
+add_accepted_culture = mon
 religion = buddhism
 technology_group = chinese
 capital = 585 # Toungoo

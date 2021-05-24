@@ -1,0 +1,13 @@
+name="BNG-ARK"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = BNG
+	add_defender = ARK
+}
+1444.11.10 = {
+	rem_attacker = BNG
+	rem_defender = ARK
+}

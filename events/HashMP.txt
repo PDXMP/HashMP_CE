@@ -977,7 +977,7 @@ country_event = {
 		
 		hidden_effect = {
 			set_country_flag = johanking
-			add_ruler_personality = lawgiver_personality
+			add_ruler_personality = scholar_personality
 		}
 	}
 	
@@ -1010,7 +1010,7 @@ country_event = {
 		
 		hidden_effect = {
 			set_country_flag = gustavking
-			add_ruler_personality = martial_educator_personality
+			add_ruler_personality = inspiring_leader_personality
 		}
 	}
 }
@@ -1081,3 +1081,163 @@ country_event = {
 		}
 	}
 }
+
+##Aftermath of the Kalmar War
+country_event = {
+	id = hashmp.110
+	title = hashmp.110.title
+	desc = hashmp.110.desc
+	picture = BIG_BOOK_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.110.a
+		##Vow to restore the union
+		add_prestige = 5
+
+		add_casus_belli = {
+			target = NOR
+			type = cb_restore_personal_union
+		}
+
+		skaneland_area = {
+			add_core = ROOT
+		}
+
+		25 = {
+			add_permanent_claim = ROOT
+		}
+
+		north_atlantic_area = {
+			add_permanent_claim = ROOT
+		}
+
+		custom_tooltip = h_danes_kalmar_event_tooltip
+
+		hidden_effect = {
+			set_country_flag = h_restore_the_union
+			set_country_flag = h_kalmar_union_event_choice_concluded
+		}
+	}
+	
+	option = {
+		name = hashmp.110.b
+		##Forget the union
+
+		add_stability_or_adm_power = yes
+		add_manpower = 3
+		add_sailors = 500
+
+		north_atlantic_area = {
+			add_permanent_claim = ROOT
+		}
+
+		hidden_effect = {
+			set_country_flag = h_forget_the_union
+			set_country_flag = h_kalmar_union_event_choice_concluded
+		}
+	}
+}
+
+##Succession of Denmark
+country_event = {
+	id = hashmp.111
+	title = hashmp.111.title
+	desc = hashmp.111.desc
+	picture = BIG_BOOK_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.111.a
+		##Christian
+		hidden_effect = {
+			set_country_flag = h_danes_king_christian
+			set_country_flag = h_danish_succession_concluded
+		}
+
+		define_ruler = {
+			name = "Christian I"
+			dynasty = "von Oldenburg"
+			religion = ROOT
+			culture = hannoverian
+			adm = 4
+			dip = 3
+			mil = 4
+			age = 24
+			claim = 95
+		}
+	}
+	
+	option = {
+		name = hashmp.111.b
+		##Charles
+		hidden_effect = {
+			set_country_flag = h_danes_king_charles
+			set_country_flag = h_danish_succession_concluded
+		}
+
+		define_ruler = {
+			name = "Charles I"
+			dynasty = "Bonde"
+			religion = ROOT
+			culture = swedish
+			adm = 3
+			dip = 3
+			mil = 5
+			age = 42
+			claim = 50
+		}
+	}
+
+	option = {
+		name = hashmp.111.c
+		##Dorothea
+		hidden_effect = {
+			set_country_flag = h_danes_queen_dorothea
+			set_country_flag = h_danish_succession_concluded
+		}
+
+		remove_consort = yes
+
+		define_ruler = {
+			name = "Dorothea"
+			dynasty = "von Hohenzollern"
+			religion = ROOT
+			culture = saxon
+			adm = 5
+			dip = 6
+			mil = 1
+			age = 20
+			claim = 50
+			female = yes
+		}
+	}
+}
+
+##New Councilmen
+country_event = {
+	id = hashmp.112
+	title = hashmp.112.title
+	desc = hashmp.112.desc
+	picture = BIG_BOOK_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hashmp.112.a
+		##ADM
+	}
+	
+	option = {
+		name = hashmp.112.b
+		##DIP
+	}
+
+	option = {
+		name = hashmp.112.c
+		##MIL
+	}
+}
+

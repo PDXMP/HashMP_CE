@@ -18,7 +18,7 @@ NGame = {
 	MAX_CUSTOM_COUNTRIES = 75,				-- Max is 100
 	MAX_OBSERVERS = 10,						-- Max is 100
 
-	SIZE_LIMIT_FOR_ISLANDS = 25000,			-- Threshold in pixels to define what is an island and what is a continent
+	SIZE_LIMIT_FOR_ISLANDS = 45000,			-- Threshold in pixels to define what is an island and what is a continent
 
 	DAYS_BEHIND_PAUSE = 75,					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
 	DAYS_BEHIND_LOWER_SPEED = 30,			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down
@@ -1033,9 +1033,9 @@ NEconomy = {
 	PRIVATEER_INCOME_COLLECTION_EFF = 0.5,
 	MIN_ARMY_MAINTENANCE = 0.1,
 	MIN_NAVY_MAINTENANCE = 0.1,
-	CARAVAN_FACTOR = 3.0,							-- Development is divided by this factor, do not set to zero!
+	CARAVAN_FACTOR = 5.0,							-- Development is divided by this factor, do not set to zero!
 	CARAVAN_POWER_MAX = 30,
-	CARAVAN_POWER_MIN = 2,
+	CARAVAN_POWER_MIN = 1,
 	MAX_BUILDING_SLOTS = 12,						-- Maximum number of buildings slots, i.e. max buildings possible.
 	COT_BUILDING_SLOTS = 2,							-- Number of slots used by a Center of Trade.
 	COT_DOWNGRADE_PRESTIGE_COST = -10,				-- Cost in prestige to downgrade a Center of Trade.

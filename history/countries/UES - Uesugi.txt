@@ -144,9 +144,9 @@ capital = 1843	# Kozuke
 		dynasty = "Uesugi"
 		birth_date = 1433.1.1
 #		death_date = 1455.1.15
-		adm = 5
+		adm = 4
 		dip = 4
-		mil = 5
+		mil = 4
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = careful_personality

@@ -1,0 +1,2880 @@
+##Christian 1st Branch
+h_danish_missions_christian_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		has_country_flag = h_danes_king_christian
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_forces_1 = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_forces_2 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_forces_1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_wismar = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_own_holstein
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_pomerania = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_wismar
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_germany = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_pomerania
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Christian 2nd Branch
+h_danish_missions_christian_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		has_country_flag = h_danes_king_christian
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_christian = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_government_1 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_christian
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_government_2 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_government_1
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_government_3 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_government_2
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_norway_1 = {
+		icon = placeholdergfx
+		required_missions = {
+			 
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_kalmar_union = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_norway_1 h_dan_sweden_4
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Christian 3rd Branch
+h_danish_missions_christian_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		has_country_flag = h_danes_king_christian
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_cannons = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_1 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_christian
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_2 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_sweden_1
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_3 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_sweden_2
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_4 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_sweden_3
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Dorothea 1st Branch
+h_danish_missions_dorothea_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		has_country_flag = h_danes_queen_dorothea
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_naval_1 = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_naval_2 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_naval_1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_trade_1 = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_trade_2 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_trade_1
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_trade_3 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_trade_2
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Dorothea 2nd Branch
+h_danish_missions_dorothea_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		has_country_flag = h_danes_queen_dorothea
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_dorothea = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_flagship = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_dorothea
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_naval_3 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_flagship
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_naval_4 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_naval_3
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_naval_5 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_naval_4
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_rule_the_sea = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_trade_3 h_dan_naval_5 h_dan_colonial_3
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Dorothea 3rd Branch
+h_danish_missions_dorothea_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		has_country_flag = h_danes_queen_dorothea
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_admiralty = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_dorothea
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial_1 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_colonial
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial_2 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_colonial_1
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial_3 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_colonial_2
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Charles 1st Branch
+h_danish_missions_charles_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		has_country_flag = h_danes_king_charles
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_quality_1 = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_quality_2 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_quality_1
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_wismar = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_own_holstein
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_pomerania = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_wismar
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_germany = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_pomerania
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Charles 2nd Branch
+h_danish_missions_charles_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		has_country_flag = h_danes_king_charles
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_charles_i = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_gotland = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_charles_i
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_osel = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_gotland
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_estonia = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_osel
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_norway_1 = {
+		icon = placeholdergfx
+		required_missions = {
+			 
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_kalmar_union = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_norway_1 h_dan_sweden_4
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Charles 3rd Branch
+h_danish_missions_charles_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		has_country_flag = h_danes_king_charles
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_cadets = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_1 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_charles_i
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_2 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_sweden_1
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_3 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_sweden_2
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_sweden_4 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_sweden_3
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			##MISSIONTRIGGER
+		}
+		effect = {
+			##MISSIONEFFECT
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Prologue 1st Branch
+h_danish_missions_prologue_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	##Mission Start
+	h_dan_build_navy = {
+		icon = overshadow_venice
+		required_missions = {
+			h_dan_defeat
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			has_ruler_modifier = h_christopher_iii
+			sailors_percentage = 0.25
+			navy_size_percentage = 1
+			num_of_admirals = 1
+		}
+		effect = {
+			custom_tooltip = h_danish_expand_navy_tooltip
+			custom_tooltip = h_danish_missions_space_tooltip
+			add_navy_tradition = 5
+
+			hidden_effect = {
+				set_country_flag = h_denmark_navy_prepared
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Prologue 2nd Branch
+h_danish_missions_prologue_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_defeat = {
+		icon = boh_humiliate_austria
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = h_recover_nation_tooltip
+
+				has_country_flag = h_kalmar_union_event_choice_concluded
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = h_restore_the_union
+				}
+				add_legitimacy = -25
+			}
+			else = {
+				add_legitimacy = -50
+			}
+
+			define_consort = {
+				name = "Dorothea"
+				dynasty = "von Hohenzollern"
+				country_of_origin = BRA
+				religion = ROOT
+				culture = saxon
+				adm = 5
+				dip = 6
+				mil = 1
+				age = 16
+				female = yes
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_estates = {
+		icon = balance_the_estates
+		required_missions = {
+			h_dan_defeat
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			stability = 1
+			num_of_estate_privileges = {
+				estate = estate_church
+				value = 2
+			}
+			num_of_estate_privileges = {
+				estate = estate_nobles
+				value = 2
+			}
+			num_of_estate_privileges = {
+				estate = estate_burghers
+				value = 2
+			}
+		}
+		effect = {
+			hidden_effect = {
+				remove_country_modifier = h_danish_defeat
+				add_country_modifier = {
+					name = h_danish_defeat_ii
+					duration = -1
+				}
+			}
+
+			custom_tooltip = h_christopher_iii_falls_ill_1_tooltip
+			custom_tooltip = h_defeat_modifier_change_tooltip
+			custom_tooltip = h_danish_missions_space_tooltip
+			add_ruler_modifier = {
+				name = h_danish_estates_placated
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_court = {
+		icon = medici_bank_ledgers
+		required_missions = {
+			h_dan_estates
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			adm_power = 50
+			dip_power = 50
+			mil_power = 50	
+		}
+		effect = {
+			hidden_effect = {
+				remove_country_modifier = h_danish_defeat_ii
+				add_country_modifier = {
+					name = h_danish_defeat_iii
+					duration = -1
+				}
+
+				random_owned_province = {
+					limit = {
+						fort_level = 1
+					}
+	
+					spawn_rebels = {
+						type = anti_tax
+						win = yes
+						size = 1
+					}
+				}
+			}
+			custom_tooltip = h_danish_missions_peasants_rebel
+			custom_tooltip = h_danish_missions_space_tooltip
+			custom_tooltip = h_christopher_iii_falls_ill_2_tooltip
+			custom_tooltip = h_defeat_modifier_change_tooltip
+			custom_tooltip = h_danish_missions_space_tooltip
+			country_event = {
+				id = hashmp.112
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_rebuild_sjaeland = {
+		icon = mission_early_game_buildings
+		required_missions = {
+			h_dan_court
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			5004 = {
+				development = 20
+			}
+			NOT = { 
+				num_of_revolts = 1 
+				num_of_rebel_armies = 1
+			}
+		}
+		effect = {
+			hidden_effect = {
+				remove_country_modifier = h_danish_defeat_iii
+				add_country_modifier = {
+					name = h_danish_defeat_iv
+					duration = -1
+				}
+			}
+
+			custom_tooltip = h_christopher_iii_falls_ill_3_tooltip
+			custom_tooltip = h_defeat_modifier_change_tooltip
+			custom_tooltip = h_danish_missions_space_tooltip
+			country_event = {
+				id = hashmp.111
+			}
+			5004 = {
+				add_province_modifier = {
+					name = h_danish_copenhagen_recovering
+					duration = 9125
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_death_king = {
+		icon = the_hungarian_succession
+		required_missions = {
+			h_dan_rebuild_sjaeland
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = h_danish_succession_tooltip
+
+				has_country_flag = h_danish_succession_concluded
+
+				NOT = { 
+					has_ruler_modifier = h_christopher_iii 
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_country_modifier = h_danish_defeat
+				}
+
+				remove_country_modifier = h_danish_defeat
+			}
+			else_if = {
+				limit = {
+					has_country_modifier = h_danish_defeat_ii
+				}
+
+				remove_country_modifier = h_danish_defeat_ii
+			}
+			else_if = {
+				limit = {
+					has_country_modifier = h_danish_defeat_iii
+				}
+
+				remove_country_modifier = h_danish_defeat_iii
+			}
+			else = {
+				remove_country_modifier = h_danish_defeat_iv
+			}
+			swap_non_generic_missions = yes
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Prologue 3rd Branch
+h_danish_missions_prologue_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	##Mission Start
+	h_dan_build_army = {
+		icon = assert_our_sovereignty
+		required_missions = {
+			h_dan_defeat
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			has_ruler_modifier = h_christopher_iii
+			manpower_percentage = 0.60
+			army_size_percentage = 1
+			num_of_generals = 1
+		}
+		effect = {
+			custom_tooltip = h_danish_expand_army_tooltip
+			custom_tooltip = h_danish_missions_space_tooltip
+			add_army_tradition = 5
+
+			hidden_effect = {
+				set_country_flag = h_denmark_army_prepared
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Main Missions 1st Branch
+h_danish_missions_main_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_sound_toll = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			5004 = {
+				has_building = marketplace
+				province_has_center_of_trade_of_level = 2
+			}
+		}
+		effect = {
+			5004 = {
+				if = {
+					limit = {
+						NOT = { province_has_center_of_trade_of_level = 3 }
+					}
+	
+					add_center_of_trade_level = 1
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_own_holstein = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			4141 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			1775 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			4141 = {
+				add_province_modifier = {
+					name = h_danish_holstein_integration
+					duration = 9125
+				}
+			}
+			1775 = {
+				add_province_modifier = {
+					name = h_danish_holstein_integration
+					duration = 9125
+				}
+			}
+			45 = {
+				add_claim = ROOT
+			}
+			add_casus_belli = {
+				target = HSA
+				type = cb_vassalize_mission
+				months = 300
+			}
+			add_casus_belli = {
+				target = HAM
+				type = cb_trade_conflict
+				months = 300
+			}
+			add_casus_belli = {
+				target = BRE
+				type = cb_trade_conflict
+				months = 300
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_hanseatic_league = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_own_holstein
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			45 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			if = {
+				limit = {
+					exists = HAM
+				}
+				NOT = {
+					45 = {
+						trade_share = {
+							country = HAM
+							share = 10
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					exists = BRE
+				}
+				NOT = {
+					45 = {
+						trade_share = {
+							country = BRE
+							share = 10
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_hanseatic_boats
+				duration = -1
+			}
+
+			5004 = {
+				add_unit_construction = {
+					type = light_ship
+					amount = 5
+					speed = 0.1
+					cost = 0
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_own_lubeck = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_hanseatic_league
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			45 = {
+				trade_share = {
+					country = DAN
+					share = 80
+				}
+			}
+			45 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			44 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			1874 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_lubeck
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_iceland = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			370 = {
+				owned_by = DAN
+				is_core = DAN
+			}
+			371 = {
+				owned_by = DAN
+				is_core = DAN
+			}
+		}
+		effect = {
+			370 = {
+				center_of_trade = 1
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			1979 = {
+				add_permanent_claim = ROOT
+			}
+			1978 = {
+				add_permanent_claim = ROOT
+			}
+			369 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_british_isles = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_iceland
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			1979 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			1978 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			369 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_north_sea_ambitions
+				duration = 3650
+			}
+
+			kingdom_of_the_isles_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			yorkshire_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			east_midlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			east_anglia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_scotland_1 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_british_isles
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			kingdom_of_the_isles_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_highlanders
+				duration = 3650
+			}
+
+			highlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			lowlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_scotland_2 = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_scotland_1
+		}
+		position = 8
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = { 
+			highlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lowlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_army_tradition = 10
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_counts_feud = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 9
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			has_country_flag = had_counts_feud
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_reformation = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_counts_feud
+		}
+		position = 10
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			religious_unity = 0.9
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = anglican
+				religion = hussite
+			}
+		}
+		effect = {
+			change_estate_land_share = {
+				estate = estate_church
+				share = -1
+			}
+
+			add_country_modifier = {
+				name = h_danish_reformation
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_fishing_industry = {
+		icon = placeholdergfx
+		required_missions = {
+
+		}
+		position = 11
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				trade_goods = fish
+				has_manufactory_no_custom_tooltip_trigger = yes
+			}
+
+			23 = {
+				trade_share = {
+					country = DAN
+					share = 51
+				}
+			}
+		}
+		effect = {
+			add_years_of_owned_provinces_production_income = {
+				years = 5
+				trigger = {
+					trade_goods = fish
+					has_manufactory_no_custom_tooltip_trigger = yes
+				}
+			}
+
+			change_price = {
+				trade_goods = fish
+				key = h_north_sea_commerce
+				value = 0.2
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_naval_supplies = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_fishing_industry
+		}
+		position = 12
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			OR = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 10
+					trade_goods = naval_supplies
+					has_manufactory_no_custom_tooltip_trigger = yes
+				}
+				trading_bonus = {
+					trade_goods = naval_supplies
+					value = yes
+				}
+			}
+		}
+		effect = {
+			add_years_of_owned_provinces_production_income = {
+				years = 3
+				trigger = {
+					trade_goods = naval_supplies
+					has_manufactory_no_custom_tooltip_trigger = yes
+				}
+			}
+
+			add_country_modifier = {
+				name = h_danish_naval_supplies
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Main Missions 2nd Branch
+h_danish_missions_main_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	##Mission Start
+	h_dan_greenland = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_iceland
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			OR = {
+				1104 = {
+					OR = {
+						AND = {
+							owned_by = ROOT
+							is_colony = yes
+							colonysize = 500
+						}
+						AND = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+				}
+				1105 = {
+					OR = {
+						AND = {
+							owned_by = ROOT
+							is_colony = yes
+							colonysize = 500
+						}
+						AND = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			1104 = {
+				if = {
+					limit = {
+						owned_by = ROOT
+						is_colony = yes
+					}
+
+					add_colonysize = 500
+				}
+
+				if = {
+					limit = {
+						owned_by = ROOT
+					}
+
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+			}
+			1105 = {
+				if = {
+					limit = {
+						owned_by = ROOT
+						is_colony = yes
+					}
+
+					add_colonysize = 500
+				}
+
+				if = {
+					limit = {
+						owned_by = ROOT
+					}
+
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+			}
+
+			add_country_modifier = {
+				name = h_northern_colonial_route
+				duration = 3650
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_danelaw = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_british_isles
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			yorkshire_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			east_midlands_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			east_anglia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danelaw
+				duration = -1
+			}
+
+			245 = {
+				add_province_modifier = {
+					name = h_reclaimed_york
+					duration = -1
+				}
+
+				add_base_manpower = 3
+			}
+
+			scottish_marches_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			west_midlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			home_counties_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			wessex_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_england = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_danelaw
+		}
+		position = 8
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			scottish_marches_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			west_midlands_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			home_counties_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			wessex_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_dip_power = 100
+
+			add_country_modifier = {
+				name = h_englished_defeated
+				duration = 9125
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_north_sea_empire = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_england h_dan_scotland_2
+		}
+		position = 9
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			calc_true_if = {
+				british_isles_region = {
+					owned_by = ROOT
+					is_core = ROOT
+					culture = danish
+				}
+
+				amount = 20
+			}
+
+			245 = {
+				development = 30
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_north_sea_empire
+				duration = -1
+			}
+		}
+	}
+	
+}
+##Main Missions 3rd Branch
+h_danish_missions_main_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_canada = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_discover_na h_dan_greenland
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_canada
+				is_city = yes
+			}
+		}
+		effect = {
+			add_dip_power = 100
+
+			custom_tooltip = h_colony_increase_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					if = {
+						limit = {
+							is_colony = yes
+						}
+	
+						add_colonysize = 100
+					}
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_hudson = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_canada
+		}
+		position = 8
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 40
+				colonial_region = colonial_canada
+				is_city = yes
+			}
+		}
+		effect = {
+			change_price = {
+				trade_goods = fur
+				key = h_fur_hudson_trade
+				value = 0.10
+				duration = -1
+			}
+
+			add_treasury = 500
+
+			add_country_modifier = {
+				name = h_hudson_trading_company
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_university = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 10
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			5004 = {
+				has_building = university
+			}
+		}
+		effect = {
+			add_innovativeness_huge_effect = yes
+
+			add_ruler_modifier = {
+				name = h_danish_enlightened_ruler
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_innovation = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_university
+		}
+		position = 11
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = h_danish_innovation_tooltip
+				NOT = {
+					any_neighbor_country = {
+						tech_difference = 0
+					} 
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_innovation
+				duration = 9125
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_industrial_revolution = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_innovation h_dan_naval_supplies
+		}
+		position = 13
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			OR = {
+				has_institution = industrialization
+				calc_true_if = {
+					any_owned_province = { 
+						trade_goods = coal
+					}
+
+					amount = 3
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_industrial_revolution
+				duration = 3650
+			}
+
+			5004 = {
+				add_base_production = 3
+			}
+			12 = {
+				add_base_production = 3
+			}
+			14 = {
+				add_base_production = 3
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Main Missions 4th Branch
+h_danish_missions_main_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_discover_na = {
+		icon = placeholdergfx
+		required_missions = {
+			 
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = miss_discover_canada
+					colonial_canada = { has_discovered = ROOT }
+				}
+				custom_trigger_tooltip = {
+					tooltip = miss_discover_eastern_america
+					colonial_eastern_america = { has_discovered = ROOT }
+				}
+				custom_trigger_tooltip = {
+					tooltip = miss_discover_caribbean
+					colonial_the_carribean = { has_discovered = ROOT }
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danes_discovered_america
+				duration = 3650
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_chesapeake = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_discover_na
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 13
+				colonial_region = colonial_eastern_america
+				is_city = yes
+			}
+		}
+		effect = {
+			add_adm_power = 100
+			add_treasury = 250
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial_empire = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_chesapeake h_dan_hudson
+		}
+		position = 9
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			colony = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_colonial_empire
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_colonial_dominions = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_colonial_empire
+		}
+		position = 10
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			DAN = {
+				any_subject_country = { 
+					has_reform = h_reform_dominion
+				}
+			}
+		}
+		effect = {
+			add_prestige = 25
+			custom_tooltip = h_danish_crown_investment_tooltip
+			hidden_effect = {
+				DAN = {
+					every_subject_country = {
+						limit = {
+							has_reform = h_reform_dominion
+						}
+	
+						add_country_modifier = {
+							name = h_danish_crown_investment
+							duration = 3650
+						}
+					}
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_indonesia = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_the_cape
+		}
+		position = 11
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {	
+			custom_trigger_tooltip = {
+				tooltip = h_miss_discover_malaya_5
+				calc_true_if = {
+					malaya_region = { has_discovered = ROOT }
+					amount = 1
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_east_indies
+				duration = 9125
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_east_india_trading = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_indonesia h_dan_coromandel
+		}
+		position = 13
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			596 = {
+				trade_share = {
+					country = DAN
+					share = 51
+				}
+			}
+
+			num_of_trade_companies = 2
+
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				region = malaya_region
+				is_city = yes
+			}
+
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				region = indonesia_region
+				is_city = yes
+			}
+		}
+		effect = {
+			h_add_mercantilism_or_dip_power_with_input = {
+				value = 10
+				valuetooltip = h_ADD_MERCANTILISM_OR_DIP_VALUE_10
+			}
+
+			add_country_modifier = {
+				name = h_danish_east_india_company
+				duration = -1
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##Main Missions 5th Branch
+h_danish_missions_main_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = DAN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	h_dan_expand_income = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			monthly_income = 20
+
+			OR = {
+				temple = 5
+				cathedral = 5
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_crown_revenue
+				duration = 3650
+			}
+
+			custom_tooltip = h_ESTATES_SEIZE_LAND_MEDIUM_DESC
+			take_estate_land_share_medium = { estate = all }
+			add_estate_loyalty = {
+				estate = all
+				loyalty = -10
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_industry = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_expand_income
+		}
+		position = 2
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			calc_true_if = {
+				all_owned_province = { 
+					base_production = 5
+				}
+
+				amount = 5
+			}
+
+			OR = {
+				workshop = 5
+				counting_house = 5
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_artisans
+				duration = 3650
+			}
+
+			add_years_of_owned_provinces_production_income = {
+				years = 5
+				trigger = {
+					base_production = 5
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_consolidate_crown = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_industry
+		}
+		position = 3
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			stability = 1
+			legitimacy = 90
+			crown_land_share = 30
+		}
+		effect = {
+			change_government_reform_progress = 25
+
+			add_country_modifier = {
+				name = h_centralize_denmark
+				duration = -1
+			}
+
+			custom_tooltip = h_ESTATES_SEIZE_LAND_SMALL_DESC
+			if = {
+				limit = {
+					NOT = { crown_land_share = 90 }
+				}
+
+				take_estate_land_share_large = { estate = all}
+			}
+			add_estate_loyalty = {
+				estate = all
+				loyalty = -10
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_absolutism = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_consolidate_crown
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			crown_land_share = 50
+			current_age = age_of_absolutism
+		}
+		effect = {
+			country_event = {
+				id = flavor_dan.3297
+			}
+		}
+	}
+	##Mission End
+		
+	##Mission Start
+	h_dan_fortify_denmark = {
+		icon = placeholdergfx
+		required_missions = {
+			
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			14 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+			12 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+			5004 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+
+			capital_scope = {
+				area_for_scope_province = { 
+					has_state_edict = edict_defensive_edict
+				}
+			}
+		}
+		effect = {
+			5004 = {
+				add_province_triggered_modifier = h_denmark_coastal_defenses
+			}
+			12 = {
+				add_province_triggered_modifier = h_denmark_coastal_defenses
+			}
+			14 = {
+				add_province_triggered_modifier = h_denmark_coastal_defenses
+			}
+
+			custom_tooltip = h_denmark_coastal_defenses_tooltip
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_fortify_holstein = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_fortify_denmark
+		}
+		position = 6
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			4141 = {
+				owned_by = ROOT
+				is_core = ROOT
+				culture = danish
+			}
+			1775 = {
+				owned_by = ROOT
+				is_core = ROOT
+				culture = danish
+			}
+
+			4141 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+		}
+		effect = {
+			4141 = {
+				add_province_modifier = {
+					name = h_dannevirke_fortifications_reinforced
+					duration = -1
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_carrib = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_discover_na
+		}
+		position = 7
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 20
+				colonial_region = colonial_eastern_america
+				is_city = yes
+			}
+		}
+		effect = {
+			add_navy_tradition = 25
+			add_treasury = 250
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_south_trade = {
+		icon = placeholdergfx
+		required_missions = {
+			 
+		}
+		position = 8
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = h_miss_discover_west_africa_8
+					calc_true_if = {
+						trade_company_west_africa = { has_discovered = ROOT }
+						amount = 8
+					}
+				}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					region = guinea_region
+					is_city = yes
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_southern_route
+				duration = 9125
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_ivory = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_south_trade
+		}
+		position = 9
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = guinea_region
+				value = 3
+				is_city = yes
+			}
+		}
+		effect = {
+			add_treasury = 500
+
+			1126 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = 9125
+					power = 50
+					key = h_denmark_ivory
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_the_cape = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_ivory
+		}
+		position = 10
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = south_africa_region
+				value = 3
+				is_city = yes
+			}
+		}
+		effect = {
+			create_explorer = { tradition = 100 }
+
+			add_country_modifier = {
+				name = h_danish_cape
+				duration = 9125
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_india = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_the_cape
+		}
+		position = 11
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			lanka_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_lanka_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			572 = {
+				add_province_modifier = {
+					name = h_danish_kotte_naval_outpost
+					duration = -1
+				}
+
+				add_center_of_trade_level = 1
+			}
+			4409 = {
+				add_center_of_trade_level = 1
+			}
+
+			lanka_area = {
+				add_province_modifier = {
+					name = h_danish_india_investments
+					duration = 3650
+				}
+			}
+
+			south_lanka_area = {
+				add_province_modifier = {
+					name = h_danish_india_investments
+					duration = 3650
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	h_dan_coromandel = {
+		icon = placeholdergfx
+		required_missions = {
+			h_dan_india
+		}
+		position = 12
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = coromandel_region
+				value = 10
+				is_city = yes
+			}
+
+			572 = {
+				trade_share = {
+					country = DAN
+					share = 51
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_danish_indian_trade
+				duration = 3650
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}

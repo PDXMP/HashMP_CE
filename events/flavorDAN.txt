@@ -268,17 +268,7 @@ country_event = {
 	
 	fire_only_once = yes
 	
-	trigger = {
-		tag = DAN
-		is_year = 1650
-		NOT = { is_year = 1750 }
-		government = monarchy
-		is_free_or_tributary_trigger = yes
-	}
-	
-	mean_time_to_happen = {
-		months = 300
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "flavor_swe.EVTOPTA3232" # The King shall rule supreme
@@ -290,12 +280,19 @@ country_event = {
 		}
 		ai_chance = { factor = 90 }
 		add_absolutism = 20
-		add_stability = -1
+		reduce_stability_or_adm_power = yes
+		h_remove_stability_or_adm_power_with_input = {
+			valuetooltip = h_REMOVE_STABILITY_OR_ADM_VALUE_1
+			value = 1
+		}
 	}
 	option = {
 		name = "flavor_swe.EVTOPTB3232" # The King must heed the Council
 		ai_chance = { factor = 10 }
-		add_stability = 3
+		h_add_stability_or_adm_power_with_input = {
+			valuetooltip = h_ADD_STABILITY_OR_ADM_VALUE_3
+			value = 3
+		}	
 	}
 }
 
@@ -1108,14 +1105,7 @@ country_event = {
 	
 	fire_only_once = yes
 	
-	trigger = {
-		tag = DAN
-		NOT = { is_year = 1450 }
-	}
-	
-	mean_time_to_happen = {
-		months = 12 #Should trigger close to start
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "flavor_dan.6.a" #Nobility must aid and advice, never rule.

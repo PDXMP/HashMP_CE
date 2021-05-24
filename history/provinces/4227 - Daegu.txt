@@ -1,7 +1,9 @@
 #4227 - Daegu
 
-owner = BIH
-controller = BIH
+owner = KOR
+controller = KOR
+#owner = BIH
+#controller = BIH
 culture = korean
 religion = confucianism
 capital = "Jinju"
@@ -11,7 +13,8 @@ base_tax = 4
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = BIH
+add_core = KOR
+#add_core = BIH
 discovered_by = chinese
 discovered_by = nomad_group
 
