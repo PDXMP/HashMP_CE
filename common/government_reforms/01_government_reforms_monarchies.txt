@@ -143,6 +143,8 @@ grand_duchy_reform = {
 	nation_designer_cost = 10
 	modifiers = {
 		governing_capacity = 100
+		land_maintenance_modifier = -0.25
+		liberty_desire = -10
 	}
 }
 
