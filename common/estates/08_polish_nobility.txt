@@ -184,7 +184,6 @@ estate_polish_nobility =
 	
 	privileges = {
 		estate_polish_nobility_land_rights
-		estate_polish_nobility_nobility_primacy
 		estate_polish_nobility_officer_corp
 		estate_polish_nobility_levies
 		estate_polish_nobility_advisors
