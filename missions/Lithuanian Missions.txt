@@ -48,6 +48,7 @@ LIT_political_branch = {
 		effect = {
 			POL = {
 				set_country_flag = pol_liv_vytautas_mission
+				country_event = {id = flavor_lit.15}
 			}
 		}
 	}
@@ -81,6 +82,7 @@ LIT_political_branch = {
 		effect = {
 			POL = {
 				set_country_flag = 	pol_liv_melno_mission
+				country_event = {id = flavor_lit.16}
 			}
 		}
 	}
@@ -141,6 +143,7 @@ LIT_political_branch = {
 		effect = {
 			POL = {
 				set_country_flag = pol_northern_marches_mission
+				country_event = {id = flavor_lit.17}
 			}
 		}
 	}
@@ -308,12 +311,10 @@ LIT_diplomatic_branch = {
 						}
 					}
 				}
-				AND {
+				KIE = {
 					is_subject_of = ROOT
 					NOT = {
-						KIE = {
-							has_ruler = "Svitrigaila I"
-						}
+						has_ruler = "Svitrigaila I"
 					}
 				}
 			}
@@ -321,6 +322,7 @@ LIT_diplomatic_branch = {
 		effect = {
 			POL = {
 				set_country_flag = pol_kie_integrate_mission
+				country_event = {id = flavor_lit.14}
 			}
 		}
 	}
@@ -360,6 +362,7 @@ LIT_diplomatic_branch = {
 		effect = {
 			POL = {
 				set_country_flag = pol_chr_integrate_mission
+				country_event = {id = flavor_lit.18}
 			}
 		}
 	}
@@ -399,6 +402,7 @@ LIT_diplomatic_branch = {
 		effect = {
 			POL = {
 				set_country_flag = pol_zaz_integrate_mission
+				country_event = {id = flavor_lit.19}
 			}
 		}
 	}
@@ -477,6 +481,7 @@ LIT_expansion_branch = {
 		effect = {
 			POL = {
 				set_country_flag = pol_zaz_invasion_mission
+				country_event = { id = flavor_lit.20}
 			}
 		}
 	}
@@ -522,8 +527,12 @@ LIT_expansion_branch = {
 		effect = {
 			pol = { 
 				set_country_flag = pol_zaz_defense_mission 
-				}
+			}
+			azov_area = {
+				add_core = ZAZ
+			}
 		}
+		
 	}
 	##Mission End
 	##

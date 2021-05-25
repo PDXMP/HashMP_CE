@@ -1,5 +1,5 @@
 ##BranchStart 0
-h_expand_poland = {
+POL_expand = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -12,7 +12,6 @@ h_expand_poland = {
 	##Mission Start
 	prussian_confederation_mission_pol = {
 		icon = mission_alliances
-		position = 1
 		required_missions = { }
 		completed_by = 1466.10.19
 		provinces_to_highlight = {
@@ -91,7 +90,7 @@ h_expand_poland = {
 	##Mission Start
 	conquer_silesia = {
 		icon = mission_conquer_5_states
-		required_missions = {
+		required_missions {
 			prussian_confederation_mission_pol
 		}
 		position = 2
@@ -105,9 +104,7 @@ h_expand_poland = {
 			army_size_percentage = 1
 		}
 		effect = {
-			country_event = { 
-				id = flavor_pol.25 
-			}
+			country_event = { id = flavor_pol.25 }
 			silesia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -121,7 +118,7 @@ h_expand_poland = {
 	##Mission Start
 	annex_mazovia = {
 		icon = mission_have_two_subjects
-		required_missions = {
+		required_missions {
 			conquer_silesia
 		}
 		position = 3
@@ -208,10 +205,11 @@ h_expand_poland = {
 	}
 	##Mission End
 	##
+	
 }
 ##BranchEnd 0
 ##BranchStart 1
-h_expand_poland_2 = {
+develop_poland = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -224,7 +222,7 @@ h_expand_poland_2 = {
 	##Mission Start
 	expand_kazimierz_mission = {
 		icon = mission_eastern_european_city
-		required_missions = {
+		required_missions {
 			
 		}
 		position = 1
@@ -279,7 +277,7 @@ h_expand_poland_2 = {
 	##Mission Start
 	polish_renaissance_mission = {
 		icon = mission_early_modern_university
-		required_missions = {
+		required_missions {
 			expand_kazimierz_mission
 		}
 		position = 2
@@ -301,7 +299,7 @@ h_expand_poland_2 = {
 	##Mission Start
 	invest_in_eastern_poland_mission = {
 		icon = mission_have_manufactories
-		required_missions = {
+		required_missions {
 			polish_renaissance_mission
 		}
 		position = 3
@@ -372,11 +370,9 @@ h_expand_poland_2 = {
 	##Mission End
 	##Mission Start
 	vassalize_lithuania = {
-		icon = placeholder
-		required_missions = {
-			a_matter_of_faiths 
-			invest_in_eastern_poland_mission
-			annex_mazovia
+		icon = mission_restore_kiev
+		required_missions {
+			a_matter_of_faiths invest_in_eastern_poland_mission annex_mazovia
 		}
 		position = 4
 
@@ -384,7 +380,7 @@ h_expand_poland_2 = {
 
 		}
 		effect = {
-			##MISSIONEFFECT
+			set_country_flag = pol_end_mission
 		}
 	}
 	##Mission End
@@ -393,7 +389,7 @@ h_expand_poland_2 = {
 }
 ##BranchEnd 1
 ##BranchStart 2
-h_expand_poland_3 = {
+politic_poland = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -406,7 +402,7 @@ h_expand_poland_3 = {
 	##Mission Start
 	deal_with_the_sejm_mission = {
 		icon = mission_noble_council
-		required_missions = {
+		required_missions {
 			
 		}
 		position = 1
@@ -420,22 +416,20 @@ h_expand_poland_3 = {
 				NOT = {
 					estate_influence = {
 						estate = estate_polish_nobility
-						influence = 40
+						influence = 30
 					}
 				}
 			}
 		}
 		effect = {
-			country_event = { 
-				id = flavor_pol.27 
-			}
+			country_event = { id = flavor_pol.27 }
 		}
 	}
 	##Mission End
 	##Mission Start
 	rights_and_privileges = {
-		icon = placeholder
-		required_missions = {
+		icon = mission_noble_council
+		required_missions {
 			deal_with_the_sejm_mission
 		}
 		position = 2
@@ -447,22 +441,20 @@ h_expand_poland_3 = {
 			}
 			NOT = {
 				estate_influence = {
-					estate = estate_lithuanian_nobility
+					estate = estate_lithuania_nobility
 					influence = 40
 				}
 			}
 		}
 		effect = {
-			country_event = { 
-				id = flavor_pol.28 
-			}
+			country_event = { id = flavor_pol.28 }
 		}
 	}
 	##Mission End
 	##Mission Start
 	a_matter_of_faiths = {
-		icon = placeholder
-		required_missions = {
+		icon = mission_noble_council
+		required_missions {
 			rights_and_privileges
 		}
 		position = 3
@@ -484,4 +476,23 @@ h_expand_poland_3 = {
 	}
 	##Mission End
 	##
+	
+}
+empty_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = POL
+		NOT = { map_setup = map_setup_random }
+	}
+}
+empty_branch2 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = POL
+		NOT = { map_setup = map_setup_random }
+	}
 }

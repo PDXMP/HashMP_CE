@@ -6,23 +6,27 @@ estate_lithuanian_nobility =
 	trigger = {
 		has_reform = h_reform_elective_monarchy
 		NOT = {
-			has_country_flag = purged_bajorais
+			has_country_flag = purged_bajorais	
 		}
 	}
 
 	country_modifier_happy = {
-		manpower_recovery_speed = 0.2 
+		manpower_recovery_speed = 0.1
 		land_maintenance_modifier = -0.1
-		monthly_support_heir_gain = 0.33
+		cavalry_power = 0.1
 	}
+	
 	country_modifier_neutral = {
-		manpower_recovery_speed = 0.2 
+		manpower_recovery_speed = 0.1 
+		cavalry_power = 0.05
 	}	
+	
 	country_modifier_angry = {
 		manpower_recovery_speed = -0.1
 		land_maintenance_modifier = 0.1
 		global_unrest = 2
 	}
+	
 	land_ownership_modifier = {
 		lithuanian_nobility_loyalty_modifier = 0.2
 	}
@@ -181,10 +185,8 @@ estate_lithuanian_nobility =
 	
 	privileges = {
 		estate_lithuanian_nobility_land_rights
-		estate_lithuanian_nobility_nobility_primacy
 		estate_lithuanian_nobility_officer_corp
 		estate_lithuanian_nobility_levies
-		estate_lithuanian_nobility_advisors
 		estate_lithuanian_nobility_right_of_counsel
 		estate_lithuanian_nobility_strong_duchies
 		estate_lithuanian_nobility_golden_liberty
