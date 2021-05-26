@@ -220,12 +220,33 @@ develop_poland = {
 	has_country_shield = yes
 	
 	##Mission Start
+	polish_renaissance_mission = {
+		icon = mission_early_modern_university
+		required_missions {
+		}
+		position = 1
+		trigger = {
+			has_institution = renaissance
+			stability = 2
+			prestige = 25
+			NOT = { war_exhaustion = 1 }
+		}
+		effect = {
+			country_event = { id = flavor_pol.5100 }
+			add_country_modifier = {
+				name = "polish_renaissance"
+				duration = 7300
+			}
+		}
+	}
+	##Mission 
+	##Mission Start
 	expand_kazimierz_mission = {
 		icon = mission_eastern_european_city
 		required_missions {
-			
+			polish_renaissance_mission
 		}
-		position = 1
+		position = 2
 		provinces_to_highlight = {
 			province_id = 262
 		}
@@ -270,28 +291,6 @@ develop_poland = {
 					name = "kazimierz_modifier"
 					duration = -1
 				}
-			}
-		}
-	}
-	##Mission End
-	##Mission Start
-	polish_renaissance_mission = {
-		icon = mission_early_modern_university
-		required_missions {
-			expand_kazimierz_mission
-		}
-		position = 2
-		trigger = {
-			has_institution = renaissance
-			stability = 2
-			prestige = 25
-			NOT = { war_exhaustion = 1 }
-		}
-		effect = {
-			country_event = { id = flavor_pol.5100 }
-			add_country_modifier = {
-				name = "polish_renaissance"
-				duration = 7300
 			}
 		}
 	}
@@ -381,6 +380,9 @@ develop_poland = {
 		}
 		effect = {
 			set_country_flag = pol_end_mission
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
 		}
 	}
 	##Mission End
