@@ -211,7 +211,7 @@ LIT_economic_branch = {
 					has_dlc = "Dharma"
 				}
 				280 = {
-					province_has_center_of_trade_of_level = 3
+					province_has_center_of_trade_of_level = 2
 				}
 			}
 			else = {
@@ -423,6 +423,9 @@ LIT_diplomatic_branch = {
 		effect = {
 			POL = {
 				set_country_flag = pol_lit_end_mission
+				add_adm_power = 100
+				add_dip_power = 100
+				add_mil_power = 100
 			}
 		}
 	}
@@ -473,7 +476,7 @@ LIT_expansion_branch = {
 				ZAZ = {
 					has_opinion = {
 						who = POL
-						value = 150
+						value = 115
 					}
 				}
 			}
