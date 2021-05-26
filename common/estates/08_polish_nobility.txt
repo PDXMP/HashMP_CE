@@ -151,6 +151,71 @@ estate_polish_nobility =
 		influence = -5
 	}
 	
+	
+	influence_modifier = {
+		desc = sejm_level_1
+		trigger = {
+			has_country_flag = pol_setup
+
+			NOT = {
+				check_variable = {
+					which = balanceOfPower
+					value = 2
+				}
+			}
+				check_variable = {
+					which = balanceOfPower
+					value = 7
+				}	
+		}
+		influence = 10
+	}
+	
+	influence_modifier = {
+		desc = sejm_level_2
+		trigger = {
+			has_country_flag = pol_setup
+			NOT = {
+				check_variable = {
+					which = balanceOfPower
+					value = 3
+				}
+			}		
+		}
+		influence = 20
+	}
+	
+	influence_modifier = {
+		desc = bajorais_level_1
+		trigger = {
+			has_country_flag = pol_setup
+			check_variable = {
+				which = balanceOfPower
+				value = 14
+			}
+			NOT = {
+				check_variable = {
+					which = balanceOfPower
+					value = 18
+				}
+			
+			}
+		}	
+		influence = -10
+	}
+	
+	influence_modifier = {
+		desc = bajorais_level_2
+		trigger = {
+			has_country_flag = pol_setup
+			check_variable = {
+				which = balanceOfPower
+				value = 17
+			}
+		}	
+		influence = -20
+	}
+	
 	loyalty_modifier = {
 		desc = EST_VAL_GREAT_PEASANTS_WAR_NOBLES_LOSE_MINOR_LOYALTY
 		trigger = {
@@ -189,6 +254,7 @@ estate_polish_nobility =
 		estate_polish_nobility_advisors
 		estate_polish_nobility_right_of_counsel
 		estate_polish_nobility_golden_liberty
+		estate_polish_nobility_greater_golden_liberty
 		estate_polish_nobility_nieszawa_privileges
 		estate_polish_nobility_pacta_conventa
 		estate_polish_nobility_monopoly_of_metals
