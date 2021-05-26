@@ -1,6 +1,73 @@
 ##Missions
 
 ##Denmark
+h_danish_uniter_achievement = {
+	land_morale = 0.10
+	naval_morale = 0.10
+}
+
+h_danish_kalmar_union = {
+	governing_capacity = 300
+	global_unrest = -1
+	same_culture_advisor_cost = -0.10
+}
+
+h_danish_norwegian_ships = {
+	heavy_ship_power = 0.05
+	global_ship_cost = -0.05
+}
+
+h_danish_swedish_regiments = {
+	infantry_power = 0.05
+	infantry_cost = -0.05
+}
+
+h_danish_norwegian_crown = {
+	prestige_decay = -0.005
+}
+
+h_danish_swedish_crown = {
+	prestige_decay = -0.005
+}
+
+h_danish_cannons = {
+	artillery_fire = 0.5
+}
+
+h_danish_commissions = {
+	free_leader_pool = 1
+	leader_cost = -0.25
+	army_tradition = 0.25
+	navy_tradition = 0.25
+}
+
+h_danish_german_mercs = {
+	mercenary_discipline = 0.05
+	mercenary_cost = -0.33
+	mercenary_manpower= 0.33
+}
+
+h_oldenburg_local = {
+	local_tax_modifier = 0.33
+	local_development_cost = -0.10
+	statewide_governing_cost = -0.33
+}
+
+h_oldenburg_dynasty = {
+	heir_chance = 0.5
+	monarch_lifespan = 0.1
+	legitimacy = 1
+}
+
+h_danish_immigrants = {
+	development_cost = -0.1
+}
+
+h_danish_loyal_estates = {
+	global_unrest = -2
+	global_autonomy = -0.03
+}
+
 h_danish_industrial_revolution = {
 	production_efficiency = 0.20
 }

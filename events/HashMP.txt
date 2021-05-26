@@ -1130,7 +1130,7 @@ country_event = {
 		add_sailors = 500
 
 		north_atlantic_area = {
-			add_permanent_claim = ROOT
+			add_permanent_claim = ROOT 
 		}
 
 		hidden_effect = {
@@ -1167,6 +1167,7 @@ country_event = {
 			mil = 4
 			age = 24
 			claim = 95
+			fixed = yes
 		}
 	}
 	
@@ -1188,6 +1189,7 @@ country_event = {
 			mil = 5
 			age = 42
 			claim = 50
+			fixed = yes
 		}
 	}
 
@@ -1212,6 +1214,7 @@ country_event = {
 			age = 20
 			claim = 50
 			female = yes
+			fixed = yes
 		}
 	}
 }
