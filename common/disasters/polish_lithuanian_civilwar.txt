@@ -20,9 +20,9 @@ polish_lithuanian_civilwar = {
         modifier = {
                 factor = 5
                 LIT = {
-					OR {
+					OR = {
 						is_subject = no
-						NOT { is_subject_of = POL }
+						NOT = { is_subject_of = POL }
 					}     
                 }
 				exists = LIT
@@ -54,8 +54,8 @@ polish_lithuanian_civilwar = {
 		
         modifier = {
                 factor = 0.5
-				NOT {
-					estate_loyalty {
+				NOT = {
+					estate_loyalty = {
 						estate = estate_polish_nobility
 						loyalty = 30
 					}
@@ -63,8 +63,8 @@ polish_lithuanian_civilwar = {
         }
         modifier = {
                 factor = 0.5
-				NOT {
-					estate_loyalty {
+				NOT = {
+					estate_loyalty = {
 						estate = estate_lithuanian_nobility
 						loyalty = 30
 					}
@@ -73,7 +73,7 @@ polish_lithuanian_civilwar = {
 		
         modifier = {
 			factor = -0.5
-			estate_loyalty {
+			estate_loyalty = {
 				estate = estate_lithuanian_nobility
 				loyalty = 60
 			}
@@ -81,7 +81,7 @@ polish_lithuanian_civilwar = {
 		
         modifier = {
 			factor = -0.5
-			estate_loyalty {
+			estate_loyalty = {
 				estate = estate_polish_nobility
 				loyalty = 60
 			}
@@ -125,11 +125,8 @@ polish_lithuanian_civilwar = {
 	}
 
 	can_end = {
-			OR {
-				AND {
-					had_country_flag = { flag = polish_lithuanian_cw = 3650 }
-
-				}
+			OR = {
+				had_country_flag = { flag = polish_lithuanian_cw days = 3650 }
 				TAG = PLC
 			}
 	}
