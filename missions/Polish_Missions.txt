@@ -408,7 +408,7 @@ politic_poland = {
 			
 		}
 		position = 1
-
+	
 		trigger = {
 			OR = {
 				estate_loyalty = {
@@ -425,6 +425,7 @@ politic_poland = {
 		}
 		effect = {
 			country_event = { id = flavor_pol.27 }
+			set_country_flag = sejm_curtailed
 		}
 	}
 	##Mission End
@@ -450,6 +451,7 @@ politic_poland = {
 		}
 		effect = {
 			country_event = { id = flavor_pol.28 }
+			set_country_flag = rights_mission
 		}
 	}
 	##Mission End
@@ -474,6 +476,7 @@ politic_poland = {
 		}
 		effect = {
 				country_event = { id = flavor_pol.26 }
+				set_country_flag = faith_mission
 		}
 	}
 	##Mission End
