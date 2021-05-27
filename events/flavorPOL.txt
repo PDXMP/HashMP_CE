@@ -2118,6 +2118,7 @@ country_event = {
 		name = flavor_pol.27.a
 		set_estate_privilege = estate_polish_nobility_pacta_conventa
 		set_country_flag = pol_pact_conventa_flag
+		
 		custom_tooltip = flavor_lit.bop.minus3
 		add_estate_loyalty = {
 			estate = estate_lithuanian_nobility
