@@ -122,6 +122,34 @@ polish_lithuanian_civilwar = {
 			factor = -1
 			has_country_flag = pol_lit_end_mission
         }
+		modifier = {
+			factor = -1
+			has_country_flag = pol_end_mission
+        }
+        modifier = {
+			factor = -0.25
+			has_country_flag = dealt_sejm
+        }
+		modifier = {
+			factor = -0.25
+			has_country_flag = rights_mission
+        }
+		modifier = {
+			factor = -0.25
+			has_country_flag = faith_mission
+        }
+		modifier = {
+			factor = -0.25
+			has_estate_privilege = estate_polish_nobility_golden_liberty
+        }
+		modifier = {
+			factor = -0.5
+			has_estate_privilege = estate_polish_nobility_greater_golden_liberty
+        }
+		modifier = {
+			factor = -0.25
+			has_estate_privilege = estate_lithuanian_nobility_golden_liberty
+        }
 	}
 
 	can_end = {
