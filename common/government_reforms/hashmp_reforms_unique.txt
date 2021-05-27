@@ -459,19 +459,17 @@ h_reform_elective_monarchy = {
 
 	}
 	queen = yes
-	maintain_dynasty = yes 
 	lock_level_when_selected = yes
-
+	heir = no
 	modifiers = {
 		vassal_income = 0.25
 		global_unrest = -1
 		max_absolutism = -30
 		governing_capacity = 100
 	}
-
+	foreign_slave_rulers = yes
 	conditional = {
 		government_abilities = {
 		}
-		heir = yes
 	}
 }
