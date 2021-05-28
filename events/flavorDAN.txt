@@ -1115,13 +1115,13 @@ country_event = {
 		}
 		4142 = {
 			spawn_rebels = {
-				size = 0.5
+				size = 1
 				type = noble_rebels
 			}
 		}
 		1984 = {
 			spawn_rebels = {
-				size = 0.5
+				size = 1
 				type = noble_rebels
 			}
 		}
@@ -1138,10 +1138,6 @@ country_event = {
 	}
 	option = {
 		name = "flavor_dan.6.b" #The Nobles carry this kingdom on their shoulders, we must give them what they are owed.
-		add_country_modifier = {
-			name = "dan_crown_lands_lost"
-			duration = 5475
-		}
 
 		h_add_stability_or_adm_power_with_input = {
 			value = 2
@@ -1154,9 +1150,34 @@ country_event = {
 			}
 			add_estate_loyalty = {
 				estate = estate_nobles
-				loyalty = 20
+				loyalty = 10
 			}
-			give_estate_land_share_small = { estate = estate_nobles }
+
+			if = {
+				limit = {
+					crown_land_share = 3
+				}
+
+				give_estate_land_share_large = { estate = estate_nobles }
+			}
+
+			else_if = {
+				limit = {
+					OR = {
+						crown_land_share = 2
+						crown_land_share = 1
+					}
+				}
+
+				give_estate_land_share_small = { estate = estate_nobles }
+			}
+
+			else = {
+				add_country_modifier = {
+					name = "dan_crown_lands_lost"
+					duration = 5475
+				}
+			}
 		}
 	}
 }

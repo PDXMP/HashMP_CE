@@ -1,6 +1,25 @@
 ##Missions
 
 ##Denmark
+h_danish_prepared_navy = {
+	ship_durability = 0.05
+	sunk_ship_morale_hit_recieved = -0.10
+}
+
+h_danish_prepared_army = {
+	drill_gain_modifier = 0.50
+	drill_decay_modifier = -0.25
+}
+
+h_danish_pomerania = {
+	global_ship_trade_power = 0.10
+	trade_efficiency = 0.10
+}
+
+h_danish_goose_step = {
+	discipline = 0.05
+}
+
 h_danish_uniter_achievement = {
 	land_morale = 0.10
 	naval_morale = 0.10
@@ -13,21 +32,11 @@ h_danish_kalmar_union = {
 }
 
 h_danish_norwegian_ships = {
-	heavy_ship_power = 0.05
-	global_ship_cost = -0.05
+	global_ship_cost = -0.10
 }
 
 h_danish_swedish_regiments = {
-	infantry_power = 0.05
-	infantry_cost = -0.05
-}
-
-h_danish_norwegian_crown = {
-	prestige_decay = -0.005
-}
-
-h_danish_swedish_crown = {
-	prestige_decay = -0.005
+	infantry_cost = -0.10
 }
 
 h_danish_cannons = {
@@ -154,6 +163,8 @@ h_northern_colonial_route = {
 h_north_sea_empire = {
 	monarch_diplomatic_power = 1
 	governing_capacity_modifier = 0.25
+	naval_morale = 0.05
+	land_morale = 0.05
 	navy_tradition_decay = -0.01
 	army_tradition_decay = -0.01
 }
