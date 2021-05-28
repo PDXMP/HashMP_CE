@@ -21,10 +21,16 @@ h_danish_missions_christian_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			years_of_income = 1
+			num_of_hired_mercenary_companies = 1
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_german_mercs
+				duration = 36500
+			}
+
+			add_years_of_income = -1
 		}
 	}
 	##Mission End
@@ -39,10 +45,43 @@ h_danish_missions_christian_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR = {
+				full_idea_group = aristocracy_ideas
+				full_idea_group = plutocracy_ideas
+				full_idea_group = quality_ideas
+				full_idea_group = quantity_ideas
+				full_idea_group = defensive_ideas
+				full_idea_group = offensive_ideas
+				full_idea_group = naval_ideas
+				full_idea_group = maritime_ideas
+			}
+
+			OR = {
+				army_tradition = 60
+				navy_tradition = 60
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_commissions
+				duration = -1
+			}
+
+			define_general = {
+				name = "Conrad Ahlefeldt"
+				shock = 5
+				fire = 5
+				manuever = 1
+				siege = 1
+			}
+
+			define_admiral = {
+				name = "Michael Bille"
+				shock = 3
+				fire = 3
+				manuever = 5
+				siege = 1
+			}
 		}
 	}
 	##Mission End
@@ -57,7 +96,18 @@ h_danish_missions_christian_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			mecklenburg_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			vorpommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hinter_pommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -126,10 +176,12 @@ h_danish_missions_christian_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			has_country_flag = h_danes_king_christian
 		}
 		effect = {
-			##MISSIONEFFECT
+			country_event = {
+				id = flavor_dan.6
+			}
 		}
 	}
 	##Mission End
@@ -144,10 +196,30 @@ h_danish_missions_christian_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			stability = 2
+
+			55 = {
+				owned_by = ROOT
+				is_core = ROOT
+				nationalism = 0
+
+				NOT = {
+					local_autonomy = 20
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			55 = {
+				add_province_modifier = {
+					name = h_oldenburg_local
+					duration = -1
+				}
+			}
+
+			add_country_modifier = {
+				name = h_danish_immigrants
+				duration = 3650
+			}
 		}
 	}
 	##Mission End
@@ -162,10 +234,42 @@ h_danish_missions_christian_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			crown_land_share = 30
+			if = {
+				limit = {
+					has_estate = estate_nobles
+				}
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 60
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_burghers
+				}
+				estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 60
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_church
+				}
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 60
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_years_of_estate_land_income = 5
+
+			add_country_modifier = {
+				name = h_danish_loyal_estates
+				duration = 7300
+			}
 		}
 	}
 	##Mission End
@@ -180,10 +284,52 @@ h_danish_missions_christian_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			if = {
+				limit = {
+					government = monarchy
+				}
+
+				legitimacy = 90
+				dynasty = "von Oldenburg"
+				has_consort = yes
+
+				OR = {
+					government_rank = 3
+					AND = {
+						calc_true_if = {
+							any_country = {
+								if = {
+									limit = {
+										capital_scope = {
+											continent = europe
+										}
+									}
+								}
+	
+								dynasty = ROOT
+							}
+	
+							amount = 3
+						}
+					}
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+
+			if = {
+				limit = {
+					government = monarchy
+				}
+
+				add_country_modifier = {
+					name = h_oldenburg_dynasty
+					duration = -1
+				}
+			}
 		}
 	}
 	##Mission End
@@ -198,10 +344,32 @@ h_danish_missions_christian_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			eastern_norway = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_norway = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			western_norway = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jemtland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_norwegian_crown
+				duration = -1
+			}
+			add_country_modifier = {
+				name = h_danish_norwegian_ships
+				duration = 7300
+			}
 		}
 	}
 	##Mission End
@@ -216,10 +384,25 @@ h_danish_missions_christian_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			legitimacy = 90
+			stability = 3
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_kalmar_union
+				duration = -1
+			}
+
+			add_ruler_modifier = {
+				name = h_danish_uniter_achievement
+				duration = -1
+			}
+
+			5004 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
 		}
 	}
 	##Mission End
@@ -249,10 +432,34 @@ h_danish_missions_christian_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			any_owned_province = {
+				trade_goods = iron
+				has_manufactory_no_custom_tooltip_trigger = yes
+			}
+
+			mil_tech = 12
+			mil_power = 100
+
+			OR = {
+				num_of_artillery = 20
+				num_of_heavy_ship = 30
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			random_owned_province = {
+				limit = {
+					trade_goods = iron
+					has_manufactory_no_custom_tooltip_trigger = yes
+				}
+
+				add_base_production = 3
+			}
+			add_country_modifier = {
+				name = h_danish_cannons
+				duration = -1
+			}
+
+			add_mil_power = -100
 		}
 	}
 	##Mission End
@@ -267,10 +474,36 @@ h_danish_missions_christian_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			skaneland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				nationalism = 5
+				NOT = {
+					local_autonomy = 30
+					devastation = 1
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			6 = {
+				add_base_production = 3
+			}
+
+			skaneland_area = {
+				add_prosperity = 50
+			}
+
+			smaland_area = {
+				add_permanent_claim = ROOT
+			}
+
+			gotaland_area = {
+				add_permanent_claim = ROOT
+			}
+
+			vastra_gotaland_area = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	##Mission End
@@ -285,10 +518,33 @@ h_danish_missions_christian_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			smaland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			gotaland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			vastra_gotaland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			svealand_area = {
+				add_permanent_claim = ROOT
+			}
+
+			ostra_svealand_area = {
+				add_permanent_claim = ROOT
+			}
+
+			dalarna_area = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	##Mission End
@@ -303,10 +559,42 @@ h_danish_missions_christian_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			svealand_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			ostra_svealand_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			dalarna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_swedish_regiments
+				duration = 7300
+			}
+
+			1 = {
+				add_devastation = 25
+
+				add_scaled_local_adm_power = 10
+				add_scaled_local_dip_power = 10
+				add_scaled_local_mil_power = 10
+
+				add_unrest = 10
+				add_nationalism = 10
+
+				remove_loot = {
+					who = ROOT
+					amount = 100
+				}
+			}
 		}
 	}
 	##Mission End
@@ -321,10 +609,57 @@ h_danish_missions_christian_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			svealand_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			ostra_svealand_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			dalarna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			smaland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			gotaland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			vastra_gotaland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			skaneland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			soderland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			norrland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_prestige = 10
+
+			add_country_modifier = {
+				name = h_danish_swedish_crown
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -1090,6 +1425,7 @@ h_danish_missions_prologue_3 = {
 				mil = 1
 				age = 16
 				female = yes
+
 			}
 		}
 	}

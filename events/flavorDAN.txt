@@ -1109,20 +1109,19 @@ country_event = {
 	
 	option = {
 		name = "flavor_dan.6.a" #Nobility must aid and advice, never rule.
-		add_years_of_income = 1
 		add_country_modifier = {
 			name = "dan_crown_lands_recovered"
 			duration = 5475
 		}
 		4142 = {
 			spawn_rebels = {
-				size = 1
+				size = 0.5
 				type = noble_rebels
 			}
 		}
 		1984 = {
 			spawn_rebels = {
-				size = 1
+				size = 0.5
 				type = noble_rebels
 			}
 		}
@@ -1143,14 +1142,19 @@ country_event = {
 			name = "dan_crown_lands_lost"
 			duration = 5475
 		}
-		add_stability_or_adm_power = yes
+
+		h_add_stability_or_adm_power_with_input = {
+			value = 2
+			valuetooltip = h_ADD_STABILITY_OR_ADM_VALUE_2
+		}
+
 		if = {
 			limit = {
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {
 				estate = estate_nobles
-				loyalty = 10
+				loyalty = 20
 			}
 			give_estate_land_share_small = { estate = estate_nobles }
 		}
