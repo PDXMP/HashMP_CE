@@ -1,16 +1,16 @@
 
-#4814
+#PROV4795
 add_core = SWE
 owner = SWE
 controller = SWE
 culture = swedish
 religion = catholic
 hre = no
-base_tax = 1
+base_tax = 2
 base_production = 1
-trade_goods = fur
+trade_goods = livestock
 base_manpower = 1
-capital = "Ornskoldsvik"
+capital = "Växjö"
 is_city = yes
 
 discovered_by = eastern

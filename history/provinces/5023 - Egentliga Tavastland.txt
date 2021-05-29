@@ -1,5 +1,5 @@
 
-#PROV4807
+#PROV4810
 add_core = SWE
 add_core = FIN
 owner = SWE
@@ -9,9 +9,9 @@ religion = catholic
 hre = no
 base_tax = 1
 base_production = 1
-trade_goods = fur
+trade_goods = naval_supplies
 base_manpower = 1
-capital = "Kokkola"
+capital = "Tavastehus"
 is_city = yes
 
 discovered_by = eastern

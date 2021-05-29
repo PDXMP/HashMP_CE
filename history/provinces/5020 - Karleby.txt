@@ -1,5 +1,5 @@
 
-#PROV4811
+#PROV4807
 add_core = SWE
 add_core = FIN
 owner = SWE
@@ -9,9 +9,9 @@ religion = catholic
 hre = no
 base_tax = 1
 base_production = 1
-trade_goods = naval_supplies
+trade_goods = fur
 base_manpower = 1
-capital = "Porvoo"
+capital = "Karleby"
 is_city = yes
 
 discovered_by = eastern

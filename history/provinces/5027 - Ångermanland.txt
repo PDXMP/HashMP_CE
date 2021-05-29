@@ -1,7 +1,6 @@
 
-#PROV4806
+#4814
 add_core = SWE
-add_core = FIN
 owner = SWE
 controller = SWE
 culture = swedish
@@ -9,9 +8,9 @@ religion = catholic
 hre = no
 base_tax = 1
 base_production = 1
-trade_goods = fish
+trade_goods = fur
 base_manpower = 1
-capital = "Tavastehus"
+capital = "Härnösand"
 is_city = yes
 
 discovered_by = eastern

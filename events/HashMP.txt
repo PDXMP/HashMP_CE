@@ -953,8 +953,8 @@ country_event = {
 		define_ruler = {
 			name = "Johan I"
 			dynasty = "Vasa"
-			adm = 4
-			dip = 4
+			adm = 5
+			dip = 5
 			mil = 2
 			fixed = yes
 			age = 20
@@ -988,7 +988,7 @@ country_event = {
 			dynasty = "Vasa"
 			adm = 3
 			dip = 2
-			mil = 5
+			mil = 6
 			fixed = yes
 			age = 20
 			claim = 80
@@ -1010,7 +1010,7 @@ country_event = {
 		
 		hidden_effect = {
 			set_country_flag = gustavking
-			add_ruler_personality = inspiring_leader_personality
+			add_ruler_personality = martial_educator_personality
 		}
 	}
 }
@@ -1087,14 +1087,15 @@ country_event = {
 	id = hashmp.110
 	title = hashmp.110.title
 	desc = hashmp.110.desc
-	picture = BIG_BOOK_eventPicture
+	picture = CIVIL_WAR_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = hashmp.110.a
 		##Vow to restore the union
-		add_prestige = 5
+		add_prestige = 10
+		add_treasury = 100
 
 		add_casus_belli = {
 			target = NOR
@@ -1125,6 +1126,7 @@ country_event = {
 		name = hashmp.110.b
 		##Forget the union
 
+		add_prestige = -5
 		add_stability_or_adm_power = yes
 		add_manpower = 3
 		add_sailors = 500
@@ -1145,7 +1147,7 @@ country_event = {
 	id = hashmp.111
 	title = hashmp.111.title
 	desc = hashmp.111.desc
-	picture = BIG_BOOK_eventPicture
+	picture = DEATH_OF_HEIR_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -1163,10 +1165,10 @@ country_event = {
 			religion = ROOT
 			culture = hannoverian
 			adm = 5
-			dip = 4
-			mil = 4
+			dip = 3
+			mil = 3
 			age = 24
-			claim = 95
+			claim = 80
 			fixed = yes
 		}
 	}
@@ -1184,11 +1186,11 @@ country_event = {
 			dynasty = "Bonde"
 			religion = ROOT
 			culture = swedish
-			adm = 3
-			dip = 3
+			adm = 2
+			dip = 2
 			mil = 6
 			age = 42
-			claim = 50
+			claim = 40
 			fixed = yes
 		}
 	}
@@ -1212,7 +1214,7 @@ country_event = {
 			dip = 6
 			mil = 1
 			age = 20
-			claim = 50
+			claim = 60
 			female = yes
 			fixed = yes
 		}
@@ -1224,23 +1226,47 @@ country_event = {
 	id = hashmp.112
 	title = hashmp.112.title
 	desc = hashmp.112.desc
-	picture = BIG_BOOK_eventPicture
+	picture = ADVISOR_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = hashmp.112.a
-		##ADM
+		add_adm_power = -50
+
+		define_advisor = {
+			type = theologian
+			skill = 1
+			discount = yes
+			culture = ROOT
+			religion = ROOT
+		}
 	}
 	
 	option = {
 		name = hashmp.112.b
-		##DIP
+		add_dip_power = -50
+
+		define_advisor = {
+			type = trader
+			skill = 1
+			discount = yes
+			culture = ROOT
+			religion = ROOT
+		}
 	}
 
 	option = {
 		name = hashmp.112.c
-		##MIL
+		add_mil_power = -50
+
+		define_advisor = {
+			type = grand_captain
+			skill = 1
+			discount = yes
+			culture = ROOT
+			religion = ROOT
+		}
 	}
 }
 
