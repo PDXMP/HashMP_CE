@@ -759,10 +759,46 @@ h_danish_missions_dorothea_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			navy_tradition = 50
+
+			capital_scope = {
+				OR = {
+					has_building = drydock
+					has_building = dock
+				}
+
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+
+			OR = {
+				dip_power = 100
+				full_idea_group = naval_ideas
+				full_idea_group = maritime_ideas
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							full_idea_group = naval_ideas
+							full_idea_group = maritime_ideas
+						}
+					}
+				}
+
+				add_dip_power = -100
+			}
+
+			add_navy_tradition = 20
+
+			add_country_modifier = {
+				name = h_danish_admiralty
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -777,10 +813,17 @@ h_danish_missions_dorothea_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			dip_tech = 22
+			num_of_heavy_ship = 50
+			has_flagship = yes
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_prestige = 25
+
+			add_country_modifier = {
+				name = h_danish_ships_of_the_line
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -795,10 +838,29 @@ h_danish_missions_dorothea_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			23 = {
+				trade_share = {
+					country = ROOT
+					share = 51
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_treasury = 250
+
+			add_country_modifier = {
+				name = h_danish_north_sea
+				duration = 7300
+			}
+
+			23 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = -1
+					power = 25
+					key = h_danish_trade_north_sea_tooltip
+				}
+			}
 		}
 	}
 	##Mission End
@@ -813,10 +875,41 @@ h_danish_missions_dorothea_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR = {
+				marketplace = 5
+				trade_depot = 5
+				stock_exchange = 5
+			}
+
+			capital_scope = {
+				trade_share = {
+					country = ROOT
+					share = 51
+				}
+			}
+
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						province_has_center_of_trade_of_level = 2
+						province_has_center_of_trade_of_level = 3
+					}
+					controlled_by = owner
+					is_core = ROOT
+				}
+				amount = 5
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			h_add_mercantilism_or_dip_power_with_input = {
+				value = 5
+				valuetooltip = h_ADD_MERCANTILISM_OR_DIP_VALUE_5
+			}
+
+			add_country_modifier = {
+				name = h_danish_expanded_markets
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -831,10 +924,19 @@ h_danish_missions_dorothea_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			num_of_trade_companies = 5
+			trade_income_percentage = 0.25
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_trade_enterprize
+				duration = -1
+			}
+
+			add_country_modifier = {
+				name = h_danish_boosted_trade
+				duration = 3650
+			}
 		}
 	}
 	##Mission End
@@ -864,10 +966,37 @@ h_danish_missions_dorothea_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			custom_trigger_tooltip = {
+				tooltip = h_danish_ruler_dorothea_tooltip
+				has_country_flag = h_danes_queen_dorothea
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			country_event = {
+				id = flavor_dan.6
+			}
+
+			if = {
+				limit = {
+					has_country_flag = h_denmark_navy_prepared
+				}
+
+				add_country_modifier = {
+					name = h_danish_prepared_navy
+					duration = 5475
+				}
+			}
+
+			if = {
+				limit = {
+					has_country_flag = h_denmark_army_prepared
+				}
+
+				add_country_modifier = {
+					name = h_danish_prepared_army
+					duration = 5475
+				}
+			}
 		}
 	}
 	##Mission End
@@ -882,10 +1011,17 @@ h_danish_missions_dorothea_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			has_flagship = yes
+
+			OR = {
+				num_of_heavy_ship = 5
+				num_of_galley = 12
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_sailors = 500
+
+			create_admiral = { tradition = 50 }
 		}
 	}
 	##Mission End
@@ -900,10 +1036,26 @@ h_danish_missions_dorothea_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR = {
+				coastal_defence = 1
+				naval_battery = 1
+			}
+
+			OR = {
+				dock = 5
+				drydock = 5
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = {
+				name = h_danish_naval_expansion
+				duration = 9125
+			}
+
+			add_country_modifier = {
+				name = h_danish_naval_arsenal
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -918,10 +1070,22 @@ h_danish_missions_dorothea_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			num_of_transport = 20
+			dip_power = 100
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_dip_power = -100
+
+			add_country_modifier = {
+				name = h_danish_marines
+				duration = -1
+			}
+
+			h_recruit_marines_in_capital = {
+				recruittooltip = h_recruit_marines_function
+				value = 8
+				target = ROOT
+			}
 		}
 	}
 	##Mission End
@@ -936,10 +1100,34 @@ h_danish_missions_dorothea_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			5004 = {
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+
+			OR = {
+				shipyard = 10
+				grand_shipyard = 10
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			5004 = {
+				add_base_production = 3
+
+				add_unit_construction = {
+					type = heavy_ship
+					amount = 5
+					speed = 0.5
+					cost = 0
+				}
+
+				add_province_modifier = {
+					name = h_danish_copenhagen_shipyard
+					duration = -1
+				}
+			}
 		}
 	}
 	##Mission End
@@ -954,10 +1142,27 @@ h_danish_missions_dorothea_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR = {
+				num_of_heavy_ship = 50
+				num_of_galley = 100
+				all_country = {
+					NOT = { navy_size = DAN } 
+				}
+			}
+
+			naval_forcelimit = 100
+
+			navy_size_percentage = 1
+
+			navy_tradition = 70
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_prestige = 25
+
+			add_country_modifier = {
+				name = h_danish_rules_the_waves
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -987,10 +1192,29 @@ h_danish_missions_dorothea_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			OR = {
+				num_of_light_ship = 35
+				num_ships_privateering = 35
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			define_admiral = {
+				shock = 5
+				fire = 2
+				manuever = 5
+				siege = 3
+				trait = buccaneer_personality
+			}
+
+			add_country_modifier = {
+				name = h_danish_privateers
+				duration = -1
+			}
+
+			add_country_modifier = {
+				name = h_danish_frigates
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -1005,10 +1229,22 @@ h_danish_missions_dorothea_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			num_of_heavy_ship = 3
+			dip_power = 50
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_dip_power = -50
+
+			add_country_modifier = {
+				name = h_danish_sagas
+				duration = 3650
+			}
+
+			define_explorer = {
+				shock = 2
+				fire = 2
+				manuever = 5
+			}
 		}
 	}
 	##Mission End
@@ -1023,10 +1259,26 @@ h_danish_missions_dorothea_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			custom_trigger_tooltip = {
+				tooltip = h_discover_america
+				calc_true_if = {
+					north_america = { has_discovered = ROOT }
+					amount = 1
+				}
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_dip_power = 100
+
+			add_country_modifier = {
+				name = h_danish_colonial_aspirations
+				duration = -1
+			}
+
+			add_country_modifier = {
+				name = h_danish_colonial_rush
+				duration = 3650
+			}
 		}
 	}
 	##Mission End
@@ -1041,10 +1293,44 @@ h_danish_missions_dorothea_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			colony = 1
+
+			sailors = 1000
+			manpower = 10
+			years_of_income = 1
+
+			OR = {
+				full_idea_group = exploration_ideas
+				full_idea_group = expansion_ideas
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_sailors = -1000
+			add_manpower = -10
+			add_years_of_income = -1
+
+			add_country_modifier = {
+				name = h_danish_encouraged_settlements
+				duration = 9125
+			}
+
+			add_country_modifier = {
+				name = h_danish_colonialism
+				duration = -1
+			}
+
+			custom_tooltip = h_colony_increase_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					if = {
+						limit = {
+							is_colony = yes
+						}
+	
+						add_colonysize = 100
+					}
+				}
+			}
 		}
 	}
 	##Mission End
@@ -1059,10 +1345,13 @@ h_danish_missions_dorothea_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			any_subject_country = {
+				has_reform = h_reform_dominion
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_adm_power = 100
+			custom_tooltip = h_danish_dominions_buff
 		}
 	}
 	##Mission End
@@ -1913,6 +2202,11 @@ h_danish_missions_main_1 = {
 			}
 		}
 		effect = {
+			h_add_mercantilism_or_dip_power_with_input = {
+				value = 5
+				valuetooltip = h_ADD_MERCANTILISM_OR_DIP_VALUE_5
+			}
+
 			add_country_modifier = {
 				name = h_danish_lubeck
 				duration = -1
@@ -3033,6 +3327,11 @@ h_danish_missions_main_5 = {
 			}
 		}
 		effect = {
+			add_country_modifier = {
+				name = h_danish_straits
+				duration = 9125
+			}
+
 			5004 = {
 				add_province_triggered_modifier = h_denmark_coastal_defenses
 			}

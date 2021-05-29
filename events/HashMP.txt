@@ -1109,7 +1109,7 @@ country_event = {
 			add_permanent_claim = ROOT
 		}
 
-		north_atlantic_area = {
+		subarctic_islands_area = {
 			add_permanent_claim = ROOT
 		}
 
@@ -1186,7 +1186,7 @@ country_event = {
 			culture = swedish
 			adm = 3
 			dip = 3
-			mil = 5
+			mil = 6
 			age = 42
 			claim = 50
 			fixed = yes
@@ -1204,7 +1204,7 @@ country_event = {
 		remove_consort = yes
 
 		define_ruler = {
-			name = "Dorothea"
+			name = "Dorothea I"
 			dynasty = "von Hohenzollern"
 			religion = ROOT
 			culture = saxon

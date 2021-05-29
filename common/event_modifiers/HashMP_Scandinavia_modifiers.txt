@@ -1,14 +1,114 @@
 ##Missions
 
 ##Denmark
+h_danish_straits = {
+	galley_power = 0.10
+	galley_cost = -0.10
+}
+
+h_danish_frigates = {
+	light_ship_power = 1
+	light_ship_cost = -0.10
+	disengagement_chance = 0.03
+}
+
+h_danish_privateers = {
+	privateer_efficiency = 0.33
+	trade_range_modifier = 0.50
+	blockade_efficiency = 0.33
+}
+
+h_danish_trade_enterprize = {
+	trade_company_investment_cost = -0.10
+	trade_range_modifier = 0.50
+	ship_power_propagation = 0.20
+}
+
+h_danish_boosted_trade = {
+	trade_efficiency = 0.15
+}
+
+h_danish_expanded_markets = {
+	center_of_trade_upgrade_cost = -0.25
+	global_trade_power = 0.10
+}
+
+h_danish_north_sea = {
+	trade_steering = 0.25
+	global_foreign_trade_power = 0.25
+}
+
+h_danish_ships_of_the_line = {
+	heavy_ship_power = 0.1
+	heavy_ship_cost = -0.1
+}
+
+h_danish_admiralty = {
+	admiral_cost = -0.20
+	naval_morale = 0.05
+	free_leader_pool = 1
+}
+
+h_danish_colonialism = {
+	colonist_placement_chance = 0.03
+}
+
+h_danish_encouraged_settlements = {
+	global_colonial_growth = 50
+}
+
+h_danish_colonial_aspirations = {
+	colonists = 1
+}
+
+h_danish_colonial_rush = {
+	range = 1
+}
+
+h_danish_sagas = {
+	range = 0.50
+	naval_attrition = -0.25
+}
+
+h_danish_rules_the_waves = {
+	own_coast_naval_combat_bonus = 1.0
+	naval_maintenance_modifier = -0.10
+	sailor_maintenance_modifer = -0.20
+}
+
+h_danish_copenhagen_shipyard = {
+	naval_forcelimit = 10
+	local_sailors_modifier = 1
+	local_ship_repair = 0.25
+}
+
+h_danish_marines = {
+	transport_cost = -0.25
+	allowed_marine_fraction = 0.10
+	shock_damage_received = -0.15
+	global_sailors_modifier = 0.25
+}
+
+h_danish_naval_expansion = {
+	sailors_recovery_speed = 0.20
+	global_ship_recruit_speed = -0.20
+	global_ship_cost = -0.10
+}
+
+h_danish_naval_arsenal = {
+	global_naval_engagement_modifier = 0.1
+}
+
 h_danish_prepared_navy = {
 	ship_durability = 0.05
 	sunk_ship_morale_hit_recieved = -0.10
+	naval_tradition_from_battle = 0.5
 }
 
 h_danish_prepared_army = {
 	drill_gain_modifier = 0.50
 	drill_decay_modifier = -0.25
+	army_tradition_from_battle = 0.5
 }
 
 h_danish_pomerania = {
@@ -27,7 +127,7 @@ h_danish_uniter_achievement = {
 
 h_danish_kalmar_union = {
 	governing_capacity = 300
-	global_unrest = -1
+	global_unrest = -2
 	same_culture_advisor_cost = -0.10
 }
 
@@ -40,26 +140,27 @@ h_danish_swedish_regiments = {
 }
 
 h_danish_cannons = {
-	artillery_fire = 0.5
+	artillery_fire = 0.3
+	artillery_bonus_vs_fort = 1
 }
 
 h_danish_commissions = {
 	free_leader_pool = 1
-	leader_cost = -0.25
+	leader_cost = -0.20
 	army_tradition = 0.25
 	navy_tradition = 0.25
 }
 
 h_danish_german_mercs = {
 	mercenary_discipline = 0.05
-	mercenary_cost = -0.33
-	mercenary_manpower= 0.33
+	mercenary_cost = -0.25
+	mercenary_manpower= 0.25
 }
 
 h_oldenburg_local = {
-	local_tax_modifier = 0.33
+	local_tax_modifier = 0.50
 	local_development_cost = -0.10
-	statewide_governing_cost = -0.33
+	statewide_governing_cost = -0.25
 }
 
 h_oldenburg_dynasty = {
@@ -165,8 +266,6 @@ h_north_sea_empire = {
 	governing_capacity_modifier = 0.25
 	naval_morale = 0.05
 	land_morale = 0.05
-	navy_tradition_decay = -0.01
-	army_tradition_decay = -0.01
 }
 
 h_englished_defeated = {
