@@ -12,7 +12,7 @@ h_danish_missions_christian_2 = {
 	
 	##Mission Start
 	h_dan_forces_1 = {
-		icon = placeholdergfx
+		icon = mercenary_companies
 		required_missions = {
 			
 		}
@@ -36,7 +36,7 @@ h_danish_missions_christian_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_forces_2 = {
-		icon = placeholdergfx
+		icon = king_of_poland
 		required_missions = {
 			h_dan_forces_1
 		}
@@ -99,7 +99,7 @@ h_danish_missions_christian_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_wismar = {
-		icon = placeholdergfx
+		icon = develop_provence
 		required_missions = {
 			h_dan_own_holstein
 		}
@@ -127,7 +127,7 @@ h_danish_missions_christian_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_pomerania = {
-		icon = placeholdergfx
+		icon = ansbach_succession
 		required_missions = {
 			h_dan_wismar
 		}
@@ -160,7 +160,7 @@ h_danish_missions_christian_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_germany = {
-		icon = placeholdergfx
+		icon = encroach_on_the_germans
 		required_missions = {
 			h_dan_pomerania
 		}
@@ -218,7 +218,7 @@ h_danish_missions_christian_3 = {
 	
 	##Mission Start
 	h_dan_christian = {
-		icon = placeholdergfx
+		icon = holy_state
 		required_missions = {
 			
 		}
@@ -263,7 +263,7 @@ h_danish_missions_christian_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_government_1 = {
-		icon = placeholdergfx
+		icon = influence_the_princes
 		required_missions = {
 			h_dan_christian
 		}
@@ -301,7 +301,7 @@ h_danish_missions_christian_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_government_2 = {
-		icon = placeholdergfx
+		icon = balance_the_estates
 		required_missions = {
 			h_dan_government_1
 		}
@@ -351,7 +351,7 @@ h_danish_missions_christian_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_government_3 = {
-		icon = placeholdergfx
+		icon = unite_the_wittelsbachs
 		required_missions = {
 			h_dan_government_2
 		}
@@ -411,7 +411,7 @@ h_danish_missions_christian_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_norway_1 = {
-		icon = placeholdergfx
+		icon = mission_empire
 		required_missions = {
 			 
 		}
@@ -449,7 +449,7 @@ h_danish_missions_christian_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_kalmar_union = {
-		icon = placeholdergfx
+		icon = mission_monarch_in_throne_room
 		required_missions = {
 			h_dan_norway_1 h_dan_sweden_4
 		}
@@ -497,7 +497,7 @@ h_danish_missions_christian_4 = {
 	
 	##Mission Start
 	h_dan_cannons = {
-		icon = placeholdergfx
+		icon = mission_cannons_firing
 		required_missions = {
 			
 		}
@@ -539,7 +539,7 @@ h_danish_missions_christian_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_sweden_1 = {
-		icon = placeholdergfx
+		icon = generality_lands
 		required_missions = {
 			h_dan_christian
 		}
@@ -583,7 +583,7 @@ h_danish_missions_christian_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_sweden_2 = {
-		icon = placeholdergfx
+		icon = mission_conquer_50_development
 		required_missions = {
 			h_dan_sweden_1
 		}
@@ -626,7 +626,7 @@ h_danish_missions_christian_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_sweden_3 = {
-		icon = placeholdergfx
+		icon = mission_the_french_menace
 		required_missions = {
 			h_dan_sweden_2
 		}
@@ -679,7 +679,7 @@ h_danish_missions_christian_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_sweden_4 = {
-		icon = placeholdergfx
+		icon = mission_empire
 		required_missions = {
 			h_dan_sweden_3
 		}
@@ -759,7 +759,7 @@ h_danish_missions_dorothea_2 = {
 	
 	##Mission Start
 	h_dan_naval_1 = {
-		icon = placeholdergfx
+		icon = mission_rb_college_of_justice
 		required_missions = {
 			
 		}
@@ -813,7 +813,7 @@ h_danish_missions_dorothea_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_naval_2 = {
-		icon = placeholdergfx
+		icon = indonesian_trade
 		required_missions = {
 			h_dan_naval_1
 		}
@@ -838,7 +838,7 @@ h_danish_missions_dorothea_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_trade_1 = {
-		icon = placeholdergfx
+		icon = mission_rb_scottish_north_sea_trade
 		required_missions = {
 			
 		}
@@ -875,7 +875,7 @@ h_danish_missions_dorothea_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_trade_2 = {
-		icon = placeholdergfx
+		icon = mission_african_gold
 		required_missions = {
 			h_dan_trade_1
 		}
@@ -924,7 +924,7 @@ h_danish_missions_dorothea_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_trade_3 = {
-		icon = placeholdergfx
+		icon = mission_asian_trader
 		required_missions = {
 			h_dan_trade_2
 		}
@@ -966,7 +966,7 @@ h_danish_missions_dorothea_3 = {
 	
 	##Mission Start
 	h_dan_dorothea = {
-		icon = placeholdergfx
+		icon = holy_state
 		required_missions = {
 			
 		}
@@ -1011,7 +1011,7 @@ h_danish_missions_dorothea_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_flagship = {
-		icon = placeholdergfx
+		icon = imperial_navy
 		required_missions = {
 			h_dan_dorothea
 		}
@@ -1036,7 +1036,7 @@ h_danish_missions_dorothea_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_naval_3 = {
-		icon = placeholdergfx
+		icon = toulon_dockyards
 		required_missions = {
 			h_dan_flagship
 		}
@@ -1070,7 +1070,7 @@ h_danish_missions_dorothea_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_naval_4 = {
-		icon = placeholdergfx
+		icon = army_reforms
 		required_missions = {
 			h_dan_naval_3
 		}
@@ -1100,7 +1100,7 @@ h_danish_missions_dorothea_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_naval_5 = {
-		icon = placeholdergfx
+		icon = mission_early_game_buildings
 		required_missions = {
 			h_dan_naval_4
 		}
@@ -1142,7 +1142,7 @@ h_danish_missions_dorothea_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_rule_the_sea = {
-		icon = placeholdergfx
+		icon = mission_establish_high_seas_navy
 		required_missions = {
 			h_dan_trade_3 h_dan_naval_5 h_dan_colonial_3
 		}
@@ -1192,7 +1192,7 @@ h_danish_missions_dorothea_4 = {
 	
 	##Mission Start
 	h_dan_admiralty = {
-		icon = placeholdergfx
+		icon = mission_disrupt_portuguese_trade
 		required_missions = {
 			
 		}
@@ -1229,7 +1229,7 @@ h_danish_missions_dorothea_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_colonial = {
-		icon = placeholdergfx
+		icon = mission_look_west
 		required_missions = {
 			h_dan_dorothea
 		}
@@ -1260,7 +1260,7 @@ h_danish_missions_dorothea_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_colonial_1 = {
-		icon = placeholdergfx
+		icon = mission_colonize_the_west
 		required_missions = {
 			h_dan_colonial
 		}
@@ -1294,7 +1294,7 @@ h_danish_missions_dorothea_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_colonial_2 = {
-		icon = placeholdergfx
+		icon = mission_settlers_north_america
 		required_missions = {
 			h_dan_colonial_1
 		}
@@ -1346,7 +1346,7 @@ h_danish_missions_dorothea_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_colonial_3 = {
-		icon = placeholdergfx
+		icon = imperial_ascendancy
 		required_missions = {
 			h_dan_colonial_2
 		}
@@ -1382,7 +1382,7 @@ h_danish_missions_charles_2 = {
 	
 	##Mission Start
 	h_dan_quality_1 = {
-		icon = placeholdergfx
+		icon = military_self_reliance
 		required_missions = {
 			
 		}
@@ -1419,7 +1419,7 @@ h_danish_missions_charles_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_quality_2 = {
-		icon = placeholdergfx
+		icon = establish_the_musketeers
 		required_missions = {
 			h_dan_quality_1
 		}
@@ -1446,7 +1446,7 @@ h_danish_missions_charles_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_wismar = {
-		icon = placeholdergfx
+		icon = develop_provence
 		required_missions = {
 			h_dan_own_holstein
 		}
@@ -1472,7 +1472,7 @@ h_danish_missions_charles_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_pomerania = {
-		icon = placeholdergfx
+		icon = ansbach_succession
 		required_missions = {
 			h_dan_wismar
 		}
@@ -1511,7 +1511,7 @@ h_danish_missions_charles_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_germany = {
-		icon = placeholdergfx
+		icon = encroach_on_the_germans
 		required_missions = {
 			h_dan_pomerania
 		}
@@ -1564,7 +1564,7 @@ h_danish_missions_charles_3 = {
 	
 	##Mission Start
 	h_dan_charles_i = {
-		icon = placeholdergfx
+		icon = holy_state
 		required_missions = {
 			
 		}
@@ -1613,7 +1613,7 @@ h_danish_missions_charles_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_gotland = {
-		icon = placeholdergfx
+		icon = return_visby_to_the_league
 		required_missions = {
 			h_dan_charles_i
 		}
@@ -1647,7 +1647,7 @@ h_danish_missions_charles_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_estonia = {
-		icon = placeholdergfx
+		icon = mission_teutonic_knights
 		required_missions = {
 			h_dan_gotland
 		}
@@ -1689,7 +1689,7 @@ h_danish_missions_charles_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_osel = {
-		icon = placeholdergfx
+		icon = establish_a_standing_army
 		required_missions = {
 			h_dan_estonia h_dan_sweden_2
 		}
@@ -1773,7 +1773,7 @@ h_danish_missions_charles_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_norway_1 = {
-		icon = placeholdergfx
+		icon = mission_empire
 		required_missions = {
 			 
 		}
@@ -1811,7 +1811,7 @@ h_danish_missions_charles_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_kalmar_union = {
-		icon = placeholdergfx
+		icon = mission_monarch_in_throne_room
 		required_missions = {
 			h_dan_norway_1 h_dan_sweden_4
 		}
@@ -1856,7 +1856,7 @@ h_danish_missions_charles_4 = {
 	
 	##Mission Start
 	h_dan_cadets = {
-		icon = placeholdergfx
+		icon = the_hundred_years_war
 		required_missions = {
 			
 		}
@@ -1889,7 +1889,7 @@ h_danish_missions_charles_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_sweden_1 = {
-		icon = placeholdergfx
+		icon = generality_lands
 		required_missions = {
 			h_dan_charles_i
 		}
@@ -1929,7 +1929,7 @@ h_danish_missions_charles_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_sweden_2 = {
-		icon = placeholdergfx
+		icon = mission_conquer_50_development
 		required_missions = {
 			h_dan_sweden_1
 		}
@@ -1970,7 +1970,7 @@ h_danish_missions_charles_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_sweden_3 = {
-		icon = placeholdergfx
+		icon = mission_the_french_menace
 		required_missions = {
 			h_dan_sweden_2
 		}
@@ -2023,7 +2023,7 @@ h_danish_missions_charles_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_sweden_4 = {
-		icon = placeholdergfx
+		icon = mission_empire
 		required_missions = {
 			h_dan_sweden_3
 		}
@@ -2428,7 +2428,7 @@ h_danish_missions_main_1 = {
 	
 	##Mission Start
 	h_dan_sound_toll = {
-		icon = placeholdergfx
+		icon = reform_the_state
 		required_missions = {
 			
 		}
@@ -2457,7 +2457,7 @@ h_danish_missions_main_1 = {
 	##Mission End
 	##Mission Start
 	h_dan_own_holstein = {
-		icon = placeholdergfx
+		icon = connect_further_austria
 		required_missions = {
 			
 		}
@@ -2511,7 +2511,7 @@ h_danish_missions_main_1 = {
 	##Mission End
 	##Mission Start
 	h_dan_hanseatic_league = {
-		icon = placeholdergfx
+		icon = mission_heart_of_the_hansa
 		required_missions = {
 			h_dan_own_holstein
 		}
@@ -2571,7 +2571,7 @@ h_danish_missions_main_1 = {
 	##Mission End
 	##Mission Start
 	h_dan_own_lubeck = {
-		icon = placeholdergfx
+		icon = mission_rb_control_the_hansa
 		required_missions = {
 			h_dan_hanseatic_league
 		}
@@ -2614,7 +2614,7 @@ h_danish_missions_main_1 = {
 	##Mission End
 	##Mission Start
 	h_dan_iceland = {
-		icon = placeholdergfx
+		icon = mission_scandinavian_port_authority
 		required_missions = {
 			
 		}
@@ -2653,7 +2653,7 @@ h_danish_missions_main_1 = {
 	##Mission End
 	##Mission Start
 	h_dan_british_isles = {
-		icon = placeholdergfx
+		icon = defeat_the_english
 		required_missions = {
 			h_dan_iceland
 		}
@@ -2714,7 +2714,7 @@ h_danish_missions_main_1 = {
 	##Mission End
 	##Mission Start
 	h_dan_scotland_1 = {
-		icon = placeholdergfx
+		icon = mission_rb_rein_in_the_highland_clans
 		required_missions = {
 			h_dan_british_isles
 		}
@@ -2753,7 +2753,7 @@ h_danish_missions_main_1 = {
 	##Mission End
 	##Mission Start
 	h_dan_scotland_2 = {
-		icon = placeholdergfx
+		icon = mission_rb_conquer_scotland
 		required_missions = {
 			h_dan_scotland_1
 		}
@@ -2778,7 +2778,7 @@ h_danish_missions_main_1 = {
 	##Mission End
 	##Mission Start
 	h_dan_counts_feud = {
-		icon = placeholdergfx
+		icon = consolidate_the_stadholders
 		required_missions = {
 			
 		}
@@ -2799,7 +2799,7 @@ h_danish_missions_main_1 = {
 	##Mission End
 	##Mission Start
 	h_dan_reformation = {
-		icon = placeholdergfx
+		icon = join_the_reformation
 		required_missions = {
 			h_dan_counts_feud
 		}
@@ -2831,7 +2831,7 @@ h_danish_missions_main_1 = {
 	##Mission End
 	##Mission Start
 	h_dan_fishing_industry = {
-		icon = placeholdergfx
+		icon = mission_rb_cod_wars
 		required_missions = {
 
 		}
@@ -2873,7 +2873,7 @@ h_danish_missions_main_1 = {
 	##Mission End
 	##Mission Start
 	h_dan_naval_supplies = {
-		icon = placeholdergfx
+		icon = overshadow_venice
 		required_missions = {
 			h_dan_fishing_industry
 		}
@@ -2926,7 +2926,7 @@ h_danish_missions_main_2 = {
 
 	##Mission Start
 	h_dan_greenland = {
-		icon = placeholdergfx
+		icon = mission_rb_settle_the_north
 		required_missions = {
 			h_dan_iceland
 		}
@@ -3015,7 +3015,7 @@ h_danish_missions_main_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_danelaw = {
-		icon = placeholdergfx
+		icon = mission_rb_into_england
 		required_missions = {
 			h_dan_british_isles
 		}
@@ -3088,7 +3088,7 @@ h_danish_missions_main_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_england = {
-		icon = placeholdergfx
+		icon = english_alliance
 		required_missions = {
 			h_dan_danelaw
 		}
@@ -3130,7 +3130,7 @@ h_danish_missions_main_2 = {
 	##Mission End
 	##Mission Start
 	h_dan_north_sea_empire = {
-		icon = placeholdergfx
+		icon = mission_rb_empire
 		required_missions = {
 			h_dan_england h_dan_scotland_2
 		}
@@ -3175,7 +3175,7 @@ h_danish_missions_main_3 = {
 	
 	##Mission Start
 	h_dan_canada = {
-		icon = placeholdergfx
+		icon = mission_rb_colonise_canada
 		required_missions = {
 			h_dan_discover_na h_dan_greenland
 		}
@@ -3210,7 +3210,7 @@ h_danish_missions_main_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_hudson = {
-		icon = placeholdergfx
+		icon = the_ostend_company
 		required_missions = {
 			h_dan_canada
 		}
@@ -3244,7 +3244,7 @@ h_danish_missions_main_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_university = {
-		icon = placeholdergfx
+		icon = powerhouse_of_the_north
 		required_missions = {
 			
 		}
@@ -3269,7 +3269,7 @@ h_danish_missions_main_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_innovation = {
-		icon = placeholdergfx
+		icon = continue_the_renaissance
 		required_missions = {
 			h_dan_university
 		}
@@ -3297,7 +3297,7 @@ h_danish_missions_main_3 = {
 	##Mission End
 	##Mission Start
 	h_dan_industrial_revolution = {
-		icon = placeholdergfx
+		icon = industrialized_rhineland
 		required_missions = {
 			h_dan_innovation h_dan_naval_supplies
 		}
@@ -3351,7 +3351,7 @@ h_danish_missions_main_4 = {
 	
 	##Mission Start
 	h_dan_discover_na = {
-		icon = placeholdergfx
+		icon = settle_north_america
 		required_missions = {
 			 
 		}
@@ -3385,7 +3385,7 @@ h_danish_missions_main_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_chesapeake = {
-		icon = placeholdergfx
+		icon = mission_rb_the_thirteen_colonies
 		required_missions = {
 			h_dan_discover_na
 		}
@@ -3408,7 +3408,7 @@ h_danish_missions_main_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_colonial_empire = {
-		icon = placeholdergfx
+		icon = become_king
 		required_missions = {
 			h_dan_chesapeake h_dan_hudson
 		}
@@ -3429,7 +3429,7 @@ h_danish_missions_main_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_colonial_dominions = {
-		icon = placeholdergfx
+		icon = support_american_independence
 		required_missions = {
 			h_dan_colonial_empire
 		}
@@ -3466,7 +3466,7 @@ h_danish_missions_main_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_indonesia = {
-		icon = placeholdergfx
+		icon = mission_sail_to_the_east_indies
 		required_missions = {
 			h_dan_the_cape
 		}
@@ -3493,7 +3493,7 @@ h_danish_missions_main_4 = {
 	##Mission End
 	##Mission Start
 	h_dan_east_india_trading = {
-		icon = placeholdergfx
+		icon = mission_trade_company_region_abroad
 		required_missions = {
 			h_dan_indonesia h_dan_coromandel
 		}
@@ -3552,7 +3552,7 @@ h_danish_missions_main_5 = {
 	
 	##Mission Start
 	h_dan_expand_income = {
-		icon = placeholdergfx
+		icon = mission_high_income
 		required_missions = {
 			
 		}
@@ -3585,7 +3585,7 @@ h_danish_missions_main_5 = {
 	##Mission End
 	##Mission Start
 	h_dan_industry = {
-		icon = placeholdergfx
+		icon = mission_have_manufactories
 		required_missions = {
 			h_dan_expand_income
 		}
@@ -3624,7 +3624,7 @@ h_danish_missions_main_5 = {
 	##Mission End
 	##Mission Start
 	h_dan_consolidate_crown = {
-		icon = placeholdergfx
+		icon = appease_the_estates
 		required_missions = {
 			h_dan_industry
 		}
@@ -3662,7 +3662,7 @@ h_danish_missions_main_5 = {
 	##Mission End
 	##Mission Start
 	h_dan_absolutism = {
-		icon = placeholdergfx
+		icon = regal_splendour
 		required_missions = {
 			h_dan_consolidate_crown
 		}
@@ -3684,7 +3684,7 @@ h_danish_missions_main_5 = {
 		
 	##Mission Start
 	h_dan_fortify_denmark = {
-		icon = placeholdergfx
+		icon = mission_rb_conquer_the_isles
 		required_missions = {
 			
 		}
@@ -3746,7 +3746,7 @@ h_danish_missions_main_5 = {
 	##Mission End
 	##Mission Start
 	h_dan_fortify_holstein = {
-		icon = placeholdergfx
+		icon = fixed_garrison_system
 		required_missions = {
 			h_dan_fortify_denmark
 		}
@@ -3787,7 +3787,7 @@ h_danish_missions_main_5 = {
 	##Mission End
 	##Mission Start
 	h_dan_carrib = {
-		icon = placeholdergfx
+		icon = mission_colonize_the_caribbean
 		required_missions = {
 			h_dan_discover_na
 		}
@@ -3810,7 +3810,7 @@ h_danish_missions_main_5 = {
 	##Mission End
 	##Mission Start
 	h_dan_south_trade = {
-		icon = placeholdergfx
+		icon = mission_south_indian_trade
 		required_missions = {
 			 
 		}
@@ -3844,7 +3844,7 @@ h_danish_missions_main_5 = {
 	##Mission End
 	##Mission Start
 	h_dan_ivory = {
-		icon = placeholdergfx
+		icon = mission_west_african_ports
 		required_missions = {
 			h_dan_south_trade
 		}
@@ -3875,7 +3875,7 @@ h_danish_missions_main_5 = {
 	##Mission End
 	##Mission Start
 	h_dan_the_cape = {
-		icon = placeholdergfx
+		icon = colonize_the_cape
 		required_missions = {
 			h_dan_ivory
 		}
@@ -3902,7 +3902,7 @@ h_danish_missions_main_5 = {
 	##Mission End
 	##Mission Start
 	h_dan_india = {
-		icon = placeholdergfx
+		icon = mission_portuguese_ceylon
 		required_missions = {
 			h_dan_the_cape
 		}
@@ -3951,7 +3951,7 @@ h_danish_missions_main_5 = {
 	##Mission End
 	##Mission Start
 	h_dan_coromandel = {
-		icon = placeholdergfx
+		icon = control_coromandel
 		required_missions = {
 			h_dan_india
 		}
