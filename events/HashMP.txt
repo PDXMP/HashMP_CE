@@ -1129,8 +1129,8 @@ country_event = {
 		add_manpower = 3
 		add_sailors = 500
 
-		north_atlantic_area = {
-			add_permanent_claim = ROOT 
+		subarctic_islands_area = {
+			add_permanent_claim = ROOT
 		}
 
 		hidden_effect = {
