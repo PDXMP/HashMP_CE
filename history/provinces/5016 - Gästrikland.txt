@@ -1,5 +1,5 @@
 
-#PROV4796
+#PROV4803
 add_core = SWE
 owner = SWE
 controller = SWE
@@ -7,10 +7,10 @@ culture = swedish
 religion = catholic
 hre = no
 base_tax = 1
-base_production = 2
+base_production = 1
 trade_goods = fish
 base_manpower = 1
-capital = "Vastervik"
+capital = "Gävle"
 is_city = yes
 
 discovered_by = eastern

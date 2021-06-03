@@ -104,6 +104,49 @@ declarewar = {
 			FROM = { same_continent = ROOT }
 		}
 	}
+	effect = {
+		if = {
+			limit = {
+				ROOT = { tag = DAN }
+				FROM = { tag = NOR }
+				has_country_flag = h_restore_the_union
+				OR = {
+					has_country_modifier = h_danish_defeat
+					has_country_modifier = h_danish_defeat_ii
+				}
+
+				NOT = {
+					OR = {
+						has_country_modifier = h_danish_defeat_iii
+						has_country_modifier = h_danish_defeat_iv
+					}
+				}
+			}
+
+			ROOT = { add_stability = 2 }
+		}
+
+		if = {
+			limit = {
+				ROOT = { tag = DAN }
+				FROM = { tag = NOR }
+				has_country_flag = h_restore_the_union
+				OR = {
+					has_country_modifier = h_danish_defeat_iii
+					has_country_modifier = h_danish_defeat_iv
+				}
+
+				NOT = {
+					OR = {
+						has_country_modifier = h_danish_defeat
+						has_country_modifier = h_danish_defeat_ii
+					}
+				}
+			}
+
+			ROOT = { add_stability = 1 }
+		}
+	}
 }
 
 royal_marriage = {

@@ -8,15 +8,18 @@ religion = catholic
 hre = no
 base_tax = 1
 base_production = 2
-trade_goods = iron
+trade_goods = copper
 base_manpower = 1
-capital = "Västerås"
+capital = "Falun"
 is_city = yes
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
+add_permanent_province_modifier = {
+	name = stora_kopparberget_modifier
+	duration = -1
+}
 
 1434.6.1 = { revolt = { type = anti_tax_rebels size = 2 name = "Engelbrekt" } controller = REB } # Engelbrekt rebellion
 1436.4.27 = { revolt = {} controller = SWE } # Engelbrekt was murdered by Måns Bengtsson Natt och Dag
@@ -32,5 +35,6 @@ discovered_by = ottoman
 # 1520.3.6 = { owner = DAN controller = DAN } # The Council accept Christian II as King
 # 1521.5.20 = { owner = SWE controller = SWE } # Liberated by Gustav Eriksson Wasa
 1527.6.1 = { religion = protestant}
-1617.1.1 = { base_tax = 4 base_production = 4 } # Iron is king!
+1617.1.1 = { base_tax = 3 base_production = 3 } #Copper is king!
+
 

@@ -1,5 +1,5 @@
 
-#PROV4795
+#PROV4802
 add_core = SWE
 owner = SWE
 controller = SWE
@@ -8,9 +8,9 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 1
-trade_goods = livestock
+trade_goods = grain
 base_manpower = 1
-capital = "Kronoberg"
+capital = "Nyköping"
 is_city = yes
 
 discovered_by = eastern

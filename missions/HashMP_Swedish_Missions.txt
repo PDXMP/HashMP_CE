@@ -107,6 +107,9 @@ h_swedish_missions_1 = {
 			country_event = {
 				id = flavor_swe.3244
 			}
+
+			add_manpower = 5
+
 			add_country_modifier = {
 				name = h_swedish_allotment_system
 				duration = -1
@@ -309,6 +312,10 @@ h_swedish_missions_2 = {
 				id = flavor_swe.3228
 			}
 			add_country_modifier = {
+				name = h_swedish_adolphus_legacy
+				duration = -1
+			}
+			add_country_modifier = {
 				name = h_swedish_innovative_warfare
 				duration = 9125
 			}
@@ -396,7 +403,7 @@ h_swedish_missions_2 = {
 			}
 		}
 		effect = {
-			add_army_tradition = 15
+			add_army_tradition = 10
 			country_event = {
 				id = hashmp.103
 			}
@@ -903,10 +910,10 @@ h_swedish_missions_5 = {
 		}
 		position = 1
 		provinces_to_highlight = {
-			province_id = 8
+			province_id = 4
 		}
 		trigger = {
-			8 = {
+			4 = {
 				base_production = 5
 			}
 		}
@@ -992,6 +999,14 @@ h_swedish_missions_5 = {
 			country_event = {
 				id = flavor_swe.3227
 			}
+
+			add_years_of_owned_provinces_production_income = {
+				years = 5
+				trigger = {
+					trade_goods = iron
+					has_manufactory_no_custom_tooltip_trigger = yes
+				}
+			}
 			
 			add_country_modifier = {
 				name = h_swedish_industry
@@ -1015,6 +1030,8 @@ h_swedish_missions_5 = {
 			navy_size_percentage = 1
 		}
 		effect = {
+			add_sailors = 500
+
 			add_country_modifier = {
 				name = h_swedish_fleet
 				duration = 9125

@@ -1,16 +1,17 @@
 
-#PROV4803
+#PROV4811
 add_core = SWE
+add_core = FIN
 owner = SWE
 controller = SWE
-culture = swedish
+culture = finnish
 religion = catholic
 hre = no
 base_tax = 1
 base_production = 1
-trade_goods = fish
+trade_goods = naval_supplies
 base_manpower = 1
-capital = "Gavle"
+capital = "Veckelax"
 is_city = yes
 
 discovered_by = eastern

@@ -117,4 +117,35 @@ h_remove_stability_or_adm_power_with_input = {
 			value = 1
 		}
 	}
-}	
+}
+
+h_recruit_marines_in_capital = {
+	custom_tooltip = $recruittooltip$
+
+	hidden_effect = {
+		set_variable = {
+			which = marinecount
+			value = 0
+		}
+	}
+
+	while = {	
+		limit = {
+			NOT = {
+				check_variable = {
+					which = marinecount
+					value = $value$
+				}
+			}
+		}
+
+		capital_scope = {
+			marine_infantry = $target$
+		}
+
+		change_variable = {
+			which = marinecount
+			value = 1
+		}
+	}
+}
