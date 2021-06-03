@@ -1,1 +1,1 @@
-example_modifier = 0.15
+example_modifier = 0.05
