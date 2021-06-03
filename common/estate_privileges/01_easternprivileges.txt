@@ -701,6 +701,8 @@ estate_polish_nobility_golden_liberty = {
 			has_reform = h_reform_elective_monarchy
 		}
 		government = monarchy
+		NOT = { has_estate_privilege = estate_polish_nobility_greater_golden_liberty}
+		NOT = { has_country_flag = rejected_golden_liberty}
 	}
 	can_revoke = {
 		if = {
@@ -790,6 +792,96 @@ estate_polish_nobility_golden_liberty = {
 		factor = 0
 	}
 }
+
+estate_polish_nobility_greater_golden_liberty = {
+	icon = privilege_golden_liberty
+	max_absolutism = -15
+	influence = 0.2
+	loyalty = 0.1
+	is_valid = {
+		OR = {
+			has_estate_privilege = estate_polish_nobility_golden_liberty #Poland starts with it
+			has_reform = h_reform_elective_monarchy
+			has_country_flag = 'purged_bajorais'
+		}
+		government = monarchy
+	}
+	can_revoke = {
+		custom_trigger_tooltip = { #revoke Golden Liberty or do it via event
+			tooltip = estate_privilege_cannot_be_revoked
+			always = no
+		}
+	}
+	on_revoked = {
+		if = {
+			limit = {
+				government = monarchy
+				has_estate = estate_polish_nobility
+			}
+			add_stability = -2
+		}
+		if = {
+			limit = {
+				OR = {
+					tag = PLC
+					AND = {
+						tag = POL
+						NOT = { exists = PLC }
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_estate_privilege = estate_polish_nobility_nieszawa_privileges
+				}
+				remove_estate_privilege = estate_polish_nobility_nieszawa_privileges
+			}
+			if = {
+				limit = {
+					has_estate_privilege = estate_polish_nobility_pacta_conventa
+				}
+				remove_estate_privilege = estate_polish_nobility_pacta_conventa
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = pol_zebrzydowski_rebellion_flag }
+					is_year = 1600
+					government = monarchy
+				}
+				set_country_flag = pol_pact_conventa_flag
+			}
+		}
+		else_if = {
+			limit = {
+				has_reform = h_reform_elective_monarchy
+				has_estate = estate_polish_nobility
+			}
+			country_event = { id = estate_privileges_and_agendas_events.1 }
+		}
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_polish_nobility
+			value = 4
+			}
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+		global_manpower_modifier = 0.25
+		discipline = 0.05
+	}
+	mechanics = {
+		exempt_from_seize_land
+		can_give_agendas_without_interaction
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
 
 estate_polish_nobility_nieszawa_privileges = {
 	icon = privilege_royal_authority
@@ -1058,6 +1150,8 @@ estate_lithuanian_nobility_levies = {
 	influence = 0.1
 	is_valid = {
 		NOT = { has_estate_privilege = estate_lithuanian_nobility_golden_liberty }
+		NOT = { has_estate_privilege = estate_polish_nobility_greater_golden_liberty}
+		NOT = { has_country_flag = rejected_golden_liberty}
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_lithuanian_nobility_golden_liberty }

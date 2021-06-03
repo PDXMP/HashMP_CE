@@ -34,3 +34,8 @@
  sejm_ascendant:0 "The Sejm has displaced the Bajorais out of the commonwealth."
  removal_polish:0 "This will remove the Polish estate completely"
  sejm_ascendant:0 "The Bajorais have replaced the Sejm as main governing body."
+ must_finish_both_missions:0 "For the Commonwealth to truly form, we must finish both the Polish and Lithuanian missions"
+ sejm_level_1:0 "The Sejm has more influence than the Bajorais"
+ sejm_level_2:0 "The Sejm has almost displaced the Bajorais"
+ bajorais_level_1:0 "The Bajorais have more influence than the Sejm"
+ bajorais_level_2:0 "The Bajorais have almost displaced the Sejm"

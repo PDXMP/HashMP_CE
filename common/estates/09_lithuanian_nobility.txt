@@ -62,6 +62,71 @@ estate_lithuanian_nobility =
 		influence = 5
 	}
 	
+	influence_modifier = {
+		desc = sejm_level_1
+		trigger = {
+			has_country_flag = pol_setup
+			NOT = {
+				check_variable = {
+					which = balanceOfPower
+					value = 2
+				}
+			}
+				check_variable = {
+					which = balanceOfPower
+					value = 7
+				}			
+		}
+		influence = -10
+	}
+	
+	influence_modifier = {
+		desc = sejm_level_2
+		trigger = {
+			has_country_flag = pol_setup
+			NOT = {
+				check_variable = {
+					which = balanceOfPower
+					value = 3
+				}
+			}		
+		}
+		influence = -20
+	}
+	
+	influence_modifier = {
+		desc = bajorais_level_1
+		trigger = {
+			has_country_flag = pol_setup
+			check_variable = {
+				which = balanceOfPower
+				value = 14
+			}
+			NOT = {
+				check_variable = {
+					which = balanceOfPower
+					value = 18
+				}
+			
+			}
+		}	
+		influence = 10
+	}
+	
+	influence_modifier = {
+		desc = bajorais_level_2
+		trigger = {
+			has_country_flag = pol_setup
+			check_variable = {
+				which = balanceOfPower
+				value = 17
+			}
+		}	
+		influence = 20
+	}
+
+
+	
 	# Influence modifiers from Events:
 	influence_modifier = {
 		desc = EST_HUN_MAGNATES

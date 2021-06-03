@@ -1833,6 +1833,7 @@ country_event = {
 				which = balanceOfPower
 				value = 10
 			}
+			set_country_flag = pol_setup
 		}
 	}
 }
@@ -1876,7 +1877,7 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = 10
 		}
-		subtract_variable {
+		subtract_variable = {
 			which = balanceOfPower
 			value = 3
 		}
@@ -1902,7 +1903,7 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = 10
 		}
-		subtract_variable {
+		subtract_variable = {
 			which = balanceOfPower
 			value = 1
 		}
@@ -1937,7 +1938,7 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = 10
 		}
-		subtract_variable {
+		subtract_variable = {
 			which = balanceOfPower
 			value = 3
 		}
@@ -2021,7 +2022,7 @@ country_event = {
 				size = 2
 			}
 		}
-		change_variable {
+		change_variable = {
 			which = balanceOfPower
 			value = 2
 		}
@@ -2051,9 +2052,7 @@ country_event = {
 		name = flavor_pol.101.a
 		custom_tooltip = removal_bajorais	
 		POL = {
-			add_country_flag = {
-				name = purged_bajorais
-			} 
+			set_country_flag = purged_bajorais
 			add_country_modifier = {
 				name = sejm_ascendant
 				duration = -1
@@ -2063,7 +2062,7 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = 20
 		}
-		all_owned_province = {
+		every_owned_province = {
 			limit = {
 				culture = lithuanian
 				culture = ruthenian
@@ -2077,7 +2076,7 @@ country_event = {
 	option = {
 		name = flavor_pol.101.b
 		custom_tooltip = flavor_lit.bop.plus3
-		stability = -2
+		add_stability = -2
 		random_owned_province = {
 			limit = {
 				culture = polish
@@ -2097,7 +2096,7 @@ country_event = {
 				loyalty = -15
 			}
 		}
-		change_variable {
+		change_variable = {
 			which = balanceOfPower
 			value = 3
 		}
@@ -2117,6 +2116,7 @@ country_event = {
 		name = flavor_pol.27.a
 		set_estate_privilege = estate_polish_nobility_pacta_conventa
 		set_country_flag = pol_pact_conventa_flag
+		
 		custom_tooltip = flavor_lit.bop.minus3
 		add_estate_loyalty = {
 			estate = estate_lithuanian_nobility
@@ -2127,7 +2127,7 @@ country_event = {
 			loyalty = 10
 		}
 	
-		substract_variable {
+		subtract_variable = {
 			which = balanceOfPower
 			value = 3
 		}
@@ -2147,7 +2147,7 @@ country_event = {
 			loyalty = 10
 		}
 	
-		substract_variable {
+		subtract_variable = {
 			which = balanceOfPower
 			value = 1
 		}
@@ -2166,9 +2166,77 @@ country_event = {
 			loyalty = -10
 		}
 	
-		stability = -1	
+		add_stability = -1	
 	}
 }
+
+# rights and privileges
+country_event = {
+	id = flavor_pol.28
+	title = flavor_pol.28.t
+	desc = flavor_pol.28.d
+	picture = SEJM_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = flavor_pol.28.a
+		remove_estate_privilege = estate_polish_nobility_golden_liberty
+		set_estate_privilege = estate_polish_nobility_greater_golden_liberty
+		custom_tooltip = flavor_lit.bop.minus3
+		add_estate_loyalty = {
+			estate = estate_lithuanian_nobility
+			loyalty = -15
+		}
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = 10
+		}
+	
+		subtract_variable = {
+			which = balanceOfPower
+			value = 3
+		}
+	}
+	option = {
+		name = flavor_pol.28.b
+		set_estate_privilege = estate_lithuanian_nobility_golden_liberty
+		custom_tooltip = flavor_lit.bop.plus1
+		add_estate_loyalty = {
+			estate = estate_lithuanian_nobility
+			loyalty = 10
+		}
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = -5
+		}
+	change_variable = {
+			which = balanceOfPower
+			value = 1
+		}
+		
+	}
+	
+	option = {
+		name = flavor_pol.28.c
+		set_country_flag = rejected_golden_liberty 
+		custom_tooltip = flavor_lit.bop.minus2
+		remove_estate_privilege = estate_polish_nobility_golden_liberty
+		add_estate_loyalty = {
+			estate = estate_lithuanian_nobility
+			loyalty = -10
+		}
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = -15
+		}
+	
+		add_stability = -1	
+	}
+}
+
+
+
 
 # Purge the polish
 country_event = {
@@ -2191,9 +2259,7 @@ country_event = {
 		name = flavor_pol.102.a
 		custom_tooltip = removal_polish	
 		POL = {
-			add_country_flag = {
-				name = purged_sejm
-			} 
+			set_country_flag =  purged_sejm
 			add_country_modifier = {
 				name = bajorais_ascendant
 				duration = -1
@@ -2203,7 +2269,7 @@ country_event = {
 				estate = estate_polish_lithuania
 				loyalty = 20
 		}
-		all_owned_province = {
+		every_owned_province = {
 			limit = {
 				culture = polish
 			}
@@ -2216,7 +2282,7 @@ country_event = {
 	option = {
 		name = flavor_pol.102.b
 		custom_tooltip = flavor_lit.bop.minus3
-		stability = -2
+		add_stability = -2
 		random_owned_province = {
 			limit = {
 				culture = lithuanian
@@ -2236,9 +2302,117 @@ country_event = {
 				loyalty = 10
 			}
 		}
-		substract_variable {
+		subtract_variable = {
 			which = balanceOfPower
 			value = 3
 		}
+	}
+}
+
+# Elective monarchy event
+country_event = {
+	id = flavor_pol.29
+	title = flavor_pol.29.t
+	desc = flavor_pol.29.d
+	is_triggered_only = yes
+	picture = SEJM_eventPicture
+	
+
+	option = {
+		name = flavor_pol.29.a
+		trigger = { 
+			NOT = { 
+				has_country_flag = purged_sejm 
+			}
+		}
+		custom_tooltip = flavor_lit.bop.minus1
+		add_estate_loyalty = {
+			estate = estate_lithuanian_nobility
+			loyalty = -10
+		}
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = 10
+		}
+		subtract_variable = {
+			which = balanceOfPower
+			value = 1
+		}
+		
+		define_ruler = {
+			dynasty = original_dynasty
+			claim = 100
+			male = yes
+			min_age = 18
+		}
+		set_ruler_flag = polish_ruler
+	}
+	option = {
+		name = flavor_pol.29.b
+		trigger = { 
+			NOT = { 
+				OR ={
+					has_country_flag = purged_sejm
+					has_country_flag = purged_bajorais
+				}
+			}
+		}
+		define_ruler = {
+			dynasty = original_dynasty
+			claim = 100
+			male = yes
+			min_age = 18
+		}
+		set_ruler_flag = compromise_ruler
+	}
+	option = {
+		name = flavor_pol.29.c
+		trigger = { 
+			NOT = { 
+				has_country_flag = purged_bajorais 
+			}
+		}
+		custom_tooltip = flavor_lit.bop.plus1
+		add_estate_loyalty = {
+			estate = estate_lithuanian_nobility
+			loyalty = 10
+		}
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = -10
+		}
+		change_variable = {
+			which = balanceOfPower
+			value = 1
+		}
+		define_ruler = {
+			dynasty = original_dynasty
+			claim = 100
+			male = yes
+			min_age = 20
+		}
+		set_ruler_flag = lithuanian_ruler
+	}
+	
+	option = {
+		name = flavor_pol.29.e
+		custom_tooltip = flavor_lit.bop.plus1
+		add_estate_loyalty = {
+			estate = estate_lithuanian_nobility
+			loyalty = -10
+		}
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = -10
+		}
+		define_ruler = {
+			male = yes
+			claim = 100
+			min_age = 20
+			adm = 3
+			mil = 3
+			dip = 3
+		}
+		set_ruler_flag = foreign_noble
 	}
 }

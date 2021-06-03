@@ -14,7 +14,10 @@ country_event = {
 	picture = THREE_HEIRS_eventPicture
 
 	is_triggered_only = yes
-	
+	trigger = {
+		NOT = { tag = POL }
+		NOT = { tag = PLC }
+	}
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
