@@ -538,7 +538,7 @@ h_danish_missions_christian_4 = {
 	}
 	##Mission End
 	##Mission Start
-	h_dan_sweden_1 = {
+	h_dan_sweden_1_christian = {
 		icon = generality_lands
 		required_missions = {
 			h_dan_christian
@@ -551,8 +551,8 @@ h_danish_missions_christian_4 = {
 			skaneland_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				nationalism = 5
 				NOT = {
+					nationalism = 5
 					local_autonomy = 30
 					devastation = 1
 				}
@@ -561,10 +561,6 @@ h_danish_missions_christian_4 = {
 		effect = {
 			6 = {
 				add_base_production = 3
-			}
-
-			skaneland_area = {
-				add_prosperity = 50
 			}
 
 			smaland_area = {
@@ -585,7 +581,7 @@ h_danish_missions_christian_4 = {
 	h_dan_sweden_2 = {
 		icon = mission_conquer_50_development
 		required_missions = {
-			h_dan_sweden_1
+			h_dan_sweden_1_christian
 		}
 		position = 3
 		provinces_to_highlight = {
@@ -1901,8 +1897,8 @@ h_danish_missions_charles_4 = {
 			skaneland_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				nationalism = 5
 				NOT = {
+					nationalism = 5
 					local_autonomy = 30
 					devastation = 1
 				}
