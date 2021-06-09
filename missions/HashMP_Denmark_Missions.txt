@@ -823,8 +823,6 @@ h_danish_missions_dorothea_2 = {
 			has_flagship = yes
 		}
 		effect = {
-			add_prestige = 25
-
 			add_country_modifier = {
 				name = h_danish_ships_of_the_line
 				duration = -1
@@ -836,9 +834,9 @@ h_danish_missions_dorothea_2 = {
 	h_dan_trade_1 = {
 		icon = mission_rb_scottish_north_sea_trade
 		required_missions = {
-			
+			h_dan_trade_2
 		}
-		position = 3
+		position = 4
 		provinces_to_highlight = {
 			##PROVINCESHIGHLIGHTCODE
 		}
@@ -851,7 +849,10 @@ h_danish_missions_dorothea_2 = {
 			}
 		}
 		effect = {
-			add_treasury = 500
+			h_add_mercantilism_or_dip_power_with_input = {
+				value = 5
+				valuetooltip = h_ADD_MERCANTILISM_OR_DIP_VALUE_5
+			}
 
 			add_country_modifier = {
 				name = h_danish_north_sea
@@ -873,9 +874,9 @@ h_danish_missions_dorothea_2 = {
 	h_dan_trade_2 = {
 		icon = mission_african_gold
 		required_missions = {
-			h_dan_trade_1
+			
 		}
-		position = 4
+		position = 3
 		provinces_to_highlight = {
 			##PROVINCESHIGHLIGHTCODE
 		}
@@ -906,10 +907,7 @@ h_danish_missions_dorothea_2 = {
 			}
 		}
 		effect = {
-			h_add_mercantilism_or_dip_power_with_input = {
-				value = 5
-				valuetooltip = h_ADD_MERCANTILISM_OR_DIP_VALUE_5
-			}
+			add_treasury = 500
 
 			add_country_modifier = {
 				name = h_danish_expanded_markets
@@ -1024,9 +1022,9 @@ h_danish_missions_dorothea_3 = {
 			}
 		}
 		effect = {
-			add_sailors = 500
+			add_sailors = 1000
 
-			create_admiral = { tradition = 50 }
+			create_admiral = { tradition = 80 }
 		}
 	}
 	##Mission End
@@ -1243,7 +1241,7 @@ h_danish_missions_dorothea_4 = {
 
 			add_country_modifier = {
 				name = h_danish_sagas
-				duration = 3650
+				duration = 9125
 			}
 
 			define_explorer = {
@@ -1274,8 +1272,6 @@ h_danish_missions_dorothea_4 = {
 			}
 		}
 		effect = {
-			add_dip_power = 100
-
 			add_country_modifier = {
 				name = h_danish_colonial_aspirations
 				duration = -1
@@ -1303,7 +1299,7 @@ h_danish_missions_dorothea_4 = {
 
 			sailors = 1000
 			manpower = 10
-			years_of_income = 1
+			years_of_income = 0.5
 
 			OR = {
 				full_idea_group = exploration_ideas
@@ -1313,7 +1309,7 @@ h_danish_missions_dorothea_4 = {
 		effect = {
 			add_sailors = -1000
 			add_manpower = -10
-			add_years_of_income = -1
+			add_years_of_income = -0.5
 
 			add_country_modifier = {
 				name = h_danish_encouraged_settlements
@@ -2475,13 +2471,13 @@ h_danish_missions_main_1 = {
 			4141 = {
 				add_province_modifier = {
 					name = h_danish_holstein_integration
-					duration = 9125
+					duration = 18250
 				}
 			}
 			1775 = {
 				add_province_modifier = {
 					name = h_danish_holstein_integration
-					duration = 9125
+					duration = 18250
 				}
 			}
 			45 = {
@@ -2861,7 +2857,7 @@ h_danish_missions_main_1 = {
 			change_price = {
 				trade_goods = fish
 				key = h_north_sea_commerce
-				value = 0.2
+				value = 0.10
 				duration = -1
 			}
 		}
@@ -3119,7 +3115,7 @@ h_danish_missions_main_2 = {
 
 			add_country_modifier = {
 				name = h_englished_defeated
-				duration = 9125
+				duration = 18250
 			}
 		}
 	}
@@ -3441,7 +3437,6 @@ h_danish_missions_main_4 = {
 			}
 		}
 		effect = {
-			add_prestige = 25
 			custom_tooltip = h_danish_crown_investment_tooltip
 			hidden_effect = {
 				DAN = {
@@ -3610,7 +3605,7 @@ h_danish_missions_main_5 = {
 			}
 
 			add_years_of_owned_provinces_production_income = {
-				years = 5
+				years = 8
 				trigger = {
 					base_production = 5
 				}
