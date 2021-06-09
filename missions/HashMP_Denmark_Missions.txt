@@ -21,7 +21,6 @@ h_danish_missions_christian_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			years_of_income = 1
 			num_of_hired_mercenary_companies = 1
 		}
 		effect = {
@@ -29,8 +28,6 @@ h_danish_missions_christian_2 = {
 				name = h_danish_german_mercs
 				duration = -1
 			}
-
-			add_years_of_income = -1
 		}
 	}
 	##Mission End
@@ -114,8 +111,6 @@ h_danish_missions_christian_2 = {
 			}
 		}
 		effect = {
-			add_adm_power = 100
-
 			vorpommern_area = {
 				add_permanent_claim = ROOT
 			}
@@ -187,12 +182,7 @@ h_danish_missions_christian_2 = {
 			}
 		}
 		effect = {
-			add_army_tradition = 10
-
-			add_country_modifier = {
-				name = h_danish_equipment
-				duration = -1
-			}
+			add_army_tradition = 25
 
 			add_country_modifier = {
 				name = h_danish_resist_germans
@@ -365,8 +355,10 @@ h_danish_missions_christian_3 = {
 					government = monarchy
 				}
 
-				legitimacy = 90
-				dynasty = "von Oldenburg"
+				OR = {
+					legitimacy = 100
+					dynasty = "von Oldenburg"
+				}
 				has_consort = yes
 
 				OR = {
@@ -389,6 +381,9 @@ h_danish_missions_christian_3 = {
 						}
 					}
 				}
+			}
+			else = {
+				government_rank = 3
 			}
 		}
 		effect = {
@@ -497,7 +492,7 @@ h_danish_missions_christian_4 = {
 	
 	##Mission Start
 	h_dan_cannons = {
-		icon = mission_cannons_firing
+		icon = give_him_back_his_legions
 		required_missions = {
 			
 		}
@@ -506,34 +501,23 @@ h_danish_missions_christian_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			any_owned_province = {
-				trade_goods = iron
-				has_manufactory_no_custom_tooltip_trigger = yes
-			}
-
-			mil_tech = 12
-			mil_power = 100
-
-			OR = {
-				num_of_artillery = 20
-				num_of_heavy_ship = 30
-			}
+			land_forcelimit = 50
+			naval_forcelimit = 50
+			army_tradition = 50
+			navy_tradition = 50
 		}
 		effect = {
-			random_owned_province = {
-				limit = {
-					trade_goods = iron
-					has_manufactory_no_custom_tooltip_trigger = yes
-				}
+			add_prestige = 10
 
-				add_base_production = 3
-			}
 			add_country_modifier = {
-				name = h_danish_cannons
+				name = h_danish_royal_army
 				duration = -1
 			}
 
-			add_mil_power = -100
+			add_country_modifier = {
+				name = h_danish_royal_navy
+				duration = -1
+			}
 		}
 	}
 	##Mission End
@@ -831,46 +815,6 @@ h_danish_missions_dorothea_2 = {
 	}
 	##Mission End
 	##Mission Start
-	h_dan_trade_1 = {
-		icon = mission_rb_scottish_north_sea_trade
-		required_missions = {
-			h_dan_trade_2
-		}
-		position = 4
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			23 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		effect = {
-			h_add_mercantilism_or_dip_power_with_input = {
-				value = 5
-				valuetooltip = h_ADD_MERCANTILISM_OR_DIP_VALUE_5
-			}
-
-			add_country_modifier = {
-				name = h_danish_north_sea
-				duration = 7300
-			}
-
-			23 = {
-				add_trade_modifier = {
-					who = ROOT
-					duration = -1
-					power = 25
-					key = h_danish_trade_north_sea_tooltip
-				}
-			}
-		}
-	}
-	##Mission End
-	##Mission Start
 	h_dan_trade_2 = {
 		icon = mission_african_gold
 		required_missions = {
@@ -917,10 +861,50 @@ h_danish_missions_dorothea_2 = {
 	}
 	##Mission End
 	##Mission Start
+	h_dan_trade_1 = {
+		icon = mission_rb_scottish_north_sea_trade
+		required_missions = {
+			h_dan_trade_2
+		}
+		position = 4
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			23 = {
+				trade_share = {
+					country = ROOT
+					share = 51
+				}
+			}
+		}
+		effect = {
+			h_add_mercantilism_or_dip_power_with_input = {
+				value = 5
+				valuetooltip = h_ADD_MERCANTILISM_OR_DIP_VALUE_5
+			}
+
+			add_country_modifier = {
+				name = h_danish_north_sea
+				duration = 7300
+			}
+
+			23 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = -1
+					power = 25
+					key = h_danish_trade_north_sea_tooltip
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
 	h_dan_trade_3 = {
 		icon = mission_asian_trader
 		required_missions = {
-			h_dan_trade_2
+			h_dan_trade_1
 		}
 		position = 5
 		provinces_to_highlight = {
@@ -1483,16 +1467,7 @@ h_danish_missions_charles_2 = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					NOT = { army_professionalism = 1 }
-				}
-
-				add_army_professionalism = 0.05
-			}
-			else = {
-				add_manpower = 5
-			}
+			add_stability_or_adm_power = yes
 
 			add_country_modifier = {
 				name = h_danish_pomerania_military
@@ -1530,11 +1505,19 @@ h_danish_missions_charles_2 = {
 			}
 		}
 		effect = {
-			add_army_tradition = 10
+			if = {
+				limit = {
+					NOT = { army_professionalism = 1 }
+				}
+				add_army_professionalism = 0.05
+			}
+			else = {
+				add_mil_power = 100
+			}
 
 			add_country_modifier = {
 				name = h_danish_goose_step
-				duration = 9125
+				duration = 7300
 			}
 		}
 	}
@@ -1620,9 +1603,6 @@ h_danish_missions_charles_3 = {
 			}
 		}
 		effect = {
-			add_treasury = 100
-			add_manpower = 1
-
 			25 = {
 				change_culture = danish
 			}

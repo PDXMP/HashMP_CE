@@ -19,6 +19,8 @@
  h_denmark_dominions_bonus_iii:0 "Crown Dominions"
  h_denmark_dominions_bonus_iv:0 "Crown Dominions"
  h_denmark_dominions_bonus_v:0 "Crown Dominions"
+ h_danish_royal_army:0 "The Royal Army"
+ h_danish_royal_navy:0 "The Royal Navy"
  h_danish_equipment:0 "German Equipment"
  h_danish_estonia:0 "Danish Estonia"
  h_danish_manpower_centers:0 "Military Infrastructure"
@@ -206,7 +208,7 @@
  h_dan_government_2_desc:0 ""
  h_dan_government_3_title:0 "Oldenburg Dynasty"
  h_dan_government_3_desc:0 ""
- h_dan_cannons_title:0 "Early Modern Cannons"
+ h_dan_cannons_title:0 "Defence of Denmark"
  h_dan_cannons_desc:0 ""
  h_dan_missions_main_1:0 " "
  h_dan_missions_main_2:0 " "
@@ -328,3 +330,4 @@
  h_dan_colonial_2_desc:0 ""
  h_dan_colonial_3_title:0 "Loyalty to the Crown"
  h_dan_colonial_3_desc:0 ""
+
