@@ -977,7 +977,7 @@ country_event = {
 		
 		hidden_effect = {
 			set_country_flag = johanking
-			add_ruler_personality = scholar_personality
+			add_ruler_personality = industrious_personality
 		}
 	}
 	
@@ -1010,7 +1010,7 @@ country_event = {
 		
 		hidden_effect = {
 			set_country_flag = gustavking
-			add_ruler_personality = martial_educator_personality
+			add_ruler_personality = strict_personality
 		}
 	}
 }
@@ -1061,6 +1061,7 @@ country_event = {
 	option = {
 		name = hashmp.102.b
 		add_army_tradition = 25
+		add_mil_power = 100
 	}
 }
 
