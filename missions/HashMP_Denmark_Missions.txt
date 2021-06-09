@@ -3794,7 +3794,7 @@ h_danish_missions_main_5 = {
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 20
-				colonial_region = colonial_eastern_america
+				colonial_region = colonial_the_carribean
 				is_city = yes
 			}
 		}
