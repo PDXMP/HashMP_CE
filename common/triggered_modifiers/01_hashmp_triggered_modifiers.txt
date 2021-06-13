@@ -416,6 +416,7 @@ t_over_merc_cap_early = {
 
 t_over_merc_cap_mid = {
 	potential = {
+		always = no
 		was_player = yes
 		current_age = age_of_reformation
 	}
@@ -429,6 +430,7 @@ t_over_merc_cap_mid = {
 
 t_over_merc_cap_late = {
 	potential = {
+		always = no
 		was_player = yes
 		OR = {
 			current_age = age_of_absolutism
