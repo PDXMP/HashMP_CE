@@ -258,6 +258,14 @@ t4_sp_3 = { #Professional Soldiers
 		#global_regiment_cost = 0.025
 	}
 }
+t4_sp_4 = { #Expansionist Policy
+	icon = "emperor_of_the_revolution_reform"
+	allow_normal_conversion = yes
+	modifiers = {
+		governing_capacity = 150
+		state_maintenance_modifier = -0.10
+	}
+}
 
 ########
 #Tier 5
