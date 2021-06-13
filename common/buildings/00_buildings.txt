@@ -226,7 +226,7 @@ regimental_camp = {
 	cost = 200
 	time = 12
 	modifier = {
-		land_forcelimit = 1.25
+		land_forcelimit = 1
 		monthly_militarized_society = 0.0005
 	}
 
