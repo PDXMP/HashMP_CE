@@ -662,6 +662,7 @@ inflation = {
 	flagship_cost = 0.01					#1% for each inflation step
 	advisor_cost = 0.01						#1% for each inflation step
 	mercenary_cost = 0.01					#1% for each inflation step
+	mercenary_manpower = -0.01				#1% for each inflation step			
 	fort_maintenance_modifier = 0.01		#1% for each inflation step
 }
 
