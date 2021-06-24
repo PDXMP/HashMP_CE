@@ -6,7 +6,6 @@ add_accepted_culture = byelorussian
 add_accepted_culture = ruthenian
 religion = orthodox
 technology_group = eastern
-historical_friend = POL
 capital = 272 # Vilnius
 
 1444.10.1 = {
