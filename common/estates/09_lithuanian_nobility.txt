@@ -11,19 +11,18 @@ estate_lithuanian_nobility =
 	}
 
 	country_modifier_happy = {
-		manpower_recovery_speed = 0.1
+		global_manpower_modifier = 0.15
 		land_maintenance_modifier = -0.1
-		cavalry_power = 0.1
+		
 	}
 	
 	country_modifier_neutral = {
-		manpower_recovery_speed = 0.1 
-		cavalry_power = 0.05
+		global_manpower_modifier = 0.1 
+		land_maintenance_modifier = -0.1
 	}	
 	
 	country_modifier_angry = {
-		manpower_recovery_speed = -0.1
-		land_maintenance_modifier = 0.1
+		land_maintenance_modifier = 0.2
 		global_unrest = 2
 	}
 	
@@ -259,6 +258,8 @@ estate_lithuanian_nobility =
 		estate_lithuanian_nobility_pacta_conventa
 		estate_lithuanian_nobility_monopoly_of_livestock
 		estate_lithuanian_nobility_statutory_rights
+		estate_lithuanian_nobility_conscript_troops
+		estate_lithuanian_nobility_seize_land
 	}
 
 	agendas = {

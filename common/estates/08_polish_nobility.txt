@@ -5,23 +5,21 @@ estate_polish_nobility =
 	# If true, country will get estate
 	trigger = {
 		has_reform = h_reform_elective_monarchy
-		NOT ={
+		NOT = {
 			has_country_flag = purged_sejm
 		}
 	}
 
 	country_modifier_happy = {
 		manpower_recovery_speed = 0.1 
-		land_maintenance_modifier = -0.1
-		infantry_power = 0.1
+		land_morale = 0.1
 	}
 	country_modifier_neutral = {
 		manpower_recovery_speed = 0.1 
-		infantry_power = 0.05
+		land_morale = 0.05
 	}	
 	country_modifier_angry = {
-		manpower_recovery_speed = -0.1
-		land_maintenance_modifier = 0.1
+		manpower_recovery_speed = -0.2
 		global_unrest = 2
 	}
 	land_ownership_modifier = {
@@ -260,6 +258,7 @@ estate_polish_nobility =
 		estate_polish_nobility_monopoly_of_metals
 		estate_polish_nobility_monopoly_of_gems
 		estate_polish_nobility_statutory_rights
+		estate_polish_nobility_seize_land
 	}
 
 	agendas = {
