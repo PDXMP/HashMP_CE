@@ -1,3 +1,4 @@
+##polish estate privileges
 estate_polish_nobility_land_rights = {
 	icon = privilege_grant_autonomy
 	land_share = 5
@@ -19,62 +20,6 @@ estate_polish_nobility_land_rights = {
 	benefits = {
 		governing_capacity = 100
 	}
-	ai_will_do = {
-		factor = 5
-		modifier = {
-			factor = 1.4
-			num_of_territories = 5
-		}
-		modifier = {
-			factor = 1.5
-			num_of_territories = 10
-		}
-		modifier = {
-			factor = 1.5
-			num_of_territories = 15
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { crown_land_share = 25 }
-				estate_influence = {
-					estate = estate_polish_nobility
-					influence = 75
-				}
-			}
-			NOT = { has_estate_privilege = estate_polish_nobility_land_rights }
-		}
-		modifier = {
-			factor = 0
-			NOT = { num_of_territories = 1 }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 40 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 60 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_polish_nobility_land_rights }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 30 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 50 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_polish_nobility_land_rights }
-		}
-		modifier = {
-			factor = 0.8
-			is_absolutism_active = yes
-		}
-	}
 }
 
 estate_polish_nobility_officer_corp = {
@@ -91,17 +36,16 @@ estate_polish_nobility_officer_corp = {
 		}
 	}
 	on_granted = {
-		add_army_tradition = -15
+		add_army_tradition = -20
 	}
 	penalties = {
 	}
 	benefits = {
-		general_cost = -0.1
-		army_tradition_decay = -0.005
+		leader_land_shock = 1
+		leader_land_fire = 1
+		army_tradition_decay = -0.01
 	}
-	ai_will_do = {
-		factor = 0
-	}
+	cooldown_years = 20
 }
 
 estate_lithuanian_nobility_officer_corp = {
@@ -125,9 +69,6 @@ estate_lithuanian_nobility_officer_corp = {
 	benefits = {
 		leader_land_shock = 1
 	}
-	ai_will_do = {
-		factor = 0
-	}
 }
 
 estate_polish_nobility_levies = {
@@ -150,92 +91,6 @@ estate_polish_nobility_levies = {
 		global_tax_modifier = -0.25
 		global_manpower_modifier = 0.3
 	}
-	penalties = {
-	}
-	ai_will_do = {
-		factor = 5
-		modifier = {
-			factor = 1.5
-			any_rival_country = {
-				army_strength = {
-					who = root
-					value = 1.5
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			has_idea_group = quantity_ideas
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { max_manpower = 40 }
-		}
-		modifier = {
-			factor = 0.5
-			max_manpower = 200
-		}
-		modifier = {
-			factor = 2
-			estate_territory = {
-				estate = estate_polish_nobility
-				territory = 50
-			}
-		}
-		modifier = {
-			factor = 1.5
-			estate_territory = {
-				estate = estate_polish_nobility
-				territory = 40
-			}
-		}
-		modifier = {
-			factor = 1.5
-			estate_territory = {
-				estate = estate_polish_nobility
-				territory = 30
-			}
-		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				estate_territory = {
-					estate = estate_polish_nobility
-					territory = 15
-				}
-			}
-		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				estate_territory = {
-					estate = estate_polish_nobility
-					territory = 10
-				}
-			}
-		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				estate_territory = {
-					estate = estate_polish_nobility
-					territory = 5
-				}
-			}
-		}
-		modifier = {
-			factor = 0.75
-			NOT = { current_income_balance = 5 }
-		}
-		modifier = {
-			factor = 0.75
-			NOT = { current_income_balance = 0 }
-		}
-		modifier = {
-			factor = 0.5
-			is_absolutism_active = yes
-		}
-	}
 }
 
 estate_polish_nobility_advisors = {
@@ -257,21 +112,6 @@ estate_polish_nobility_advisors = {
 	benefits = {
 		mil_advisor_cost = -0.1
 	}
-	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0.5
-			is_absolutism_active = yes
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { mil = 2 }
-		}
-		modifier = {
-			factor = 0.8
-			mil = 5
-		}
-	}
 }
 
 estate_polish_nobility_right_of_counsel = {
@@ -291,13 +131,6 @@ estate_polish_nobility_right_of_counsel = {
 	}
 	benefits = {
 	}
-	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0
-			is_absolutism_active = yes
-		}
-	}
 }
 
 estate_polish_nobility_monopoly_of_metals = {
@@ -397,9 +230,6 @@ estate_polish_nobility_monopoly_of_metals = {
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.5 }
 	}
-	ai_will_do = {
-		factor = 0
-	}
 }
 
 estate_polish_nobility_monopoly_of_gems = {
@@ -490,9 +320,6 @@ estate_polish_nobility_monopoly_of_gems = {
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.7 }
 	}
-	ai_will_do = {
-		factor = 0
-	}
 }
 
 estate_polish_nobility_monopoly_of_gems = {
@@ -582,9 +409,6 @@ estate_polish_nobility_monopoly_of_gems = {
 	cooldown_years = 10
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.7 }
-	}
-	ai_will_do = {
-		factor = 0
 	}
 }
 
@@ -684,9 +508,6 @@ estate_polish_nobility_monopoly_of_metals = {
 	cooldown_years = 10
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.5 }
-	}
-	ai_will_do = {
-		factor = 0
 	}
 }
 
@@ -788,9 +609,6 @@ estate_polish_nobility_golden_liberty = {
 		exempt_from_seize_land
 		can_give_agendas_without_interaction
 	}
-	ai_will_do = {
-		factor = 0
-	}
 }
 
 estate_polish_nobility_greater_golden_liberty = {
@@ -804,6 +622,7 @@ estate_polish_nobility_greater_golden_liberty = {
 			has_reform = h_reform_elective_monarchy
 			has_country_flag = 'purged_bajorais'
 		}
+			NOT = { has_estate_privilege = estate_polish_nobility_golden_liberty }
 		government = monarchy
 	}
 	can_revoke = {
@@ -877,9 +696,6 @@ estate_polish_nobility_greater_golden_liberty = {
 		exempt_from_seize_land
 		can_give_agendas_without_interaction
 	}
-	ai_will_do = {
-		factor = 0
-	}
 }
 
 
@@ -910,9 +726,6 @@ estate_polish_nobility_nieszawa_privileges = {
 	}
 	benefits = {
 		stability_cost_modifier = -0.2
-	}
-	ai_will_do = {
-		factor = 0
 	}
 }
 
@@ -948,9 +761,6 @@ estate_polish_nobility_pacta_conventa = {
 		country_military_power = 1
 		global_unrest = -1
 	}
-	ai_will_do = {
-		factor = 0
-	}
 }
 
 estate_polish_nobility_statutory_rights = {
@@ -979,10 +789,6 @@ estate_polish_nobility_statutory_rights = {
 	}
 	benefits = {
 	}
-	ai_will_do = {
-		factor = 0
-	}
-
 	cooldown_years = 20
 }
 
@@ -1007,64 +813,34 @@ estate_polish_nobility_land_rights = {
 	benefits = {
 		governing_capacity = 100
 	}
-	ai_will_do = {
-		factor = 5
-		modifier = {
-			factor = 1.4
-			num_of_territories = 5
-		}
-		modifier = {
-			factor = 1.5
-			num_of_territories = 10
-		}
-		modifier = {
-			factor = 1.5
-			num_of_territories = 15
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { crown_land_share = 25 }
-				estate_influence = {
-					estate = estate_polish_nobility
-					influence = 75
-				}
+}
+estate_polish_nobility_seize_land = {
+	icon = privilege_grant_autonomy
+	land_share = -5
+	loyalty = -0.10
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+				estate = estate_lithuanian_nobility
+				value = 4
 			}
-			NOT = { has_estate_privilege = estate_polish_nobility_land_rights }
 		}
-		modifier = {
-			factor = 0
-			NOT = { num_of_territories = 1 }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 40 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 60 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_polish_nobility_land_rights }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 30 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 50 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_polish_nobility_land_rights }
-		}
-		modifier = {
-			factor = 0.8
-			is_absolutism_active = yes
+		OR {
+			has_estate_privilege = estate_polish_nobility_golden_liberty 
+			has_estate_privilege = estate_polish_nobility_greater_golden_liberty
 		}
 	}
+	on_granted = {
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = -20
+		}
+	}
+	cooldown_years = 5 	
 }
-
+##############################
+##lithuanian estate privileges
+##############################
 estate_lithuanian_nobility_land_rights = {
 	icon = privilege_grant_autonomy
 	land_share = 5
@@ -1085,62 +861,6 @@ estate_lithuanian_nobility_land_rights = {
 	}
 	benefits = {
 		governing_capacity = 100
-	}
-	ai_will_do = {
-		factor = 5
-		modifier = {
-			factor = 1.4
-			num_of_territories = 5
-		}
-		modifier = {
-			factor = 1.5
-			num_of_territories = 10
-		}
-		modifier = {
-			factor = 1.5
-			num_of_territories = 15
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { crown_land_share = 25 }
-				estate_influence = {
-					estate = estate_lithuanian_nobility
-					influence = 75
-				}
-			}
-			NOT = { has_estate_privilege = estate_lithuanian_nobility_land_rights }
-		}
-		modifier = {
-			factor = 0
-			NOT = { num_of_territories = 1 }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 40 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 60 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_lithuanian_nobility_land_rights }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 30 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 50 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_lithuanian_nobility_land_rights }
-		}
-		modifier = {
-			factor = 0.8
-			is_absolutism_active = yes
-		}
 	}
 }
 
@@ -1168,90 +888,6 @@ estate_lithuanian_nobility_levies = {
 	}
 	penalties = {
 	}
-	ai_will_do = {
-		factor = 5
-		modifier = {
-			factor = 1.5
-			any_rival_country = {
-				army_strength = {
-					who = root
-					value = 1.5
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			has_idea_group = quantity_ideas
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { max_manpower = 40 }
-		}
-		modifier = {
-			factor = 0.5
-			max_manpower = 200
-		}
-		modifier = {
-			factor = 2
-			estate_territory = {
-				estate = estate_lithuanian_nobility
-				territory = 50
-			}
-		}
-		modifier = {
-			factor = 1.5
-			estate_territory = {
-				estate = estate_lithuanian_nobility
-				territory = 40
-			}
-		}
-		modifier = {
-			factor = 1.5
-			estate_territory = {
-				estate = estate_lithuanian_nobility
-				territory = 30
-			}
-		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				estate_territory = {
-					estate = estate_lithuanian_nobility
-					territory = 15
-				}
-			}
-		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				estate_territory = {
-					estate = estate_lithuanian_nobility
-					territory = 10
-				}
-			}
-		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				estate_territory = {
-					estate = estate_lithuanian_nobility
-					territory = 5
-				}
-			}
-		}
-		modifier = {
-			factor = 0.75
-			NOT = { current_income_balance = 5 }
-		}
-		modifier = {
-			factor = 0.75
-			NOT = { current_income_balance = 0 }
-		}
-		modifier = {
-			factor = 0.5
-			is_absolutism_active = yes
-		}
-	}
 }
 
 
@@ -1271,13 +907,6 @@ estate_lithuanian_nobility_right_of_counsel = {
 	penalties = {
 	}
 	benefits = {
-	}
-	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0
-			is_absolutism_active = yes
-		}
 	}
 }
 
@@ -1367,9 +996,6 @@ estate_lithuanian_nobility_monopoly_of_livestock = {
 	cooldown_years = 10
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.6 }
-	}
-	ai_will_do = {
-		factor = 0
 	}
 }
 
@@ -1461,9 +1087,6 @@ estate_lithuanian_nobility_monopoly_of_gems = {
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.7 }
 	}
-	ai_will_do = {
-		factor = 0
-	}
 }
 
 estate_lithuanian_nobility_strong_duchies = {
@@ -1512,13 +1135,6 @@ estate_lithuanian_nobility_strong_duchies = {
 	benefits = {
 		diplomatic_upkeep = 1
 		reduced_liberty_desire = 5
-	}
-	ai_will_do = {
-		factor = 1
-		modifier = { #will lose it via invalid sooner or later
-			factor = 10
-			has_estate_privilege = estate_lithuanian_nobility_strong_duchies
-		}
 	}
 }
 
@@ -1618,9 +1234,6 @@ estate_lithuanian_nobility_golden_liberty = {
 		exempt_from_seize_land
 		can_give_agendas_without_interaction
 	}
-	ai_will_do = {
-		factor = 0
-	}
 }
 
 estate_lithuanian_nobility_nieszawa_privileges = {
@@ -1650,9 +1263,6 @@ estate_lithuanian_nobility_nieszawa_privileges = {
 	}
 	benefits = {
 		stability_cost_modifier = -0.2
-	}
-	ai_will_do = {
-		factor = 0
 	}
 }
 
@@ -1687,9 +1297,6 @@ estate_lithuanian_nobility_pacta_conventa = {
 		country_military_power = 1
 		global_unrest = -1
 	}
-	ai_will_do = {
-		factor = 0
-	}
 }
 
 estate_lithuanian_nobility_statutory_rights = {
@@ -1718,10 +1325,6 @@ estate_lithuanian_nobility_statutory_rights = {
 	}
 	benefits = {
 	}
-	ai_will_do = {
-		factor = 0
-	}
-
 	cooldown_years = 20
 }
 
@@ -1746,60 +1349,59 @@ estate_lithuanian_nobility_land_rights = {
 	benefits = {
 		governing_capacity = 100
 	}
-	ai_will_do = {
-		factor = 5
-		modifier = {
-			factor = 1.4
-			num_of_territories = 5
-		}
-		modifier = {
-			factor = 1.5
-			num_of_territories = 10
-		}
-		modifier = {
-			factor = 1.5
-			num_of_territories = 15
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { crown_land_share = 25 }
-				estate_influence = {
-					estate = estate_lithuanian_nobility
-					influence = 75
-				}
+}
+estate_lithuanian_nobility_conscript_troops = {
+	icon = privilege_supply_arms
+	influence = 0.05
+	loyalty = -0.1
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_lithuanian_nobility
+			value = 4
 			}
-			NOT = { has_estate_privilege = estate_lithuanian_nobility_land_rights }
-		}
-		modifier = {
-			factor = 0
-			NOT = { num_of_territories = 1 }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 40 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 60 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_lithuanian_nobility_land_rights }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 30 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 50 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_lithuanian_nobility_land_rights }
-		}
-		modifier = {
-			factor = 0.8
-			is_absolutism_active = yes
 		}
 	}
+	on_granted = {
+		add_yearly_manpower = 2
+		if = {
+			limit = {
+				tag = POL
+			}
+			custom_tooltip = flavor_lit.bop.plus1
+			change_variable = {
+				which = balanceOfPower
+				value = 1
+			}		
+		}
+	}
+	
+	penalties  = {
+		discipline = -0.025
+	}
+	
+	cooldown_years = 5 	
+}
+estate_lithuanian_nobility_seize_land = {
+	icon = privilege_grant_autonomy
+	land_share = -5
+	loyalty = -0.010
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+				estate = estate_lithuanian_nobility
+				value = 4
+			}
+		}
+		OR {
+			has_estate_privilege = estate_lithuanian_nobility_golden_liberty 
+		}
+	}
+	on_granted = {
+		add_estate_loyalty = {
+			estate = estate_lithuanian_nobility
+			loyalty = -20
+		}
+	}
+	cooldown_years = 5 	
 }
