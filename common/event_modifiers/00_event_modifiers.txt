@@ -11,13 +11,13 @@ national_bank_inflation = {
 }
 
 the_proper_old_ways = {
-	#raze_power_gain = 0.20
+	raze_power_gain = 0.20
 	land_morale = 0.1
-	global_trade_goods_size_modifier = -0.1
+	global_trade_goods_size_modifier = -0.25
 }
 
 eth_mil_aid_from_portugal = {
-	land_morale = 0.10
+	land_morale = 0.25
 	mil_tech_cost_modifier = -0.25
 	discipline = 0.05
 	global_manpower_modifier = 0.25
@@ -127,8 +127,8 @@ restrict_serfdom = {
 }
 
 disarmament = {
-	global_manpower_modifier = -0.25
-	land_morale = -0.25
+	global_manpower_modifier = -0.15
+	land_morale = -0.1
 }
 
 support_monarch = {
@@ -208,19 +208,19 @@ suppress_minority = {
 }
 
 army_reform = {
-	land_morale = 0.10
+	land_morale = 0.20
 	mil_tech_cost_modifier = -0.10
 }
 naval_reform = {
-	naval_morale = 0.10
+	naval_morale = 0.20
 	dip_tech_cost_modifier = -0.10
 }
 
 military_reform = {
 	dip_tech_cost_modifier = -0.05
 	mil_tech_cost_modifier = -0.05
-	naval_morale = 0.05
-	land_morale = 0.05
+	naval_morale = 0.10
+	land_morale = 0.10
 }
 
 competitive_advantage = {
@@ -308,7 +308,7 @@ cut_government_investments = {
 }
 
 debt_funding_plan = {
-	interest = -0.25
+	interest = -0.5
 }
 
 tax_reform = {
@@ -384,7 +384,7 @@ trade_disaster = {
 }
 
 medical_evolution = {
-	trade_goods_size_modifier = 0.25
+	local_development_cost = -0.15
 }
 
 trade_income_increase = {
@@ -612,7 +612,7 @@ out_of_date_commerce = {
 }
 
 excellent_administration = {
-	global_tariffs = 0.15
+	global_tariffs = 0.2
 }
 
 corrupt_viceroys = {
@@ -826,8 +826,9 @@ hire_privateers = {
 counter_reformation = {
 	global_heretic_missionary_strength = 0.03
 	papal_influence = 0.5
-	missionaries = 1
-	global_unrest = 1
+	missionaries = 2
+	technology_cost = 0.05
+	idea_cost = 0.05
 	religion = yes
 }
 
@@ -886,7 +887,7 @@ british_merchant_navy = {
 }
 
 britanna_rules_the_waves = {
-	naval_forcelimit_modifier = 0.20
+	leader_naval_manuever = 1
 }
 
 
@@ -1002,8 +1003,7 @@ the_staple_port = {
 }
 
 the_theme_system = {
-	governing_capacity = 250
-	global_autonomy = -0.05
+	global_manpower_modifier = 0.25
 }
 
 severe_trade_crisis = {
@@ -1068,7 +1068,7 @@ the_suffragan_bishop_act = {
 
 the_conventicle_act = {
 	tolerance_heretic = -1
-	global_missionary_strength = 0.005
+	global_missionary_strength = 0.01
 	religion = yes
 }
 
@@ -1152,32 +1152,31 @@ more_tariffs = {
 }
 
 master_of_mint_boost = {
-	inflation_reduction = 0.2
+	inflation_reduction = 0.1
 }
 
 navigator_boost = {
 	range = 0.1
-	naval_maintenance_modifier = -0.1
 }
 
 grand_captain_boost = {
-	land_morale = 0.10
+	land_morale = 0.20
 }
 
 army_organiser_boost = {
-	land_forcelimit_modifier = 0.2
+	land_forcelimit_modifier = 0.1
 }
 
 commandant_boost = {
-	discipline = 0.05
+	discipline = 0.1
 }
 
 quartermaster_boost = {
-	reinforce_speed = 0.25
+	reinforce_speed = 0.15
 }
 
 recruitmaster_boost = {
-	global_manpower_modifier = 0.2
+	global_manpower_modifier = 0.1
 }
 
 fortification_expert_boost = {
@@ -1187,7 +1186,6 @@ fortification_expert_boost = {
 
 inquisitor_boost = {
 	global_spy_defence = 0.1
-	missionaries = 1
 }
 
 religious_migration = {
@@ -1283,7 +1281,7 @@ enforcing_heritage = {
 }
 
 sunday_schools = {
-	global_missionary_strength = 0.005
+	global_missionary_strength = 0.01
 	religion = yes
 }
 
@@ -1311,7 +1309,6 @@ smugglers_dominating = {
 	global_tax_modifier = -0.1
 	trade_efficiency = -0.1
 }
-
 
 power_to_nobles = {
 	global_tax_modifier = -0.1
@@ -1408,7 +1405,7 @@ guild_of_st_luke = {
 }
 
 the_last_joust = {
-	army_tradition = 0.5
+	army_tradition = 1
 	prestige = 0.5
 	land_morale = 0.1
 }
@@ -1460,7 +1457,7 @@ adler_von_lubeck = {
 	heavy_ship_cost = -0.02
 	dip_tech_cost_modifier = -0.02
 	global_ship_recruit_speed = -0.1
-	naval_morale = 0.10
+	naval_morale = 0.2
 }
 
 south_german_organ_tradition = {
@@ -1483,7 +1480,7 @@ conversion_zeal = {
 }
 
 religious_zeal_at_conv = {
-	local_missionary_strength = -0.05
+	local_missionary_strength = -1
 }
 
 papal_sanction_for_church_taxes = {
@@ -1493,13 +1490,12 @@ papal_sanction_for_church_taxes = {
 
 papal_indulgence = {
 	legitimacy = 1
-	reinforce_speed = 0.15
 	religion = yes
 }
 
 usury_forgiven = {
 	interest = -0.25
-	inflation_reduction = 0.2
+	inflation_reduction = 0.1
 	religion = yes
 }
 
@@ -1509,7 +1505,6 @@ severe_tax_reduction = {
 
 papal_blessing = {
 	prestige = 1
-	global_missionary_strength = 0.01
 	religion = yes
 }
 
@@ -1520,7 +1515,6 @@ papal_sanction_for_holy_war = {
 
 papal_legate = {
 	diplomatic_reputation = 1
-	diplomatic_upkeep = 1
 	religion = yes
 }
 
@@ -1705,6 +1699,7 @@ mercantilism_modifier = {
 freetrade_modifier = {
 	trade_efficiency = 0.1
 	global_spy_defence = -0.1
+	global_institution_spread = 0.2
 }
 
 offensive_modifier = {
@@ -2228,15 +2223,15 @@ rebel_leaders_executed = {
 }
 
 wotr_local_support = {
-	local_unrest = -3
+	local_unrest = -5
 }
 
 wotr_local_support_for_lancaster = {
-	local_unrest = 10
+	local_unrest = 8
 }
 
 wotr_local_support_for_york = {
-	local_unrest = 10
+	local_unrest = 8
 }
 
 wotr_one_year_timer = { }
@@ -2246,7 +2241,7 @@ local_concessions = {
 }
 
 disgruntled_nobles = {
-	local_unrest = 1
+	local_unrest = 2
 }
 
 rebel_refugees = {
@@ -2291,13 +2286,13 @@ swedish_military_reforms = {
 }
 
 swedish_mercenary_core = {
-	merc_maintenance_modifier = -0.15
-	mercenary_manpower = 0.15
+	merc_maintenance_modifier = -0.1
+	mercenary_manpower = 0.5
 }
 
 swedish_naval_reforms = {
-	global_ship_cost = -0.1
-	naval_morale = 0.1
+	heavy_ship_cost = -0.1
+	naval_morale = 0.05
 }
 
 swedish_mercantile_reforms = {
@@ -2663,7 +2658,7 @@ colonial_governors = {
 }
 
 centralized_colony_rule = {
-	global_tariffs = -0.15
+	global_tariffs = -0.25
 	local_unrest = 3
 }
 
@@ -2955,8 +2950,8 @@ tur_janissary = {
 }
 
 hun_black_army = {
-	mercenary_discipline = 0.075
-	army_tradition = 0.5
+	land_forcelimit_modifier = -0.05
+	nobles_influence_modifier = -0.1
 }
 
 mercenary_concessions = {
@@ -2995,7 +2990,7 @@ hun_reformed_colleges = {
 }
 
 hun_counter_reformation = {
-	global_missionary_strength = 0.01 
+	global_missionary_strength = 0.01
 	papal_influence = 2
 }
 
@@ -3069,8 +3064,6 @@ boh_strong_nobles = {
 boh_hussite_king = {
 	diplomatic_reputation = -1
 	papal_influence = -5
-	ae_impact = 0.1
-	tolerance_own = 2
 	infantry_power = 0.1 #Hussite tactics
 }
 
@@ -3244,8 +3237,7 @@ pru_enlightenment_reforms = {
 
 }
 pru_prutenic_tables = {
-	technology_cost = -0.25
-	idea_cost = -0.25
+	technology_cost = -0.1
 }
 pru_reaction_reforms = {
 	technology_cost = -0.25
@@ -3288,26 +3280,10 @@ pol_pact_conventa = {
 	war_exhaustion_cost = 0.5
 	inflation_action_cost = 0.5
 }
-pol_sejm_veto = {
-	idea_cost = 0.1
-	technology_cost = 0.1
-	stability_cost_modifier = 0.1
-}
-pol_sejm_comply_policies = {
-	technology_cost = -0.10
-	idea_cost = -0.10
-	inflation_reduction = 0.1
-}
-
-pol_sejm_refuse_troops = {
-	global_regiment_recruit_speed = 0.5
-	manpower_recovery_speed = -0.5
-}
-
 
 pol_sigismunds_column = {
 	prestige = 0.5
-	idea_cost = -0.10	
+	idea_cost = -0.10
 }
 pol_merkuriusz_polski_ordynaryjny = {
 	technology_cost = -0.05
@@ -3723,7 +3699,7 @@ pap_moderate_inquisition = {
 
 }
 pap_burned_heretic = {
-	papal_influence = 2
+	tolerance_own = 1
 }
 
 # Manchu
@@ -3838,7 +3814,7 @@ diplo_fuax_pas = {
 }
 
 mercenaries_to_the_standard = {
-	mercenary_manpower = 0.2
+	mercenary_manpower = 0.5
 }
 
 for_freedom = {
@@ -3909,7 +3885,7 @@ love_of_devoted = {
 }
 
 full_elan = {
-	land_morale = 0.1
+	land_morale = 0.15
 }
 
 finest_infantry = {
@@ -3924,7 +3900,7 @@ trust_from_mercs = {
 }
 
 glut_of_mercs = {
-	mercenary_manpower = 0.2
+	mercenary_manpower = 0.5
 }
 
 generous_terms = {
@@ -3940,7 +3916,7 @@ payment_demands = {
 }
 
 relentless_drill = {
-	land_morale = 0.1
+	land_morale = 0.15
 }
 
 regimental_pride = {
@@ -4346,7 +4322,7 @@ fortezza_di_sant_andrea = {
 }
 
 ven_monte_nuovo = {
-	interest = -0.25
+	interest = -0.5
 }
 
 ven_venetian_first = {
@@ -4828,10 +4804,10 @@ true_mahdi = {
 }
 
 unified_islam = {
+	stability_cost_modifier = -0.2
+	global_missionary_strength = 0.02
 	tolerance_own = 2
-	tolerance_heretic = 2
-	global_missionary_strength = 0.03
-	#land_morale = 0.10
+	tolerance_heretic = 1
 	religion = yes
 }
 
@@ -5138,7 +5114,7 @@ restricted_colonial_expansion = {
 }
 
 revolutionary_spirit = {
-	land_forcelimit_modifier = 0.1
+	land_forcelimit_modifier = 0.25
 }
 
 penal_colony = {
@@ -5748,7 +5724,7 @@ terrorized_by_mercenaries = {
 
 curtailed_mercenaries = {
 	merc_maintenance_modifier = 0.3
-	mercenary_manpower = -0.15
+	mercenary_cost = 0.1
 }
 
 post_war_tax_relief = {
@@ -5920,7 +5896,7 @@ arw_preparing_defences = {
 }
 
 joined_league_war = {
-	army_tradition = 0.25
+	army_tradition = 0.5
 	mil_tech_cost_modifier = -0.05
 }
 
@@ -6320,12 +6296,12 @@ rites_of_admission_modifier = {
 
 #Tengri
 black_shamanism_modifier = {
-	global_missionary_strength = 0.03
+	global_missionary_strength = 0.02
 	religion = yes
 }
 
 yellow_shamanism_modifier = {
-	tolerance_heathen = 3
+	tolerance_heathen = 2
 	religion = yes
 }
 
@@ -6644,40 +6620,38 @@ wih_heonanseolheon = {
 pap_swiss_guard = {
 	global_manpower_modifier = 0.1
 }
-mil_vatican_library = { 
+mil_vatican_library = {
 	mil_tech_cost_modifier = -0.05
-	drill_decay_modifier = -0.25
+	army_tradition_from_battle = 0.5
 }
-dip_vatican_library = { 
+dip_vatican_library = {
 	dip_tech_cost_modifier = -0.05
-	diplomatic_upkeep = 1
-	diplomatic_annexation_cost = -0.1
+	diplomatic_reputation = 1
 }
-adm_vatican_library = { 
+adm_vatican_library = {
 	adm_tech_cost_modifier = -0.05
 	global_unrest = -2
-	global_trade_goods_size_modifier = 0.1
 }
 pap_sistine_chapel = {
 	devotion = 0.1
 }
-pap_sistinechapel_botticelli = { 
+pap_sistinechapel_botticelli = {
 	devotion = 0.1
 	global_unrest = -1
 }
-pap_sistinechapel_ghirlandaio = { 
+pap_sistinechapel_ghirlandaio = {
 	devotion = 0.1
 	prestige = 0.5
 }
-pap_sistinechapel_perugino = { 
+pap_sistinechapel_perugino = {
 	devotion = 0.1
 	improve_relation_modifier = 0.1
 }
-pap_sistinechapel_michelangelo = { 
+pap_sistinechapel_michelangelo = {
 	devotion = 0.1
 	idea_cost = -0.05
 }
-pap_sistinechapel_decorated = { 
+pap_sistinechapel_decorated = {
 	devotion = 0.1
 	global_missionary_strength = 0.01
 }
@@ -6729,6 +6703,7 @@ dev_confiscated_reformed_church = {
 
 dev_educated_women = {
 	advisor_cost = -0.1
+	female_advisor_chance = 0.2
 }
 
 dev_religious_cleansing = {
@@ -6764,7 +6739,7 @@ dev_balance_tax_agriculture = {
 	production_efficiency = 0.05
 }
 
-dev_hadith_madrasa = { 
+dev_hadith_madrasa = {
 	global_missionary_strength = 0.02
 }
 
@@ -7310,6 +7285,7 @@ fc_mercenary_contracts = {
 fc_city_league = {
 	global_trade_power = 0.05
 	global_manpower_modifier = 0.1
+	land_forcelimit_modifier = 0.25
 	global_unrest = -1
 }
 fc_calvinist_rebels = {
@@ -7319,6 +7295,7 @@ fc_calvinist_rebels = {
 fc_league_reforms = {
 	idea_cost = -0.05
 	global_trade_power = 0.05
+	reform_progress_growth = 0.1
 }
 
 fc_treatyconference_timer = { }
@@ -7567,7 +7544,7 @@ restored_holy_see_mission = {
 }
 
 solidified_papal_relations_modifier = {
-	papal_influence = 0.5
+	papal_influence = 1
 }
 
 force_converted_province_mission = {
@@ -7594,8 +7571,8 @@ liberator_of_jerusalem = {
 }
 
 east_india_trade_rush = {
-	trade_efficiency = 0.3
-	global_trade_power = 0.02
+	trade_efficiency = 0.15
+	global_trade_power = 0.2
 }
 
 faster_integration = {
@@ -7709,8 +7686,8 @@ british_ambition = {
 }
 
 completing_the_reconquista = {
-	land_morale = 0.1
-	manpower_recovery_speed = 0.1
+	land_morale = 0.15
+	manpower_recovery_speed = 0.15
 }
 
 death_of_lithuania = {
@@ -7754,7 +7731,8 @@ fought_back_the_hungarians = {
 
 #China:
 uniter_of_the_manchus = {
-	army_tradition = 1
+	manpower_recovery_speed = 0.1
+	land_morale = 0.1
 }
 
 #FRA:
@@ -7954,7 +7932,7 @@ honest_administrators = {
 }
 
 embezzled_goods = {
-	local_production_efficiency = -0.2
+	local_production_efficiency = -0.35
 }
 
 distrusted_merchants = {
@@ -8254,9 +8232,7 @@ power_to_advisors = {
 #Copts
 
 the_faithful_liberated = {
-	local_missionary_strength = 0.03
-	local_missionary_maintenance_cost = -0.5
-	local_tax_modifier = 0.25
+	local_missionary_strength = 0.02
 }
 
 enthusiastic_believer = {
@@ -8354,7 +8330,7 @@ rebuilding_efforts = {
 ancestral_tomb = {
 	legitimacy = 0.5
 	horde_unity = 0.5
-	republican_tradition = 0.5
+	republican_tradition = 0.25
 	devotion = 0.25
 	local_autonomy = 0.08
 }
@@ -8557,8 +8533,8 @@ dissatisfied_jews = {
 
 #Consort Events
 domain_of_spouses_family = {
-#	local_autonomy = 0.1
-#	local_missionary_strength = -0.05
+	local_autonomy = 0.1
+	local_missionary_strength = -0.05
 	local_unrest = -3
 }
 
@@ -8944,15 +8920,15 @@ harmony_banned_book = {
 #Shinto Incidents
 
 wokou_closed_ending = {
-	global_prov_trade_power_modifier = 0.15
+	global_prov_trade_power_modifier = 0.2
 }
 
 wokou_no_effort_ending = {
-	trade_efficiency = 0.1
+	trade_efficiency = 0.2
 }
 
 wokou_turned_to_navy = {
-	ship_durability = 0.05
+	ship_durability = 0.2
 }
 
 wokou_pirate_stronghold_hostile = {
@@ -8977,7 +8953,7 @@ urbanization_middle_road = {
 }
 
 urbanization_in_order = {
-	global_trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.15
 }
 
 movement_restrictions = {
@@ -8995,12 +8971,12 @@ enraged_ikko_ikki = {
 }
 
 ikkos_crushed = {
-	global_unrest = -1
+	global_unrest = -2
 	global_autonomy = -0.05
 }
 
 ikkos_empowered = {
-	global_manpower_modifier = 0.1
+	global_manpower_modifier = 0.15
 }
 
 support_of_ikkos = {
@@ -9048,11 +9024,11 @@ incident_end_open_ports = {
 }
 
 incident_end_trade_with_west = {
-	trade_efficiency = 0.1
+	trade_efficiency = 0.15
 }
 
 incident_end_dejima = {
-	trade_efficiency = 0.05
+	trade_efficiency = 0.1
 	tolerance_own = 2
 }
 
@@ -9103,17 +9079,18 @@ guns_commonplace = {
 }
 
 traditional_warfare = {
-	land_morale = 0.1
+	land_morale = 0.15
 }
 
 firearm_restrictions = {
-	global_manpower_modifier = -0.2
+	global_manpower_modifier = -0.15
 	land_morale = 0.1
 }
 
 christian_ruler = {
 	tolerance_own = -1
-	global_institution_spread = 0.2
+	global_institution_spread = 0.05
+	trade_efficiency = 0.1
 }
 
 shinto_local_christian_mission = {
@@ -9134,7 +9111,7 @@ shinto_converted_to_mahayana = {
 }
 
 shinto_kirishitan_realm = {
-	advisor_cost = -0.15
+	advisor_cost = -0.25
 }
 
 significant_christian_presence = {
@@ -9342,7 +9319,7 @@ regimental_town = {
 }
 
 wargames = {
-	yearly_army_professionalism = 0.005
+	yearly_army_professionalism = 0.01
 	land_maintenance_modifier = 0.1
 }
 
@@ -9356,13 +9333,13 @@ reassessement_provinces = {
 }
 
 gunpowder_core = {
-	drill_gain_modifier = 0.5
-	land_maintenance_modifier = 0.1
+	drill_gain_modifier = 0.4
+	land_maintenance_modifier = 0.15
 }
 
 standardized_uniforms_modifier = {
-	drill_gain_modifier = 0.5
-	land_maintenance_modifier = 0.05
+	drill_gain_modifier = 0.4
+	land_maintenance_modifier = 0.1
 }
 
 elite_revolutionary_guard_modifier = {
@@ -9467,7 +9444,7 @@ local_sufi_chased_away = {
 }
 
 courtly_disorder = {
-	trade_goods_size_modifier = -0.25 
+	trade_goods_size_modifier = -0.25
 	local_autonomy = 0.05
 }
 
@@ -9563,7 +9540,7 @@ good_pious_mufti_modifier = {
 	tolerance_own = 1
 	yearly_corruption = -0.05
 }
-	
+
 bad_sufi_modifier = {
 	religion = yes
 	legitimacy = 0.5
@@ -10196,6 +10173,7 @@ nonconformist_anglican_monarch = {
 angry_nonconformists = {
 	tolerance_heretic = -2
 }
+
 # Indian Estates
 look_up_purbias = {
 	is_rajput_modifier = yes
@@ -10221,8 +10199,8 @@ marathi_poet_saint_suppressed = {
 }
 
 bargi_giri = {
-	cavalry_power = 0.10
-	movement_speed = 0.10
+	cavalry_power = 0.15
+	movement_speed = 0.15
 }
 
 marathi_expensive_horses = {
@@ -10356,7 +10334,7 @@ passive_resistance = {
 }
 
 preferred_jain_bankers = {
-	interest = -0.25
+	interest = -0.5
 }
 
 preferred_brahmin_bankers = {
@@ -10364,7 +10342,7 @@ preferred_brahmin_bankers = {
 }
 
 jain_administration = {
-	interest = -0.25
+	interest = -0.5
 	yearly_corruption = -0.02
 }
 
@@ -10432,7 +10410,7 @@ rajputs_curtailed_modifier = {
 }
 
 maratha_benign_neglect = {
-	local_manpower_modifier = 0.15
+	local_manpower_modifier = 0.25
 }
 
 # Investment events
@@ -10509,7 +10487,7 @@ failed_monsoon = {
 }
 
 good_monsoon_modifier = {
-	local_tax_modifier = 0.2
+	local_development_cost = -0.2
 }
 
 company_drought = {
@@ -10544,8 +10522,8 @@ swiss_guard_last_stand = {
 }
 
 expelled_minority = {
-	local_missionary_strength = -1
-	local_culture_conversion_cost = 1
+	local_missionary_strength = -3
+	local_culture_conversion_cost = 3
 }
 
 ##################################################
@@ -10875,18 +10853,6 @@ estate_nobles_monopoly_of_livestock_mod = {
 	local_production_efficiency = -10
 }
 
-estate_lithuanian_nobility_monopoly_of_livestock_mod = {
-	local_production_efficiency = -10
-}
-
-estate_polish_nobility_monopoly_of_metals_mod = {
-	local_production_efficiency = -10
-}
-
-estate_polish_nobility_monopoly_of_gems_mod = {
-	local_production_efficiency = -10
-}
-
 estate_nobles_monopoly_of_gems_mod = {
 	local_production_efficiency = -10
 }
@@ -11191,7 +11157,7 @@ revolution_higher_taxes_for_debts = {
 }
 
 revolution_administrative_reforms = {
-	interest = -0.5
+	interest = -1
 	inflation_reduction = 0.1
 }
 
@@ -11213,11 +11179,11 @@ colony_inspired_by_revolution = {
 
 estate_cossacks_prime_herding_rights_mod = {
 	local_tax_modifier = -0.5
-	local_manpower_modifier = 0.5
+	local_manpower_modifier = 1
 }
 
 estate_cossacks_exploration_expedition_mod = {
-	local_development_cost = -0.1
+	local_development_cost = -0.15
 }
 
 shortage_of_officers = {
