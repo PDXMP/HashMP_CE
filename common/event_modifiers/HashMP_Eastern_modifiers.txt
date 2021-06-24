@@ -48,7 +48,40 @@ crimean_invasion = {
 	land_morale = 0.15
 }
 
+pol_sejm_veto = {
+	state_maintenance_modifier = 0.1
+	technology_cost = 0.1
+	stability_cost_modifier = 0.1
+}
+pol_sejm_comply_policies = {
+	technology_cost = -0.10
+	global_autonomy = -0.05
+	inflation_reduction = 0.1
+}
 
+pol_sejm_refuse_troops = {
+	land_morale = -0.05
+	army_tradition = -1
+}
+
+pol_bajorais_veto = {
+	core_creation = 0.15
+	global_tax_modifier = -0.2
+	stability_cost_modifier = 0.1
+}
+pol_bajorais_comply_policies = {
+	manpower_recovery_speed = 0.20
+	global_autonomy = -0.05
+	inflation_reduction = 0.1
+}
+
+pol_bajorais_refuse_troops = {
+	global_regiment_recruit_speed = 0.20
+	manpower_recovery_speed = -0.50
+}
+
+pol_bajorais_refuse_timer = { }
+pol_bajorais_veto_timer = { }
 ########################################
 # Polish Lithuanian civil war disaster modifiers
 ########################################
