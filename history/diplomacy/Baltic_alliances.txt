@@ -22,34 +22,34 @@ vassal = {
 	end_date = 1526.3.9
 }
 
-# LIT and CHR
+# POL and CHR
 vassal = {
-	first = LIT
+	first = POL
 	second = CHR
 	start_date = 1444.1.1
 	end_date = 1526.3.9
 }
 
-# LIT and ZAZ
+# POL and ZAZ
 march = {
-	first = LIT
+	first = POL
 	second = ZAZ
 	start_date = 1444.1.1
 	end_date = 1526.3.9
 }
 
-# LIT and SMO
+# POL and SMO
 march = {
-	first = LIT
+	first = POL
 	second = SMO
 	start_date = 1444.1.1
 	end_date = 1526.3.9
 }
 
 
-# LIT and PLT
+# POL and PLT
 march = {
-	first = LIT
+	first = POL
 	second = PLT
 	start_date = 1444.1.1
 	end_date = 1526.3.9
