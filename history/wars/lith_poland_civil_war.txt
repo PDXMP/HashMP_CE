@@ -11,6 +11,7 @@ war_goal = {
 	add_attacker = PLT
 	add_attacker = SMO
 	add_defender = LIT
+	add_defender = POL
 }
 
 
@@ -21,4 +22,5 @@ war_goal = {
 	rem_attacker = PLT
 	rem_attacker = SMO
 	rem_defender = LIT
+	add_defender = POL
 }
