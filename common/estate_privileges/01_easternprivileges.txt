@@ -754,7 +754,7 @@ estate_polish_nobility_pacta_conventa = {
 	penalties = {
 		war_exhaustion_cost = 0.10
 		inflation_action_cost = 0.10
-		global_autonomy = 0.05
+		global_autonomy = 0.025
 		
 	}
 	benefits = {
@@ -999,96 +999,6 @@ estate_lithuanian_nobility_monopoly_of_livestock = {
 	}
 }
 
-estate_lithuanian_nobility_monopoly_of_gems = {
-	icon = privilege_monopoly_of_goods_gems
-	max_absolutism = -10
-	loyalty = 0.1
-	is_valid = {
-		has_dlc = "Emperor"
-		any_owned_province = {
-			trade_goods = gems
-		}
-	}
-	can_select = {
-		custom_trigger_tooltip = {
-			tooltip = unavailable_during_revolution_disaster
-			NOT = { has_disaster = revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
-		}
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
-	}
-	on_granted = {
-		add_mercantilism = 0.5
-		add_years_of_owned_provinces_production_income = {
-			years = 8
-			trigger = {
-				trade_goods = gems
-			}
-			custom_tooltip = MONOPOLY_INCOME_GEMS_DESC
-		}
-		custom_tooltip = estate_lithuanian_nobility_monopoly_of_gems_effect_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = gems
-				}
-				add_province_modifier = {
-					name = estate_lithuanian_nobility_monopoly_of_gems_mod
-					duration = -1
-				}
-			}
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_lithuanian_nobility_monopoly_of_gems_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = estate_lithuanian_nobility_monopoly_of_gems_mod
-				}
-				remove_province_modifier = estate_lithuanian_nobility_monopoly_of_gems_mod
-			}
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_lithuanian_nobility_monopoly_of_gems_revoke_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = estate_lithuanian_nobility_monopoly_of_gems_mod
-				}
-				remove_province_modifier = estate_lithuanian_nobility_monopoly_of_gems_mod
-			}
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-
-	cooldown_years = 10
-	on_cooldown_expires = {
-		country_event = { id = monopoly_privileges.7 }
-	}
-}
-
 estate_lithuanian_nobility_strong_duchies = {
 	icon = privilege_royal_authority
 	max_absolutism = -10
@@ -1289,13 +1199,13 @@ estate_lithuanian_nobility_pacta_conventa = {
 		}
 	}
 	penalties = {
-		war_exhaustion_cost = 0.10
-		inflation_action_cost = 0.10
-		global_autonomy = 0.05
+		culture_conversion_cost = 0.25
+		global_heretic_missionary_strength  = -0.01
+		global_autonomy = 0.025
 	}
 	benefits = {
-		country_military_power = 1
-		global_unrest = -1
+		governing_capacity  = 0.20
+		num_accepted_cultures = 1
 	}
 }
 
@@ -1385,7 +1295,7 @@ estate_lithuanian_nobility_conscript_troops = {
 estate_lithuanian_nobility_seize_land = {
 	icon = privilege_grant_autonomy
 	land_share = -5
-	loyalty = -0.010
+	loyalty = -0.10
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
