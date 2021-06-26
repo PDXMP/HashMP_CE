@@ -249,7 +249,6 @@ estate_lithuanian_nobility =
 	
 	privileges = {
 		estate_lithuanian_nobility_land_rights
-		estate_lithuanian_nobility_officer_corp
 		estate_lithuanian_nobility_levies
 		estate_lithuanian_nobility_right_of_counsel
 		estate_lithuanian_nobility_strong_duchies
