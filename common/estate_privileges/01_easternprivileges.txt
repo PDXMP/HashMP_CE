@@ -48,28 +48,6 @@ estate_polish_nobility_officer_corp = {
 	cooldown_years = 20
 }
 
-estate_lithuanian_nobility_officer_corp = {
-	icon = privilege_promote_purbias
-	max_absolutism = -5
-	influence = 0.05
-	can_select = {
-		army_tradition = 30
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
-	}
-	on_granted = {
-		add_army_tradition = -15
-	}
-	penalties = {
-	}
-	benefits = {
-		leader_land_shock = 1
-	}
-}
 
 estate_polish_nobility_levies = {
 	icon = privilege_demand_more_troops
