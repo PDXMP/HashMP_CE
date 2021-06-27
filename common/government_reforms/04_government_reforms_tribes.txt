@@ -183,6 +183,9 @@ stateless_society = {
 	valid_for_nation_designer = yes
 	lock_level_when_selected = yes
 	nation_designer_cost = 0
+	potential = {
+		has_reform = stateless_society
+	}
 	modifiers = {
 		governing_capacity_modifier = -0.99
 		defensiveness = 0.75
