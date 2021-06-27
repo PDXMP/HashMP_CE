@@ -4251,4 +4251,15 @@ on_country_creation = {
 		change_government = theocracy
 		add_government_reform = papacy_reform
 	}
+
+	if = {
+		limit = {
+			is_colonial_nation = yes
+		}
+
+		country_event = {
+			id = hashmp.19
+			days = 30
+		}
+	}
 }

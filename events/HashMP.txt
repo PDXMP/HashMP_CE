@@ -937,6 +937,48 @@ country_event = {
 	}
 }
 
+#Colonial Event // Removes Provinces
+country_event = {
+	id = hashmp.19
+	title = hashmp.19.title
+	desc = hashmp.19.desc
+	picture = BIG_BOOK_eventPicture
+	
+	is_triggered_only = yes
+	is_hidden = yes
+	
+	option = {
+		name = hashmp.19.a
+		if = {
+			limit = {
+				any_owned_provinice = {
+					NOT = {
+						capital_scope = {
+							colonial_region = ROOT
+						}
+					}
+				}
+			}
+			every_owned_province = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							colonial_region = ROOT
+						}
+					}
+				}
+
+				cede_province = ---
+			}
+		}
+
+		country_event = {
+			id = hashmp.19
+			days = 30
+		}
+	}
+}
+
 #Swedish Missions Event
 
 #Coronation of a Swedish King
