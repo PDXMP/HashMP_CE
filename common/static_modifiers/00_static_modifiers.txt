@@ -235,7 +235,7 @@ blockaded = {
 	trade_goods_size_modifier = -0.5
 	province_trade_power_modifier = -1.0
 	local_monthly_devastation = 0.5
-	war_exhaustion = 0.005
+	war_exhaustion = 0.0075
 }
 
 no_adjacent_controlled = {
