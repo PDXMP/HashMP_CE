@@ -30,7 +30,7 @@ interaction = {
         give_estate_land_share_gigantic = { estate = all }
         add_estate_loyalty = {
             estate = all
-            loyalty = 10
+            loyalty = 5
             short = yes
         }
 		if = {
