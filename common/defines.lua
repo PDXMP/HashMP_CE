@@ -1289,7 +1289,7 @@ NMilitary = {
 	MERCENARY_COMPANY_HIRED_MANPOWER_RECOVERY_MOD = 2.5,		-- How much to modify the length for manpower recovery if they are hired
 	MERCENARY_COMPANY_LOW_MANPOWER_THRESHOLD = 0.2,	-- Percentage of remaining manpower under which we warn the player
 	MERCENARY_TRADE_RANGE_MODIFIER = 1.0,			-- Only use half of trade range
-	MERCENARY_COMPANY_BUILDING_TIME = 0.50,			-- Multiply province distance with this
+	MERCENARY_COMPANY_BUILDING_TIME = 0.75,			-- Multiply province distance with this
 	MERCENARY_COMPANY_LOCAL_VIRTUAL_DISTANCE = 100,	-- How many "pixels away" local company pretends to be.
 
 	NAVAL_BASE_DISENGAGEMENT_CHANCE = 0.1,			-- Chance of disengaging from naval battles every day when out of morale	0-1 range
