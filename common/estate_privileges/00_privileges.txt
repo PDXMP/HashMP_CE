@@ -1836,6 +1836,9 @@ estate_burghers_indebted_to_burghers = {
 			}
 		}
 	}
+	can_revoke = {
+		NOT = { has_estate_loan = 1 }
+	}
 	on_granted = {
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
 		add_mercantilism = -1
