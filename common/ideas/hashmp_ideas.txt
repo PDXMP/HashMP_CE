@@ -1964,8 +1964,8 @@ DSA_ideas = { #South Africa
 
 TTS_ideas = { #By Xaime
 	start = {
-		manpower_recovery_speed = 0.2 ##Replacing max MP, intention to encourage more aggressive behaviour and benefits plus cut down scaling potential.
-		leader_land_shock = 1
+		manpower_recovery_speed = 0.15 ##Replacing max MP, intention to encourage more aggressive behaviour and benefits plus cut down scaling potential.
+		land_morale = 0.10
 	}
 	
 	bonus = {
@@ -1983,15 +1983,15 @@ TTS_ideas = { #By Xaime
 		global_trade_goods_size_modifier = 0.10
 	}
 	tts_two = { ##sic_grand_navy // Changed Naval Morale to the bonuses below as I feel it actually fits the idea of a 'Grand Navy'. Also Marines is a cool niche for a nation that is prone to fight on islands.
-		allowed_marine_fraction = 0.05
-		global_sailors_modifier = 0.33
+		allowed_marine_fraction = 0.10
+		global_sailors_modifier = 0.25
 	}
 	tts_three = { ##academia_pontaniana // Carried over technology cost for consistency.
-		technology_cost = -0.1
+		technology_cost = -0.10
 	}
 	tts_four = { ##Norman Knights/Horsemen of Europe also inspired by Murat's short reign of Naples, who was nicknamed the 'First Horsemen of Europe'
-		cav_to_inf_ratio = 0.2
-		cavalry_cost = -0.15
+		cav_to_inf_ratio = 0.20
+		cavalry_cost = -0.20
 	}
 	tts_five = { ##sic_noble_admirals // Extra leader pool so having an admiral isn't agony when focusing on land.
 		navy_tradition = 1
@@ -2002,8 +2002,10 @@ TTS_ideas = { #By Xaime
 	}
 	tts_seven = { ##Hohenstaufen oppression against Muslims, eventually deported and sold into slavery. Jews were expelled once Spain had rule over Sicily. 
 		missionaries = 1
-		global_heathen_missionary_strength = 0.02
-		expel_minorities_cost = -0.25
+		global_heathen_missionary_strength = 0.03
+		papal_influence = 2
+		church_power_modifier = 0.15
+		monthly_fervor_increase = 0.5
 	}
 }
 
