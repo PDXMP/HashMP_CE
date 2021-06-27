@@ -1277,7 +1277,7 @@ PER_ideas = {
 
 BUR_Ideas = {
 	start = {
-		merc_maintenance_modifier = -0.25
+		land_morale = 0.1
 		diplomatic_upkeep = 2
 	}
 	
@@ -1291,7 +1291,8 @@ BUR_Ideas = {
 	free = yes
 	
 	compagnies_ordonnance = {
-		land_morale = 0.1
+		merc_maintenance_modifier = -0.15
+		mercenary_cost = -0.10
 	}
 	golden_fleece = {
 		prestige = 1
