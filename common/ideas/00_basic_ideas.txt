@@ -522,8 +522,16 @@ exploration_ideas = {
 	ai_will_do = {
 		factor = 0.75
 		modifier = {
+			factor = 1000
+			is_colonial_nation = yes
+			NOT = {
+				adm_tech = 14
+			}
+		}
+		modifier = {
 			factor = 0
 			is_colonial_nation = yes
+			adm_tech = 14
 		}
 		modifier = {
 			factor = 0
