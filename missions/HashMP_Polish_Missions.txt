@@ -542,12 +542,12 @@ polish_internal_issues = {
 		trigger = {
 			estate_loyalty = {
 				estate = estate_lithuanian_nobility
-				loyalty = 70
+				loyalty = 65
 			}
 			NOT = {
 				estate_influence = {
 					estate = estate_lithuanian_nobility
-					influence = 40
+					influence = 35
 				}
 			}
 		}
@@ -585,6 +585,7 @@ polish_internal_issues = {
 	##Mission Start
 	vassalize_lithuania = {
 		icon = mission_restore_kiev
+		tooltip = allow_unification
 		required_missions {
 			a_matter_of_faiths invest_in_eastern_poland_mission restore_kiev integrate_cossacks annex_mazovia
 		}
