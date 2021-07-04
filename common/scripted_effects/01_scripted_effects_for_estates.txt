@@ -125,29 +125,8 @@ each_estate_effect = {
 			$jains_effect$
 		]
 	}
-	if = {
-		limit = {
-			has_estate = estate_polish_nobility
-		}
-		[[effect]
-			$effect$
-		]
-		[[polish_nobility_effect]
-			$polish_nobility_effect$
-		]
-	}
-	if = {
-		limit = {
-			has_estate = estate_lithuanian_nobility
-		}
-		[[effect]
-			$effect$
-		]
-		[[lithuanian_nobility_effect]
-			$lithuanian_nobility_effect$
-		]
-	}
 }
+
 #Clergy
 add_estate_church_loyalty_effect = {
 	if = {
@@ -264,27 +243,8 @@ add_estate_nobles_loyalty_effect = {
 			estate = estate_maratha
 			loyalty = 10
 		}
-	}	
-	else_if = {
-		limit = {
-			has_estate = estate_polish_nobility
-		}
-		add_estate_loyalty = {
-			estate = estate_polish_nobility
-			loyalty = 10
-		}
-	}
-	else_if = {
-		limit = {
-			has_estate = estate_lithuanian_nobility
-		}
-		add_estate_loyalty = {
-			estate = estate_lithuanian_nobility
-			loyalty = 10
-		}
 	}
 }
-
 reduce_estate_nobles_loyalty_effect = {
 	if = {
 		limit = {
@@ -310,72 +270,6 @@ reduce_estate_nobles_loyalty_effect = {
 		}
 		add_estate_loyalty = {
 			estate = estate_maratha
-			loyalty = -10
-		}
-	}
-	else_if = {
-		limit = {
-			has_estate = estate_polish_nobility
-		}
-		add_estate_loyalty = {
-			estate = estate_polish_nobility
-			loyalty = -10
-		}
-	}
-	else_if = {
-		limit = {
-			has_estate = estate_lithuanian_nobility
-		}
-		add_estate_loyalty = {
-			estate = estate_lithuanian_nobility
-			loyalty = -10
-		}
-	}
-}
-
-#Polish nobles
-add_estate_polish_nobility_loyalty_effect = {
-	if = {
-		limit = {
-			has_estate = estate_polish_nobility
-		}
-		add_estate_loyalty = {
-			estate = estate_polish_nobility
-			loyalty = 10
-		}
-	}
-}
-reduce_estate_polish_nobility_loyalty_effect = {
-	if = {
-		limit = {
-			has_estate = estate_polish_nobility
-		}
-		add_estate_loyalty = {
-			estate = estate_polish_nobility
-			loyalty = -10
-		}
-	}
-}
-
-#Lithuanian nobles
-add_estate_lithuanian_nobility_loyalty_effect = {
-	if = {
-		limit = {
-			has_estate = estate_lithuanian_nobility
-		}
-		add_estate_loyalty = {
-			estate = estate_lithuanian_nobility
-			loyalty = 10
-		}
-	}
-}
-reduce_estate_lithuanian_nobility_loyalty_effect = {
-	if = {
-		limit = {
-			has_estate = estate_lithuanian_nobility
-		}
-		add_estate_loyalty = {
-			estate = estate_lithuanian_nobility
 			loyalty = -10
 		}
 	}
@@ -411,7 +305,6 @@ add_estate_burghers_loyalty_effect = {
 		}
 	}
 }
-
 reduce_estate_burghers_loyalty_effect = {
 	if = {
 		limit = {
@@ -1005,7 +898,7 @@ on_province_owner_change_estate_privileges_effect = {
 	if = {
 		limit = {
 			owner = {
-				has_estate_privilege = estate_nobles_monopoly_of_metals
+				has_estate_privilege = estate_polish_nobility_monopoly_of_metals
 			}
 			OR = {
 				trade_goods = iron
@@ -1020,7 +913,7 @@ on_province_owner_change_estate_privileges_effect = {
 	if = {
 		limit = {
 			owner = {
-				has_estate_privilege = estate_polish_nobility_monopoly_of_metals
+				has_estate_privilege = estate_nobles_monopoly_of_metals
 			}
 			OR = {
 				trade_goods = iron
@@ -1028,31 +921,7 @@ on_province_owner_change_estate_privileges_effect = {
 			}
 		}
 		add_province_modifier = {
-			name = estate_polish_nobility_monopoly_of_metals_mod
-			duration = -1
-		}
-	}
-	if = {
-		limit = {
-			owner = {
-				has_estate_privilege = estate_polish_nobility_monopoly_of_gems
-			}
-			trade_goods = gems
-		}
-		add_province_modifier = {
-			name = estate_polish_nobility_monopoly_of_gems_mod
-			duration = -1
-		}
-	}
-	if = {
-		limit = {
-			owner = {
-				has_estate_privilege = estate_lithuanian_nobility_monopoly_of_livestock
-			}
-			trade_goods = livestock
-		}
-		add_province_modifier = {
-			name = estate_lithuanian_nobility_monopoly_of_livestock_mod
+			name = estate_nobles_monopoly_of_metals_mod
 			duration = -1
 		}
 	}
@@ -1090,6 +959,18 @@ on_province_owner_change_estate_privileges_effect = {
 		limit = {
 			owner = {
 				has_estate_privilege = estate_nobles_monopoly_of_livestock
+			}
+			trade_goods = livestock
+		}
+		add_province_modifier = {
+			name = estate_nobles_monopoly_of_livestock_mod
+			duration = -1
+		}
+	}
+	if = {
+		limit = {
+			owner = {
+				has_estate_privilege = estate_lithuanian_nobility_monopoly_of_livestock
 			}
 			trade_goods = livestock
 		}
@@ -1691,20 +1572,6 @@ scaled_estate_cossacks_land_share_effect = {
 	scaled_estate_land_share_add_effect = { estate = estate_cossack }
 }
 
-scaled_estate_polish_nobility_land_share_effect = {
-	scaled_estate_land_share_add_effect = { estate = estate_polish_nobility }
-}
-
-scaled_estate_polish_nobility_negative_land_share_effect = {
-	scaled_estate_land_share_reduce_effect = { estate = estate_polish_nobility }
-}
-scaled_estate_lithuanian_nobility_land_share_effect = {
-	scaled_estate_land_share_add_effect = { estate = estate_lithuanian_nobility }
-}
-
-scaled_estate_lithuanian_nobility_negative_land_share_effect = {
-	scaled_estate_land_share_reduce_effect = { estate = estate_lithuanian_nobility }
-}
 #Based on those above, but you can choose which estate you use
 #example of usage: scaled_estate_land_share_add_effect = { estate = estate_nobles }
 scaled_estate_land_share_add_effect = {
@@ -2106,60 +1973,6 @@ spawn_rebels_from_unhappy_estate = {
 				as_if_faction = yes
 			}
 		}
-		1 = {
-			trigger = {
-				owner = {
-					has_estate = estate_polish_nobility
-					NOT = {
-						estate_loyalty = {
-							estate = estate_polish_nobility
-							loyalty = 30
-						}
-					}
-				}
-			}
-			spawn_rebels = {
-				type = polish_noble_rebels
-				size = $size$
-				estate = estate_polish_nobility
-				as_if_faction = yes
-			}
-			else = {
-				spawn_rebels = {
-					type = noble_rebels
-					size = $size$
-					estate = estate_polish_nobility
-					as_if_faction = yes
-				}
-			}
-		}
-		1 = {
-			trigger = {
-				owner = {
-					has_estate = estate_lithuanian_nobility
-					NOT = {
-						estate_loyalty = {
-							estate = estate_lithuanian_nobility
-							loyalty = 30
-						}
-					}
-				}
-			}
-			spawn_rebels = {
-				type = polish_noble_rebels
-				size = $size$
-				estate = estate_lithuanian_nobility
-				as_if_faction = yes
-			}
-			else = {
-				spawn_rebels = {
-					type = noble_rebels
-					size = $size$
-					estate = estate_lithuanian_nobility
-					as_if_faction = yes
-				}
-			}
-		}
 	}
 }
 
@@ -2273,26 +2086,6 @@ pick_random_estate_if_present = {
 			set_country_flag = estate_rajput_$flag$
 			[[estate_action]
 			$estate_action$ = estate_rajput
-			]
-		}
-		1 = { 
-			trigger = {
-				has_estate = estate_polish_nobility
-				NOT = { has_country_flag = estate_polish_nobility_$flag$ }
-			}
-			set_country_flag = estate_polish_nobility_$flag$
-			[[estate_action]
-			$estate_action$ = estate_polish_nobility
-			]
-		}
-		1 = { 
-			trigger = {
-				has_estate = estate_lithuanian_nobility
-				NOT = { has_country_flag = estate_lithuanian_nobility_$flag$ }
-			}
-			set_country_flag = estate_lithuanian_nobility_$flag$
-			[[estate_action]
-			$estate_action$ = estate_lithuanian_nobility
 			]
 		}
 	}
