@@ -1984,10 +1984,11 @@ TTS_ideas = { #By Xaime
 	}
 	tts_two = { ##sic_grand_navy // Changed Naval Morale to the bonuses below as I feel it actually fits the idea of a 'Grand Navy'. Also Marines is a cool niche for a nation that is prone to fight on islands.
 		allowed_marine_fraction = 0.10
+		naval_forcelimit_modifier = 0.10
 		global_sailors_modifier = 0.25
 	}
 	tts_three = { ##academia_pontaniana // Carried over technology cost for consistency.
-		technology_cost = -0.10
+		technology_cost = -0.05
 	}
 	tts_four = { ##Norman Knights/Horsemen of Europe also inspired by Murat's short reign of Naples, who was nicknamed the 'First Horsemen of Europe'
 		cav_to_inf_ratio = 0.20
@@ -1998,7 +1999,7 @@ TTS_ideas = { #By Xaime
 		free_leader_pool = 1
 	}
 	tts_six = { ##city_of_artists // Carried over prestige for consistency, loses out on legitimacy gain.
-		prestige = 1 
+		prestige = 1
 	}
 	tts_seven = { ##Hohenstaufen oppression against Muslims, eventually deported and sold into slavery. Jews were expelled once Spain had rule over Sicily. 
 		missionaries = 1
