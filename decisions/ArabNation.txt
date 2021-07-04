@@ -47,21 +47,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = medina_area
-				area = mecca_area
-				area = asir_area
-				area = tihama_al_yemen_area
-				area = upper_yemen_area
-				area = yemen_area
-				area = mahra_area
-				area = hadramut_area
-				area = bahrain_area
-				area = oman_area
-				area = pirate_coast_area
-				area = dhofar_area
-				area = mascat_area
-				area = qasim_area
-				area = yamamah_area
+				region = arabia_region
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -71,21 +57,11 @@ country_decisions = {
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no			
-			medina_area = { type = all is_core = ROOT owned_by = ROOT }
-			mecca_area = { type = all is_core = ROOT owned_by = ROOT }
-			asir_area = { type = all is_core = ROOT owned_by = ROOT }
-			tihama_al_yemen_area = { type = all is_core = ROOT owned_by = ROOT }
-			upper_yemen_area = { type = all is_core = ROOT owned_by = ROOT }
-			yemen_area = { type = all is_core = ROOT owned_by = ROOT }
-			mahra_area = { type = all is_core = ROOT owned_by = ROOT }
-			hadramut_area = { type = all is_core = ROOT owned_by = ROOT }
-			bahrain_area = { type = all is_core = ROOT owned_by = ROOT }
-			oman_area = { type = all is_core = ROOT owned_by = ROOT }
-			pirate_coast_area = { type = all is_core = ROOT owned_by = ROOT }
-			dhofar_area = { type = all is_core = ROOT owned_by = ROOT }
-			mascat_area = { type = all is_core = ROOT owned_by = ROOT }
-			qasim_area = { type = all is_core = ROOT owned_by = ROOT }
-			yamamah_area = { type = all is_core = ROOT owned_by = ROOT }
+			num_of_owned_provinces_with = {
+				value = 45
+				is_core = root
+				region = arabia_region
+			}
 		}
 		effect = {
 			change_tag = ARB
