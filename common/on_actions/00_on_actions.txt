@@ -85,6 +85,18 @@ on_startup = {
 			id = hashmp.110
 		}
 	}
+
+	if = {
+		limit = {
+			is_colonial_nation = yes
+			NOT = { has_country_flag = h_flag_cede_province_event }
+		}
+
+		country_event = {
+			id = hashmp.19
+			days = 30
+		}
+	}
 }
 
 # country
