@@ -467,8 +467,8 @@ h_reform_elective_monarchy = {
 		global_unrest = -1
 		max_absolutism = -30
 		governing_capacity = 100
-		church_loyalty_modifier = 0.1
-		burghers_loyalty_modifier = 0.1
+		church_loyalty_modifier = 0.05
+		burghers_loyalty_modifier = 0.05
 		polish_nobility_loyalty_modifier = 0.1
 		lithuanian_nobility_loyalty_modifier = 0.1
 	}
