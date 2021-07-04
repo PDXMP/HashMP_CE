@@ -1183,9 +1183,10 @@ absolutism = {
 }
 
 low_army_professionalism = {
-	mercenary_cost = -0.1
-	merc_maintenance_modifier = -0.1
-	reinforce_cost_modifier = -0.1
+	# mercenary_cost = -0.1
+	# reinforce_cost_modifier = -0.10
+	merc_maintenance_modifier = -0.10
+	loot_amount = 0.20
 }
 
 high_army_professionalism = {
@@ -1193,9 +1194,10 @@ high_army_professionalism = {
 	shock_damage = 0.1
 	siege_ability = 0.2
 	drill_decay_modifier = -0.5
-	mercenary_cost = 0.1
-	merc_maintenance_modifier = 0.1
-	#possible_mercenaries = -0.1
+	mercenary_manpower = -0.20
+	# mercenary_cost = 0.1
+	# merc_maintenance_modifier = 0.10
+	# possible_mercenaries = -0.1
 	movement_speed = 0.2
 }
 
