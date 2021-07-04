@@ -1,0 +1,772 @@
+
+##BranchStart 1
+Central_european_conquest = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = PLC
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	hashMP_conquer_bb = {
+		icon = an_army_with_a_state
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			NOT = {
+				owned_by = PLC
+			}
+			OR = {
+				area = hinter_pommern_area
+				area = neumark_area
+			}
+		}
+		trigger = {
+			hinter_pommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}		
+			neumark_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}		
+		}
+		effect = {
+			slovakia_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}	
+		}
+	}
+	##Mission End
+	##Mission Start
+	HashMP_invade_slovakia = {
+		icon = alpine_defenses
+		required_missions {
+			hashMP_conquer_bb
+		}
+		position = 2
+		provinces_to_highlight = {
+			NOT = {
+				owned_by = PLC
+			}
+			area = slovakia_area
+
+		}
+		trigger = {
+			slovakia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				any_owned_province = {
+					fort_level = 2
+				}
+				
+			}		
+		}		
+		effect = {
+			wallachia_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}	
+		}
+	}
+	##Mission End
+	##Mission Start
+	HashMP_expand_wallachia = {
+		icon = mission_unite_home_region
+		required_missions {
+			HashMP_invade_slovakia
+		}
+		position = 3
+		provinces_to_highlight = {
+			NOT = {
+				owned_by = PLC
+			}
+			area = wallachia_area
+		}
+		trigger = {
+			wallachia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}		
+		}	
+		effect = {
+			wallachia_area = {
+				add_province_modifier = {
+					name = united_romanians
+					duration = -1
+				}
+			}
+			moldavia_area = {
+				add_province_modifier = {
+					name = united_romanians
+					duration = -1
+				}
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 1
+##BranchStart 2
+ steppe_conquest = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = PLC
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	HashMP_secure_caucasus = {
+		icon = mission_conquer_5_states
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			NOT = {
+				owned_by = PLC
+			}
+			OR = {
+				area = circassia_area
+				area = dagestan_area
+				area = astrakhan_area
+			}
+		}
+		trigger = {
+			circassia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			dagestan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			astrakhan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			lower_don_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}	
+			lower_yik_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}	
+			saratov_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	HashMP_expand_steppes = {
+		icon = mission_break_the_tatar_yoke
+		required_missions {
+			HashMP_secure_caucasus
+		}
+		position = 2
+		provinces_to_highlight = {
+			NOT = {
+				owned_by = PLC
+			}
+			OR = {
+				area = lower_don_area
+				area = lower_yik_area
+				area = saratov_area
+			}	
+		}
+		trigger = {
+			lower_don_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_yik_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			saratov_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			sloboda_ukraine_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}	
+			ryazan_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}	
+			tambov_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	HashMP_conflict_ryazan = {
+		icon = mission_break_the_tatar_yoke
+		required_missions {
+			HashMP_expand_steppes
+		}
+		position = 3
+		provinces_to_highlight = {
+			NOT = {
+				owned_by = PLC
+			}
+			OR = {
+				area = tambov_area
+				area = ryazan_area
+				area = sloboda_ukraine_area
+			}	
+		}
+		trigger = {
+			tambov_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ryazan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sloboda_ukraine_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = steppe_route
+				duration = 3650
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 2
+##BranchStart 3
+russia_conquest = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = PLC
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	HashMP_LIV_conquest = {
+		icon = mission_teutonic_knights
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			NOT = {
+				owned_by = PLC
+			}
+			OR = {
+				area = curonia_area
+				area = livonia_area
+				area = estonia_ingria_area
+			}
+		}
+		trigger = {
+			curonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			livonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			estonia_ingria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			pskov_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	HashMP_reconquest_pskov = {
+		icon = mission_recruit_streltsy
+		required_missions {
+			HashMP_LIV_conquest
+		}
+		position = 2
+		provinces_to_highlight = {
+			NOT = {
+				owned_by = PLC
+			}
+			OR = {
+				area = pskov_area
+			}
+		}
+		trigger = {
+			pskov_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			tver_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}	
+			moscow_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}	
+			vladimir_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	HashMP_burn_moscow = {
+		icon = mission_conquer_moscow
+		required_missions {
+			HashMP_reconquest_pskov
+		}
+		position = 3
+		provinces_to_highlight = {
+			NOT = {
+				owned_by = PLC
+			}
+			OR = {
+				area = tver_area
+				area = moscow_area
+				area = vladimir_area
+			}
+		}
+		trigger = {
+			tver_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			moscow_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			vladimir_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			tooltip = {
+				295 = {
+					add_base_tax = -3
+					add_base_production = -3
+					add_base_manpower = -3
+				}
+				capital_scope = {
+					add_base_tax = 4
+					add_base_production = 4
+					add_base_manpower = 4
+				}
+			}
+		}
+		
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 3
+##BranchStart 4
+develop_commonwealth = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = PLC
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	##Mission Start
+	HashMP_colonize_Crimea = {
+		icon = mission_hands_praying
+		required_missions {
+			
+		}
+		position = 1
+		provinces_to_highlight = {
+			owned_by = PLC
+			OR = {
+				area = crimea_area
+				area = yedisan_area
+				area = zaporizhia_area
+				area = azov_area
+			}
+			OR = {
+				NOT = { religion = catholic}
+				NOT = { religion = orthodox}
+			}
+			OR = {
+				has_owner_accepted_culture = yes
+				has_owner_culture = yes
+			}			
+		}			
+		trigger = {
+			crimea_area = {
+				type = all
+				owned_by = ROOT
+				OR = {
+					has_owner_accepted_culture = yes
+					has_owner_culture = yes
+				}
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+			yedisan_area = {
+				type = all
+				owned_by = ROOT
+				OR = {
+					has_owner_accepted_culture = yes
+					has_owner_culture = yes
+				}
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+			zaporizhia_area = {
+				type = all
+				owned_by = ROOT
+				OR = {
+					has_owner_accepted_culture = yes
+					has_owner_culture = yes
+				}
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+			azov_area = {
+				type = all
+				owned_by = ROOT
+				OR = {
+					has_owner_accepted_culture = yes
+					has_owner_culture = yes
+				}
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+		}
+		effect = {
+			crimea_area = {
+				owned_by = ROOT
+				add_province_modifier = {
+					name = settled_crimea
+					duration = -1
+				}
+			}
+			yedisan_area = {
+				owned_by = ROOT
+				add_province_modifier = {
+					name = settled_crimea
+					duration = -1
+				}
+			}
+			zaporizhia_area = {
+				owned_by = ROOT
+				add_province_modifier = {
+					name = settled_crimea
+					duration = -1
+				}
+			}
+			azov_area = {
+				owned_by = ROOT
+				add_province_modifier = {
+					name = settled_crimea
+					duration = -1
+				}
+			}
+		}
+	}
+	##Mission End
+	##Mission Start
+	HashMP_increase_trade = {
+		icon = mission_high_income
+		required_missions {
+			HashMP_colonize_Crimea HashMP_LIV_conquest
+		}
+		position = 2
+		provinces_to_highlight = {
+			AND = {
+				province_id = 38
+				OR = {
+					NOT = { owned_by = ROOT }
+					NOT = { has_building = trade_depot }
+				}
+				province_has_center_of_trade_of_level = 1
+			}
+			AND = {
+				province_id = 43
+				OR = {
+					NOT = { owned_by = ROOT }
+					NOT = { has_building = trade_depot }
+				}
+				province_has_center_of_trade_of_level = 1
+			}
+			AND = {
+				province_id = 41
+				OR = {
+					NOT = { owned_by = ROOT }
+					NOT = { has_building = trade_depot }
+				}
+				province_has_center_of_trade_of_level = 1
+			}		}
+		trigger = {
+			38 = {
+				owned_by = ROOT
+				has_building = trade_depot
+				province_has_center_of_trade_of_level = 2
+			}
+			41 = {
+				owned_by = ROOT
+				has_building = trade_depot
+				province_has_center_of_trade_of_level = 2
+			}
+			43 = {
+				owned_by = ROOT
+				has_building = trade_depot
+				province_has_center_of_trade_of_level = 2
+			}		}
+		effect = {
+			add_country_modifier = {
+				name = control_baltic_trade
+				duration = 3650
+			}		
+		}
+	}
+	##Mission End
+	##Mission Start
+	HashMP_populate_steppes = {
+		icon = mission_settlers_north_america
+		required_missions {
+			HashMP_increase_trade HashMP_conflict_ryazan
+		}
+		position = 4
+		provinces_to_highlight = {
+			owned_by = PLC
+			OR = {
+				area = lower_don_area
+				area = saratov_area
+				area = lower_yik_area
+				area = tambov_area
+				area = ryazan_area
+				area = sloboda_ukraine_area
+
+			}
+			OR = {
+				NOT = { religion = catholic}
+				NOT = { religion = orthodox}
+			}
+			OR = {
+				has_owner_accepted_culture = yes
+				has_owner_culture = yes
+			}	
+		}
+		trigger = {
+			lower_don_area = {
+				type = all
+				owned_by = ROOT
+				OR = {
+					has_owner_accepted_culture = yes
+					has_owner_culture = yes
+				}
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+			saratov_area = {
+				type = all
+				owned_by = ROOT
+				OR = {
+					has_owner_accepted_culture = yes
+					has_owner_culture = yes
+				}
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+			lower_yik_area = {
+				type = all
+				owned_by = ROOT
+				OR = {
+					has_owner_accepted_culture = yes
+					has_owner_culture = yes
+				}
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+			tambov_area = {
+				type = all
+				owned_by = ROOT
+				OR = {
+					has_owner_accepted_culture = yes
+					has_owner_culture = yes
+				}
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+			sloboda_ukraine_area = {
+				type = all
+				owned_by = ROOT
+				OR = {
+					has_owner_accepted_culture = yes
+					has_owner_culture = yes
+				}
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+			ryazan_area = {
+				type = all
+				owned_by = ROOT
+				OR = {
+					has_owner_accepted_culture = yes
+					has_owner_culture = yes
+				}
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+			}
+		}
+		effect = {
+			every_province = {
+
+				limit = {
+					owned_by = ROOT 
+					OR = {
+						area = lower_don_area
+						area = saratov_area
+						area = lower_yik_area
+						area = tambov_area
+						area = sloboda_ukraine_area
+						area = ryazan_area
+
+					}
+				OR = {	
+					has_owner_accepted_culture = yes
+					has_owner_culture = yes
+				}
+				OR = {
+					religion = catholic
+					religion = orthodox
+				}
+				}
+				add_base_tax = 1
+				add_base_manpower = 1
+				add_base_production = 2
+			}
+		}
+	}
+	##Mission End
+	##
+	
+}
+##BranchEnd 4
