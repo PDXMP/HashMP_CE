@@ -10,6 +10,10 @@ interaction = {
 		hidden_trigger = { has_any_estates = yes }
     }
     effect = {
+		if = {
+			limit = { NOT = { crown_land_share = 20 } }
+			add_years_of_estate_land_income = 0.5
+		}
 		if = { 
 			limit = { crown_land_share = 20 }
 			add_years_of_estate_land_income = 0.75
