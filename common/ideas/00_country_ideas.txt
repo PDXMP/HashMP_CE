@@ -1027,7 +1027,7 @@ BRA_ideas = {
 	}
 	
 	bonus = {
-		state_maintenance_modifier = -0.25
+		development_cost = -0.10
 	}
 	
 	trigger = {
@@ -1043,18 +1043,23 @@ BRA_ideas = {
 	}
 	divided_estates = {
 		stability_cost_modifier = -0.1
+		max_absolutism = 10
+		yearly_absolutism = 0.2
 	}
 	northern_march = {
 		infantry_power = 0.10
+		land_forcelimit_modifier = 0.10
 	}
 	seat_of_the_old_emperors = {
-		diplomatic_reputation = 2
+		diplomatic_reputation = 1
+		vassal_forcelimit_bonus = 0.25
 	}
 	iron_tooth = {
 		global_unrest = -2
 	}
 	margrave_council = {
 		army_tradition_decay = -0.01
+		mil_advisor_cost = -0.10
 	}
 }
 
