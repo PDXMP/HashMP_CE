@@ -987,7 +987,7 @@ PRU_ideas = {
 	}
 	
 	bonus = {
-		discipline = 0.05
+		development_cost = -0.10
 	}
 	
 	trigger = {
@@ -995,35 +995,38 @@ PRU_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	kammergericht = {
-		global_tax_modifier = 0.1
-	}
-	divided_estates = {
-		build_cost = -0.1
+	soldier_king = {
+		army_tradition_decay = -0.01
 	}
 	army_professionalism = {
-		land_morale = 0.10
+		land_morale = 0.15
 	}
-	noble_cadets = {
-		army_tradition_decay = -0.01
+	divided_estates = {
+		stability_cost_modifier = -0.1
+		yearly_absolutism = 0.2
 	}
 	goose_step = {
 		infantry_power = 0.10
-	}
-	regimental_cantons = {
-		global_regiment_recruit_speed = -0.15
-		global_manpower_modifier = 0.2
+		discipline = 0.05
 	}
 	religious_toleration = {
 		tolerance_heretic = 2
-		development_cost = -0.05
+		global_unrest = -1
+	}
+	regimental_cantons = {
+		global_regiment_recruit_speed = -0.1
+		global_manpower_modifier = 0.2
+	}
+	noble_cadets = {
+		mil_advisor_cost = -0.10
+		possible_mil_policy = 1
 	}
 }
 
 BRA_ideas = {
 	start = {
 		army_tradition = 0.5
-		build_cost = -0.1
+		build_cost = -0.10
 	}
 	
 	bonus = {
@@ -1037,13 +1040,13 @@ BRA_ideas = {
 
 	kammergericht = {
 		global_tax_modifier = 0.1
+		reform_progress_growth = 0.1
 	}	
 	bra_pomeranian_wars = {
 		land_morale = 0.10
 	}
 	divided_estates = {
 		stability_cost_modifier = -0.1
-		max_absolutism = 10
 		yearly_absolutism = 0.2
 	}
 	northern_march = {
@@ -1057,9 +1060,9 @@ BRA_ideas = {
 	iron_tooth = {
 		global_unrest = -2
 	}
-	margrave_council = {
-		army_tradition_decay = -0.01
+	noble_cadets = {
 		mil_advisor_cost = -0.10
+		possible_mil_policy = 1
 	}
 }
 
