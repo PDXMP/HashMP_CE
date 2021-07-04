@@ -67,7 +67,7 @@ estate_polish_nobility_levies = {
 	}
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.25
-		global_manpower_modifier = 0.3
+		global_manpower_modifier = 0.5
 	}
 }
 
@@ -1035,8 +1035,12 @@ estate_lithuanian_nobility_golden_liberty = {
 		OR = {
 			has_estate_privilege = estate_lithuanian_nobility_golden_liberty #Poland starts with it
 			has_reform = h_reform_elective_monarchy
+		    has_country_flag = 'purged_sejm'
 		}
 		government = monarchy
+	}
+	can_select = {
+		has_country_flag = 'purged_sejm'
 	}
 	can_revoke = {
 		if = {
@@ -1116,7 +1120,7 @@ estate_lithuanian_nobility_golden_liberty = {
 	}
 	benefits = {
 		global_manpower_modifier = 0.15
-		land_morale = 0.10
+		reinforce_speed = 0.10
 	}
 	mechanics = {
 		exempt_from_seize_land
@@ -1257,10 +1261,12 @@ estate_lithuanian_nobility_conscript_troops = {
 				tag = POL
 			}
 			custom_tooltip = flavor_lit.bop.plus1
-			change_variable = {
-				which = balanceOfPower
-				value = 1
-			}		
+			hidden_effect = {
+				change_variable = {
+					which = balanceOfPower
+					value = 1
+				}
+			}
 		}
 	}
 	
