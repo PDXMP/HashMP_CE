@@ -1388,7 +1388,7 @@ USA_ideas = { #United States
 	shining_city_on_a_hill = {
 		prestige = 1
 	}
-	indian_removal = {
+	manifest_destiny = {
 		culture_conversion_cost = -0.25
  	}
 }
