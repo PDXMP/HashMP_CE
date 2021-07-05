@@ -2,15 +2,15 @@
 
 ##Denmark
 h_danish_estonia = {
-	local_manpower_modifier = 0.25
-	local_defensiveness = 0.10
-	local_development_cost = -0.05
+	local_manpower_modifier = 0.20
+	regiment_recruit_speed = -0.10
+	local_development_cost = -0.10
 }
 
 h_danish_manpower_centers = {
-	local_manpower_modifier = 0.15
-	global_regiment_recruit_speed = -0.10
-	supply_limit_modifier = 0.25
+	local_manpower_modifier = 0.10
+	regiment_recruit_speed = -0.10
+	supply_limit_modifier = 0.20
 }
 
 h_danish_conscription = {
@@ -20,14 +20,12 @@ h_danish_conscription = {
 h_danish_leadership = {
 	leader_land_fire = 1
 	general_cost = -0.10
-	army_tradition = 0.5
+	army_tradition = 0.25
 }
 
 h_danish_guard_regiments = {
 	fire_damage_received = -0.10
-	land_morale = 0.05
-	drill_decay_modifier = -0.10
-	special_unit_forcelimit = 0.10
+	land_morale = 0.10
 }
 
 h_danish_early_modern_army = {
@@ -35,38 +33,40 @@ h_danish_early_modern_army = {
 }
 
 h_danish_kalmar_union_conquest = {
-	governing_capacity = 300
+	governing_capacity = 200
 	land_maintenance_modifier = -0.10
-	manpower_recovery_speed = 0.15
+	manpower_recovery_speed = 0.10
 }
 
 h_danish_conquerer_of_scandinavia = {
-	land_morale = 0.15
+	land_morale = 0.10
 }
 
 h_danish_dismantled_ships = {
-	artillery_cost = -0.25
+	artillery_cost = -0.20
 }
 
 h_danish_pomerania_military = {
-	infantry_power = 0.10
+	drill_decay_modifier = -0.05
+	army_tradition_decay = -0.1
+	yearly_army_professionalism = 0.005
 }
 
 h_danish_straits = {
 	galley_power = 0.10
-	galley_cost = -0.10
+	galley_cost = -0.25
 }
 
 h_danish_frigates = {
-	light_ship_power = 1
+	light_ship_power = 0.5
 	light_ship_cost = -0.10
-	disengagement_chance = 0.03
+	disengagement_chance = 0.05
 }
 
 h_danish_privateers = {
-	privateer_efficiency = 0.33
+	privateer_efficiency = 0.25
 	trade_range_modifier = 0.50
-	blockade_efficiency = 0.33
+	blockade_efficiency = 0.25
 }
 
 h_danish_trade_enterprize = {
@@ -80,28 +80,26 @@ h_danish_boosted_trade = {
 }
 
 h_danish_expanded_markets = {
-	center_of_trade_upgrade_cost = -0.25
+	center_of_trade_upgrade_cost = -0.10
 	global_trade_power = 0.10
 }
 
 h_danish_north_sea = {
-	trade_steering = 0.25
-	global_foreign_trade_power = 0.25
+	trade_steering = 0.20
+	global_foreign_trade_power = 0.20
 }
 
 h_danish_ships_of_the_line = {
 	heavy_ship_power = 0.1
-	heavy_ship_cost = -0.1
 }
 
 h_danish_admiralty = {
-	admiral_cost = -0.20
-	naval_morale = 0.05
-	free_leader_pool = 1
+	admiral_cost = -0.10
+	naval_morale = 0.10
 }
 
 h_danish_colonialism = {
-	colonist_placement_chance = 0.03
+	colonist_placement_chance = 0.05
 }
 
 h_danish_encouraged_settlements = {
@@ -113,18 +111,19 @@ h_danish_colonial_aspirations = {
 }
 
 h_danish_colonial_rush = {
-	range = 1
+	colonist_placement_chance = 0.025
+	global_tax_income = 48
 }
 
 h_danish_sagas = {
-	range = 0.50
-	naval_attrition = -0.25
+	range = 2
+	naval_attrition = -0.20
 }
 
 h_danish_rules_the_waves = {
 	own_coast_naval_combat_bonus = 1.0
-	naval_maintenance_modifier = -0.10
-	sailor_maintenance_modifer = -0.20
+	naval_maintenance_modifier = -0.05
+	sailor_maintenance_modifer = -0.10
 }
 
 h_danish_copenhagen_shipyard = {
@@ -136,7 +135,7 @@ h_danish_copenhagen_shipyard = {
 h_danish_marines = {
 	transport_cost = -0.25
 	allowed_marine_fraction = 0.10
-	shock_damage_received = -0.15
+	shock_damage_received = -0.10
 	global_sailors_modifier = 0.25
 }
 
@@ -152,13 +151,13 @@ h_danish_naval_arsenal = {
 
 h_danish_prepared_navy = {
 	ship_durability = 0.05
-	sunk_ship_morale_hit_recieved = -0.10
+	sailors_recovery_speed = 0.25
 	naval_tradition_from_battle = 0.5
 }
 
 h_danish_prepared_army = {
-	drill_gain_modifier = 0.50
-	drill_decay_modifier = -0.25
+	drill_gain_modifier = 0.25
+	drill_decay_modifier = -0.10
 	army_tradition_from_battle = 0.5
 }
 
@@ -169,25 +168,24 @@ h_danish_pomerania = {
 
 h_danish_equipment = {
 	infantry_power = 0.10
-	land_maintenance_modifier = -0.05
 }
 
 h_danish_resist_germans = {
-	land_morale = 0.15
+	land_morale = 0.10
 }
 
 h_danish_goose_step = {
-	discipline = 0.025
+	discipline = 0.03
 }
 
 h_danish_uniter_achievement = {
-	land_morale = 0.10
-	naval_morale = 0.10
+	land_morale = 0.05
+	naval_morale = 0.05
 }
 
 h_danish_kalmar_union = {
-	governing_capacity = 300
-	manpower_in_true_faith_provinces = 0.20
+	governing_capacity = 200
+	development_cost = -0.10
 	same_culture_advisor_cost = -0.10
 }
 
@@ -199,14 +197,19 @@ h_danish_swedish_regiments = {
 	infantry_cost = -0.10
 }
 
-h_danish_cannons = {
-	artillery_fire = 0.5
-	artillery_bonus_vs_fort = 1
-	siege_blockade_progress = 1
+h_danish_royal_army = {
+	land_morale = 0.05
+	drill_decay_modifier = -0.10
+	prestige_from_land = 0.35
+}
+
+h_danish_royal_navy = {
+	naval_morale = 0.05
+	sunk_ship_morale_hit_recieved = -0.1
+	prestige_from_naval = 0.35
 }
 
 h_danish_commissions = {
-	free_leader_pool = 1
 	leader_cost = -0.10
 	army_tradition = 0.5
 	navy_tradition = 0.5
@@ -214,8 +217,8 @@ h_danish_commissions = {
 
 h_danish_german_mercs = {
 	mercenary_discipline = 0.05
-	mercenary_cost = -0.20
-	mercenary_manpower= 0.20
+	merc_maintenance_modifier = -0.15
+	loot_amount = 0.25
 }
 
 h_oldenburg_local = {
@@ -225,7 +228,7 @@ h_oldenburg_local = {
 }
 
 h_oldenburg_dynasty = {
-	heir_chance = 0.5
+	local_heir_adm = 1
 	monarch_lifespan = 0.1
 	prestige = 1
 }
@@ -235,9 +238,8 @@ h_danish_immigrants = {
 }
 
 h_danish_loyal_estates = {
-	global_unrest = -1
+	global_unrest = -2
 	global_autonomy = -0.05
-	global_tax_modifier = 0.05
 }
 
 h_danish_industrial_revolution = {
@@ -245,12 +247,12 @@ h_danish_industrial_revolution = {
 }
 
 h_danish_naval_supplies = {
-	global_Ship_cost = -0.1
+	global_ship_cost = -0.05
+	naval_maintenance_modifier = -0.05
 }
 
 h_danish_innovation = {
 	technology_cost = -0.05
-	innovativeness_gain = 0.33
 }
 
 h_danish_enlightened_ruler = {
@@ -270,14 +272,14 @@ h_danish_indian_trade = {
 
 h_danish_kotte_naval_outpost = {
 	naval_forcelimit = 10
-	local_sailors_modifier = 0.50
+	local_sailors_modifier = 1
 	local_ship_repair = 0.25
 }
 
 h_danish_india_investments = {
 	local_development_cost = -0.10
 	local_build_cost = -0.10
-	trade_company_investment_cost = -0.75
+	trade_company_investment_cost = -0.50
 }
 
 h_danish_cape = {
@@ -286,18 +288,20 @@ h_danish_cape = {
 
 h_danish_southern_route = {
 	colonists = 1
-	global_colonial_growth = 25
+	range = 0.25
+	global_colonial_growth = 10
 }
 
 h_danish_east_indies = {
-	global_colonial_growth = 25
-	naval_attrition = -0.33
+	colonists = 1
+	global_colonial_growth = 10
+	naval_attrition = -0.25
 }
 
 h_danish_east_india_company = {
 	merchants = 1
-	trade_steering = 0.20
-	trade_company_investment_cost = -0.50
+	trade_steering = 0.25
+	trade_company_investment_cost = -0.25
 }
 
 h_danish_crown_investment = {
@@ -311,27 +315,28 @@ h_danish_colonial_empire = {
 
 h_hudson_trading_company = {
 	merchants = 1
+	global_trade_goods_size_modifier = 0.05
 }
 
 h_danes_discovered_america = {
-	colonist_placement_chance = 0.05
-	global_colonial_growth = 25
+	colonist_placement_chance = 0.10
+	global_colonial_growth = 10
 }
 
 h_northern_colonial_route = {
 	colonists = 1
-	range = 0.25
+	global_colonial_growth = 25
 }
 
 h_north_sea_empire = {
 	monarch_diplomatic_power = 1
-	governing_capacity_modifier = 0.25
+	governing_capacity_modifier = 0.10
 	naval_morale = 0.05
 	land_morale = 0.05
 }
 
 h_englished_defeated = {
-	culture_conversion_cost = -0.33
+	culture_conversion_cost = -0.50
 }
 
 h_danelaw = {
@@ -339,8 +344,8 @@ h_danelaw = {
 }
 
 h_reclaimed_york = {
-	local_manpower_modifier = 0.33
-	local_production_efficiency = 0.20
+	local_manpower_modifier = 0.50
+	local_production_efficiency = 0.25
 	local_development_cost = -0.10
 }
 
@@ -350,20 +355,20 @@ h_danish_highlanders = {
 
 h_danish_north_sea_ambitions = {
 	naval_morale = 0.10
-	transport_cost = -0.30
-	sailors_recovery_speed = 0.20
+	transport_cost = -0.25
+	sailors_recovery_speed = 0.25
 }
 
 h_dannevirke_fortifications_reinforced = {
 	local_defensiveness = 0.10
-	local_hostile_movement_speed = -0.20
+	local_hostile_movement_speed = -0.10
 }
 
 h_centralize_denmark = {
 	global_tax_modifier = 0.05
-	church_influence_modifier = -0.1
-	burghers_influence_modifier = -0.1
-	nobles_influence_modifier = -0.1
+	church_influence_modifier = -0.05
+	burghers_influence_modifier = -0.05
+	nobles_influence_modifier = -0.05
 }
 
 h_danish_artisans = {
@@ -384,19 +389,18 @@ h_danish_hanseatic_boats = {
 }
 
 h_danish_holstein_integration = {
-	local_culture_conversion_cost = -0.25
+	local_culture_conversion_cost = -0.50
 }
 
 h_danish_copenhagen_recovering = {
-	local_development_cost = -0.05
-	local_build_cost = -0.20
-	local_build_time = -0.20
+	local_development_cost = -0.10
+	local_build_cost = -0.10
 }
 
 h_danish_estates_placated = {
-	church_loyalty_modifier = 0.1
-	burghers_loyalty_modifier = 0.1
-	nobles_loyalty_modifier = 0.1
+	church_loyalty_modifier = 0.05
+	burghers_loyalty_modifier = 0.05
+	nobles_loyalty_modifier = 0.05
 }
 
 h_christopher_iii = {
@@ -433,6 +437,7 @@ h_danish_defeat_iv = {
 
 h_swedish_visby = {
 	naval_forcelimit = 5
+	local_ship_repair = 0.25
 	province_trade_power_modifier = 0.25
 }
 
@@ -442,14 +447,14 @@ h_swedish_reform_infantry_core = {
 
 h_swedish_reform_leadership = {
 	free_leader_pool = 1
-	leader_land_shock = 1
-	leader_naval_shock = 1
+	leader_land_manuever = 1
+	leader_naval_manuever = 1
 	leader_cost = -0.10
 }
 
 h_swedish_innovative_warfare = {
-	artillery_power = 0.1
-	movement_speed = 0.1
+	fire_damage = 0.10
+	movement_speed = 0.10
 }
 
 h_swedish_adolphus_legacy = {
@@ -461,18 +466,19 @@ h_swedish_carolean_regiments = {
 }
 
 h_swedish_ga_pa_doctrine = {
-	land_maintenance_modifier = 0.15
+	land_maintenance_modifier = 0.10
 	recover_army_morale_speed = 0.05
-	infantry_shock = 0.5
+	leader_land_shock = 1
+	shock_damage = 0.10
 }
 
 h_swedish_uppsala_university = {
-	innovativeness_gain = 0.33
+	innovativeness_gain = 0.25
 }
 
 h_swedish_age_of_liberty = {
 	global_unrest = -1
-	global_institution_spread = 0.20
+	global_institution_spread = 0.10
 }
 
 h_swedish_falun_mine_global = {
@@ -502,7 +508,7 @@ h_swedish_church_of_sweden = {
 
 h_swedish_absolutism = {
 	global_autonomy = -0.05
-	max_absolutism = 20
+	max_absolutism = 10
 }
 
 h_swedish_centralization = {
@@ -517,7 +523,7 @@ h_swedish_tax_reform = {
 
 h_swedish_allotment_system = {
 	manpower_recovery_speed = 0.10
-	global_regiment_recruit_speed = -0.20
+	global_regiment_recruit_speed = -0.10
 }
 
 h_swedish_baltic_supremacy = {
@@ -529,21 +535,21 @@ h_swedish_one_king_in_the_north = {
 }
 
 h_swedish_empire = {
-	land_forcelimit_modifier = 0.15
-	state_maintenance_modifier = -0.20
+	land_forcelimit_modifier = 0.10
+	state_maintenance_modifier = -0.10
 	governing_capacity_modifier = 0.20
 }
 
 h_swedish_fleet = {
-	naval_maintenance_modifier = -0.10
-	galley_cost = -0.10
+	galley_cost = -0.25
 	galley_power = 0.10
 	sailors_recovery_speed = 0.25
 }
 
 h_swedish_neva_conquered = {
-	local_missionary_strength = 0.03
-	local_culture_conversion_cost = -0.33
+	local_missionary_strength = 0.02
+	local_missionary_maintenance_cost = -0.50
+	local_culture_conversion_cost = -0.50
 }
 
 h_swedish_enlightened_ruler = {
@@ -552,11 +558,11 @@ h_swedish_enlightened_ruler = {
 
 h_swedish_alexander_of_the_north = {
 	country_military_power = 1
-	infantry_power = 0.10
 }
 
 h_swedish_agriculture_boost = {
-	production_efficiency = 0.20
+	production_efficiency = 0.10
+	global_trade_goods_size_modifier = 0.05
 }
 
 h_swedish_industry = {
@@ -565,23 +571,24 @@ h_swedish_industry = {
 
 h_swedish_naval_supremacy = {
 	naval_morale = 0.10
-	sunk_ship_morale_hit_recieved = -0.1
+	global_naval_engagement_modifier = 0.10
 }
 
 ##Override
 
 swedish_military_reforms = {
 	drill_gain_modifier = 0.20
-	drill_decay_modifier = -0.05
+	drill_decay_modifier = -0.10
 }
 
 swedish_mercenary_core = {
 	mercenary_discipline = 0.05
-	mercenary_cost = -0.20
+	mercenary_cost = -0.10
+	mercenary_manpower = 0.15
 }
 
 swedish_naval_reforms = {
-	global_ship_cost = -0.15
+	global_ship_cost = -0.10
 	naval_morale = 0.10
 }
 

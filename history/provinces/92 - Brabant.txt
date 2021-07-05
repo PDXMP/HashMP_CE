@@ -1,8 +1,11 @@
 # 92 Brabant - Principal cities: Brussel & Mechelen
 
-owner = BRB
-controller = BRB
-add_core = BRB
+#owner = BRB
+#controller = BRB
+#add_core = BRB
+owner = BUR
+controller = BUR
+add_core = BUR
 is_city = yes
 capital = "Brussel"
 culture = flemish

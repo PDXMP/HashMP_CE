@@ -416,6 +416,7 @@ t_over_merc_cap_early = {
 
 t_over_merc_cap_mid = {
 	potential = {
+		always = no
 		was_player = yes
 		current_age = age_of_reformation
 	}
@@ -429,6 +430,7 @@ t_over_merc_cap_mid = {
 
 t_over_merc_cap_late = {
 	potential = {
+		always = no
 		was_player = yes
 		OR = {
 			current_age = age_of_absolutism
@@ -477,7 +479,6 @@ h_denmark_dominions_bonus_i = {
 	}
 
 	global_trade_goods_size_modifier = 0.05
-	naval_forcelimit_modifier = 0.025
 	global_manpower = 5
 	global_sailors = 500
 }
@@ -507,8 +508,7 @@ h_denmark_dominions_bonus_ii = {
 		}
 	}
 
-	global_trade_goods_size_modifier = 0.1
-	naval_forcelimit_modifier = 0.05
+	global_trade_goods_size_modifier = 0.075
 	global_manpower = 10
 	global_sailors = 1000
 }
@@ -538,8 +538,7 @@ h_denmark_dominions_bonus_iii= {
 		}
 	}
 
-	global_trade_goods_size_modifier = 0.15
-	naval_forcelimit_modifier = 0.075
+	global_trade_goods_size_modifier = 0.10
 	global_manpower = 15
 	global_sailors = 1500
 }
@@ -569,8 +568,7 @@ h_denmark_dominions_bonus_iv = {
 		}
 	}
 
-	global_trade_goods_size_modifier = 0.20
-	naval_forcelimit_modifier = 0.1
+	global_trade_goods_size_modifier = 0.125
 	global_manpower = 20
 	global_sailors = 2000
 }
@@ -600,8 +598,7 @@ h_denmark_dominions_bonus_v = {
 		}
 	}
 
-	global_trade_goods_size_modifier = 0.25
-	naval_forcelimit_modifier = 0.125
+	global_trade_goods_size_modifier = 0.15
 	global_manpower = 25
 	global_sailors = 2500
 }

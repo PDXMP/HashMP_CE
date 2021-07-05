@@ -83,7 +83,7 @@ country_event = {
 	}
 	option = {
 		name = "flavor_pol.EVTOPTB3468" # Refuse to enact
-		add_stability = -3
+		add_stability = -1
 	}
 }
 
@@ -582,7 +582,7 @@ country_event = {
 	}
 	option = {
 		name = "flavor_pol.EVTOPTB3497" # Let us change this depressive situation
-		add_stability = -3
+		add_stability = -1
 		clr_country_flag = librium_veto
 		remove_estate_privilege = estate_nobles_nieszawa_privileges
 	}
@@ -625,7 +625,7 @@ country_event = {
 	}
 	option = {
 		name = "flavor_pol.EVTOPTB3497" # Let us change this depressive situation
-		add_stability = -3
+		add_stability = -1
 		clr_country_flag = librium_veto
 		remove_estate_privilege = estate_nobles_nieszawa_privileges
 	}
@@ -669,7 +669,7 @@ country_event = {
 	}
 	option = {
 		name = "flavor_pol.EVTOPTB3497" # Let us change this depressive situation
-		add_stability = -3
+		add_stability = -1
 		clr_country_flag = librium_veto
 		remove_estate_privilege = estate_nobles_nieszawa_privileges
 	}
@@ -707,14 +707,14 @@ country_event = {
 	
 	option = {
 		name = "flavor_pol.EVTOPTA3497" # No, it's too problematic to change the situation
-		add_stability = 2
+		add_stability = 1
 		add_mercantilism = 3
 		custom_tooltip = "pol_stag_no_more"
 
 	}
 	option = {
 		name = "flavor_pol.EVTOPTB3497" # Let us change this depressive situation
-		add_stability = -3
+		add_stability = -1
 		clr_country_flag = librium_veto
 		remove_estate_privilege = estate_nobles_nieszawa_privileges
 	}
@@ -1167,7 +1167,7 @@ country_event = {
 	}
 	option = {
 		name = "flavor_pol.EVTOPTC3481" # Wage a war of extermination on the Nobility
-		add_stability = -3		
+		add_stability = -1		
 		random_owned_province = {
 			limit = {
 				is_capital = yes
