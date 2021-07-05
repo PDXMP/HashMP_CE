@@ -33,10 +33,11 @@ country_decisions = {
 			owns_core_province = 257				# Warszawa
 			senior_union_with = LIT
 			MAZ = { exists = no }
-			tooltip = must_finish_pol_missions
-			hidden = {
+			custom_trigger_tooltip = {
+				tooltip = must_finish_pol_missions
 				has_country_flag = pol_end_mission
 			}
+
 		}
 		effect = {
 			change_tag = PLC
@@ -112,7 +113,6 @@ country_decisions = {
 		ai_importance = 400
 		do_not_integrate = LIT
 	}
-
 	lit_commonwealth = {
 		major = yes
 		potential = {
