@@ -982,8 +982,8 @@ VEN_ideas = {
 
 PRU_ideas = {
 	start = {
-		army_tradition = 0.5
-		diplomatic_reputation = 1
+		war_exhaustion_cost = -0.10
+		global_trade_goods_size_modifier = 0.10
 	}
 	
 	bonus = {
@@ -998,19 +998,20 @@ PRU_ideas = {
 	soldier_king = {
 		army_tradition_decay = -0.01
 	}
-	army_professionalism = {
-		land_morale = 0.15
+	goose_step = {
+		infantry_power = 0.10
+		discipline = 0.05
 	}
 	divided_estates = {
 		stability_cost_modifier = -0.1
 		yearly_absolutism = 0.2
 	}
-	goose_step = {
-		infantry_power = 0.10
-		discipline = 0.05
+	army_professionalism = {
+		land_morale = 0.15
+		drill_gain_modifier = 0.10
 	}
 	religious_toleration = {
-		tolerance_heretic = 2
+		tolerance_heretic = 1
 		global_unrest = -1
 	}
 	regimental_cantons = {
@@ -1018,14 +1019,14 @@ PRU_ideas = {
 		global_manpower_modifier = 0.2
 	}
 	noble_cadets = {
-		mil_advisor_cost = -0.10
+		army_tradition = 0.5
 		possible_mil_policy = 1
 	}
 }
 
 BRA_ideas = {
 	start = {
-		army_tradition = 0.5
+		state_maintenance_modifier = -0.25
 		build_cost = -0.10
 	}
 	
@@ -1040,18 +1041,14 @@ BRA_ideas = {
 
 	kammergericht = {
 		global_tax_modifier = 0.1
-		reform_progress_growth = 0.1
 	}	
-	bra_pomeranian_wars = {
-		land_morale = 0.10
+	northern_march = {
+		infantry_power = 0.10
+		shock_damage_received = -0.10
 	}
 	divided_estates = {
 		stability_cost_modifier = -0.1
 		yearly_absolutism = 0.2
-	}
-	northern_march = {
-		infantry_power = 0.10
-		land_forcelimit_modifier = 0.10
 	}
 	seat_of_the_old_emperors = {
 		diplomatic_reputation = 1
@@ -1060,8 +1057,11 @@ BRA_ideas = {
 	iron_tooth = {
 		global_unrest = -2
 	}
+	bra_pomeranian_wars = {
+		land_morale = 0.10
+	}
 	noble_cadets = {
-		mil_advisor_cost = -0.10
+		army_tradition = 0.5
 		possible_mil_policy = 1
 	}
 }
