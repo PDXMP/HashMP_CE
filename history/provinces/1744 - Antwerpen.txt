@@ -1,8 +1,11 @@
 # 1744 Antwerp - Principal cities: Antwerp
 
-owner = BRB
-controller = BRB
-add_core = BRB
+#owner = BRB
+#controller = BRB
+#add_core = BRB
+owner = BUR
+controller = BUR
+add_core = BUR
 is_city = yes
 capital = "Antwerp"
 estate = estate_burghers

@@ -592,7 +592,7 @@ NCountry = {
 	VICTORY_CARD_BONUS_SCORE = 1000,		-- score given per level
 
 	COUNTRIES_GETTING_SCORE = 10,
-	LAND_FORCELIMIT_EXTRA_COST_FACTOR = 2,			-- extra expense for being above forcelimit
+	LAND_FORCELIMIT_EXTRA_COST_FACTOR = 2.5,			-- extra expense for being above forcelimit
 	NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 2,			-- extra expense for being above forcelimit
 	REPUBLICAN_TRADITION_YEARLY_INCREASE = 1,		-- how much it increases each year.
 	PIETY_PERCENTAGE_AT_NEW_RULER = 0.25,			-- percentage of piety kept at new ruler.
@@ -1050,7 +1050,7 @@ NEconomy = {
 
 NMilitary = {
 	SLACKEN_AP_DROP = 0.05,
-	SLACKEN_MANPOWER_INCREASE = 1.5,
+	SLACKEN_MANPOWER_INCREASE = 1,
 
 	DEVELOPMENT_FOR_BLOCKADE_COST = 0.5,
 	
@@ -1063,7 +1063,7 @@ NMilitary = {
 
 	COSSACKS_SHOCK_DAMAGE_BONUS = 0.1,
 	STRELTSY_FIRE_DAMAGE_BONUS = 0.1,
-	MARINE_SHOCK_DAMAGE_TAKEN = -0.1,
+	MARINE_SHOCK_DAMAGE_TAKEN = -0.2,
 	MAX_SAILOR_LACK_ATTRITION = 1,
 	SAILOR_MAINTAINANCE = 0.02,		-- of build cost.
 	BANNER_DISCIPLINE_BONUS = 0.05,
@@ -1284,12 +1284,12 @@ NMilitary = {
 	MERCENARY_COMPANY_STARTING_MORALE = 0.5,		-- Starting morale
 	MERCENARY_COMPANY_MIN_REGIMENTS = 4,			-- Minimum regiments
 	MERCENARY_COMPANY_MAX_REGIMENTS = 32,			-- Maximum regiments
-	MERCENARY_COMPANY_MANPOWER_PER_REGIMENT = 1.5,	-- Manpower reserve factor (multiplied by 1000 per regiment)
+	MERCENARY_COMPANY_MANPOWER_PER_REGIMENT = 1.0,	-- Manpower reserve factor (multiplied by 1000 per regiment)
 	MERCENARY_COMPANY_MANPOWER_RECOVERY = 120,				-- How many months to recover mercenary manpower fully
 	MERCENARY_COMPANY_HIRED_MANPOWER_RECOVERY_MOD = 2.5,		-- How much to modify the length for manpower recovery if they are hired
 	MERCENARY_COMPANY_LOW_MANPOWER_THRESHOLD = 0.2,	-- Percentage of remaining manpower under which we warn the player
 	MERCENARY_TRADE_RANGE_MODIFIER = 1.0,			-- Only use half of trade range
-	MERCENARY_COMPANY_BUILDING_TIME = 0.50,			-- Multiply province distance with this
+	MERCENARY_COMPANY_BUILDING_TIME = 0.75,			-- Multiply province distance with this
 	MERCENARY_COMPANY_LOCAL_VIRTUAL_DISTANCE = 100,	-- How many "pixels away" local company pretends to be.
 
 	NAVAL_BASE_DISENGAGEMENT_CHANCE = 0.1,			-- Chance of disengaging from naval battles every day when out of morale	0-1 range

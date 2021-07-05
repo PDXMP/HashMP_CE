@@ -29,6 +29,8 @@
  t4_sp_2_desc:0 "Shared Tier 4"
  t4_sp_3:0 "Professional Soldiers"
  t4_sp_3_desc:0 "Shared Tier 4"
+ t4_sp_4:0 "Expansionist Policy"
+ t4_sp_4_desc:0 "Shared Tier 4"
  t5_np_1:0 "Nobles of the Robe"
  t5_np_1_desc:0 "Nobility Tier 5"
  t5_np_2:0 "Political Absolutism"

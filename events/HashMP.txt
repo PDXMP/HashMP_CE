@@ -937,6 +937,234 @@ country_event = {
 	}
 }
 
+#Colonial Event // Removes Provinces
+country_event = {
+	id = hashmp.19
+	title = hashmp.19.title
+	desc = hashmp.19.desc
+	picture = BIG_BOOK_eventPicture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+		name = hashmp.19.a
+		if = {
+			limit = {
+				NOT = { has_country_flag = h_flag_cede_province_event }
+			}
+
+			set_country_flag = h_flag_cede_province_event
+		}
+
+		every_owned_province = {
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							colonial_region = colonial_the_carribean
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = { colonial_region = colonial_the_carribean }
+					}
+
+					cede_province = XXX
+				}
+			}
+
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							colonial_region = colonial_australia
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = { colonial_region = colonial_australia }
+					}
+
+					cede_province = XXX
+				}
+			}
+
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							colonial_region = colonial_brazil
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = { colonial_region = colonial_brazil }
+					}
+
+					cede_province = XXX
+				}
+			}
+
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							colonial_region = colonial_california
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = { colonial_region = colonial_california }
+					}
+
+					cede_province = XXX
+				}
+			}
+
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							colonial_region = colonial_canada
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = { colonial_region = colonial_canada }
+					}
+
+					cede_province = XXX
+				}
+			}
+
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							colonial_region = colonial_colombia
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = { colonial_region = colonial_colombia }
+					}
+
+					cede_province = XXX
+				}
+			}
+
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							colonial_region = colonial_eastern_america
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = { colonial_region = colonial_eastern_america }
+					}
+
+					cede_province = XXX
+				}
+			}
+
+
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							colonial_region = colonial_la_plata
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = { colonial_region = colonial_la_plata }
+					}
+
+					cede_province = XXX
+				}
+			}
+
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							colonial_region = colonial_louisiana
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = { colonial_region = colonial_louisiana }
+					}
+
+					cede_province = XXX
+				}
+			}
+
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							colonial_region = colonial_mexico
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = { colonial_region = colonial_mexico }
+					}
+
+					cede_province = XXX
+				}
+			}
+
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							colonial_region = colonial_peru
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						NOT = { colonial_region = colonial_peru }
+					}
+
+					cede_province = XXX
+				}
+			}
+		}
+
+		country_event = {
+			id = hashmp.19
+			days = 30
+		}
+	}
+}
+
 #Swedish Missions Event
 
 #Coronation of a Swedish King
@@ -977,7 +1205,7 @@ country_event = {
 		
 		hidden_effect = {
 			set_country_flag = johanking
-			add_ruler_personality = scholar_personality
+			add_ruler_personality = industrious_personality
 		}
 	}
 	
@@ -1010,7 +1238,7 @@ country_event = {
 		
 		hidden_effect = {
 			set_country_flag = gustavking
-			add_ruler_personality = martial_educator_personality
+			add_ruler_personality = strict_personality
 		}
 	}
 }
@@ -1061,6 +1289,7 @@ country_event = {
 	option = {
 		name = hashmp.102.b
 		add_army_tradition = 25
+		add_mil_power = 100
 	}
 }
 

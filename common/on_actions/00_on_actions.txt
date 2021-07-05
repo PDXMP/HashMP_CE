@@ -85,6 +85,18 @@ on_startup = {
 			id = hashmp.110
 		}
 	}
+
+	if = {
+		limit = {
+			is_colonial_nation = yes
+			NOT = { has_country_flag = h_flag_cede_province_event }
+		}
+
+		country_event = {
+			id = hashmp.19
+			days = 30
+		}
+	}
 }
 
 # country
@@ -1302,6 +1314,36 @@ on_government_change = {
 				which = GPW_counting_variable
 				value = -3
 			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = { has_reform = steppe_horde }
+			any_owned_province = {
+				has_province_modifier = h_horde_steppe_devcost
+			}
+		}
+		every_owned_province = { 
+			limit = {
+				has_province_modifier = h_horde_steppe_devcost
+			}
+
+			remove_province_modifier = h_horde_steppe_devcost
+		}
+	}
+	if = {
+		limit = {
+			NOT = { has_reform = steppe_horde }
+			any_owned_province = {
+				has_province_modifier = h_horde_autonomy_grant_tooltip
+			}
+		}
+		every_owned_province = { 
+			limit = {
+				has_province_modifier = h_horde_autonomy_grant_tooltip
+			}
+
+			remove_province_modifier = h_horde_autonomy_grant_tooltip
 		}
 	}
 }
@@ -4190,6 +4232,34 @@ on_golden_bull_enacted = {
 # FROM = The previous owner.
 on_conquest = {
 	remove_named_unrest = estate_land_seized
+
+	if = {
+		limit = {
+			has_reform = steppe_horde
+			has_estate_privilege = estate_nomadic_tribes_share_of_the_spoils
+			has_terrain = steppe
+			NOT = { has_province_modifier = h_horde_steppe_devcost }
+		}
+		
+		add_province_modifier = {
+			name = h_horde_steppe_devcost
+			duration = -1
+		}
+	}
+
+	if = {
+		limit = {
+			has_reform = steppe_horde
+			has_estate_privilege = estate_nomadic_tribes_chieftains_autonomy
+			unrest = 2
+			NOT = { has_province_modifier = h_horde_autonomy_grant }
+		}
+
+		add_province_modifier = {
+			name = h_horde_autonomy_grant
+			duration = -1
+		}
+	}
 }
 
 on_country_creation = {
@@ -4211,5 +4281,16 @@ on_country_creation = {
 		change_religion = catholic
 		change_government = theocracy
 		add_government_reform = papacy_reform
+	}
+
+	if = {
+		limit = {
+			is_colonial_nation = yes
+		}
+
+		country_event = {
+			id = hashmp.19
+			days = 30
+		}
 	}
 }

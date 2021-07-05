@@ -160,28 +160,12 @@ emp_hab_empire_branch = {
 		trigger = {
 			is_emperor = yes
 			OR = {
-				hre_reform_passed = emperor_privilegia_de_non_appelando
-				AND = {
-					custom_trigger_tooltip = {
-						tooltip = emp_hab_no_one_to_threaten_us_trigger_tooltip
-						NOT = {
-							any_country = {
-								NOT = { tag = root }
-								NOT = { is_subject_of = ROOT }
-								is_part_of_hre = yes
-								num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-									value = 10
-									continent = europe
-								}
-							}
-						}
-					}
-					calc_true_if = {
-						desc = emp_hab_no_one_to_threaten_us_trigger2_tooltip
-						amount = 10
-						all_country = {
-							has_reform = free_city
-						}
+				hre_reform_passed = reichsreform
+				calc_true_if = {
+					desc = emp_hab_no_one_to_threaten_us_trigger2_tooltip
+					amount = 15
+					all_country = {
+						has_reform = free_city
 					}
 				}
 			}
