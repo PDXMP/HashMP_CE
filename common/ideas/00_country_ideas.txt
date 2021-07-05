@@ -418,7 +418,7 @@ NED_ideas = {
 DAN_ideas = {
 	start = {
 		galley_power = 0.10
-		fort_maintenance_modifier = -0.20
+		fort_maintenance_modifier = -0.10
 	}
 	
 	bonus = {
