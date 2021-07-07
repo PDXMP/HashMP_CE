@@ -48,29 +48,6 @@ estate_polish_nobility_officer_corp = {
 	cooldown_years = 20
 }
 
-
-estate_polish_nobility_levies = {
-	icon = privilege_demand_more_troops
-	max_absolutism = -5
-	influence = 0.1
-	is_valid = {
-		NOT = { has_estate_privilege = estate_polish_nobility_golden_liberty }
-	}
-	can_select = {
-		NOT = { has_estate_privilege = estate_polish_nobility_golden_liberty }
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_polish_nobility
-			value = 4
-			}
-		}
-	}
-	modifier_by_land_ownership = {
-		global_tax_modifier = -0.25
-		global_manpower_modifier = 0.5
-	}
-}
-
 estate_polish_nobility_advisors = {
 	icon = privilege_recruit_minister
 	max_absolutism = -5
@@ -862,7 +839,7 @@ estate_lithuanian_nobility_levies = {
 	}
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.25
-		global_manpower_modifier = 0.30
+		global_manpower_modifier = 0.75
 	}
 	penalties = {
 	}
