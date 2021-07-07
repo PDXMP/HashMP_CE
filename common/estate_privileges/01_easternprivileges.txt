@@ -1186,7 +1186,7 @@ estate_lithuanian_nobility_pacta_conventa = {
 		global_autonomy = 0.025
 	}
 	benefits = {
-		governing_capacity  = 0.20
+		governing_capacity  = 150
 		num_accepted_cultures = 1
 	}
 }
