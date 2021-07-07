@@ -52,7 +52,7 @@
  settled_crimea:0 "The people of Crimea are now fully accepted members of the Commonwealth"
  control_baltic_trade:0 "The increased control on the Baltic has increased our efficiency temporarily"
  pol_minor_support:0 "The Bajorais are helping keep the Duchies in check"
- pol_mayor_support:0 "The Bajorais are vouching for the union and serve as a example for the rest of Duchies"
+ pol_mayor_suport:0 "The Bajorais are vouching for the union and serve as a example for the rest of Duchies"
  #########################
  ###privileges loc
  #########################
