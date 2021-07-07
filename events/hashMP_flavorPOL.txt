@@ -261,9 +261,11 @@ country_event = {
 				loyalty = -15
 			}
 		}
-		change_variable = {
-			which = balanceOfPower
-			value = 3
+		hidden_effect = {
+			change_variable = {
+				which = balanceOfPower
+				value = 3
+			}
 		}
 	}
 }
@@ -293,10 +295,11 @@ country_event = {
 			estate = estate_polish_nobility
 			loyalty = 10
 		}
-	
-		subtract_variable = {
-			which = balanceOfPower
-			value = 3
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 3
+			}
 		}
 	}
 	option = {
@@ -304,7 +307,7 @@ country_event = {
 		set_estate_privilege = estate_polish_nobility_pacta_conventa
 		set_estate_privilege = estate_lithuanian_nobility_pacta_conventa
 		set_country_flag = pol_pact_conventa_shared_flag
-		custom_tooltip = flavor_lit.bop.minus1
+		custom_tooltip = flavor_lit.bop.minus2
 		add_estate_loyalty = {
 			estate = estate_lithuanian_nobility
 			loyalty = -5
@@ -313,17 +316,16 @@ country_event = {
 			estate = estate_polish_nobility
 			loyalty = 10
 		}
-	
-		subtract_variable = {
-			which = balanceOfPower
-			value = 1
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 2
+			}
 		}
-		
 	}
 	
 	option = {
 		name = flavor_pol.27.c
-		custom_tooltip = flavor_lit.bop.minus3
 		add_estate_loyalty = {
 			estate = estate_lithuanian_nobility
 			loyalty = -10
@@ -361,16 +363,17 @@ country_event = {
 			estate = estate_polish_nobility
 			loyalty = 10
 		}
-	
-		subtract_variable = {
-			which = balanceOfPower
-			value = 3
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 3
+			}
 		}
 	}
 	option = {
 		name = flavor_pol.28.b
 		set_estate_privilege = estate_lithuanian_nobility_golden_liberty
-		custom_tooltip = flavor_lit.bop.plus1
+		custom_tooltip = flavor_lit.bop.minus2
 		add_estate_loyalty = {
 			estate = estate_lithuanian_nobility
 			loyalty = 10
@@ -379,17 +382,17 @@ country_event = {
 			estate = estate_polish_nobility
 			loyalty = -5
 		}
-	change_variable = {
-			which = balanceOfPower
-			value = 1
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 2
+			}
 		}
-		
 	}
 	
 	option = {
 		name = flavor_pol.28.c
 		set_country_flag = rejected_golden_liberty 
-		custom_tooltip = flavor_lit.bop.minus2
 		remove_estate_privilege = estate_polish_nobility_golden_liberty
 		add_estate_loyalty = {
 			estate = estate_lithuanian_nobility
@@ -482,9 +485,11 @@ country_event = {
 				loyalty = 10
 			}
 		}
-		subtract_variable = {
-			which = balanceOfPower
-			value = 3
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 3
+			}
 		}
 	}
 }
@@ -514,11 +519,17 @@ country_event = {
 			estate = estate_polish_nobility
 			loyalty = 10
 		}
-		subtract_variable = {
-			which = balanceOfPower
-			value = 1
+		if = {
+			limit = {
+				tag = POL
+			}
+			hidden_effect = {
+				subtract_variable = {
+					which = balanceOfPower
+					value = 1
+				}
+			}
 		}
-		
 		define_ruler = {
 			dynasty = original_dynasty
 			claim = 100
@@ -561,9 +572,16 @@ country_event = {
 			estate = estate_polish_nobility
 			loyalty = -10
 		}
-		change_variable = {
-			which = balanceOfPower
-			value = 1
+		if = {
+			limit = {
+				tag = POL
+			}
+			hidden_effect = {
+				change_variable = {
+					which = balanceOfPower
+					value = 1
+				}
+			}
 		}
 		define_ruler = {
 			dynasty = original_dynasty
@@ -1245,9 +1263,11 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = -15
 		}
-		change_variable = {
-			which = balanceOfPower
-			value = 3
+		hidden_effect = {
+			change_variable = {
+				which = balanceOfPower
+				value = 2
+			}
 		}
 	}
 	option = {
