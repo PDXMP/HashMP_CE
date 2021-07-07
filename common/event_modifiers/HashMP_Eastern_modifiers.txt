@@ -81,12 +81,12 @@ pol_bajorais_refuse_troops = {
 }
 
 pol_mayor_support = {
-	reduced_liberty_desire = -10
+	reduced_liberty_desire = 10
 	diplomatic_upkeep = 1
 }
 
 pol_minor_support = {
-	reduced_liberty_desire = -5
+	reduced_liberty_desire = 5
 }
 
 pol_bajorais_refuse_timer = { }
@@ -97,7 +97,7 @@ pol_bajorais_veto_timer = { }
 
 magnate_support = {
 	global_unrest = -2
-	reduced_liberty_desire = -15
+	reduced_liberty_desire = 15
 }
 
 invade_silesia = {
