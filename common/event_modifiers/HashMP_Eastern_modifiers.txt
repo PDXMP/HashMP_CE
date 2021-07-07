@@ -76,8 +76,17 @@ pol_bajorais_comply_policies = {
 }
 
 pol_bajorais_refuse_troops = {
-	global_regiment_recruit_speed = 0.20
-	manpower_recovery_speed = -0.50
+	global_regiment_recruit_speed = 0.50
+	manpower_recovery_speed = -0.20
+}
+
+pol_mayor_support = {
+	reduced_liberty_desire = -10
+	diplomatic_upkeep = 1
+}
+
+pol_minor_support = {
+	reduced_liberty_desire = -5
 }
 
 pol_bajorais_refuse_timer = { }
