@@ -21,6 +21,7 @@ country_event = {
 				value = 10
 			}
 			set_country_flag = pol_setup
+			set_ruler_flag = compromise_ruler
 		}
 	}
 }
@@ -56,9 +57,13 @@ country_event = {
 			add_local_autonomy = 25	
 		}
 				
-		every_owned_province = {
+		random_owned_province = {
 			add_local_autonomy = 10	
 		}
+		random_owned_province = {
+			add_local_autonomy = 5	
+		}
+		
 		add_estate_loyalty = {
 				estate = estate_lithuanian_nobility
 				loyalty = -15
@@ -67,10 +72,14 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = 10
 		}
-		subtract_variable = {
-			which = balanceOfPower
-			value = 3
+		
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 3
+			}
 		}
+
 	}
 	option = {
 		name = flavor_pol.25.b
@@ -93,9 +102,11 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = 10
 		}
-		subtract_variable = {
-			which = balanceOfPower
-			value = 1
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 1
+			}
 		}
 	}
 }
@@ -127,10 +138,12 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = 10
 		}
-		custom_tooltip = flavor_lit.bop.minus3		
-		subtract_variable = {
-			which = balanceOfPower
-			value = 3
+		custom_tooltip = flavor_lit.bop.minus3	
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 3
+			}
 		}
 		random_owned_province = {
 			limit = {
@@ -170,9 +183,11 @@ country_event = {
 			}
 		}
 		custom_tooltip = flavor_lit.bop.plus1
-		change_variable = {
-			which = balanceOfPower
-			value = 1
+		hidden_effect = {
+			change_variable = {
+				which = balanceOfPower
+				value = 1
+			}
 		}
 	}
 
@@ -582,6 +597,141 @@ country_event = {
 	}
 }
 
+
+# The Sejm refuse to allow the mobilization of more troops
+country_event = {
+	id = flavor_pol.3738
+	title = "flavor_pol.EVTNAME3738"
+	desc = "flavor_pol.EVTDESC3738"
+	picture = LIBERUM_VETO_eventPicture
+	trigger = {
+		NOT = {
+			has_ruler_modifier = pol_sejm_refuse_timer
+			has_ruler_flag = polish_ruler
+		}
+		government = monarchy
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.8
+			has_ruler_flag = lithuanian_ruler
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			add_ruler_modifier = {
+				name = pol_sejm_refuse_timer
+				hidden = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "flavor_pol.EVTOPTOK"
+		add_ruler_modifier = { name = pol_sejm_refuse_troops } 
+		
+	}
+	option = {
+		name = "flavor_pol.EVTOPTA3738"
+		add_legitimacy = -10
+		add_stability = -1
+	}
+}
+
+# The Sejm comply to your policies
+country_event = {
+	id = flavor_pol.3743
+	title = "flavor_pol.EVTNAME3743"
+	desc = "flavor_pol.EVTDESC3743"
+	picture = LIBERUM_VETO_eventPicture
+	
+	trigger = {
+		NOT = {
+			has_ruler_modifier = pol_sejm_refuse_timer
+		}
+		government = monarchy
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 1.2
+			has_ruler_flag = lithuanian_ruler
+		}
+		
+		modifier = {
+			factor = 0.8
+			has_ruler_flag = polish_ruler
+		}
+		
+		modifier = {
+			factor = 0.8
+			has_ruler_flag = compromise_ruler
+		}
+		
+	}
+
+	
+
+	immediate = {
+		hidden_effect = {
+			add_ruler_modifier = {
+				name = pol_sejm_refuse_timer
+				hidden = yes
+			}
+		}
+	}
+	option = {
+		name = "flavor_pol.EVTOPTA3743"
+		add_ruler_modifier = { name = pol_sejm_comply_policies } 
+	}
+}
+
+# The Sejm veto all your policies
+country_event = {
+	id = flavor_pol.3744
+	title = "flavor_pol.EVTNAME3744"
+	desc = "flavor_pol.EVTDESC3744"
+	picture = LIBERUM_VETO_eventPicture
+	
+	trigger = {
+		NOT = {
+			has_ruler_modifier = pol_sejm_refuse_timer
+			has_ruler_flag = polish_ruler
+		}
+		government = monarchy
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.8
+			has_ruler_flag = lithuanian_ruler
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			add_ruler_modifier = {
+				name = pol_sejm_refuse_timer
+				hidden = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "flavor_pol.EVTOPTOK"
+		add_ruler_modifier = { name = pol_sejm_veto } 
+	}
+	option = {
+		name = "flavor_pol.EVTOPTA3738"
+		add_legitimacy = -10
+		add_stability = -1
+	}
+
+}
+
 # The bajorai refuse to allow the mobilization of more troops
 country_event = {
 	id = flavor_pol.103
@@ -624,7 +774,7 @@ country_event = {
 	}
 }
 
-# The Sejm comply to your policies
+# The Bajorais comply to your policies
 country_event = {
 	id = flavor_pol.104
 	title = flavor_pol.104.t
@@ -643,8 +793,19 @@ country_event = {
 		months = 6
 		modifier = {
 			factor = 1.2
+			has_ruler_flag = polish_ruler
+		}
+		
+		modifier = {
+			factor = 0.8
 			has_ruler_flag = lithuanian_ruler
 		}
+		
+		modifier = {
+			factor = 0.8
+			has_ruler_flag = compromise_ruler
+		}
+		
 	}
 	immediate = {
 		hidden_effect = {
@@ -832,10 +993,13 @@ country_event = {
 				loyalty = -5
 			}
 		}
-		change_variable = {
-			which = balanceOfPower
-			value = 1
+		hidden_effect = {
+			change_variable = {
+				which = balanceOfPower
+				value = 1
+			}
 		}
+
 	}
 	option = {
 		name = flavor_lit.15.b
@@ -871,9 +1035,11 @@ country_event = {
 			estate = estate_polish_nobility
 			loyalty = 10
 		}
-		subtract_variable = {
-			which = balanceOfPower
-			value = 1
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 1
+			}
 		}
 	}
 }
@@ -969,9 +1135,11 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = -5
 		}
-		change_variable = {
-			which = balanceOfPower
-			value = 1
+		hidden_effect = {
+			change_variable = {
+				which = balanceOfPower
+				value = 1
+			}
 		}
 	}
 	option = {
@@ -989,9 +1157,11 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = -20
 		}
-		change_variable = {
-			which = balanceOfPower
-			value = 2
+		hidden_effect = {
+			change_variable = {
+				which = balanceOfPower
+				value = 2
+			}
 		}
 	}
 	option = {
@@ -1021,9 +1191,11 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = 10
 		}
-		subtract_variable = {
-			which = balanceOfPower
-			value = 1
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 1
+			}
 		}
 	}
 }
@@ -1093,9 +1265,11 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = -15
 		}
-		subtract_variable = {
-			which = balanceOfPower
-			value = 3
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 3
+			}
 		}
 	}
 }
@@ -1137,10 +1311,13 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = -20
 		}
-		custom_tooltip = flavor_lit.bop.plus2
-		change_variable = {
-			which = balanceOfPower
-			value = 2
+		custom_tooltip = flavor_lit.bop.plus1
+		
+		hidden_effect = {
+			change_variable = {
+				which = balanceOfPower
+				value = 1
+			}
 		}
 	}
 	option = {
@@ -1155,11 +1332,6 @@ country_event = {
 		add_estate_loyalty = {
 				estate = estate_polish_nobility
 				loyalty = -5
-		}
-		custom_tooltip = flavor_lit.bop.plus1
-		change_variable = {
-			which = balanceOfPower
-			value = 1
 		}
 	}
 	option = {
@@ -1176,9 +1348,11 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = 10
 		}
-		subtract_variable = {
-			which = balanceOfPower
-			value = 1
+		hidden_effect = {
+			subtract_variable = {
+				which = balanceOfPower
+				value = 1
+			}
 		}
 	}
 }
@@ -1223,9 +1397,11 @@ country_event = {
 			}
 		}
 		custom_tooltip = flavor_lit.bop.plus2
-		change_variable = {
-			which = balanceOfPower
-			value = 2
+		hidden_effect = {
+			change_variable = {
+				which = balanceOfPower
+				value = 2
+			}
 		}
 	}
 	option = {
@@ -1250,9 +1426,11 @@ country_event = {
 			}
 		}
 		custom_tooltip = flavor_lit.bop.minus1
-		subtract_variable {
-			which = balanceOfPower
-			value = 1
+		hidden_effect = {
+			subtract_variable {
+				which = balanceOfPower
+				value = 1
+			}
 		}
 	}
 	option = {
@@ -1266,9 +1444,11 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = 10
 		}
-		subtract_variable {
-			which = balanceOfPower
-			value = 2
+		hidden_effect = {
+			subtract_variable {
+				which = balanceOfPower
+				value = 2
+			}
 		}
 		hidden_effect = {
 			POL = {
