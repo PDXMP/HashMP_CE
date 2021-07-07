@@ -612,10 +612,7 @@ polish_internal_issues = {
 			OR = {
 				POL = {
 					religious_unity = 1
-					orthodox = -2
-					LIT = {
-						tolerance_to_this = 2
-					}
+					orthodox = -0
 				}
 			}
 		}
