@@ -482,18 +482,9 @@ polish_internal_issues = {
 						}
 					}
 				}
-				AND = {
-					estate_loyalty = {
-						estate = estate_polish_nobility
-						loyalty = 70
-					}
-					NOT = {
-					
-						estate_influence = {
-							estate = estate_polish_nobility
-							influence = 50
-						}
-					}
+				estate_loyalty = {
+					estate = estate_polish_nobility
+					loyalty = 70
 				}
 				AND = {
 					estate_loyalty = {
@@ -570,14 +561,36 @@ polish_internal_issues = {
 		position = 3
 
 		trigger = {
-			estate_loyalty = {
-				estate = estate_lithuanian_nobility
-				loyalty = 60
-			}
-			NOT = {
-				estate_influence = {
+			OR {
+				AND = {
+					estate_loyalty = {
+						estate = estate_lithuanian_nobility
+						loyalty = 60
+					}
+					NOT = {
+					
+						estate_influence = {
+							estate = estate_lithuanian_nobility
+							influence = 40
+						}
+					}
+				}
+				estate_loyalty = {
 					estate = estate_lithuanian_nobility
-					influence = 35
+					loyalty = 70
+				}
+				AND = {
+					estate_loyalty = {
+						estate = estate_lithuanian_nobility
+						loyalty = 50
+					}
+					NOT = {
+					
+						estate_influence = {
+							estate = estate_lithuanian_nobility
+							influence = 30
+						}
+					}
 				}
 			}
 		}
