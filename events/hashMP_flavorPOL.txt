@@ -740,9 +740,15 @@ country_event = {
 				loyalty = -5
 			}
 		}
-		change_variable = {
-			which = balanceOfPower
-			value = 1
+		add_country_modifier = {
+			name = pol_mayor_support
+			duration = 7300
+		}
+		hidden_effect = {
+			change_variable = {
+				which = balanceOfPower
+				value = 1
+			}
 		}
 	}
 	option = {
@@ -754,17 +760,24 @@ country_event = {
 			inherit = VOL
 		}
 		custom_tooltip = flavor_lit.bop.minus1
-			add_estate_loyalty = {
-				estate = estate_lithuanian_nobility
-				loyalty = -5
+		add_estate_loyalty = {
+			estate = estate_lithuanian_nobility
+			loyalty = -5
+		}
+		add_estate_loyalty = {
+			estate = estate_polish_nobility
+			loyalty = 10
+		}
+		add_country_modifier = {
+			name = pol_minor_support
+			duration = 7300
+		}
+		
+		hidden_effect = {
+			subtract_variable ={
+				which = balanceOfPower
+				value = 1
 			}
-			add_estate_loyalty = {
-				estate = estate_polish_nobility
-				loyalty = 10
-			}
-		subtract_variable ={
-			which = balanceOfPower
-			value = 1
 		}
 	}
 	option = {
@@ -783,9 +796,11 @@ country_event = {
 				loyalty = 10
 			}
 		}
-		subtract_variable ={
-			which = balanceOfPower
-			value = 3
+		hidden_effect = {
+			subtract_variable ={
+				which = balanceOfPower
+				value = 3
+			}
 		}
 	}
 }
@@ -1200,7 +1215,7 @@ country_event = {
 				estate = estate_polish_nobility
 				loyalty = -20
 		}
-				hidden_effect = {
+		hidden_effect = {
 			POL = {
 				country_event = { 
 					id = flavor_lit.101 days = 730 
