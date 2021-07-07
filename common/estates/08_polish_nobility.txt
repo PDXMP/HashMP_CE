@@ -151,7 +151,7 @@ estate_polish_nobility =
 	
 	
 	influence_modifier = {
-		desc = sejm_level_1
+		desc = sejm_level_3
 		trigger = {
 			has_country_flag = pol_setup
 
@@ -170,7 +170,7 @@ estate_polish_nobility =
 	}
 	
 	influence_modifier = {
-		desc = sejm_level_2
+		desc = sejm_level_4
 		trigger = {
 			has_country_flag = pol_setup
 			NOT = {
@@ -184,7 +184,7 @@ estate_polish_nobility =
 	}
 	
 	influence_modifier = {
-		desc = bajorais_level_1
+		desc = sejm_level_1
 		trigger = {
 			has_country_flag = pol_setup
 			check_variable = {
@@ -203,7 +203,7 @@ estate_polish_nobility =
 	}
 	
 	influence_modifier = {
-		desc = bajorais_level_2
+		desc = sejm_level_2
 		trigger = {
 			has_country_flag = pol_setup
 			check_variable = {

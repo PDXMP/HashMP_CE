@@ -62,7 +62,7 @@ estate_lithuanian_nobility =
 	}
 	
 	influence_modifier = {
-		desc = sejm_level_1
+		desc = bajorais_level_1
 		trigger = {
 			has_country_flag = pol_setup
 			NOT = {
@@ -80,7 +80,7 @@ estate_lithuanian_nobility =
 	}
 	
 	influence_modifier = {
-		desc = sejm_level_2
+		desc = bajorais_level_2
 		trigger = {
 			has_country_flag = pol_setup
 			NOT = {
@@ -94,7 +94,7 @@ estate_lithuanian_nobility =
 	}
 	
 	influence_modifier = {
-		desc = bajorais_level_1
+		desc = bajorais_level_3
 		trigger = {
 			has_country_flag = pol_setup
 			check_variable = {
@@ -113,7 +113,7 @@ estate_lithuanian_nobility =
 	}
 	
 	influence_modifier = {
-		desc = bajorais_level_2
+		desc = bajorais_level_4
 		trigger = {
 			has_country_flag = pol_setup
 			check_variable = {
