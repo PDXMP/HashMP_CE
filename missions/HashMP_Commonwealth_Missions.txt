@@ -37,6 +37,9 @@ Central_european_conquest = {
 			}		
 		}
 		effect = {
+		
+			add_prestige = 20
+			
 			slovakia_area = {
 				limit = {
 					NOT = {
@@ -74,6 +77,13 @@ Central_european_conquest = {
 			}		
 		}		
 		effect = {
+		
+			slovakia_area = {
+				add_province_modifier = {
+					name = "hun_moldavia_mod"
+					duration = 10950
+				}
+			}
 			wallachia_area = {
 				limit = {
 					NOT = {
@@ -195,6 +205,8 @@ Central_european_conquest = {
 				}
 				add_permanent_claim = ROOT
 			}
+			
+			add_army_tradition = 10
 		}
 	}
 	##Mission End
@@ -257,6 +269,9 @@ Central_european_conquest = {
 				}
 				add_permanent_claim = ROOT
 			}
+			
+			add_yearly_manpower = 0.5
+			
 		}
 	}
 	##Mission End
@@ -407,6 +422,8 @@ russia_conquest = {
 				}
 				add_permanent_claim = ROOT
 			}
+			add_legitimacy = 10
+			
 		}
 	}
 	##Mission End
