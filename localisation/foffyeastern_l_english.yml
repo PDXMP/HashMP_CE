@@ -41,7 +41,7 @@
  desc_pol_bajorais_refuse_troops:0 "The Bajorais is refusing to provide troops to our monarch's activities."
  pol_bajorais_veto:0 "Sejm Veto"
  desc_pol_bajorais_veto:0 "The Sejm has vetoed the monarch's policies"
- pol_bajorais_comply_policies:0 "Sejm complied"
+ pol_bajorais_comply_policies:0 "Bajorais complied"
  desc_pol_bajorais_comply_policies:0 "The Sejm has complied with the monarch's policies"
  polish_nobility_loyalty_modifier:1 "Sejm Loyalty Equilibrium"
  lithuanian_nobility_loyalty_modifier:1 "Bajorais Loyalty Equilibrium"
@@ -96,8 +96,10 @@
  estate_lithuanian_nobility_strong_duchies_trigger_tooltip:0 "§Y[Root.GetName]§! has at least 2 vassals and marches."
  estate_lithuanian_nobility_strong_duchies_desc:0 "[Root.GetUsableNameCap] is a decentralized nation in which local dukes and counts have considerable independence from the [Root.Monarch.GetTitle]. This system has its benefits but makes maintaining the primacy of royal power a significant challenge."
  estate_polish_nobility_nieszawa_privileges_desc:0 "The Nieszawa Privileges require the [Root.Monarch.GetTitle] to seek the approval of the Sejm when issuing new laws, when levying the mobilization of armed forces, or when imposing new taxes."
+ estate_polish_nobility_pacta_conventa:0 "Pacta Conventa"
  estate_polish_nobility_pacta_conventa_desc:0 "The Pacta Conventa is a formal contract between the elected monarch and the Sejm that hands over control of the country to the latter, forcing the monarch to beg the Sejm to authorize any new policies or laws."
  estate_lithuanian_nobility_nieszawa_privileges_desc:0 "The Nieszawa Privileges require the [Root.Monarch.GetTitle] to seek the approval of the Bajorais when issuing new laws, when levying the mobilization of armed forces, or when imposing new taxes."
+ estate_lithuanian_nobility_pacta_conventa:0 "Pacta Conventa"
  estate_lithuanian_nobility_pacta_conventa_desc:0 "The Pacta Conventa is a formal contract between the elected monarch and the Bajorais that hands over control of the country to the latter, forcing the monarch to beg the Bajorais to authorize any new policies or laws."
  #########################
  ###agendas localisation
