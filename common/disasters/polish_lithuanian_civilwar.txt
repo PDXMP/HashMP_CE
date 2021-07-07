@@ -31,7 +31,7 @@ polish_lithuanian_civilwar = {
 		modifier = {
                 factor = -3
                 POL = {
-					offensive_war_with = SIL
+					offensive_war_with = OPL
 					has_country_modifier = invade_silesia
                 }
 				exists = LIT
@@ -53,7 +53,7 @@ polish_lithuanian_civilwar = {
         }
 		
         modifier = {
-                factor = 0.5
+                factor = 0.75
 				NOT = {
 					estate_loyalty = {
 						estate = estate_polish_nobility
@@ -62,11 +62,30 @@ polish_lithuanian_civilwar = {
 				}
         }
         modifier = {
-                factor = 0.5
+                factor = 0.75
 				NOT = {
 					estate_loyalty = {
 						estate = estate_lithuanian_nobility
 						loyalty = 30
+					}
+				}
+        }
+		
+        modifier = {
+                factor = 0.33
+				NOT = {
+					estate_loyalty = {
+						estate = estate_polish_nobility
+						loyalty = 40
+					}
+				}
+        }
+        modifier = {
+                factor = 0.33
+				NOT = {
+					estate_loyalty = {
+						estate = estate_lithuanian_nobility
+						loyalty = 40
 					}
 				}
         }
@@ -84,6 +103,22 @@ polish_lithuanian_civilwar = {
 			estate_loyalty = {
 				estate = estate_polish_nobility
 				loyalty = 60
+			}
+        }
+		
+        modifier = {
+			factor = -0.25
+			estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = 50
+			}
+        }
+		
+        modifier = {
+			factor = -0.25
+			estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 50
 			}
         }
 		
