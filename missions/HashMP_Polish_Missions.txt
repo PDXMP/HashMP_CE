@@ -520,13 +520,11 @@ polish_internal_issues = {
 		}
 		trigger = {
 			AND = {
-				NOT = { 
-					any_owned_province = {
-						OR = {
-							local_autonomy = 5
-							unrest = -2
-						}	
-					}
+				any_owned_province = {
+					OR = {
+						NOT = { local_autonomy = 5 }
+						NOT = { unrest = -2 }
+					}	
 				}
 				OR = {
 					LIT = { 
