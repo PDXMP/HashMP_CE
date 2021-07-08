@@ -631,7 +631,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 20
 		modifier = {
 			factor = 0.8
 			has_ruler_flag = lithuanian_ruler
@@ -648,13 +648,23 @@ country_event = {
 	
 	option = {
 		name = "flavor_pol.EVTOPTOK"
+		if = {
+			limit = { 
+				has_ruler_modifier = pol_sejm_refuse_timer
+			} 
 		add_ruler_modifier = { name = pol_sejm_refuse_troops } 
+		}
 		
 	}
 	option = {
 		name = "flavor_pol.EVTOPTA3738"
-		add_legitimacy = -10
-		add_stability = -1
+		if = {
+			limit = { 
+				has_ruler_modifier = pol_sejm_refuse_timer
+			} 
+			add_legitimacy = -10
+			add_stability = -1
+		}
 	}
 }
 
@@ -673,7 +683,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 6
+		months = 14
 		modifier = {
 			factor = 1.2
 			has_ruler_flag = lithuanian_ruler
@@ -703,7 +713,15 @@ country_event = {
 	}
 	option = {
 		name = "flavor_pol.EVTOPTA3743"
-		add_ruler_modifier = { name = pol_sejm_comply_policies } 
+		if = {
+			limit = { 
+				has_ruler_modifier = pol_sejm_refuse_timer
+			} 
+			add_ruler_modifier = { 
+				name = pol_sejm_comply_policies 
+			} 
+			
+		}
 	}
 }
 
@@ -723,7 +741,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 20
 		modifier = {
 			factor = 0.8
 			has_ruler_flag = lithuanian_ruler
@@ -740,12 +758,22 @@ country_event = {
 	
 	option = {
 		name = "flavor_pol.EVTOPTOK"
+		if = {
+			limit = { 
+				has_ruler_modifier = pol_sejm_refuse_timer
+			} 
 		add_ruler_modifier = { name = pol_sejm_veto } 
+		}
 	}
 	option = {
 		name = "flavor_pol.EVTOPTA3738"
-		add_legitimacy = -10
-		add_stability = -1
+		if = {
+			limit = { 
+				has_ruler_modifier = pol_sejm_refuse_timer
+			} 
+			add_legitimacy = -10
+			add_stability = -1
+		}
 	}
 
 }
@@ -766,7 +794,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 20
 		modifier = {
 			factor = 0.8
 			has_ruler_flag = polish_ruler
@@ -781,14 +809,24 @@ country_event = {
 		}
 	}
 	option = {
-		name = "flavor_pol.EVTOPTOK"
-		add_ruler_modifier = { name = pol_bajorais_refuse_troops } 
+		if = {
+			limit = { 
+				has_ruler_modifier = pol_bajorais_refuse_timer
+			} 
+			name = "flavor_pol.EVTOPTOK"
+			add_ruler_modifier = { name = pol_bajorais_refuse_troops } 
+		}
 		
 	}
 	option = {
 		name = "flavor_pol.EVTOPTA3738"
-		add_legitimacy = -10
-		add_stability = -1
+		if = {
+			limit = { 
+				has_ruler_modifier = pol_bajorais_refuse_timer
+			} 
+			add_legitimacy = -10
+			add_stability = -1
+		}
 	}
 }
 
@@ -808,7 +846,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 6
+		months = 14
 		modifier = {
 			factor = 1.2
 			has_ruler_flag = polish_ruler
@@ -835,15 +873,20 @@ country_event = {
 	}
 	option = {
 		name = "flavor_pol.EVTOPTA3743"
-		add_ruler_modifier = { name = pol_bajorais_comply_policies } 
+		if = {
+			limit = { 
+				has_ruler_modifier = pol_bajorais_refuse_timer
+			} 
+			add_ruler_modifier = { name = pol_bajorais_comply_policies } 
+		}
 	}
 }
 
-# The Sejm veto all your policies
+# The bajorais veto all your policies
 country_event = {
 	id = flavor_pol.105
-	title = flavor_pol.105
-	desc = flavor_pol.105
+	title = flavor_pol.105.t
+	desc = flavor_pol.105.d
 	picture = LIBERUM_VETO_eventPicture
 	
 	trigger = {
@@ -855,7 +898,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 20
 		modifier = {
 			factor = 0.8
 			has_ruler_flag = polish_ruler
@@ -872,12 +915,23 @@ country_event = {
 	
 	option = {
 		name = "flavor_pol.EVTOPTOK"
-		add_ruler_modifier = { name = pol_bajorais_veto } 
+		if = {
+			limit = { 
+				has_ruler_modifier = pol_bajorais_refuse_timer
+			} 
+			add_ruler_modifier = { name = pol_bajorais_veto } 
+		}
 	}
 	option = {
 		name = "flavor_pol.EVTOPTA3738"
-		add_legitimacy = -10
-		add_stability = -1
+		if = {
+			limit = { 
+				has_ruler_modifier = pol_bajorais_refuse_timer
+			} 
+			add_legitimacy = -10
+			add_stability = -1
+		}
+		
 	}
 
 }
