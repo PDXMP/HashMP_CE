@@ -307,8 +307,9 @@ offensive_ideas = {
 		leader_land_shock = 1
 		shock_damage = 0.15
 	}
-	bayonet_leaders = {
-		global_regiment_recruit_speed = -0.20
+	superior_firepower = {
+		movement_speed = 0.1
+		reinforce_speed = 0.1
 	}
 	national_conscripts = {
 		army_tradition = 0.5
@@ -317,9 +318,9 @@ offensive_ideas = {
 		siege_ability = 0.25
 		artillery_bonus_vs_fort = 1
 	}
-	superior_firepower = {
-		movement_speed = 0.1
-		reinforce_speed = 0.1
+	bayonet_leaders = {
+		global_regiment_recruit_speed = -0.20
+		land_attrition = -0.10
 	}
 	grand_army = {
 		land_forcelimit_modifier = 0.1
@@ -348,24 +349,23 @@ defensive_ideas = {
 	military_drill = {
 		land_morale = 0.10
 	}
-	improved_manuever = {
-		leader_land_manuever = 1
+	supply_trains = {
 		reinforce_speed = 0.20
-	}
-	regimental_system = {
-		land_maintenance_modifier = -0.1
-		naval_maintenance_modifier = -0.1
+		global_supply_limit_modifier = 0.20
 	}
 	defensive_mentality = {
 		defensiveness = 0.1
-		fort_maintenance_modifier = -0.15
+		fort_maintenance_modifier = -0.1
 	}
-	supply_trains = {
+	regimental_system = {
+		land_maintenance_modifier = -0.1
+	}
+	improved_manuever = {
 		hostile_attrition = 1
-		land_attrition = -0.1
+		garrison_growth = 0.10
 	}
 	improved_foraging = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.20
 	}
 
 	ai_will_do = {
