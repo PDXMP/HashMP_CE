@@ -791,30 +791,31 @@ quantity_ideas = {
 	category = MIL
 
 	bonus = {
-		land_forcelimit_modifier  = 0.33
-		naval_forcelimit_modifier = 0.20
+		land_forcelimit_modifier = 0.35
 	}
 	mass_army = {
-		global_manpower_modifier = 0.33
+		global_manpower_modifier = 0.25
 	}
 	the_young_can_serve = {
-		manpower_recovery_speed = 0.20
+		manpower_recovery_speed = 0.25
 	}
 	enforced_service = {
 		global_regiment_cost = -0.1
 	}
 	the_old_and_infirm = {
-		land_maintenance_modifier = -0.05
-		naval_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.1
 	}
 	mercenary_contracts = {
-		reinforce_speed = 0.2
+		reinforce_speed = 0.20
+		reserves_organisation = 0.20
 	}
 	garrison_conscription = {
 		free_leader_pool = 2
+		general_cost = -0.10
 	}
 	expanded_supply_trains = {
-		recover_army_morale_speed = 0.05
+		global_supply_limit_modifier = 0.20
+		land_attrition = -0.20
 	}
 
 	ai_will_do = {
