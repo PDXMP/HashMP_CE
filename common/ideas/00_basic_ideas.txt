@@ -11,7 +11,7 @@ aristocracy_ideas = {
 	category = MIL
 
 	bonus = {
-		fire_damage_received = -0.1
+			fire_damage_received = -0.1
 		}
 
 	#trigger = {
@@ -34,7 +34,7 @@ aristocracy_ideas = {
 		global_manpower_modifier = 0.33
 	}
 	noble_resilience = {
-		war_exhaustion = -0.03
+		war_exhaustion = -0.05
 		reinforce_cost_modifier = -0.1
 	}
 	noble_officers = {
