@@ -833,7 +833,8 @@ expansion_ideas = {
 	important = yes
 
 	bonus = {
- 		governing_capacity_modifier = 0.15
+		cb_on_overseas = yes
+		trade_company_investment_cost = -0.20
 	}
 
 	additional_colonists = {
@@ -841,6 +842,7 @@ expansion_ideas = {
 	}
 	organised_recruiting = {
 		global_autonomy = -0.05
+		min_autonomy_in_territories = -0.1
 	}
 	additional_diplomats = {
 		global_unrest = -1
@@ -855,7 +857,7 @@ expansion_ideas = {
 		land_forcelimit_modifier = 0.15
 	}
 	competetive_merchants  = {
-		land_attrition = -0.1
+		governing_capacity_modifier = 0.25
 	}
 	additional_merchants = {
 		merchants = 1
