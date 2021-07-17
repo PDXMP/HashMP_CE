@@ -1,7 +1,11 @@
 #337 - Oran
 
-owner = TLC
-controller = TLC
+#owner = TLC
+#controller = TLC
+#add_core = TLC
+owner = TUN
+controller = TUN
+add_core = TUN
 culture = algerian
 religion = sunni
 capital = "Oran"
@@ -11,7 +15,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = TLC
 
 
 
