@@ -1061,34 +1061,34 @@ naval_ideas = {
 	}
 
 	bonus = {
-		global_naval_engagement_modifier = 0.1
-		allowed_marine_fraction = 0.10
+		leader_naval_fire = 1
 	}
 
 	boarding_parties = {
 		leader_naval_shock = 1
-		global_naval_barrage_cost = -0.33
+		sunk_ship_morale_hit_recieved = -0.20
 	}
 	improved_rams = {
 		galley_power = 0.10
 	}
-	naval_cadets = {
-		leader_naval_fire = 1
-		free_leader_pool = 1
-	}
 	naval_glory = {
 		prestige_from_naval = 1.0
-		naval_tradition_from_battle = 1.0
+		naval_tradition_from_battle = 0.5
+	}
+	naval_cadets = {
+		navy_tradition = 1
 	}
 	press_gangs = {
-		blockade_efficiency = 0.50
-		sailors_recovery_speed = 0.25
+		blockade_efficiency = 0.25
+		global_naval_barrage_cost = -0.25
+		siege_blockade_progress = 1
 	}
 	oak_forests_for_ships = {
 		heavy_ship_power = 0.10
 	}
 	superior_seamanship = {
 		movement_speed = 0.10
+		naval_attrition = -0.25
 	}
 
 	ai_will_do = {
