@@ -14167,14 +14167,15 @@ TUN_ideas = {
 	}
 	corsairs = {
 		navy_tradition = 1
-		privateer_efficiency = 0.10
+		disengagement_chance = 0.05
 	}
 	tun_attract_foreign_pirates = {
-		global_sailors_modifier = 0.20
-		global_manpower_modifier = 0.10
+		global_sailors_modifier = 0.25
+		global_manpower_modifier = 0.25
 	}
 	tun_board_of_captains = {
 		leader_naval_fire = 1
+		allowed_marine_fraction = 0.1
 	}
 	tun_export_monopolies = {
 		global_own_trade_power = 0.25
