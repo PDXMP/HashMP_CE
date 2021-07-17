@@ -1015,6 +1015,7 @@ influence_ideas = {
 
 	bonus = {
 		vassal_forcelimit_bonus = 1.0
+		reduced_stab_impacts = yes
 	}
 
 	tribute_system = {
