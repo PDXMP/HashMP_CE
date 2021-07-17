@@ -688,28 +688,31 @@ maritime_ideas = {
 		allowed_marine_fraction = 0.10
 	}
 
-	sea_hawks = {
-		navy_tradition = 1
-		free_leader_pool = 1
+	excellent_shipwrights = {
+		leader_naval_manuever = 1
+		disengagement_chance = 0.05
 	}
 	merchant_marine = {
 		global_sailors_modifier = 0.25
+		sailors_recovery_speed = 0.25
 	}
 	sheltered_ports = {
-		global_ship_repair = 0.1
+		global_ship_repair = 0.2
+		sailor_maintenance_modifer = -0.1
 	}
 	grand_navy = {
-		naval_forcelimit_modifier = 0.25
+		naval_forcelimit_modifier = 0.35
 	}
 	ships_penny = {
 		global_ship_cost = -0.1
+		global_ship_recruit_speed = -0.2
 	}
-	excellent_shipwrights = {
-		leader_naval_manuever = 1
-		global_ship_trade_power = 0.25
+	sea_hawks = {
+		admiral_cost = -0.2
+		free_leader_pool = 1
 	}
 	naval_fighting_instruction = {
-		privateer_efficiency = 0.33
+		global_ship_trade_power = 0.25
 		trade_efficiency = 0.10
 	}
 
@@ -1061,7 +1064,7 @@ naval_ideas = {
 	}
 
 	bonus = {
-		leader_naval_fire = 1
+		ship_durability = 0.05
 	}
 
 	boarding_parties = {
