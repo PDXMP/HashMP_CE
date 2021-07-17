@@ -351,18 +351,17 @@ defensive_ideas = {
 	}
 	supply_trains = {
 		reinforce_speed = 0.20
-		global_supply_limit_modifier = 0.20
 	}
 	defensive_mentality = {
 		defensiveness = 0.1
-		fort_maintenance_modifier = -0.1
+		fort_maintenance_modifier = -0.10
 	}
 	regimental_system = {
 		land_maintenance_modifier = -0.1
 	}
 	improved_manuever = {
 		hostile_attrition = 1
-		garrison_growth = 0.10
+		garrison_growth = 0.20
 	}
 	improved_foraging = {
 		global_manpower_modifier = 0.20
@@ -703,6 +702,7 @@ maritime_ideas = {
 	}
 	grand_navy = {
 		naval_forcelimit_modifier = 0.35
+		naval_tradition_from_trade = 1
 	}
 	ships_penny = {
 		global_ship_cost = -0.1
@@ -810,7 +810,7 @@ quantity_ideas = {
 		land_maintenance_modifier = -0.1
 	}
 	mercenary_contracts = {
-		reinforce_speed = 0.20
+		reinforce_speed = 0.10
 		reserves_organisation = 0.20
 	}
 	garrison_conscription = {
@@ -818,7 +818,6 @@ quantity_ideas = {
 		general_cost = -0.10
 	}
 	expanded_supply_trains = {
-		global_supply_limit_modifier = 0.20
 		land_attrition = -0.20
 	}
 
