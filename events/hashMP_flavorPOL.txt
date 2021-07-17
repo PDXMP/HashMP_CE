@@ -10,6 +10,7 @@ country_event = {
 	
 	trigger = {
 		always = yes
+		tag = pol
 	}
 
 	option = {
@@ -627,7 +628,7 @@ country_event = {
 			has_ruler_modifier = pol_sejm_refuse_timer
 			has_ruler_flag = polish_ruler
 		}
-		government = monarchy
+		has_reform = h_reform_elective_monarchy
 	}
 	
 	mean_time_to_happen = {
@@ -679,7 +680,7 @@ country_event = {
 		NOT = {
 			has_ruler_modifier = pol_sejm_refuse_timer
 		}
-		government = monarchy
+		has_reform = h_reform_elective_monarchy
 	}
 	
 	mean_time_to_happen = {
@@ -737,7 +738,7 @@ country_event = {
 			has_ruler_modifier = pol_sejm_refuse_timer
 			has_ruler_flag = polish_ruler
 		}
-		government = monarchy
+		has_reform = h_reform_elective_monarchy
 	}
 	
 	mean_time_to_happen = {
@@ -790,7 +791,7 @@ country_event = {
 			has_ruler_modifier = pol_bajorais_refuse_timer
 			has_ruler_flag = lithuanian_ruler
 		}
-		government = monarchy
+		has_reform = h_reform_elective_monarchy
 	}
 	
 	mean_time_to_happen = {
@@ -842,7 +843,7 @@ country_event = {
 		NOT = {
 			has_ruler_modifier = pol_bajorais_refuse_timer
 		}
-		government = monarchy
+		has_reform = h_reform_elective_monarchy
 	}
 	
 	mean_time_to_happen = {
@@ -894,7 +895,7 @@ country_event = {
 			has_ruler_modifier = pol_bajorais_refuse_timer
 			has_ruler_flag = polish_ruler
 		}
-		government = monarchy
+		has_reform = h_reform_elective_monarchy
 	}
 	
 	mean_time_to_happen = {
