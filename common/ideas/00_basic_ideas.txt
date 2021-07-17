@@ -305,9 +305,10 @@ offensive_ideas = {
 
 	glorious_arms = {
 		leader_land_shock = 1
+		shock_damage = 0.15
 	}
 	bayonet_leaders = {
-		shock_damage = 0.15
+		global_regiment_recruit_speed = -0.20
 	}
 	national_conscripts = {
 		army_tradition = 0.5
