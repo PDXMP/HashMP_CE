@@ -187,6 +187,7 @@ religious_ideas = {
 	religious_tradition = {
 		land_morale = 0.05
 		naval_morale = 0.05
+		manpower_in_true_faith_provinces = 0.10
 	}
 	inquisition = {
 		global_heretic_missionary_strength = 0.02
