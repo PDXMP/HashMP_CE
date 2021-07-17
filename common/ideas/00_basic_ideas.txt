@@ -1020,9 +1020,9 @@ influence_ideas = {
 		unjustified_demands = -0.5
 		reduced_liberty_desire = 15
 	}
-	
 	integrated_elites = {
 		diplomatic_upkeep = 2
+		accept_vassalization_reasons = 10
 	}
 	state_propaganda = {
 		can_fabricate_for_vassals = yes
@@ -1036,6 +1036,7 @@ influence_ideas = {
 	}
 	marcher_lords = {
 		diplomatic_reputation = 2
+		vassal_income = 0.25
 	}
 
 	ai_will_do = {
