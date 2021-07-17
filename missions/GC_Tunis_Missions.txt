@@ -316,9 +316,16 @@ gc_tunis_3 = {
 		
 		trigger = {
 			naval_forcelimit = 20
-			num_of_light_ship = 5
+			navy_size_percentage = 1
 		}
 		effect = {
+			define_admiral = {
+				shock = 3
+				fire = 3
+				manuever = 3
+				siege = 1
+			}
+
 			western_sicily_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -341,27 +348,6 @@ gc_tunis_3 = {
 				add_permanent_claim = ROOT
 			}
 			baleares_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			barbary_coast_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			algiers_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			hautes_plaines_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -544,6 +530,11 @@ gc_tunis_4 = {
 		}
 		
 		trigger = {
+			OR = {
+				num_of_galley = 12
+				num_of_heavy_ship = 5
+			}
+
 			barbary_coast_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
