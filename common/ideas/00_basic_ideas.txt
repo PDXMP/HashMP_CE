@@ -238,7 +238,7 @@ spy_ideas = {
 	}
 	privateers = {
 		embargo_efficiency = 0.25
-		privateer_efficiency = 0.33
+		power_projection_from_insults = 1
 	}
 	audit_checks = {
 		yearly_corruption = -0.2
