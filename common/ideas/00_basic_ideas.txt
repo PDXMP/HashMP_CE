@@ -433,10 +433,11 @@ economic_ideas = {
 	}
 	organised_construction = {
 		build_cost = -0.05
+		build_time = -0.10
 	}
 	national_bank = {
 		inflation_reduction = 0.1
-		inflation_action_cost = -0.1
+		inflation_action_cost = -0.20
 	}
 	debt_and_loans = {
 		prestige_decay = -0.01
