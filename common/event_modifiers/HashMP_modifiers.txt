@@ -19,6 +19,10 @@ h_dual_monarchy = {
 	num_accepted_cultures = 1
 }
 
+tun_med_blob = { 
+	ae_impact = -0.2
+}
+
 h_bankrupt_interest = {
 	interest = 2
 }

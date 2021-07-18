@@ -11,9 +11,9 @@ religion = sunni
 capital = "Medea"
 trade_goods = gold #grain in 1.30 vanilla
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
+base_tax = 2 
+base_production = 5
+base_manpower = 2
 is_city = yes
 add_core = ALG
 
