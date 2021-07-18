@@ -114,14 +114,15 @@ innovativeness_ideas = {
 		embracement_cost = -0.25
 	}
 	pragmatism = {
-		merc_maintenance_modifier = -0.2
+		merc_maintenance_modifier = -0.25
 		mercenary_cost = -0.1
 	}
 	scientific_revolution = {
 		technology_cost = -0.1
 	}
 	dynamic_court = {
-		mercenary_manpower = 0.33
+		mercenary_manpower = 0.25
+		mercenary_discipline = 0.025
 	}
 	resilient_state = {
 		drill_gain_modifier = 0.33
@@ -129,9 +130,11 @@ innovativeness_ideas = {
 	}
 	optimism = {
 		innovativeness_gain = 1.0
+		leader_cost = -0.1
 	}
 	formalized_officer_corps = {
 		free_leader_pool = 2
+		war_exhaustion_cost = -0.25
 	}
 
 	ai_will_do = {
