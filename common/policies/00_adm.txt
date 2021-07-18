@@ -999,8 +999,8 @@ visionary_thinkers = {
 		full_idea_group = quality_ideas
 	}	
 	
-	leader_land_fire = 1
-	yearly_army_professionalism = 0.0025
+	drill_gain_modifier = 0.33
+	yearly_army_professionalism = 0.005
 	
 	ai_will_do = {
 		factor = 1
