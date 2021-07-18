@@ -189,8 +189,7 @@ religious_ideas = {
 	}
 	religious_tradition = {
 		land_morale = 0.05
-		naval_morale = 0.05
-		manpower_in_true_faith_provinces = 0.10
+		manpower_in_true_faith_provinces = 0.15
 	}
 	inquisition = {
 		global_heretic_missionary_strength = 0.02
@@ -822,7 +821,7 @@ quantity_ideas = {
 		general_cost = -0.10
 	}
 	expanded_supply_trains = {
-		land_attrition = -0.20
+		land_attrition = -0.10
 	}
 
 	ai_will_do = {
@@ -853,7 +852,7 @@ expansion_ideas = {
 	}
 	faster_colonists = {
 		colonists = 1
-		colonist_placement_chance = 0.03
+		num_accepted_cultures = 2
 	}
 	improved_shipyards  = {
 		manpower_recovery_speed = 0.1

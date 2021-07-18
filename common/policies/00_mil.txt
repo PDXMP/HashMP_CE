@@ -30,7 +30,7 @@ the_provincial_taxation_system = {
 }
 
 the_mining_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = expansion_ideas
@@ -44,9 +44,8 @@ the_mining_act = {
 		full_idea_group = expansion_ideas
 		full_idea_group = quality_ideas
 	}
-	
-	army_tradition_from_battle = 0.5
-	drill_gain_modifier = 0.35
+
+	infantry_cost = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -598,8 +597,8 @@ colonial_garrisons = {
 		full_idea_group = expansion_ideas
 	}
 
-	global_regiment_cost = -0.1
-	land_forcelimit_modifier = 0.1
+	land_maintenance_modifier = -0.05
+	land_forcelimit_modifier = 0.15
 
 	ai_will_do = {
 		factor = 1
