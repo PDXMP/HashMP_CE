@@ -947,7 +947,7 @@ enlightened_aristocracy = {
 	}	
 	
 	leader_land_shock = 1
-	land_morale = 0.05
+	manpower_in_true_faith_provinces = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -971,8 +971,7 @@ modern_siege_weapons = {
 		full_idea_group = expansion_ideas
 	}	
 	
-	backrow_artillery_damage = 0.1
-	artillery_bonus_vs_fort = 1
+	artillery_power = 0.1
 	
 	ai_will_do = {
 		factor = 1

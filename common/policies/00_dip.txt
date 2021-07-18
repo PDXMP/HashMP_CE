@@ -562,8 +562,8 @@ trade_kontor_network = {
 		full_idea_group = trade_ideas
 	}
 	
-	merc_maintenance_modifier = -0.25
-	mercenary_cost = -0.25
+	merc_maintenance_modifier = -0.33
+	mercenary_cost = -0.33
 
 	ai_will_do = {
 		factor = 1
