@@ -1996,7 +1996,6 @@ spa_prepared_armada = {
 # Tunisian missions
 
 tun_berbers_pacified = {
-	land_morale = 0.10
 	global_unrest = -2
 }
 
