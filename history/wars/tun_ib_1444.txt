@@ -1,0 +1,21 @@
+name = "TUN-IB"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = TUN
+	add_attacker = MOR 
+	add_attacker = MRK 
+	add_attacker = SOS
+	add_defender = CAS
+	add_defender = POR
+}
+1444.8.1 = {
+	rem_attacker = TUN
+	rem_attacker = MOR
+	rem_attacker = MRK 
+	rem_attacker = SOS 
+	rem_defender = CAS 
+	rem_defender = POR
+}
