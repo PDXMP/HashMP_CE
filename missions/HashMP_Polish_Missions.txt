@@ -56,7 +56,7 @@ develop_commonwealth = {
 				limit = { 
 					country_or_non_sovereign_subject_holds = root 
 				}
-				add_province_modifier = {
+				add_permanent_province_modifier = {
 					name = restored_ruthenia
 					duration = -1
 				}
@@ -130,42 +130,35 @@ develop_commonwealth = {
 			OR = {
 				province_id = 260
 				province_id = 2961
+				province_id = 259
 			}
 		}
 		trigger = {
 			owns_core_province = 260
 			owns_core_province = 2961
+			owns_core_province = 259
 			260 = {
+				province_has_center_of_trade_of_level = 2
 				development = 20			
-				has_manufactory_trigger = yes
-				if = {
-					limit = {
-						has_dlc = "Dharma"
-					}
-					province_has_center_of_trade_of_level = 3
-				}
-				else = {
-					OR = {
-						has_building = trade_depot
-						has_building = stock_exchange
-					}
-				}				
+				OR = {
+					has_building = counting_house
+					has_building = workshop
+				}						
 			}
 			2961 = {
+				province_has_center_of_trade_of_level = 2
 				development = 20
-				has_manufactory_trigger = yes
-				if = {
-					limit = {
-						has_dlc = "Dharma"
-					}
-					province_has_center_of_trade_of_level = 2
+				OR = {
+					has_building = counting_house
+					has_building = workshop
 				}
-				else = {
-					OR = {
-						has_building = trade_depot
-						has_building = stock_exchange
-					}
-				}	
+			}
+			259 = {
+				development = 15
+				OR = {
+					has_building = counting_house
+					has_building = workshop
+				}
 			}
 		}
 		effect = {
@@ -227,7 +220,7 @@ develop_commonwealth = {
 			}
 			4545 = {
 				add_base_production = 3
-				add_province_modifier = {
+				add_permanent_province_modifier = {
 					name = "sluck_sashes"
 					duration = -1
 				}
@@ -607,8 +600,8 @@ polish_internal_issues = {
 		position = 4
 
 		trigger = {
-			OR = {
-				POL = {
+			POL = {
+				OR = {
 					religious_unity = 1
 					orthodox = -0
 				}
@@ -831,7 +824,7 @@ lithuanian_internal_issues = {
 		}
 		effect = {
 			280 = {
-				add_province_modifier = {
+				add_permanent_province_modifier = {
 					name = "restoration_of_kiev"
 					duration = -1
 				}
