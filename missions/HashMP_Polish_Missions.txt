@@ -130,35 +130,42 @@ develop_commonwealth = {
 			OR = {
 				province_id = 260
 				province_id = 2961
-				province_id = 259
 			}
 		}
 		trigger = {
 			owns_core_province = 260
 			owns_core_province = 2961
-			owns_core_province = 259
 			260 = {
-				province_has_center_of_trade_of_level = 2
 				development = 20			
-				OR = {
-					has_building = counting_house
-					has_building = workshop
-				}						
+				has_manufactory_trigger = yes
+				if = {
+					limit = {
+						has_dlc = "Dharma"
+					}
+					province_has_center_of_trade_of_level = 3
+				}
+				else = {
+					OR = {
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}				
 			}
 			2961 = {
-				province_has_center_of_trade_of_level = 2
 				development = 20
-				OR = {
-					has_building = counting_house
-					has_building = workshop
+				has_manufactory_trigger = yes
+				if = {
+					limit = {
+						has_dlc = "Dharma"
+					}
+					province_has_center_of_trade_of_level = 2
 				}
-			}
-			259 = {
-				development = 15
-				OR = {
-					has_building = counting_house
-					has_building = workshop
-				}
+				else = {
+					OR = {
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}	
 			}
 		}
 		effect = {
@@ -623,7 +630,7 @@ polish_internal_issues = {
 
 		trigger = {
 			LIT = { 
-				is_subject_of = POL 
+				junior_union_with = POL 
 				NOT = {
 					liberty_desire = 0
 				}	
