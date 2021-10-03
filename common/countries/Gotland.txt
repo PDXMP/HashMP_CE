@@ -76,8 +76,6 @@ monarch_names = {
 	"Zack #0" = 10
 	"Pierre #0" = 10
 	"Céline #0" = -10
-	"James #0" = 10
-	"Byron #0" = 10
 	
 	"Artur #0" = 5 
 	"Mikael #0" = 5
@@ -93,28 +91,20 @@ monarch_names = {
 	"Stefan #0" = 5
 	"Björn #0" = 5
 	"Nina #0" = -5
-	"Marie #0" = -10
-	"Valeska #0" = -10
-	"Sofia #0" = -10
-	"Wendy #0" = -10
-	"Veronica #0" = -10
 }
 
 leader_names = {
     Andersson
 	Andreasson
 	Anward
-	Aytoun
     Backlund
 	Ballantyne 
-	Beaumont
     Bergqwist
 	Berni
 	Bjarnehed
 	Björk
 	Borg
 	Drevendal
-	"du Plessis"
 	Edström
 	Eklund
 	Eriksson
@@ -124,7 +114,6 @@ leader_names = {
 	Gladh
 	Hansson
 	Hesselborn
-	Höglund
 	Holmgren
 	Isaksson
 	Jakobsson
@@ -137,13 +126,11 @@ leader_names = {
 	Korhonen
 	Kowalcyzk
 	Kuiper
-	Kundak-Cowall
 	Lagerbäck
 	Lohmander
 	Lerström
 	Lind
 	Mannetje
-	Martins
 	Millen
 	Nicholson
 	Norrevik
@@ -156,7 +143,6 @@ leader_names = {
 	Schießl
 	Skoglund
 	Sjöström
-	Sommerdahl
 	Strid
 	Tammpere
 	Tiger
@@ -170,8 +156,6 @@ leader_names = {
 	Åslund
 	Virtanen
 	Wendel-Örtqvist
-	Young
-	Pazos
 }
 
 ship_names = {

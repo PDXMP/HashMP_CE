@@ -64,7 +64,6 @@ monarchy = {
 				black_army_reform
 				legion_of_honor_reform
 				imperial_nobility_reform
-				uparaja_reform
 			}
 		}
 		bureaucracy = { #Bureaucracy
@@ -82,8 +81,6 @@ monarchy = {
 				t3_lp_ind1
 				liberte_reform
 				fraternite_reform
-				examination_system_reform
-				corvee_reform
 			}
 		}
 		growth_of_administration = { #Improvements in Government
@@ -102,7 +99,6 @@ monarchy = {
 				revolutionary_principle_reform
 				equality_principle_reform
 				imperial_principle_reform
-				sakdina_system_reform
 			}
 		}
 		deliberative_assembly = { #Role of Religion
@@ -282,9 +278,6 @@ republic = {
 				american_republic
 				federal_republic
 				colonial_government
-				crown_colony_government
-				private_enterprise_colony_government
-				self_governing_colony_government
 				dutch_republic
 				peasants_republic
 				revolutionary_republic_reform
@@ -299,8 +292,6 @@ republic = {
 				h_reform_dominion
 				h_reform_commandery
 				h_reform_protectorate
-				kongsi_federation
-				millenarian_theocracy_reform
 			}
 		}
 		republican_virtues = {
@@ -773,7 +764,7 @@ pre_dharma_mapping = {
 	}
 	trading_city = {
 		government = republic
-		legacy_government = imperial_city
+		legacy_government = imperial_city_legacy
 	}
 	ambrosian_republic = {
 		government = republic

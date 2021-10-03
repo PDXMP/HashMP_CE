@@ -73,7 +73,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = inspiring_leader } }
+			hidden_effect = { add_ruler_personality = inspiring_leader_personality }
 		}
 	}
 	option = {
@@ -158,7 +158,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = expansionist } }
+			hidden_effect = { add_ruler_personality = expansionist_personality }
 		}
 	}
 	option = {
@@ -252,7 +252,7 @@ country_event = {
 				female = yes
 			}
 			hidden_effect = {
-				add_queen_personality_ancestor = { key = incorruptible }
+				add_queen_personality = incorruptible_personality
 			}
 		}
 		else = {
@@ -487,7 +487,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = free_thinker } }
+			hidden_effect = { add_ruler_personality = free_thinker_personality }
 		}
 	}
 	option = {
@@ -776,13 +776,12 @@ country_event = {
 			mil = 3
 			age = 23
 			female = yes
-			fixed = yes
 		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = expansionist } }	
+			hidden_effect = { add_ruler_personality = expansionist_personality }
 		}
 	}
 	option = {
@@ -968,7 +967,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = careful } }
+			hidden_effect = { add_ruler_personality = careful_personality }
 		}
 	}
 	option = {
@@ -1042,7 +1041,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = zealot } }
+			hidden_effect = { add_ruler_personality = zealot_personality }
 		}
 	}
 	option = {
@@ -1269,7 +1268,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = entrepreneur } }
+			hidden_effect = { add_ruler_personality = entrepreneur_personality }
 		}
 	}
 	option = {
@@ -1350,7 +1349,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = tactical_genius } }
+			hidden_effect = { add_ruler_personality = tactical_genius_personality }
 		}
 	}
 	option = {
@@ -1431,7 +1430,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = inspiring_leader } }
+			hidden_effect = { add_ruler_personality = inspiring_leader_personality }
 		}
 	}
 	option = {
@@ -1587,7 +1586,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_or_building_flagship = no
+				has_flagship = no
 				capital_scope = {
 					has_port = yes
 				}
@@ -1921,7 +1920,7 @@ country_event = {
 			female = yes
 		}
 		hidden_effect = {
-			add_queen_personality_ancestor = { key = righteous }
+			add_queen_personality = righteous_personality
 		}
 	}
 	option = {
@@ -2051,7 +2050,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = silver_tongue } }
+			hidden_effect = { add_ruler_personality = silver_tongue_personality }
 		}
 	}
 	option = {
@@ -2133,7 +2132,7 @@ country_event = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { 
-				add_ruler_personality_ancestor = { key = intricate_web_weaver }
+				add_ruler_personality = intricate_web_weaver_personality 
 				add_ruler_personality = embezzler_personality 
 			}
 		}
@@ -2287,7 +2286,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = bold_fighter } }
+			hidden_effect = { add_ruler_personality = bold_fighter_personality }
 		}
 	}
 	option = {
@@ -2422,7 +2421,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = well_connected } }
+			hidden_effect = { add_ruler_personality = well_connected_personality }
 		}
 	}
 	option = {
@@ -2554,7 +2553,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = martial_educator } }
+			hidden_effect = { add_ruler_personality = martial_educator_personality }
 		}
 	}
 	option = {
@@ -2655,7 +2654,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = intricate_web_weaver } }
+			hidden_effect = { add_ruler_personality = intricate_web_weaver_personality }
 		}
 	}
 	option = {
@@ -2782,7 +2781,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = well_connected } }
+			hidden_effect = { add_ruler_personality = well_connected_personality }
 		}
 	}
 	option = {
@@ -2855,7 +2854,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = scholar } }
+			hidden_effect = { add_ruler_personality = scholar_personality }
 		}
 	}
 	option = {
@@ -3310,7 +3309,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = benevolent } }
+			hidden_effect = { add_ruler_personality = benevolent_personality }
 		}
 	}
 }
@@ -3642,7 +3641,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = inspiring_leader } }
+			hidden_effect = { add_ruler_personality = inspiring_leader_personality }
 		}
 	}
 	option = {
@@ -4230,7 +4229,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = silver_tongue } }
+			hidden_effect = { add_ruler_personality = silver_tongue_personality }
 		}
 	}
 }
@@ -4304,7 +4303,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = charismatic_negotiator } }
+			hidden_effect = { add_ruler_personality = charismatic_negotiator_personality }
 		}
 	}
 }
@@ -4385,7 +4384,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = midas_touched } }
+			hidden_effect = { add_ruler_personality = midas_touched_personality }
 		}
 	}
 }
@@ -4469,7 +4468,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = pious } }
+			hidden_effect = { add_ruler_personality = pious_personality }
 		}
 	} 
 }
@@ -4553,7 +4552,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = incorruptible } }
+			hidden_effect = { add_ruler_personality = incorruptible_personality }
 		}
 	}
 }
@@ -4645,7 +4644,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = industrious } }
+			hidden_effect = { add_ruler_personality = industrious_personality }
 		}
 	}
 }
@@ -4725,7 +4724,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = expansionist } }
+			hidden_effect = { add_ruler_personality = expansionist_personality }
 		}
 	}
 }
@@ -4819,7 +4818,6 @@ country_event = {
 			type = statesman
 			discount = yes
 			culture = arawak
-			religion = animism
 			skill = 2
 			female = yes
 		}
@@ -4968,7 +4966,7 @@ country_event = {
 				female = yes
 			}
 			hidden_effect = {
-				add_queen_personality_ancestor = { key = righteous }
+				add_queen_personality = righteous_personality
 				add_queen_personality = intricate_web_weaver_personality
 			}
 		}
@@ -4993,8 +4991,8 @@ country_event = {
 				change_statists_vs_orangists = 1
 			}
 			hidden_effect = {
-				add_ruler_personality_ancestor = { key = righteous }
-				add_queen_personality = intricate_web_weaver_personality
+				add_ruler_personality = righteous_personality
+				add_ruler_personality = intricate_web_weaver_personality
 			}
 		}
 	}
@@ -5085,7 +5083,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = careful } }
+			hidden_effect = { add_ruler_personality = careful_personality }
 		}
 	}
 }
@@ -5162,8 +5160,8 @@ country_event = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { 
-				add_ruler_personality_ancestor = { key = secretive }
-				add_ruler_personality_ancestor = { key = well_connected }
+				add_ruler_personality = secretive_personality 
+				add_ruler_personality = well_connected_personality 
 			}
 		}
 	}
@@ -5231,7 +5229,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = fierce_negotiator } }
+			hidden_effect = { add_ruler_personality = fierce_negotiator_personality }
 		}
 	}
 }
@@ -5428,7 +5426,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = industrious } }
+			hidden_effect = { add_ruler_personality = industrious_personality }
 		}
 	}
 	option = {
@@ -5467,7 +5465,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = entrepreneur } }
+			hidden_effect = { add_ruler_personality = entrepreneur_personality }
 		}
 	}
 	option = {
@@ -5507,7 +5505,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = scholar } }
+			hidden_effect = { add_ruler_personality = scholar_personality }
 		}
 	}
 }
@@ -5587,7 +5585,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = tolerant } }
+			hidden_effect = { add_ruler_personality = tolerant_personality }
 		}
 	}
 }
@@ -5668,7 +5666,6 @@ country_event = {
 
 	trigger = {
 		tag = PAP
-		has_global_flag = borgia_pope_global
 		is_year = 1480
 		NOT = {
 			is_year = 1519
@@ -5679,7 +5676,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 200
 	}
 	
 	immediate = {
@@ -5792,8 +5789,8 @@ country_event = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { 
-				add_ruler_personality_ancestor = { key = scholar }
-				add_ruler_personality_ancestor = { key = well_connected }
+				add_ruler_personality = scholar_personality
+				add_ruler_personality = well_connected_personality 
 			}
 		}
 	}
@@ -5902,17 +5899,6 @@ country_event = {
 		}
 		add_prestige = 10
 		set_country_flag = taj_mahal_exists
-		if = {
-			limit = {
-				has_dlc = "Leviathan"
-			}
-			524 = {
-				add_great_project_tier = {
-					type = taj_mahal
-					tier = 1
-				}
-			}
-		}
 	}
 }
 
@@ -6119,7 +6105,7 @@ country_event = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { 
-				add_ruler_personality_ancestor = { key = tactical_genius }
+				add_ruler_personality = tactical_genius_personality
 				add_ruler_personality = entrepreneur_personality 
 			}
 		}
@@ -6310,7 +6296,7 @@ country_event = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { 
-				add_ruler_personality_ancestor = { key = inspiring_leader }
+				add_ruler_personality = inspiring_leader_personality
 				add_ruler_personality = architectural_visionary_personality
 			}
 		}
@@ -6501,7 +6487,7 @@ country_event = {
 				has_dlc = "Rights of Man" 
 			}
 			hidden_effect = { 
-				add_ruler_personality_ancestor = { key = silver_tongue }
+				add_ruler_personality = silver_tongue_personality
 				add_ruler_personality = scholar_personality 
 			}
 		}
@@ -6592,7 +6578,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = incorruptible } }
+			hidden_effect = { add_ruler_personality = incorruptible_personality }
 		}
 	}
 }
@@ -6611,7 +6597,7 @@ country_event = {
 			is_year = 1583
 		}
 		is_female = no
-		has_regency = no
+		has_regency = yes
 		NOT = {
 			has_global_flag = wih_nurbanusultan_flag
 		}
@@ -6694,7 +6680,7 @@ country_event = {
 				female = yes
 			}
 			hidden_effect = { 
-				add_queen_personality_ancestor = { key = secretive }
+				add_queen_personality = secretive_personality
 				add_queen_personality = silver_tongue_personality
 			}
 		}

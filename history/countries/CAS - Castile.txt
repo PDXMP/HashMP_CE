@@ -41,18 +41,18 @@ change_estate_land_share = {
 		birth_date = 1405.3.6
 		death_date = 1454.7.20
 		claim = 95
-		adm = 1
-		dip = 1
+		adm = 2
+		dip = 2
 		mil = 2
 	}
 }
 
 1406.12.26 = {
 	monarch = {
+		name = "(Regency)"
 		adm = 2
 		dip = 2
 		mil = 2
-		regent = yes
 	}
 }
 

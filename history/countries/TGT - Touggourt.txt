@@ -14,7 +14,7 @@ religious_school = maliki_school
 		dynasty = "Beni Djellab"
 		adm = 2
 		dip = 1
-		mil = 2
+		mil = 4
 	}
 }
 

@@ -367,6 +367,8 @@ country_event = {
 			}
 		}
 		highlight = yes
+		required_personality = cruel_personality
+		required_personality = zealot_personality
 		ai_chance = {
 			factor = 100
 		}

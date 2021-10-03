@@ -90,9 +90,9 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality_ancestor = { key = zealot } }
+			hidden_effect = { add_ruler_personality = zealot_personality }
 		}
-		add_reform_desire = 0.02
+		add_reform_desire = 0.03
 	}
 	
 	option = { # Hussite King, Catholic nation - tolerance option
@@ -302,7 +302,7 @@ country_event = {
 			name = "boh_hussite_king"
 			duration = -1
 		}
-		add_reform_desire = 0.005
+		add_reform_desire = 0.01
 		if = {
 			limit = {
 				religion = catholic
@@ -712,7 +712,7 @@ country_event = {
 	option = {
 		name = flavor_boh.9.b #We must seek Reconciliation
 		ai_chance = { factor = 10 }
-		add_reform_desire = 0.005
+		add_reform_desire = 0.01
 		add_devotion = -10
 		FROM = {
 			country_event = { id = flavor_boh.11 }

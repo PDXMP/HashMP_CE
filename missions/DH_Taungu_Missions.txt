@@ -715,6 +715,17 @@ tau_slot_4 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			568 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
 		}
 	}
 	tau_conquer_bengal = {
@@ -764,6 +775,9 @@ tau_slot_4 = {
 			tripura_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			568 = {
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {

@@ -40,18 +40,11 @@ parliamentary_reform = {
 		global_unrest = -1
 	}
 	
-	trigger = {		
-		if = {
-			limit = { has_dlc = "Common Sense" }
-			OR = {
-				NOT = { has_estate = estate_nobles }
-				crown_stronger_than_estate = { estate = estate_nobles }
-				has_reform = parliamentary_reform
-			}
-		}	
-		if = {
-			limit = { has_dlc = "Res Publica" }
-			NOT = { has_reform = elective_monarchy }
+	trigger = {
+		OR = {
+			NOT = { has_estate = estate_nobles }
+			crown_stronger_than_estate = { estate = estate_nobles }
+			has_reform = parliamentary_reform
 		}
 		if = {
 			limit = { NOT = { has_dlc = "Mandate of Heaven" } }
@@ -188,7 +181,7 @@ governmental_purbias_register_reform = {
 # for Spain
 
 council_of_the_indies_reform = {
-	icon = "paper_money_map"
+	icon = "merchant_ship"
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Golden Century"
@@ -254,10 +247,7 @@ holy_state_reform = {
 	potential = {
 		OR = {
 			AND = {
-				OR = {
-					tag = KOJ
-					has_country_modifier = sisters_takeover
-				}
+				tag = KOJ
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {

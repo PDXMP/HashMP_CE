@@ -97,9 +97,9 @@ change_estate_land_share = {
 		name = "Filippo Maria I"
 		dynasty = "Visconti"
 		birth_date = 1392.9.3
-		adm = 1
-		dip = 2
-		mil = 2
+		adm = 4
+		dip = 3
+		mil = 5
 	}
 }
 1412.7.24 = {

@@ -19,7 +19,6 @@ country_event = {
 		OR = {
 			has_country_flag = brahmin_deity_interaction
 			AND = {
-				NOT = { has_personal_deity = buddha }
 				NOT = { has_personal_deity = shiva }
 				NOT = { has_personal_deity = ganesha }
 				NOT = { has_personal_deity = surya }
@@ -70,18 +69,12 @@ country_event = {
 		change_personal_deity = surya
 	}
 
-	# Surya
-	option = {
-		name = "hindu_events.1.h"
-		change_personal_deity = buddha
-	}
-	
 	# Not ready
 	option = {
 		trigger = {
 			NOT = { has_country_flag = brahmin_deity_interaction }
 		}
-		name = "hindu_events.1.i"
+		name = "hindu_events.1.h"
 	}
 	
 	after = {

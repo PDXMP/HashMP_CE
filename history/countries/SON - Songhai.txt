@@ -26,7 +26,7 @@ change_estate_land_share = {
 		name = "Mar-Arkana"
 		dynasty = "Sonni"
 		adm = 2
-		dip = 1
+		dip = 0
 		mil = 2
 	}
 	add_piety = 0.25
@@ -46,14 +46,14 @@ change_estate_land_share = {
 	}
 }
 
-1449.1.1 = {
+1444.1.1 = {
 	monarch = {
 		name = "Mar Arandan"
 		dynasty = "Sonni"
 		birth_date = 1420.1.1
 		adm = 3
 		dip = 3
-		mil = 1
+		mil = 3
 	}
 }
 

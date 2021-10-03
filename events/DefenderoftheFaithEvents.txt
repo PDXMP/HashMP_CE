@@ -313,9 +313,7 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				capital_scope = {
-					has_discovered = ROOT
-				}
+				has_discovered = ROOT
 				religion = catholic
 				total_development = 200
 				NOT = {

@@ -6,6 +6,7 @@ technology_group = western
 primary_culture = saxon
 religion = catholic
 capital = 50	# Berlin
+add_army_professionalism = 0.05
 
 change_estate_land_share = {
 	estate = estate_church
@@ -82,7 +83,7 @@ change_estate_land_share = {
 		birth_date = 1413.11.19
 		adm = 3
 		dip = 3
-		mil = 2
+		mil = 3
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = incorruptible_personality
@@ -107,7 +108,7 @@ change_estate_land_share = {
 		claim = 95
 		adm = 2
 		dip = 2
-		mil = 1
+		mil = 4
 	}
 	set_country_flag = albrecht_achilles_flag
 }
@@ -462,7 +463,6 @@ change_estate_land_share = {
 		mil = 5
 		leader = { name = "Friedrich Wilhelm I"	type = general	fire = 3	shock = 3	manuever = 2	siege = 0}
 	}
-	add_army_professionalism = 0.2
 }
 
 1645.1.1 = { leader = {	name = "Otto von Sparr"		type = general	fire = 3	shock = 2	manuever = 2	siege = 2	death_date = 1668.5.9 } }

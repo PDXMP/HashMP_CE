@@ -1,0 +1,77 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+colonial_parent = SPA
+random_nation_chance = 0
+
+color = { 10 170 228 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+	economic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Ambrosio #0" = 10
+	"Diego #0" = 20
+	"Antonio #0" = 10
+	"Felipe #0" = 10
+	"Diego José #0" = 10
+	"Juan Manuel #0" = 20
+	"Luis #0" = 20
+	"Bernardo #0" = 10
+	"José Manuel #0" = 10
+	"Domingo #0" = 10
+	"Juan Procopio #0" = 10
+	"Salvador #0" = 10
+	"Juan Ruíz #0" = 10
+	"José #0" = 10
+	"Juan Maria #0" = 10
+	"Nicolás #0" = 10
+	"Sebastián #0" = 10
+	"Francisco Dionisio #0" = 10
+	"Mariano #0" = 10
+	"Vicente #0" = 10
+	"Gómez #0" = 10
+	"Gregorio Guazo #0" = 10
+	"Dionisio Martínez #0" = 10
+	"Juan Antonio #0" = 10
+	"Pedro #0" = 10
+	
+	"Laura #0" = -1
+	"Marciela #0" = -1
+	"Perla #0" = -1
+}
+
+leader_names = {
+	"de Raja" "de la Vega" "de León" Fuertes Peñalosa Alonso Luna Villalpando Manrique Ondeano 
+	Valladares Amezaga "del Rincón" "de Ezpeleta" Robles Aragorri Bryas Salazar Apodaca Cienfuegos
+	Echeverri Niño Romo Oregón Vives Abarca Tacón Ezpeleta Girón Valdés "de Ulloa"
+}
+
+ship_names = {
+	"Antonio Maceo" "José Martí" "Maximo Gomez" "Rio Damuji" Delfin
+}

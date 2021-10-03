@@ -6,7 +6,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME300"
 	desc = "colonial_nation.EVTDESC300"
 	picture = NATIVES_eventPicture
-	goto = root
 	
 	trigger = {
 		has_dlc = "Conquest of Paradise"
@@ -53,7 +52,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME301"
 	desc = "colonial_nation.EVTDESC301"
 	picture = FARMING_eventPicture
-	goto = root
 	
 	trigger = {
 		has_dlc = "Conquest of Paradise"
@@ -126,7 +124,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME303"
 	desc = "colonial_nation.EVTDESC303"
 	picture = CITY_DEVELOPMENT_eventPicture
-	goto = root
 	
 	trigger = {
 		has_dlc = "Conquest of Paradise"
@@ -195,7 +192,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME304"
 	desc = "colonial_nation.EVTDESC304"
 	picture = CITY_DEVELOPMENT_eventPicture
-	goto = root
 	
 	trigger = {
 		has_dlc = "Conquest of Paradise"
@@ -264,7 +260,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME305"
 	desc = "colonial_nation.EVTDESC305"
 	picture = CITY_DEVELOPMENT_eventPicture
-	goto = root
 	
 	trigger = {
 		has_dlc = "Conquest of Paradise"
@@ -340,7 +335,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME306"
 	desc = "colonial_nation.EVTDESC306"
 	picture = FARMING_eventPicture
-	goto = root
 	
 	trigger = {
 		has_dlc = "Conquest of Paradise"
@@ -397,7 +391,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME307"
 	desc = "colonial_nation.EVTDESC307"
 	picture = DEBATE_REPUBLICAN_eventPicture
-	goto = root
 	
 	trigger = {
 		has_dlc = "Conquest of Paradise"
@@ -468,7 +461,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME310"
 	desc = "colonial_nation.EVTDESC310"
 	picture = BORDER_TENSION_eventPicture
-	goto = root
 	
 	trigger = {
 		has_dlc = "Conquest of Paradise"
@@ -479,7 +471,6 @@ province_event = {
 		}
 		
 		any_neighbor_province = {
-			NOT = { owned_by = ROOT }
 			owner = {
 				NOT = { has_country_flag = colonial_border_conflict }
 				is_colonial_nation = yes
@@ -492,6 +483,7 @@ province_event = {
 					}
 				}
 			}
+			NOT = { owned_by = ROOT }
 			is_colony = no
 		}
 	}
@@ -561,7 +553,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME310"
 	desc = "colonial_nation.EVTDESC311"
 	picture = BORDER_TENSION_eventPicture
-	goto = root
 
 	is_triggered_only = yes
 	
@@ -627,7 +618,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME310"
 	desc = "colonial_nation.EVTDESC312"
 	picture = BORDER_TENSION_eventPicture
-	goto = root
 	
 	is_triggered_only = yes
 	
@@ -828,7 +818,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME319"
 	desc = "colonial_nation.EVTDESC319"
 	picture = NATIVES_eventPicture
-	goto = root
 	
 	trigger = {
 		has_dlc = "Conquest of Paradise"
@@ -933,7 +922,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME321"
 	desc = "colonial_nation.EVTDESC321"
 	picture = NATIVES_eventPicture
-	goto = root
 
 	trigger = {
 		has_dlc = "Conquest of Paradise"
@@ -987,7 +975,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME322"
 	desc = "colonial_nation.EVTDESC322"
 	picture = BORDER_TENSION_eventPicture
-	goto = root
 
 	trigger = {
 		has_dlc = "Conquest of Paradise"
@@ -1028,7 +1015,6 @@ province_event = {
 	title = "colonial_nation.EVTNAME323"
 	desc = "colonial_nation.EVTDESC323"
 	picture = NATIVES_eventPicture
-	goto = root
 
 	trigger = {
 		has_dlc = "Conquest of Paradise"

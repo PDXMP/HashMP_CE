@@ -250,7 +250,7 @@ country_event = {
 			}
 			else = {
 				every_enemy_country = {
-					country_event = { id = flavor_bur.20 days = 1 }
+					country_event = { id = dutch_revolt.20 days = 1 }
 				}
 			}
 			# Begin incident
@@ -262,7 +262,7 @@ country_event = {
 					}
 					has_dlc = "Emperor"
 				}
-				set_imperial_incident = incident_dutch_revolt
+#				set_imperial_incident = incident_dutch_revolt
 			}
 		}
 	}
@@ -339,7 +339,6 @@ country_event = {
 			ai = yes
 			was_player = no
 			NOT = { truce_with = ROOT }
-			is_subject = no
 		}
 		is_free_or_tributary_trigger = yes
 		is_at_war = no
@@ -689,7 +688,7 @@ country_event = {
 					limit = {
 						has_dlc = "Rights of Man" 
 					}
-					hidden_effect = { add_ruler_personality_ancestor = { key = kind_hearted } }
+					hidden_effect = { add_ruler_personality = kind_hearted_personality }
 				}
 			}
 		}
@@ -992,6 +991,7 @@ country_event = {
 				capital_scope = {
 					region = france_region
 				}
+				liberty_desire = 50
 			}
 			set_country_flag = FRA_vassal_to_be_given_to_BUR
 			custom_tooltip = THIS_vassalised_by_FROM

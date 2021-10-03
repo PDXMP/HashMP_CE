@@ -54,8 +54,8 @@ capital = 272 # Vilnius
 		dynasty = Jagiellon
 		birth_date = 1427.11.30
 		adm = 4
-		dip = 4
-		mil = 1
+		dip = 3
+		mil = 2
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = scholar_personality

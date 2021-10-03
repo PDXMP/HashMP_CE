@@ -894,7 +894,6 @@ country_event = {
 	
 	option = {
 		name = "china_events.16.a"
-		goto = prosperity_boost_here
 		boost_bureaucrats_effect = yes
 		if = {
 			limit = { has_dlc = "Mandate of Heaven" }
@@ -1171,7 +1170,7 @@ country_event = {
 	id = china_events.22
 	title = "china_events.22.t"
 	desc = "china_events.22.d"
-	picture = SHWEDAGON_PAGON_eventPicture
+	picture = FORT_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -1404,13 +1403,7 @@ country_event = {
 		hidden_effect = {
 			random_known_country = {
 				limit = {
-					any_owned_province = {
-						range = ROOT
-					}
 					NOT = { is_subject_of = ROOT }
-					any_active_trade_node = {
-						has_merchant = ROOT
-					}
 				}
 				save_event_target_as = country_of_interest
 			}
@@ -1471,7 +1464,6 @@ country_event = {
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
-				has_regency = no
 				has_consort = no
 				has_government_attribute = queen
 			}
@@ -1490,7 +1482,6 @@ country_event = {
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
-				has_regency = no
 				has_consort = no
 				has_government_attribute = queen
 			}
@@ -2325,7 +2316,6 @@ country_event = {
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
-		is_at_war = no
 		OR = {
 			AND = {
 				has_dlc = "Mandate of Heaven"
@@ -2426,7 +2416,7 @@ country_event = {
 	id = china_events.44
 	title = "EVTNAME11242"
 	desc = "EVTDESC11242"
-	picture = SHWEDAGON_PAGON_eventPicture
+	picture = FORT_eventPicture
 	
 	trigger = {
 		always = no #Removed

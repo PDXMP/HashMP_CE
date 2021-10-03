@@ -32,6 +32,7 @@ change_estate_land_share = {
 
 1444.11.10 = {
 	monarch = {
+		name = "(Regency Council)"
 		adm = 1
 		mil = 1
 		dip = 1
@@ -146,6 +147,7 @@ add_government_reform = autocracy_reform }
 
 1602.1.1 = {
 	monarch = {
+		name = "Interregnum"
 		regent = yes
 		adm = 0
 		dip = 0

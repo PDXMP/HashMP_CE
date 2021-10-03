@@ -12,9 +12,9 @@ religious_school = hanafi_school
 	monarch = { 
 		name = "Abu'l-Khayr" 
 		dynasty = "Shaybanid"
-		dip = 2 
+		dip = 3 
 		adm = 4
-		mil = 5
+		mil = 4
 	}
 }
 

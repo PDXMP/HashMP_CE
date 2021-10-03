@@ -1820,19 +1820,13 @@ estate_burghers_trade_post_in_malacca = {
 	}
 	provinces_to_highlight = {
 		trade_company_region = trade_company_indonesia
-		OR = {
-			trade_goods = spices
-			trade_goods = cloves
-		}
+		trade_goods = spices
 		has_port = yes
 	}
 	task_requirements = {
 		any_owned_province = {
 			trade_company_region = trade_company_indonesia
-			OR = {
-				trade_goods = spices
-				trade_goods = cloves
-			}
+			trade_goods = spices
 			has_port = yes
 		}
 	}
@@ -1846,10 +1840,7 @@ estate_burghers_trade_post_in_malacca = {
 				NOT = {
 					any_owned_province = {
 						trade_company_region = trade_company_indonesia
-						OR = {
-							trade_goods = spices
-							trade_goods = cloves
-						}
+						trade_goods = spices
 						has_port = yes
 					}
 				}
@@ -1860,10 +1851,7 @@ estate_burghers_trade_post_in_malacca = {
 			random_owned_province = {
 				limit = {
 					trade_company_region = trade_company_indonesia
-					OR = {
-						trade_goods = spices
-						trade_goods = cloves
-					}
+					trade_goods = spices
 					has_port = yes
 				}
 				add_province_modifier = {
@@ -2400,14 +2388,9 @@ estate_burghers_protect_against_piracy = {
 				country = root
 				share = 20
 			}
-		}
-		NOT = {
-			any_country = {
-				event_target:agenda_trade_node = {
-					privateer_power = {
-						share = 3
-						country = PREV
-					}
+			NOT = {
+				privateer_power = {
+					share = 5
 				}
 			}
 		}
