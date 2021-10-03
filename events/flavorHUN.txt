@@ -223,6 +223,7 @@ country_event = {
 			mil = 6
 			claim = 50
 			birth_date = 1443.2.23
+			fixed = yes
 		}
 		if = {
 			limit = {

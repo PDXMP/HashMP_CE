@@ -142,12 +142,12 @@
  ALLIED_OBJECTIVE_DESC:0 "Si quieres un aliado en la guerra contra $ENEMY$ para asediar esta provincia, puedes establecer $PROVINCE$ como objetivo y van a intentar dar prioridad a su asedio."
  ALLIED_OBJECTIVE_SET_DESC:0 "$ALLIED$ intentará asediar esta provincia."
  SUBJECT_FOCUS_NONE_DESC:0 "$WHO$ decidirá sus propias estrategias."
- SUBJECT_FOCUS_AGGRESSIVE_DESC:0 "$WHO$ buscará independientemente combates en territorio enemigo, y no se unirá a ejércitos amigos."
+ SUBJECT_FOCUS_AGGRESSIVE_DESC:0 "$WHO$ buscará independientemente combates en territorio enemigo, y no se unirá a ejércitos amigos." # [LocEditor:AwaitingBatchUpdate]
  SUBJECT_FOCUS_SUPPORTIVE_DESC:0 "$WHO$ se pegará a los aliados y evitará operaciones independientes."
  SUBJECT_FOCUS_PASSIVE_DESC:0 "$WHO$ se quedará simplemente en su propio territorio y evitará combates en otra parte."
  SUBJECT_FOCUS_DEFENSIVE_DESC:0 "$WHO$ se quedará en territorio aliado, pero no iniciará operaciones ofensivas."
  SUBJECT_FOCUS_SIEGE_DESC:0 "$WHO$ se centrará exclusivamente en asediar fortalezas enemigas evitando batallas en otros lugares."
- SUBJECT_MILITARY_FOCUS:0 "Fijar Foco para todos los súbditos"
+ SUBJECT_MILITARY_FOCUS:0 "Fijar Foco para todos los súbditos" # [LocEditor:AwaitingBatchUpdate]
  SET_FOCUS_FOR_ALL:0 "Ajusta el enfoque para todos los súbditos:"
  MIL_FOCUS_AGGRESSIVE:0 "Agresivo"
  MIL_FOCUS_NO_FOCUS:0 "No enfocado"
@@ -396,7 +396,7 @@
  duties_on_sahara_trade:0 "Aranceles sobre el Comercio del Sahara"
  duties_on_sahara_trade_desc:0 "En lugar de depender de alojamientos temporales durante la guerra, debemos establecer campamentos militares fortificados permanentes, para servir como base para nuestras tropas y como una manera de evitar los ataques."
  ruthenian_nation_title:0 "Forma la nación rutena"
- ruthenian_nation_desc:0 "Hace varios siglos, la tierra de Rus se unió bajo un mismo estandarte y bajo la capitanía de la ciudad legendaria de Kiev. Pero entonces llegaron los bárbaros mongoles, avanzando desde la gran estepa, saqueando y quemándolo todo. Destruyeron nuestros kremlins y las ciudades fueron cayendo una a una; ni siquiera Kiev pudo evitar este destino. Presa del terror, nuestra gente huyó de las llanuras de Rus y se marcharon hacia el norte, hacia los bosques y las tierras interiores de lo que hoy conocemos como Rusia.\nAhora, una nueva y arrogante ciudad del norte está en auge. Se alimenta de los pequeños estados de alrededor y su soberano imagina una nueva Rus. Una Rus centrada en Moscú, no en Kiev.\nSin embargo, nosotros los rutenos no nos quedaremos callados en las páginas de la historia. No dejaremos que forasteros e impostores reclamen el legado de nuestros antepasados. Kiev volverá a levantarse y restableceremos su gloria y su esplendor de antaño. Y también la Rus."
+ ruthenian_nation_desc:0 "Hace varios siglos, la tierra de Rus se unió bajo un mismo estandarte y bajo la capitanía de la ciudad legendaria de Kiev. Pero entonces llegaron los bárbaros mongoles, avanzando desde la gran estepa, saqueando y quemándolo todo. Destruyeron nuestros kremlins y las ciudades fueron cayendo una a una; ni siquiera Kiev pudo evitar este destino. Presa del terror, nuestra gente huyó de las llanuras de Rus y se marcharon hacia el norte, hacia los bosques y las tierras interiores de lo que hoy conocemos como Rusia.\nAhora, una nueva y arrogante ciudad del norte está en auge. Se alimenta de los pequeños estados de alrededor y su soberano imagina una nueva Rus. Una Rus centrada en Moscú, no en Kiev.\nSin embargo, nosotros los rutenos no nos quedaremos callados en las páginas de la historia. No dejaremos que forasteros e impostores reclamen el legado de nuestros antepasados. Kiev volverá a levantarse y restableceremos su gloria y su esplendor de antaño. Y también la Rus." # [LocEditor:AwaitingBatchUpdate]
  ruthenian_ideas:0 "Ideas rutenas"
  ruthenian_ideas_start:0 "Tradiciones rutenas"
  ruthenian_ideas_bonus:0 "Ambiciones rutenas"
@@ -419,8 +419,8 @@
  LIB_TOO_HIGH_TARIFF:0 "$CHANGE$ debido a la Tarifa en Vigencia $TARIFF|Y$ superior al actual Deseo de Libertad $CURRENT|Y$.\n"
  LIB_FROM_OVERLORD:0 "$CHANGE$ debido a la Situación $OVERLORD$.\n"
  LIBERTY_DESIRE_PLAIN:0 "Deseo de libertad"
- LIBERTY_DESIRE:0 "$COUNTRY$ Deseo de libertad: $VAL$"
- LIBERTY_DESIRE_FROM_TEMP:0 "Acontecimientos, Defecciones de provincias y Provincias desarrolladas por el soberano: $VAL$"
+ LIBERTY_DESIRE:0 "$COUNTRY$ Deseo de libertad: $VAL$" # [LocEditor:AwaitingBatchUpdate]
+ LIBERTY_DESIRE_FROM_TEMP:0 "Acontecimientos, Defecciones de provincias y Provincias desarrolladas por el soberano: $VAL$" # [LocEditor:AwaitingBatchUpdate]
  LIBERTY_DESIRE_FROM_TARIFFS:0 "Aranceles: $VAL$"
  LIBERTY_DESIRE_FROM_ROYAL_MARRIAGE:0 "Tiene un matrimonio real con §Y$OVERLORD$§!: $VAL$"
  LIBERTY_DESIRE_FROM_SAME_DYNASTY:0 "Misma dinastía reinante que §Y$OVERLORD$§!: $VAL$"
@@ -431,8 +431,8 @@
  LIBERTY_DESIRE_FROM_ADM_EFFICIENCY:0 "Eficiencia administrativa: $VAL$"
  LIBERTY_DESIRE_FROM_WAR_EXHAUSTION:0 "Hastío de guerra de §Y$OVERLORD$§!: $VAL$"
  LIBERTY_DESIRE_FROM_MERCANTILISM:0 "Mercantilismo del §Y$OVERLORD$§!: $VAL$"
- LIBERTY_DESIRE_FROM_RELATIVE_POWER:0 "Poder relativo con §Y$OVERLORD$§! (§Y$AMT$%§!): $VAL$"
- LIBERTY_DESIRE_FROM_RELATIVE_POWER_ALL:1 "Poder relativo de todos $COUNTED$ a §Y$OVERLORD$§! (§Y$AMT$%§!): $VAL$"
+ LIBERTY_DESIRE_FROM_RELATIVE_POWER:1 "Poder militar relativo respecto a §Y$OVERLORD$§! (§Y$AMT$%§!): $VAL$"
+ LIBERTY_DESIRE_FROM_RELATIVE_POWER_ALL:3 "Poder militar relativo de $COUNTED$ respecto a §Y$OVERLORD$§! (§Y$AMT$%§!): $VAL$"
  LIBERTY_DESIRE_ALL:0 "todos"
  AND_THE_SUPPORTER:0 "; y el partidario "
  AND_THE_SUPPORTERS:0 "; y los partidarios "
@@ -1583,7 +1583,7 @@
  flavor_guj.2.a:0 "¡Empecemos la construcción!"
  flavor_guj.2.b:0 "No tenemos ningún interés en este proyecto vanidoso."
  flavor_guj.3.t:0 "Champaner"
- flavor_guj.3.d:0 "Al fin nuestra capital está prácticamente terminada. Una ciudad majestuosa con palacios, mezquitas, templos, un avanzado sistema de suministro de agua y una fortificación no menos importante rodea, ahora, la cima de Champaner.\nUno de los edificios más exquisitos es la enorme Mezquita Jama Masjid de magnífico estilo guyarati indo-musulmán, y por la que se ha hecho famoso nuestro sultanato."
+ flavor_guj.3.d:0 "Al fin nuestra capital está prácticamente terminada. Una ciudad majestuosa con palacios, mezquitas, templos, un avanzado sistema de suministro de agua y una fortificación no menos importante rodea, ahora, la cima de Champaner.\nUno de los edificios más exquisitos es la enorme Mezquita Jama Masjid de magnífico estilo guyarati indo-musulmán, y por la que se ha hecho famoso nuestro sultanato." # [LocEditor:AwaitingBatchUpdate]
  flavor_guj.3.a:0 "¡Genial!"
  flavor_guj.4.t:0 "Champaner perdida"
  flavor_guj.4.d:0 "Se ha perdido la ciudad de Champaner, y con ella nuestros sueños de la capital ideal."
@@ -1762,11 +1762,11 @@
  tyw_events.27.d:0 "El resultado de dejar la educación de [Root.Monarch.GetName] en manos de los jesuitas, ha producido lo que muchos consideran el resultado esperado. Al nuevo [Root.Monarch.GetTitle] no le falta valentía ni convicción, pero es ferozmente leal a la Iglesia Católica y a los jesuitas en particular. Los fieles se alegran de ello, pero ahora los herejes temen a [Root.GetName] más que nunca."
  tyw_events.27.a:0 "Ad maiorem Dei gloriam."
  tyw_events.28.t:0 "Los nobles [Root.Culture.GetName] huyen al extranjero"
- tyw_events.28.d:0 "El guerra por la unidad religiosa en el Sacro Imperio Romano no va por nuestro camino. Nuestra capital de [Root.Capital.GetCapitalName], considerada por muchos como el último refugio seguro, ha sido tomada por el enemigo. Ahora los nobles, tanto los que residían en la capital como los que allí huyeron, temen que [Root.GetName] está perdido y han empezado a escapar hacia aquellos vecinos que siguen firmes la fe [Root.Religion.GetName]."
+ tyw_events.28.d:0 "La guerra por la unidad religiosa en el Sacro Imperio Romano no va como nos gustaría. Nuestra capital, [Root.Capital.GetCapitalName], que muchos consideraban el último refugio seguro, ha sido tomada por el enemigo. Ahora los nobles, tanto los que residían en la ciudad como los que allí huyeron, temen que [Root.GetName] esté perdido y han empezado a escapar hacia aquellos vecinos que aún albergan a creyentes [Root.Religion.GetName]s." # [LocEditor:AwaitingBatchUpdate]
  tyw_events.28.a:0 "Dejar que huyan, ya volverán a [Root.GetName] cuando lleguen tiempos mejores."
  tyw_events.28.b:0 "Llevarlos a un lugar seguro en nuestras fronteras, cueste lo que cueste."
  tyw_events.29.t:0 "Los nobles [From.Culture.GetName] buscan refugio"
- tyw_events.29.d:0 " La ocupación de [From.Capital.GetCapitalName] ha asustado a muchos nobles de [From.GetName] y ha provocado que huyan del país para buscar refugio aquí, entre sus compañeros [Root.Religion.GetName]s. Dado que el conflicto es, en apariencia, religioso, se supone que debemos prestar ayuda a aquellos que comparten nuestra misma fe. Pero los ojos de los enemigos de la Liga están puestos en nosotros y hay muchos a los que no agrada ver que protegemos a sus enemigos."
+ tyw_events.29.d:0 "La ocupación de [From.Capital.GetCapitalName] ha asustado a muchos nobles de [From.GetName] y provocado que huyan del país para buscar refugio aquí, entre sus correligionarios [Root.Religion.GetName]s. Dado que el conflicto es, en apariencia, religioso, se supone que debemos prestar ayuda a aquellos que comparten nuestra misma fe. Pero los enemigos de la Liga han fijado su vista en nosotros y muchos no se tomarían bien ver que protegemos a sus adversarios." # [LocEditor:AwaitingBatchUpdate]
  tyw_events.29.a:0 "Seguro que otros podrán cargar con ello."
  tyw_events.29.b:0 "Aquí, los fieles [Root.Religion.GetName] siempre encontrarán refugio."
  tyw_events.30.t:0 "Íñigo Vélez de Guevara"
@@ -1795,7 +1795,7 @@
  tyw_events.35.a:0 "Una iniciativa excelente."
  tyw_events.35.b:0 "No creemos que esta campaña tenga ningún sentido."
  tyw_events.36.t:0 "Hungría libre de opresión religiosa"
- tyw_events.36.d:0 "La formación de las Ligas en el Sacro Imperio Romano ha evidenciado que vivimos un tiempo en que las naciones no se quedan de brazos cruzados permitiendo que la gente seguidora de su fe sufra a causa de gobernantes impíos. No lejos de nuestra frontera, los [Root.Religion.GetName]s húngaros se encuentran exactamente en esta inaceptable situación. Nuestra nación tiene fuertes lazos con Hungría tanto por ley como de sentimiento, y no podemos permitir que esto continúe. Es el momento de liberarlos y reclamar la tierra, para que la sangre [Root.Religion.GetName] no vuelva a derramarse de nuevo por eso."
+ tyw_events.36.d:0 "La formación de las Ligas en el Sacro Imperio Romano ha evidenciado que vivimos un tiempo en el que las naciones no se quedan de brazos cruzados y dejan que sus hermanos de fe sufran bajo gobernantes impíos. No lejos de nuestra frontera, los [Root.Religion.GetName]s húngaros se encuentran exactamente en esta situación inaceptable. Nuestra nación tiene fuertes lazos con Hungría tanto de ley como de sentimiento y no podemos permitir que esto continúe. Es el momento de liberarlos y reclamar la tierra, para que el pueblo [Root.Religion.GetName] no vuelva a ver derramada su sangre." # [LocEditor:AwaitingBatchUpdate]
  tyw_events.36.a:0 "Transilvania está con los húngaros."
  tyw_events.37.t:0 "Edad de Oro de Transilvania"
  tyw_events.37.d:0 "Nuestra nación está viviendo quizá su mejor época desde que se formó en su forma actual. El [Root.Monarch.GetTitle] ha dado muestras de estar altamente capacitado, y se están haciendo inversiones para hacer de [Root.Capital.GetCapitalName] una ciudad culta y digna de admiración. Tenemos la esperanza de difundir la arquitectura y la educación por toda la nación durante la próxima década, y rezamos para que esta época de paz y prosperidad sea duradera."
@@ -1880,8 +1880,8 @@
  CAN_EXPLORE_TOOLTIP:0 "Haz clic con el botón derecho del ratón para ordenar a tu marina que explore esta provincia."
  CANNOT_CIRCUMNAVIGATE_ALREADY_CIRCUMNAVIGATED:0 "- ¡Sólo puedes circunnavegar el globo una vez!"
  CANNOT_CIRCUMNAVIGATE_NO_TECH:0 "- Necesitas tecnología diplomática de al menos nivel §Y$NUM$§! para ser capaz de circunnavegar el globo."
- CANNOT_EXPLORE_NO_EXPLORER:0 "- Debes tener un Explorador liderando esta flota para poder enviarla en una misión de exploración.\n"
- CANNOT_EXPLORE_NO_ADJACENT:0 "- Debes explorar una provincia adyacente para poder de enviar exploradores aquí.\n"
+ CANNOT_EXPLORE_NO_EXPLORER:0 "- Debes tener un Explorador liderando esta flota para poder enviarla en una misión de exploración.\n" # [LocEditor:AwaitingBatchUpdate]
+ CANNOT_EXPLORE_NO_ADJACENT:0 "- Debes explorar una provincia adyacente para poder de enviar exploradores aquí.\n" # [LocEditor:AwaitingBatchUpdate]
  CANNOT_EXPLORE_NOT_ENOUGH_SHIPS:0 "- Debes tener al menos 3 barcos Ligeros y Pesados en esta flota para poder explorar con ella."
  CANNOT_EXPLORE_NOT_IN_PORT:0 "- Tu flota debe estar en puerto para poder enviarla en una misión de exploración."
  CANNOT_EXPLORE_TOO_FAR_AWAY:0 "- Esta provincia está demasiado alejada de tu núcleo provincial más cercano para ser posible explorarla."
@@ -2185,7 +2185,7 @@
  prices.42.a:0 "Notable."
  SELECTIVE_BREEDING:0 "Cría selectiva"
  prices.43.t:0 "Cristal bohemio"
- prices.43.d:0 "Durante siglos el cristal veneciano dominó el sector de la fabricación de vidrio, con empresas pequeñas intentando imitar fielmente a los maestros de la isla de Murano. La región de Bohemia lleva fabricando vidrio desde el siglo XII, pero el nuevo método de los maestros vidrieros bohemios que combina su creta nativa con potasa es por fin capaz de desafiar al cristal veneciano. La nueva variedad de cristal de Bohemia es más resistente, brillante y de un estilo marcadamente distinto del cristal de Venecia. Candelabros de cristal bohemio, joyería de cristal y cristales grabados se van haciendo más comunes en todas las cortes de Europa."
+ prices.43.d:0 "Durante siglos el cristal veneciano dominó el sector de la fabricación de vidrio, con empresas pequeñas intentando imitar fielmente a los maestros de la isla de Murano. La región de Bohemia lleva fabricando vidrio desde el siglo XII, pero el nuevo método de los maestros vidrieros bohemios que combina su creta nativa con potasa es por fin capaz de desafiar al cristal veneciano. La nueva variedad de cristal de Bohemia es más resistente, brillante y de un estilo marcadamente distinto del cristal de Venecia. Candelabros de cristal bohemio, joyería de cristal y cristales grabados se van haciendo más comunes en todas las cortes de Europa." # [LocEditor:AwaitingBatchUpdate]
  prices.43.a:0 "Más claro, cristal."
  BOHEMIAN_GLASS:0 "Cristal bohemio"
  prices.44.t:0 "Mejoras en la fabricación de lentes"
@@ -2229,7 +2229,7 @@
  flavor_ori.4.d:0 "Nos ha llegado la noticia de que Kapilendra, el rey guerrero de Orissa, está muerto y parece que sus hijos están luchando por su trono, dejando el reino débil y expuesto."
  flavor_ori.4.a:0 "Vale."
  flavor_ori.5.t:0 "Oferta de Hamvira."
- flavor_ori.5.d:0 "Un mensajero de Hamvira ha llegado hoy, un pretendiente al trono de Orissa. Si le apoyamos en su lucha para asegurar el trono de Orissa para sus reclamaciones, Hamvira nos garantizará un número de importantes fuertes en el este, entre ellos Warangal."
+ flavor_ori.5.d:0 "Un mensajero de Hamvira ha llegado hoy, un pretendiente al trono de Orissa. Si le apoyamos en su lucha para asegurar el trono de Orissa para sus reclamaciones, Hamvira nos garantizará un número de importantes fuertes en el este, entre ellos Warangal." # [LocEditor:AwaitingBatchUpdate]
  flavor_ori.5.a:0 "Enviar tropas y dinero."
  flavor_ori.5.b:0 "Evitar implicarse."
  flavor_ori.6.t:0 "Los bahmanis apoyan a Hamvira."
@@ -2259,7 +2259,7 @@
  zan_kilwa_chronicle:0 "Crónica de Kilwa."
  desc_zan_kilwa_chronicle:0 "La Crónica de Kilwa es un libro que registra la historia de nuestra dinastía desde sus orígenes antes de llegar en Kilwa hasta la actualidad. Es un documento que demuestra nuestro derecho legítimo de gobernar los puertos de la costa Suajili sin una sombra de una duda."
  flavor_zan.1.t:0 "Islam de shirazi y los patricios de Kilwa."
- flavor_zan.1.d:0 "La mayor parte de los estados suajili a día de hoy están gobernados por dinastías que reclaman ser descendientes de la primera migración islámica a esta región. El islam que practican estos 'shirazis', como se llaman a sí mismos, sin embargo no es la forma más ortodoxa de la religión. Se cree que muchas antiguas ceremonias locales que se realizan a diario en nuestra corte y en los linajes shirazi tienen capacidades mágicas que les otorgan el derecho de gobernar estas ciudades.\nPero según crece la riqueza de Kilwa y los otros estados suajili, nuevas oleadas de extranjeros siguen llegando en grandes números. Comerciantes de Omán, Persia, el reino bahmani y otras tierras lejanas han hecho de nuestras ciudades su hogar y una clase al alza de comerciantes nativos se han unido a estos grupos. Muchos de los recién llegados detestan nuestras tradiciones. Si adoptáramos una forma más ortodoxa del islam, seguramente nos ayudaría en nuestras relaciones con los otros estados del Océano Indico, pero hay un riesgo muy real de socavar nuestro propio gobierno y dañar las relaciones con los demás estados suajili."
+ flavor_zan.1.d:0 "La mayor parte de los estados suajili a día de hoy están gobernados por dinastías que reclaman ser descendientes de la primera migración islámica a esta región. El islam que practican estos 'shirazis', como se llaman a sí mismos, sin embargo no es la forma más ortodoxa de la religión. Se cree que muchas antiguas ceremonias locales que se realizan a diario en nuestra corte y en los linajes shirazi tienen capacidades mágicas que les otorgan el derecho de gobernar estas ciudades.\nPero según crece la riqueza de Kilwa y los otros estados suajili, nuevas oleadas de extranjeros siguen llegando en grandes números. Comerciantes de Omán, Persia, el reino bahmani y otras tierras lejanas han hecho de nuestras ciudades su hogar y una clase al alza de comerciantes nativos se han unido a estos grupos. Muchos de los recién llegados detestan nuestras tradiciones. Si adoptáramos una forma más ortodoxa del islam, seguramente nos ayudaría en nuestras relaciones con los otros estados del Océano Indico, pero hay un riesgo muy real de socavar nuestro propio gobierno y dañar las relaciones con los demás estados suajili." # [LocEditor:AwaitingBatchUpdate]
  flavor_zan.1.a:0 "Debemos seguir los caminos de nuestros antepasados."
  flavor_zan.1.b:0 "Vamos a purgar nuestro reino de creencia paganas y ceremonias."
  flavor_zan.2.t:0 "La crónica de Kilwa."
@@ -2303,7 +2303,7 @@
  ful_fulani_wars:0 "Malestar entre los fulani y los musulmanes ortodoxos."
  desc_ful_fulani_wars:0 "Nuestras políticas de estado en general y nuestras acciones contra los seguidores de Usman Dan Fodio en particular ha llevado al malestar generalizado en nuestro país. Los musulmanes fulani en el extranjero nos ven contento y nuestros propios sujetos rechazan nuestra autoridad. ¿Seguramente las cosas calmarán pronto?."
  flavor_sok.1.t:0 "Usman Dan Fodio."
- flavor_sok.1.d:0 "Inspirado por las revoluciones religiosas fulani, Usman dan Fodio, un erudito musulmán fulani de Gobir, ha comenzado a incitar a la reforma en nuestro país. Su mensaje fuerte y su carisma ha impresionado a partes de nuestra población y ahora un movimiento creciente ahora apoya la creación de un califato gobernado por tradiciones islámicas ortodoxas, adhesión a la sharia y la misión de extender la fe verdadera por África Occidental.\nEl mensaje también es bastante crítico con el modo en que nuestro estado está dirigido ahora mismo nuestro estado es dirigido y las autoridades de Gobir temen que los seguidores de Usman Dan Fodio pronto podrían rebelarse abiertamente contra nuestro gobierno."
+ flavor_sok.1.d:0 "Inspirado por las revoluciones religiosas fulani, Usman dan Fodio, un erudito musulmán fulani de Gobir, ha comenzado a incitar a la reforma en nuestro país. Su mensaje fuerte y su carisma ha impresionado a partes de nuestra población y ahora un movimiento creciente ahora apoya la creación de un califato gobernado por tradiciones islámicas ortodoxas, adhesión a la sharia y la misión de extender la fe verdadera por África Occidental.\nEl mensaje también es bastante crítico con el modo en que nuestro estado está dirigido ahora mismo nuestro estado es dirigido y las autoridades de Gobir temen que los seguidores de Usman Dan Fodio pronto podrían rebelarse abiertamente contra nuestro gobierno." # [LocEditor:AwaitingBatchUpdate]
  flavor_sok.1.a:0 "Invita a Usman Dan Fodio a reformar nuestro país."
  flavor_sok.1.b:0 "Este peligroso agitador y sus seguidores deben ser expulsados."
  flavor_sok.1.b.tt:0 "Usman Dan Fodio y sus seguidores abandonará el país."
@@ -2358,7 +2358,7 @@
  accepted_claim_on_neighbor:0 "Aceptar la reclamación sobre el vecino."
  rejected_claim_on_neighbor:0 "Rechazar la reclamación sobre el vecino"
  REMOVE_ELECTORATE_NO_OFFICIAL_RELIGION:0 "No es posible revocar electores a menos que haya una religión oficial del Imperio."
- AUTO_TRANSPORT_NO_COG:0 "\nNecesitas barcos de transporte para transportar tropas con esta flota."
+ AUTO_TRANSPORT_NO_COG:0 "\nNecesitas barcos de transporte para transportar tropas con esta flota." # [LocEditor:AwaitingBatchUpdate]
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  rural_tamil_autonomy_desc:0 "Hemos limitado la inmigración en esta área y defendido los derechos de las comunidades locales mediante la limitación de la afluencia de colonos militares desde el norte."

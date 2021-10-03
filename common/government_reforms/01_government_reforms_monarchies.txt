@@ -95,6 +95,12 @@ plutocratic_reform = {
 #		enables_plutocratic_idea_group = yes
 #		enables_aristocratic_idea_group = no
 #	}
+	conditional = {
+		allow = {
+			has_dlc = "Leviathan"
+		}
+		allow_draft_transport_ships = yes
+	}
 	ai = {
 		factor = 0.75 #generic
 	}
@@ -234,6 +240,7 @@ daimyo = {
 		NOT = { has_country_flag = formed_japan_flag }
 		overlord = { has_reform = shogunate }
 	}
+	replacement_on_independence_war = indep_daimyo
 	legacy_equivalent = daimyo_legacy
 	fixed_rank = 1
 	maintain_dynasty = yes
@@ -620,6 +627,7 @@ tsardom = {
 	allow_normal_conversion = yes
 	potential = {
 		religion = orthodox
+		culture_group = east_slavic
 		OR = {
 			AND = {
 				tag = RUS
@@ -712,8 +720,14 @@ feudal_theocracy = {
 	potential = {
 		OR = {
 			AND = {
-				religion_group = muslim
-				has_reform = feudal_theocracy
+				OR = {
+					religion_group = muslim
+					religion_group = zoroastrian_group
+				}
+				OR = {
+					has_reform = feudal_theocracy
+					have_had_reform = feudal_theocracy
+				}
 			}
 			AND = {
 				is_playing_custom_nation = yes
@@ -722,7 +736,10 @@ feudal_theocracy = {
 		}
 	}
 	nation_designer_trigger = {
-		religion_group = muslim
+		OR = {
+			religion_group = muslim
+			religion_group = zoroastrian_group
+		}
 	}
 	legacy_equivalent = feudal_theocracy_legacy
 	valid_for_nation_designer = yes
@@ -1023,6 +1040,10 @@ mandala_reform = {
 			religion = animism
 		}
 		technology_group = chinese
+		OR = {
+			has_dlc = "Leviathan"
+			has_dlc = "Dharma"
+		}
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
@@ -1035,13 +1056,18 @@ mandala_reform = {
 			religion_group = muslim
 		}
 		technology_group = chinese
+		OR = {
+			has_dlc = "Leviathan"
+			has_dlc = "Dharma"
+		}
 	}
 	legacy_equivalent = despotic_monarchy
 	modifiers = {
 		vassal_income = 0.15
 		vassal_forcelimit_bonus = 1
-		governing_capacity = 50
+		governing_capacity_modifier = -0.33
 	}
+	free_concentrate_development = yes
 }
 
 nayankara_reform = {
@@ -1566,6 +1592,52 @@ mansabdari_reform = {
 	}
 }
 
+examination_system_reform = {
+	icon = "asian_scripture"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			religion = confucianism
+			primary_culture = vietnamese
+		}
+	}
+	trigger = {
+		OR = {
+			has_reform = confucian_bureaucracy
+			has_reform = celestial_empire
+		}
+	}
+	modifiers = {
+		advisor_pool = 1
+		nobles_influence_modifier = -0.1
+	}
+	ai = {
+		factor = 10
+	}
+}
+
+corvee_reform = {
+	icon = "asian_scripture"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			culture_group = thai_group
+			culture_group = burman
+			primary_culture = khmer
+		}
+	}
+	modifiers = {
+		global_manpower_modifier = 0.1
+		build_cost = -0.1
+	}
+	effect = {
+		custom_tooltip = manpower_sailors_on_build_tt
+	}
+	ai = {
+		factor = 10
+	}
+}
+
 #Growth of Administration
 
 clergy_in_administration_reform = {
@@ -2043,6 +2115,7 @@ emperor_of_the_revolution_reform = {
 	icon = "emperor_of_the_revolution_reform"
 	allow_normal_conversion = yes
 	potential = {
+		has_dlc = "Emperor"
 		is_revolutionary = yes
 	}
 	modifiers = {

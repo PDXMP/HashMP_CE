@@ -164,8 +164,8 @@ historical_rival = ARK
 		name = "Nasir-ud-Din Mahmud"
 		dynasty = "Ilyas Shahi"
 		ADM = 4
-		DIP = 4
-		MIL = 4
+		DIP = 3
+		MIL = 3
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = architectural_visionary_personality

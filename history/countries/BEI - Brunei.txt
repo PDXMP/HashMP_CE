@@ -58,7 +58,7 @@ historical_rival = MAJ
 		claim = 95
 		adm = 4
 		dip = 4
-		mil = 4
+		mil = 2
 	}
 }
 
@@ -68,7 +68,7 @@ historical_rival = MAJ
 		dynasty = "Bolkiah"
 		adm = 4
 		dip = 4
-		mil = 4
+		mil = 2
 	}
 }
 

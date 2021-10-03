@@ -91,9 +91,9 @@ capital = 585 # Toungoo
 	monarch = {
 		name = "Tarabya"
 		dynasty = "Taungu"
-		adm = 6
-		dip = 5
-		mil = 5
+		adm = 3
+		dip = 2
+		mil = 4
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = strict_personality
@@ -101,12 +101,12 @@ capital = 585 # Toungoo
 		name = "Minkhaung"
 		monarch_name = "Minkhaung"
 		dynasty = "Taungu"
-		birth_date = 1434.1.1
+		birth_date = 1420.1.1
 		death_Date = 1451.1.1
 		claim = 95
-		adm = 5
-		dip = 3
-		mil = 5
+		adm = 1
+		dip = 1
+		mil = 1
 	}
 }
 

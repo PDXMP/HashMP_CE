@@ -2233,6 +2233,7 @@ veche_republic_legacy = {
 	modifiers = {
 		governing_capacity = 150
 		merchants = 1
+		max_absolutism = -50
 	}
 
 	conditional = {

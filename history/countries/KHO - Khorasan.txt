@@ -15,7 +15,7 @@ capital = 4341 #Sari
 		name = "Babur bin Baysunkur"
 		dynasty = "Timurid"
 		culture = uzbehk
-		adm = 4
+		adm = 3
 		dip = 5
 		mil = 5
 		culture = uzbehk
@@ -33,9 +33,9 @@ capital = 4341 #Sari
 		birth_date = 1444.1.1
 		death_date = 1457.1.1
 		claim = 95
-		adm = 4
-		dip = 3
-		mil = 3
+		adm = 1
+		dip = 2
+		mil = 1
 	}
 }
 
@@ -78,7 +78,6 @@ capital = 4341 #Sari
 
 1459.3.1 = {
 	monarch = {
-		name = "Interregnum"
 		dynasty = "Timurid"
 		regent = yes
 		adm = 1

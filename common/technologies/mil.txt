@@ -35,6 +35,7 @@ technology = {
 	enable = indian_archers
 	enable = mesoamerican_spearmen
 	enable = halberd_infantry
+	enable = chevauchee
 	enable = western_medieval_knights
 	enable = bardiche_infantry
 	enable = muslim_cavalry_archers
@@ -84,6 +85,7 @@ technology = {
 	year = 1440
 	
 	land_morale = 	0.5
+	may_drill = yes
 }
 
 technology = {
@@ -200,8 +202,6 @@ technology = {
 	year = 1518
 	
 	#Ditch
-
-	supply_limit 		= 	0.5
 	
 	enable = south_indian_musketeer	
 	enable = mughal_musketeer		
@@ -468,8 +468,6 @@ technology = {
 	military_tactics 	= 	0.25
 	
 	infantry_shock 		=	0.5
-	
-	supply_limit 		= 	0.5
 }
 
 technology = {
@@ -501,8 +499,6 @@ technology = {
 	cavalry_shock		=	1.0
 	military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
-	
-	supply_limit 		= 	0.5
 
 	enable = swedish_arme_blanche	
 	enable = french_dragoon		

@@ -38,8 +38,8 @@ capital = 1170	# M'banza Kongo
 	monarch = {
 		name = "Nkuwu"
 		dynasty = "Lukeni"
-		adm = 5
-		dip = 4
+		adm = 2
+		dip = 3
 		mil = 3
 	}
 	clear_scripted_personalities = yes
@@ -54,7 +54,7 @@ capital = 1170	# M'banza Kongo
 		birth_date = 1439.1.1
 		death_Date = 1506.6.2
 		claim = 95
-		adm = 2
+		adm = 1
 		dip = 6
 		mil = 2
 	}

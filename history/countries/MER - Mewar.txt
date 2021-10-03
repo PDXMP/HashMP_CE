@@ -61,7 +61,7 @@ capital = 518	# Chittogarh
 		dynasty = "Sisodiya"
 		DIP = 4
 		MIL = 6
-		ADM = 5
+		ADM = 4
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = inspiring_leader_personality
@@ -75,9 +75,9 @@ capital = 518	# Chittogarh
 		birth_date = 1420.1.1
 		death_date = 1473.1.1
 		claim = 95
-		DIP = 3
+		DIP = 1
 		MIL = 3
-		ADM = 4
+		ADM = 2
 	}
 	queen = {
 		country_of_origin = CMP #Idar

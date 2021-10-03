@@ -564,6 +564,16 @@ capital = 735	# Hanseong
 		birth_date = 1752.9.22
 		death_date = 1800.6.28
 	}
+	queen = {
+		country_of_origin = KOR
+		name = "Jung Soon"
+		birth_date = 1745.12.2
+		death_date = 1805.2.11
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 1
+	}
 }
 
 1790.1.1 = {

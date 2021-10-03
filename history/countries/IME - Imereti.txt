@@ -16,16 +16,13 @@ capital = 422 # Kutaisi
 	}
 }
 
-1431.1.1 = {
-	heir = {
-		name = "Demetre"
-		monarch_name = "Demetre II"
+1446.1.1 = {
+	monarch = {
+		name = "Demetre II"
 		dynasty = "Bagrationi"
-		birth_date = 1431.1.1
-		death_date = 1465.9.10
-		claim = 100
-		dip = 3
-		adm = 3
+		#death_date = 1478.1.1
+		adm = 2
+		dip = 2
 		mil = 3
 	}
 }

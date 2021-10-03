@@ -764,93 +764,93 @@ estate_jains_build_a_fleet = {
 
 
 #Bigger Fleet than Rival
-#estate_jains_bigger_fleet_than_rival = {
-#	can_select = {
-#		primitives = no
-#		any_owned_province = {
-#			has_port = yes
-#			is_core = root
-#		}
-#		NOT = { government = native }
-#		NOT = { has_country_modifier = naval_enthusiasm_mission }
-#
-#		NOT = { navy_size_percentage = 1 }
-#
-#		any_rival_country = {
-#			NOT = { war_with = root }
-#			NOT = { root = { navy_size = prev } }
-#			navy_balance = {
-#				who = root
-#				value = 1.05
-#			}
-#			NOT = {
-#				navy_balance = {
-#					who = root
-#					value = 1.25
-#				}
-#			}
-#		}
-#	}
-#	selection_weight = {
-#		factor = 5
-#	}
-#	pre_effect = {
-#		random_rival_country = {
-#			limit = {
-#				NOT = { war_with = root }
-#				NOT = { root = { navy_size = prev } }
-#				navy_balance = {
-#					who = root
-#					value = 1.05
-#				}
-#				NOT = {
-#					navy_balance = {
-#						who = root
-#						value = 1.25
-#					}
-#				}
-#			}
-#			save_event_target_as = agenda_country
-#		}
-#	}
-#	provinces_to_highlight = {
-#		is_capital_of = event_target:agenda_country
-#	}
-#	task_requirements = {
-#		if = {
-#			limit = { event_target:agenda_country = { num_of_cities = 1 } }
-#			navy_size = event_target:agenda_country
-#		}
-#		else = {
-#			always = yes
-#		}
-#	}
-#	task_completed_effect = {
-#		add_estate_loyalty = {
-#			estate = estate_jains
-#			loyalty = 10
-#		}
-#		add_country_modifier = {
-#			name = naval_enthusiasm_mission
-#			duration = 3650
-#		}
-#	}
-#	fail_if = {
-#		NOT = {
-#			any_owned_province = {
-#				has_port = yes
-#			}
-#		}
-#	}
-#    failing_effect = {
-#        add_estate_loyalty_modifier = {
-#            estate = estate_jains
-#			desc = EST_VAL_AGENDA_DENIED
-#			loyalty = -5
-#			duration = 7300
-#        }
-#    }
-#}
+estate_jains_bigger_fleet_than_rival = {
+	can_select = {
+		primitives = no
+		any_owned_province = {
+			has_port = yes
+			is_core = root
+		}
+		NOT = { government = native }
+		NOT = { has_country_modifier = naval_enthusiasm_mission }
+
+		NOT = { navy_size_percentage = 1 }
+
+		any_rival_country = {
+			NOT = { war_with = root }
+			NOT = { root = { navy_size = prev } }
+			navy_balance = {
+				who = root
+				value = 1.05
+			}
+			NOT = {
+				navy_balance = {
+					who = root
+					value = 1.25
+				}
+			}
+		}
+	}
+	selection_weight = {
+		factor = 5
+	}
+	pre_effect = {
+		random_rival_country = {
+			limit = {
+				NOT = { war_with = root }
+				NOT = { root = { navy_size = prev } }
+				navy_balance = {
+					who = root
+					value = 1.05
+				}
+				NOT = {
+					navy_balance = {
+						who = root
+						value = 1.25
+					}
+				}
+			}
+			save_event_target_as = agenda_country
+		}
+	}
+	provinces_to_highlight = {
+		is_capital_of = event_target:agenda_country
+	}
+	task_requirements = {
+		if = {
+			limit = { event_target:agenda_country = { num_of_cities = 1 } }
+			navy_size = event_target:agenda_country
+		}
+		else = {
+			always = yes
+		}
+	}
+	task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_jains
+			loyalty = 10
+		}
+		add_country_modifier = {
+			name = naval_enthusiasm_mission
+			duration = 3650
+		}
+	}
+	fail_if = {
+		NOT = {
+			any_owned_province = {
+				has_port = yes
+			}
+		}
+	}
+    failing_effect = {
+        add_estate_loyalty_modifier = {
+            estate = estate_jains
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
 
 
 #Improve dip rep

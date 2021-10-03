@@ -17,7 +17,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1500
 		NOT = { is_year = 1550 }
 	}
@@ -161,7 +168,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1500
 		NOT = { is_year = 1520 }
 	}
@@ -189,7 +203,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1566
 		NOT =  { is_year = 1586 }
 		owns = 12
@@ -234,7 +255,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_free_or_tributary_trigger = yes
 		is_year = 1600
 		NOT = { is_year = 1700 }
@@ -306,7 +334,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1600
 		NOT = { is_year = 1620 }
 	}
@@ -341,7 +376,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1673
 		NOT =  { is_year = 1693 }
 		owns = 12
@@ -376,6 +418,7 @@ country_event = {
 	
 	trigger = {
 		tag = DAN
+		exists = SWE
 		is_year = 1700
 		NOT = { is_year = 1750 }
 		NOT = {
@@ -452,7 +495,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1730
 		NOT = { is_year = 1760 }
 		is_free_or_tributary_trigger = yes
@@ -498,7 +548,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1700
 		NOT = { is_year = 1800 }
 		OR = {
@@ -537,7 +594,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1700
 		NOT = { is_year = 1725 }
 		has_regency = yes
@@ -566,7 +630,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1700
 		NOT = { is_year = 1725 }
 		has_regency = yes
@@ -599,7 +670,14 @@ country_event = {
 		NOT = { is_year = 1725 }
 		has_regency = yes
 		has_consort_regency = no
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -628,7 +706,14 @@ country_event = {
 		NOT = { is_year = 1725 }
 		has_regency = yes
 		has_consort_regency = no
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -653,7 +738,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1700
 		NOT = { is_year = 1800 }
 	}
@@ -666,7 +758,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					is_core = DAN
+					is_core = ROOT
 					continent = europe
 				}
 				set_province_flag = DAN_agriculture_reform_flag1
@@ -820,7 +912,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1576
 		NOT = { is_year = 1600 }
 		owns =  6
@@ -857,7 +956,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1475
 		NOT = { is_year = 1500 }
 		owns = 12
@@ -886,7 +992,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1480
 		NOT = { is_year = 1500 }
 		owns = 12
@@ -1220,7 +1333,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		has_heir = no
 		is_lesser_in_union = no
 		SHL = { is_subject_of = ROOT }
@@ -1256,6 +1376,7 @@ country_event = {
 			mil = 2
 			age = 25
 			dynasty = "von Oldenburg"
+			fixed = yes
 		}
 	}
 	option = {
@@ -1328,7 +1449,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1600
 		NOT = { is_year = 1700 }
 		num_of_ports = 3
@@ -1418,7 +1546,7 @@ country_event = {
 				name = dansborg_factory
 				duration = -1
 			}
-			tooltip = { add_permanent_claim = DAN }
+			tooltip = { add_permanent_claim = FROM }
 		}
 	}
 	option = {
@@ -1440,7 +1568,7 @@ country_event = {
 	option = {
 		name = "flavor_dan.12.a" #
 		add_treasury = 150
-		event_target:dansborg = { add_permanent_claim = DAN }
+		event_target:dansborg = { add_permanent_claim = ROOT }
 	}
 }
 
@@ -1471,7 +1599,14 @@ country_event = {
 	trigger = {
 		is_year = 1720
 		NOT = { is_year = 1730 }
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		owns = 12
 	}
 	
@@ -1503,7 +1638,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1500
 		NOT = { is_year = 1550 }
 	}
@@ -1540,7 +1682,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1500
 		NOT = { is_year = 1550 }
 	}
@@ -1570,7 +1719,7 @@ country_event = {
 				modifier = danish_dutch_burgundian_inspiration
 			}
 			hidden_effect = {
-				DAN = {
+				ROOT = {
 					add_opinion = {
 						who = PREV
 						modifier = danish_dutch_burgundian_inspiration
@@ -1591,7 +1740,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1500
 		NOT = { is_year = 1530 }
 		is_religion_enabled = protestant
@@ -1653,7 +1809,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1540
 		NOT = { is_year = 1580 }
 		owns = 4149
@@ -1685,7 +1848,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1560
 		NOT = { is_year = 1590 }
 		owns = 12
@@ -1730,7 +1900,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1600
 		NOT = { is_year = 1650 }
 	}
@@ -1799,7 +1976,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1600
 		NOT = { is_year = 1630 }
 	}
@@ -1832,7 +2016,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		is_year = 1670
 		NOT = { is_year = 1690 }
 		num_of_ports = 3

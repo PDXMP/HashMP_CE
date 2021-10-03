@@ -12,9 +12,9 @@ religious_school = hanafi_school
 		name = "Karatshar bin Soyurghatmish"
 		culture = uzbehk
 		dynasty = "Timurid"
-		adm = 5
-		dip = 5
-		mil = 5
+		adm = 2
+		dip = 4
+		mil = 2
 	}
 }
 #1451 falls to Babur bin Baysonqor

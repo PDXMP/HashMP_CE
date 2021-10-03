@@ -7,6 +7,10 @@ capital = 596	# Malacca
 fixed_capital = 596 # Cannot move capital away from this province & no power cost to move to it
 religious_school = shafii_school
 
+1390.1.1 = {
+	set_estate_privilege = estate_burghers_orang_laut_alliances
+}
+
 1399.1.1 = {
 	monarch = {
 		name = "Sam Agi"
@@ -96,12 +100,12 @@ religious_school = shafii_school
 		name = "Ibrahim"
 		monarch_name = "Abu Syahid"
 		dynasty = "Srivijaya"
-		birth_date = 1400.1.1
+		birth_date = 1424.1.1
 		death_Date = 1446.1.1
 		claim = 95
-		adm = 3
-		dip = 6
-		mil = 3
+		adm = 1
+		dip = 2
+		mil = 1
 	}
 }
 
@@ -109,9 +113,10 @@ religious_school = shafii_school
 	monarch = {
 		name = "Ibrahim"
 		dynasty = "Srivijaya"
-		adm = 3
-		dip = 6
-		mil = 3
+		adm = 1
+		dip = 2
+		mil = 1
+		religion = hinduism
 	}
 }
 
@@ -120,12 +125,12 @@ religious_school = shafii_school
 		name = "Muzaffar Shâh"
 		monarch_name = "Muzaffar Shâh"
 		dynasty = "Srivijaya"
-		birth_date = 1426.1.1
+		birth_date = 1420.1.1
 		death_Date = 1459.1.1
 		claim = 95
-		adm = 5
-		dip = 4
-		mil = 5
+		adm = 3
+		dip = 5
+		mil = 3
 	}
 }
 
@@ -133,9 +138,9 @@ religious_school = shafii_school
 	monarch = {
 		name = "Muzaffar Shâh"
 		dynasty = "Srivijaya"
-		adm = 5
-		dip = 4
-		mil = 5
+		adm = 3
+		dip = 5
+		mil = 3
 	}
 }
 

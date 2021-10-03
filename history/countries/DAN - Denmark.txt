@@ -37,7 +37,7 @@ change_estate_land_share = {
 		dynasty = "von Wittelsbach"
 		birth_date = 1416.2.26
 		culture = bavarian
-		adm = 2
+		adm = 3
 		dip = 2
 		mil = 2
 	}
