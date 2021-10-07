@@ -776,8 +776,9 @@ take_colony = {
 	
 	attacker = {
 		badboy_factor = 0.25
-		prestige_factor = 1
-		peace_cost_factor = 1
+		prestige_factor = 0.5
+		peace_cost_factor = 0.25
+		peace_cost_factor_non_allowed_treaty = 1.25
 		
 		allowed_provinces = {
 			colony_claim = ROOT
@@ -1699,24 +1700,6 @@ take_capital_take_mandate = {
 	}
 	
 	war_name = CELESTIAL_EMPIRE_WAR_NAME
-}
-
-force_migration = {
-	type = take_capital
-	
-	attacker = {
-		peace_options = {
-			po_force_migration
-		}
-	}
-	
-	badboy_factor = 1
-	prestige_factor = 1
-	peace_cost_factor = 1
-	
-	deny_annex = yes
-
-	war_name = FORCE_MIGRATION_WAR_NAME
 }
 
 take_capital_force_tributary = {

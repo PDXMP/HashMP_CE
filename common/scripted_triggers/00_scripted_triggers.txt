@@ -1333,7 +1333,7 @@ revolution_event_can_happen_trigger = {
 	OR = {
 		capital_scope = { 
 #			continent = europe 
-			controlled_by = REB
+			controlled_by = revolutionary_rebels
 		}
 		has_country_modifier = just_lost_to_revolutionary_rebels
 		has_country_flag = revolution_disaster_immediate_revolution

@@ -128,6 +128,7 @@ barracks = {
 	modifier = {
 		local_manpower_modifier = 0.6
 		monthly_militarized_society = 0.0005
+	}
 	on_built = {
 		if = {
 			limit = {
@@ -196,7 +197,7 @@ shipyard = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 105 # Little above build cost
+			factor = 1.5 # bit more likely if close to the naval force limit
 			FROM = { navy_size_percentage = 0.95 }
 		}
 		modifier = {
@@ -246,7 +247,7 @@ fort_15th = {
 
 coastal_defence = {
 
-	cost = 75
+	cost = 100
 	time = 12
 	build_trigger = {
 		has_port = yes
@@ -278,7 +279,65 @@ courthouse = {
 	}
 
 	ai_will_do = {
-		factor = 0
+		factor = 1
+		modifier = {
+			factor = 2
+			FROM = { governing_capacity_percentage = 0.8 }
+		}
+		modifier = {
+			factor = 3
+			FROM = { governing_capacity_percentage = 1 }
+		}
+		modifier = {
+			factor = 5
+			FROM = { governing_capacity_percentage = 1.1 }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { num_of_loans = 1 }
+		}
+		modifier = {
+			factor = 0.25
+			FROM = { num_of_loans = 2 }
+		}
+		modifier = {
+			factor = 0
+			FROM = { num_of_loans = 3 }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { is_in_deficit = yes }
+		}
+		modifier = {
+			factor = 1.25
+			development = 10
+		}
+		modifier = {
+			factor = 1.25
+			development = 20
+		}
+		modifier = {
+			factor = 1.25
+			development = 30
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { NOT = { treasury = 200 } }
+		}
+		modifier = {
+			factor = 1.25
+			FROM = { treasury = 300 }
+		}
+		#Provinces in the Capital Area don't need a courthouse
+		modifier = {
+			factor = 0
+			area_for_scope_province = {
+				any_province = {
+					area = PREV
+					is_capital_of = FROM
+				}
+			}
+		}
 	}
 }
 
@@ -360,7 +419,7 @@ regimental_camp = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 215 # Little above build cost
+			factor = 1.5 # more likely if we have an army close to the force limit
 			FROM = { army_size_percentage = 0.95 }
 		}
 		modifier = {
@@ -413,15 +472,15 @@ fort_16th = {
 naval_battery = {
 
 	make_obsolete = coastal_defence
-	cost = 150
+	cost = 200
 	time = 12
 	build_trigger = {
 		has_port = yes
 	}
 	modifier = {
 		blockade_force_required = 1.0
-		hostile_disembark_speed = 1
-		#hostile_fleet_attrition = 1
+		hostile_disembark_speed = 1.0
+		hostile_fleet_attrition = 2.5
 		block_slave_raid = yes
 	}
 
@@ -556,7 +615,6 @@ trade_depot = {
 
 	modifier = {
 		province_trade_power_modifier = 1
-		trade_value_modifier = 0.05
 	}
 
 	ai_will_do = {
@@ -582,7 +640,7 @@ grand_shipyard = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 320 # Little above build cost
+			factor = 1.5 # bit more likely if close to the force limit
 			FROM = { navy_size_percentage = 0.95 }
 		}
 		modifier = {
@@ -711,7 +769,6 @@ stock_exchange = {
 
 	modifier = {
 		province_trade_power_modifier = 1.25
-		trade_value_modifier = 0.10
 	}
 
 	ai_will_do = {
@@ -753,7 +810,69 @@ town_hall = {
 	}
 
 	ai_will_do = {
-		factor = 0
+		factor = 1
+		modifier = {
+			factor = 10
+			has_building = courthouse
+		}
+		modifier = {
+			factor = 2
+			FROM = { governing_capacity_percentage = 0.8 }
+		}
+		modifier = {
+			factor = 3
+			FROM = { governing_capacity_percentage = 1 }
+		}
+		modifier = {
+			factor = 5
+			FROM = { governing_capacity_percentage = 1.1 }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { num_of_loans = 1 }
+		}
+		modifier = {
+			factor = 0.25
+			FROM = { num_of_loans = 2 }
+		}
+		modifier = {
+			factor = 0
+			FROM = { num_of_loans = 3 }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { is_in_deficit = yes }
+		}
+		modifier = {
+			factor = 1.25
+			development = 10
+		}
+		modifier = {
+			factor = 1.25
+			development = 20
+		}
+		modifier = {
+			factor = 1.25
+			development = 30
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { NOT = { treasury = 300 } }
+		}
+		modifier = {
+			factor = 1.25
+			FROM = { treasury = 400 }
+		}
+		#Provinces in the Capital Area don't need a courthouse
+		modifier = {
+			factor = 0
+			area_for_scope_province = {
+				any_province = {
+					area = PREV
+					is_capital_of = FROM
+				}
+			}
+		}
 	}
 }
 
@@ -840,7 +959,7 @@ conscription_center = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 435 # Little above build cost
+			factor = 1.5 # more likely if we have an army close to the force limit
 			FROM = { army_size_percentage = 0.95 }
 		}
 		modifier = {
@@ -1059,7 +1178,7 @@ ramparts = {
 	}
 	modifier = {
 		local_hostile_attrition = 1
-		local_defensiveness = 0.1
+		local_defensiveness = 0.15
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
@@ -1082,10 +1201,10 @@ soldier_households = {
 	}
 
 	modifier = {
-		local_manpower = 0.5
+		local_manpower = 0.75
 	}
 	bonus_modifier = {
-		local_manpower = 0.5
+		local_manpower = 0.75
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
@@ -1113,9 +1232,13 @@ impressment_offices = {
 
 	modifier = {
 		local_sailors = 250
+		ship_recruit_speed = -0.1
+		local_ship_cost = -0.05
 	}
 	bonus_modifier = {
 		local_sailors = 250
+		ship_recruit_speed = -0.1
+		local_ship_cost = -0.05
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way

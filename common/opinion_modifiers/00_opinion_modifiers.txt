@@ -2733,6 +2733,7 @@ bought_indulgence = {
 	opinion = 75
 	yearly_decay = 4
 }
+
 zan_shirazi_islam = {
 	opinion = -30
 	yearly_decay = 2
@@ -3054,11 +3055,11 @@ protestant_ideal = {
 
 opinion_spurned_heir = {
 	opinion = -25
-	yearly_decay = 2	
+	yearly_decay = 2
 }
 opinion_choose_heir = {
 	opinion = 25
-	yearly_decay = 2	
+	yearly_decay = 2
 }
 opinion_spurned_pu = {
 	opinion = -50
@@ -3072,23 +3073,23 @@ opinion_religious_tension = {
 # Subject Interactions
 opinion_reprimanded = {
 	opinion = -60
-	yearly_decay = 1	
+	yearly_decay = 1
 }
 opinion_resourceful = {
 	opinion = 60
-	yearly_decay = 1	
+	yearly_decay = 1
 }
 opinion_purged_manpower = {
 	opinion = -25
-	yearly_decay = 2	
+	yearly_decay = 2
 }
 opinion_sent_general = {
 	opinion = 30
-	yearly_decay = 2	
+	yearly_decay = 2
 }
 opinion_sent_advisor = {
 	opinion = 30
-	yearly_decay = 2	
+	yearly_decay = 2
 }
 opinion_sent_gold_manpower = {
 	opinion = 30

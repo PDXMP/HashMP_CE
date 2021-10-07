@@ -106,7 +106,7 @@ cb_dishonored_call = {
 	valid_for_subject = no
 
 	is_triggered_only = yes
-	months = 36
+	months = 96
 
 	war_goal = superiority_insult
 }
@@ -885,7 +885,9 @@ cb_trade_league_dispute = {
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
+		po_subjugate_vassal
 		po_become_tributary_state
+		po_subjugate_tributary_state
 		po_form_personal_union
 		po_transfer_vassals
 	}
@@ -1060,7 +1062,6 @@ cb_crush_the_revolution = {
 
 	prerequisites = {
 		OR = {
-			capital_scope = { continent = europe }
 			is_neighbor_of = FROM
 			NOT = {
 				border_distance = {
@@ -1246,6 +1247,15 @@ cb_take_mandate = {
 		}
 		NOT = { truce_with = FROM }
 		is_revolutionary = no
+		
+		OR = {
+			ai = no
+			culture_group = east_asian
+			any_owned_province = {
+				culture_group = east_asian
+				has_owner_accepted_culture = yes
+			}
+		}
 	}
 
 	war_goal = take_capital_take_mandate

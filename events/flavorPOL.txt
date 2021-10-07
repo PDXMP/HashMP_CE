@@ -17,6 +17,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		NOT = {	num_of_estate_privileges = { estate = estate_nobles	value = 4 } }
 		OR = {
 			AND = {
 				tag = POL
@@ -194,6 +195,7 @@ country_event = {
 	
 	is_triggered_only = yes	
 	trigger = {
+		NOT = {	num_of_estate_privileges = { estate = estate_nobles	value = 4 } }
 		has_reform = elective_monarchy
 		NOT = { has_country_flag = pol_pact_conventa_flag }
 		OR = {
@@ -720,8 +722,105 @@ country_event = {
 	}
 }
 
+# The Sejm refuse to allow the mobilization of more troops
+country_event = {
+	id = flavor_pol.3738
+	title = "flavor_pol.EVTNAME3738"
+	desc = "flavor_pol.EVTDESC3738"
+	picture = LIBERUM_VETO_eventPicture
+	
+	trigger = {
+		always = no
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	immediate = {
+		hidden_effect = {
+			add_ruler_modifier = {
+				name = pol_sejm_refuse_timer
+				hidden = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "flavor_pol.EVTOPTOK"
+		add_ruler_modifier = { name = pol_sejm_refuse_troops } 
+		
+	}
+	option = {
+		name = "flavor_pol.EVTOPTA3738"
+		add_legitimacy = -20
+		add_stability = -1
+	}
+}
 
+# The Sejm comply to your policies
+country_event = {
+	id = flavor_pol.3743
+	title = "flavor_pol.EVTNAME3743"
+	desc = "flavor_pol.EVTDESC3743"
+	picture = LIBERUM_VETO_eventPicture
+	
+	trigger = {
+		always = no
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	immediate = {
+		hidden_effect = {
+			add_ruler_modifier = {
+				name = pol_sejm_refuse_timer
+				hidden = yes
+			}
+		}
+	}
+	
 
+	option = {
+		name = "flavor_pol.EVTOPTA3743"
+		add_ruler_modifier = { name = pol_sejm_comply_policies } 
+	}
+}
+
+# The Sejm veto all your policies
+country_event = {
+	id = flavor_pol.3744
+	title = "flavor_pol.EVTNAME3744"
+	desc = "flavor_pol.EVTDESC3744"
+	picture = LIBERUM_VETO_eventPicture
+	
+	trigger = {
+		always = no
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	immediate = {
+		hidden_effect = {
+			add_ruler_modifier = {
+				name = pol_sejm_refuse_timer
+				hidden = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "flavor_pol.EVTOPTOK"
+		add_ruler_modifier = { name = pol_sejm_veto } 
+	}
+	option = {
+		name = "flavor_pol.EVTOPTA3738"
+		add_legitimacy = -20
+		add_stability = -1
+	}
+
+}
 
 # Nicolaus Copernicus
 country_event = {
@@ -1623,6 +1722,11 @@ country_event = {
 	
 	fire_only_once = yes
 	is_triggered_only = yes
+
+	trigger = {
+		NOT = {	num_of_estate_privileges = { estate = estate_nobles	value = 4 } }
+		always = yes
+	}
 	
 	option = {
 		name = flavor_pol.20.a
@@ -1695,5 +1799,3 @@ country_event = {
 		name = flavor_pol.22.b
 	}
 }
-
-

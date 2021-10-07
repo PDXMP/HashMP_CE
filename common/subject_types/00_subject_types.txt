@@ -113,7 +113,6 @@ default = {
 	relative_power_class = 1 							# See description above
 	should_quit_wars_on_activation = yes
 	diplomacy_view_class = 1							# See description above
-
 	can_fight = {
 	}
 	can_rival = {

@@ -1212,7 +1212,7 @@
  RPH_EMPEROR:0 "As the Emperor we cannot remove provinces from the Empire."
  RPH_PRINCE_OF_EMPIRE:0 "As a member of HRE, we cannot remove individual provinces from the HRE. If we leave the Empire we must give up any non-core HRE provinces"
  RPH_ELECTOR:0 "As an Elector, we cannot remove provinces from the Empire."
- RPH_AT_WAR:1 "We cannot remove provinces from the HRE, while at war!"
+ RPH_AT_WAR:1 "We cannot remove provinces from the HRE while at war!"
  RPH_SUBJECT:0 "We need to be independent to remove provinces from the HRE."
  RPH_TRUCE_EMP:0 "It is not possible to remove provinces from the HRE while in a truce with the Emperor."
  WRONG_RELIGION_GROUP:0 "They belong to a different religion group and will not respond to such a demand."

@@ -1305,7 +1305,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				NOT = { exists = DAN }
+				tag = SCA
+			}		
+		}
 		has_ruler = "Christopher III"
 	}
 	
