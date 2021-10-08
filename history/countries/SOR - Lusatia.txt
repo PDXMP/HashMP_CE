@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+unit_type = western
+primary_culture = sorbian
+religion = catholic
+capital = 60	# Oberlausitz
+historical_rival = SAX
+historical_rival = BOH
+historical_rival = STE
+historical_rival = WOL
