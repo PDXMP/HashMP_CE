@@ -344,7 +344,7 @@ polish_expansion = {
 			army_size_percentage = 1
 		}
 		effect = {
-			country_event = { id = flavor_pol.25 }
+			country_event = { id = HashMP_Poland.101 }
 			silesia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -503,7 +503,7 @@ polish_internal_issues = {
 				
 		}
 		effect = {
-			country_event = { id = flavor_pol.27 }
+			country_event = { id = HashMP_Poland.104 }
 			set_country_flag = sejm_curtailed
 		}
 	}
@@ -545,7 +545,7 @@ polish_internal_issues = {
 		effect = {
 			POL = {
 				set_country_flag = pol_liv_vytautas_mission
-				country_event = {id = flavor_lit.15}
+				country_event = {id = HashMP_Poland.121}
 			}
 		}
 	}
@@ -593,7 +593,7 @@ polish_internal_issues = {
 			}
 		}
 		effect = {
-			country_event = { id = flavor_pol.28 }
+			country_event = { id = HashMP_Poland.105 }
 			set_country_flag = rights_mission
 		}
 	}
@@ -615,7 +615,7 @@ polish_internal_issues = {
 			}
 		}
 		effect = {
-				country_event = { id = flavor_pol.26 }
+				country_event = { id = HashMP_Poland.102 }
 				set_country_flag = faith_mission
 		}
 	}
@@ -692,7 +692,7 @@ lithuanian_internal_issues = {
 		effect = {
 			POL = {
 				set_country_flag = pol_kie_integrate_mission
-				country_event = {id = flavor_lit.14}
+				country_event = {id = HashMP_Poland.120}
 			}
 		}
 	}
@@ -732,7 +732,7 @@ lithuanian_internal_issues = {
 		effect = {
 			POL = {
 				set_country_flag = pol_chr_integrate_mission
-				country_event = {id = flavor_lit.18}
+				country_event = {id = HashMP_Poland.124}
 			}
 		}
 	}
@@ -793,7 +793,7 @@ lithuanian_internal_issues = {
 		effect = {
 			POL = {
 				set_country_flag = pol_northern_marches_mission
-				country_event = {id = flavor_lit.17}
+				country_event = {id = HashMP_Poland.123}
 			}
 		}
 	}
@@ -891,7 +891,7 @@ lithuanian_expansion = {
 		effect = {
 			POL = {
 				set_country_flag = pol_zaz_invasion_mission
-				country_event = { id = flavor_lit.20}
+				country_event = { id = HashMP_Poland.126}
 			}
 		}
 	}
@@ -980,7 +980,7 @@ lithuanian_expansion = {
 		effect = {
 			POL = {
 				set_country_flag = pol_zaz_integrate_mission
-				country_event = { id = flavor_lit.19}
+				country_event = { id = HashMP_Poland.125}
 			}
 		}
 	}

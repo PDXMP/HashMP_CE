@@ -31,7 +31,7 @@ on_startup = {
 	events = {
 		muslim_school_events.20 #Pick School
 #		flavor_fra.15000 #Make the French Revolution happen if starting in 1789
-		flavor_pol.24
+		HashMP_Poland.100
 	}
 	if = {
 		limit = {
@@ -1007,7 +1007,7 @@ on_death_foreign_slave_ruler = {
 			has_reform = h_reform_elective_monarchy
 		}
 		POL = {
-			country_event = { id = flavor_pol.29 }
+			country_event = { id = HashMP_Poland.107 }
 		}
 	}
 	if = {
@@ -1016,7 +1016,7 @@ on_death_foreign_slave_ruler = {
 			has_reform = h_reform_elective_monarchy
 		}
 		PLC = {
-			country_event = { id = flavor_pol.29 }
+			country_event = { id = HashMP_Poland.107 }
 		}
 	}
 	events = {

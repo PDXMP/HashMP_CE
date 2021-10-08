@@ -35,7 +35,6 @@ technology = {
 	enable = indian_archers
 	enable = mesoamerican_spearmen
 	enable = halberd_infantry
-	enable = chevauchee
 	enable = western_medieval_knights
 	enable = bardiche_infantry
 	enable = muslim_cavalry_archers

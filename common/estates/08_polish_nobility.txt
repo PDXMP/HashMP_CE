@@ -157,12 +157,12 @@ estate_polish_nobility =
 
 			NOT = {
 				check_variable = {
-					which = balanceOfPower
+					which = h_polandlithuania_balance_of_power
 					value = 2
 				}
 			}
 				check_variable = {
-					which = balanceOfPower
+					which = h_polandlithuania_balance_of_power
 					value = 7
 				}	
 		}
@@ -175,7 +175,7 @@ estate_polish_nobility =
 			has_country_flag = pol_setup
 			NOT = {
 				check_variable = {
-					which = balanceOfPower
+					which = h_polandlithuania_balance_of_power
 					value = 3
 				}
 			}		
@@ -188,12 +188,12 @@ estate_polish_nobility =
 		trigger = {
 			has_country_flag = pol_setup
 			check_variable = {
-				which = balanceOfPower
+				which = h_polandlithuania_balance_of_power
 				value = 14
 			}
 			NOT = {
 				check_variable = {
-					which = balanceOfPower
+					which = h_polandlithuania_balance_of_power
 					value = 18
 				}
 			
@@ -207,7 +207,7 @@ estate_polish_nobility =
 		trigger = {
 			has_country_flag = pol_setup
 			check_variable = {
-				which = balanceOfPower
+				which = h_polandlithuania_balance_of_power
 				value = 17
 			}
 		}	
@@ -248,7 +248,7 @@ estate_polish_nobility =
 	privileges = {
 		estate_polish_nobility_land_rights
 		estate_polish_nobility_officer_corp
-		estate_polish_nobility_levies
+		#estate_polish_nobility_levies
 		estate_polish_nobility_advisors
 		estate_polish_nobility_right_of_counsel
 		estate_polish_nobility_golden_liberty

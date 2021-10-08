@@ -438,7 +438,7 @@ categories =  {
 
 		movement_cost = 8.0
 		defence = 6
-		local_development_cost = 10		
+		local_development_cost = 10
 	}
 
 	grasslands = {

@@ -862,7 +862,7 @@ vassal_integration_act = {
 		has_idea_group = expansion_ideas
 		OR = {
 			full_idea_group = influence_ideas
-			full_idea_group = exchange_of_ideas
+			full_idea_group = expansion_ideas
 		}
 	}
 	
@@ -875,27 +875,7 @@ vassal_integration_act = {
 	diplomatic_reputation = 2
 
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { num_of_vassals = 1 }
-		}
-		modifier = {
-			factor = 1.5
-			num_of_vassals = 2
-		}
-		modifier = {
-			factor = 1.5
-			num_of_vassals = 3
-		}			
-		modifier = {
-			factor = 1.5
-			num_of_vassals = 4
-		}
-		modifier = {
-			factor = 1.5
-			num_of_vassals = 5
-		}			
+		factor = 1		
 	}
 	
 }

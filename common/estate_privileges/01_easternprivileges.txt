@@ -1237,10 +1237,10 @@ estate_lithuanian_nobility_conscript_troops = {
 			limit = {
 				tag = POL
 			}
-			custom_tooltip = flavor_lit.bop.plus1
+			custom_tooltip =HashMP_Polish_Influence_Tooltip_1
 			hidden_effect = {
 				change_variable = {
-					which = balanceOfPower
+					which = h_polandlithuania_balance_of_power
 					value = 1
 				}
 			}

@@ -453,10 +453,9 @@ h_reform_elective_monarchy = {
 	allow_normal_conversion = no
 	potential = {
 		OR = {
-				tag = PLC
-				tag = POL
-			}
-
+			tag = PLC
+			tag = POL
+		}
 	}
 	queen = yes
 	lock_level_when_selected = yes
@@ -472,10 +471,10 @@ h_reform_elective_monarchy = {
 		polish_nobility_loyalty_modifier = 0.1
 		lithuanian_nobility_loyalty_modifier = 0.1
 	}
-	
-	foreign_slave_rulers = yes
+
 	conditional = {
 		government_abilities = {
+			foreign_slave_rulers = yes
 		}
 	}
 }
