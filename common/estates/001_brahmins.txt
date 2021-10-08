@@ -157,22 +157,22 @@ estate_brahmins = {
 		estate_brahmins_build_manufactory_in_y
 		estate_brahmins_build_university_in_y
 		estate_brahmins_develop_x
-		estate_brahmins_convert_province_x
-		estate_brahmins_reduce_war_exhaustion
-		estate_brahmins_recover_stability
-		estate_brahmins_increase_stability
-		estate_brahmins_reduce_overextension
-		estate_brahmins_restore_devotion
-		estate_brahmins_crush_religious_revolts
-		estate_brahmins_get_allies
-		estate_brahmins_befriend_rival_of_rival
-		estate_brahmins_relations_with_X
-		estate_brahmins_break_coalition
-		estate_brahmins_protect_brethren
-		estate_brahmins_restore_legitimacy
-		estate_brahmins_stop_converting_province_x
-		estate_brahmins_hire_advisor
-		estate_brahmins_fire_advisor
+		#estate_brahmins_convert_province_x
+		#estate_brahmins_reduce_war_exhaustion
+		#estate_brahmins_recover_stability
+		#estate_brahmins_increase_stability
+		#estate_brahmins_reduce_overextension
+		#estate_brahmins_restore_devotion
+		#estate_brahmins_crush_religious_revolts
+		#estate_brahmins_get_allies
+		#estate_brahmins_befriend_rival_of_rival
+		#estate_brahmins_relations_with_X
+		#estate_brahmins_break_coalition
+		#estate_brahmins_protect_brethren
+		#estate_brahmins_restore_legitimacy
+		#estate_brahmins_stop_converting_province_x
+		#estate_brahmins_hire_advisor
+		#estate_brahmins_fire_advisor
 	}
 
 	color = { 229 160 172 }

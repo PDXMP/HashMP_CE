@@ -269,7 +269,7 @@ estate_burghers =
 		estate_burghers_increase_trade_power_in_X
 		estate_burghers_access_sea
 		estate_burghers_build_a_fleet
-		estate_burghers_bigger_fleet_than_rival
+		#estate_burghers_bigger_fleet_than_rival
 		estate_burghers_improve_dip_rep
 		estate_burghers_get_cash
 		estate_burghers_discover_X_in_america
