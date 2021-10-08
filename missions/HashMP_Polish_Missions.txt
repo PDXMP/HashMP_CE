@@ -15,7 +15,7 @@ develop_commonwealth = {
 	##Mission Start
 	polish_renaissance_mission = {
 		icon = mission_early_modern_university
-		required_missions {
+		required_missions = {
 		}
 		position = 1
 		trigger = {
@@ -36,7 +36,7 @@ develop_commonwealth = {
 	##Mission Start
 		develop_ruthenia = {
 		icon = mission_colonial
-		required_missions { polish_renaissance_mission	}
+		required_missions = { polish_renaissance_mission	}
 		position = 2
 		provinces_to_highlight = {
 			region = ruthenia_region
@@ -67,7 +67,7 @@ develop_commonwealth = {
 	##Mission Start
 	expand_kazimierz_mission = {
 		icon = mission_eastern_european_city
-		required_missions {
+		required_missions = {
 			develop_ruthenia
 		}
 		position = 3
@@ -122,7 +122,7 @@ develop_commonwealth = {
 	##Mission Start
 	invest_in_eastern_poland_mission = {
 		icon = mission_have_manufactories
-		required_missions {
+		required_missions = {
 			expand_kazimierz_mission
 		}
 		position = 4
@@ -193,7 +193,7 @@ develop_commonwealth = {
 	##Mission Start
 	sluck_shashes = {
 		icon = mission_have_manufactories
-		required_missions {
+		required_missions = {
 			invest_in_eastern_poland_mission
 		}
 		position = 5
@@ -330,7 +330,7 @@ polish_expansion = {
 	##Mission Start
 	conquer_silesia = {
 		icon = mission_conquer_5_states
-		required_missions {
+		required_missions = {
 			prussian_confederation_mission_pol
 		}
 		position = 2
@@ -358,7 +358,7 @@ polish_expansion = {
 	##Mission Start
 	annex_mazovia = {
 		icon = mission_have_two_subjects
-		required_missions {
+		required_missions = {
 			conquer_silesia
 		}
 		position = 4
@@ -462,13 +462,13 @@ polish_internal_issues = {
 	##Mission Start
 	deal_with_the_sejm_mission = {
 		icon = mission_noble_council
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
 	
 		trigger = {
-			OR {
+			OR = {
 				AND = {
 					estate_loyalty = {
 						estate = estate_polish_nobility
@@ -511,7 +511,7 @@ polish_internal_issues = {
 	##Mission Start
 	vytautas_reforms = {
 		icon = mission_noble_council
-		required_missions {
+		required_missions = {
 			deal_with_the_sejm_mission
 		}
 		position = 2
@@ -543,23 +543,21 @@ polish_internal_issues = {
 			}
 		}
 		effect = {
-			POL = {
-				set_country_flag = pol_liv_vytautas_mission
-				country_event = {id = HashMP_Poland.121}
-			}
+			set_country_flag = pol_liv_vytautas_mission
+			country_event = { id = HashMP_Poland.121 }
 		}
 	}
 	##Mission End
 	##Mission Start
 	rights_and_privileges = {
 		icon = mission_noble_council
-		required_missions {
+		required_missions = {
 			vytautas_reforms
 		}
 		position = 3
 
 		trigger = {
-			OR {
+			OR = {
 				AND = {
 					estate_loyalty = {
 						estate = estate_lithuanian_nobility
@@ -601,7 +599,7 @@ polish_internal_issues = {
 	##Mission Start
 	a_matter_of_faiths = {
 		icon = mission_noble_council
-		required_missions {
+		required_missions = {
 			rights_and_privileges
 		}
 		position = 4
@@ -623,7 +621,7 @@ polish_internal_issues = {
 	##Mission Start
 	vassalize_lithuania = {
 		icon = mission_restore_kiev
-		required_missions {
+		required_missions = {
 			a_matter_of_faiths invest_in_eastern_poland_mission restore_kiev integrate_cossacks annex_mazovia
 		}
 		position = 5
@@ -665,17 +663,17 @@ lithuanian_internal_issues = {
 	##Mission Start
 	lithuanian_succesion = {
 		icon = avoid_fragmentation
-		required_missions { }
+		required_missions = { }
 		position = 1
 		provinces_to_highlight = {
 			
 		}
 		trigger = {
-			OR {
+			OR = {
 				NOT = { exists = KIE }
 				NOT = {
 					KIE ={
-						OR  { 
+						OR = { 
 							is_subject_of = POL
 							is_subject_of = LIT
 						}
@@ -700,7 +698,7 @@ lithuanian_internal_issues = {
 	##Mission Start
 	reign_chernigov = {
 		icon = mission_partition_poland
-		required_missions {
+		required_missions = {
 			lithuanian_succesion
 		}
 		position = 2
@@ -708,21 +706,21 @@ lithuanian_internal_issues = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			OR =	{
+			OR = {
 				NOT = { exists = CHR }
 				NOT = {
 					CHR ={
-						OR  { 
-						is_subject_of = POL
-						is_subject_of = LIT
+						OR = { 
+							is_subject_of = POL
+							is_subject_of = LIT
 						}
 					}
 				}
-				AND {
-				CHR = {
-					is_subject_of = ROOT
-					NOT = {	
-						liberty_desire = 30
+				AND = {
+					CHR = {
+						is_subject_of = ROOT
+						NOT = {	
+							liberty_desire = 30
 						}
 					}	
 				}
@@ -730,17 +728,15 @@ lithuanian_internal_issues = {
 			}
 		}
 		effect = {
-			POL = {
-				set_country_flag = pol_chr_integrate_mission
-				country_event = {id = HashMP_Poland.124}
-			}
+			set_country_flag = pol_chr_integrate_mission
+			country_event = { id = HashMP_Poland.124 }
 		}
 	}
 	##Mission End
 	##Mission Start
 	northern_marches = {
 		icon = mission_consolidate_the_state
-		required_missions {
+		required_missions = {
 			reign_chernigov
 		}
 		position = 3
@@ -753,13 +749,13 @@ lithuanian_internal_issues = {
 				NOT = { exists = SMO }
 				NOT = {
 					SMO ={
-						OR  { 
+						OR = { 
 							is_subject_of = POL
 							is_subject_of = LIT
 						}
 					}
 				}	
-				AND {
+				AND = {
 					SMO = {
 						is_subject_of = ROOT
 						NOT = {
@@ -772,13 +768,13 @@ lithuanian_internal_issues = {
 				NOT = { exists = PLT }
 				NOT = {
 					PLT ={
-						OR  { 
+						OR = { 
 							is_subject_of = POL
 							is_subject_of = LIT
 						}
 					}
 				}	
-				AND {
+				AND = {
 					PLT = {
 						is_subject_of = ROOT
 						NOT = {
@@ -801,7 +797,7 @@ lithuanian_internal_issues = {
 	##Mission start
 	restore_kiev = {
 		icon = mission_eastern_european_city
-		required_missions {
+		required_missions = {
 			northern_marches
 		}
 		position = 4
@@ -855,7 +851,7 @@ lithuanian_expansion = {
 	##Mission Start
 	befriend_cossacks = {
 		icon = mission_recruit_the_cossacks
-		required_missions { }
+		required_missions = { }
 		position = 1
 		provinces_to_highlight = {
 			##PROVINCESHIGHLIGHTCODE
@@ -866,13 +862,13 @@ lithuanian_expansion = {
 				NOT = { exists = CRI }
 				NOT = {
 					ZAZ ={
-						OR  { 
+						OR = { 
 							is_subject_of = POL
 							is_subject_of = LIT
 						}
 					}
 				}
-				AND {
+				AND = {
 					ZAZ = {
 						is_subject_of = POL
 						NOT = {
@@ -889,17 +885,15 @@ lithuanian_expansion = {
 			}
 		}
 		effect = {
-			POL = {
-				set_country_flag = pol_zaz_invasion_mission
-				country_event = { id = HashMP_Poland.126}
-			}
+			set_country_flag = pol_zaz_invasion_mission
+			country_event = { id = HashMP_Poland.126 }
 		}
 	}
 	##Mission End
 	##Mission Start
 	invade_crimea = {
 		icon = mission_crusade_for_varna
-		required_missions {
+		required_missions = {
 			befriend_cossacks
 		}
 		position = 2
@@ -912,17 +906,17 @@ lithuanian_expansion = {
 				NOT = { exists = CRI }
 				NOT = {
 					ZAZ ={
-						OR  { 
-						is_subject_of = POL
-						is_subject_of = LIT
+						OR = { 
+							is_subject_of = POL
+							is_subject_of = LIT
 						}
 					}
 				}
-				AND {
+				AND = {
 					ZAZ = {
 						is_subject_of = ROOT
 						NOT = {
-								liberty_desire = 10
+							liberty_desire = 10
 						}
 					}	
 				}
@@ -948,7 +942,7 @@ lithuanian_expansion = {
 	##Mission Start
 	integrate_cossacks = {
 		icon = mission_cossack_cavalry
-		required_missions {
+		required_missions = {
 			invade_crimea
 		}
 		position = 4
@@ -960,13 +954,13 @@ lithuanian_expansion = {
 				NOT = { exists = ZAZ }
 				NOT = {
 					ZAZ ={
-						OR  { 
-						is_subject_of = POL
-						is_subject_of = LIT
+						OR = { 
+							is_subject_of = POL
+							is_subject_of = LIT
 						}
 					}
 				}
-				AND {
+				AND = {
 					ZAZ = {
 						is_subject_of = ROOT
 						NOT = {

@@ -13,7 +13,7 @@ Central_european_conquest = {
 	##Mission Start
 	hashMP_conquer_bb = {
 		icon = an_army_with_a_state
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -55,7 +55,7 @@ Central_european_conquest = {
 	##Mission Start
 	HashMP_invade_slovakia = {
 		icon = alpine_defenses
-		required_missions {
+		required_missions = {
 			hashMP_conquer_bb
 		}
 		position = 2
@@ -70,14 +70,13 @@ Central_european_conquest = {
 			slovakia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				any_owned_province = {
+				any_province_in_state = {
 					fort_level = 2
 				}
 				
 			}		
 		}		
-		effect = {
-		
+		effect = {		
 			slovakia_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
@@ -99,7 +98,7 @@ Central_european_conquest = {
 	##Mission Start
 	HashMP_expand_wallachia = {
 		icon = mission_unite_home_region
-		required_missions {
+		required_missions = {
 			HashMP_invade_slovakia
 		}
 		position = 3
@@ -149,7 +148,7 @@ Central_european_conquest = {
 	##Mission Start
 	HashMP_secure_caucasus = {
 		icon = mission_conquer_5_states
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -213,7 +212,7 @@ Central_european_conquest = {
 	##Mission Start
 	HashMP_expand_steppes = {
 		icon = mission_break_the_tatar_yoke
-		required_missions {
+		required_missions = {
 			HashMP_secure_caucasus
 		}
 		position = 2
@@ -278,7 +277,7 @@ Central_european_conquest = {
 	##Mission Start
 	HashMP_conflict_ryazan = {
 		icon = mission_break_the_tatar_yoke
-		required_missions {
+		required_missions = {
 			HashMP_expand_steppes
 		}
 		position = 3
@@ -332,7 +331,7 @@ russia_conquest = {
 	##Mission Start
 	HashMP_LIV_conquest = {
 		icon = mission_teutonic_knights
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -376,7 +375,7 @@ russia_conquest = {
 	##Mission Start
 	HashMP_reconquest_pskov = {
 		icon = mission_recruit_streltsy
-		required_missions {
+		required_missions = {
 			HashMP_LIV_conquest
 		}
 		position = 2
@@ -430,7 +429,7 @@ russia_conquest = {
 	##Mission Start
 	HashMP_burn_moscow = {
 		icon = mission_conquer_moscow
-		required_missions {
+		required_missions = {
 			HashMP_reconquest_pskov
 		}
 		position = 3
@@ -493,7 +492,7 @@ develop_commonwealth = {
 	##Mission Start
 	HashMP_colonize_Crimea = {
 		icon = mission_hands_praying
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -566,28 +565,36 @@ develop_commonwealth = {
 		}
 		effect = {
 			crimea_area = {
-				owned_by = ROOT
+				limit = {
+					owned_by = ROOT
+				}
 				add_province_modifier = {
 					name = settled_crimea
 					duration = -1
 				}
 			}
 			yedisan_area = {
-				owned_by = ROOT
+				limit = {
+					owned_by = ROOT
+				}
 				add_province_modifier = {
 					name = settled_crimea
 					duration = -1
 				}
 			}
 			zaporizhia_area = {
-				owned_by = ROOT
+				limit = {
+					owned_by = ROOT
+				}
 				add_province_modifier = {
 					name = settled_crimea
 					duration = -1
 				}
 			}
 			azov_area = {
-				owned_by = ROOT
+				limit = {
+					owned_by = ROOT
+				}
 				add_province_modifier = {
 					name = settled_crimea
 					duration = -1
@@ -599,7 +606,7 @@ develop_commonwealth = {
 	##Mission Start
 	HashMP_increase_trade = {
 		icon = mission_high_income
-		required_missions {
+		required_missions = {
 			HashMP_colonize_Crimea HashMP_LIV_conquest
 		}
 		position = 2
@@ -655,7 +662,7 @@ develop_commonwealth = {
 	##Mission Start
 	HashMP_populate_steppes = {
 		icon = mission_settlers_north_america
-		required_missions {
+		required_missions = {
 			HashMP_increase_trade HashMP_conflict_ryazan
 		}
 		position = 4
@@ -755,7 +762,6 @@ develop_commonwealth = {
 		}
 		effect = {
 			every_province = {
-
 				limit = {
 					owned_by = ROOT 
 					OR = {
@@ -765,16 +771,15 @@ develop_commonwealth = {
 						area = tambov_area
 						area = sloboda_ukraine_area
 						area = ryazan_area
-
 					}
-				OR = {	
-					has_owner_accepted_culture = yes
-					has_owner_culture = yes
-				}
-				OR = {
-					religion = catholic
-					religion = orthodox
-				}
+					OR = {
+						has_owner_accepted_culture = yes
+						has_owner_culture = yes
+					}
+					OR = {
+						religion = catholic
+						religion = orthodox
+					}
 				}
 				add_base_tax = 1
 				add_base_manpower = 1
