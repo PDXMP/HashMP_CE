@@ -1,0 +1,38 @@
+# 2690 - Luzhou
+
+owner = CBE
+controller = CBE
+add_core = CBE
+culture = yi
+religion = confucianism
+capital = "Luzhou"
+trade_goods = tea
+base_tax = 3
+base_production = 5
+base_manpower = 2
+hre = no
+citysize = 30000
+
+fort_15th = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+
+1450.1.1 = { citysize = 71250 }
+1500.1.1 = { citysize = 75460 }
+1550.1.1 = { citysize = 81005 }
+1600.1.1 = { citysize = 83240 }
+#1644.8.9 = {	owner = CXI
+#		controller = CXI
+#	   } # The Xi dynasty of Zhang Xianzhong
+1646.10.1 = { controller = QNG }
+1647.1.2 = { owner = QNG }
+1650.1.1 = { citysize = 27700 }
+1662.1.1 = {	add_core = QNG
+		remove_core = MNG
+}
+#1674.1.1 = { controller = CZH }
+1680.1.1 = { controller = QNG }
+1700.1.1 = { citysize = 60450 }
+1750.1.1 = { citysize = 63125 }
+1800.1.1 = { citysize = 68500 }

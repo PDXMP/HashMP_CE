@@ -18,14 +18,14 @@ h_china_all = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 1816
-				province_id = 4793
-				province_id = 4794
+				province_id = 5793
+				province_id = 5794
 				province_id = 680
 				province_id = 726
 				province_id = 667
 				province_id = 684
 				province_id = 662
-				province_id = 4861
+				province_id = 5861
 				province_id = 1821
 				province_id = 682
 				province_id = 700
@@ -107,14 +107,14 @@ h_cxi_1 = {
 			}
 			if = {
 				limit = {
-					4936 = {
+					5936 = {
 						NOT = {
 							is_permanent_claim = ROOT
 							is_core = ROOT
 						}
 					}
 				}
-				4936 = {
+				5936 = {
 					add_permanent_claim = ROOT
 				}
 			}
@@ -133,14 +133,14 @@ h_cxi_1 = {
 			}
 			if = {
 				limit = {
-					4953 = {
+					5953 = {
 						NOT = {
 							is_permanent_claim = ROOT
 							is_core = ROOT
 						}
 					}
 				}
-				4953 = {
+				5953 = {
 					add_permanent_claim = ROOT
 				}
 			}
@@ -301,14 +301,14 @@ h_wuu_5 = {
 #			}
 #			if = {
 #				limit = {
-#					4831 = {
+#					5831 = {
 #						NOT = {
 #							is_permanent_claim = ROOT
 #							is_core = ROOT
 #						}
 #					}
 #				}
-#				4831 = {
+#				5831 = {
 #					add_permanent_claim = ROOT
 #				}
 #			}

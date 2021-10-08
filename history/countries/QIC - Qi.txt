@@ -1,0 +1,27 @@
+government = monarchy
+add_government_reform = h_reform_warlord_1
+government_rank = 1
+technology_group = chinese
+religion = confucianism
+primary_culture = shandong_culture
+capital = 691	#Jinan
+historical_rival = CXI
+historical_rival = CYI
+historical_rival = CSH
+historical_rival = WUU
+historical_rival = YUE
+
+1444.1.31 = {
+	monarch = {
+		name = "Huan"
+		dynasty = "Qi"
+		birth_date = 1397.1.1 #Age - 47
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = scholar_personality
+
+}

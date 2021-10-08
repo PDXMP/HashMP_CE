@@ -1,0 +1,37 @@
+# 2733 - Baoji
+
+owner = BAO
+controller = BAO
+add_core = BAO
+culture = xibei
+religion = confucianism
+capital = "Baoji"
+trade_goods = grain
+base_tax = 6
+base_production = 4
+base_manpower = 4
+hre = no
+citysize = 10140
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+
+1450.1.1 = { citysize = 10140 }
+1500.1.1 = { citysize = 10140 }
+1550.1.1 = { citysize = 10140 }
+1600.1.1 = { citysize = 10140 }
+1628.1.1 = { revolt_risk = 6 } # Li Zicheng rebellion
+1644.1.1 = { revolt_risk = 0 owner = CSH controller = CSH } # The Shun dynasty of Li Zicheng
+1645.1.1 = { controller = MCH }
+1645.5.27 = { revolt_risk = 0 } # The rebellion is defeated
+1645.7.1 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+} # The Qing Dynasty
+1650.1.1 = { citysize = 10140 }
+1662.1.1 = { remove_core = MNG }
+1700.1.1 = { citysize = 10140 }
+1750.1.1 = { citysize = 10140 }
+1800.1.1 = { citysize = 10140 }

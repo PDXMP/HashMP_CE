@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = h_reform_prefecture
+government_rank = 1
+technology_group = chinese
+religion = confucianism
+primary_culture = jin
+capital = 697	#Taiyuan
+
+
+1435.1.31 = {
+	monarch = {
+		name = "Kehshuan"
+		dynasty = "Zheng"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

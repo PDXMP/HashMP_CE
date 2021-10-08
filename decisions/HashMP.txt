@@ -848,9 +848,9 @@ country_decisions = {
 				has_reform = h_reform_warlord_3
 				has_reform = h_reform_warlord_4
 			}
-			owns = 4841 #Hengyang
-			is_core = 4841
-			4841 = {
+			owns = 5841 #Hengyang
+			is_core = 5841
+			5841 = {
 				NOT = { trade_goods = gold }
 			}
 		}

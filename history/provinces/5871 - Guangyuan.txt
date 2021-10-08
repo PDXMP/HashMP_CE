@@ -1,0 +1,29 @@
+# 3613 - Guangyuan
+
+owner = GNY
+controller = GNY
+add_core = GNY
+culture = sichuanese
+religion = confucianism
+capital = "Guangyuan"
+trade_goods = grain
+base_tax = 4
+base_production = 5
+base_manpower = 3
+hre = no
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+
+#1644.8.9 = {	owner = CXI
+#		controller = CXI
+#	   } # The Xi dynasty of Zhang Xianzhong
+1646.10.1 = { controller = QNG }
+1647.1.2 = { owner = QNG }
+1662.1.1 = {	add_core = QNG
+		remove_core = MNG
+}
+#1674.1.1 = { controller = CZH }
+1680.1.1 = { controller = QNG }

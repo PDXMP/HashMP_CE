@@ -467,7 +467,7 @@ h_danish_missions_christian_3 = {
 				duration = -1
 			}
 
-			5004 = {
+			6004 = {
 				add_base_tax = 1
 				add_base_production = 1
 				add_base_manpower = 1
@@ -1087,7 +1087,7 @@ h_danish_missions_dorothea_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			5004 = {
+			6004 = {
 				OR = {
 					has_building = shipyard
 					has_building = grand_shipyard
@@ -1100,7 +1100,7 @@ h_danish_missions_dorothea_3 = {
 			}
 		}
 		effect = {
-			5004 = {
+			6004 = {
 				add_base_production = 3
 
 				add_unit_construction = {
@@ -1806,7 +1806,7 @@ h_danish_missions_charles_3 = {
 				duration = -1
 			}
 
-			5004 = {
+			6004 = {
 				add_base_manpower = 3
 			}
 		}
@@ -2260,7 +2260,7 @@ h_danish_missions_prologue_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			5004 = {
+			6004 = {
 				development = 20
 			}
 			NOT = { 
@@ -2283,7 +2283,7 @@ h_danish_missions_prologue_3 = {
 			country_event = {
 				id = hashmp.111
 			}
-			5004 = {
+			6004 = {
 				add_province_modifier = {
 					name = h_danish_copenhagen_recovering
 					duration = 9125
@@ -2409,13 +2409,13 @@ h_danish_missions_main_1 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			5004 = {
+			6004 = {
 				has_building = marketplace
 				province_has_center_of_trade_of_level = 2
 			}
 		}
 		effect = {
-			5004 = {
+			6004 = {
 				if = {
 					limit = {
 						NOT = { province_has_center_of_trade_of_level = 3 }
@@ -2530,7 +2530,7 @@ h_danish_missions_main_1 = {
 				duration = -1
 			}
 
-			5004 = {
+			6004 = {
 				add_unit_construction = {
 					type = light_ship
 					amount = 5
@@ -3225,7 +3225,7 @@ h_danish_missions_main_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			5004 = {
+			6004 = {
 				has_building = university
 			}
 		}
@@ -3295,7 +3295,7 @@ h_danish_missions_main_3 = {
 				duration = 3650
 			}
 
-			5004 = {
+			6004 = {
 				add_base_production = 3
 			}
 			12 = {
@@ -3680,7 +3680,7 @@ h_danish_missions_main_5 = {
 					has_building = fort_18th
 				}
 			}
-			5004 = {
+			6004 = {
 				OR = {
 					has_building = fort_15th
 					has_building = fort_16th
@@ -3701,7 +3701,7 @@ h_danish_missions_main_5 = {
 				duration = 9125
 			}
 
-			5004 = {
+			6004 = {
 				add_province_triggered_modifier = h_denmark_coastal_defenses
 			}
 			12 = {

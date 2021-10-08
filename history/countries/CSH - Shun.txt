@@ -1,0 +1,26 @@
+government = monarchy
+add_government_reform = h_reform_warlord_1
+government_rank = 1
+technology_group = chinese
+religion = confucianism
+primary_culture = xibei
+capital = 698 # Fengyuan
+historical_rival = CXI
+historical_rival = CYI
+historical_rival = WUU
+historical_rival = YUE
+historical_rival = QIC
+
+1444.1.31 = {
+	monarch = {
+		name = "Li"
+		dynasty = "Shun"
+		birth_date = 1421.1.1 #Age - 23
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = inspiring_leader_personality
+}
