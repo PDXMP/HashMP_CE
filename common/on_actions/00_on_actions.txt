@@ -1432,15 +1432,15 @@ on_government_change = {
 		limit = {
 			NOT = { has_reform = steppe_horde }
 			any_owned_province = {
-				has_province_modifier = h_horde_autonomy_grant_tooltip
+				has_province_modifier = h_horde_autonomy_grant
 			}
 		}
 		every_owned_province = { 
 			limit = {
-				has_province_modifier = h_horde_autonomy_grant_tooltip
+				has_province_modifier = h_horde_autonomy_grant
 			}
 
-			remove_province_modifier = h_horde_autonomy_grant_tooltip
+			remove_province_modifier = h_horde_autonomy_grant
 		}
 	}
 }

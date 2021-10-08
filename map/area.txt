@@ -1084,7 +1084,7 @@ weser_area = { #4
 }
 
 holstein_area = { #3
-	13 1775 4141 
+	6005 13 1775 4141 
 }
 
 lower_saxony_area = { #4
@@ -1556,7 +1556,7 @@ quelimane_area = { #3
 }
 
 limpopo_area = { #4
-	789 1181 1182 1800
+	789 1181 1182 1800 5975
 }
 
 central_swahili_coast_area = { #5
