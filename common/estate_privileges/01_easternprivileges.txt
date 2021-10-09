@@ -148,7 +148,7 @@ estate_polish_nobility_monopoly_of_metals = {
 					}
 				}
 				add_province_modifier = {
-					name = estate_polish_nobility_monopoly_of_metals_mod
+					name = h_estate_polish_nobility_monopoly_of_metals_mod
 					duration = -1
 				}
 			}
@@ -159,9 +159,9 @@ estate_polish_nobility_monopoly_of_metals = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+					has_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 				}
-				remove_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+				remove_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 			}
 		}
 	}
@@ -170,9 +170,9 @@ estate_polish_nobility_monopoly_of_metals = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+					has_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 				}
-				remove_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+				remove_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 			}
 		}
 	}
@@ -427,7 +427,7 @@ estate_polish_nobility_monopoly_of_metals = {
 					}
 				}
 				add_province_modifier = {
-					name = estate_polish_nobility_monopoly_of_metals_mod
+					name = h_estate_polish_nobility_monopoly_of_metals_mod
 					duration = -1
 				}
 			}
@@ -438,9 +438,9 @@ estate_polish_nobility_monopoly_of_metals = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+					has_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 				}
-				remove_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+				remove_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 			}
 		}
 	}
@@ -449,9 +449,9 @@ estate_polish_nobility_monopoly_of_metals = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+					has_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 				}
-				remove_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+				remove_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 			}
 		}
 	}
@@ -916,7 +916,7 @@ estate_lithuanian_nobility_monopoly_of_livestock = {
 					trade_goods = livestock
 				}
 				add_province_modifier = {
-					name = estate_lithuanian_nobility_monopoly_of_livestock_mod
+					name = h_estate_lithuanian_nobility_monopoly_of_livestock_mod
 					duration = -1
 				}
 			}
@@ -927,9 +927,9 @@ estate_lithuanian_nobility_monopoly_of_livestock = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_lithuanian_nobility_monopoly_of_livestock_mod
+					has_province_modifier = h_estate_lithuanian_nobility_monopoly_of_livestock_mod
 				}
-				remove_province_modifier = estate_lithuanian_nobility_monopoly_of_livestock_mod
+				remove_province_modifier = h_estate_lithuanian_nobility_monopoly_of_livestock_mod
 			}
 		}
 	}
@@ -938,9 +938,9 @@ estate_lithuanian_nobility_monopoly_of_livestock = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_lithuanian_nobility_monopoly_of_livestock_mod
+					has_province_modifier = h_estate_lithuanian_nobility_monopoly_of_livestock_mod
 				}
-				remove_province_modifier = estate_lithuanian_nobility_monopoly_of_livestock_mod
+				remove_province_modifier = h_estate_lithuanian_nobility_monopoly_of_livestock_mod
 			}
 		}
 	}
@@ -1237,10 +1237,10 @@ estate_lithuanian_nobility_conscript_troops = {
 			limit = {
 				tag = POL
 			}
-			custom_tooltip = flavor_lit.bop.plus1
+			custom_tooltip =HashMP_Polish_Influence_Tooltip_1
 			hidden_effect = {
 				change_variable = {
-					which = balanceOfPower
+					which = h_polandlithuania_balance_of_power
 					value = 1
 				}
 			}

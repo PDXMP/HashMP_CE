@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = sichuanese
-capital = 4870 #Xixiang
+capital = 5870 #Xixiang

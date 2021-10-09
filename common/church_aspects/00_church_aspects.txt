@@ -42,6 +42,14 @@ adult_baptism_aspect = {
 			factor = 2
 			NOT = { religious_unity = 0.8 }
 		}
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_province = {
+					has_owner_religion = no
+				}
+			}
+		}
 	}
 }
 

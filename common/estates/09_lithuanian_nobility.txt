@@ -67,12 +67,12 @@ estate_lithuanian_nobility =
 			has_country_flag = pol_setup
 			NOT = {
 				check_variable = {
-					which = balanceOfPower
+					which = h_polandlithuania_balance_of_power
 					value = 2
 				}
 			}
 				check_variable = {
-					which = balanceOfPower
+					which = h_polandlithuania_balance_of_power
 					value = 7
 				}			
 		}
@@ -85,7 +85,7 @@ estate_lithuanian_nobility =
 			has_country_flag = pol_setup
 			NOT = {
 				check_variable = {
-					which = balanceOfPower
+					which = h_polandlithuania_balance_of_power
 					value = 3
 				}
 			}		
@@ -98,12 +98,12 @@ estate_lithuanian_nobility =
 		trigger = {
 			has_country_flag = pol_setup
 			check_variable = {
-				which = balanceOfPower
+				which = h_polandlithuania_balance_of_power
 				value = 14
 			}
 			NOT = {
 				check_variable = {
-					which = balanceOfPower
+					which = h_polandlithuania_balance_of_power
 					value = 18
 				}
 			
@@ -117,7 +117,7 @@ estate_lithuanian_nobility =
 		trigger = {
 			has_country_flag = pol_setup
 			check_variable = {
-				which = balanceOfPower
+				which = h_polandlithuania_balance_of_power
 				value = 17
 			}
 		}	

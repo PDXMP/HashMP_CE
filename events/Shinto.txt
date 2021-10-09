@@ -3134,7 +3134,87 @@ country_event = {
 	}
 	
 	option = {
-		name = "shinto_events.58.b" #
+		name = "shinto_events.58.b" # Theocratic Government
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0.5
+				NOT = { tag = JAP }
+				NOT = { tag = TKD }
+				any_known_country = {
+					capital_scope = { region = japan_region }
+					religion = mahayana
+				}
+			}
+		}
+		hidden_effect = {
+			set_country_flag = ikko_ikki_peasants_flag
+		}
+		change_government_to_theocracy = yes
+		add_government_reform = leading_clergy_reform
+		add_stability = -2
+		change_religion = mahayana
+		capital_scope = {
+			change_religion = mahayana
+			random_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+				}
+				spawn_rebels = {
+					type = shinto_rebels
+					size = 1
+				}
+			}
+		}
+
+		add_country_modifier = {
+			name = "shinto_converted_to_mahayana"
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = "shinto_events.58.c" # Peasant Government
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0.5
+				NOT = { tag = JAP }
+				NOT = { tag = TKD }
+				any_known_country = {
+					capital_scope = { region = japan_region }
+					religion = mahayana
+				}
+			}
+		}
+		hidden_effect = {
+			set_country_flag = ikko_ikki_peasants_flag
+		}
+		change_government_to_republic = yes
+		add_government_reform = peasants_republic
+		add_stability = -2
+		change_religion = mahayana
+		capital_scope = {
+			change_religion = mahayana
+			random_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+				}
+				spawn_rebels = {
+					type = shinto_rebels
+					size = 1
+				}
+			}
+		}
+
+		add_country_modifier = {
+			name = "shinto_converted_to_mahayana"
+			duration = 3650
+		}
+	}
+
+		option = {
+		name = "shinto_events.58.e" # Become Buddhist, but stay a Daimyo
 		ai_chance = {
 			factor = 20
 			modifier = {
@@ -3150,6 +3230,10 @@ country_event = {
 		change_religion = mahayana
 		capital_scope = {
 			change_religion = mahayana
+			spawn_rebels = {
+				type = ikko_ikki_rebels
+				size = 2
+			}
 			random_neighbor_province = {
 				limit = {
 					owned_by = ROOT

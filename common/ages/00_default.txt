@@ -65,7 +65,7 @@ age_of_discovery = {
 				any_owned_province = {
 					is_core = ROOT
 					controlled_by = owner
-					development = 30
+					development_discounting_tribal = 30
 				}
 			}
 		}
@@ -266,6 +266,7 @@ age_of_reformation = {
 				religion = protestant
 				religion = reformed
 				religion = anglican
+				religion = hussite
 			}
 		}
 		
@@ -284,7 +285,7 @@ age_of_reformation = {
 		}
 		
 		obj_colonial_empire = {
-			colony = 2
+			colony = 1
 		}
 		
 		obj_force_converted = {
@@ -298,6 +299,10 @@ age_of_reformation = {
 			OR = {
 				trading_bonus = {
 					trade_goods = spices
+					value = yes
+				}
+				trading_bonus = {
+					trade_goods = cloves
 					value = yes
 				}
 				trading_bonus = {
@@ -450,11 +455,6 @@ age_of_reformation = {
 		}
 	
 	}
-	
-	
-	
-
-	
 }
 
 
@@ -626,7 +626,7 @@ age_of_absolutism = {
 				}
 			}
 			modifier = {
-				manpower_recovery_speed = 0.33
+				manpower_recovery_speed = 0.25
 			}
 			ai_will_do = {
 				factor = 100
@@ -818,7 +818,7 @@ age_of_revolutions = {
 				tag = GBR
 			}
 			modifier = {
-				infantry_power = 0.15
+				infantry_power = 0.10
 			}
 			ai_will_do = {
 				factor = 100
@@ -829,8 +829,8 @@ age_of_revolutions = {
 				tag = RUS
 			}
 			modifier = {
-				governing_capacity_modifier = 0.33
-				core_creation = -0.15
+				governing_capacity_modifier = 0.25
+				core_creation = -0.10
 			}
 			ai_will_do = {
 				factor = 100
@@ -844,7 +844,7 @@ age_of_revolutions = {
 				}
 			}
 			modifier = {
-				artillery_power = 0.15
+				artillery_power = 0.10
 			}
 			ai_will_do = {
 				factor = 100

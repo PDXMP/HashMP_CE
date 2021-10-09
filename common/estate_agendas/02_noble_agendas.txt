@@ -95,6 +95,7 @@ estate_nobles_get_allies = {
 		is_at_war = no
 		num_of_free_diplomatic_relations = 1
 		NOT = { has_country_modifier = foreign_contacts }
+		is_free_or_tributary_trigger = yes
 	}
 	selection_weight = {
 		factor = 1
@@ -2217,7 +2218,12 @@ estate_nobles_complete_conquest_of_x = {
 		event_target:agenda_province = {
 			area_for_scope_province = {
 				type = all
-				owned_by = root
+				OR = {
+					owned_by = root
+					owner = {
+						is_subject_of = root
+					}
+				}
 			}
 		}
 	}
@@ -2458,78 +2464,78 @@ estate_nobles_build_an_army = {
 
 
 #Bigger Army than Rival
-#estate_nobles_bigger_army_than_rival = {
-#	can_select = {
-#		NOT = { has_country_modifier = thriving_arms_industry }
-#		NOT = { army_size_percentage = 1 }
-#		any_rival_country = {
-#			NOT = { war_with = root }
-#			NOT = { root = { army_size = prev } }
-#			army_balance = {
-#				who = root
-#				value = 1.05
-#			}
-#			NOT = {
-#				army_balance = {
-#					who = root
-#					value = 1.25
-#				}
-#			}
-#		}
-#	}
-#	selection_weight = {
-#		factor = 5
-#	}
-#	pre_effect = {
-#		random_rival_country = {
-#			limit = {
-#				NOT = { war_with = root }
-#				NOT = { root = { army_size = prev } }
-#				army_balance = {
-#					who = root
-#					value = 1.05
-#				}
-#				NOT = {
-#					army_balance = {
-#						who = root
-#						value = 1.25
-#					}
-#				}
-#			}
-#			save_event_target_as = agenda_country
-#		}
-#	}
-#	provinces_to_highlight = {
-#		is_capital_of = event_target:agenda_country
-#	}
-#	task_requirements = {
-#		if = {
-#			limit = { event_target:agenda_country = { num_of_cities = 1 } }
-#			army_size = event_target:agenda_country
-#		}
-#		else = {
-#			always = yes
-#		}
-#	}
-#	task_completed_effect = {
-#		add_estate_loyalty = {
-#			estate = estate_nobles
-#			loyalty = 10
-#		}
-#		add_country_modifier = {
-#			name = thriving_arms_industry
-#			duration = 3650
-#		}
-#	}
-#    failing_effect = {
-#        add_estate_loyalty_modifier = {
-#            estate = estate_nobles
-#			desc = EST_VAL_AGENDA_DENIED
-#			loyalty = -5
-#			duration = 7300
-#        }
-#    }
-#}
+estate_nobles_bigger_army_than_rival = {
+	can_select = {
+		NOT = { has_country_modifier = thriving_arms_industry }
+		NOT = { army_size_percentage = 1 }
+		any_rival_country = {
+			NOT = { war_with = root }
+			NOT = { root = { army_size = prev } }
+			army_balance = {
+				who = root
+				value = 1.05
+			}
+			NOT = {
+				army_balance = {
+					who = root
+					value = 1.25
+				}
+			}
+		}
+	}
+	selection_weight = {
+		factor = 5
+	}
+	pre_effect = {
+		random_rival_country = {
+			limit = {
+				NOT = { war_with = root }
+				NOT = { root = { army_size = prev } }
+				army_balance = {
+					who = root
+					value = 1.05
+				}
+				NOT = {
+					army_balance = {
+						who = root
+						value = 1.25
+					}
+				}
+			}
+			save_event_target_as = agenda_country
+		}
+	}
+	provinces_to_highlight = {
+		is_capital_of = event_target:agenda_country
+	}
+	task_requirements = {
+		if = {
+			limit = { event_target:agenda_country = { num_of_cities = 1 } }
+			army_size = event_target:agenda_country
+		}
+		else = {
+			always = yes
+		}
+	}
+	task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		add_country_modifier = {
+			name = thriving_arms_industry
+			duration = 3650
+		}
+	}
+    failing_effect = {
+        add_estate_loyalty_modifier = {
+            estate = estate_nobles
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
 
 #Manpower reserves
 estate_nobles_build_up_manpower_reserves = {

@@ -51,7 +51,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = well_connected_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = well_connected } }
 		}
 		add_yearly_manpower = -2.5
 
@@ -129,7 +129,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = tactical_genius_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = tactical_genius } }
 		}
 		add_yearly_manpower = -2.5
 		if = {

@@ -964,7 +964,7 @@ h_swedish_missions_5 = {
 				base_production = 6
 			}
 			#Kopparberg
-			5013 = {
+			6013 = {
 				base_production = 6
 			}
 			4 = {

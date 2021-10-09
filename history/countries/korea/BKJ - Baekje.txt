@@ -1,9 +1,0 @@
-government = monarchy
-add_government_reform = h_reform_kdukedom
-government_rank = 1
-technology_group = chinese
-religion = confucianism
-primary_culture = korean
-capital = 4979
-historical_rival = KSL
-historical_rival = GOG

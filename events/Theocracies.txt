@@ -276,6 +276,12 @@ country_event = {
 		if = {
 			limit = {
 				has_saved_event_target = noble_province
+				NOT = {
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
 			}
 			define_heir = {
 				age = 35
@@ -284,6 +290,41 @@ country_event = {
 				MIL = 1
 				hidden = yes
 				culture = event_target:noble_province
+			}
+		}
+		else_if = {
+			limit = {
+				has_saved_event_target = noble_province
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
+			}
+			define_heir = {
+				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				hidden = yes
+				female = yes
+				culture = event_target:noble_province
+			}
+		}
+		else_if = {
+			limit = {
+				has_saved_event_target = noble_province
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
+			}
+			define_heir = {
+				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				hidden = yes
+				female = yes
 			}
 		}
 		else = {
@@ -367,15 +408,37 @@ country_event = {
 				religion = ROOT
 			}
 			ROOT = { 
-				define_heir = { 
-					dynasty = PREV 
-					age = 35
-					ADM = 1
-					DIP = 1
-					MIL = 1
-					culture = PREV
-					hidden = yes
-				} 
+				if = {
+					limit = {
+						NOT = {
+							has_global_modifier_value = {
+								which = female_advisor_chance
+								value = 1
+							}
+						}
+					}
+					define_heir = { 
+						dynasty = PREV 
+						ADM = 1
+						DIP = 1
+						MIL = 1
+						age = 35
+						culture = PREV
+						hidden = yes
+					} 
+				}
+				else = {
+					define_heir = { 
+						dynasty = PREV 
+						age = 35
+						ADM = 1
+						DIP = 1
+						MIL = 1
+						culture = PREV
+						female = yes
+						hidden = yes
+					} 
+				}
 			}
 			add_opinion = { who = ROOT modifier = opinion_theocracy_noble }
 		}
@@ -429,6 +492,12 @@ country_event = {
 		if = {
 			limit = {
 				has_saved_event_target = burgher_province
+				NOT = {
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
 			}
 			define_heir = {
 				age = 35
@@ -437,6 +506,40 @@ country_event = {
 				MIL = 1
 				hidden = yes
 				culture = event_target:burgher_province
+			}
+		}
+		else_if = {
+			limit = {
+				has_saved_event_target = burgher_province
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
+			}
+			define_heir = {
+				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				hidden = yes
+				female = yes
+				culture = event_target:burgher_province
+			}
+		}
+		else_if = {
+			limit = {
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
+			}
+			define_heir = {
+				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				female = yes
+				hidden = yes
 			}
 		}
 		else = {
@@ -499,6 +602,12 @@ country_event = {
 		if = {
 			limit = {
 				has_saved_event_target = church_province
+				NOT = {
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
 			}
 			define_heir = {
 				age = 35
@@ -507,6 +616,40 @@ country_event = {
 				MIL = 1
 				hidden = yes
 				culture = event_target:church_province
+			}
+		}
+		else_if = {
+			limit = {
+				has_saved_event_target = church_province
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
+			}
+			define_heir = {
+				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				hidden = yes
+				female = yes
+				culture = event_target:church_province
+			}
+		}
+		else_if = {
+			limit = {
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
+			}
+			define_heir = {
+				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				female = yes
+				hidden = yes
 			}
 		}
 		else = {
@@ -582,6 +725,29 @@ country_event = {
 		if = {
 			limit = {
 				has_saved_event_target = church_province
+				NOT = {
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+			}
+			define_heir = {
+				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				hidden = yes
+				culture = event_target:church_province
+			}
+		}
+		else_if = {
+			limit = {
+				has_saved_event_target = church_province
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
 			}
 			define_heir = {
 				age = 35
@@ -643,6 +809,12 @@ country_event = {
 		if = {
 			limit = {
 				has_saved_event_target = papal_protoge_country
+				NOT = {
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
 			}
 			define_heir = {
 				age = 35
@@ -650,6 +822,37 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				culture = event_target:papal_protoge_country
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				has_saved_event_target = papal_protoge_country
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
+			}
+			define_heir = {
+				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				culture = event_target:papal_protoge_country
+				female = yes
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
+			}
+			define_heir = {
+				age = 35
+				female = yes
 				hidden = yes
 			}
 		}
@@ -691,12 +894,30 @@ country_event = {
 				loyalty = -15
 			}
 		}		
-		define_heir = {
-			age = 35
-			ADM = 1
-			DIP = 1
-			MIL = 1
-			hidden = yes
+		if = {
+			limit = {
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
+			}
+			define_heir = {
+				age = 35
+				female = yes
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				hidden = yes
+			}
+		}
+		else = {
+			define_heir = {
+				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				hidden = yes
+			}
 		}
 		add_devotion = 10
 		add_prestige = -10
@@ -731,12 +952,30 @@ country_event = {
 				loyalty = -10
 			}
 		}
-		define_heir = {
-			age = 35
-			ADM = 1
-			DIP = 1
-			MIL = 1
-			hidden = yes
+		if = {
+			limit = {
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
+			}
+			define_heir = {
+				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				female = yes
+				hidden = yes
+			}
+		}
+		else = {
+			define_heir = {
+				age = 35
+				ADM = 1
+				DIP = 1
+				MIL = 1
+				hidden = yes
+			}
 		}
 		if = { 
 			limit = { religion = reformed }
@@ -755,11 +994,30 @@ country_event = {
 		trigger = {
 			has_country_flag = KOL_secondogeniture_of_BAV
 		}
-		define_heir = {
-			age = 35
-			dynasty = event_target:probably_bavaria
-			culture = event_target:probably_bavaria
-			religion = event_target:probably_bavaria
+		if = {
+			limit = {
+				has_global_modifier_value = {
+					which = female_advisor_chance
+					value = 1
+				}
+			}
+			define_heir = {
+				age = 35
+				female = yes
+				hidden = yes
+				dynasty = event_target:probably_bavaria
+				culture = event_target:probably_bavaria
+				religion = event_target:probably_bavaria
+			}
+		}
+		else = {
+			define_heir = {
+				age = 35
+				hidden = yes
+				dynasty = event_target:probably_bavaria
+				culture = event_target:probably_bavaria
+				religion = event_target:probably_bavaria
+			}
 		}
 	}
 }

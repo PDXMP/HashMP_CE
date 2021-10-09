@@ -972,7 +972,7 @@ country_event = {
 						NOT = { colonial_region = colonial_the_carribean }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -990,7 +990,7 @@ country_event = {
 						NOT = { colonial_region = colonial_australia }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1008,7 +1008,7 @@ country_event = {
 						NOT = { colonial_region = colonial_brazil }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1026,7 +1026,7 @@ country_event = {
 						NOT = { colonial_region = colonial_california }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1044,7 +1044,7 @@ country_event = {
 						NOT = { colonial_region = colonial_canada }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1062,7 +1062,7 @@ country_event = {
 						NOT = { colonial_region = colonial_colombia }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1080,7 +1080,7 @@ country_event = {
 						NOT = { colonial_region = colonial_eastern_america }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1099,7 +1099,7 @@ country_event = {
 						NOT = { colonial_region = colonial_la_plata }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1117,7 +1117,7 @@ country_event = {
 						NOT = { colonial_region = colonial_louisiana }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1135,7 +1135,7 @@ country_event = {
 						NOT = { colonial_region = colonial_mexico }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1153,7 +1153,7 @@ country_event = {
 						NOT = { colonial_region = colonial_peru }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 		}

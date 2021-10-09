@@ -9,7 +9,7 @@
 ########################################
 # Lithuanian mission events modifiers
 ########################################
-northern_marches = {
+h_polish_northern_marches = {
 	local_development_cost = -0.05
 	defensiveness = 0.25
 	hostile_attrition = 1
@@ -20,17 +20,17 @@ northern_marches = {
 	diplomatic_annexation_cost = 1
 }
 
-teachings_of_northern_marches = {
+h_polish_teachings_of_northern_marches = {
 	land_morale = 0.05
 	land_attrition = -0.005
 }
 
-support_central_lithuania = {
+h_polish_support_central_lithuania = {
 	global_trade_goods_size_modifier = 0.05
 	production_efficiency = 0.1
 }
 
-cossack_autonomy = {
+h_polish_cossack_autonomy = {
 	land_forcelimit_modifier = -1
 	local_development_cost = -0.05
 	diplomatic_annexation_cost = 1
@@ -38,12 +38,12 @@ cossack_autonomy = {
 	idea_cost = -0.05
 }
 
-cossack_support = {
+h_polish_cossack_support = {
 	cavalry_shock = 0.30
 	cavalry_fire = 0.20
 }
 
-crimean_invasion = {
+h_polish_crimean_invasion = {
 	land_forcelimit_modifier = 0.2
 	land_morale = 0.15
 }
@@ -95,23 +95,23 @@ pol_bajorais_veto_timer = { }
 # Polish Lithuanian civil war disaster modifiers
 ########################################
 
-magnate_support = {
+h_polish_magnate_support = {
 	global_unrest = -2
 	reduced_liberty_desire = 15
 }
 
-invade_silesia = {
+h_polish_invade_silesia = {
 	siege_ability = 0.2
 }
 
-tolerant_commonwealth = {
+h_polish_tolerant_commonwealth = {
 	tolerance_own = 2
 	tolerance_heretic = 4
 	tolerance_heathen = 1
 	global_heathen_missionary_strength = -0.02
 }
 
-catholic_commonwealth = {
+h_polish_catholic_commonwealth = {
 	tolerance_own = 2
 	tolerance_heretic = -4
 	global_heathen_missionary_strength = 0.02
@@ -119,44 +119,43 @@ catholic_commonwealth = {
 	missionaries = 1
 }
 
-sejm_ascendant = {
+h_polish_sejm_ascendant = {
 	global_unrest = 2
 	infantry_power = 0.2
 	polish_nobility_influence_modifier = 0.2
 }
 
 
-bajorais_ascendant = {
+h_polish_bajorais_ascendant = {
 	global_unrest = 2
 	cavalry_power = 0.2
 	lithuanian_nobility_influence_modifier = 0.2
 }
 
-steppe_route = {
+h_polish_steppe_route = {
 	caravan_power = 0.4
 	manpower_recovery_speed = 0.1
 }
 
-united_romanians = {
+h_polish_united_romanians = {
 	local_unrest = -2
 	local_manpower_modifier = 0.1
 }
 
-settled_crimea = {
+h_polish_settled_crimea = {
 	local_unrest = -2
 	trade_goods_size_modifier = 0.15
 }
-control_baltic_trade = {
+h_polish_control_baltic_trade = {
 	trade_efficiency = 0.2
 	ship_power_propagation = 0.1
 }
 
 
-
-estate_polish_nobility_monopoly_of_metals_mod = {
+h_estate_polish_nobility_monopoly_of_metals_mod = {
 	local_production_efficiency = -10
 }
 
-estate_lithuanian_nobility_monopoly_of_livestock_mod = {
+h_estate_lithuanian_nobility_monopoly_of_livestock_mod = {
 	local_production_efficiency = -10
 }

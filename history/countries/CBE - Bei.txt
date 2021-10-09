@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = hubei #ganyu
-capital = 4838 #Luzhou
+capital = 5838 #Luzhou

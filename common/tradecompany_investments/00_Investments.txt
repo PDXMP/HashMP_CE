@@ -468,7 +468,7 @@ governor_general_mansion = {
 	}
 	
 	owner_modifier = {
-		global_ship_cost = -0.02
+		allowed_marine_fraction = 0.02
 	}
 
 	ai_global_worth = { factor = 2 }

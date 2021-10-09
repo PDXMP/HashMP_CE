@@ -32,7 +32,7 @@ polish_lithuanian_civilwar = {
                 factor = -3
                 POL = {
 					offensive_war_with = OPL
-					has_country_modifier = invade_silesia
+					has_country_modifier = h_polish_invade_silesia
                 }
 				exists = LIT
         }
@@ -202,8 +202,8 @@ polish_lithuanian_civilwar = {
 			reduced_liberty_desire = -15
 		}
 }
-	on_start = pol_lit_cw.1
-	on_end = pol_lit_cw.2
+	on_start = HashMP_Poland_Disaster.1
+	on_end = HashMP_Poland_Disaster.2
 	
 	
 	on_monthly = {
@@ -211,7 +211,7 @@ polish_lithuanian_civilwar = {
         }
         random_events = { 
                 1000 = 0
-                100 = pol_lit_cw.3
+                100 = HashMP_Poland_Disaster.3
 				50 = civil_war.7
 				50 = civil_war.8
 				50 = civil_war.5

@@ -697,27 +697,7 @@ taxation_with_representation = {
 	production_efficiency = 0.15
 
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { num_of_colonial_subjects = 1 }
-		}
-		modifier = {
-			factor = 1.5
-			num_of_colonial_subjects = 2
-		}
-		modifier = {
-			factor = 1.5
-			num_of_colonial_subjects = 3
-		}			
-		modifier = {
-			factor = 1.5
-			num_of_colonial_subjects = 4
-		}
-		modifier = {
-			factor = 1.5
-			num_of_colonial_subjects = 5
-		}		
+		factor = 1	
 	}
 }
 

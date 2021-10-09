@@ -996,7 +996,7 @@ QUE_ideas = { #Quebec
 
 # california
 
-ALA_ideas = { Alaska
+ALA_ideas = { #Alaska
 	start = {	
 		light_ship_power = 0.15
 		naval_morale = 0.2

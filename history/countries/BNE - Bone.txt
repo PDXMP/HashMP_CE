@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = sulawesi
 religion = animism
 technology_group = chinese
-capital = 4795
+capital = 5795
 
 1444.1.1 = {
 	monarch = {

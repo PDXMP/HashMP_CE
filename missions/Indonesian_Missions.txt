@@ -15,7 +15,7 @@ indonesians_3 = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			num_of_ships= 30
+			navy_size = 30
 		}
 		effect = {
 			add_country_modifier = {
