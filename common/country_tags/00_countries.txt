@@ -1,17 +1,3 @@
-#Formables and New Tags
-
-AHU = "countries/Austria-Hungary.txt"
-PFI = "countries/Ferrette.txt"
-LOM = "countries/Lombardy.txt"
-RAV = "countries/Ravenna.txt"
-ZUL = "countries/Zulu.txt"
-
-#Colonies
-
-BLV = "countries/Bolivia.txt"
-DSA = "countries/SouthAfrica.txt"
-ORJ = "countries/Oranje.txt"
-
 # Special countries..
 REB = "countries/Rebels.txt"
 PIR = "countries/Pirates.txt"
