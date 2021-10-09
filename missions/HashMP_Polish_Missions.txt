@@ -1,5 +1,5 @@
 ##BranchStart 0
-develop_commonwealth = {
+h_polish_develop_branch = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -34,7 +34,7 @@ develop_commonwealth = {
 	}
 	##Mission end
 	##Mission Start
-		develop_ruthenia = {
+	h_polish_develop_ruthenia = {
 		icon = mission_colonial
 		required_missions = { polish_renaissance_mission	}
 		position = 2
@@ -68,7 +68,7 @@ develop_commonwealth = {
 	expand_kazimierz_mission = {
 		icon = mission_eastern_european_city
 		required_missions = {
-			develop_ruthenia
+			h_polish_develop_ruthenia
 		}
 		position = 3
 		provinces_to_highlight = {
@@ -191,7 +191,7 @@ develop_commonwealth = {
 		}
 	}
 	##Mission Start
-	sluck_shashes = {
+	h_polish_sluck_shashes = {
 		icon = mission_have_manufactories
 		required_missions = {
 			invest_in_eastern_poland_mission
@@ -238,7 +238,7 @@ develop_commonwealth = {
 }
 ##BranchEnd 0
 ##BranchStart 1
-polish_expansion = {
+h_polish_expansion_branch = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -449,7 +449,7 @@ polish_expansion = {
 }
 ##BranchEnd 1
 ##BranchStart 2
-polish_internal_issues = {
+h_polish_internal_branch = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -509,7 +509,7 @@ polish_internal_issues = {
 	}
 	##Mission End
 	##Mission Start
-	vytautas_reforms = {
+	h_polish_vytautas_reforms = {
 		icon = mission_noble_council
 		required_missions = {
 			deal_with_the_sejm_mission
@@ -549,10 +549,10 @@ polish_internal_issues = {
 	}
 	##Mission End
 	##Mission Start
-	rights_and_privileges = {
+	h_polish_rights_and_privileges = {
 		icon = mission_noble_council
 		required_missions = {
-			vytautas_reforms
+			h_polish_vytautas_reforms
 		}
 		position = 3
 
@@ -597,10 +597,10 @@ polish_internal_issues = {
 	}
 	##Mission End
 	##Mission Start
-	a_matter_of_faiths = {
+	h_polish_a_matter_of_faiths = {
 		icon = mission_noble_council
 		required_missions = {
-			rights_and_privileges
+			h_polish_rights_and_privileges
 		}
 		position = 4
 
@@ -622,7 +622,7 @@ polish_internal_issues = {
 	vassalize_lithuania = {
 		icon = mission_restore_kiev
 		required_missions = {
-			a_matter_of_faiths invest_in_eastern_poland_mission restore_kiev integrate_cossacks annex_mazovia
+			h_polish_a_matter_of_faiths invest_in_eastern_poland_mission h_polish_restore_kiev h_polish_integrate_cossacks annex_mazovia
 		}
 		position = 5
 
@@ -643,7 +643,6 @@ polish_internal_issues = {
 			add_adm_power = 100
 			add_dip_power = 100
 			add_mil_power = 100
-
 		}
 	}
 	##Mission End
@@ -651,7 +650,7 @@ polish_internal_issues = {
 }
 ##BranchEnd 2
 ##BranchStart 3
-lithuanian_internal_issues = {
+h_polish_lithuania_branch = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -661,7 +660,7 @@ lithuanian_internal_issues = {
 	}
 	has_country_shield = yes
 	##Mission Start
-	lithuanian_succesion = {
+	h_polish_lithuanian_succession = {
 		icon = avoid_fragmentation
 		required_missions = { }
 		position = 1
@@ -696,10 +695,10 @@ lithuanian_internal_issues = {
 	}
 	##Mission End
 	##Mission Start
-	reign_chernigov = {
+	h_polish_reign_chernigov = {
 		icon = mission_partition_poland
 		required_missions = {
-			lithuanian_succesion
+			h_polish_lithuanian_succession
 		}
 		position = 2
 		provinces_to_highlight = {
@@ -734,10 +733,10 @@ lithuanian_internal_issues = {
 	}
 	##Mission End
 	##Mission Start
-	h_polish_northern_marches = {
+	h_polish_marches = {
 		icon = mission_consolidate_the_state
 		required_missions = {
-			reign_chernigov
+			h_polish_reign_chernigov
 		}
 		position = 3
 		provinces_to_highlight = {
@@ -795,10 +794,10 @@ lithuanian_internal_issues = {
 	}
 	##Mission End
 	##Mission start
-	restore_kiev = {
+	h_polish_restore_kiev = {
 		icon = mission_eastern_european_city
 		required_missions = {
-			h_polish_northern_marches
+			h_polish_marches
 		}
 		position = 4
 		provinces_to_highlight = {
@@ -838,7 +837,7 @@ lithuanian_internal_issues = {
 }
 ##BranchEnd 3
 ##BranchStart 4
-lithuanian_expansion = {
+h_polish_lithuania_expansion_branch = {
 	slot = 5
 	generic = no
 	ai = yes
@@ -849,7 +848,7 @@ lithuanian_expansion = {
 	has_country_shield = yes
 	
 	##Mission Start
-	befriend_cossacks = {
+	h_polish_befriend_cossacks = {
 		icon = mission_recruit_the_cossacks
 		required_missions = { }
 		position = 1
@@ -891,10 +890,10 @@ lithuanian_expansion = {
 	}
 	##Mission End
 	##Mission Start
-	invade_crimea = {
+	h_polish_invade_crimea = {
 		icon = mission_crusade_for_varna
 		required_missions = {
-			befriend_cossacks
+			h_polish_befriend_cossacks
 		}
 		position = 2
 		provinces_to_highlight = {
@@ -940,10 +939,10 @@ lithuanian_expansion = {
 	}
 	##Mission End
 	##Mission Start
-	integrate_cossacks = {
+	h_polish_integrate_cossacks = {
 		icon = mission_cossack_cavalry
 		required_missions = {
-			invade_crimea
+			h_polish_invade_crimea
 		}
 		position = 4
 		provinces_to_highlight = {

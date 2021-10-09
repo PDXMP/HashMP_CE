@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_spanish:
  h_polandlithuania_balance_of_power:0 "Balance of Power in Poland"
  HashMP_Lithuanian_Influence_Tooltip_3:0 "§RThis will greatly disminish the influence of the Lithuanian Nobility.§!"
  HashMP_Lithuanian_Influence_Tooltip_2:0 "§RThis will disminish the influence of the Lithuanian Nobility.§!"
@@ -61,7 +61,7 @@
  HashMP_Poland_Disaster.2.d:0 "While the Polish and the Lithuanian nobilities fought, [Root.GetName] managed to raise enough loyal troops and support to defeat both factions, that have seen their influence curtailed for the time being. Even if this civil war is behind us now, the Commonwealth has suffered enough loses to be set back for the time being. Will we ever leave the cycles of hatred between Polish and Lithuanians behind? 
 
  #polish events
- HashMP_Poland.101.t:0 "The Sejm proposes the invasion of Silesia"
+ HashMP_Poland.101.t:0 "The Sejm Proposes the Invasion of Silesia"
  HashMP_Poland.101.d:0 "While the Commonwealth its in a period of inestability that makes offensive wars dangerous, the Sejm has proposed [Root.GetName] to initiate an invasion of Silesia now that the kingdom of Bohemia has been weakened after the hussite wars. It's certain that having the Sejm support will easy this conquest, but they also demand a price for it."
  HashMP_Poland.101.a:0 "Accept the proposal of the Sejm"
  HashMP_Poland.101.b:0 "Ask only for minimal support"
@@ -75,7 +75,7 @@
  HashMP_Poland.104.a:0 "There is nothing we can do, sign the Pacta Conventa"
  HashMP_Poland.104.b:0 "Extend the Pacta Conventa to the Bajorais."
  HashMP_Poland.104.c:0 "Reject the proposal"
- HashMP_Poland.105.t:0 "A question of Rights and Privileges"
+ HashMP_Poland.105.t:0 "A Question of Rights and Privileges"
  HashMP_Poland.105.d:0 "With the slow integration of the lithuanian Bajorais into Poland, the Sejm has been slowly displaced in its power, although they are in no way threathened yet, they are demanding [Root.GetName] for assurances that they will retain their privileges and to limit the power of the Bajorais."
  HashMP_Poland.105.a:0 "The Sejm will have its guarantees"
  HashMP_Poland.105.b:0 "All the nobles should have equal rights..."
