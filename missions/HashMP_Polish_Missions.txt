@@ -557,34 +557,39 @@ h_polish_internal_branch = {
 		position = 3
 
 		trigger = {
-			OR = {
-				AND = {
-					estate_loyalty = {
-						estate = estate_lithuanian_nobility
-						loyalty = 60
-					}
-					NOT = {
-					
-						estate_influence = {
+			if = {
+				limit = {
+					has_estate = estate_lithuanian_nobility
+				}
+				OR = {
+					AND = {
+						estate_loyalty = {
 							estate = estate_lithuanian_nobility
-							influence = 40
+							loyalty = 60
+						}
+						NOT = {
+						
+							estate_influence = {
+								estate = estate_lithuanian_nobility
+								influence = 40
+							}
 						}
 					}
-				}
-				estate_loyalty = {
-					estate = estate_lithuanian_nobility
-					loyalty = 70
-				}
-				AND = {
 					estate_loyalty = {
 						estate = estate_lithuanian_nobility
-						loyalty = 50
+						loyalty = 70
 					}
-					NOT = {
-					
-						estate_influence = {
+					AND = {
+						estate_loyalty = {
 							estate = estate_lithuanian_nobility
-							influence = 30
+							loyalty = 50
+						}
+						NOT = {
+						
+							estate_influence = {
+								estate = estate_lithuanian_nobility
+								influence = 30
+							}
 						}
 					}
 				}
