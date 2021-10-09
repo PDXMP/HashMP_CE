@@ -107,13 +107,13 @@ country_event = {
 		add_years_of_income = -0.5
 		LIT = {
 			add_country_modifier = {
-				name = magnate_support
+				name = h_polish_magnate_support
 				duration = 3650
 			}
 		}
 		POL = {	
 			add_country_modifier = {
-				name = magnate_support
+				name = h_polish_magnate_support
 				duration = 3650
 			}
 		}

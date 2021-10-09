@@ -734,7 +734,7 @@ lithuanian_internal_issues = {
 	}
 	##Mission End
 	##Mission Start
-	northern_marches = {
+	h_polish_northern_marches = {
 		icon = mission_consolidate_the_state
 		required_missions = {
 			reign_chernigov
@@ -798,7 +798,7 @@ lithuanian_internal_issues = {
 	restore_kiev = {
 		icon = mission_eastern_european_city
 		required_missions = {
-			northern_marches
+			h_polish_northern_marches
 		}
 		position = 4
 		provinces_to_highlight = {

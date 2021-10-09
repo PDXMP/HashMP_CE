@@ -48,7 +48,7 @@ country_event = {
 		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_3
 			
 		add_country_modifier = {
-			name = invade_silesia
+			name = h_polish_invade_silesia
 			duration = 1825
 		}
 
@@ -87,7 +87,7 @@ country_event = {
 		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_1	
 
 		add_country_modifier = {
-			name = invade_silesia
+			name = h_polish_invade_silesia
 			duration = 730
 		}
 
@@ -130,7 +130,7 @@ country_event = {
 	
 		POL = {
 			add_country_modifier = {
-				name = catholic_commonwealth
+				name = h_polish_catholic_commonwealth
 				duration = -1
 			}
 		}
@@ -166,7 +166,7 @@ country_event = {
 		custom_tooltip = HashMP_Polish_Influence_Tooltip_1
 		
 		add_country_modifier = {
-			name = tolerant_commonwealth
+			name = h_polish_tolerant_commonwealth
 			duration = -1
 		} 
 
@@ -231,7 +231,7 @@ country_event = {
 		}
 
 		add_country_modifier = {
-			name = sejm_ascendant
+			name = h_polish_sejm_ascendant
 			duration = -1
 		}
 
@@ -479,7 +479,7 @@ country_event = {
 		custom_tooltip = removal_polish	
 	
 		add_country_modifier = {
-			name = bajorais_ascendant
+			name = h_polish_bajorais_ascendant
 			duration = -1
 		}
 
@@ -1314,20 +1314,20 @@ country_event = {
 
 		SMO = {
 			add_country_modifier = {
-				name = northern_marches
+				name = h_polish_northern_marches
 				duration = 18250
 			}
 		}
 
 		PLT = {
 			add_country_modifier = {
-				name = northern_marches
+				name = h_polish_northern_marches
 				duration = 18250
 			}
 		}
 
 		add_country_modifier = {
-			name = teachings_of_northern_marches
+			name = h_polish_teachings_of_northern_marches
 			duration = -1
 		}
 
@@ -1380,13 +1380,13 @@ country_event = {
 
 		SMO = {
 			add_country_modifier = {
-				name = northern_marches
+				name = h_polish_northern_marches
 				duration = 18250
 			}
 		}
 		PLT = {
 			add_country_modifier = {
-				name = northern_marches
+				name = h_polish_northern_marches
 				duration = 18250
 			}
 		}
@@ -1443,7 +1443,7 @@ country_event = {
 		}
 
 		add_country_modifier = {
-			name = support_central_lithuania
+			name = h_polish_support_central_lithuania
 			duration = -1
 		}
 
@@ -1515,13 +1515,13 @@ country_event = {
 	
 		ZAZ = {
 			add_country_modifier = {
-				name = cossack_autonomy
+				name = h_polish_cossack_autonomy
 				duration = 18250
 			}
 		}
 
 		add_country_modifier = {
-			name = cossack_support
+			name = h_polish_cossack_support
 			duration = -1
 		}
 
@@ -1894,13 +1894,13 @@ country_event = {
 		}
 		CRI ={ 
 			add_country_modifier = {
-				name = crimean_invasion
+				name = h_polish_crimean_invasion
 				duration = 1825
 			}
 		}
 		GOL = {
 			add_country_modifier = {
-				name = crimean_invasion
+				name = h_polish_crimean_invasion
 				duration = 1825
 			}
 		}

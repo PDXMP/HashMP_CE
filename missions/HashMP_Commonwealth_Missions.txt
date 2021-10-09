@@ -117,13 +117,13 @@ Central_european_conquest = {
 		effect = {
 			wallachia_area = {
 				add_province_modifier = {
-					name = united_romanians
+					name = h_polish_united_romanians
 					duration = -1
 				}
 			}
 			moldavia_area = {
 				add_province_modifier = {
-					name = united_romanians
+					name = h_polish_united_romanians
 					duration = -1
 				}
 			}
@@ -307,7 +307,7 @@ Central_european_conquest = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = steppe_route
+				name = h_polish_steppe_route
 				duration = 3650
 			}
 		}
@@ -569,7 +569,7 @@ develop_commonwealth = {
 					owned_by = ROOT
 				}
 				add_province_modifier = {
-					name = settled_crimea
+					name = h_polish_settled_crimea
 					duration = -1
 				}
 			}
@@ -578,7 +578,7 @@ develop_commonwealth = {
 					owned_by = ROOT
 				}
 				add_province_modifier = {
-					name = settled_crimea
+					name = h_polish_settled_crimea
 					duration = -1
 				}
 			}
@@ -587,7 +587,7 @@ develop_commonwealth = {
 					owned_by = ROOT
 				}
 				add_province_modifier = {
-					name = settled_crimea
+					name = h_polish_settled_crimea
 					duration = -1
 				}
 			}
@@ -596,7 +596,7 @@ develop_commonwealth = {
 					owned_by = ROOT
 				}
 				add_province_modifier = {
-					name = settled_crimea
+					name = h_polish_settled_crimea
 					duration = -1
 				}
 			}
@@ -653,7 +653,7 @@ develop_commonwealth = {
 			}		}
 		effect = {
 			add_country_modifier = {
-				name = control_baltic_trade
+				name = h_polish_control_baltic_trade
 				duration = 3650
 			}		
 		}

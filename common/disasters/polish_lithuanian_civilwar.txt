@@ -32,7 +32,7 @@ polish_lithuanian_civilwar = {
                 factor = -3
                 POL = {
 					offensive_war_with = OPL
-					has_country_modifier = invade_silesia
+					has_country_modifier = h_polish_invade_silesia
                 }
 				exists = LIT
         }
