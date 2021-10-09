@@ -4515,7 +4515,11 @@ SIL_ideas = {
 	}
 
 	trigger = {
-		tag = SIL
+		OR = {
+			tag = SIL
+			tag = GLG
+			tag = OPL
+		}
 	}
 	free = yes
 
