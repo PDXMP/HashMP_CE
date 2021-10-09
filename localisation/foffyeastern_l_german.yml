@@ -60,17 +60,17 @@
  #########################
  ###privileges loc
  #########################
- estate_polish_nobility_golden_liberty:0 "Polish nobility Golden Liberty"
- estate_lithuanian_nobility_golden_liberty:0 "Lithuanian nobility Golden Liberty"
+ estate_polish_nobility_golden_liberty:0 "Polish Nobility Golden Liberty"
+ estate_lithuanian_nobility_golden_liberty:0 "Lithuanian Nobility Golden Liberty"
  estate_polish_nobility_golden_liberty_desc:1 "The Sejm exercise extensive control over the [Root.GetAdjective] state and are guaranteed equal legal status irrespective of rank or economic status. The result is that governing without the consent of the Bajorais is almost impossible, and opposing its will would be unwise for a monarch not sure of his position."
  estate_lithuanian_nobility_golden_liberty_desc:1 "The Bajorais exercise extensive control over the [Root.GetAdjective] state and are guaranteed equal legal status irrespective of rank or economic status. The result is that governing without the consent of the Bajorais is almost impossible, and opposing its will would be unwise for a monarch not sure of his position."
  estate_polish_nobility_land_rights:0 "Sejm Land Rights"
  estate_lithuanian_nobility_land_rights:0 "Bajorais Land Rights"
  estate_polish_nobility_land_rights_desc:0 "The Polish Sejm, the best men of the nation, are surely those with the greatest claim to its lands."
  estate_lithuanian_nobility_land_rights_desc:0 "The Bajorais, the best men of the nation, are surely those with the greatest claim to its lands."
- estate_polish_nobility_officer_corp:0 "Polish officers in Officer Corps"
+ estate_polish_nobility_officer_corp:0 "Polish Officers"
  estate_polish_nobility_officer_corp_desc:0 "The Polish officers are experienced in the art of leading men. It is only sensible that they should be the ones to lead our armies."
- estate_lithuanian_nobility_levies:0 "Increase Lithuanian levy"
+ estate_lithuanian_nobility_levies:0 "Increase Lithuanian Levy"
  estate_lithuanian_nobility_levies_desc:0 "The Lithuanian people are many in number, sturdy and capable for warfare. We could convince the Bajorais to increase the levy on their people and booster our ranks."
  estate_polish_nobility_advisors:0 "Aristocratic Counselors"
  estate_polish_nobility_advisors_desc:0 "There can be no better source of advice than the Sejm, who are able more than anyone else to dedicate themselves to the cultivation of their minds."
