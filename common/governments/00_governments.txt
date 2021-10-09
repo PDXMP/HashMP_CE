@@ -298,7 +298,7 @@ republic = {
 				united_cantons_reform
 				h_reform_dominion
 				h_reform_commandery
-				h_reform_protectorate
+				# h_reform_protectorate
 				kongsi_federation
 				millenarian_theocracy_reform
 			}
@@ -891,8 +891,8 @@ pre_dharma_mapping = {
 		government = monarchy
 		legacy_government = despotic_monarchy
 	}
-	h_reform_protectorate = {
-		government = republic
-		legacy_government = oligarchic_republic
-	}
+	# h_reform_protectorate = {
+	# 	government = republic
+	# 	legacy_government = oligarchic_republic
+	# }
 }
