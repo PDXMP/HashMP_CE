@@ -2,9 +2,9 @@ namespace = HashMP_Poland_Disaster
 
 # Civil War in Lithuania
 country_event = {
-	id = pol_lit_cw.1
-	title = "pol_lit_cw.1.t"
-	desc = "pol_lit_cw.1.d"
+	id = HashMP_Poland_Disaster.1
+	title = "HashMP_Poland_Disaster.1.t"
+	desc = "HashMP_Poland_Disaster.1.d"
 	picture = CIVIL_WAR_eventPicture
 	major = yes
 	is_triggered_only = yes
@@ -32,17 +32,17 @@ country_event = {
 	}
 	
 	option = {
-		name = "pol_lit_cw.1.a"
+		name = "HashMP_Poland_Disaster.1.a"
 		add_prestige = -10
 		add_estate_loyalty_modifier = {
 			estate = estate_polish_nobility
-			desc = pol_lit_cw_rebel
+			desc = HashMP_Poland_Disaster_rebel
 			influence = -20
 			duration = 14600
 		}
 		add_estate_influence_modifier = {
 			estate = estate_lithuanian_nobility
-			desc = pol_lit_cw_rebel
+			desc = HashMP_Poland_Disaster_rebel
 			influence = -20
 			duration = 14600
 		}
@@ -51,9 +51,9 @@ country_event = {
 
 # End of Civil War
 country_event = {
-	id = pol_lit_cw.2
-	title = "pol_lit_cw.2.t"
-	desc = "pol_lit_cw.2.d"
+	id = HashMP_Poland_Disaster.2
+	title = "HashMP_Poland_Disaster.2.t"
+	desc = "HashMP_Poland_Disaster.2.d"
 	picture = ANGRY_MOB_eventPicture
 	
 	
@@ -65,7 +65,7 @@ country_event = {
 	
 	
 	option = {
-		name = "pol_lit_cw.2.a"
+		name = "HashMP_Poland_Disaster.2.a"
 		clr_country_flag = civilwar_on_capital
 		clr_country_flag = civil_war_knees_event
 		add_legitimacy = 10
@@ -74,13 +74,13 @@ country_event = {
 		add_stability = 1
 		add_estate_influence_modifier = {
 			estate = estate_polish_nobility
-			desc = pol_lit_cw_sejm_reigned
+			desc = HashMP_Poland_Disaster_sejm_reigned
 			influence = -20
 			duration = 7300
 		}
 		add_estate_influence_modifier = {
 			estate = estate_lithuanian_nobility
-			desc = pol_lit_cw_bajorais_reigned
+			desc = HashMP_Poland_Disaster_bajorais_reigned
 			influence = -20
 			duration = 7300
 		}
@@ -93,7 +93,7 @@ country_event = {
 
 # Civil War in Lithuania
 country_event = {
-	id = pol_lit_cw.3
+	id = HashMP_Poland_Disaster.3
 	title = "flavor_lit.EVTNAME11"
 	desc = "flavor_lit.EVTDESC11"
 	picture = CIVIL_WAR_eventPicture
