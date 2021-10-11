@@ -1190,7 +1190,7 @@ NMilitary = {
 	DEVELOPMENT_FOR_BLOCKADE_COST = 0.5,
 	
 
-	ARMY_DRILL_YEARLY_DECAY = -1.0,					-- Loss from not Drilling
+	ARMY_DRILL_YEARLY_DECAY = -1.25,					-- Loss from not Drilling
 	ARMY_DRILL_YEARLY_GAIN = 20.0,					-- Gain from Drilling
 	ARMY_DRILL_MAX = 100.0,
 	ARMY_DRILL_MAX_MORALE = 0.5,
