@@ -658,19 +658,22 @@ country_event = {
 	picture = COURT_eventPicture
 
 	fire_only_once = yes
+	is_triggered_only = yes
+
 
 	trigger = {
-		tag = HUN
-		is_year = 1490
-		NOT = { is_year = 1530 }
-		is_neighbor_of = TUR
-		has_regency = no
-		NOT = { ADM = 5 }
+		always = no
+		#tag = HUN
+		#is_year = 1490
+		#NOT = { is_year = 1530 }
+		#is_neighbor_of = TUR
+		#has_regency = no
+		#NOT = { ADM = 5 }
 	}
 
-	mean_time_to_happen = {
-		months = 12
-	}
+	#mean_time_to_happen = {
+	#	months = 12
+	#}
 
 	option = {
 		name = flavor_hun.7.a
