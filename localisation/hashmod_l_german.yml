@@ -1,4 +1,10 @@
 ﻿l_german:
+ h_dhimmi_estate_janissary_training:0 "Train the Janissaries"
+ h_dhimmi_estate_janissary_training_desc:0 "It is crucial that every slave conscripted into our Janissary Corps undergo strict and unforgiving combat training, thus keeping them formidable on the battlefield."
+ h_dhimmi_estate_janissary_firearms:0 "Experimental Janissary Tactics"
+ h_dhimmi_estate_janissary_firearms_desc:0 "The invention of the matchlock musket and other gunpowder weaponry has paved the way for new experimental and innovative tactics to be used by our Janissaries."
+ h_dhimmi_privilege_janissary_firearms:0 "Innovative Janissaries"
+ h_dhimmi_privilege_janissary_training:0 "Trained Janissaries"
  malayan_empire_ideas:0 "Malayan Empire Ideas"
  malayan_empire_ideas_start:0 "Malayan Empire Traditions"
  malayan_empire_ideas_bonus:0 "Malayan Empire Ambition"
