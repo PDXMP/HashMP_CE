@@ -4428,33 +4428,7 @@ on_golden_bull_enacted = {
 on_conquest = {
 	remove_named_unrest = estate_land_seized
 
-	if = {
-		limit = {
-			has_reform = steppe_horde
-			has_estate_privilege = estate_nomadic_tribes_share_of_the_spoils
-			has_terrain = steppe
-			NOT = { has_province_modifier = h_horde_steppe_devcost }
-		}
-		
-		add_province_modifier = {
-			name = h_horde_steppe_devcost
-			duration = -1
-		}
-	}
-
-	if = {
-		limit = {
-			has_reform = steppe_horde
-			has_estate_privilege = estate_nomadic_tribes_chieftains_autonomy
-			unrest = 2
-			NOT = { has_province_modifier = h_horde_autonomy_grant }
-		}
-
-		add_province_modifier = {
-			name = h_horde_autonomy_grant
-			duration = -1
-		}
-	}
+	h_update_cossacks_modifier_on_conquest_effect = yes
 }
 
 on_country_creation = {
