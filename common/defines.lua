@@ -1359,7 +1359,7 @@ NMilitary = {
 	-- Suppression values are multiplied by the static modifier friendly_regiments
 	MAX_REBEL_SUPPRESSION = 5.0;				-- Maximum amount of rebel suppression by troops in a province
 	INF_SUPPRESSION = 0.25,						-- The amount of reduction to unrest for each friendly infantry regiment in a province
-	CAV_SUPPRESSION = 0.25,						-- The amount of reduction to unrest for each friendly cavalry regiment in a province
+	CAV_SUPPRESSION = 1.0,						-- The amount of reduction to unrest for each friendly cavalry regiment in a province
 	ART_SUPPRESSION = 0.25,						-- The amount of reduction to unrest for each friendly artillery regiment in a province
 
 	FORT_FLIPPING_TIME = 30,					-- Number of days it takes an influencing fort to revert the control of a province if left unhindered.
