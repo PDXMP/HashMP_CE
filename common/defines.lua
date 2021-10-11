@@ -1354,7 +1354,7 @@ NMilitary = {
 	PRESTIGE_TO_TRIBAL_ALLEGIANCE_FACTOR = 3,	-- Multiplied with gained prestige when handing out tribal allegience in a battle
 	SEA_EXPLORE_SPEED = 5,						-- Can to some extent determine exploration speed of seas and coasts by specifying how long a ship pauses between exploration targets.
 	INF_LOOT = 0.1,								-- How many ducats/month will a single full strength infantry regiment loot?
-	CAV_LOOT = 0.3,								-- How many ducats/month will a single full strength cavalry regiment loot?
+	CAV_LOOT = 0.5,								-- How many ducats/month will a single full strength cavalry regiment loot?
 	ART_LOOT = 0.05,							-- How many ducats/month will a single full strength artillery regiment loot?
 	-- Suppression values are multiplied by the static modifier friendly_regiments
 	MAX_REBEL_SUPPRESSION = 5.0;				-- Maximum amount of rebel suppression by troops in a province
