@@ -1,0 +1,80 @@
+##Dhimmi Privilege -- Ottomans
+##Janissaries
+
+h_dhimmi_estate_janissary_training = {
+	icon = privilege_promote_purbias
+	max_absolutism = 0
+	land_share = 5
+	loyalty = 0
+	influence = 0.20
+	is_valid = {
+		OR = {
+			tag = TUR
+			tag = RUM
+		}
+	}
+	can_select = {
+		janissary_percentage = 0.30
+		mil = 3
+	}
+	benefits = {
+		
+	}
+	penalties = {
+		nobles_loyalty_modifier = -0.05
+	}
+	modifier_by_land_ownership = {
+		land_maintenance_modifier = 0.1
+	}
+	on_granted = {
+		add_country_modifier = {
+			name = h_dhimmi_privilege_janissary_training
+			duration = -1
+		}
+	}
+	on_revoked = {
+		remove_country_modifier = h_dhimmi_privilege_janissary_training
+	}
+	ai_will_do = {
+		factor = 5
+	}
+}
+
+h_dhimmi_estate_janissary_firearms = {
+	icon = privilege_promote_purbias
+	max_absolutism = 0
+	land_share = 5
+	loyalty = 0
+	influence = 0.20
+	is_valid = {
+		OR = {
+			tag = TUR
+			tag = RUM
+		}
+	}
+	can_select = {
+		janissary_percentage = 0.30
+		mil_tech = 11
+	}
+	benefits = {
+		
+	}
+	penalties = {
+		nobles_loyalty_modifier = -0.05
+	}
+	modifier_by_land_ownership = {
+		siege_ability = 0.10
+	}
+	on_granted = {
+		add_country_modifier = {
+			name = h_dhimmi_privilege_janissary_firearms
+			duration = -1
+		}
+	}
+	on_revoked = {
+		remove_country_modifier = h_dhimmi_privilege_janissary_firearms
+	}
+	ai_will_do = {
+		factor = 5
+	}
+}

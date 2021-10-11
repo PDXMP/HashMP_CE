@@ -8,6 +8,19 @@ basic_polders = {
 	local_development_cost = -0.30
 }
 
+h_dhimmi_privilege_janissary_firearms = {
+	is_janissary_modifier = yes
+	fire_damage = 0.10
+	reinforce_cost_modifier = 0.5
+}
+
+h_dhimmi_privilege_janissary_training = {
+	is_janissary_modifier = yes
+	fire_damage_received = -0.10
+	shock_damage_received = -0.10
+	reinforce_cost_modifier = 0.5
+}
+
 h_janissary_decadence = {
 	is_janissary_modifier = yes
 	discipline = 0.05
