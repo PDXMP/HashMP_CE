@@ -1245,32 +1245,42 @@ large_colonial_nation = {
 }
 
 crown_colony_overlord = {
+	global_tariffs = 0.05
 }
 
 private_enterprise_overlord = {
-	global_tariffs = -0.05
-}
-
-self_governing_colony_overlord = {
 	global_tariffs = -0.10
 }
 
+self_governing_colony_overlord = {
+	global_tariffs = -0.20
+}
+
 crown_colony_subject = {
-	global_autonomy = -0.05
-	global_colonial_growth = 10
+	#global_autonomy = -0.05
+	#global_colonial_growth = 10
+	global_autonomy = -0.025
+	colonists = 1
+	development_cost = 0.05
 }
 
 private_enterprise_subject = {
-	global_ship_trade_power = 0.2
-	global_trade_goods_size_modifier = 0.2
-	naval_tradition_from_trade = 0.1
-	ship_power_propagation = 0.1
+	#global_ship_trade_power = 0.2
+	#global_trade_goods_size_modifier = 0.2
+	#naval_tradition_from_trade = 0.1
+	#ship_power_propagation = 0.1
+	build_cost = -0.05
+	build_time = -0.10
+	global_trade_goods_size_modifier = 0.05
+	liberty_desire = 10
 }
 
 self_governing_colony_subject = {
-	colonists = 1
-	development_cost = -0.15
-	liberty_desire = 25
+	#colonists = 1
+	#development_cost = -0.15
+	governing_capacity = 100
+	development_cost = -0.05
+	liberty_desire = 30
 }
 march_subject = {
 	land_forcelimit = 1
