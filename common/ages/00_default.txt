@@ -786,18 +786,9 @@ age_of_revolutions = {
 				global_supply_limit_modifier = 2
 				land_attrition = -0.2
 			}
-			#ai_will_do = {
-			#	factor = 15
-			#	modifier = {
-			#		factor = 0
-			#		NOT = {
-			#			any_subject_country = {
-			#				liberty_desire = 30
-			#				same_continent = ROOT
-			#			}
-			#		}
-			#	}
-			#}
+			ai_will_do = {
+				factor = 10
+			}
 		}
 		ab_pru_military = {
 			allow = {
