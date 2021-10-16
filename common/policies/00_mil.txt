@@ -782,7 +782,7 @@ foreign_conscription_centers = {
 }
 
 guerilla_warfare = {
-	monarch_power = DIP
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = influence_ideas
