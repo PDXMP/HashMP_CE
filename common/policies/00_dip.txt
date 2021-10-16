@@ -951,7 +951,7 @@ record_keeping_act = {
 }
 
 colonial_administration_act = {
-	monarch_power = DIP
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = administrative_ideas
@@ -962,9 +962,8 @@ colonial_administration_act = {
 		full_idea_group = exploration_ideas
 	}
 	
-	global_colonial_growth = 15
-	colonist_placement_chance = 0.03
-
+	administrative_efficiency = 0.05
+	state_maintenance_modifier = -0.10
 	
 	ai_will_do = {
 		factor = 1
