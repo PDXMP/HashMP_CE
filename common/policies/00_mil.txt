@@ -220,7 +220,8 @@ superior_supply_system = {
 }
 
 
-modern_siege_weapons = {
+modern_
+_weapons = {
 	monarch_power = MIL
 	
 	potential = {
@@ -370,16 +371,16 @@ field_priests = {
 pen_rely_on_sword_act = {
 	monarch_power = ADM
 	potential = {
-		has_idea_group = diplomatic_ideas
-		has_idea_group = quantity_ideas
+		has_idea_group = administrative_ideas
+		has_idea_group = plutocracy_ideas
 	}
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = quantity_ideas
+		full_idea_group = administrative_ideas
+		full_idea_group = plutocracy_ideas
 	}
 	
-	reinforce_cost_modifier = -0.1
+	mercenary_manpower = 0.25
 	movement_speed = 0.1
 	
 	ai_will_do = {

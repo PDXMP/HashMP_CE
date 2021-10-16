@@ -480,16 +480,16 @@ the_pioneer_policy = {
 
 
 land_inheritance_act = {
-	monarch_power = MIl
+	monarch_power = MIL
 
 	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = plutocracy_ideas
+		has_idea_group = diplomatic_ideas
+		has_idea_group = quantity_ideas
 	}
 	
 	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = plutocracy_ideas
+		full_idea_group = diplomatic_ideas
+		full_idea_group = quantity_ideas
 	}
 
 	infantry_cost = -0.1
