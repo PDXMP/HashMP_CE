@@ -220,7 +220,7 @@ superior_supply_system = {
 }
 
 
-modern_weapons = {
+modern_siege_weapons = {
 	monarch_power = MIL
 	
 	potential = {
