@@ -386,10 +386,10 @@ dock = {
 }
 
 regimental_camp = {
-	cost = 200
+	cost = 150
 	time = 12
 	modifier = {
-		land_forcelimit = 1
+		land_forcelimit = 0.5
 		monthly_militarized_society = 0.0005
 	}
 
@@ -922,7 +922,7 @@ drydock = {
 }
 
 conscription_center = {
-	cost = 400
+	cost = 300
 	time = 12
 
 
@@ -952,7 +952,7 @@ conscription_center = {
 #	}
 
 	modifier = {
-		land_forcelimit = 2
+		land_forcelimit = 1
 			monthly_militarized_society = 0.001
 	}
 
