@@ -77,20 +77,6 @@ feudalism = {
 					province_id = 2329
 					province_id = 2331
 					province_id = 2999
-					#foffynewworld
-					province_id = 2626
-					province_id = 852
-					province_id = 4570
-					province_id = 4572
-					province_id = 4571
-					province_id = 2645
-					province_id = 809
-					province_id = 811
-					province_id = 810
-					province_id = 808
-					province_id = 807
-					province_id = 2829
-					province_id = 2830
 				}
 			}
 			AND = {
