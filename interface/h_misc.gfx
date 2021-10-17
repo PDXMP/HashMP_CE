@@ -1,0 +1,10 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_text_discipline"
+		texturefile = "gfx/interface/discipline.dds"
+	}
+	spriteType = {
+		name = "GFX_text_morale"
+		texturefile = "gfx/interface/land_morale.dds"
+	}
+}

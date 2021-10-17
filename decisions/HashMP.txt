@@ -5,7 +5,35 @@
 ########################################
 
 country_decisions = {
-
+	#Credit to PR
+	h_critical_events = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = h_military_reform_decision
+				NOT = { has_country_flag = military_reform }
+			}
+			custom_trigger_tooltip = {
+				tooltip = h_commandant_decision
+				NOT = { has_country_flag = commandant }
+			}
+			custom_trigger_tooltip = {
+				tooltip = h_grand_captain_decision
+				NOT = { has_country_flag = grand_captain }
+			}
+			hidden_trigger = {
+				always = no
+			}
+		}
+		effect = {
+		}
+	}
 	h_combat_janissary_decadence = {
 		major = yes
 		potential = {

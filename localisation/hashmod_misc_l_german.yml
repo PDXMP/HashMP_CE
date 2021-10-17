@@ -1,4 +1,5 @@
 ﻿l_english:
+ h_estate_burghers_indebted_to_burghers_effect_tooltip:2 "Take §Y5§! five-year loans at §Y2.5%§! interest. The privilege will be removed automatically when repaid."
  h_swedish_armies:0 "Lion of the North"
  h_swedish_armies_desc:0 "Gustavus Adolphus would go on to lead Sweden to victory in numerous wars and battles, while also setting in motion the rise of Sweden after his death. He is credited for being the 'father of modern warfare' and is regarded as one of the greatest military commanders in modern history."
  h_discover_america:0 "§Y[Root.GetName]§! has discovered any province in North America."
@@ -15,3 +16,8 @@
  h_REMOVE_STABILITY_OR_ADM_VALUE_3:0 "Lose §R3§! Stability or §R50§! Administrative Power for every addition over the maximum amount."
  h_ESTATES_SEIZE_LAND_SMALL_DESC:0 "Will seize §Y3% Estate Land§! for the §YCrown§!."
  h_ESTATES_SEIZE_LAND_MEDIUM_DESC:0 "Will seize §Y2% Estate Land§! for the §YCrown§!."
+ h_critical_events_title:0 "Available Critical Events"
+ h_critical_events_desc:0 "Check to see which critical events are still available, a green tick indicates it is available and a red cross indicates it has already been fired"
+ h_military_reform_decision:0 "Military Reforms (200 §W£mil£ and 10% §W£morale£)"
+ h_commandant_decision:0 "Inspirational Leader (5% §W£discipline£)"
+ h_grand_captain_decision:0 "Grand Captain (10% §W£morale£)"
