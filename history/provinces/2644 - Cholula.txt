@@ -1,13 +1,12 @@
 # No previous file for Cholula
 
 culture = aztek
-owner = TLX
-controller = TLX
-add_core = TLX
+owner = AZT
+controller = AZT
+add_core = AZT
 is_city = yes
 religion = nahuatl
 capital = "Cholula"
-estate = estate_church
 trade_goods = sugar
 hre = no
 base_tax = 4 

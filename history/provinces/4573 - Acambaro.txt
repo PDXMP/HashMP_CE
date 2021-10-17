@@ -1,11 +1,11 @@
-# No previous file for Tecpatitlan
+# No previous file for Acambaro
 
-culture = tepic
+culture = otomi
 religion = nahuatl
 owner = AZT
 controller = AZT
 add_core = AZT
-capital = "Tonala"
+capital = "Acambaro"
 trade_goods = wool
 hre = no
 base_tax = 1
@@ -19,13 +19,16 @@ native_hostileness = 2
 
 discovered_by = mesoamerican
 
-
-1532.1.1 = { 
+1470.1.1 = { 
+	owner = TAR
+	controller = TAR
+	add_core = TAR
+	} #Estimated: Tarascan operations toward the Aztec frontier 
+1530.1.1 = { 
 	discovered_by = SPA
 	owner = SPA
 	controller = SPA
 	add_core = SPA
 	is_city = yes
-	capital = "Guadalajara"
 }
 1810.9.16 = { owner = MEX add_core = MEX controller = MEX } # Mexican War of Independence

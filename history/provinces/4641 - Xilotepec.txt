@@ -1,4 +1,4 @@
-# No previous file for Metztitlan
+# No previous file for Xilotepec
 
 owner = AZT
 controller = AZT
@@ -6,7 +6,7 @@ add_core = AZT
 is_city = yes
 culture = otomi
 religion = nahuatl
-capital = "Metztitlan"
+capital = "Xilotepec"
 trade_goods = grain
 hre = no
 base_tax = 1 
@@ -22,6 +22,11 @@ native_hostileness = 2
 discovered_by = mesoamerican
 
 
+1450.1.1 = { 
+	owner = TAR
+	controller = TAR
+	add_core = TAR
+	} #Estimated: Aztec advances under Moctezuma I
 1521.8.13 = {
 	owner = SPA
 	controller = SPA

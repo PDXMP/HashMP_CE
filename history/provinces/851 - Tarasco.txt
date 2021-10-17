@@ -1,8 +1,8 @@
 #851 - Tarasco
 
-owner = TLA
-controller = TLA
-add_core = TLA
+owner = AZT
+controller = AZT
+add_core = AZT
 culture = tlapanec
 religion = nahuatl
 capital = "Tarasco" 

@@ -2,8 +2,11 @@
 
 culture = tepic
 religion = nahuatl
+owner = AZT
+controller = AZT
+add_core = AZT
 capital = "Huichol"
-trade_goods = unknown
+trade_goods = wool
 hre = no
 base_tax = 1
 base_production = 1

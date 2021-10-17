@@ -1,17 +1,20 @@
-#844 - Zapotec
+# No previous file for Tehuantepec
 
+culture = zapotek
 owner = AZT
 controller = AZT
-culture = zapotek
+add_core = AZT
+is_city = yes
 religion = nahuatl
-capital = "Zaachila"
-trade_goods = sugar
+capital = "Tehuantepec"
+trade_goods = fish
 hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 1
-is_city = yes
-add_core = AZT
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
 
 
 
@@ -29,7 +32,6 @@ discovered_by = mesoamerican
 	add_core = SPA
 }
 1529.1.1 = {
-	capital = "Oaxaca"
 	culture = castillian
 	religion = catholic
 } # First settlers
