@@ -1153,7 +1153,7 @@ armed_neutrality_act = {
 }
 
 the_naval_supremacy_act = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = naval_ideas
@@ -1164,9 +1164,9 @@ the_naval_supremacy_act = {
 		full_idea_group = naval_ideas
 		full_idea_group = quality_ideas
 	}	
-	
-	naval_morale = 0.05
-	infantry_power = 0.1
+
+	ship_durability = 0.05
+	leader_naval_manuever = 1
 	
 	ai_will_do = {
 		factor = 0.8
