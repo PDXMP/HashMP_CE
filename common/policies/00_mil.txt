@@ -548,7 +548,7 @@ the_maritime_intelligencer_unit = {
 }
 
 the_nautic_education_act = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = naval_ideas
@@ -560,8 +560,8 @@ the_nautic_education_act = {
 		full_idea_group = innovativeness_ideas
 	}	
 	
-	navy_tradition = 1
-	siege_blockade_progress = 1
+	siege_ability = 0.20
+	artillery_bonus_vs_fort = 2
 	
 	ai_will_do = {
 		factor = 1
