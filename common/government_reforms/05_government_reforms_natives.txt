@@ -1,7 +1,7 @@
 native_basic_reform = {
 	basic_reform = yes
-	native_mechanic = yes
-	allow_migration = yes
+	#native_mechanic = yes
+	#allow_migration = yes
 	valid_for_new_country = no
 	allow_convert = yes
 	republican_name = yes
@@ -170,7 +170,7 @@ native_war_band_reform = {
 	}
 	conditional = {
 		allow = { has_dlc = "Conquest of Paradise" }
-		allow_migration = yes
+		#allow_migration = yes
 		custom_attributes = {
 			enable_settled_mechanics = no
 			enable_tribal_grazing = yes
@@ -220,7 +220,7 @@ native_seasonal_travel_reform = {
 	}
 	conditional = {
 		allow = { has_dlc = "Conquest of Paradise" }
-		allow_migration = yes
+		#allow_migration = yes
 		custom_attributes = {
 			enable_settled_mechanics = no
 			enable_tribal_grazing = yes
