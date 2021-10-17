@@ -29,8 +29,8 @@ discovered_by = mesoamerican
 	add_core = AZT
 } #Estimated; occured during Ahuizotl's reign
 1521.8.13 = {
-	owner = KIC
-	controller = KIC 
+	owner = MAY
+	controller = MAY 
 }
 1524.1.1 = {
 	discovered_by = SPA 

@@ -1,6 +1,6 @@
 #843 - Belize
-owner = CTM
-controller = CTM
+owner = MAY
+controller = MAY
 culture = yucatec
 religion = mesoamerican_religion
 capital = "Chactemal" 
@@ -11,14 +11,14 @@ base_production = 4
 base_manpower = 1 
 is_city = yes 
 add_local_autonomy = 25
-add_core = CTM
+add_core = MAY
 discovered_by = mesoamerican
 1502.1.1 = { discovered_by = CAS } # Christopher Columbus, no attempt to colonize
 1516.1.23 = { discovered_by = SPA }
 1547.1.1 = {
-    owner = ITZ
-    controller = ITZ
-    add_core = ITZ
+    owner = MAY
+    controller = MAY
+    add_core = MAY
 } # final defeat of eastern Yucatan alliance, Itza last remaining Mayan power
 1638.1.1 = {
     owner = ENG
