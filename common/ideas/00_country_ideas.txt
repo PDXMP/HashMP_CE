@@ -4347,8 +4347,8 @@ NAV_ideas = {
 
 AZT_ideas = {
 	start = {
-		infantry_power = 0.25
-		enemy_core_creation = 1.0
+		infantry_power = 0.1
+		idea_cost = -0.1
 	}
 
 	bonus = {
@@ -4360,27 +4360,26 @@ AZT_ideas = {
 	}
 	free = yes		#wibe added at load.
 	
-	eagles_and_jaguars = {
-		land_morale = 0.15
-		discipline = 0.05
-	}
-	telpochcalli = {
-		manpower_recovery_speed = 0.2
-	}
-	imperial_tribute = {
-		global_trade_goods_size_modifier = 0.2
-	}
 	flower_wars = {
 		war_exhaustion_cost = -0.10
 	}
 	sustaining_the_gods = {
-		global_tax_modifier = 0.2
+		legitimacy = 1
+	}
+	telpochcalli = {
+		manpower_recovery_speed = 0.1
+	}
+	eagles_and_jaguars = {
+		land_morale = 0.10
+	}
+	imperial_tribute = {
+		global_tax_modifier = 0.1
 	}
 	floating_gardens = {
 		production_efficiency = 0.1
 	}
 	pochtecayotl = {
-		spy_offence = 0.25
+		spy_offence = 0.2
 	}
 }
 
@@ -5588,11 +5587,11 @@ MPC_ideas = {
 
 INC_ideas = {
 	start = {
-		land_forcelimit_modifier = 0.5
-		enemy_core_creation = 1.0
+		idea_cost = -0.1
+		land_forcelimit_modifier = 0.2
 	}
 	bonus = {
-		prestige = 1
+		free_leader_pool = 1
 	}
 	trigger = {
 		OR = {
@@ -5603,17 +5602,17 @@ INC_ideas = {
 	free = yes		#will be added at load.
 		
 	machu_picchu = {
-		idea_cost = -0.25
-	}
-	drafted_hatun_runas = {
-		discipline = 0.05
-		global_manpower_modifier = 0.33
+		prestige = 1
 	}
 	mitma = { #Increased Obligations on local chiefs
-		global_tax_modifier = 0.25
+		development_cost = -0.1
 	}
 	quipu = {
-		development_cost = -0.1
+		global_tax_modifier = 0.1
+	}
+	drafted_hatun_runas = {
+		discipline = 0.025
+		global_manpower_modifier = 0.1
 	}
 	mita_system = {
 		build_cost = -0.1
