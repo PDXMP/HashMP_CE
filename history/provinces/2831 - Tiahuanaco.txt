@@ -1,21 +1,23 @@
-#802 - Chuquiabo
+# - Tiahuanoco
 
 owner = INC
 controller = INC
 add_core = INC
-is_city = yes
 culture = aimara
 religion = inti
-capital = "Chuquiabo"
-trade_goods = cloth
+capital = "Tiahuanoco"
+is_city = yes
+trade_goods = grain
 hre = no
-base_tax = 4 
-base_production = 4
-base_manpower = 1
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+
+
+
 discovered_by = south_american
 discovered_by = andean
-extra_cost = 16
-center_of_trade = 2
+
 
 1476.1.1 = {
 	owner = INC
@@ -30,5 +32,4 @@ center_of_trade = 2
 	culture = castillian
 	religion = catholic
 }# The death of Atahualpa
-1548.1.1 = { capital = "La Paz" } # Founded by Alonso de Mendoza
-1809.7.16 = { revolt = { type = nationalist_rebels size = 3 } controller = REB } # Bolivian War of Independence
+1809.7.16 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Bolivian War of Independence
