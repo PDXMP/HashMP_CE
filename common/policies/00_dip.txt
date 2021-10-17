@@ -825,12 +825,12 @@ fortified_trading_posts = {
 	
 	potential = {
 		has_idea_group = naval_ideas
-		has_idea_group = offensive_ideas
+		has_idea_group = quality_ideas
 	}
 	
 	allow = {
 		full_idea_group = naval_ideas
-		full_idea_group = offensive_ideas
+		full_idea_group = quality_ideas
 	}	
 	
 	infantry_power = 0.1
@@ -1157,12 +1157,12 @@ the_naval_supremacy_act = {
 	
 	potential = {
 		has_idea_group = naval_ideas
-		has_idea_group = quality_ideas
+		has_idea_group = offensive_ideas
 	}
 	
 	allow = {
 		full_idea_group = naval_ideas
-		full_idea_group = quality_ideas
+		full_idea_group = offensive_ideas
 	}	
 
 	ship_durability = 0.05
