@@ -1534,7 +1534,7 @@ timbuktu={
 	outgoing={
 		name="tunis"
 		path={
-			1129 1128 1127 2466 346 2462 339 2455
+			1129 1128 2463 339
 		}
 		control={
 			0
