@@ -236,6 +236,15 @@ mississippi_river={
 			1494.000000 1317.000000 1541.000000 1254.000000 1607.000000 1231.000000 
 		}
 	}
+	outgoing={
+		name="chesapeake_bay"
+		path={
+			2533 4879 953 
+		}
+		control={
+			0
+		}
+	}
 	# outgoing={
 	# 	name="ohio"
 	# 	path={
