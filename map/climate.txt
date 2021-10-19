@@ -391,6 +391,1060 @@ impassable = {
 	4657
 	4807 4808 4843 4844
 	4924 4925 4926 4927 4928 4929 4930 4931 4932 4933
+	717
+	1012#Satsuma.txt
+	1013#Cheongju.txt
+	1014#Bungo.txt
+	1015#Okinawa.txt
+	1016#Ha Tinh.txt
+	1017#Suo.txt
+	1018#Izumo.txt
+	1019#Harima.txt
+	1020#Yamashiro.txt
+	1021#Settsu.txt
+	1022#Indrapura.txt
+	1023#Echizen.txt
+	1024#Echigo.txt
+	1025#Dewa.txt
+	1026#Rikuzen.txt
+	1027#Hitachi.txt
+	1028#Musashi.txt
+	1029#Kai.txt
+	1030#Owari.txt
+	1031#Kamikawa.txt
+	1032#Kurils.txt
+	1033#Sakhalin.txt
+	1034#Kamchatka.txt
+	1035#Penchisky.txt
+	1036#Podzhiversk.txt
+	1037#Nizhe-Kolymsk.txt
+	1038#Anadyrsk.txt
+	1039#Verkhoyansk.txt
+	1040#Suntar Khayat.txt
+	1041#Gizhiga.txt
+	1042#Kamnuskoye.txt
+	1043#Okhotsk.txt
+	1044#Tauisk.txt
+	1045#Yakutsk.txt
+	1046#Butalsk.txt
+	1047#Jugjur.txt
+	1048#Udskoye.txt
+	1049#Hailanboo.txt
+	1050#Deren.txt
+	1051#Uchurskoye.txt
+	1052#Verkohzehkoye.txt
+	1053#Hinggan.txt
+	1054#Ilimsk.txt
+	1055#Verkne-Angarsky.txt
+	1056#Barguzinsky.txt
+	1057#Udinsky.txt
+	1058#Nerchinsky.txt
+	1106#Te Tai Tokerau.txt
+	1107#Taranaki.txt
+	1108#Te Moana a Toi.txt
+	1109#Timaru.txt
+	1235#Guam.txt
+	1236#Rabaul.txt
+	1237#Hanuabada.txt
+	1238#Solomon Islands.txt
+	1239#Vanuatu.txt
+	1240#Hawaii.txt
+	1241#Kiribati.txt
+	1242#Fiji.txt
+	1243#Samoa.txt
+	1244#Tahiti.txt
+	1245#Manokwari.txt
+	1246#Ata Whenua.txt
+	1815#Pathein.txt
+	1816#Beijing.txt
+	1817#Nan.txt
+	1818#Chikuzen.txt
+	1819#Tosa.txt
+	1820#Awa.txt
+	1821#Nanjing.txt
+	1822#Suzhou.txt
+	1823#Stung Treng.txt
+	1824#Wenzhou.txt
+	1825#Aki.txt
+	1829#Quanzhou.txt
+	1830#Tajima.txt
+	1832#Yamato.txt
+	1833#Ji'an.txt
+	1835#Mino.txt
+	1836#Luoyang.txt
+	1837#Etchu.txt
+	1838#Hefei.txt
+	1839#Suruga.txt
+	1840#Guilin.txt
+	1843#Kozuke.txt
+	1844#Xiankhouang.txt
+	1845#South Pyongan.txt
+	1847#Shiribeshi.txt
+	1850#Yaran.txt
+	1852#Tokachi.txt
+	1946#Desh.txt
+	1947#Gingee.txt
+	1948#Bidar.txt
+	1949#Rayalaseema.txt
+	1986#New Caledonia.txt
+	1987#Society Islands.txt
+	1988#Rapa Nui.txt
+	1989#Tonga.txt
+	1990#Tuvalu.txt
+	1991#Gilbert Islands.txt
+	1992#Nauru.txt
+	1993#Masrshall Islands.txt
+	1994#Wake.txt
+	1995#Micronesia.txt
+	1996#Palau.txt
+	1997#Midway.txt
+	2026#Tanjore.txt
+	2027#Arcot.txt
+	2028#Mahur.txt
+	2029#South Kanara.txt
+	2030#Goa.txt
+	2031#Morasanadu.txt
+	2032#Malenadu.txt
+	2033#Savanaur.txt
+	2034#Pune.txt
+	2035#Gulbarga.txt
+	2036#Baglana.txt
+	2037#Warangal.txt
+	2038#Midnapore.txt
+	2039#Sunderbans.txt
+	2040#Sadiya.txt
+	2041#Manipur.txt
+	2042#Koch Hajo.txt
+	2043#Balasore.txt
+	2044#Bhagalpur.txt
+	2045#Barind.txt
+	2046#Nasirabad.txt
+	2047#Tirhut.txt
+	2048#Garjat.txt
+	2049#Khurda.txt
+	2050#Chanda.txt
+	2051#Bhavnagar.txt
+	2052#Navanagar.txt
+	2053#Patan.txt
+	2054#Ahmadabad.txt
+	2055#Gorakhpur.txt
+	2056#Rewa Kantha.txt
+	2057#Bhelsa.txt
+	2058#Mewar.txt
+	2059#Kalpi.txt
+	2060#Upper Doab.txt
+	2061#Katehar.txt
+	2062#Panipat.txt
+	2063#Etawah.txt
+	2064#Shekhawati.txt
+	2065#Bhattiana.txt
+	2066#Nagaur.txt
+	2067#Gorwar.txt
+	2069#Kumaon.txt
+	2070#Chaubisi Rajya.txt
+	2071#Limbuwan.txt
+	2073#Baltistan.txt
+	2074#Ladakh.txt
+	2075#Doaba.txt
+	2076#Sialkot.txt
+	2077#Margalla.txt
+	2080#Srikakulam.txt
+	2081#Lakhnor.txt
+	2082#Raipur.txt
+	2083#Kosta.txt
+	2084#Konaseema.txt
+	2085#Tiruchirapalli.txt
+	2087#Ajmer.txt
+	2089#Chaul.txt
+	2090#Kurnool.txt
+	2091#Tripura.txt
+	2092#Mahadeo.txt
+	2093#Mandsaur.txt
+	2094#Bahreich.txt
+	2095#Varanasi.txt
+	2096#Damin.txt
+	2097#Bagelkhand.txt
+	2098#Surguja.txt
+	2099#Kandy.txt
+	2100#Vanni.txt
+	2101#Tirunelveli.txt
+	2102#Urkan.txt
+	2103#Udi.txt
+	2104#Birija.txt
+	2105#Kuru.txt
+	2106#Furdan.txt
+	2107#Ningguta.txt
+	2108#Huncun.txt
+	2109#Boduna.txt
+	2110#Yehe.txt
+	2111#Hetu Ala.txt
+	2112#Andong.txt
+	2114#Ereen.txt
+	2115#Chahar.txt
+	2116#Ih Huree.txt
+	2121#Kuqa.txt
+	2122#Hami.txt
+	2123#Qakilik.txt
+	2124#Yarkand.txt
+	2127#Yashilkul.txt
+	2128#Ngari.txt
+	2130#Nyingchi.txt
+	2131#Qamdo.txt
+	2132#Markam.txt
+	2133#Dege.txt
+	2134#Rebgong.txt
+	2135#Garze.txt
+	2154#Kelang.txt
+	2155#Middag.txt
+	2165#Pu'er.txt
+	2166#Dehong.txt
+	2167#Lijiang.txt
+	2170#Songqu.txt
+	2183#Taozhou.txt
+	2184#Xining.txt
+	2185#Mergen.txt
+	2186#Iman.txt
+	2187#Sartu.txt
+	2188#Alchuka.txt
+	2191#Ejin.txt
+	2192#Korla.txt
+	2372#Hai Phong.txt
+	2373#Hue.txt
+	2374#Kauthara.txt
+	2376#Prek Russey.txt
+	2377#Teuk Khmao.txt
+	2378#Kratie.txt
+	2379#Battambang.txt
+	2380#Phnom Penh.txt
+	2381#Luang Namtha.txt
+	2383#Khukhanor Surin.txt
+	2384#Nong Khai.txt
+	2385#Nongbua Lamphu.txt
+	2386#Chaiyaphum.txt
+	2387#Phetchaburi.txt
+	2388#Phitsanulok.txt
+	2389#Phra Bang.txt
+	2390#Chaiya.txt
+	2391#Thalang.txt
+	2392#Selangor.txt
+	2393#Terengganu.txt
+	2394#Kedah.txt
+	2396#Mong Kawng.txt
+	2399#Pagan.txt
+	2400#Hsipaw.txt
+	2402#Sandoway.txt
+	2403#Martaban.txt
+	2404#Mergui.txt
+	2435#Nukhtui.txt
+	2438#Kharya.txt
+	2439#Yarmanka.txt
+	2440#Kagyrgyn.txt
+	2446#Chara.txt
+	2673#Pasai.txt
+	2674#Peureulak.txt
+	2675#Rokan.txt
+	2676#Indragiri.txt
+	2677#Jambi.txt
+	2678#Bangka.txt
+	2679#Belitung.txt
+	2680#Muko-Muko.txt
+	2681#Pagarruyung.txt
+	2682#Pariaman.txt
+	2683#Mentawai.txt
+	2684#Nias.txt
+	2685#Gayo.txt
+	2686#Bintan.txt
+	2687#Pakuan.txt
+	2688#Sumedang.txt
+	2689#Pekalongan.txt
+	2690#Pajang.txt
+	2691#Kediri.txt
+	2692#Madura.txt
+	2693#Lombok.txt
+	2694#East Gangwon.txt
+	2695#East Timor.txt
+	2696#Yamdena.txt
+	2697#Tondo.txt
+	2698#Pangasinan.txt
+	2699#Bikol.txt
+	2700#Panay.txt
+	2701#Tagloc.txt
+	2702#Butuan.txt
+	2703#Lehad Datu.txt
+	2704#Sibu.txt
+	2705#Sigalang.txt
+	2706#Katapang.txt
+	2707#Barito.txt
+	2708#Sampit.txt
+	2709#Tarakan.txt
+	2710#Sambaliung.txt
+	2711#Bulungan.txt
+	2712#Samarinda.txt
+	2713#Gorontalo.txt
+	2714#Palu.txt
+	2715#Palopo.txt
+	2716#Buton.txt
+	2717#Sula.txt
+	2718#Fak-Fak.txt
+	2719#Madang.txt
+	2720#Lae.txt
+	2721#Kerema.txt
+	2722#Daru.txt
+	2723#Yos Sudarso.txt
+	2724#Asmat.txt
+	2725#Aru.txt
+	2737#Wairarapa.txt
+	2738#Te Tau Ihu.txt
+	2739#Waikato.txt
+	2741#Jeju.txt
+	2742#Yukjin.txt
+	2743#North Hamgyeong.txt
+	2744#Nyeongbyeon.txt
+	2745#Gyengju.txt
+	2747#Khara Narin Ula.txt
+	2748#Jianchang.txt
+	4131#Mutsu.txt
+	4180#Hyuga.txt
+	4181#Higo.txt
+	4182#Hizen.txt
+	4183#Iwami.txt
+	4184#Bizen.txt
+	4185#Tango.txt
+	4186#Iyo.txt
+	4187#Kii.txt
+	4188#Shinano.txt
+	4189#Sagami.txt
+	4190#Shimousa.txt
+	4191#Shimotsuke.txt
+	4192#Ugo.txt
+	4193#Oshima.txt
+	4200#Hulan.txt
+	4201#Jianzhou.txt
+	4202#Taining.txt
+	4203#Ju Ud.txt
+	4204#Anding.txt
+	4205#Nagchu.txt
+	4207#Turpan.txt
+	4209#Maralbexi.txt
+	4210#Yangi Hissar.txt
+	4212#Jiazhou.txt
+	4214#Kalar.txt
+	4215#Fudali.txt
+	4216#Ulch.txt
+	4217#Pijin.txt
+	4218#Buteha.txt
+	4219#Bayan Tumen .txt
+	4220#Khiagt.txt
+	4221#Dundgovi.txt
+	4223#Hetao.txt
+	4227#Daegu.txt
+	4228#Naju.txt
+	4229#Chungju.txt
+	4230#Suwon.txt
+	4231#Haeju.txt
+	4232#Ganggye.txt
+	4348#Ifugao.txt
+	4349#Laguna.txt
+	4350#Mindoro.txt
+	4351#Buglas.txt
+	4352#Cebu.txt
+	4353#Leyte.txt
+	4354#Zamboanga.txt
+	4355#Caraga .txt
+	4356#Taytay.txt
+	4359#Ise.txt
+	4360#Mikawa.txt
+	4393#Tabayin.txt
+	4394#Salin.txt
+	4395#Yamthin.txt
+	4396#Prome.txt
+	4397#Yawnghwe.txt
+	4399#Dagon.txt
+	4405#Katha.txt
+	4406#Mong Kung.txt
+	4407#Ruhunu.txt
+	4408#Salavata.txt
+	4409#Trincomale.txt
+	4410#Kumari.txt
+	4411#Samana.txt
+	4412#Dindigul.txt
+	4413#Cannanore.txt
+	4414#Salem.txt
+	4415#Negapattam.txt
+	4416#Tranqebar.txt
+	4417#Kanchipuram.txt
+	4418#Nelore.txt
+	4419#Adanki.txt
+	4420#Chandragiri.txt
+	4421#Seringapatam.txt
+	4422#Sira.txt
+	4423#Gutti.txt
+	4424#Adavani.txt
+	4425#Kondavidu.txt
+	4426#Chitaldurg.txt
+	4427#Honnavara.txt
+	4428#Mudgal.txt
+	4429#Rajapur.txt
+	4431#Kolhapur.txt
+	4432#Junir.txt
+	4433#Nasik.txt
+	4434#Dharangaon.txt
+	4435#Sholapur.txt
+	4436#Rachakonda.txt
+	4437#Paithre.txt
+	4438#Nander.txt
+	4439#Kamammet.txt
+	4440#Narayanpur.txt
+	4441#Ganjam.txt
+	4442#Washim.txt
+	4443#Karanja.txt
+	4444#Manidurg.txt
+	4445#Kanker.txt
+	4446#Kalahandi.txt
+	4447#Patna.txt
+	4448#Parlakhimedi.txt
+	4449#Jammu.txt
+	4450#Mayurbhanj.txt
+	4451#Sonpur.txt
+	4452#Ratanpur.txt
+	4453#Thalner.txt
+	4454#Porbandar.txt
+	4455#Diu.txt
+	4456#Jhalavad.txt
+	4457#Cambay.txt
+	4458#Narbada.txt
+	4459#Saugor.txt
+	4460#Handia.txt
+	4461#Ujjain.txt
+	4462#Vagad.txt
+	4463#Bhatnair.txt
+	4464#Bundi.txt
+	4465#Ranthambore.txt
+	4466#Mahoba.txt
+	4467#Kalinjar.txt
+	4468#Bandogarh.txt
+	4469#Rohtas.txt
+	4470#Soumelpur.txt
+	4471#Bishnupur.txt
+	4472#Monghyr.txt
+	4473#Chakla.txt
+	4474#Sonargaon.txt
+	4475#Fathabad.txt
+	4476#Nadia.txt
+	4477#Satgaon.txt
+	4478#Haibitnagar.txt
+	4479#Goraghat.txt
+	4480#Mahi Kantha.txt
+	4481#Punakah.txt
+	4482#Sikkim.txt
+	4483#Morang.txt
+	4484#Makwanpur.txt
+	4485#Palpa.txt
+	4486#Purnia.txt
+	4487#Saran.txt
+	4488#Champaran.txt
+	4489#Hajipur.txt
+	4490#Ghazipur.txt
+	4491#Dang.txt
+	4492#Doti.txt
+	4493#Sirmur.txt
+	4494#Khairabad.txt
+	4495#Feyzabad.txt
+	4496#Kora.txt
+	4497#Qannauj.txt
+	4498#Sambhal.txt
+	4499#Bareily.txt
+	4500#Bharatpur.txt
+	4501#Bhilwara.txt
+	4502#Merta.txt
+	4506#Barmer.txt
+	4507#Churu.txt
+	4510#Shorkot.txt
+	4511#Bhera.txt
+	4512#Baruch.txt
+	4513#Dipalpur.txt
+	4514#Sakya.txt
+	4515#Gyirong.txt
+	4516#Purang.txt
+	4517#Nedong.txt
+	4518#Tsurphu.txt
+	4519#Damxung.txt
+	4520#Rutog.txt
+	4521#Skardu.txt
+	4651#Tsushima.txt
+	4652#Haicheng.txt
+	4653#Maolian.txt
+	4654#Fuerhe.txt
+	4655#Shilimian.txt
+	4656#Wolanhe.txt
+	4658#Nanghaer.txt
+	4659#Tulutingshan.txt
+	4660#Tunhe.txt
+	4661#Edala.txt
+	4662#Halacha.txt
+	4663#Jixi.txt
+	4664#North Buteha.txt
+	4665#South Buteha.txt
+	4666#South Hulunbur.txt
+	4667#North Setsen.txt
+	4668#West Ih Huree.txt
+	4669#East Dornogovi.txt
+	4670#West Khara Narin Ula.txt
+	4671#East Ereen.txt
+	4672#North Ju Ud.txt
+	4673#East Xilin Gol.txt
+	4674#North Jirem.txt
+	4675#Central Jirem.txt
+	4676#West Alxa.txt
+	4677#East Govi.txt
+	4678#East Qaraqorum.txt
+	4693#Keriya.txt
+	4790#Pangguyanan.txt
+	4791#Cirebon.txt
+	4792#Kendal.txt
+	4793#South Demak.txt
+	4794#East Kediri.txt
+	4795#Bone.txt
+	4796#Kendari.txt
+	4797#Soppeng.txt
+	4798#Wajo.txt
+	4799#Sangkulirang.txt
+	4800#Paser.txt
+	4801#Batulican.txt
+	4802#South Pontiniak.txt
+	4803#North Katapang.txt
+	4804#Kuching.txt
+	4805#East  Sibu.txt
+	4806#Inland Sarawak.txt
+	4809#South Peureulak.txt
+	4810#South Deli.txt
+	4811#Barus.txt
+	4812#Gerik.txt
+	4813#Penang.txt
+	4814#Semantan.txt
+	4815#Singapura.txt
+	4816#Rengat.txt
+	4817#Padang.txt
+	4818#Indrapura.txt
+	4819#Son Nam.txt
+	4820#Minh Quang.txt
+	4821#Nghe An.txt
+	4822#Amaravati.txt
+	4825#Pursat.txt
+	4826#Kampot.txt
+	4827#Kampom Pous Thom.txt
+	4828#Preah Vihear.txt
+	4829#Raung Dapey.txt
+	4830#Rayong.txt
+	4831#Bangkok.txt
+	4832#Lopburi.txt
+	4833#Phetchabun.txt
+	4834#Suphanburi.txt
+	4835#Kanchanaburi.txt
+	4836#Si Thep.txt
+	4838#Sip Et.txt
+	4841#Lamphun.txt
+	4842#Lakhon.txt
+	4845#Mamuju.txt
+	4934#Maui.txt
+	4935#Oahu.txt
+	4936#Kauai.txt
+	4937#Lau.txt
+	4938#Vanua Levu.txt
+	4939#Te Urewera.txt
+	503#Kutch.txt
+	507#Lahore.txt
+	508#Kashmir.txt
+	509#Kangra.txt
+	510#Sirhind.txt
+	511#Garhwal.txt
+	512#Jangladesh.txt
+	513#Jaisalmer.txt
+	514#Marwar.txt
+	515#Girnar.txt
+	516#Baroda.txt
+	517#Surat.txt
+	518#Chittor.txt
+	519#Dhundar.txt
+	520#Mewat.txt
+	521#Kathiawar.txt
+	522#Delhi.txt
+	523#Oudh.txt
+	524#Central Doab.txt
+	525#Gird.txt
+	526#Mandu.txt
+	527#Khandesh.txt
+	528#Hadoti.txt
+	529#North Konkan.txt
+	530#South Konkan.txt
+	531#North Kanara.txt
+	532#Raichur Doab.txt
+	533#Mysore.txt
+	534#Malabar.txt
+	535#Kochin.txt
+	536#Madurai.txt
+	537#Venad.txt
+	538#Kongu.txt
+	539#Tondainadu.txt
+	540#Coromandel.txt
+	541#Vijayanagar.txt
+	542#Golconda.txt
+	543#Velanadu.txt
+	544#Ahmadnagar.txt
+	545#Marathwada.txt
+	546#East Berar.txt
+	547#Bastar.txt
+	548#West Berar.txt
+	549#Kalingandhra.txt
+	550#Mahakoshal.txt
+	551#Mandla.txt
+	552#Cuttack.txt
+	553#Sambalpur.txt
+	554#Baisi Rajya.txt
+	555#Jaunpur.txt
+	556#Lower Doab.txt
+	557#Katmandu.txt
+	558#Patna.txt
+	559#Bundelkhand.txt
+	560#Jharkand.txt
+	561#Bengal Delta.txt
+	562#Koch Behar.txt
+	563#Gauda.txt
+	564#Dakha.txt
+	565#Bhutan.txt
+	566#Assam.txt
+	567#Silhet.txt
+	568#Chittagong.txt
+	569#Bijapur.txt
+	570#Naga.txt
+	571#Darrang.txt
+	572#Kotte.txt
+	573#Cachar.txt
+	574#The Andamans.txt
+	579#Mrauk U.txt
+	5790#Minhow.txt
+	5791#Ganzhou.txt
+	5792#Yichun.txt
+	5793#Changsha.txt
+	5794#Chengdu.txt
+	5795#Xiangyan.txt
+	5796#Xi'an.txt
+	5799#Yan'an.txt
+	5800#Dingxi.txt
+	5801#Qingyang.txt
+	5802#Kalgan.txt
+	5803#Tangshan.txt
+	5804#Weifang.txt
+	5805#Chaozhou.txt
+	5806#Qinzhou.txt
+	5807#Zhaoqing.txt
+	5808#Baise.txt
+	5809#Baoshan.txt
+	581#Sagaing.txt
+	5810#Lincang.txt
+	5811#Leshan.txt
+	5812#Qiandognan.txt
+	5813#Chenzhou.txt
+	5814#Yichang.txt
+	5815#Dazhou.txt
+	5816#Longnan.txt
+	5817#Ankang.txt
+	5818#Zhanjiang.txt
+	5819#Maoming.txt
+	582#Mong Yang.txt
+	5820#Huizhou.txt
+	5821#Shenzhen.txt
+	5822#Tianshui.txt
+	5823#Lingyuan.txt
+	5824#Lvliang.txt
+	5825#Linfen.txt
+	5826#Zhashui.txt
+	5827#Suizhou.txt
+	5828#Ezhou.txt
+	5829#Tai'an.txt
+	583#Hsenwi.txt
+	5830#Jining.txt
+	5831#Yancheng.txt
+	5832#Nantong.txt
+	5833#Rizhao.txt
+	5834#Laoting.txt
+	5835#Qinhuangdao.txt
+	5836#Honghe.txt
+	5837#Pu'er.txt
+	5838#Luzhou.txt
+	5839#Yongzhou.txt
+	584#Ava.txt
+	5840#Liuzhou.txt
+	5841#Hengyang.txt
+	5842#Sanya.txt
+	5843#Shiyan.txt
+	5844#Xianning.txt
+	5845#Chizhou.txt
+	5846#Ningbo.txt
+	5847#Tazhou.txt
+	5848#Fuzhou.txt
+	5849#Yingtan.txt
+	585#Taungoo.txt
+	5850#Jinhua.txt
+	5851#Lishui.txt
+	5852#Shaoguan.txt
+	5853#Shanghai.txt
+	5854#Huzhou.txt
+	5855#Chuzhou.txt
+	5856#Yangzhou.txt
+	5857#Linyi.txt
+	5858#Enshi.txt
+	5859#Changde.txt
+	586#Pegu.txt
+	5860#Fuyang.txt
+	5861#Luoyang.txt
+	5862#Baoji.txt
+	5863#Jichang.txt
+	5864#Jinzhong.txt
+	5866#Mianyang.txt
+	5867#Nanchong.txt
+	5868#Longmenshan.txt
+	5869#Fengjie.txt
+	5870#Xixiang.txt
+	5871#Guangyuan.txt
+	5872#Heyang.txt
+	5873#Yichuan.txt
+	5874#Weinan.txt
+	5875#Shuzhou.txt
+	5876#Hezuo.txt
+	5877#Wuzhong.txt
+	5878#Yibin.txt
+	5879#Zjangbei.txt
+	588#Mong Nai.txt
+	5880#Guyuan.txt
+	5881#Weichang.txt
+	5882#Cangzhou.txt
+	5883#Dezhou.txt
+	5884#Anyang.txt
+	5885#Zhangjianjie.txt
+	5886#Shaoyang.txt
+	5887#Huihua.txt
+	5888#Yaoyang.txt
+	5889#Xinxiang.txt
+	589#Chiang Mai.txt
+	5890#Puyang.txt
+	5891#Heze.txt
+	5892#Xuzhou.txt
+	5893#Chuxiaong.txt
+	5894#Yuxi.txt
+	5895#Yulin.txt
+	5896#Beihai.txt
+	5897#Hechi.txt
+	5899#Shenyang.txt
+	590#Moulmein.txt
+	5900#Liaoyang.txt
+	5903#Beotou.txt
+	5904#Yingkou.txt
+	5905#Fuxin.txt
+	5906#Benxi.txt
+	5907#Xiuyan.txt
+	5908#Kuandian.txt
+	5909#Hanggin.txt
+	591#Tavoy.txt
+	5910#Otog.txt
+	5911#Otog Qianqi.txt
+	592#Ratchaburi.txt
+	5920#Fushan.txt
+	5921#Chahar.txt
+	5922#Suijiang.txt
+	5923#Xinyu.txt
+	5924#Ji'an.txt
+	5925#Heyuan.txt
+	5926#Xingguo.txt
+	5927#Ningde.txt
+	5928#Yiyang.txt
+	5929#Shangluo.txt
+	593#Nakhon Si Thammarat.txt
+	5930#Danzhou.txt
+	5932#Yangquan.txt
+	5933#Fuxian.txt
+	5934#Suining.txt
+	5935#Jingmen.txt
+	5936#Biyang.txt
+	5937#Zigong.txt
+	5938#Dahua.txt
+	5939#Yanshan.txt
+	594#Pattani.txt
+	5940#Kaiyang.txt
+	5941#Nanxi.txt
+	5942#Xinjian.txt
+	5943#Huarong.txt
+	5944#Uxin.txt
+	5945#Chaohu.txt
+	5946#Sihui.txt
+	5947#Zhaotong.txt
+	5948#Zuoyun.txt
+	5949#Shangyi.txt
+	595#Perak.txt
+	5950#Xinzhou.txt
+	5951#Yuncheng.txt
+	5952#Zengdu.txt
+	5953#Zhen'an.txt
+	5954#Yuzhong.txt
+	5956#Zhenba.txt
+	5957#Yantai.txt
+	596#Malacca.txt
+	597#Johor.txt
+	5976#Gimje.txt
+	5977#Daejeon.txt
+	5978#Suncheon.txt
+	5979#Seosan.txt
+	598#Pahang.txt
+	5980#Yeoju.txt
+	5981#Busan.txt
+	5982#Namwon.txt
+	5983#Pohang.txt
+	5984#Uljin.txt
+	5985#Donghae.txt
+	5986#Chungju.txt
+	5987#Chuncheon.txt
+	5988#Kaesong.txt
+	5989#Wonsan.txt
+	599#Kelantan.txt
+	5990#Jangyeon.txt
+	5991#Koksan.txt
+	5992#Kowon.txt
+	5993#Oncheon.txt
+	5994#Sinuiju.txt
+	5995#Sakchu.txt
+	5996#Chosan.txt
+	5997#Deokcheon.txt
+	5998#Sinpo.txt
+	5999#Pungsan.txt
+	600#Ayutthaya.txt
+	6000#Hyesan.txt
+	6001#Samjiyeon.txt
+	6002#Chongjin.txt
+	601#Sukhothai.txt
+	602#Chiang Rai.txt
+	603#Nakhon Thung Yai.txt
+	604#Oudong.txt
+	605#Prey Nokor.txt
+	606#Panduranga.txt
+	607#Vijaya.txt
+	609#Angkor.txt
+	610#Thanh Hoa.txt
+	612#Khorat.txt
+	613#Dong Kinh.txt
+	614#Vientiane.txt
+	615#Luang Prabang.txt
+	616#Cao Bang.txt
+	617#Lamuri.txt
+	618#Deli.txt
+	619#Batak.txt
+	620#Siak.txt
+	621#Bengkulu.txt
+	622#Palembang.txt
+	623#Tulangbewang.txt
+	624#Banten.txt
+	625#Ciamis.txt
+	626#Karta.txt
+	627#Blambangan.txt
+	628#Surabaya.txt
+	629#Demak.txt
+	630#Kalapa.txt
+	631#Bali.txt
+	632#Sumbawa.txt
+	633#Flores.txt
+	634#Sumba.txt
+	635#West Timor.txt
+	636#Brunei.txt
+	637#Api-Api.txt
+	638#Kutai.txt
+	639#Banjar.txt
+	640#Pontianak.txt
+	641#Makassar.txt
+	642#Kendari.txt
+	643#Poso.txt
+	644#Manado.txt
+	645#Buru.txt
+	646#Ambon.txt
+	647#Ceram.txt
+	648#Halmahera.txt
+	649#Ternate.txt
+	650#Tidore.txt
+	651#Sulu.txt
+	652#Maguindanao.txt
+	653#Lanao.txt
+	654#Samar.txt
+	655#Palawan.txt
+	656#Manila.txt
+	657#Ilocos.txt
+	658#Cagayan.txt
+	659#Lingga.txt
+	660#Sibsongbanna.txt
+	661#Dali.txt
+	662#Yunnan.txt
+	663#Guangnan.txt
+	664#Lingyun.txt
+	665#Shiuhing.txt
+	666#Kiungchow.txt
+	667#Canton.txt
+	668#Macau.txt
+	673#Zhenyuan.txt
+	674#Guiyang.txt
+	675#Umung.txt
+	676#Shigatse.txt
+	677#Lhasa.txt
+	678#Tachienlu.txt
+	680#Chongqing.txt
+	682#Wuchang.txt
+	683#Nanchang.txt
+	684#Hangzhou.txt
+	685#Yangzhou.txt
+	686#Anqing.txt
+	687#Nanyang.txt
+	688#Kaifeng.txt
+	690#Qingzhou.txt
+	691#Jinan.txt
+	692#Huaiqing.txt
+	693#Taiyuan.txt
+	694#Pingyang.txt
+	695#Hejian.txt
+	696#Baoding.txt
+	697#Datong.txt
+	698#Ningxia.txt
+	699#Lanzhou.txt
+	700#Xi'an.txt
+	701#Ordos.txt
+	702#Hohhot.txt
+	703#Chengde.txt
+	704#Ningyuan.txt
+	705#Gyegu.txt
+	706#Tsaidam.txt
+	707#Yumen.txt
+	709#Alxa.txt
+	710#Hotan.txt
+	711#Qarqan.txt
+	712#Aksu.txt
+	720#Dorno Govi.txt
+	721#Setsen.txt
+	722#Jirem.txt
+	723#Xilin Gol.txt
+	724#Hulunbuir.txt
+	725#Cicigar.txt
+	726#Shenyang.txt
+	727#Aigun.txt
+	728#Tuwan.txt
+	729#Bohori.txt
+	730#Girin.txt
+	731#Ilan Hala.txt
+	732#South Hamgyeong.txt
+	733#Hwangju.txt
+	734#West Gangwon.txt
+	735#Hanseong.txt
+	736#Sangju.txt
+	737#Jeonju.txt
+	738#Sakam.txt
+	739#Kashgar.txt
+	740#Chanderi.txt
+	977#Yakutat.txt
+	1084#Wadjuk.txt
+	1085#Paredarerme.txt
+	1086#Kaurna.txt
+	1087#Wurundjeri.txt
+	1088#Wergaia.txt
+	1089#Wiradjuri.txt
+	1090#Eora.txt
+	1091#Kamilaroi.txt
+	1092#Bundjalung.txt
+	1093#Barunggam.txt
+	1094#Turrbal.txt
+	2726#Malgana.txt
+	2727#Minang.txt
+	2728#Tiwi.txt
+	2729#Yolngu.txt
+	2730#Awngthim.txt
+	2731#Guugu Yimithirr.txt
+	2732#Wulgurukaba.txt
+	2733#Baiali.txt
+	2734#Yuin.txt
+	2735#Gunditjmara.txt
+	2736#Nukunu.txt
+	4846#Woolna.txt
+	4847#Yunawa.txt
+	4848#Mingin.txt
+	4849#Kurtjar.txt
+	4850#Biri.txt
+	4851#Gureng.txt
+	4852#WuliWuli.txt
+	4853#Bidjara.txt
+	4854#Badtjala.txt
+	4855#Yiman.txt
+	4856#Barunggam.txt
+	4857#Bundjalung.txt
+	4858#Tharawal.txt
+	4859#Gundungurra.txt
+	4860#Dharug.txt
+	4861#Waveroo.txt
+	4862#Ngadjuri.txt
+	4863#Nyaki.txt
+	4864#Yuat.txt
+	4865#Kurrama.txt
+	4866#Mangala.txt
+	4867#Wunambul.txt
+	4868#Pyemmairrener.txt
+	4869#Peerapper.txt
+	5797#Wuwei.txt
+	5798#Zhangye.txt
+	5865#Jinuquan.txt
+	5898#Bayannur.txt
+	5901#Sonid Zuoqi.txt
+	5902#Abag.txt
+	5912#Sonid Youqi.txt
+	5913#Taibus.txt
+	5914#Ejin.txt
+	5915#Alxa.txt
+	5916#Jilantaizhen.txt
+	5917#Shizuishan.txt
+	5918#Wuhai.txt
+	5919#Gaxun.txt
+	5931#Dengkou.txt
+	5955#Minqin.txt
+	5958#Aomori.txt
+	708#Gansu.txt
+	2371#Song La.txt
+	2375#Tay Nguyen.txt
+	2382#Savanh Nakhone.txt
+	2395#Hkamti Long.txt
+	2397#Tamanthi.txt
+	2398#Thaungdut.txt
+	2401#Mong Pai.txt
+	4398#Mawkmai.txt
+	4404#Minsin.txt
+	4823#Jarai.txt
+	4824#Rhade.txt
+	4837#Muang Ngoi.txt
+	4839#Champasak.txt
+	4840#Xekong.txt
+	580#Kale.txt
+	587#Kengtung.txt
+	608#Attapeu.txt
+	611#Sikhottabong.txt
+	2072#Bhakkar.txt
+	2078#Sind Sagar.txt
+	2079#Derajat.txt
+	2086#Cholistan.txt
+	2088#Umarkot.txt
+	4430#Daman.txt
+	4503#Mansura.txt
+	4504#Nasirpur.txt
+	4505#Khairpur.txt
+	4508#Bahawalpur.txt
+	4509#Karor.txt
+	504#Thatta.txt
+	505#Sehwan.txt
+	506#Multan.txt
+	2437#Seganka.txt
+	1101#Diego Garcia.txt
+	1248#Maldives.txt
+	1998#Christmas Island.txt
+	1999#Cocos Island.txt
 }
 
 mild_monsoon = {
