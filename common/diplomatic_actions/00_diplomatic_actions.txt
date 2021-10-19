@@ -87,6 +87,14 @@
 
 declarewar = {
 	condition = {
+		potential = { 
+			ROOT = { has_reform = h_reform_native_empire }
+		}
+		allow = { 
+			always = no
+		}
+	}
+	condition = {
 		tooltip = h_tooltip_commanderywar
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
@@ -489,6 +497,7 @@ allianceaction = {
 					OR = {
 						tag = AZT
 						tag = INC
+						tag = MAY
 					}
 				}
 			}
@@ -501,6 +510,7 @@ allianceaction = {
 				OR = {
 					tag = AZT
 					tag = INC
+					tag = MAY
 				}
 			}
 		}
