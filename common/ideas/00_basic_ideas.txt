@@ -1172,8 +1172,9 @@ influence_ideas = {
 	establish_cadet_branches = {
 		prestige = 1
 		legitimacy = 1
-		republican_tradition = 0.1
+		republican_tradition = 0.25
 		devotion = 0.5
+		horde_unity = 0.5
 		heir_chance = 0.5
 		monthly_heir_claim_increase = 0.2
 	}
