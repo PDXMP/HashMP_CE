@@ -653,7 +653,7 @@ the_loyalty_act = {
 	}
 	
 	core_creation = -0.15
-	global_autonomy = -0.075
+	province_warscore_cost = -0.10
  
 
 	ai_will_do = {
