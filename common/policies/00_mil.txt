@@ -112,7 +112,8 @@ the_liquor_act = {
 		full_idea_group = administrative_ideas
 	}	
 	
-	backrow_artillery_damage = 0.15
+	yearly_army_professionalism = 0.05
+	army_tradition_from_battle = 0.25
 
 	ai_will_do = {
 		factor = 0.6
