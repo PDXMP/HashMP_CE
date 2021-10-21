@@ -1258,11 +1258,11 @@ self_governing_colony_overlord = {
 }
 
 crown_colony_subject = {
-	#global_autonomy = -0.05
-	#global_colonial_growth = 10
-	global_autonomy = -0.025
-	colonists = 1
-	development_cost = 0.05
+	global_autonomy = -0.05
+	global_colonial_growth = 10
+	#global_autonomy = -0.025
+	#colonists = 1
+	#development_cost = 0.05
 }
 
 private_enterprise_subject = {
