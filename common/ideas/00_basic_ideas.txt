@@ -339,12 +339,12 @@ spy_ideas = {
 	#}
 
 	bonus = {
-		free_policy = 1
+		defensiveness = 0.1
 	}
 
 	efficient_spies = {
-		spy_offence = 0.50
-		global_spy_defence = 0.25
+		spy_offence = 0.33
+		global_spy_defence = 0.33
 	}
 	agent_training = {
 		diplomats = 1
@@ -353,23 +353,23 @@ spy_ideas = {
 	}
 	claim_fabrication = {
 		ae_impact = -0.2
+		province_warscore_cost = -0.1
 	}
-	vetting = {
-		fort_maintenance_modifier = -0.10
-		defensiveness = 0.10
+	additional_loyalist_recruitment = {
+		global_sailors = 5000
+		global_manpower = 10
 	}
 	privateers = {
 		loot_amount = 1
 		available_province_loot = 0.33
 		movement_speed = 0.10
 	}
-	additional_loyalist_recruitment = {
-		global_sailors = 5000
-		global_manpower = 10
-	}
 	audit_checks = {
 		yearly_corruption = -0.20
 		years_of_nationalism = -5
+	}
+	vetting = {
+		all_power_cost = -0.025
 	}
 
 	ai_will_do = {
