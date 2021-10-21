@@ -1,10 +1,10 @@
 edict_encourage_development = {
 	potential = {
-		always = yes		#we support "potential" if modders want to have lots and just show some.
+		always = no		#we support "potential" if modders want to have lots and just show some.
 	}
 	
 	allow = {
-		always = yes
+		always = no
 	}
 	
 	modifier = {
