@@ -915,7 +915,7 @@ military_allotment_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	fire_damage_received = -0.1
+	backrow_artillery_damage = 0.15
 
 	ai_will_do = {
 		factor = 0.8
