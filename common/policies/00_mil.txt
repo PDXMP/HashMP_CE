@@ -1016,8 +1016,8 @@ deserteur_act = {
 		full_idea_group = quality_ideas
 	}
 
-	global_prov_trade_power_modifier = 0.25
-	yearly_corruption = -0.1
+	global_prov_trade_power_modifier = 0.20
+	caravan_power = 0.10
 	
 	ai_will_do = {
 		factor = 0.75
