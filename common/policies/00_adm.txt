@@ -225,8 +225,8 @@ the_royal_commission_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	yearly_corruption = -0.2
-	hostile_attrition = 1
+	yearly_corruption = -0.20
+	yearly_absolutism = 0.5
 	
 	ai_will_do = {
 		factor = 0.6
