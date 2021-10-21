@@ -416,9 +416,12 @@ t_over_merc_cap_early = {
 
 t_over_merc_cap_mid = {
 	potential = {
-		always = no
-		was_player = yes
 		current_age = age_of_reformation
+		OR = {
+			has_idea_group = plutocracy_ideas
+			has_idea_group = innovativeness_ideas
+			has_idea_group = quantity_ideas
+		}
 	}
 	trigger = {
 		num_of_hired_mercenary_companies = 5
@@ -430,11 +433,15 @@ t_over_merc_cap_mid = {
 
 t_over_merc_cap_late = {
 	potential = {
-		always = no
 		was_player = yes
 		OR = {
 			current_age = age_of_absolutism
 			current_age = age_of_revolutions
+		}
+		OR = {
+			has_idea_group = plutocracy_ideas
+			has_idea_group = innovativeness_ideas
+			has_idea_group = quantity_ideas
 		}
 	}
 	trigger = {
