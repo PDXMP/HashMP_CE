@@ -225,8 +225,11 @@ the_royal_commission_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	yearly_corruption = -0.20
-	yearly_absolutism = 0.5
+	legitimacy = 1
+	republican_tradition = 0.25
+	devotion = 0.5
+	horde_unity = 0.5
+	yearly_absolutism = 1
 	
 	ai_will_do = {
 		factor = 0.6
