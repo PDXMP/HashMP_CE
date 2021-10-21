@@ -1126,7 +1126,7 @@ humanist_ideas = {
 	}
 	cultural_ties = {
 		num_accepted_cultures = 2
-		promote_culture_cost = -0.25
+		promote_culture_cost = -0.50
 	}
 	humanist_tolerance = {
 		global_trade_goods_size_modifier = 0.10
