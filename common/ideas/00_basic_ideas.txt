@@ -33,7 +33,6 @@ aristocracy_ideas = {
 		global_manpower_modifier = 0.20
 	}
 	noble_resilience = {
-		war_exhaustion = -0.05
 		reinforce_cost_modifier = -0.1
 	}
 	noble_officers = {
