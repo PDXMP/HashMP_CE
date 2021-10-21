@@ -365,7 +365,7 @@ spy_ideas = {
 		movement_speed = 0.10
 	}
 	audit_checks = {
-		yearly_corruption = -0.20
+		yearly_corruption = -0.25
 		years_of_nationalism = -5
 	}
 	vetting = {
