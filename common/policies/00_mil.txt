@@ -113,7 +113,7 @@ the_liquor_act = {
 	}	
 	
 	yearly_army_professionalism = 0.005
-	army_tradition_from_battle = 0.25
+	prestige_from_land = 0.33
 
 	ai_will_do = {
 		factor = 0.6
