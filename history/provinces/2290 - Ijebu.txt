@@ -1,7 +1,7 @@
 # No previous file for Ijebu
 
-owner = BEN
-controller = BEN
+#owner = BEN
+#controller = BEN
 add_core = BEN
 #is_city = yes
 is_city = no
