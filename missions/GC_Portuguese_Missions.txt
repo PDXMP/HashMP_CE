@@ -332,21 +332,13 @@ gc_por_2 = {
 		completed_by = 1445.1.1
 		
 		provinces_to_highlight = {
-			region = guinea_region
-			OR = {
-				is_city = no
-				NOT = { owned_by = ROOT }
-			}
-			has_discovered = ROOT
+			province_id = 1096
 		}
 		
 		trigger = { 
-			custom_trigger_tooltip = {
-				tooltip = miss_colonize_west_africa
-				guinea_region = {
-					owned_by = ROOT
-					is_city = yes
-				}
+			1096 = {
+				owned_by = ROOT
+				is_city = yes
 			}
 		}
 	
@@ -355,6 +347,20 @@ gc_por_2 = {
 				tradition = 60
 			}
 			add_dip_power = 60
+			1306 = {
+				add_core = POR
+				cede_province = POR
+				change_culture = portugese
+				change_religion = catholic
+				change_trade_goods = fish
+			}
+			kongo_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	gc_por_colonise_central_africa = {
