@@ -382,9 +382,12 @@ diplomatic_ideas = {
 		development_cost = -0.1
 	}
 
-	#trigger = {
-	#	always = no
-	#}
+	trigger = {
+		OR = {
+			was_player = yes
+			is_colonial_nation = yes
+		}
+	}
 
 	foreign_embassies = {
 		global_own_trade_power = 0.10
