@@ -236,11 +236,19 @@ h_swedish_missions_1 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
+			religious_unity = 0.90
 			OR = {
-				dominant_religion = protestant
-				dominant_religion = reformed
+				AND = {
+					is_year = 1550
+					religion = catholic
+				}
+				OR = {
+					religion = protestant
+					religion = reformed
+					religion = anglican
+					religion = hussite
+				}
 			}
-			religious_unity = 0.85
 		}
 		effect = {
 			add_country_modifier = { 
