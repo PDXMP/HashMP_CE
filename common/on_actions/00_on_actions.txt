@@ -2045,8 +2045,8 @@ on_bi_yearly_pulse = {
 		200 = industrialization_events.22
 
 		#Confucian Events
-		75 = confucian_events.19
-		75 = confucian_events.20
+		# 75 = confucian_events.19
+		# 75 = confucian_events.20
 
 		# Orthodox Icon Events
 		75 = orthodox_icon_events.1
@@ -2367,30 +2367,30 @@ on_bi_yearly_pulse_5 = {
 		100 = catholic_flavor.10
 
 		# Japanese Daimyos
-		15 = flavor_jap.10
-		50 = flavor_jap.28
-		100 = flavor_jap.40
-		100 = flavor_jap.42
-		100 = flavor_jap.43
-		100 = flavor_jap.45
-		100 = flavor_jap.49
-		100 = flavor_jap.51
-		100 = flavor_jap.52
-		100 = flavor_jap.53
-		100 = flavor_jap.54
-		100 = flavor_jap.55
+		# 15 = flavor_jap.10
+		# 50 = flavor_jap.28
+		# 100 = flavor_jap.40
+		# 100 = flavor_jap.42
+		# 100 = flavor_jap.43
+		# 100 = flavor_jap.45
+		# 100 = flavor_jap.49
+		# 100 = flavor_jap.51
+		# 100 = flavor_jap.52
+		# 100 = flavor_jap.53
+		# 100 = flavor_jap.54
+		# 100 = flavor_jap.55
 
 
 
 		# China
-		75 = meritocracy_events.1
-		75 = meritocracy_events.2
-		75 = meritocracy_events.3
-		75 = meritocracy_events.4
-		75 = meritocracy_events.5
-		50 = china_events.11
-		25 = china_events.12
-		25 = china_events.24
+		# 75 = meritocracy_events.1
+		# 75 = meritocracy_events.2
+		# 75 = meritocracy_events.3
+		# 75 = meritocracy_events.4
+		# 75 = meritocracy_events.5
+		# 50 = china_events.11
+		# 25 = china_events.12
+		# 25 = china_events.24
 
 		2000 = 0
 	}
@@ -2579,26 +2579,26 @@ on_thri_yearly_pulse_3 = {
 		50 = subject_interaction_events.38
 		50 = subject_interaction_events.40
 		50 = subject_interaction_events.43
-		75 = tributary_events.1
-		75 = tributary_events.2
-		75 = tributary_events.3
-		75 = tributary_events.4
-		75 = tributary_events.5
-		75 = tributary_events.6
-		75 = tributary_events.7
-		75 = tributary_events.8
-		75 = tributary_events.9
-		75 = tributary_events.10
-		75 = tributary_events.13
-		75 = tributary_events.16
-		75 = tributary_events.17
-		75 = tributary_events.18
-		75 = tributary_events.19
-		75 = tributary_events.23
-		75 = tributary_events.24
-		75 = tributary_events.26
-		75 = tributary_events.25
-		75 = tributary_events.27
+		# 75 = tributary_events.1
+		# 75 = tributary_events.2
+		# 75 = tributary_events.3
+		# 75 = tributary_events.4
+		# 75 = tributary_events.5
+		# 75 = tributary_events.6
+		# 75 = tributary_events.7
+		# 75 = tributary_events.8
+		# 75 = tributary_events.9
+		# 75 = tributary_events.10
+		# 75 = tributary_events.13
+		# 75 = tributary_events.16
+		# 75 = tributary_events.17
+		# 75 = tributary_events.18
+		# 75 = tributary_events.19
+		# 75 = tributary_events.23
+		# 75 = tributary_events.24
+		# 75 = tributary_events.26
+		# 75 = tributary_events.25
+		# 75 = tributary_events.27
 
 		1000 = 0
 	}
@@ -2607,22 +2607,22 @@ on_thri_yearly_pulse_3 = {
 on_thri_yearly_pulse_4 = {
 	random_events = {
 		#Low Mandate Events
-		10 = china_events.45
-		10 = china_events.46
-		50 = china_events.47
-		10 = china_events.48
-		10 = china_events.49
-		10 = china_events.50
-		50 = china_events.51
-		10 = china_events.52
-		10 = china_events.53
-		50 = china_events.54
-		#10 = china_events.55 (triggers via neighbors)
-		10 = china_events.56
-		75 = china_events.57
-		50 = china_events.58
-		10 = china_events.59
-		50 = china_events.60
+		# 10 = china_events.45
+		# 10 = china_events.46
+		# 50 = china_events.47
+		# 10 = china_events.48
+		# 10 = china_events.49
+		# 10 = china_events.50
+		# 50 = china_events.51
+		# 10 = china_events.52
+		# 10 = china_events.53
+		# 50 = china_events.54
+		# #10 = china_events.55 (triggers via neighbors)
+		# 10 = china_events.56
+		# 75 = china_events.57
+		# 50 = china_events.58
+		# 10 = china_events.59
+		# 50 = china_events.60
 	}
 }
 
@@ -2745,16 +2745,16 @@ on_four_year_pulse = {
 		100 = napoleon.2
 
 		# Pirate Factions
-		100 = pirates.10
-		100 = pirates.11
-		100 = pirates.12
-		100 = pirates.13
-		100 = pirates.14
-		100 = pirates.15
-		100 = pirates.16
-		100 = pirates.17
-		100 = pirates.18
-		100 = pirates.19
+		# 100 = pirates.10
+		# 100 = pirates.11
+		# 100 = pirates.12
+		# 100 = pirates.13
+		# 100 = pirates.14
+		# 100 = pirates.15
+		# 100 = pirates.16
+		# 100 = pirates.17
+		# 100 = pirates.18
+		# 100 = pirates.19
 
 		# Republican Dictatorship
 		100 = republican_dictatorship.1
@@ -2801,64 +2801,64 @@ on_four_year_pulse = {
 		50 = tribal_federation_events.10
 
 		#Empire of China
-		100 = china_events.1
-		100 = china_events.2
-		100 = china_events.3
-		100 = china_events.4
-		75 = china_events.5
-		100 = china_events.6
-		100 = china_events.7
-		100 = china_events.8
-		100 = china_events.9
-		100 = china_events.10
-		100 = china_events.11
-		100 = china_events.12
-		100 = china_events.13
-		100 = china_events.14
-		100 = china_events.15
-		100 = china_events.16
-		100 = china_events.17
-		100 = china_events.18
-		100 = china_events.19
-		100 = china_events.20
-		100 = china_events.21
-		100 = china_events.22
-		100 = china_events.23
-		100 = china_events.24
-		100 = china_events.25
-		100 = china_events.26
-		100 = china_events.27
-		100 = china_events.28
-		100 = china_events.29
-		100 = china_events.30
-		100 = china_events.33
-		100 = china_events.34
-		100 = china_events.35
-		100 = china_events.36
-		100 = china_events.37
-		100 = china_events.38
-		100 = china_events.39
-		50 = china_events.40
-		100 = china_events.41
-		100 = china_events.42
-		100 = china_events.44
+		# 100 = china_events.1
+		# 100 = china_events.2
+		# 100 = china_events.3
+		# 100 = china_events.4
+		# 75 = china_events.5
+		# 100 = china_events.6
+		# 100 = china_events.7
+		# 100 = china_events.8
+		# 100 = china_events.9
+		# 100 = china_events.10
+		# 100 = china_events.11
+		# 100 = china_events.12
+		# 100 = china_events.13
+		# 100 = china_events.14
+		# 100 = china_events.15
+		# 100 = china_events.16
+		# 100 = china_events.17
+		# 100 = china_events.18
+		# 100 = china_events.19
+		# 100 = china_events.20
+		# 100 = china_events.21
+		# 100 = china_events.22
+		# 100 = china_events.23
+		# 100 = china_events.24
+		# 100 = china_events.25
+		# 100 = china_events.26
+		# 100 = china_events.27
+		# 100 = china_events.28
+		# 100 = china_events.29
+		# 100 = china_events.30
+		# 100 = china_events.33
+		# 100 = china_events.34
+		# 100 = china_events.35
+		# 100 = china_events.36
+		# 100 = china_events.37
+		# 100 = china_events.38
+		# 100 = china_events.39
+		# 50 = china_events.40
+		# 100 = china_events.41
+		# 100 = china_events.42
+		# 100 = china_events.44
 
 		10 = tortoise.1 # Galapagos Island Tortoises
 		
 		100 = flavor_pue.5
 		
 		#Totemism Events
-		100 = totemism_flavor.1
-		100 = totemism_flavor.7
-		100 = totemism_flavor.8
-		100 = totemism_flavor.10
-		100 = totemism_flavor.11
-		100 = totemism_flavor.13
-		100 = totemism_flavor.14
-		100 = totemism_flavor.15
-		100 = totemism_flavor.16
-		100 = totemism_flavor.17
-		100 = totemism_flavor.18
+		# 100 = totemism_flavor.1
+		# 100 = totemism_flavor.7
+		# 100 = totemism_flavor.8
+		# 100 = totemism_flavor.10
+		# 100 = totemism_flavor.11
+		# 100 = totemism_flavor.13
+		# 100 = totemism_flavor.14
+		# 100 = totemism_flavor.15
+		# 100 = totemism_flavor.16
+		# 100 = totemism_flavor.17
+		# 100 = totemism_flavor.18
 		
 		#Volcano Events
 		75 = volcano_events.2
@@ -3170,41 +3170,41 @@ on_five_year_pulse = {
 		100 = ideagroups.1910
 
 		# Horde Ideas		10 (8g 2b)
-		100 = ideagroups.1922
-		100 = ideagroups.1923
-		100 = ideagroups.1924
-		100 = ideagroups.1925
-		100 = ideagroups.1926
-		100 = ideagroups.1927
-		100 = ideagroups.1928
-		100 = ideagroups.1929
-		100 = ideagroups.1930
-		100 = ideagroups.1931
+		# 100 = ideagroups.1922
+		# 100 = ideagroups.1923
+		# 100 = ideagroups.1924
+		# 100 = ideagroups.1925
+		# 100 = ideagroups.1926
+		# 100 = ideagroups.1927
+		# 100 = ideagroups.1928
+		# 100 = ideagroups.1929
+		# 100 = ideagroups.1930
+		# 100 = ideagroups.1931
 		
-		#Theocracy Ideas		11 (9g 2b)
-		100 = ideagroups.1911
-		100 = ideagroups.1912
-		100 = ideagroups.1913
-		100 = ideagroups.1914
-		100 = ideagroups.1915
-		100 = ideagroups.1916
-		100 = ideagroups.1917
-		100 = ideagroups.1918
-		100 = ideagroups.1919
-		100 = ideagroups.1920
-		100 = ideagroups.1921
+		# #Theocracy Ideas		11 (9g 2b)
+		# 100 = ideagroups.1911
+		# 100 = ideagroups.1912
+		# 100 = ideagroups.1913
+		# 100 = ideagroups.1914
+		# 100 = ideagroups.1915
+		# 100 = ideagroups.1916
+		# 100 = ideagroups.1917
+		# 100 = ideagroups.1918
+		# 100 = ideagroups.1919
+		# 100 = ideagroups.1920
+		# 100 = ideagroups.1921
 
-		# Indigenous		10 (6g 4b)
-		100 = ideagroups.1932
-		100 = ideagroups.1933
-		100 = ideagroups.1934
-		100 = ideagroups.1935
-		100 = ideagroups.1936
-		100 = ideagroups.1937
-		100 = ideagroups.1938
-		100 = ideagroups.1939
-		100 = ideagroups.1940
-		100 = ideagroups.1941
+		# # Indigenous		10 (6g 4b)
+		# 100 = ideagroups.1932
+		# 100 = ideagroups.1933
+		# 100 = ideagroups.1934
+		# 100 = ideagroups.1935
+		# 100 = ideagroups.1936
+		# 100 = ideagroups.1937
+		# 100 = ideagroups.1938
+		# 100 = ideagroups.1939
+		# 100 = ideagroups.1940
+		# 100 = ideagroups.1941
 		
 		1000 = 0
 	}
@@ -3299,60 +3299,60 @@ on_five_year_pulse_2 = {
 		150 = tribal_estate_events.13 #Demands
 		150 = tribal_estate_events.14 #Demands
 		# Marathas
-		100 = marathas_estate_events.2
-		100 = marathas_estate_events.3
-		100 = marathas_estate_events.4
-		100 = marathas_estate_events.5
-		100 = marathas_estate_events.6
-		400 = marathas_estate_events.7 # Demands
-		100 = marathas_estate_events.8
-		100 = marathas_estate_events.9
-		100 = marathas_estate_events.10
-		400 = marathas_estate_events.11 # Disloyal
-		# Brahmins
-		400 = brahmins_estate_events.2 # demands
-		100 = brahmins_estate_events.3
-		100 = brahmins_estate_events.4
-		100 = brahmins_estate_events.5
-		400 = brahmins_estate_events.6 # disloyal
-		100 = brahmins_estate_events.7
-		100 = brahmins_estate_events.8
-		100 = brahmins_estate_events.9
-		100 = brahmins_estate_events.10
-		100 = brahmins_estate_events.11
-		# Jains
-		100 = jains_estate_events.2
-		100 = jains_estate_events.3
-		100 = jains_estate_events.4
-		100 = jains_estate_events.5
-		100 = jains_estate_events.6
-		100 = jains_estate_events.7
-		400 = jains_estate_events.8 # Disloyal
-		100 = jains_estate_events.9
-		400 = jains_estate_events.10 # Demands
-		100 = jains_estate_events.11
-		# Vaishyas
-		100 = vaisyas_estate_events.2
-		100 = vaisyas_estate_events.3
-		100 = vaisyas_estate_events.4
-		100 = vaisyas_estate_events.5
-		100 = vaisyas_estate_events.6
-		100 = vaisyas_estate_events.7
-		100 = vaisyas_estate_events.8
-		400 = vaisyas_estate_events.9
-		100 = vaisyas_estate_events.10
-		100 = vaisyas_estate_events.11
-		# Rajputs
-		100 = rajputs_estate_events.2
-		100 = rajputs_estate_events.3
-		100 = rajputs_estate_events.4
-		100 = rajputs_estate_events.5
-		400 = rajputs_estate_events.6
-		100 = rajputs_estate_events.7
-		400 = rajputs_estate_events.8
-		100 = rajputs_estate_events.9
-		100 = rajputs_estate_events.10
-		100 = rajputs_estate_events.11
+		# 100 = marathas_estate_events.2
+		# 100 = marathas_estate_events.3
+		# 100 = marathas_estate_events.4
+		# 100 = marathas_estate_events.5
+		# 100 = marathas_estate_events.6
+		# 400 = marathas_estate_events.7 # Demands
+		# 100 = marathas_estate_events.8
+		# 100 = marathas_estate_events.9
+		# 100 = marathas_estate_events.10
+		# 400 = marathas_estate_events.11 # Disloyal
+		# # Brahmins
+		# 400 = brahmins_estate_events.2 # demands
+		# 100 = brahmins_estate_events.3
+		# 100 = brahmins_estate_events.4
+		# 100 = brahmins_estate_events.5
+		# 400 = brahmins_estate_events.6 # disloyal
+		# 100 = brahmins_estate_events.7
+		# 100 = brahmins_estate_events.8
+		# 100 = brahmins_estate_events.9
+		# 100 = brahmins_estate_events.10
+		# 100 = brahmins_estate_events.11
+		# # Jains
+		# 100 = jains_estate_events.2
+		# 100 = jains_estate_events.3
+		# 100 = jains_estate_events.4
+		# 100 = jains_estate_events.5
+		# 100 = jains_estate_events.6
+		# 100 = jains_estate_events.7
+		# 400 = jains_estate_events.8 # Disloyal
+		# 100 = jains_estate_events.9
+		# 400 = jains_estate_events.10 # Demands
+		# 100 = jains_estate_events.11
+		# # Vaishyas
+		# 100 = vaisyas_estate_events.2
+		# 100 = vaisyas_estate_events.3
+		# 100 = vaisyas_estate_events.4
+		# 100 = vaisyas_estate_events.5
+		# 100 = vaisyas_estate_events.6
+		# 100 = vaisyas_estate_events.7
+		# 100 = vaisyas_estate_events.8
+		# 400 = vaisyas_estate_events.9
+		# 100 = vaisyas_estate_events.10
+		# 100 = vaisyas_estate_events.11
+		# # Rajputs
+		# 100 = rajputs_estate_events.2
+		# 100 = rajputs_estate_events.3
+		# 100 = rajputs_estate_events.4
+		# 100 = rajputs_estate_events.5
+		# 400 = rajputs_estate_events.6
+		# 100 = rajputs_estate_events.7
+		# 400 = rajputs_estate_events.8
+		# 100 = rajputs_estate_events.9
+		# 100 = rajputs_estate_events.10
+		# 100 = rajputs_estate_events.11
 		# Random
 		5 = flavor_fra.9500
 		1000 = 0
