@@ -133,6 +133,185 @@
 #	}
 #}
 
+h_mam_missions_main = {
+	slot = 1
+	generic = no
+	ai = yes
+
+	potential = {
+		tag = MAM
+		NOT = { has_country_flag = formed_mamluks }
+	}
+	has_country_shield = yes
+
+	h_mam_mission_1 = { #Prosperity in Cairo
+		icon = mission_bedouins
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 361
+		}
+		trigger = {
+			stability = 1
+			361 = {
+				is_prosperous = yes
+				development = 30
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			361 = {
+				add_center_of_trade_level = 1
+			}
+			vostani_area = {
+				add_permanent_province_modifier = {
+					name = h_mam_nile
+					duration = -1
+				}
+			}
+			said_area = {
+				add_permanent_province_modifier = {
+					name = h_mam_nile
+					duration = -1
+				}
+			}
+		}
+	}
+	h_mam_mission_2 = { #Develop the Nile
+		icon = mission_bedouins
+		position = 2
+		required_missions = { h_mam_mission_1 }
+		provinces_to_highlight = {
+			area = vostani_area
+			area = said_area
+		}
+		trigger = {
+			calc_true_if = {
+				vostani_area = {
+					type = all
+					development = 12
+				}
+				said_area = {
+					type = all
+					development = 12
+				}
+				amount = 5
+			}
+		}
+		effect = {
+			vostani_area = {
+				add_base_manpower = 1
+				if = {
+					limit = {
+						NOT = { has_building = barracks }
+					}
+					add_building = barracks
+				}
+			}
+			said_area = {
+				add_base_manpower = 1
+				if = {
+					limit = {
+						NOT = { has_building = barracks }
+					}
+					add_building = barracks
+				}
+			}
+		}
+	}
+	h_mam_mission_3 = { #Reform the Mamluks
+		position = 3
+		icon = mission_bedouins
+		required_missions = { h_mam_mission_2 }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			army_size_percentage = 1
+			cavalry_fraction = 0.33
+			mil_tech = 6
+		}
+		effect = {
+			define_advisor = {
+				type = army_reformer
+				skill = 1
+				culture = ROOT
+				religion = ROOT
+				discount = yes
+			}
+			add_country_modifier = {
+				name = h_mam_reformed_mamluks
+				duration = -1
+			}
+		}
+	}
+	h_mam_mission_4 = { #The Mamluk Caliphate
+		icon = mission_bedouins
+		position = 4
+		required_missions = { h_mam_mission_3 }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			is_rival = TUR
+			OR = {
+				offensive_war_with = TUR
+				defensive_war_with = TUR
+			}
+		}
+		effect = {
+			#unlock nobles privilege
+			add_army_tradition = 10
+			add_mil_power = 100
+			define_general = {
+				fire = 2
+				shock = 4
+				manuever = 3
+				siege = 0
+				trait = born_to_the_saddle_personality
+			}
+		}
+	}
+}
+
+h_mam_missions_secondary = {
+	slot = 5
+	generic = no
+
+	potential = {
+		tag = MAM
+		NOT = { has_country_flag = formed_mamluks }
+	}
+	has_country_shield = yes
+
+	h_mam_mission_5 = { #The Great Library
+		icon = mission_bedouins
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 358
+		}
+		trigger = {
+			358 = {
+				renaissance = 100
+				development = 30
+				province_has_center_of_trade_of_level = 2
+			}
+		}
+		effect = {
+			358 = {
+				add_center_of_trade_level = 1
+				add_building = university
+			}
+			add_country_modifier = {
+				name = h_mam_great_library
+				duration = -1
+			}
+		}
+	}
+}
+
 h_qar_missions = {
 
 	slot = 1
