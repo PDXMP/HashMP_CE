@@ -5,10 +5,12 @@ polish_lithuanian_civilwar = {
 					TAG = PLC
 			}
 			TAG = POL
+			NOT = { has_country_flag = purged_bajorais }
+			NOT = { has_country_flag = purged_sejm }
 	}
 
 	can_start = {
-			has_any_disaster = no
+			has_any_disaster = no	
 	}
 
 	can_stop = {
@@ -53,7 +55,47 @@ polish_lithuanian_civilwar = {
         }
 		
         modifier = {
-                factor = 0.75
+                factor = 1
+				NOT = {
+					estate_loyalty = {
+						estate = estate_polish_nobility
+						loyalty = 10
+					}
+				}
+        }
+		
+        modifier = {
+                factor = 1
+				NOT = {
+					estate_loyalty = {
+						estate = estate_lithuanian_nobility
+						loyalty = 10
+					}
+				}
+        }
+
+	    modifier = {
+                factor = 1
+				NOT = {
+					estate_loyalty = {
+						estate = estate_polish_nobility
+						loyalty = 20
+					}
+				}
+        }
+		
+        modifier = {
+                factor = 1
+				NOT = {
+					estate_loyalty = {
+						estate = estate_lithuanian_nobility
+						loyalty = 20
+					}
+				}
+        }
+		
+        modifier = {
+                factor = 1
 				NOT = {
 					estate_loyalty = {
 						estate = estate_polish_nobility
@@ -62,7 +104,7 @@ polish_lithuanian_civilwar = {
 				}
         }
         modifier = {
-                factor = 0.75
+                factor = 1
 				NOT = {
 					estate_loyalty = {
 						estate = estate_lithuanian_nobility
@@ -72,7 +114,7 @@ polish_lithuanian_civilwar = {
         }
 		
         modifier = {
-                factor = 0.33
+                factor = 0.5
 				NOT = {
 					estate_loyalty = {
 						estate = estate_polish_nobility
@@ -81,7 +123,7 @@ polish_lithuanian_civilwar = {
 				}
         }
         modifier = {
-                factor = 0.33
+                factor = 0.5
 				NOT = {
 					estate_loyalty = {
 						estate = estate_lithuanian_nobility
@@ -91,7 +133,23 @@ polish_lithuanian_civilwar = {
         }
 		
         modifier = {
-			factor = -0.5
+			factor = -2
+			estate_loyalty = {
+				estate = estate_lithuanian_nobility
+				loyalty = 70
+			}
+        }
+		
+        modifier = {
+			factor = -2
+			estate_loyalty = {
+				estate = estate_polish_nobility
+				loyalty = 70
+			}
+        }
+		
+        modifier = {
+			factor = -1
 			estate_loyalty = {
 				estate = estate_lithuanian_nobility
 				loyalty = 60
@@ -99,7 +157,7 @@ polish_lithuanian_civilwar = {
         }
 		
         modifier = {
-			factor = -0.5
+			factor = -1
 			estate_loyalty = {
 				estate = estate_polish_nobility
 				loyalty = 60
@@ -107,7 +165,7 @@ polish_lithuanian_civilwar = {
         }
 		
         modifier = {
-			factor = -0.25
+			factor = -0.5
 			estate_loyalty = {
 				estate = estate_lithuanian_nobility
 				loyalty = 50
@@ -115,7 +173,7 @@ polish_lithuanian_civilwar = {
         }
 		
         modifier = {
-			factor = -0.25
+			factor = -0.5
 			estate_loyalty = {
 				estate = estate_polish_nobility
 				loyalty = 50
@@ -143,6 +201,7 @@ polish_lithuanian_civilwar = {
 				offensive_war_with = POL
 			}
         }
+		
         modifier = {
 			factor = -0.5
 			has_country_flag = pol_northern_marches_mission
@@ -196,12 +255,9 @@ polish_lithuanian_civilwar = {
 	
 	modifier = {
         global_unrest = 4
-        reduced_liberty_desire = -30
-		LIT = {
-			global_unrest = 2
-			reduced_liberty_desire = -15
-		}
-}
+        reduced_liberty_desire = -50
+	}
+	
 	on_start = HashMP_Poland_Disaster.1
 	on_end = HashMP_Poland_Disaster.2
 	
@@ -215,6 +271,12 @@ polish_lithuanian_civilwar = {
 				50 = civil_war.7
 				50 = civil_war.8
 				50 = civil_war.5
+				50 = HashMP_Poland_Disaster.4
+				50 = HashMP_Poland_Disaster.5
+				50 = HashMP_Poland_Disaster.6
+				50 = HashMP_Poland_Disaster.7
+				50 = HashMP_Poland_Disaster.8
+				100 = HashMP_Poland_Disaster.9
         }
 	}
 	
