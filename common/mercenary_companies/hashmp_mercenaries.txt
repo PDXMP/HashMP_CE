@@ -2155,7 +2155,7 @@ h_merc_cossacks = {
 	cavalry_weight = 0.5
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = RUS
 	}
@@ -2170,7 +2170,7 @@ h_merc_hussars = {
 	cavalry_weight = 1
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = PLC
 	}
@@ -2257,7 +2257,7 @@ h_merc_bluehorde = {
 	cavalry_weight = 1
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = GLH
 	}
@@ -2272,7 +2272,7 @@ h_merc_timur = {
 	cavalry_weight = 1
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = TIM
 	}
@@ -2433,7 +2433,7 @@ h_merc_jianzhou = {
 	cavalry_weight = 1
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = MCH
 	}
@@ -2448,7 +2448,7 @@ h_merc_banner = {
 	cavalry_weight = 1.0
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = QNG
 	}
@@ -2592,7 +2592,7 @@ merc_knights_templar = {
 		cavalry_power = 0.15
 		shock_damage = 0.05
 	}
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 }
 
 # Pontifical Swiss Guard
@@ -3507,7 +3507,7 @@ merc_finnish_company = {
     #artillery_weight = 0.0
 	cavalry_cap = 40
     #home_province = 28 # Nyland
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	sprites = { swe_base_sprite_pack westerngfx_sprite_pack }
 	trigger = {
 		tag = SCA
@@ -3635,7 +3635,7 @@ merc_independent_cossack_host = {
 	cavalry_weight = 1.0 # lots of cavalry relative to other units
 	#artillery_weight = 0 # no artillery
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	sprites = { dlc047_zaz_sprite_pack easterngfx_sprite_pack }
 	trigger = {
 		tag = UKR
@@ -3651,7 +3651,7 @@ merc_kazakh_company = {
     #home_province = 478 # Argyn
 	cavalry_weight = 0.5
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	sprites = { dlc048_shy_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
 		tag = SHY
