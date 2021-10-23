@@ -3232,10 +3232,10 @@ h_danish_missions_main_3 = {
 		effect = {
 			add_innovativeness_huge_effect = yes
 
-			add_ruler_modifier = {
-				name = h_danish_enlightened_ruler
-				duration = -1
-			}
+			#add_ruler_modifier = {
+			#	name = h_danish_enlightened_ruler
+			#	duration = -1
+			#}
 		}
 	}
 	##Mission End
