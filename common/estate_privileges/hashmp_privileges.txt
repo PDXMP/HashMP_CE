@@ -78,3 +78,36 @@ h_dhimmi_estate_janissary_firearms = {
 		factor = 5
 	}
 }
+
+h_noble_estate_mamluk_recruitment = {
+	icon = privilege_raise_host
+	max_absolutism = 0
+	land_share = 0
+	loyalty = -0.05
+	influence = 0.25
+	is_valid = {
+		tag = MAM
+	}
+	can_select = {
+		mission_completed = h_mam_mission_4
+	}
+	benefits = {
+		
+	}
+	penalties = {
+
+	}
+	modifier_by_land_ownership = {
+		production_efficiency = -0.10
+		manpower_recovery_speed = 0.25
+	}
+	on_granted = {
+		add_yearly_manpower = 0.5
+	}
+	on_revoked = {
+
+	}
+	ai_will_do = {
+		factor = 5
+	}
+}

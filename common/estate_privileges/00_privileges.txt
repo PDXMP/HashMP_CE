@@ -2142,9 +2142,11 @@ estate_nobles_levies = {
 	max_absolutism = -5
 	influence = 0.1
 	is_valid = {
+		NOT = { tag = MAM }
 		NOT = { has_estate_privilege = estate_nobles_golden_liberty }
 	}
 	can_select = {
+		NOT = { tag = MAM }
 		NOT = { has_estate_privilege = estate_nobles_golden_liberty }
 	}
 	modifier_by_land_ownership = {

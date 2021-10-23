@@ -261,9 +261,8 @@ h_mam_missions_main = {
 			}
 		}
 		effect = {
-			#unlock nobles privilege
-			add_army_tradition = 10
 			add_mil_power = 100
+			custom_tooltip = h_mamluk_privilege_unlock_tooltip
 			define_general = {
 				fire = 2
 				shock = 4

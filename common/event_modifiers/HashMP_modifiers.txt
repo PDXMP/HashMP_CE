@@ -4,6 +4,10 @@
 # by Foffy123
 ########################################
 
+h_mam_nile_goods = {
+	trade_goods_size_modifier = 0.10
+}
+
 h_mam_nile = {
 	local_development_cost = -0.20
 	local_manpower_modifier = 0.33

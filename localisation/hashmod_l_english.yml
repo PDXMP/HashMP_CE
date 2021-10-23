@@ -1,6 +1,9 @@
 ﻿l_english:
- h_mam_nile:0 "The Nile River"
- h_mam_reformed_mamluks:0 "Reformed the Mamluks"
+ h_mamluk_privilege_unlock_tooltip:0 "The §YLocal Mamluk Recruitment§! estate privilege will become available."
+ h_noble_estate_mamluk_recruitment:0 "Local Mamluk Recruitment"
+ h_mam_nile_goods:0 "The Nile River"
+ h_mam_nile:0 "New Nile Settlements"
+ h_mam_reformed_mamluks:0 "Reformed Mamluks"
  h_mam_great_library:0 "Library of Alexandria"
  h_mam_mission_1_title:0 "Prosperity in Cairo"
  h_mam_mission_1_desc:0 ""
