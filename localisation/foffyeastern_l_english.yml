@@ -57,6 +57,9 @@
  h_polish_control_baltic_trade:0 "The increased control on the Baltic has increased our efficiency temporarily"
  pol_minor_support:0 "The Bajorais are helping keep the Duchies in check"
  pol_mayor_support:0 "The Bajorais are vouching for the union and serve as a example for the rest of Duchies"
+ h_polish_minor_concesions:0 "We have granted some minor concesions to the local nobles"
+ h_polish_major_concesions:0 "We have granted major concesions to the local nobles"
+ h_polish_total_concesions:0 "We have granted almost all the power to the local nobles"
  #########################
  ###privileges loc
  #########################

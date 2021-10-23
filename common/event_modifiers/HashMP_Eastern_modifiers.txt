@@ -91,14 +91,7 @@ pol_minor_support = {
 
 pol_bajorais_refuse_timer = { }
 pol_bajorais_veto_timer = { }
-########################################
-# Polish Lithuanian civil war disaster modifiers
-########################################
 
-h_polish_magnate_support = {
-	global_unrest = -2
-	reduced_liberty_desire = 15
-}
 
 h_polish_invade_silesia = {
 	siege_ability = 0.2
@@ -159,3 +152,31 @@ h_estate_polish_nobility_monopoly_of_metals_mod = {
 h_estate_lithuanian_nobility_monopoly_of_livestock_mod = {
 	local_production_efficiency = -10
 }
+
+########################################
+# Polish Lithuanian civil war disaster modifiers
+########################################
+
+h_polish_magnate_support = {
+	global_unrest = -2
+	reduced_liberty_desire = 15
+}
+
+h_polish_minor_concesions = {
+	global_unrest = -1
+	global_tax_modifier = -0.05
+	global_autonomy = 0.005
+}
+
+h_polish_major_concesions = {
+	global_unrest = -2
+	global_tax_modifier = -0.15
+	global_autonomy = 0.01
+}
+
+h_polish_total_concesions = {
+	global_unrest = -3
+	global_tax_modifier = -0.25
+	global_autonomy = 0.02
+}
+
