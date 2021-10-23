@@ -591,7 +591,7 @@ zealous_captains = {
 	}	
 	
 	leader_land_shock = 1
-	shock_damage = 0.05
+	shock_damage = 0.10
 	
 	ai_will_do = {
 		factor = 1
