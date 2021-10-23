@@ -167,14 +167,14 @@ h_mam_missions_main = {
 				add_center_of_trade_level = 1
 			}
 			vostani_area = {
-				add_permanent_province_modifier = {
-					name = h_mam_nile
+				add_province_modifier = {
+					name = h_mam_nile_development
 					duration = -1
 				}
 			}
 			said_area = {
-				add_permanent_province_modifier = {
-					name = h_mam_nile
+				add_province_modifier = {
+					name = h_mam_nile_development
 					duration = -1
 				}
 			}
@@ -210,6 +210,16 @@ h_mam_missions_main = {
 					}
 					add_building = barracks
 				}
+				if = {
+					limit = {
+						has_province_modifier = h_mam_nile_development
+					}
+					remove_province_modifier = h_mam_nile_development
+				}
+				add_permanent_province_modifier = {
+					name = h_mam_nile
+					duration = -1
+				}
 			}
 			said_area = {
 				add_base_manpower = 1
@@ -218,6 +228,16 @@ h_mam_missions_main = {
 						NOT = { has_building = barracks }
 					}
 					add_building = barracks
+				}
+				if = {
+					limit = {
+						has_province_modifier = h_mam_nile_development
+					}
+					remove_province_modifier = h_mam_nile_development
+				}
+				add_permanent_province_modifier = {
+					name = h_mam_nile
+					duration = -1
 				}
 			}
 		}
@@ -262,7 +282,6 @@ h_mam_missions_main = {
 		}
 		effect = {
 			add_mil_power = 100
-			custom_tooltip = h_mamluk_privilege_unlock_tooltip
 			define_general = {
 				fire = 2
 				shock = 4
@@ -270,6 +289,7 @@ h_mam_missions_main = {
 				siege = 0
 				trait = born_to_the_saddle_personality
 			}
+			custom_tooltip = h_mamluk_privilege_unlock_tooltip
 		}
 	}
 }

@@ -102,7 +102,7 @@ h_noble_estate_mamluk_recruitment = {
 		manpower_recovery_speed = 0.25
 	}
 	on_granted = {
-		add_yearly_manpower = 0.5
+		add_yearly_manpower = 1.0
 	}
 	on_revoked = {
 
