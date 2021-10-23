@@ -145,7 +145,7 @@ h_mam_missions_main = {
 	has_country_shield = yes
 
 	h_mam_mission_1 = { #Prosperity in Cairo
-		icon = mission_bedouins
+		icon = mission_arabian_fort
 		position = 1
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -181,7 +181,7 @@ h_mam_missions_main = {
 		}
 	}
 	h_mam_mission_2 = { #Develop the Nile
-		icon = mission_bedouins
+		icon = mission_early_game_buildings
 		position = 2
 		required_missions = { h_mam_mission_1 }
 		provinces_to_highlight = {
@@ -244,7 +244,7 @@ h_mam_missions_main = {
 	}
 	h_mam_mission_3 = { #Reform the Mamluks
 		position = 3
-		icon = mission_bedouins
+		icon = mission_egyptian_mamluk_soldier
 		required_missions = { h_mam_mission_2 }
 		provinces_to_highlight = {
 		}
@@ -268,7 +268,7 @@ h_mam_missions_main = {
 		}
 	}
 	h_mam_mission_4 = { #The Mamluk Caliphate
-		icon = mission_bedouins
+		icon = mission_non-western_soldiers
 		position = 4
 		required_missions = { h_mam_mission_3 }
 		provinces_to_highlight = {
@@ -305,7 +305,7 @@ h_mam_missions_secondary = {
 	has_country_shield = yes
 
 	h_mam_mission_5 = { #The Great Library
-		icon = mission_bedouins
+		icon = mission_rb_seize_alexandria
 		position = 1
 		required_missions = {  }
 		provinces_to_highlight = {
