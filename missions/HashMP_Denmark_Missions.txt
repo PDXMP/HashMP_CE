@@ -2782,10 +2782,16 @@ h_danish_missions_main_1 = {
 		trigger = {
 			religious_unity = 0.9
 			OR = {
-				religion = protestant
-				religion = reformed
-				religion = anglican
-				religion = hussite
+				AND = {
+					is_year = 1550
+					religion = catholic
+				}
+				OR = {
+					religion = protestant
+					religion = reformed
+					religion = anglican
+					religion = hussite
+				}
 			}
 		}
 		effect = {
