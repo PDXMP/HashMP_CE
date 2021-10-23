@@ -2,6 +2,8 @@
  t_over_merc_cap_early:0 "Mercenary Limit Reached"
  t_over_merc_cap_mid:0 "Mercenary Limit Reached"
  t_over_merc_cap_late:0 "Mercenary Limit Reached"
+ h_merc_colonial_militia:0 "Colonial Militia"
+ h_merc_dominion_minutemen:0 "Minutemen"
  h_merc_lothair:0 "Sons of Lothair"
  h_merc_likedeelers:0 "Likedeelers"
  h_merc_magyar:0 "Imperial Jaegerkorps"
