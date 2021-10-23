@@ -1520,7 +1520,7 @@ papal_sanction_for_holy_war = {
 
 papal_legate = {
 	diplomatic_reputation = 1
-	diplomatic_upkeep = 1
+	diplomatic_annexation_cost = -0.10
 	religion = yes
 }
 
