@@ -1131,7 +1131,7 @@ the_licensing_of_the_press_act = {
 }
 
 the_dissolution_act = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = diplomatic_ideas
@@ -1142,9 +1142,9 @@ the_dissolution_act = {
 		full_idea_group = diplomatic_ideas
 		full_idea_group = economic_ideas
 	}
-	
-	great_project_upgrade_cost = -0.33
+
 	center_of_trade_upgrade_cost = -0.25
+	global_own_trade_power = 0.15
 
 	ai_will_do = {
 		factor = 1
