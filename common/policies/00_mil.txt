@@ -380,7 +380,7 @@ pen_rely_on_sword_act = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	mercenary_manpower = 0.25
+	mercenary_manpower = 0.33
 	movement_speed = 0.1
 	
 	ai_will_do = {
