@@ -361,7 +361,7 @@ categories =  {
 		
 		terrain_override = {
 			#Mamluks
-			365 382
+			365 382 378
 			#Tunis
 			336 2458 1751
 
@@ -788,7 +788,7 @@ categories =  {
 			2131 2132 2133 2134 2135 2165 2167 2168 2170 2748 2183 
 			3001 4176 #Balkans
 			4199 #Greater China
-			145 378 2209 2235 2313 4293 4294 4295 4298 4313 #Middle East
+			145 2209 2235 2313 4293 4294 4295 4298 4313 #Middle East
 			2734 4860 4859 #Australia & New Zeeland
 			460 1968 #Central Asia
 			4027 4029 4030 #Madagascar
