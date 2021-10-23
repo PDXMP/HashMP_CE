@@ -598,9 +598,24 @@ country_event = {
 			claim = 100
 			male = yes
 			min_age = 18
-			adm = 1
-			dip = 1
-			mil = 1
+			random_list = {
+				10 = { 
+					max_random_adm = 6
+					max_random_dip = 5
+					max_random_mil = 4
+				}
+				10 = { 
+					max_random_adm = 4
+					max_random_dip = 6
+					max_random_mil = 5
+				}
+				10 = { 
+					max_random_adm = 5
+					max_random_dip = 4
+					max_random_mil = 6
+				}
+			}
+			
 		}
 
 		hidden_effect = { set_ruler_flag = polish_ruler }
@@ -622,9 +637,23 @@ country_event = {
 			claim = 100
 			male = yes
 			min_age = 18
-			adm = 1
-			dip = 1
-			mil = 1
+			random_list = {
+				10 = { 
+					max_random_adm = 5
+					max_random_dip = 4
+					max_random_mil = 4
+				}
+				10 = { 
+					max_random_adm = 4
+					max_random_dip = 5
+					max_random_mil = 4
+				}
+				10 = { 
+					max_random_adm = 4
+					max_random_dip = 4
+					max_random_mil = 5
+				}
+			}
 		}
 
 		hidden_effect = { set_ruler_flag = compromise_ruler }
@@ -663,12 +692,27 @@ country_event = {
 
 		define_ruler = {
 			dynasty = original_dynasty
+			culture = lithuanian
 			claim = 100
 			male = yes
 			min_age = 20
-			adm = 1
-			dip = 1
-			mil = 1
+			random_list = {
+				10 = { 
+					max_random_adm = 6
+					max_random_dip = 5
+					max_random_mil = 4
+				}
+				10 = { 
+					max_random_adm = 4
+					max_random_dip = 6
+					max_random_mil = 5
+				}
+				10 = { 
+					max_random_adm = 5
+					max_random_dip = 4
+					max_random_mil = 6
+				}
+			}
 		}
 
 		hidden_effect = { set_ruler_flag = lithuanian_ruler }
@@ -676,25 +720,24 @@ country_event = {
 	
 	option = {
 		name = HashMP_Poland.107.e
-		custom_tooltip =HashMP_Polish_Influence_Tooltip_1
 
 		add_estate_loyalty = {
 			estate = estate_lithuanian_nobility
-			loyalty = -10
+			loyalty = -15
 		}
 
 		add_estate_loyalty = {
 			estate = estate_polish_nobility
-			loyalty = -10
+			loyalty = -15
 		}
 
 		define_ruler = {
 			male = yes
 			claim = 20
 			min_age = 20
-			adm = 3
-			mil = 3
-			dip = 3
+			adm = 2
+			mil = 2
+			dip = 2
 		}
 
 		hidden_effect = { set_ruler_flag = foreign_noble }
