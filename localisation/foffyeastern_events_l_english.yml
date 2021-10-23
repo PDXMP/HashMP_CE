@@ -54,11 +54,46 @@
  #polish lithuanian civil war events
  HashMP_Poland_Disaster.1.a:0 "The Commonwealth will survive"
  HashMP_Poland_Disaster.1.t:0 "Civil War between the Sejm and the Bajorais"
- HashMP_Poland_Disaster.1.d:0 "The tensions between the Polish Sejm and the Lithuanian Bajorais have reached a breaking point. Both factions have called their banners and for the time being, refuse to try any negotiations. While this conflict is on-going we will have great problems to consolidate our subjects, we must force both factions to stand down and bow to [Root.GetName].
+ HashMP_Poland_Disaster.1.d:0 "The tensions between the Polish Sejm and the Lithuanian Bajorais have reached a breaking point. Both factions have called their banners and for the time being, refuse to try any negotiations. While this conflict is on-going we will have great problems to consolidate our subjects, we must force both factions to stand down and bow to [Root.GetName]."
  
  HashMP_Poland_Disaster.2.a:0 "The Nobility has been reigned in"
  HashMP_Poland_Disaster.2.t:0 "End of the Civil War"
- HashMP_Poland_Disaster.2.d:0 "While the Polish and the Lithuanian nobilities fought, [Root.GetName] managed to raise enough loyal troops and support to defeat both factions, that have seen their influence curtailed for the time being. Even if this civil war is behind us now, the Commonwealth has suffered enough loses to be set back for the time being. Will we ever leave the cycles of hatred between Polish and Lithuanians behind? 
+ HashMP_Poland_Disaster.2.d:0 "While the Polish and the Lithuanian nobilities fought, [Root.GetName] managed to raise enough loyal troops and support to defeat both factions, that have seen their influence curtailed for the time being. Even if this civil war is behind us now, the Commonwealth has suffered enough loses to be set back for the time being. Will we ever leave the cycles of hatred between Polish and Lithuanians behind?"
+
+ HashMP_Poland_Disaster.4.t:0 "Kiev demands representation"
+ HashMP_Poland_Disaster.4.d:0 "In periods of strife, smaller nobles would use the opportunity to push for demands in exchange of their services and loyalty. Today, the nobility from Kiev are offering us their support on the civil war, if only we would give them more representation on the court"
+ HashMP_Poland_Disaster.4.a:0 "Traitors, arrest them!"
+ HashMP_Poland_Disaster.4.b:0 "Chaos is a ladder"
+ HashMP_Poland_Disaster.4.c:0 "We shall meet their demands"
+   
+ HashMP_Poland_Disaster.5.t:0 "Smolensk demands representation"
+ HashMP_Poland_Disaster.5.d:0 "In periods of strife, smaller nobles would use the opportunity to push for demands in exchange of their services and loyalty. Today, the nobility from Smolensk are offering us their support on the civil war, if only we would give them more representation on the court" 
+ HashMP_Poland_Disaster.5.a:0 "Traitors, arrest them!"
+ HashMP_Poland_Disaster.5.b:0 "Chaos is a ladder"
+ HashMP_Poland_Disaster.5.c:0 "We shall meet their demands"
+ 
+ HashMP_Poland_Disaster.6.t:0 "Chernigov demands representation"
+ HashMP_Poland_Disaster.6.d:0 "In periods of strife, smaller nobles would use the opportunity to push for demands in exchange of their services and loyalty. Today, the nobility from Chernigov are offering us their support on the civil war, if only we would give them more representation on the court"
+ HashMP_Poland_Disaster.6.a:0 "Traitors, arrest them!"
+ HashMP_Poland_Disaster.6.b:0 "Chaos is a ladder"
+ HashMP_Poland_Disaster.6.c:0 "We shall meet their demands"
+ 
+ HashMP_Poland_Disaster.7.t:0 "Zaphorozie demands representation"
+ HashMP_Poland_Disaster.7.d:0 "In periods of strife, smaller nobles would use the opportunity to push for demands in exchange of their services and loyalty. Today, the nobility from Zaphorozie are offering us their support on the civil war, if only we would give them more representation on the court"
+ HashMP_Poland_Disaster.7.a:0 "Traitors, arrest them!"
+ HashMP_Poland_Disaster.7.b:0 "Chaos is a ladder"
+ HashMP_Poland_Disaster.7.c:0 "We shall meet their demands"
+ 
+ HashMP_Poland_Disaster.8.t:0 "Polostk demands representation"
+ HashMP_Poland_Disaster.8.d:0 "In periods of strife, smaller nobles would use the opportunity to push for demands in exchange of their services and loyalty. Today, the nobility from Polostk are offering us their support on the civil war, if only we would give them more representation on the court"
+ HashMP_Poland_Disaster.8.a:0 "Traitors, arrest them!"
+ HashMP_Poland_Disaster.8.b:0 "Chaos is a ladder"
+ HashMP_Poland_Disaster.8.c:0 "We shall meet their demands"
+ 
+ HashMP_Poland_Disaster.8.t:0 "Lithuania declares an ultimatum"
+ HashMP_Poland_Disaster.8.d:0 "The bajorais have made an ultimatum. Unless their rights, religion and culture is respected they will secede from the commonwealth and forge their own path, should we refuse their ultimatum, the civil war in Poland-Lithuania will escalate into full grown violence. Although... we can always accept, for now."
+ HashMP_Poland_Disaster.8.a:0 "Et tu, brute?"
+ HashMP_Poland_Disaster.8.b:0 "We accept responsability"
 
  #polish events
  HashMP_Poland.101.t:0 "The Sejm Proposes the Invasion of Silesia"
