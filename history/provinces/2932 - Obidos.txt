@@ -1,0 +1,23 @@
+# - Waddai
+
+culture = nubian 
+religion = shamanism #Fetishism
+capital = "Ouara"
+native_size = 50
+native_ferocity = 4
+native_hostileness = 9 
+#trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+owner = DAR
+controller = DAR
+add_core = DAR
+discovered_by = NUB
+is_city = yes
+discovered_by = ETH
+trade_goods = slaves
+
+1635.1.1 = { religion = sunni }
