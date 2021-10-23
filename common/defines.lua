@@ -552,7 +552,7 @@ NCountry = {
 	ESTATE_MIN_DISTRIBUTED_CROWNLAND = 30.5, 	-- Minimum of crownland when distributing land at start
 	ESTATE_CROWNLAND_INFLUENCE = 60.0,			-- Crownland has n% influence, this is modified by absolutism.
 	ESTATE_START_CROWNLAND_INFLUENCE = 10.0,	-- Crownland has n% influence at start of a new game.
-	ESTATE_CROWNLAND_FROM_DEV = 0.2,			-- How much crownland you gain from developing a province.
+	ESTATE_CROWNLAND_FROM_DEV = 0.15,			-- How much crownland you gain from developing a province.
 
 	ESTATE_PRIVILEGE_ADMIN_COST = 0,			-- Cost of granting a privilege
 	ESTATE_PRIVILEGES_MAX_CONCURRENT = 4,		-- Max. number of privileges active at the same time
