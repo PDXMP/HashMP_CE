@@ -4,6 +4,10 @@
 # by Foffy123
 ########################################
 
+h_alte_salzstrase = {
+	trade_goods_size = 1
+}
+
 basic_polders = {
 	local_development_cost = -0.30
 }
