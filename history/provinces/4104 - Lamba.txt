@@ -13,6 +13,6 @@ native_hostileness = 9
 discovered_by = central_african
 
 is_city = yes
-add_core = CKW
-owner = CKW
-controller = CKW
+add_core = KZB
+owner = KZB
+controller = KZB
