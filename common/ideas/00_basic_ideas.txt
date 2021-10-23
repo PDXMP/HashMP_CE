@@ -1092,13 +1092,6 @@ administrative_ideas = {
 humanist_ideas = {
 	category = ADM
 
-	trigger = {
-		OR = {
-			was_player = yes
-			is_colonial_nation = yes
-		}
-	}
-
 	bonus = {
 		idea_cost = -0.10
 	}
