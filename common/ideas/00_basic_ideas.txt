@@ -1106,15 +1106,15 @@ humanist_ideas = {
 	}
 
 	tolerance_idea = {
-		religious_unity = 0.25
+		no_religion_penalty = yes
 	}
 	local_traditions = {
 		global_unrest = -2
 		monthly_splendor = 3
 	}
-	ecumenism = {
-		tolerance_heathen = 2
-		tolerance_heretic = 2
+	cultural_ties = {
+		num_accepted_cultures = 2
+		promote_culture_cost = -0.50
 	}
 	indirect_rule = {
 		global_regiment_cost = -0.05
@@ -1122,14 +1122,14 @@ humanist_ideas = {
 		free_leader_pool = 1
 	}
 	benevolence = {
-		same_culture_advisor_cost = -0.25
-	}
-	cultural_ties = {
-		num_accepted_cultures = 2
-		promote_culture_cost = -0.50
+		same_culture_advisor_cost = -0.20
 	}
 	humanist_tolerance = {
 		global_trade_goods_size_modifier = 0.10
+	}
+	ecumenism = {
+		land_morale = 0.05
+		reserves_organisation = 0.20
 	}
 
 	ai_will_do = {
