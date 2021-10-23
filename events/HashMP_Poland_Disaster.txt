@@ -8,12 +8,13 @@ country_event = {
 	picture = CIVIL_WAR_eventPicture
 	major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
+	
 	mean_time_to_happen = {
 		days = 1
 	}
 	
 	immediate = {
+		hidden_effect = { set_country_flag = polish_lithuanian_cw }
 		random_owned_province = {
 			limit = {
 				is_core = ROOT 
@@ -28,13 +29,12 @@ country_event = {
 			}
 			add_local_autonomy = 25
 		}
-		set_country_flag = polish_lithuanian_cw
 	}
 	
 	option = {
 		name = "HashMP_Poland_Disaster.1.a"
 		add_prestige = -10
-		add_estate_loyalty_modifier = {
+		add_estate_influence_modifier = {
 			estate = estate_polish_nobility
 			desc = HashMP_Poland_Disaster_rebel
 			influence = -20
@@ -47,7 +47,7 @@ country_event = {
 			duration = 14600
 		}
 	}
-}
+} 	
 
 # End of Civil War
 country_event = {
@@ -62,7 +62,6 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
 	
 	option = {
 		name = "HashMP_Poland_Disaster.2.a"
@@ -84,6 +83,11 @@ country_event = {
 			influence = -20
 			duration = 7300
 		}
+		
+		remove_country_modifier = h_polish_magnate_support
+		remove_country_modifier = h_polish_minor_concesions
+		remove_country_modifier = h_polish_major_concesions
+		remove_country_modifier = h_polish_total_concesions
 	}
 	
 	
@@ -121,14 +125,699 @@ country_event = {
 	option = {
 		name = "flavor_lit.EVTOPTB11"
 		LIT = {
-			every_owned_province = {
-				limit = {
-					unrest = 1
-					is_core = ROOT
-				}
+			random_owned_province = {
+				create_revolt = 1
+			}
+			random_owned_province = {
+				create_revolt = 1
+			}
+			random_owned_province = {
+				create_revolt = 1
+			}
+			random_owned_province = {
 				create_revolt = 1
 			}
 		}
 
+	}
+}
+
+# Kiev demands representation
+country_event = {
+	id = HashMP_Poland_Disaster.4
+	title = "HashMP_Poland_Disaster.4.t"
+	desc = "HashMP_Poland_Disaster.4.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		KIE = { 
+			is_subject_of = POL 
+			NOT = {
+				liberty_desire = 50
+			}	
+		}
+	}
+
+	option = {
+		name = "HashMP_Poland_Disaster.4.a"
+
+		capital_scope = {
+			KIE = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+			}
+		}
+		
+		KIE = {
+			declare_war_with_cb = {
+				who = POL
+				casus_belli = cb_independence_war	
+			}		
+		}
+	}
+	option = {
+		name = "HashMP_Poland_Disaster.4.b"
+		KIE = {
+			add_liberty_desire = 25
+		}
+		hidden = {
+			POL = {
+				set_country_flag = polish_cw_kie_rebel
+			}
+		}
+	}
+	option = {
+		name = "HashMP_Poland_Disaster.4.c"
+		add_years_of_income = -0.5
+		KIE = {
+			add_liberty_desire = -25
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					OR = {
+						NOT = { has_country_flag = h_polish_minor_concesions}
+						NOT = { has_country_flag = h_polish_major_concesions}
+						NOT = { has_country_flag = h_polish_total_concesions}
+					}
+				}
+			}
+			POL = {
+				set_country_flag = h_polish_minor_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					has_country_flag = h_polish_minor_concesions
+				}
+			}
+			POL = {
+				set_country_flag = h_polish_major_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = h_polish_major_concesions
+			}
+			POL = {
+				set_country_flag = h_polish_total_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = h_polish_total_concesions
+			}
+			POL = {
+				add_stability = -1
+			}
+		}
+	}
+}
+
+# SMO demands representation
+country_event = {
+	id = HashMP_Poland_Disaster.5
+	title = "HashMP_Poland_Disaster.5.t"
+	desc = "HashMP_Poland_Disaster.5.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		SMO = { 
+			is_subject_of = POL 
+			NOT = {
+				liberty_desire = 50
+			}	
+		}
+	}
+
+	option = {
+		name = "HashMP_Poland_Disaster.5.a"
+
+		capital_scope = {
+			SMO = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+			}
+		}
+		
+		SMO = {
+			declare_war_with_cb = {
+				who = POL
+				casus_belli = cb_independence_war	
+			}		
+		}
+	}
+	option = {
+		name = "HashMP_Poland_Disaster.5.b"
+		SMO = {
+			add_liberty_desire = 25
+		}
+		hidden = {
+			POL = {
+				set_country_flag = polish_cw_smo_rebel
+			}
+		}
+	}
+	option = {
+		name = "HashMP_Poland_Disaster.5.c"
+		add_years_of_income = -0.5
+		SMO = {
+			add_liberty_desire = -25
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					OR = {
+						NOT = { has_country_flag = h_polish_minor_concesions}
+						NOT = { has_country_flag = h_polish_major_concesions}
+						NOT = { has_country_flag = h_polish_total_concesions}
+					}
+				}
+			}
+			POL = {
+				set_country_flag = h_polish_minor_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					has_country_flag = h_polish_minor_concesions
+				}
+			}
+			POL = {
+				set_country_flag = h_polish_major_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = h_polish_major_concesions
+			}
+			POL = {
+				set_country_flag = h_polish_total_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = h_polish_total_concesions
+			}
+			POL = {
+				add_stability = -1
+			}
+		}
+	}
+}
+
+# Chernigov demands representation
+country_event = {
+	id = HashMP_Poland_Disaster.6
+	title = "HashMP_Poland_Disaster.6.t"
+	desc = "HashMP_Poland_Disaster.6.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		CHR = { 
+			is_subject_of = POL 
+			NOT = {
+				liberty_desire = 50
+			}	
+		}
+	}
+
+	option = {
+		name = "HashMP_Poland_Disaster.6.a"
+
+		capital_scope = {
+			CHR = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+			}
+		}
+		
+		CHR = {
+			declare_war_with_cb = {
+				who = POL
+				casus_belli = cb_independence_war	
+			}		
+		}
+	}
+	option = {
+		name = "HashMP_Poland_Disaster.6.b"
+		CHR = {
+			add_liberty_desire = 25
+		}
+		hidden = {
+			POL = {
+				set_country_flag = polish_cw_chr_rebel
+			}
+		}
+	}
+	option = {
+		name = "HashMP_Poland_Disaster.6.c"
+		add_years_of_income = -0.5
+		CHR = {
+			add_liberty_desire = -25
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					OR = {
+						NOT = { has_country_flag = h_polish_minor_concesions}
+						NOT = { has_country_flag = h_polish_major_concesions}
+						NOT = { has_country_flag = h_polish_total_concesions}
+					}
+				}
+			}
+			POL = {
+				set_country_flag = h_polish_minor_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					has_country_flag = h_polish_minor_concesions
+				}
+			}
+			POL = {
+				set_country_flag = h_polish_major_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = h_polish_major_concesions
+			}
+			POL = {
+				set_country_flag = h_polish_total_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = h_polish_total_concesions
+			}
+			POL = {
+				add_stability = -1
+			}
+		}
+	}
+}
+
+# ZAZ demands representation
+country_event = {
+	id = HashMP_Poland_Disaster.7
+	title = "HashMP_Poland_Disaster.7.t"
+	desc = "HashMP_Poland_Disaster.7.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		ZAZ = { 
+			is_subject_of = POL 
+			NOT = {
+				liberty_desire = 50
+			}	
+		}
+	}
+
+	option = {
+		name = "HashMP_Poland_Disaster.7.a"
+
+		capital_scope = {
+			ZAZ = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+			}
+		}
+		
+		ZAZ = {
+			declare_war_with_cb = {
+				who = POL
+				casus_belli = cb_independence_war	
+			}		
+		}
+	}
+	option = {
+		name = "HashMP_Poland_Disaster.7.b"
+		ZAZ = {
+			add_liberty_desire = 25
+		}
+		hidden = {
+			POL = {
+				set_country_flag = polish_cw_zaz_rebel
+			}
+		}
+	}
+	option = {
+		name = "HashMP_Poland_Disaster.7.c"
+		add_years_of_income = -0.5
+		ZAZ = {
+			add_liberty_desire = -25
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					OR = {
+						NOT = { has_country_flag = h_polish_minor_concesions}
+						NOT = { has_country_flag = h_polish_major_concesions}
+						NOT = { has_country_flag = h_polish_total_concesions}
+					}
+				}
+			}
+			POL = {
+				set_country_flag = h_polish_minor_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					has_country_flag = h_polish_minor_concesions
+				}
+			}
+			POL = {
+				set_country_flag = h_polish_major_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = h_polish_major_concesions
+			}
+			POL = {
+				set_country_flag = h_polish_total_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = h_polish_total_concesions
+			}
+			POL = {
+				add_stability = -1
+			}
+		}
+	}
+}
+
+# PLT demands representation
+country_event = {
+	id = HashMP_Poland_Disaster.8
+	title = "HashMP_Poland_Disaster.8.t"
+	desc = "HashMP_Poland_Disaster.8.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		PLT = { 
+			is_subject_of = POL 
+			NOT = {
+				liberty_desire = 50
+			}	
+		}
+	}
+
+	option = {
+		name = "HashMP_Poland_Disaster.8.a"
+
+		capital_scope = {
+			PLT = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+			}
+		}
+		
+		PLT = {
+			declare_war_with_cb = {
+				who = POL
+				casus_belli = cb_independence_war	
+			}		
+		}
+	}
+	option = {
+		name = "HashMP_Poland_Disaster.8.b"
+		PLT = {
+			add_liberty_desire = 25
+		}
+		hidden = {
+			POL = {
+				set_country_flag = polish_cw_plt_rebel
+			}
+		}
+	}
+	option = {
+		name = "HashMP_Poland_Disaster.8.c"
+		add_years_of_income = -0.5
+		PLT = {
+			add_liberty_desire = -25
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					OR = {
+						NOT = { has_country_flag = h_polish_minor_concesions}
+						NOT = { has_country_flag = h_polish_major_concesions}
+						NOT = { has_country_flag = h_polish_total_concesions}
+					}
+				}
+			}
+			POL = {
+				set_country_flag = h_polish_minor_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					has_country_flag = h_polish_minor_concesions
+				}
+			}
+			POL = {
+				set_country_flag = h_polish_major_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = h_polish_major_concesions
+			}
+			POL = {
+				set_country_flag = h_polish_total_concesions
+			}
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = h_polish_total_concesions
+			}
+			POL = {
+				add_stability = -1
+			}
+		}
+	}
+}
+
+# Lithuania declares ultimatum
+country_event = {
+	id = HashMP_Poland_Disaster.9
+	title = "HashMP_Poland_Disaster.9.t"
+	desc = "HashMP_Poland_Disaster.9.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		LIT = { 
+			is_lesser_in_union = yes 
+			NOT = {
+				liberty_desire = 90
+			}	
+		}
+	}
+
+	option = {
+		name = "HashMP_Poland_Disaster.9.a"
+
+		capital_scope = {
+			LIT = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				cavalry = PREV
+			}
+		}
+		if = {
+			limit = {
+				POL = {
+					has_country_flag = polish_cw_plt_rebel
+				}
+			}
+			LIT = {
+				vassalize = PLT
+			}
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					has_country_flag = polish_cw_chr_rebel
+				}
+			}
+			LIT = {
+				vassalize = CHR
+			}
+		}
+		
+				if = {
+			limit = {
+				POL = {
+					has_country_flag = polish_cw_smo_rebel
+				}
+			}
+			LIT = {
+				vassalize = SMO
+			}
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					has_country_flag = polish_cw_kie_rebel
+				}
+			}
+			LIT = {
+				vassalize = KIE
+			}
+		}
+		
+		if = {
+			limit = {
+				POL = {
+					has_country_flag = polish_cw_zaz_rebel
+				}
+			}
+			LIT = {
+				vassalize = ZAZ
+			}
+		}
+		
+		LIT = {
+			declare_war_with_cb = {
+				who = POL
+				casus_belli = cb_independence_war	
+			}		
+		}
+		
+		
+	}
+	option = {
+		name = "HashMP_Poland_Disaster.9.b"
+		POL = {
+			add_stability = -5
+			kill_ruler = yes
+			end_disaster = polish_lithuanian_civilwar
+		}
+		
 	}
 }
