@@ -524,7 +524,7 @@ colonial_garrisons = {
 }
 
 the_maritime_intelligencer_unit = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = naval_ideas
