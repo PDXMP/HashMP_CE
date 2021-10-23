@@ -487,3 +487,27 @@ h_reform_elective_monarchy = {
 		foreign_slave_rulers = yes
 	}
 }
+
+h_reform_declining_african_empire = {
+	icon = "fist_in_air"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 3
+	potential = {
+		AND = {
+			tag = MAL
+			is_subject = no
+		}
+	}
+	modifiers = {
+		global_trade_goods_size_modifier = 0.30
+		reduced_liberty_desire = 15
+		vassal_forcelimit_bonus = 2
+		all_power_cost = 0.25
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
