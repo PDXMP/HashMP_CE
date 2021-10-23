@@ -95,6 +95,14 @@ declarewar = {
 		}
 	}
 	condition = {
+		potential = { 
+			ROOT = { has_reform = h_reform_declining_african_empire }
+		}
+		allow = { 
+			always = no
+		}
+	}
+	condition = {
 		tooltip = h_tooltip_commanderywar
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
@@ -203,6 +211,25 @@ royal_marriage = {
 		tooltip = h_tooltip_nativemarry
 		potential = {
 			ROOT = { has_reform = h_reform_native_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_declining_african_empire
+				}
+			}
+		}
+	}
+	condition = {
+		potential = {
+			ROOT = { has_reform = h_reform_declining_african_empire }
 		}
 		allow = {
 			always = no
@@ -353,6 +380,25 @@ guaranteeaction = {
 			always = no
 		}
 	}
+	condition = {
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_declining_african_empire
+				}
+			}
+		}
+	}
+	condition = {
+		potential = {
+			ROOT = { has_reform = h_reform_declining_african_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 warningaction = {
@@ -369,6 +415,14 @@ warningaction = {
 		tooltip = h_tooltip_nativewarn
 		potential = {
 			ROOT = { has_reform = h_reform_native_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		potential = {
+			ROOT = { has_reform = h_reform_declining_african_empire }
 		}
 		allow = {
 			always = no
@@ -488,7 +542,6 @@ allianceaction = {
 		}
 	}
 	condition = {
-		tooltip = h_tooltip_allynative
 		potential = {
 		}
 		allow = {
@@ -498,19 +551,20 @@ allianceaction = {
 						tag = AZT
 						tag = INC
 						tag = MAY
+						tag = MAL
 					}
 				}
 			}
 		}
 	}
 	condition = {
-		tooltip = h_tooltip_nativeally
 		potential = {
 			ROOT = {
 				OR = {
 					tag = AZT
 					tag = INC
 					tag = MAY
+					tag = MAL
 				}
 			}
 		}
@@ -682,6 +736,25 @@ improve_relation = {
 		tooltip = h_tooltip_nativeimprove
 		potential = {
 			ROOT = { has_reform = h_reform_native_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_declining_african_empire
+				}
+			}
+		}
+	}
+	condition = {
+		potential = {
+			ROOT = { has_reform = h_reform_declining_african_empire }
 		}
 		allow = {
 			always = no
