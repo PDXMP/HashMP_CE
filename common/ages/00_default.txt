@@ -216,20 +216,12 @@ age_of_discovery = {
 				tag = DAN
 			}
 			modifier = {
-				reduced_liberty_desire = 30
-				diplomatic_annexation_cost = -0.25
-				diplomatic_reputation = 2
+				land_morale = 0.10
+				vassal_forcelimit_bonus = 0.25
+				reduced_liberty_desire = 10
 			}
 			ai_will_do = {
 				factor = 100
-				modifier = {
-					factor = 0
-					NOT = {
-						any_subject_country = {
-							liberty_desire = 20
-						}
-					}
-				}
 			}
 		}
 		ab_venice_ship_trade = {
