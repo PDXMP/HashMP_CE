@@ -14,7 +14,7 @@ interaction = {
 			limit = { NOT = { crown_land_share = 20 } }
 			add_years_of_estate_land_income = 0.5
 		}
-		if = { 
+		else_if = { 
 			limit = { crown_land_share = 20 }
 			add_years_of_estate_land_income = 0.75
 		}
