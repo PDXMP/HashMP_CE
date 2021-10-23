@@ -25,7 +25,7 @@ christian = {
 		}
 		country = {
 			tolerance_own = 1
-			land_morale = 0.05
+			global_heathen_missionary_strength = 0.01
 		}
 		
 		country_as_secondary = {
