@@ -1008,7 +1008,7 @@ PRU_ideas = {
 	}
 	army_professionalism = {
 		land_morale = 0.15
-		drill_gain_modifier = 0.10
+		drill_gain_modifier = 0.25
 	}
 	religious_toleration = {
 		tolerance_heretic = 1
