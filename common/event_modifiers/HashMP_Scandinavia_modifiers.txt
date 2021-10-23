@@ -463,12 +463,11 @@ h_swedish_carolean_regiments = {
 h_swedish_ga_pa_doctrine = {
 	land_maintenance_modifier = 0.10
 	recover_army_morale_speed = 0.05
-	leader_land_shock = 1
-	shock_damage = 0.10
+	shock_damage = 0.15
 }
 
 h_swedish_uppsala_university = {
-	innovativeness_gain = 0.25
+	innovativeness_gain = 0.50
 }
 
 h_swedish_age_of_liberty = {
@@ -522,7 +521,7 @@ h_swedish_allotment_system = {
 }
 
 h_swedish_baltic_supremacy = {
-	trade_efficiency = 0.15
+	trade_efficiency = 0.10
 }
 
 h_swedish_one_king_in_the_north = {
@@ -544,7 +543,7 @@ h_swedish_fleet = {
 h_swedish_neva_conquered = {
 	local_missionary_strength = 0.02
 	local_missionary_maintenance_cost = -0.50
-	local_culture_conversion_cost = -0.50
+	local_culture_conversion_cost = -0.33
 }
 
 h_swedish_enlightened_ruler = {
@@ -556,8 +555,7 @@ h_swedish_alexander_of_the_north = {
 }
 
 h_swedish_agriculture_boost = {
-	production_efficiency = 0.10
-	global_trade_goods_size_modifier = 0.05
+	global_trade_goods_size_modifier = 0.10
 }
 
 h_swedish_industry = {
@@ -566,7 +564,6 @@ h_swedish_industry = {
 
 h_swedish_naval_supremacy = {
 	naval_morale = 0.10
-	global_naval_engagement_modifier = 0.10
 }
 
 ##Override
@@ -577,9 +574,8 @@ swedish_military_reforms = {
 }
 
 swedish_mercenary_core = {
-	mercenary_discipline = 0.05
-	mercenary_cost = -0.10
-	mercenary_manpower = 0.15
+	mercenary_discipline = 0.025
+	mercenary_manpower = 0.20
 }
 
 swedish_naval_reforms = {

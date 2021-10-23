@@ -750,10 +750,10 @@ h_swedish_missions_4 = {
 			}
 		}
 		effect = {
-			add_ruler_modifier = {
-				name = h_swedish_enlightened_ruler
-				duration = -1
-			}
+			#add_ruler_modifier = {
+			#	name = h_swedish_enlightened_ruler
+			#	duration = -1
+			#}
 			add_country_modifier = {
 				name = h_swedish_uppsala_university
 				duration = -1
