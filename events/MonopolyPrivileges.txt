@@ -38,23 +38,36 @@ country_event = {
 		reapply_estate_privilege = { privilege = estate_vaisyas_monopoly_of_textiles }
 		reapply_estate_privilege = { privilege = estate_jains_monopoly_of_textiles }
 	}
+
 	option = {
 		name = monopoly_privileges.1.b
-		custom_tooltip = monopoly_privileges.1.b.tooltip
+		custom_tooltip = h_monopoly_privileges.1.b.tooltip
 
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					OR = {
-						trade_goods = cloth
-						trade_goods = silk
-					}
-				}
-				apply_estate_monopoly_modifier = { privilege = estate_burghers_monopoly_of_textiles }
-				apply_estate_monopoly_modifier = { privilege = estate_vaisyas_monopoly_of_textiles }
-				apply_estate_monopoly_modifier = { privilege = estate_jains_monopoly_of_textiles }
-			}
+		h_remove_estate_privilege = {
+			privilege = estate_burghers_monopoly_of_textiles
+			estate = estate_burghers
 		}
+		h_remove_estate_privilege = {
+			privilege = estate_vaisyas_monopoly_of_textiles
+			estate = estate_vaisyas
+		}
+		h_remove_estate_privilege = {
+			privilege = estate_jains_monopoly_of_textiles
+			estate = estate_jains
+		}
+		# hidden_effect = {
+		# 	every_owned_province = {
+		# 		limit = {
+		# 			OR = {
+		# 				trade_goods = cloth
+		# 				trade_goods = silk
+		# 			}
+		# 		}
+		# 		apply_estate_monopoly_modifier = { privilege = estate_burghers_monopoly_of_textiles }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_vaisyas_monopoly_of_textiles }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_jains_monopoly_of_textiles }
+		# 	}
+		# }
 	}
 }
 
@@ -92,18 +105,30 @@ country_event = {
 	}
 	option = {
 		name = monopoly_privileges.1.b
-		custom_tooltip = monopoly_privileges.2.b.tooltip
+		custom_tooltip = h_monopoly_privileges.2.b.tooltip
 
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = dyes
-				}
-				apply_estate_monopoly_modifier = { privilege = estate_burghers_monopoly_of_dyes }
-				apply_estate_monopoly_modifier = { privilege = estate_vaisyas_monopoly_of_dyes }
-				apply_estate_monopoly_modifier = { privilege = estate_jains_monopoly_of_dyes }
-			}
+		h_remove_estate_privilege = {
+			privilege = estate_burghers_monopoly_of_dyes
+			estate = estate_burghers
 		}
+		h_remove_estate_privilege = {
+			privilege = estate_vaisyas_monopoly_of_dyes
+			estate = estate_vaisyas
+		}
+		h_remove_estate_privilege = {
+			privilege = estate_jains_monopoly_of_dyes
+			estate = estate_jains
+		}
+		# hidden_effect = {
+		# 	every_owned_province = {
+		# 		limit = {
+		# 			trade_goods = dyes
+		# 		}
+		# 		apply_estate_monopoly_modifier = { privilege = estate_burghers_monopoly_of_dyes }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_vaisyas_monopoly_of_dyes }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_jains_monopoly_of_dyes }
+		# 	}
+		# }
 	}
 }
 
@@ -141,18 +166,30 @@ country_event = {
 	}
 	option = {
 		name = monopoly_privileges.1.b
-		custom_tooltip = monopoly_privileges.3.b.tooltip
+		custom_tooltip = h_monopoly_privileges.3.b.tooltip
 
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = glass
-				}
-				apply_estate_monopoly_modifier = { privilege = estate_burghers_monopoly_of_glass }
-				apply_estate_monopoly_modifier = { privilege = estate_vaisyas_monopoly_of_glass }
-				apply_estate_monopoly_modifier = { privilege = estate_jains_monopoly_of_glass }
-			}
+		h_remove_estate_privilege = {
+			privilege = estate_burghers_monopoly_of_glass
+			estate = estate_burghers
 		}
+		h_remove_estate_privilege = {
+			privilege = estate_vaisyas_monopoly_of_glass
+			estate = estate_vaisyas
+		}
+		h_remove_estate_privilege = {
+			privilege = estate_jains_monopoly_of_glass
+			estate = estate_jains
+		}
+		# hidden_effect = {
+		# 	every_owned_province = {
+		# 		limit = {
+		# 			trade_goods = glass
+		# 		}
+		# 		apply_estate_monopoly_modifier = { privilege = estate_burghers_monopoly_of_glass }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_vaisyas_monopoly_of_glass }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_jains_monopoly_of_glass }
+		# 	}
+		# }
 	}
 }
 
@@ -190,18 +227,30 @@ country_event = {
 	}
 	option = {
 		name = monopoly_privileges.1.b
-		custom_tooltip = monopoly_privileges.4.b.tooltip
+		custom_tooltip = h_monopoly_privileges.4.b.tooltip
 
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = paper
-				}
-				apply_estate_monopoly_modifier = { privilege = estate_burghers_monopoly_of_paper }
-				apply_estate_monopoly_modifier = { privilege = estate_vaisyas_monopoly_of_paper }
-				apply_estate_monopoly_modifier = { privilege = estate_jains_monopoly_of_paper }
-			}
+		h_remove_estate_privilege = {
+			privilege = estate_burghers_monopoly_of_paper
+			estate = estate_burghers
 		}
+		h_remove_estate_privilege = {
+			privilege = estate_vaisyas_monopoly_of_paper
+			estate = estate_vaisyas
+		}
+		h_remove_estate_privilege = {
+			privilege = estate_jains_monopoly_of_paper
+			estate = estate_jains
+		}
+		# hidden_effect = {
+		# 	every_owned_province = {
+		# 		limit = {
+		# 			trade_goods = paper
+		# 		}
+		# 		apply_estate_monopoly_modifier = { privilege = estate_burghers_monopoly_of_paper }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_vaisyas_monopoly_of_paper }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_jains_monopoly_of_paper }
+		# 	}
+		# }
 	}
 }
 
@@ -245,22 +294,38 @@ country_event = {
 	}
 	option = {
 		name = monopoly_privileges.1.b
-		custom_tooltip = monopoly_privileges.5.b.tooltip
+		custom_tooltip = h_monopoly_privileges.5.b.tooltip
 
+		h_remove_estate_privilege = {
+			privilege = estate_nobles_monopoly_of_metals
+			estate = estate_nobles
+		}
+		h_remove_estate_privilege = {
+			privilege = estate_rajput_monopoly_of_metals
+			estate = estate_rajput
+		}
+		h_remove_estate_privilege = {
+			privilege = estate_maratha_monopoly_of_metals
+			estate = estate_maratha
+		}
+		h_remove_estate_privilege = {
+			privilege = estate_polish_nobility_monopoly_of_metals
+			estate = estate_polish_nobility
+		}
 		#hidden_effect = {
-			every_owned_province = {
-				limit = {
-					OR = {
-						trade_goods = iron
-						trade_goods = copper
-					}
-				}
-				apply_estate_monopoly_modifier = { privilege = estate_nobles_monopoly_of_metals }
-				apply_estate_monopoly_modifier = { privilege = estate_rajput_monopoly_of_metals }
-				apply_estate_monopoly_modifier = { privilege = estate_maratha_monopoly_of_metals }
-				apply_estate_monopoly_modifier = { privilege = estate_polish_nobility_monopoly_of_metals }
+			# every_owned_province = {
+			# 	limit = {
+			# 		OR = {
+			# 			trade_goods = iron
+			# 			trade_goods = copper
+			# 		}
+			# 	}
+			# 	apply_estate_monopoly_modifier = { privilege = estate_nobles_monopoly_of_metals }
+			# 	apply_estate_monopoly_modifier = { privilege = estate_rajput_monopoly_of_metals }
+			# 	apply_estate_monopoly_modifier = { privilege = estate_maratha_monopoly_of_metals }
+			# 	apply_estate_monopoly_modifier = { privilege = estate_polish_nobility_monopoly_of_metals }
 
-			}
+			# }
 		#}
 	}
 }
@@ -306,19 +371,35 @@ country_event = {
 	}
 	option = {
 		name = monopoly_privileges.1.b
-		custom_tooltip = monopoly_privileges.6.b.tooltip
+		custom_tooltip = h_monopoly_privileges.6.b.tooltip
 
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = livestock
-				}
-				apply_estate_monopoly_modifier = { privilege = estate_nobles_monopoly_of_livestock }
-				apply_estate_monopoly_modifier = { privilege = estate_rajput_monopoly_of_livestock }
-				apply_estate_monopoly_modifier = { privilege = estate_maratha_monopoly_of_livestock }
-				apply_estate_monopoly_modifier = { privilege = estate_lithuanian_nobility_monopoly_of_livestock }
-			}
+		h_remove_estate_privilege = {
+			privilege = estate_nobles_monopoly_of_livestock
+			estate = estate_nobles
 		}
+		h_remove_estate_privilege = {
+			privilege = estate_rajput_monopoly_of_livestock
+			estate = estate_rajput
+		}
+		h_remove_estate_privilege = {
+			privilege = estate_maratha_monopoly_of_livestock
+			estate = estate_maratha
+		}
+		h_remove_estate_privilege = {
+			privilege = estate_lithuanian_nobility_monopoly_of_livestock
+			estate = estate_lithuanian_nobility
+		}
+		# hidden_effect = {
+		# 	every_owned_province = {
+		# 		limit = {
+		# 			trade_goods = livestock
+		# 		}
+		# 		apply_estate_monopoly_modifier = { privilege = estate_nobles_monopoly_of_livestock }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_rajput_monopoly_of_livestock }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_maratha_monopoly_of_livestock }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_lithuanian_nobility_monopoly_of_livestock }
+		# 	}
+		# }
 	}
 }
 
@@ -356,18 +437,30 @@ country_event = {
 	}
 	option = {
 		name = monopoly_privileges.1.b
-		custom_tooltip = monopoly_privileges.7.b.tooltip
+		custom_tooltip = h_monopoly_privileges.7.b.tooltip
 
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = gems
-				}
-				apply_estate_monopoly_modifier = { privilege = estate_nobles_monopoly_of_gems }
-				apply_estate_monopoly_modifier = { privilege = estate_rajput_monopoly_of_gems }
-				apply_estate_monopoly_modifier = { privilege = estate_maratha_monopoly_of_gems }
-			}
+		h_remove_estate_privilege = {
+			privilege = estate_nobles_monopoly_of_gems
+			estate = estate_nobles
 		}
+		h_remove_estate_privilege = {
+			privilege = estate_rajput_monopoly_of_gems
+			estate = estate_rajput
+		}
+		h_remove_estate_privilege = {
+			privilege = estate_maratha_monopoly_of_gems
+			estate = estate_maratha
+		}
+		# hidden_effect = {
+		# 	every_owned_province = {
+		# 		limit = {
+		# 			trade_goods = gems
+		# 		}
+		# 		apply_estate_monopoly_modifier = { privilege = estate_nobles_monopoly_of_gems }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_rajput_monopoly_of_gems }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_maratha_monopoly_of_gems }
+		# 	}
+		# }
 	}
 }
 
@@ -399,17 +492,25 @@ country_event = {
 	}
 	option = {
 		name = monopoly_privileges.1.b
-		custom_tooltip = monopoly_privileges.8.b.tooltip
+		custom_tooltip = h_monopoly_privileges.8.b.tooltip
 
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = incense
-				}
-				apply_estate_monopoly_modifier = { privilege = estate_church_monopoly_of_incense }
-				apply_estate_monopoly_modifier = { privilege = estate_brahmins_monopoly_of_incense }
-			}
+		h_remove_estate_privilege = {
+			privilege = estate_church_monopoly_of_incense
+			estate = estate_church
 		}
+		h_remove_estate_privilege = {
+			privilege = estate_brahmins_monopoly_of_incense
+			estate = estate_brahmins
+		}
+		# hidden_effect = {
+		# 	every_owned_province = {
+		# 		limit = {
+		# 			trade_goods = incense
+		# 		}
+		# 		apply_estate_monopoly_modifier = { privilege = estate_church_monopoly_of_incense }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_brahmins_monopoly_of_incense }
+		# 	}
+		# }
 	}
 }
 
@@ -441,17 +542,25 @@ country_event = {
 	}
 	option = {
 		name = monopoly_privileges.1.b
-		custom_tooltip = monopoly_privileges.9.b.tooltip
+		custom_tooltip = h_monopoly_privileges.9.b.tooltip
 
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = wool
-				}
-				apply_estate_monopoly_modifier = { privilege = estate_church_monopoly_of_wool }
-				apply_estate_monopoly_modifier = { privilege = estate_brahmins_monopoly_of_wool }
-			}
+		h_remove_estate_privilege = {
+			privilege = estate_church_monopoly_of_wool
+			estate = estate_church
 		}
+		h_remove_estate_privilege = {
+			privilege = estate_brahmins_monopoly_of_wool
+			estate = estate_brahmins
+		}
+		# hidden_effect = {
+		# 	every_owned_province = {
+		# 		limit = {
+		# 			trade_goods = wool
+		# 		}
+		# 		apply_estate_monopoly_modifier = { privilege = estate_church_monopoly_of_wool }
+		# 		apply_estate_monopoly_modifier = { privilege = estate_brahmins_monopoly_of_wool }
+		# 	}
+		# }
 	}
 }
 
@@ -474,16 +583,20 @@ country_event = {
 	}
 	option = {
 		name = monopoly_privileges.1.b
-		custom_tooltip = monopoly_privileges.10.b.tooltip
+		custom_tooltip = h_monopoly_privileges.10.b.tooltip
 
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = wine
-				}
-				apply_estate_monopoly_modifier = { privilege = estate_church_monopoly_of_wine }
-			}
+		h_remove_estate_privilege = {
+			privilege = estate_church_monopoly_of_wine
+			estate = estate_church
 		}
+		# hidden_effect = {
+		# 	every_owned_province = {
+		# 		limit = {
+		# 			trade_goods = wine
+		# 		}
+		# 		apply_estate_monopoly_modifier = { privilege = estate_church_monopoly_of_wine }
+		# 	}
+		# }
 	}
 }
 
@@ -506,15 +619,19 @@ country_event = {
 	}
 	option = {
 		name = monopoly_privileges.1.b
-		custom_tooltip = monopoly_privileges.11.b.tooltip
+		custom_tooltip = h_monopoly_privileges.11.b.tooltip
 
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = slaves
-				}
-				apply_estate_monopoly_modifier = { privilege = estate_church_monopoly_of_slaves }
-			}
+		h_remove_estate_privilege = {
+			privilege = estate_church_monopoly_of_slaves
+			estate = estate_church
 		}
+		# hidden_effect = {
+		# 	every_owned_province = {
+		# 		limit = {
+		# 			trade_goods = slaves
+		# 		}
+		# 		apply_estate_monopoly_modifier = { privilege = estate_church_monopoly_of_slaves }
+		# 	}
+		# }
 	}
 }

@@ -1,3 +1,18 @@
+h_remove_estate_privilege = {
+	if = {
+		limit = { 
+			can_revoke_estate_privilege = $privilege$
+		}
+		hidden_effect = {
+			remove_estate_privilege = $privilege$
+		}
+		add_estate_loyalty = {
+			estate = $estate$
+			loyalty = -20
+		}
+	}
+}
+
 h_update_cossacks_modifier_on_conquest_effect = {
 	if = {
 		limit = {
