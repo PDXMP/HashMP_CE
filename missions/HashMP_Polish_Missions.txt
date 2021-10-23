@@ -137,7 +137,6 @@ h_polish_develop_branch = {
 			owns_core_province = 2961
 			260 = {
 				development = 20			
-				has_manufactory_trigger = yes
 				if = {
 					limit = {
 						has_dlc = "Dharma"
@@ -153,7 +152,6 @@ h_polish_develop_branch = {
 			}
 			2961 = {
 				development = 20
-				has_manufactory_trigger = yes
 				if = {
 					limit = {
 						has_dlc = "Dharma"
