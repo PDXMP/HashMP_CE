@@ -2237,7 +2237,7 @@ industrialization = {
 	trade_company_efficiency = 2.0
 
 	bonus = {
-		global_manpower_modifier = 0.25
+		#global_manpower_modifier = 0.25
 		global_tax_modifier = 0.15
 	}
 
