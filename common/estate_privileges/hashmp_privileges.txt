@@ -83,8 +83,8 @@ h_noble_estate_mamluk_recruitment = {
 	icon = privilege_raise_host
 	max_absolutism = 0
 	land_share = 0
-	loyalty = -0.05
-	influence = 0.25
+	loyalty = 0
+	influence = 0.20
 	is_valid = {
 		tag = MAM
 	}
