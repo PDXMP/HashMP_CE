@@ -20,7 +20,6 @@ h_mam_reformed_mamluks = {
 
 h_mam_great_library = {
 	technology_cost = -0.05
-	global_institution_spread = 0.10
 }
 
 h_alte_salzstrase = {
