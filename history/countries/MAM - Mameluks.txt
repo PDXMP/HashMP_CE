@@ -76,7 +76,7 @@ change_estate_land_share = {
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = silver_tongue_personality
-	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = zealot_personality
 }
 
 1453.2.13 = {
