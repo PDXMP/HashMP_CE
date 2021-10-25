@@ -406,6 +406,7 @@ estate_nobles =
 		estate_nobles_monopoly_of_gems
 		estate_nobles_statutory_rights
 		estate_nobles_command_of_the_military
+		h_noble_estate_mamluk_recruitment
 	}
 
 	agendas = {

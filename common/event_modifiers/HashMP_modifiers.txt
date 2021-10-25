@@ -4,6 +4,24 @@
 # by Foffy123
 ########################################
 
+h_mam_nile = {
+	local_manpower_modifier = 0.33
+	trade_goods_size_modifier = 0.10
+}
+
+h_mam_nile_development = {
+	local_development_cost = -0.50
+}
+
+h_mam_reformed_mamluks = {
+	cavalry_power = 0.05
+	cavalry_cost = -0.10
+}
+
+h_mam_great_library = {
+	technology_cost = -0.05
+}
+
 h_alte_salzstrase = {
 	trade_goods_size = 1
 }
