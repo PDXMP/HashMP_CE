@@ -633,7 +633,7 @@ h_polish_internal_branch = {
 			LIT = { 
 				junior_union_with = POL 
 				NOT = {
-					liberty_desire = 0
+					liberty_desire = 1
 				}	
 			}
 			custom_trigger_tooltip = {
