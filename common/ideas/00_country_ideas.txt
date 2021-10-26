@@ -202,7 +202,7 @@ SWE_ideas = {
 	}
 	union_and_security_act = {
 		global_manpower_modifier = 0.10
-		regiment_recruit_speed = -0.10
+		global_regiment_recruit_speed = -0.10
 	}
 }
 
