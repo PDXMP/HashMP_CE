@@ -449,8 +449,7 @@ DAN_ideas = {
 		global_sailors_modifier = 0.20
 	}
 	klaedekammer = {
-		naval_maintenance_modifier = -0.10
-		dip_advisor_cost = -0.10
+		naval_maintenance_modifier = -0.15
 	}
 	den_danske_lov = {
 		global_unrest = -1
