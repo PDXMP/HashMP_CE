@@ -1092,7 +1092,7 @@ h_swedish_missions_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			naval_forcelimit = 100
+			naval_forcelimit = 50
 			navy_size_percentage = 1
 		}
 		effect = {
