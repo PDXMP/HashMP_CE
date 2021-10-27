@@ -2145,8 +2145,8 @@ h_merc_carolean = {
 		OR = {
 			tag = SWE
 			tag = SCA
-			NOT = { has_idea_group = aristocracy_ideas }
 		}
+		NOT = { has_idea_group = aristocracy_ideas }
 	}
 	modifier = {
         infantry_power = 0.1
