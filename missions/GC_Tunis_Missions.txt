@@ -316,31 +316,16 @@ gc_tunis_3 = {
 		
 		trigger = {
 			naval_forcelimit = 20
+			navy_size_percentage = 1
 		}
 		effect = {
 			define_admiral = {
 				shock = 3
 				fire = 3
-				manuever = 4
-				siege = 2
+				manuever = 3
+				siege = 1
 			}
-			
-			341 = {
-				add_unit_construction = {
-					type = galley
-					amount = 15
-					speed = 0.05
-					cost = 0
-				}
-			}
-			
-			add_country_modifier = {
-				name = "tun_med_blob"
-				duration = 7300
-			}
-			
-			
-			
+
 			western_sicily_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -369,16 +354,8 @@ gc_tunis_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			fezzan_area = { 
-				limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-			}		
 		}
-	
+	}
 	gc_tun_med_islands = {
 		icon = mission_seize_the_isles
 		required_missions = { gc_tun_fleet }
@@ -573,7 +550,6 @@ gc_tunis_4 = {
 		}
 		effect = {
 			add_yearly_sailors = 3
-			add_yearly_manpower = 3 
 			add_country_modifier = {
 				name = "tun_barbary_pirates"
 				duration = 7300

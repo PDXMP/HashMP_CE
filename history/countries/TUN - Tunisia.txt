@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = iqta
 primary_culture = tunisian
+add_accepted_culture = berber
 add_accepted_culture = algerian
-add_accepted_culture = moroccan
 religion = sunni
 technology_group = muslim
 capital = 341	# Tunis
@@ -30,8 +30,6 @@ change_estate_land_share = {
 		dip = 3
 		mil = 3
 	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = conqueror_personality
 }
 
 1440.4.4 = { leader = {	name = "Yusuf"	type = general	fire = 2	shock = 4	manuever = 3	siege = 2	death_date = 1448.6.2 } }
