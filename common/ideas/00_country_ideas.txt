@@ -1129,8 +1129,9 @@ POL_ideas = {
 	folwark_system = {
 		production_efficiency = 0.1
 	}
-	focus_on_field_defences = {
-		land_morale = 0.15
+	winged_hussars = {
+		cavalry_power = 0.25
+		cav_to_inf_ratio = 0.2
 	}
 	nihil_novi = {
 		stability_cost_modifier = -0.1
@@ -1140,15 +1141,14 @@ POL_ideas = {
 		global_manpower_modifier = 0.25
 		infantry_power = 0.10
 	}
-	winged_hussars = {
-		cavalry_power = 0.25
-		cav_to_inf_ratio = 0.2
-	}
 	wojsko_komputoe = {
-		global_regiment_cost = -0.10
+		land_maintenance_modifier = -0.05
 	}
 	foreign_section = {
 		discipline = 0.05
+	}
+	focus_on_field_defences = {
+		land_morale = 0.10
 	}
 }
 
