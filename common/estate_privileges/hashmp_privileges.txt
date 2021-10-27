@@ -111,3 +111,29 @@ h_noble_estate_mamluk_recruitment = {
 		factor = 5
 	}
 }
+
+h_church_estate_call_to_jihad = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	influence = 0.10
+	is_valid = {
+		OR = {
+			religion = sunni
+			religion = shiite
+			religion = ibadi
+		}
+	}
+	can_select = {
+		NOT = { has_estate_privilege = estate_church_clerical_ministers }
+	}
+	benefits = {
+		monthly_piety = -0.001
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
