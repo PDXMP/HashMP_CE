@@ -1014,7 +1014,7 @@ h_swedish_missions_5 = {
 				years = 5
 				trigger = {
 					trade_goods = iron
-					has_manufactory_no_custom_tooltip_trigger = yes
+					has_building = weapons
 				}
 			}
 			
