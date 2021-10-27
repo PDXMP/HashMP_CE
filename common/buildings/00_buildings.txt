@@ -59,7 +59,7 @@ temple = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_tax_modifier = 0.4
+		local_tax_modifier = 0.5
 	}
 	on_built = {
 		if = {
