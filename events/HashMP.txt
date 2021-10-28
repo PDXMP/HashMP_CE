@@ -17,11 +17,11 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		owns = 2212 #Zanjan
 		OR = {
 			tag = MUG
 			tag = PER
 		}
+		owns = 2212 #Zanjan
 		2212 = {
 			NOT = { trade_goods = gold }
 		}
@@ -689,7 +689,11 @@ country_event = { #Invite hussites
 	trigger = {
 		is_year = 1475
 		ai = no
-		NOT = { religion = hussite }
+		NOT = {
+			any_known_country = {
+				religion = hussite
+			}
+		}
 		capital_scope = {
 			OR = {
 				region = poland_region
@@ -698,11 +702,7 @@ country_event = { #Invite hussites
 				region = carpathia_region
 			}
 		}
-		NOT = {
-			any_known_country = {
-				religion = hussite
-			}
-		}
+		NOT = { religion = hussite }
 	}
 	
 	mean_time_to_happen = {
@@ -754,41 +754,41 @@ country_event = { #Invite hussites
 	
 }
 
-country_event = { #Inca claims
-	id = hashmp.14
-	title = hashmp.14.t
-	desc = hashmp.14.d
-	picture = COURT_eventPicture
+# country_event = { #Inca claims
+# 	id = hashmp.14
+# 	title = hashmp.14.t
+# 	desc = hashmp.14.d
+# 	picture = COURT_eventPicture
 	
-	fire_only_once = yes
-	hidden = yes
+# 	fire_only_once = yes
+# 	hidden = yes
 	
-	trigger = {
-		tag = INC
-	}
+# 	trigger = {
+# 		tag = INC
+# 	}
 	
-	mean_time_to_happen = {
-		months = 1
-	}
+# 	mean_time_to_happen = {
+# 		months = 1
+# 	}
 	
-	option = {
-		name = hashmp.2.a
-		peru_region = {
-			limit = {
-				NOT = { is_core = ROOT }
-				NOT = { is_permanent_claim = ROOT }
-			}
-		add_permanent_claim = ROOT
-		}
-		upper_peru_region = {
-			limit = {
-				NOT = { is_core = ROOT }
-				NOT = { is_permanent_claim = ROOT }
-			}
-		add_permanent_claim = ROOT
-		}
-	}
-}
+# 	option = {
+# 		name = hashmp.2.a
+# 		peru_region = {
+# 			limit = {
+# 				NOT = { is_core = ROOT }
+# 				NOT = { is_permanent_claim = ROOT }
+# 			}
+# 		add_permanent_claim = ROOT
+# 		}
+# 		upper_peru_region = {
+# 			limit = {
+# 				NOT = { is_core = ROOT }
+# 				NOT = { is_permanent_claim = ROOT }
+# 			}
+# 		add_permanent_claim = ROOT
+# 		}
+# 	}
+# }
 
 country_event = {
 	id = hashmp.15
@@ -838,9 +838,9 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		is_subject = no
 		adm_tech = 10
 		owns_or_non_sovereign_subject_of = 1210 #Dawaro
+		is_subject = no
 		tigray_area = {
 			type = all
 			country_or_non_sovereign_subject_holds = ROOT
