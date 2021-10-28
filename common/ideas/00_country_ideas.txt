@@ -2448,10 +2448,7 @@ SAV_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = SAV
-			tag = SPI
-		}
+		tag = SAV
 	}
 	free = yes		#will be added at load.
 	
