@@ -34,6 +34,32 @@ country_decisions = {
 		effect = {
 		}
 	}
+	#Credit to PR
+	h_muslim_school = {
+		major = yes
+		potential = {
+			AND = { 
+				religion_group = muslim
+				NOT = { has_country_modifier = h_muslim_school_cooldown }
+				ai = no
+			}
+		}
+		allow = {
+			NOT = { has_country_modifier = h_muslim_school_cooldown }
+		}
+		effect = {
+			country_event = {
+				id = hashmp.20
+			}
+			add_country_modifier = {
+				name = h_muslim_school_cooldown
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	h_combat_janissary_decadence = {
 		major = yes
 		potential = {

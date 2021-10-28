@@ -1165,6 +1165,122 @@ country_event = {
 	}
 }
 
+# Choosing muslim school
+country_event = {
+    id = hashmp.20
+    title = "hashmp.20.t"
+    desc = "hashmp.20.d"
+    picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = hanafi_school
+				}
+			}
+		}
+		name = hashmp.20.a # Hanafi
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = hanafi_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = hanbali_school
+				}
+			}
+		}
+		name = hashmp.20.b # Hanbali
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = hanbali_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = maliki_school
+				}
+			}
+		}
+		name = hashmp.20.c # Maliki
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = maliki_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = shafii_school
+				}
+			}
+		}
+		name = hashmp.20.d2 # Shafii
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = shafii_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = ismaili_school
+				}
+			}
+		}
+		name = hashmp.20.e # Ismaili
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = ismaili_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = jafari_school
+				}
+			}
+		}
+		name = hashmp.20.f # Jafari
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = jafari_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = zaidi_school
+				}
+			}
+		}
+		name = hashmp.20.g # Zaidi
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = zaidi_scholar_modifier duration = 7300 }
+	}
+}
+
 #Swedish Missions Event
 
 #Coronation of a Swedish King
