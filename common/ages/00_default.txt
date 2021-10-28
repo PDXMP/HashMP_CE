@@ -396,7 +396,11 @@ age_of_reformation = {
 	
 		ab_spain_tercio = {
 			allow = {
-				tag = SPA
+				OR = {
+					tag = POR
+					tag = SPA
+					tag = CAS
+				}
 			}
 			modifier = {
 				shock_damage_received = -0.10
