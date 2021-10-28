@@ -2502,6 +2502,9 @@ estate_church_clerical_ministers = {
 	icon = privilege_recruit_minister
 	max_absolutism = -5
 	influence = 0.10
+	can_select = {
+		NOT = { has_estate_privilege = h_church_estate_call_to_jihad }
+	}
 	conditional_modifier = {
 		trigger = {
 			if = {
