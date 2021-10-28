@@ -40,7 +40,6 @@ country_decisions = {
 		potential = {
 			AND = { 
 				religion_group = muslim
-				NOT = { has_country_modifier = h_muslim_school_cooldown }
 				ai = no
 			}
 		}
@@ -54,6 +53,7 @@ country_decisions = {
 			add_country_modifier = {
 				name = h_muslim_school_cooldown
 				duration = 3650
+				hidden = yes
 			}
 		}
 		ai_will_do = {
