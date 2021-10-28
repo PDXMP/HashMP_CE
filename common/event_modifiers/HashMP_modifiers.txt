@@ -12,6 +12,10 @@ bur_king_of_franks = {
 
 #
 
+h_fra_united = {
+	fire_damage = 0.15
+}
+
 h_muslim_school_cooldown = {
 
 }

@@ -247,6 +247,30 @@ emp_france_missions_1 = {
 			}
 		}
 	}
+	h_fra_unite_france = {
+		icon = mission_empire
+		required_missions = { }
+		position = 6
+		provinces_to_highlight = {
+			region = france_region
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		trigger = {
+			france_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = h_fra_united
+				duration = -1
+			}
+		}
+	}
 }
 emp_france_missions_1_b = {
 	slot = 1
