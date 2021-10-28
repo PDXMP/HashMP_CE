@@ -631,20 +631,22 @@ age_of_absolutism = {
 
 		ab_manchu_banner = {
 			allow = {
-				OR = {
-					tag = CSH
-					tag = YUE
-					tag = WUU
-					tag = QIC
-					tag = CXI
-					tag = CYI
-					tag = QNG
-					tag = MCH
-					tag = MJZ
-				}
+				technology_group = east_african
+				# OR = {
+				# 	tag = CSH
+				# 	tag = YUE
+				# 	tag = WUU
+				# 	tag = QIC
+				# 	tag = CXI
+				# 	tag = CYI
+				# 	tag = QNG
+				# 	tag = MCH
+				# 	tag = MJZ
+				# }
 			}
 			modifier = {
-				discipline = 0.05
+				hostile_attrition = 1
+				discipline = 0.03
 			}
 			ai_will_do = {
 				factor = 100
