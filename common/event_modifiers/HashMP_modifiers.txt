@@ -4,6 +4,14 @@
 # by Foffy123
 ########################################
 
+# Overide Modifiers
+
+bur_king_of_franks = {
+	fire_damage = 0.15
+}
+
+#
+
 h_muslim_school_cooldown = {
 
 }
