@@ -2581,8 +2581,7 @@ SPI_ideas = {
 		defensiveness = 0.25
 	}
 	the_shroud_of_turin = { #effect in SAV_ideas
-#		papal_influence = 1
-#		prestige = 0.5
+#		prestige = 1
 	}
 	spi_royal_sardinian_army = {
 		discipline = 0.03

@@ -1964,7 +1964,7 @@ DSA_ideas = { #South Africa
 
 TTS_ideas = { #By Xaime
 	start = {
-		manpower_recovery_speed = 0.15 ##Replacing max MP, intention to encourage more aggressive behaviour and benefits plus cut down scaling potential.
+		manpower_recovery_speed = 0.20 ##Replacing max MP, intention to encourage more aggressive behaviour and benefits plus cut down scaling potential.
 		land_morale = 0.10
 	}
 	
@@ -2000,6 +2000,7 @@ TTS_ideas = { #By Xaime
 	}
 	tts_six = { ##city_of_artists // Carried over prestige for consistency, loses out on legitimacy gain.
 		prestige = 1
+		development_cost = -0.05
 	}
 	tts_seven = { ##Hohenstaufen oppression against Muslims, eventually deported and sold into slavery. Jews were expelled once Spain had rule over Sicily. 
 		missionaries = 1
