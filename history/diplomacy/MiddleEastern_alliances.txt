@@ -23,12 +23,12 @@
 #	end_date = 1447.3.13 #Death of Shah Rokh
 #}
 #Abdallah bin Ibrahim, the Child ruler.
-vassal = {
-	first = TIM
-	second = FRS
-	start_date = 1444.1.1
-	end_date = 1447.3.13 #Death of Shah Rokh
-}
+# vassal = {
+# 	first = TIM
+# 	second = FRS
+# 	start_date = 1444.1.1
+# 	end_date = 1447.3.13 #Death of Shah Rokh
+# }
 #Babur bin Baysonqor
 #vassal = {
 #	first = TIM
@@ -241,12 +241,12 @@ vassal = {
 }
 
 #Sistan
-vassal = {
-	first = TIM
-	second = SIS
-	start_date = 1444.1.1 #1383 
-	end_date = 1449.2.1 #Khorasan
-}
+# vassal = {
+# 	first = TIM
+# 	second = SIS
+# 	start_date = 1444.1.1 #1383 
+# 	end_date = 1449.2.1 #Khorasan
+# }
 
 vassal = {
 	first = KHO
