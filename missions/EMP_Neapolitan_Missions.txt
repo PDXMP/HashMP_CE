@@ -117,7 +117,7 @@ emp_naples_2 = {
 #			}
 		}
 		effect = {
-			emilia_romagna_area = {
+			tuscany_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
