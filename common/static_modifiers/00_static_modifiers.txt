@@ -1118,7 +1118,7 @@ total_occupation = {
 }
 
 total_blockaded = {
-	war_exhaustion = 0.10					#increases exhaustion.
+	war_exhaustion = 0.05				#increases exhaustion.
 }
 
 uncontested_cores = {
