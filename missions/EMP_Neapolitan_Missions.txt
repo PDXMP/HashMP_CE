@@ -254,7 +254,7 @@ emp_naples_3 = {
 		}
 		effect = {
 			add_prestige = 20
-			tuscany_area = {
+			lazio_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
