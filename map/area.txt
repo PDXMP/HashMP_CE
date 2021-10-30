@@ -2870,7 +2870,8 @@ xilin_gol_area = {
 
 altai_sayan_area = { #3
 	color = { 203 84 84 }
-	718 2117 4222 4680 4682
+	718 4222 4680 4682 #2117
+	4206 #From Turpan
 }
 
 tannu_uriankhai_area = {#3
@@ -2878,11 +2879,13 @@ tannu_uriankhai_area = {#3
 }
 
 central_mongolia_area = { #3
-	720 2193 4221 4669 4677
+	720 4221 4669 4677 #2193
 }
 
 uliastai_area = {#3
-	719 2189 2190 4668 4678
+	719 2189 2190 #4668 4678
+	2117 #From Kobdo
+	2193 #From Gobi
 }
 
 jetysuu_area = { #5
@@ -2903,7 +2906,7 @@ shanshan_area = { #4
 }
 
 turpan_kumul_area = { #4
-	2122 4206 4207
+	2122 4207 #4206
 }
 
 zungaria_area = { #5
