@@ -14182,7 +14182,7 @@ TUN_ideas = {
 	}
 	tun_caliphate = {
 		tolerance_own = 1
-		monthly_piety = 0.001
+		land_morale = 0.10
 	}
 }
 

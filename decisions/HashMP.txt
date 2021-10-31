@@ -63,6 +63,7 @@ country_decisions = {
 	h_reorganize_estates = {
 		major = yes
 		potential = {
+			was_player = yes
 			NOT = {
 				OR = {
 					has_disaster_progress = {
@@ -124,6 +125,7 @@ country_decisions = {
 			}
 		}
 		allow = {
+			ai = no
 			if = {
 				limit = {
 					OR = {
