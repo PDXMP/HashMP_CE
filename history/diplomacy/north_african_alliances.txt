@@ -1,20 +1,20 @@
-# vassal = {
-# 	first = TUN
-# 	second = GHD
-# 	start_date = 1444.1.1
-# 	end_date = 1472.1.1
-# }
+vassal = {
+	first = TUN
+	second = GHD
+	start_date = 1444.1.1
+	end_date = 1472.1.1
+}
 
-# vassal = {
-# 	first = TUN
-# 	second = TGT
-# 	start_date = 1444.1.1
-# 	end_date = 1472.1.1
-# }
+vassal = {
+	first = TUN
+	second = TGT
+	start_date = 1444.1.1
+	end_date = 1472.1.1
+}
 
-# vassal = {
-# 	first = TUN
-# 	second = MZB
-# 	start_date = 1444.1.1
-# 	end_date = 1472.1.1
-# }
+vassal = {
+	first = TUN
+	second = MZB
+	start_date = 1444.1.1
+	end_date = 1472.1.1
+}
