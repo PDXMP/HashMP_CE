@@ -966,7 +966,7 @@ h_polish_lithuania_expansion_branch = {
 					ZAZ = {
 						is_subject_of = ROOT
 						NOT = {
-							liberty_desire = 0
+							liberty_desire = 1
 						}
 					}	
 				}
