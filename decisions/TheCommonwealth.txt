@@ -108,6 +108,13 @@ country_decisions = {
 					add_permanent_claim = PLC
 				}
 			}
+			if = {
+				limit = {
+					has_country_modifier = h_polish_cossack_training
+				}
+				remove_country_modifier = { h_polish_cossack_training }
+				add_country_modifier = { h_polish_cossack_support }
+			}
 			random_owned_province = {
 				limit = { culture = polish }
 				add_base_tax = 1
