@@ -404,19 +404,23 @@ h_danish_missions_christian_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			eastern_norway = {
+			osterdalen_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			northern_norway = {
+			nordland_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			western_norway = {
+			vestlandet_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			jemtland_area = {
+			viken_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			trondelag_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -616,7 +620,7 @@ h_danish_missions_christian_4 = {
 			}
 		}
 		effect = {
-			soderland_area = {
+			west_laponia_area = {
 				add_permanent_claim = ROOT
 			}
 
@@ -687,7 +691,7 @@ h_danish_missions_christian_4 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 
-			soderland_area = {
+			west_laponia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1705,19 +1709,23 @@ h_danish_missions_charles_3 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			eastern_norway = {
+			osterdalen_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			northern_norway = {
+			nordland_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			western_norway = {
+			vestlandet_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			jemtland_area = {
+			viken_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			trondelag_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1915,7 +1923,7 @@ h_danish_missions_charles_4 = {
 			}
 		}
 		effect = {
-			soderland_area = {
+			west_laponia_area = {
 				add_permanent_claim = ROOT
 			}
 
@@ -1986,7 +1994,7 @@ h_danish_missions_charles_4 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 
-			soderland_area = {
+			west_laponia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
