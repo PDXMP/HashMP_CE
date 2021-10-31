@@ -1,3 +1,14 @@
+h_remove_estate_privilege_rein_in_estates_effect = {
+	hidden_effect = {
+		if = {
+			limit = {
+				has_country_modifier = h_reorganize_estates
+			}
+			remove_country_modifier = h_reorganize_estates
+		}
+	}
+}
+
 h_remove_estate_privilege = {
 	if = {
 		limit = { 

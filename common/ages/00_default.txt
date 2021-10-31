@@ -396,10 +396,14 @@ age_of_reformation = {
 	
 		ab_spain_tercio = {
 			allow = {
-				tag = SPA
+				OR = {
+					tag = POR
+					tag = SPA
+					tag = CAS
+				}
 			}
 			modifier = {
-				shock_damage_received = -0.15
+				shock_damage_received = -0.10
 			}
 			ai_will_do = {
 				factor = 100
@@ -590,7 +594,7 @@ age_of_absolutism = {
 				tag = FRA
 			}
 			modifier = {
-				fire_damage = 0.15
+				fire_damage = 0.10
 			}
 			ai_will_do = {
 				factor = 100
@@ -601,9 +605,9 @@ age_of_absolutism = {
 				tag = NED
 			}
 			modifier = {
-				ship_durability = 0.1
+				ship_durability = 0.05
 				global_ship_recruit_speed = -0.25
-				naval_maintenance_modifier = -0.5
+				naval_maintenance_modifier = -0.10
 				naval_morale = 0.1
 			}
 			ai_will_do = {
@@ -627,20 +631,22 @@ age_of_absolutism = {
 
 		ab_manchu_banner = {
 			allow = {
-				OR = {
-					tag = CSH
-					tag = YUE
-					tag = WUU
-					tag = QIC
-					tag = CXI
-					tag = CYI
-					tag = QNG
-					tag = MCH
-					tag = MJZ
-				}
+				technology_group = east_african
+				# OR = {
+				# 	tag = CSH
+				# 	tag = YUE
+				# 	tag = WUU
+				# 	tag = QIC
+				# 	tag = CXI
+				# 	tag = CYI
+				# 	tag = QNG
+				# 	tag = MCH
+				# 	tag = MJZ
+				# }
 			}
 			modifier = {
-				discipline = 0.05
+				hostile_attrition = 1
+				discipline = 0.03
 			}
 			ai_will_do = {
 				factor = 100

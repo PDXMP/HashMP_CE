@@ -101,7 +101,7 @@ national_focus = DIP
 		death_date = 1481.8.28
 		claim = 95
 		adm = 3
-		dip = 2
+		dip = 5
 		mil = 2
 		leader = {	name = "Afonso V"	type = general	fire = 3	shock = 2	manuever = 3	siege = 1 }
 	}

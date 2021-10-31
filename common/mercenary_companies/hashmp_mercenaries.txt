@@ -2142,7 +2142,11 @@ h_merc_carolean = {
 	cavalry_cap = 0
 	cost_modifier = 0.75
 	trigger = {
-		tag = SWE
+		OR = {
+			tag = SWE
+			tag = SCA
+		}
+		NOT = { has_idea_group = aristocracy_ideas }
 	}
 	modifier = {
         infantry_power = 0.1
@@ -3511,6 +3515,7 @@ merc_finnish_company = {
 	sprites = { swe_base_sprite_pack westerngfx_sprite_pack }
 	trigger = {
 		tag = SCA
+		has_idea_group = aristocracy_ideas
 	}
     modifier = { 
 		cavalry_power = 0.2

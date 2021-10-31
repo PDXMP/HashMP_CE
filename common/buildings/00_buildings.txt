@@ -59,7 +59,7 @@ temple = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_tax_modifier = 0.4
+		local_tax_modifier = 0.5
 	}
 	on_built = {
 		if = {
@@ -126,7 +126,7 @@ barracks = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_manpower_modifier = 0.6
+		local_manpower_modifier = 0.5
 		monthly_militarized_society = 0.0005
 	}
 	on_built = {
@@ -499,7 +499,7 @@ cathedral = {
 	time = 12
 	modifier = {
 		local_missionary_strength = 0.03
-		local_tax_modifier = 0.8
+		local_tax_modifier = 1.0
 	}
 	on_built = {
 		if = {

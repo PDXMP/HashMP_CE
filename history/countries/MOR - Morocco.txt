@@ -6,6 +6,12 @@ technology_group = muslim
 capital = 344 # Marrakech
 add_accepted_culture = berber
 religious_school = maliki_school
+add_historical_rival = GRA
+add_historical_rival = MRK
+add_historical_rival = TFL
+add_historical_rival = SOS
+add_historical_rival = CAS
+add_historical_rival = POR
 
 change_estate_land_share = {
 	estate = estate_nobles

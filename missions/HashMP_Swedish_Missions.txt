@@ -367,18 +367,18 @@ h_swedish_missions_2 = {
 		position = 4
 		provinces_to_highlight = {
 			OR = {
-				area = karelia_area
+				area = ingria_area
 			}
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			karelia_area = {
+			ingria_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
-			karelia_area = {
+			ingria_area = {
 				add_province_modifier = {
 					name = h_swedish_neva_conquered
 					duration = 9125
@@ -512,28 +512,35 @@ h_swedish_missions_3 = {
 					add_permanent_claim = ROOT
 				}
 			}
-			eastern_norway = {
+			osterdalen_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			northern_norway = {
+			nordland_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			western_norway = {
+			vestlandet_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			jemtland_area = {
+			viken_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			trondelag_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -583,7 +590,7 @@ h_swedish_missions_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			karelia_area = {
+			ingria_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -791,10 +798,11 @@ h_swedish_missions_4 = {
 		position = 3
 		provinces_to_highlight = {
 			OR = {
-				area = eastern_norway
-				area = northern_norway
-				area = western_norway
-				area = jemtland_area
+				area = osterdalen_area
+				area = nordland_area
+				area = vestlandet_area
+				area = viken_area
+				area = trondelag_area
 				province_id = 16
 			}
 			NOT = { owned_by = ROOT }
@@ -803,19 +811,23 @@ h_swedish_missions_4 = {
 			16 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			eastern_norway = {
+			osterdalen_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			northern_norway = {
+			nordland_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			western_norway = {
+			vestlandet_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			jemtland_area = {
+			viken_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			trondelag_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -883,7 +895,7 @@ h_swedish_missions_4 = {
 		}
 		trigger = {
 			num_of_owned_provinces_with = {
-				value = 80
+				value = 75
 				is_core = root
 				owned_by = root
 				OR = {
@@ -1014,7 +1026,7 @@ h_swedish_missions_5 = {
 				years = 5
 				trigger = {
 					trade_goods = iron
-					has_manufactory_no_custom_tooltip_trigger = yes
+					has_building = weapons
 				}
 			}
 			
@@ -1092,7 +1104,7 @@ h_swedish_missions_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			naval_forcelimit = 100
+			naval_forcelimit = 50
 			navy_size_percentage = 1
 		}
 		effect = {

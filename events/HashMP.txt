@@ -17,11 +17,11 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		owns = 2212 #Zanjan
 		OR = {
 			tag = MUG
 			tag = PER
 		}
+		owns = 2212 #Zanjan
 		2212 = {
 			NOT = { trade_goods = gold }
 		}
@@ -689,7 +689,11 @@ country_event = { #Invite hussites
 	trigger = {
 		is_year = 1475
 		ai = no
-		NOT = { religion = hussite }
+		NOT = {
+			any_known_country = {
+				religion = hussite
+			}
+		}
 		capital_scope = {
 			OR = {
 				region = poland_region
@@ -698,11 +702,7 @@ country_event = { #Invite hussites
 				region = carpathia_region
 			}
 		}
-		NOT = {
-			any_known_country = {
-				religion = hussite
-			}
-		}
+		NOT = { religion = hussite }
 	}
 	
 	mean_time_to_happen = {
@@ -754,41 +754,41 @@ country_event = { #Invite hussites
 	
 }
 
-country_event = { #Inca claims
-	id = hashmp.14
-	title = hashmp.14.t
-	desc = hashmp.14.d
-	picture = COURT_eventPicture
+# country_event = { #Inca claims
+# 	id = hashmp.14
+# 	title = hashmp.14.t
+# 	desc = hashmp.14.d
+# 	picture = COURT_eventPicture
 	
-	fire_only_once = yes
-	hidden = yes
+# 	fire_only_once = yes
+# 	hidden = yes
 	
-	trigger = {
-		tag = INC
-	}
+# 	trigger = {
+# 		tag = INC
+# 	}
 	
-	mean_time_to_happen = {
-		months = 1
-	}
+# 	mean_time_to_happen = {
+# 		months = 1
+# 	}
 	
-	option = {
-		name = hashmp.2.a
-		peru_region = {
-			limit = {
-				NOT = { is_core = ROOT }
-				NOT = { is_permanent_claim = ROOT }
-			}
-		add_permanent_claim = ROOT
-		}
-		upper_peru_region = {
-			limit = {
-				NOT = { is_core = ROOT }
-				NOT = { is_permanent_claim = ROOT }
-			}
-		add_permanent_claim = ROOT
-		}
-	}
-}
+# 	option = {
+# 		name = hashmp.2.a
+# 		peru_region = {
+# 			limit = {
+# 				NOT = { is_core = ROOT }
+# 				NOT = { is_permanent_claim = ROOT }
+# 			}
+# 		add_permanent_claim = ROOT
+# 		}
+# 		upper_peru_region = {
+# 			limit = {
+# 				NOT = { is_core = ROOT }
+# 				NOT = { is_permanent_claim = ROOT }
+# 			}
+# 		add_permanent_claim = ROOT
+# 		}
+# 	}
+# }
 
 country_event = {
 	id = hashmp.15
@@ -838,9 +838,9 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		is_subject = no
 		adm_tech = 10
 		owns_or_non_sovereign_subject_of = 1210 #Dawaro
+		is_subject = no
 		tigray_area = {
 			type = all
 			country_or_non_sovereign_subject_holds = ROOT
@@ -1162,6 +1162,122 @@ country_event = {
 			id = hashmp.19
 			days = 30
 		}
+	}
+}
+
+# Choosing muslim school
+country_event = {
+    id = hashmp.20
+    title = "hashmp.20.t"
+    desc = "hashmp.20.d"
+    picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = hanafi_school
+				}
+			}
+		}
+		name = hashmp.20.a # Hanafi
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = hanafi_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = hanbali_school
+				}
+			}
+		}
+		name = hashmp.20.b # Hanbali
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = hanbali_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = maliki_school
+				}
+			}
+		}
+		name = hashmp.20.c # Maliki
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = maliki_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = shafii_school
+				}
+			}
+		}
+		name = hashmp.20.d2 # Shafii
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = shafii_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = ismaili_school
+				}
+			}
+		}
+		name = hashmp.20.e # Ismaili
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = ismaili_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = jafari_school
+				}
+			}
+		}
+		name = hashmp.20.f # Jafari
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = jafari_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = zaidi_school
+				}
+			}
+		}
+		name = hashmp.20.g # Zaidi
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = zaidi_scholar_modifier duration = 7300 }
 	}
 }
 

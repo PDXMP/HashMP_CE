@@ -72,21 +72,21 @@ swedish_missions_scandinavia = {
 				name = "consolidated_sweden"
 				duration = 5475
 			}
-			northern_norway = {
+			nordland_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
-			eastern_norway = {
+			osterdalen_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
-			western_norway = {
+			vestlandet_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -106,24 +106,24 @@ swedish_missions_scandinavia = {
 		required_missions = { control_scania }
 		provinces_to_highlight = {
 			OR = {
-				area = northern_norway
-				area = eastern_norway
-				area = western_norway
+				area = nordland_area
+				area = osterdalen_area
+				area = vestlandet_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			northern_norway = {
+			nordland_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			eastern_norway = {
+			osterdalen_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			western_norway = {
+			vestlandet_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

@@ -243,6 +243,135 @@ gc_tunis_2 = {
 	}
 	has_country_shield = yes
 	
+	h_tun_morocco = {
+		icon = mission_moroccan_ports
+		required_missions = { }
+		position = 1
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			northern_morocco_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			marrekesh_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			western_morocco_area = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			southern_morocco_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			sus_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			tafilalt_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = h_tun_rush_the_strait
+				duration = 3650
+			}
+			define_general = {
+				shock = 2
+				fire = 2
+				manuever = 5
+				siege = 4
+			}
+		}
+	}	
+	h_tun_caliphate = {
+		icon = mission_subdue_rajputana
+		required_missions = { h_tun_morocco }
+		position = 2
+
+		provinces_to_highlight = {
+			OR = {
+				area = western_morocco_area
+				area = marrekesh_area
+				area = northern_morocco_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			northern_morocco_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			marrekesh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			western_morocco_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_estate_privilege = h_church_estate_call_to_jihad
+				}
+				add_piety = -0.25
+			}
+			else = {
+				add_piety = 0.25
+			}
+			add_yearly_manpower = 2
+			add_country_modifier = {
+				name = h_tun_religious_warriors
+				duration = 3650
+			}
+		}
+	}
 	gc_tun_genoa = {
 		icon = mission_raid_on_genoa
 		required_missions = { gc_tun_med_islands }
@@ -316,31 +445,16 @@ gc_tunis_3 = {
 		
 		trigger = {
 			naval_forcelimit = 20
+			navy_size_percentage = 1
 		}
 		effect = {
 			define_admiral = {
 				shock = 3
 				fire = 3
-				manuever = 4
-				siege = 2
+				manuever = 3
+				siege = 1
 			}
-			
-			341 = {
-				add_unit_construction = {
-					type = galley
-					amount = 15
-					speed = 0.05
-					cost = 0
-				}
-			}
-			
-			add_country_modifier = {
-				name = "tun_med_blob"
-				duration = 7300
-			}
-			
-			
-			
+
 			western_sicily_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -369,16 +483,22 @@ gc_tunis_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			fezzan_area = { 
-				limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
+
+			341 = {
+				add_unit_construction = {
+					type = galley
+					amount = 10
+					cost = 0
+					speed = 0.1
 				}
-			}		
+			}
+
+			add_country_modifier = {
+				name = h_tun_rush_the_med
+				duration = 7300
+			}
 		}
-	
+	}
 	gc_tun_med_islands = {
 		icon = mission_seize_the_isles
 		required_missions = { gc_tun_fleet }
@@ -573,7 +693,6 @@ gc_tunis_4 = {
 		}
 		effect = {
 			add_yearly_sailors = 3
-			add_yearly_manpower = 3 
 			add_country_modifier = {
 				name = "tun_barbary_pirates"
 				duration = 7300

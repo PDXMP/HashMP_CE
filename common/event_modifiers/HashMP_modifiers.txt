@@ -4,6 +4,59 @@
 # by Foffy123
 ########################################
 
+# Overide Modifiers
+
+bur_king_of_franks = {
+	fire_damage = 0.15
+}
+
+#
+
+h_fra_united = {
+	fire_damage = 0.15
+}
+
+h_tun_rush_the_med = {
+	naval_morale = 0.10
+	ae_impact = -0.20
+}
+
+h_tun_rush_the_strait = {
+	province_warscore_cost = -0.25
+	core_creation = -0.10
+	siege_ability = 0.33
+}
+
+h_tun_religious_warriors = {
+	shock_damage = 0.15
+}
+
+h_reorganize_estates = {
+	church_influence_modifier = -1
+	dhimmi_influence_modifier = -1
+	nobles_influence_modifier = -1
+	rajput_influence_modifier = -1
+	clergy_influence_modifier = -1
+	maratha_influence_modifier = -1
+	vaisyas_influence_modifier = -1
+	brahmins_hindu_influence_modifier = -1
+	brahmins_muslim_influence_modifier = -1
+	brahmins_other_influence_modifier = -1
+	burghers_influence_modifier = -1
+	cossacks_influence_modifier = -1
+	nomadic_tribes_influence_modifier = -1
+	lithuanian_nobility_influence_modifier = -1
+	polish_nobility_influence_modifier = -1
+}
+
+h_reorganize_estates_cooldown = {
+
+}
+
+h_muslim_school_cooldown = {
+
+}
+
 h_mam_nile = {
 	local_manpower_modifier = 0.33
 	trade_goods_size_modifier = 0.10
@@ -52,10 +105,6 @@ h_janissary_decadence = {
 h_dual_monarchy = {
 	promote_culture_cost = -0.5
 	num_accepted_cultures = 1
-}
-
-tun_med_blob = { 
-	ae_impact = -0.2
 }
 
 h_bankrupt_interest = {

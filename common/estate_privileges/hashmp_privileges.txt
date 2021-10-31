@@ -34,6 +34,7 @@ h_dhimmi_estate_janissary_training = {
 	}
 	on_revoked = {
 		remove_country_modifier = h_dhimmi_privilege_janissary_training
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -73,6 +74,7 @@ h_dhimmi_estate_janissary_firearms = {
 	}
 	on_revoked = {
 		remove_country_modifier = h_dhimmi_privilege_janissary_firearms
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -105,9 +107,38 @@ h_noble_estate_mamluk_recruitment = {
 		add_yearly_manpower = 1.0
 	}
 	on_revoked = {
-
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 5
+	}
+}
+
+h_church_estate_call_to_jihad = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	influence = 0.10
+	is_valid = {
+		OR = {
+			religion = sunni
+			religion = shiite
+			religion = ibadi
+		}
+	}
+	can_select = {
+		NOT = { has_estate_privilege = estate_church_clerical_ministers }
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
+	benefits = {
+		monthly_piety = -0.001
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }

@@ -249,7 +249,7 @@ annexationaction = {
 			FROM = {
 				has_opinion = {
 					who = ROOT
-					value = 190
+					value = 100
 				}
 			}
 		}

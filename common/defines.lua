@@ -490,7 +490,7 @@ NCountry = {
 	ABDICATE_PRESTIGE_HIT = -50,
 
 
-	DISINHERIT_PRESTIGE_HIT = -50,
+	DISINHERIT_PRESTIGE_HIT = -25,
 	DISINHERIT_PRESTIGE_THRESHOLD = 0,
 	
 	NEW_HEIR_PRESTIGE_HIT = -20,
@@ -1153,7 +1153,7 @@ NEconomy = {
 	EMBARGO_BASE_EFFICIENCY = 0.5,					-- EMBARGO_BASE_EFFICIENCY
 	EMBARGO_MERCANTILISM_EFFICIENCY = 50,			-- Percentage added to embargo efficiency modifier scaled by mercantilism.
 	TRADE_ADDED_VALUE_MODIFER = 0.05,
-	TRADE_PROPAGATE_DIVIDER = 7,
+	TRADE_PROPAGATE_DIVIDER = 8,
 	TRADE_PROPAGATE_THRESHOLD = 2,
 	REGAIN_COST_BEFORE_PROGRESS = 0.1,				-- Before what percentage will the full cost be regained
 	ALLOW_DESTROY_MANUFACTORY = 0,					-- Should the player be permitted to destroy manufactories?
@@ -1168,7 +1168,7 @@ NEconomy = {
 	PRIVATEER_INCOME_COLLECTION_EFF = 0.5,
 	MIN_ARMY_MAINTENANCE = 0.1,
 	MIN_NAVY_MAINTENANCE = 0.1,
-	CARAVAN_FACTOR = 5.0,							-- Development is divided by this factor, do not set to zero!
+	CARAVAN_FACTOR = 7.0,							-- Development is divided by this factor, do not set to zero!
 	CARAVAN_POWER_MAX = 30,
 	CARAVAN_POWER_MIN = 1,
 	MAX_BUILDING_SLOTS = 12,						-- Maximum number of buildings slots, i.e. max buildings possible.
@@ -1885,7 +1885,7 @@ NAI = {
 	WAR_WARSCORE_TO_JOIN = -100,								-- Minimum warscore for the AI to join a call for arms
 	WAR_MIN_WARSCORE_TO_JOIN = -25,								-- Starting warscore for the AI to join a call for arms
 	ARMY_DISTANCE_SCORE_IMPACT = 0.5,							-- Army <-> province distance impact on province evaluation
-	BORDER_DISTANCE_SCORE_IMPACT = 3.0,							-- Border <-> province distance impact on province evaluation
+	BORDER_DISTANCE_SCORE_IMPACT = 10,							-- Border <-> province distance impact on province evaluation
 	IMPORANT_PROVINCE_THRESHOLD = 0.05,							-- AI will try to defend provinces under threat worth more than this percentage of total development
 	REGION_PLANNING_HOMELAND_PRIORIZATION = 3.5,				-- Homeland priorization when assigning armies to regions (only applied when actually threatened)
 	MISSIONARY_MAINTENANCE_SHARE = 0.2,							-- The most an AI will spend of its income on a missionary

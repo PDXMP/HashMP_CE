@@ -1246,7 +1246,7 @@ emp_burgundy_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_king_of_franks
-				duration = 7300
+				duration = -1
 			}
 
 			if = {

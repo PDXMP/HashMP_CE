@@ -22,9 +22,9 @@ add_army_professionalism = 0.1
 	monarch = {
 		name = "Wolfhart Brandis"
 		birth_date = 1415.11.14 #1408
-		adm = 5
-		dip = 5
-		mil = 5
+		adm = 4
+		dip = 4
+		mil = 4
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = careful_personality

@@ -35,8 +35,8 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 723 #Xilin Gol
-				province_id = 1816 #Beijing
+				#province_id = 723 #Xilin Gol
+				#province_id = 1816 #Beijing
 				province_id = 2190 #Qaraqorum
 				AND = {
 					culture = mongol
@@ -65,8 +65,8 @@ country_decisions = {
 			culture_group = altaic
 			is_at_war = no
 			stability = 2
-			owns_core_province = 723 #Xilin Gol
-			owns_core_province = 1816 #Beijing
+			#owns_core_province = 723 #Xilin Gol
+			#owns_core_province = 1816 #Beijing
 			owns_core_province = 2190 #Qaraqorum
 			custom_trigger_tooltip = {
 				tooltip = subject_all_mongols
@@ -103,34 +103,34 @@ country_decisions = {
 			}
 		}
 		effect = {
-			1816 = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
-				change_province_name = Khanbaliq
-				rename_capital = Khanbaliq
-				move_capital_effect = yes
-			}
-			723 = {
-				change_province_name = Xanadu
-				rename_capital = Xanadu 
-			}
+			#1816 = {
+			#	add_base_tax = 1
+			#	add_base_production = 1
+			#	add_base_manpower = 1
+			#	change_province_name = Khanbaliq
+			#	rename_capital = Khanbaliq
+			#	move_capital_effect = yes
+			#}
+			#723 = {
+			#	change_province_name = Xanadu
+			#	rename_capital = Xanadu 
+			#}
 			change_tag = YUA
 			remove_non_electors_emperors_from_empire_effect = yes
-			china_superregion = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = YUA
-			}
-			manchuria_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = YUA
-			}
+			# china_superregion = {
+			# 	limit = {
+			# 		NOT = { owned_by = ROOT }
+			# 	}
+			# 	add_permanent_claim = YUA
+			# }
+			# manchuria_region = {
+			# 	limit = {
+			# 		NOT = { owned_by = ROOT }
+			# 		NOT = { is_core = ROOT }
+			# 		NOT = { is_permanent_claim = ROOT }
+			# 	}
+			# 	add_permanent_claim = YUA
+			# }
 			mongolia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -139,14 +139,14 @@ country_decisions = {
 				}
 				add_permanent_claim = YUA
 			}
-			tibet_region = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = YUA
-			}
+			# tibet_region = {
+			# 	limit = {
+			# 		NOT = { owned_by = ROOT }
+			# 		NOT = { is_core = ROOT }
+			# 		NOT = { is_permanent_claim = ROOT }
+			# 	}
+			# 	add_permanent_claim = YUA
+			# }
 			add_prestige = 20
 			set_country_flag = formed_yuan_flag
 			if = {
