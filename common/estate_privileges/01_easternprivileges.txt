@@ -50,8 +50,8 @@ estate_polish_nobility_officer_corp = {
 	penalties = {
 	}
 	benefits = {
-		leader_land_shock = 1
-		leader_land_fire = 1
+		general_cost = 0.1
+		free_leader_pool = 2
 		army_tradition_decay = -0.01
 	}
 	cooldown_years = 20
