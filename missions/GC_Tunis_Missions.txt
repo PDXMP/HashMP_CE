@@ -495,7 +495,7 @@ gc_tunis_3 = {
 
 			add_country_modifier = {
 				name = h_tun_rush_the_med
-				duration = 3650
+				duration = 7300
 			}
 		}
 	}

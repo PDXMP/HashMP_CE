@@ -17,6 +17,7 @@ h_fra_united = {
 }
 
 h_tun_rush_the_med = {
+	naval_morale = 0.10
 	ae_impact = -0.20
 }
 
