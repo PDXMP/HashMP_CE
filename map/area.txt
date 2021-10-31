@@ -588,14 +588,14 @@ east_anglia_area = { #3
 # Scandinavia			 			   #
 ########################################
 
-jemtland_area = {
-	6030 6029 6028
-	10 22
+osterdalen_area = {
+	6030 6029 
+	22
 }
 
-inner_finland_area = {
-	31 29
-	6026 6025 6023
+tavastia_area = {
+	29
+	6025 6023
 }
 
 nyland_area = {
@@ -603,13 +603,25 @@ nyland_area = {
 	6024
 }
 
-soderland_area = {
+savonia_area = {
+	31 4152 6026
+}
+
+ostrobothnia_area = {
+	19 6020 6021
+}
+
+norrland_area = {
 	9 
 	6016 6017 6027
 }
 
+trondelag_area = {
+	6039 20 6028 10
+}
+
 smaland_area = {
-	6008 6011 6010
+	6008 6011 6010 3
 }
 
 dalarna_area = {
@@ -636,7 +648,7 @@ skaneland_area = { #4
 }
 
 gotaland_area = { #3 Östra Götaland
-	2 3 25
+	2 25
 	6009
 }
 
@@ -654,45 +666,36 @@ ostra_svealand_area = { #4
 	6014 6015
 }
 
-norrland_area = { #4
+west_laponia_area = { #4
 	11 18 4114
 	6018
 }
 
-finland_area = { #5
-	27 4123 19
-	6019 6020
+finland_proper_area = { #5
+	27 4123
+	6019
 }
 
-bothnia_area = { #3
-	4113 4152
-	6021 6022 4151
+east_laponia_area = { #3
+	4113
+	6022 4151
 }
 
-laponia_area = { #3
+kola_area = { #3
 	1777 6035 6034
 }
 
-karelia_area = { #4
-	33 34 1961
+nordland_area = { #3
+	21 315
+	6033 
 }
 
-north_karelia = { #3
-	32 309 4124
-	6037
-}
-
-northern_norway = { #3
-	20 21 315
-	6039 6033 
-}
-
-eastern_norway = { #4
+viken_area = { #4
 	17 4143 4144
 	6031
 }
 
-western_norway = { #4
+vestlandet_area = { #4
 	23 24 2752 4145
 	6032
 }
@@ -708,6 +711,19 @@ greenland_area = { #2
 ########################################
 # Eastern Europe    			 	   #
 ########################################
+
+ingria_area = { #4
+	33 34 1961
+}
+
+north_karelia_area = {
+	313 1776 6036
+}
+
+south_karelia_area = { #3
+	32 309 4124
+	6037
+}
 
 estonia_ingria_area = { #3
 	36 1834 1842
@@ -900,13 +916,12 @@ ural_area = { #5
 }
 
 pomor_area = { #4
-	313 1776 1958 4258
-	6036
+	1958 4258
+	6038
 }
 
 arkhangelsk_area = { #4
 	1955 4122 4256 4257
-	6038
 }
 
 bashkiria_area = { #5
@@ -988,7 +1003,7 @@ upper_franconia_area = { #4
 }
 
 upper_swabia_area = { #4 (East Swabia)
-	68 1868 4711 1872 4710
+	68 1868 4711 1872
 }
 
 northern_saxony_area = { #4 (Saxe-Altmark)
@@ -1018,7 +1033,7 @@ hinter_pommern_area = { #3
 }
 
 tirol_area = { #5
-	73 110 1768 4758
+	73 110 1768 4710 4758
 }
 
 austria_proper_area = { #5
