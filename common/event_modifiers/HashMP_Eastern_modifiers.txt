@@ -114,7 +114,7 @@ h_polish_catholic_commonwealth = {
 
 h_polish_sejm_ascendant = {
 	global_unrest = 2
-	infantry_power = 0.2
+	infantry_power = 0.1
 	polish_nobility_influence_modifier = 0.2
 }
 
