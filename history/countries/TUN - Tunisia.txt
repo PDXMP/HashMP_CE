@@ -26,13 +26,16 @@ change_estate_land_share = {
 	monarch = {
 		name = "'Uthman"
 		dynasty = "Hafsid"
-		adm = 1
+		adm = 3
 		dip = 3
-		mil = 3
+		mil = 5
 	}
 }
 
-1440.4.4 = { leader = {	name = "Yusuf"	type = general	fire = 2	shock = 4	manuever = 3	siege = 2	death_date = 1448.6.2 } }
+1440.4.4 = { 
+	leader = {	name = "Yusuf"	type = general	fire = 2	shock = 5	manuever = 2	siege = 0	death_date = 1448.6.2 } 
+	add_ruler_personality = inspiring_leader_personality
+}
 
 1435.9.18 = {
 	heir = {
