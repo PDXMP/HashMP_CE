@@ -47,7 +47,6 @@ scandinavia_region = {
 		subarctic_islands_area
 		vastra_gotaland_area
 		ostra_svealand_area
-		jemtland_area
 		finland_proper_area
 		savonia_area
 		tavastia_area
@@ -157,17 +156,17 @@ russia_region = {
 		pskov_area
 		beloozero_area
 		pomor_area
-		karelia_area
+		#karelia_area
 		ryazan_area
 		tambov_area
-		north_karelia
+		#north_karelia
 		tver_area
 		yaroslavl_area
 		vladimir_area
 		oka_area
 		arkhangelsk_area
 		vologda_area
-		laponia_area
+		#laponia_area
 		kola_area
 		north_karelia_area
 		south_karelia_area
@@ -240,7 +239,7 @@ baltic_region = {
 		curonia_area
 		west_prussia_area
 		east_prussia_area
-		pomerelia_area
+		#pomerelia_area
 		samogitia_area
 	}
 }
@@ -1158,7 +1157,7 @@ indonesia_region = { #Eastern Indonesian/Malayan Islands.
 		central_java_area
 		west_java_area
 		lesser_sunda_islands_area
-		indonesian_islands_area
+		#indonesian_islands_area
 		surabaya_area
 		banten_area
 	}
