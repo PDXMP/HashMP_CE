@@ -9,6 +9,9 @@ estate_brahmins_land_rights = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -195,6 +198,9 @@ estate_nobles_land_rights = {
 	can_select = {
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -383,6 +389,9 @@ estate_church_land_rights = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -569,6 +578,9 @@ estate_maratha_land_rights = {
 	can_select = {
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -757,6 +769,9 @@ estate_burghers_land_rights = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -943,6 +958,9 @@ estate_vaisyas_land_rights = {
 	can_select = {
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -1131,6 +1149,9 @@ estate_cossacks_land_rights = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -1317,6 +1338,9 @@ estate_nomadic_tribes_land_rights = {
 	can_select = {
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -1505,6 +1529,9 @@ estate_dhimmi_land_rights = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -1692,6 +1719,9 @@ estate_jains_land_rights = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -1878,6 +1908,9 @@ estate_rajput_land_rights = {
 	can_select = {
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -2072,6 +2105,9 @@ estate_nobles_nobility_primacy = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2126,6 +2162,9 @@ estate_nobles_officer_corp = {
 	on_granted = {
 		add_army_tradition = -15
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2148,6 +2187,9 @@ estate_nobles_levies = {
 	can_select = {
 		NOT = { tag = MAM }
 		NOT = { has_estate_privilege = estate_nobles_golden_liberty }
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.10
@@ -2252,6 +2294,9 @@ estate_nobles_advisors = {
 	benefits = {
 		mil_advisor_cost = -0.1
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -2277,6 +2322,9 @@ estate_nobles_right_of_counsel = {
 	penalties = {
 	}
 	benefits = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 10
@@ -2329,6 +2377,9 @@ estate_nobles_french_strong_duchies = {
 			vassal = 2
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2356,6 +2407,9 @@ estate_church_religious_state = {
 	}
 	benefits = {
 		country_admin_power = 1
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 10
@@ -2407,6 +2461,9 @@ estate_church_independent_inquisition = {
 	benefits = {
 		adm_advisor_cost = -0.1
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -2440,6 +2497,9 @@ estate_church_new_world_mission = {
 	benefits = {
 		native_assimilation = 0.5
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 0
 	}
@@ -2466,6 +2526,9 @@ estate_church_papal_emissary = {
 	}
 	benefits = {
 		papal_influence = 1
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 10
@@ -2616,6 +2679,9 @@ estate_church_clerical_ministers = {
 	}
 	benefits = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -2643,6 +2709,9 @@ estate_church_clerical_oversight = {
 	}
 	benefits = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -2665,6 +2734,9 @@ estate_church_inwards_perfection = {
 		NOT = { has_estate_privilege = estate_church_for_the_faith }
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	modifier_by_land_ownership = {
 		development_cost = -0.1
@@ -2709,6 +2781,9 @@ estate_burghers_enforced_interfaith_dialogue = {
 		tolerance_heathen = 2
 		tolerance_heretic = 2
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 0
 	}
@@ -2735,6 +2810,9 @@ estate_church_enforced_one_faith = {
 		global_missionary_strength = 0.01
 		tolerance_own = 1
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	cooldown_years = 20
 	on_cooldown_expires = {
 		remove_estate_privilege = estate_church_enforced_one_faith
@@ -2754,6 +2832,9 @@ estate_burghers_land_of_commerce = {
 	on_granted = {
 	}
 	penalties = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	benefits = {
 		country_diplomatic_power = 1
@@ -2807,6 +2888,9 @@ estate_burghers_admirals = {
 	on_granted = {
 		add_navy_tradition = -15
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2825,6 +2909,9 @@ estate_burghers_commercial_board_of_advice = {
 	loyalty = 0.05
 	penalties = {
 		stability_cost_modifier = 0.05
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	benefits = {
 		dip_advisor_cost = -0.1
@@ -2859,6 +2946,9 @@ estate_burghers_new_world_charter = {
 	}
 	penalties = {
 		global_tariffs = -0.10
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	benefits = {
 		global_colonial_growth = 10
@@ -2924,6 +3014,9 @@ estate_burghers_indebted_to_burghers = {
 			}
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 		trade_efficiency = -0.05
 	}
@@ -2942,6 +3035,9 @@ estate_burghers_free_enterprise = {
 	penalties = {
 	}
 	benefits = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 10
@@ -2979,6 +3075,7 @@ estate_cossacks_exploration_expedition = {
 				remove_province_modifier = estate_cossacks_exploration_expedition_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -3018,6 +3115,9 @@ estate_cossacks_cossack_self_governance = {
 	}
 	benefits = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -3036,13 +3136,16 @@ estate_cossacks_establish_the_cossack_regiments = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	modifier_by_land_ownership = {
 		special_unit_forcelimit = 0.5
 	}
 	penalties = {
 	}
 	benefits = {
-	}
+	}	
 	mechanics = {
 		enables_cossack_regiments
 	}
@@ -3079,6 +3182,9 @@ estate_cossacks_expand_the_cossack_regiments = {
 	can_select = {
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	modifier_by_land_ownership = {
 		special_unit_forcelimit = 0.5
@@ -3143,6 +3249,7 @@ estate_dhimmi_lighter_dhimmi_taxes = {
 				remove_province_modifier = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_dhimmi_lighter_dhimmi_taxes_revoke_effect_tooltip
@@ -3175,6 +3282,9 @@ estate_dhimmi_dhimmi_nobles = {
 	}
 	benefits = {
 		free_leader_pool = 1
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 0
@@ -3218,6 +3328,7 @@ estate_dhimmi_manpower = {
 				remove_province_modifier = estate_dhimmi_manpower_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_dhimmi_manpower_revoke_effect_tooltip
@@ -3251,6 +3362,9 @@ estate_dhimmi_tolerance = {
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_church_enforced_one_faith }
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 		church_loyalty_modifier = -0.05
@@ -3316,6 +3430,7 @@ estate_dhimmi_guaranteed_autonomy = {
 				remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_dhimmi_guaranteed_autonomy_revoke_effect_tooltip
@@ -3388,6 +3503,7 @@ estate_nomadic_tribes_share_of_the_spoils = {
 				remove_province_modifier = h_horde_steppe_devcost
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 0
@@ -3432,7 +3548,8 @@ estate_nomadic_tribes_chieftains_autonomy = {
 
 				remove_province_modifier = h_horde_autonomy_grant
 			}
-		}	
+		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	modifier_by_land_ownership = {
 		available_province_loot = -0.33
@@ -3498,6 +3615,9 @@ estate_nomadic_tribes_guaranteed_leadgership_in_host = {
 			}
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -3517,6 +3637,9 @@ estate_nomadic_tribes_tribal_host = {
 	}
 	modifier_by_land_ownership = {
 		cavalry_cost = -0.1
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 10
@@ -3539,6 +3662,9 @@ estate_brahmins_brahmin_governance = {
 	can_select = {
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -3598,6 +3724,9 @@ estate_brahmins_legitimacy_to_rule = {
 		religious_unity = 0.25
 		tolerance_heathen = 1
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -3646,6 +3775,9 @@ estate_brahmins_brahmin_leadership = {
 	benefits = {
 		adm_advisor_cost = -0.1
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -3682,6 +3814,7 @@ estate_brahmins_flexible_deities = {
 	}
 	on_revoked = {
 		custom_tooltip = estate_brahmins_flexible_deities_revoke_tooltip
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -3700,6 +3833,9 @@ estate_brahmins_loyalty_privilege = {
 	penalties = {
 	}
 	benefits = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 10
@@ -3744,6 +3880,7 @@ estate_brahmins_guaranteed_autonomy = {
 				remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
@@ -3784,6 +3921,9 @@ estate_jains_diplomacy = {
 	can_select = {
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -3838,6 +3978,9 @@ estate_jains_clerical_class = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -3887,6 +4030,9 @@ estate_jains_indebted_to_jains = {
 			}
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 		trade_efficiency = -0.05
 	}
@@ -3908,6 +4054,9 @@ estate_jains_conscientious_objection = {
 			value = 4
 			}
 		}
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 		global_manpower_modifier = -0.1
@@ -3934,6 +4083,9 @@ estate_maratha_military = {
 		}
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -3993,6 +4145,9 @@ estate_maratha_advisor = {
 	benefits = {
 		mil_advisor_cost = -0.1
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -4017,6 +4172,9 @@ estate_maratha_loyalty_privilege = {
 	influence = 0.1
 	penalties = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	benefits = {
 	}
 	ai_will_do = {
@@ -4038,6 +4196,9 @@ estate_maratha_levies = {
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.10
 		global_manpower_modifier = 0.25
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -4150,6 +4311,7 @@ estate_maratha_levies_for_muslims = {
 				remove_province_modifier = estate_maratha_levies_for_muslims_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_maratha_levies_for_muslims_revoke_tooltip
@@ -4188,6 +4350,9 @@ estate_maratha_special_privilege = {
 	}
 	benefits = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -4205,6 +4370,9 @@ estate_rajput_rajput_regiments = {
 	can_select = {
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	modifier_by_land_ownership = {
 		special_unit_forcelimit = 0.5
@@ -4236,6 +4404,9 @@ estate_rajput_military = {
 		}
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -4292,6 +4463,9 @@ estate_rajput_advisor = {
 	penalties = {
 		stability_cost_modifier = 0.05
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	benefits = {
 		mil_advisor_cost = -0.1
 	}
@@ -4319,6 +4493,9 @@ estate_rajput_loyalty_privilege = {
 	influence = 0.1
 	penalties = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	benefits = {
 	}
 	ai_will_do = {
@@ -4339,6 +4516,9 @@ estate_rajput_officer_corp = {
 	}
 	on_granted = {
 		add_army_tradition = -15
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -4394,6 +4574,7 @@ estate_rajput_look_up_purbias = {
 		else = {
 			remove_country_modifier = look_up_purbias
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		if = {
@@ -4435,6 +4616,9 @@ estate_vaisyas_loyalty_privilege = {
 	}
 	benefits = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -4454,6 +4638,9 @@ estate_vaisyas_advisor = {
 	}
 	benefits = {
 		dip_advisor_cost = -0.1
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 10
@@ -4479,6 +4666,9 @@ estate_vaisyas_wartaxes = {
 	benefits = {
 		war_taxes_cost_modifier = -0.5
 		war_exhaustion = -0.02
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 10
@@ -4525,6 +4715,9 @@ estate_burghers_patronage_of_the_arts = {
 			add_prestige = 30
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 0
 	}
@@ -4540,6 +4733,9 @@ estate_vaisyas_patronage_of_the_arts = {
 	}
 	benefits = {
 		prestige = 0.5
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 0
@@ -4561,6 +4757,9 @@ estate_nomadic_tribes_primacy_to_the_bannermen = {
 	}
 	benefits = {
 		land_morale = 0.05
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 1
@@ -4612,6 +4811,9 @@ estate_nobles_supremacy_over_crown = {
 		vaisyas_influence_modifier = 0.05
 		nomadic_tribes_influence_modifier = 0.05
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	mechanics = {
 		can_give_agendas_without_interaction
 	}
@@ -4652,6 +4854,9 @@ estate_brahmins_supremacy_over_crown = {
 		jains_influence_modifier = 0.1
 		vaisyas_influence_modifier = 0.1
 		nomadic_tribes_influence_modifier = 0.1
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	mechanics = {
 		can_give_agendas_without_interaction
@@ -7083,6 +7288,9 @@ estate_cossacks_recruit_cossack_generals = {
 		army_tradition = 0.5
 		leader_land_shock = 1
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -7127,6 +7335,7 @@ estate_cossacks_prime_herding_rights = {
 				remove_province_modifier = estate_cossacks_prime_herding_rights_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_cossacks_prime_herding_rights_mod_revoke_tooltip
@@ -7164,6 +7373,9 @@ estate_nobles_junker_primacy = {
 	}
 	benefits = {
 		monthly_militarized_society = 0.03
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 1
@@ -7221,6 +7433,9 @@ estate_nobles_strong_duchies = {
 			vassal = 2
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -7268,6 +7483,7 @@ estate_nobles_golden_liberty = {
 		has_regency = no
 	}
 	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 		if = {
 			limit = {
 				government = monarchy
@@ -7341,6 +7557,9 @@ estate_nobles_nieszawa_privileges = {
 			always = no
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 		technology_cost = 0.05
 	}
@@ -7366,6 +7585,9 @@ estate_nobles_pacta_conventa = {
 			always = no
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 		war_exhaustion_cost = 0.5
 		inflation_action_cost = 0.5
@@ -7384,6 +7606,9 @@ estate_nobles_veto_heir_apparent = {
 	is_valid = {
 		has_dlc = "Emperor"
 		has_reform = elective_monarchy
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -7434,6 +7659,7 @@ estate_burghers_the_great_privilege = {
 				remove_province_modifier = estate_burghers_the_great_privilege_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_the_great_privilege_revoke_effect_tooltip
@@ -7508,6 +7734,7 @@ estate_burghers_exclusive_trade_rights = {
 				remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
@@ -7583,6 +7810,7 @@ estate_vaisyas_exclusive_trade_rights = {
 				remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
@@ -7659,6 +7887,7 @@ estate_jains_exclusive_trade_rights = {
 				remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
@@ -7696,6 +7925,9 @@ estate_burghers_control_over_monetary_policy = {
 #		interest = -0.5
 		production_efficiency = 0.05
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -7727,6 +7959,9 @@ estate_vaisyas_control_over_monetary_policy = {
 		inflation_reduction = 0.1
 #		interest = -0.5
 		production_efficiency = 0.05
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 1
@@ -7760,6 +7995,9 @@ estate_jains_control_over_monetary_policy = {
 		inflation_reduction = 0.1
 #		interest = -0.5
 		production_efficiency = 0.05
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 1
@@ -7795,6 +8033,9 @@ estate_burghers_private_trade_fleets = {
 		light_ship_cost = -0.2
 		global_ship_trade_power = 0.1
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -7826,6 +8067,9 @@ estate_vaisyas_private_trade_fleets = {
 	benefits = {
 		light_ship_cost = -0.2
 		global_ship_trade_power = 0.1
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 1
@@ -7859,6 +8103,9 @@ estate_jains_private_trade_fleets = {
 	benefits = {
 		light_ship_cost = -0.2
 		global_ship_trade_power = 0.1
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 1
@@ -7899,6 +8146,7 @@ estate_church_for_the_faith = {
 	}
 	on_revoked = {
 		custom_tooltip = estate_church_for_the_faith_effect_tooltip
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	conditional_modifier = {
 		trigger = {
@@ -7964,6 +8212,7 @@ estate_brahmins_for_the_faith = {
 	}
 	on_revoked = {
 		custom_tooltip = estate_brahmins_for_the_faith_effect_tooltip
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	conditional_modifier = {
 		trigger = {
@@ -8027,6 +8276,9 @@ estate_burghers_prussian_confederation = {
 			share = 20
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 		min_autonomy = 35
 	}
@@ -8062,6 +8314,9 @@ estate_nobles_statutory_rights = {
 			share = -30
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 		min_autonomy = 25
 	}
@@ -8087,6 +8342,9 @@ estate_burghers_statutory_rights = {
 			share = -30
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 		min_autonomy = 25
 	}
@@ -8111,6 +8369,9 @@ estate_church_statutory_rights = {
 			share = -30
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 		min_autonomy = 25
 	}
@@ -8134,6 +8395,9 @@ estate_brahmins_statutory_rights = {
 			estate = all
 			share = -30
 		}
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 		min_autonomy = 25
@@ -8198,6 +8462,7 @@ estate_church_brahmins_at_court = {
 				remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
@@ -8261,6 +8526,7 @@ estate_burghers_khmer_irrigation = {
 				remove_province_modifier = estate_burghers_khmer_irrigation_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 	}
@@ -8313,6 +8579,7 @@ estate_vaisyas_khmer_irrigation = {
 				remove_province_modifier = estate_burghers_khmer_irrigation_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 	}
@@ -8343,6 +8610,9 @@ estate_church_karma_temples = {
 	on_granted = {
 		custom_tooltip = estate_church_karma_temples_tt
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
@@ -8365,6 +8635,9 @@ estate_church_influence_temples = {
 	}
 	on_granted = {
 		custom_tooltip = estate_church_influence_temples_tt
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	penalties = {
 	}
@@ -8415,6 +8688,7 @@ estate_burghers_tropical_nation = {
 				remove_province_modifier = estate_burghers_tropical_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 1000
@@ -8462,6 +8736,7 @@ estate_church_lao_animism = {
 				remove_province_modifier = estate_church_lao_animism_mod
 			}
 		}
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	on_invalid = {
 		custom_tooltip = estate_church_lao_animism_revoke_effect_tooltip
@@ -8497,6 +8772,9 @@ estate_nobles_command_of_the_military = {
 	on_granted = {
 		custom_tooltip = estate_nobles_command_of_the_military_tt
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 		leader_cost = 0.2
 	}
@@ -8527,6 +8805,9 @@ estate_burghers_orang_laut_alliances = {
 	}
 	benefits = {
 		global_own_trade_power = 0.25
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	ai_will_do = {
 		factor = 10

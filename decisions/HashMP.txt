@@ -60,6 +60,112 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	h_reorganize_estates = {
+		major = yes
+		potential = {
+			NOT = {
+				OR = {
+					has_disaster_progress = {
+						disaster = estate_brahmins_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_burghers_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_church_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_cossacks_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_dhimmi_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_maratha_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_nobility_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_nomadic_tribes_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_rajput_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_vaisyas_disaster 
+						value = 1
+					}
+				}
+			}
+			OR = {
+				has_estate = estate_church
+				has_estate = estate_dhimmi
+				has_estate = estate_nobles
+				has_estate = estate_rajput
+				has_estate = estate_church
+				has_estate = estate_maratha
+				has_estate = estate_vaisyas
+				has_estate = estate_brahmins
+				has_estate = estate_burghers
+				has_estate = estate_cossacks
+				has_estate = estate_nomadic_tribes
+				has_estate = estate_lithuanian_nobility
+				has_estate = estate_polish_nobility
+			}
+		}
+		allow = {
+			if = {
+				limit = {
+					OR = {
+						current_age = age_of_absolutism
+						current_age = age_of_revolutions
+					}
+				}
+				absolutism = 5
+			}
+			adm_power = 100
+			custom_trigger_tooltip = {
+				tooltip = h_reorganize_estates_trigger_tooltip
+				NOT = { has_country_modifier = h_reorganize_estates }
+				NOT = { has_country_modifier = h_reorganize_estates_cooldown }
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						current_age = age_of_absolutism
+						current_age = age_of_revolutions
+					}
+				}
+				add_absolutism = -5
+			}
+			add_adm_power = -100
+			custom_tooltip = h_reorganize_estates_effect_tooltip
+			hidden_effect =	{
+				add_country_modifier = {
+					name = h_reorganize_estates
+					hidden = yes
+					duration = 60
+				}
+				add_country_modifier = {
+					name = h_reorganize_estates_cooldown
+					hidden = yes
+					duration = 3650
+				}
+			}
+		}
+	}
 	h_combat_janissary_decadence = {
 		major = yes
 		potential = {

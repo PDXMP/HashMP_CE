@@ -16,6 +16,28 @@ h_fra_united = {
 	fire_damage = 0.15
 }
 
+h_reorganize_estates = {
+	church_influence_modifier = -1
+	dhimmi_influence_modifier = -1
+	nobles_influence_modifier = -1
+	rajput_influence_modifier = -1
+	clergy_influence_modifier = -1
+	maratha_influence_modifier = -1
+	vaisyas_influence_modifier = -1
+	brahmins_hindu_influence_modifier = -1
+	brahmins_muslim_influence_modifier = -1
+	brahmins_other_influence_modifier = -1
+	burghers_influence_modifier = -1
+	cossacks_influence_modifier = -1
+	nomadic_tribes_influence_modifier = -1
+	lithuanian_nobility_influence_modifier = -1
+	polish_nobility_influence_modifier = -1
+}
+
+h_reorganize_estates_cooldown = {
+
+}
+
 h_muslim_school_cooldown = {
 
 }
