@@ -1,4 +1,11 @@
 ﻿l_spanish:
+ h_tun_rush_the_med:0 "Seize the Mediterranean"
+ h_tun_rush_the_strait:0 "Seize the Maghreb"
+ h_tun_religious_warriors:0 "Holy Warriors"
+ h_tun_morocco_title:0 "Prepare for War"
+ h_tun_morocco_desc:0 ""
+ h_tun_caliphate_title:0 "The Tunisian Caliphate"
+ h_tun_caliphate_desc:0 ""
  h_reorganize_estates_title:0 "Rein in the Estates"
  h_reorganize_estates_desc:0 "The Estates are currently too influencial for their privileges to be legally revoked, so we must overrule this by decree and enforce our will."
  h_reorganize_estates_effect_tooltip:0 "Every §YEstate§! will have their §YInfluence§! reduced by §Y-100%§! for 60 days allowing one §YPrivilege§! to be freely revoked."

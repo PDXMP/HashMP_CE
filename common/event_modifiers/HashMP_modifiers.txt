@@ -16,6 +16,20 @@ h_fra_united = {
 	fire_damage = 0.15
 }
 
+h_tun_rush_the_med = {
+	ae_impact = -0.20
+}
+
+h_tun_rush_the_strait = {
+	province_warscore_cost = -0.25
+	core_creation = -0.10
+	siege_ability = 0.33
+}
+
+h_tun_religious_warriors = {
+	shock_damage = 0.15
+}
+
 h_reorganize_estates = {
 	church_influence_modifier = -1
 	dhimmi_influence_modifier = -1
