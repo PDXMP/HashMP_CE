@@ -48,14 +48,7 @@ hab_holy_roman_ambitions = {
 
 		trigger = {
 			is_emperor = yes
-			calc_true_if = {
-				desc = secure_the_imperial_crown.tooltip
-				all_elector = {
-					preferred_emperor = ROOT
-					has_opinion = { who = ROOT value = 100 }
-				}
-				amount = 5
-			}
+			army_size_percentage = 0.5
 		}
 		effect = {
 			bohemia_area = {
