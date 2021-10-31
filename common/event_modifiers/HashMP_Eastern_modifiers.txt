@@ -43,6 +43,11 @@ h_polish_cossack_support = {
 	cavalry_fire = 0.20
 }
 
+h_polish_cossack_training = {
+	cavalry_shock = 0.10
+	cavalry_fire = 0.075
+}
+
 h_polish_crimean_invasion = {
 	land_forcelimit_modifier = 0.2
 	land_morale = 0.15
@@ -121,7 +126,7 @@ h_polish_sejm_ascendant = {
 
 h_polish_bajorais_ascendant = {
 	global_unrest = 2
-	cavalry_power = 0.2
+	cavalry_power = 0.1
 	lithuanian_nobility_influence_modifier = 0.2
 }
 
