@@ -23,7 +23,7 @@ country_decisions = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
 			}
-		}
+		} 
 		allow = {
 			adm_tech = 10
 			is_subject = no
@@ -38,7 +38,6 @@ country_decisions = {
 				tooltip = must_finish_pol_missions
 				has_country_flag = pol_end_mission
 			}
-
 		}
 		effect = {
 			change_tag = PLC
@@ -49,10 +48,7 @@ country_decisions = {
 				add_accepted_culture = lithuanian
 			}
 			if = {
-				limit = {
-					NOT = { primary_culture = ruthenian }
-					NOT = { accepted_culture = ruthenian }
-				}
+				limit = { NOT = { accepted_culture = ruthenian } }
 				add_accepted_culture = ruthenian
 			}
 			remove_non_electors_emperors_from_empire_effect = yes
@@ -112,8 +108,11 @@ country_decisions = {
 				limit = {
 					has_country_modifier = h_polish_cossack_training
 				}
-				remove_country_modifier = { h_polish_cossack_training }
-				add_country_modifier = { h_polish_cossack_support }
+				remove_country_modifier = h_polish_cossack_training 
+				add_country_modifier = {
+					name = h_polish_cossack_support
+					duration = -1
+				}
 			}
 			random_owned_province = {
 				limit = { culture = polish }
@@ -122,11 +121,13 @@ country_decisions = {
 			set_country_flag = formed_plc_flag
 			add_prestige = 25
 		}
+	
 		ai_will_do = {
 			factor = 1
 		}
 		ai_importance = 400
 		do_not_integrate = LIT
+		
 	}
 	lit_commonwealth = {
 		major = yes
@@ -271,22 +272,14 @@ country_decisions = {
 			}
 			tag = POL
 
-			OR = {
-				ai = no
-				NOT = { exists = POL }
-				NOT = { exists = LIT }
-			}
+
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 272	# Vilna
-				province_id = 276	# Minsk
+				province_id = 289	# Chernigov
 				province_id = 280	# Kiev
-				province_id = 1941	# Turov
 				province_id = 262	# Krakow
 				province_id = 257	# Warszawa
-				province_id = 43		# Danzig
-				province_id = 1841	# Marienburg
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -299,14 +292,10 @@ country_decisions = {
 			stability = 1
 			is_at_war = no
 			has_country_flag = purged_bajorais
-			owns_core_province = 272				# Vilna
-			owns_core_province = 276				# Minsk
+			owns_core_province = 289				# Chernigov
 			owns_core_province = 280				# Kiev
-			owns_core_province = 1941				# Turov
 			owns_core_province = 262				# Krakow
 			owns_core_province = 257				# Warszawa
-			owns_core_province = 43					# Danzig
-			owns_core_province = 1841				# Marienburg
 			MAZ = { exists = no }
 		}
 		effect = {
