@@ -501,8 +501,16 @@ h_polish_internal_branch = {
 				
 		}
 		effect = {
-			country_event = { id = HashMP_Poland.104 }
-			set_country_flag = sejm_curtailed
+		
+			if = {
+				limit = { has_country_flag = purged_sejm }
+				add_prestige = 25
+			}
+			if = {
+				limit = { NOT = { has_country_flag = purged_sejm } }
+					country_event = { id = HashMP_Poland.104 }
+					set_country_flag = sejm_curtailed
+			}
 		}
 	}
 	##Mission End
@@ -513,9 +521,6 @@ h_polish_internal_branch = {
 			deal_with_the_sejm_mission
 		}
 		position = 2
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
 		trigger = {
 			AND = {
 				any_owned_province = {
@@ -590,12 +595,20 @@ h_polish_internal_branch = {
 							}
 						}
 					}
+					has_country_flag = purged_bajorais
 				}
 			}
 		}
 		effect = {
-			country_event = { id = HashMP_Poland.105 }
-			set_country_flag = rights_mission
+			if = {
+				limit = { has_country_flag = purged_bajorais }
+				add_prestige = 25
+			}
+			if = {
+				limit = { NOT = { has_country_flag = purged_bajorais } }
+					country_event = { id = HashMP_Poland.105 }
+					set_country_flag = rights_mission
+			}
 		}
 	}
 	##Mission End
@@ -722,7 +735,7 @@ h_polish_lithuania_branch = {
 					CHR = {
 						is_subject_of = ROOT
 						NOT = {	
-							liberty_desire = 30
+							liberty_desire = 25
 						}
 					}	
 				}
@@ -874,7 +887,7 @@ h_polish_lithuania_expansion_branch = {
 					ZAZ = {
 						is_subject_of = POL
 						NOT = {
-							liberty_desire = 20
+							liberty_desire = 10
 						}
 					}	
 				}
