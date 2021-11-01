@@ -1666,7 +1666,7 @@ country_event = {
 
 		country_event = { 
 			id = HashMP_Poland.127
-			days = 730 
+			days = 1095 
 		}
 
 		hidden_effect = {
@@ -1697,7 +1697,7 @@ country_event = {
 
 		country_event = { 
 			id = HashMP_Poland.128
-			days = 730 
+			days = 1095 
 		}
 
 		hidden_effect = {
@@ -1721,7 +1721,7 @@ country_event = {
 		}
 
 		country_event = { 
-			id = HashMP_Poland.129 days = 730 
+			id = HashMP_Poland.129 days = 1095 
 		}
 
 		hidden_effect = {
