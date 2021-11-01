@@ -491,14 +491,14 @@ h_reform_declining_african_empire = {
 	potential = {
 		AND = {
 			tag = MAL
+			ai = yes
 			is_subject = no
 		}
 	}
 	modifiers = {
-		global_trade_goods_size_modifier = 0.30
-		reduced_liberty_desire = 15
+		global_trade_goods_size_modifier = 1
+		reduced_liberty_desire = 10
 		vassal_forcelimit_bonus = 2
-		all_power_cost = 0.25
 	}
 
 	custom_attributes = {
