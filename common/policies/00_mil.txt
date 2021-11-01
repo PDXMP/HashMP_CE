@@ -561,7 +561,7 @@ the_nautic_education_act = {
 		full_idea_group = innovativeness_ideas
 	}	
 	
-	artillery_fire = 0.20
+	artillery_fire = 0.25
 	artillery_bonus_vs_fort = 1
 	
 	ai_will_do = {
