@@ -967,7 +967,7 @@ muslim = {
 
 			picture = "GFX_icon_muslim_school_maliki"
 
-			development_cost = -0.1
+			development_cost = -0.05
 		}
 		shafii_school = {
 			potential_invite_scholar = {
