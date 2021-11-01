@@ -497,8 +497,8 @@ h_polish_internal_branch = {
 						}
 					}
 				}
+				hidden_trigger	= { has_country_flag = purged_sejm }
 			}
-				
 		}
 		effect = {
 		
@@ -595,7 +595,7 @@ h_polish_internal_branch = {
 							}
 						}
 					}
-					has_country_flag = purged_bajorais
+					hidden_trigger	= { has_country_flag = purged_bajorais }
 				}
 			}
 		}
