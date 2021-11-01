@@ -6,6 +6,11 @@
 
 # Overide Modifiers
 
+the_unknown_frontier = {
+	tax_income = 48
+	colonist_placement_chance = 0.2
+}
+
 bur_king_of_franks = {
 	fire_damage = 0.15
 }

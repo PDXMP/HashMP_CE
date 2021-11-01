@@ -346,7 +346,7 @@ gc_por_2 = {
 			create_explorer = {
 				tradition = 60
 			}
-			add_dip_power = 60
+			add_dip_power = 100
 			1306 = {
 				add_core = POR
 				cede_province = POR
@@ -392,6 +392,7 @@ gc_por_2 = {
 		}
 	
 		effect = {
+			add_adm_power = 150
 			hidden_effect = {
 				4097 = {
 					discover_country = ROOT
