@@ -241,13 +241,6 @@ tr_russia_conquest_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			north_karelia = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
 			arkhangelsk_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
@@ -255,14 +248,28 @@ tr_russia_conquest_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			laponia_area = {
+			north_karelia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			karelia_area = {
+			south_karelia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			kola_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			ingria_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
@@ -293,10 +300,11 @@ tr_russia_conquest_1 = {
 				area = novgorod_area
 				area = beloozero_area
 				area = pomor_area
-				area = north_karelia
 				area = arkhangelsk_area
-				area = laponia_area
-				area = karelia_area
+				area = kola_area
+				area = north_karelia_area
+				area = south_karelia_area
+				area = ingria_area
 				province_id = 4148
 			}
 			NOT = {
@@ -316,19 +324,23 @@ tr_russia_conquest_1 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			north_karelia = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			arkhangelsk_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			laponia_area = {
+			kola_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			karelia_area = {
+			south_karelia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_karelia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ingria_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -433,21 +445,21 @@ tr_russia_conquest_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			finland_area = {
+			finland_proper_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			laponia_area = {
+			east_laponia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			bothnia_area = {
+			ostrobothnia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -475,7 +487,7 @@ tr_russia_conquest_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			inner_finland_area = {
+			tavastia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
@@ -483,6 +495,13 @@ tr_russia_conquest_1 = {
 				add_permanent_claim = ROOT
 			}
 			nyland_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			savonia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
@@ -744,34 +763,39 @@ tr_russia_conquest_2 = {
 		position = 4
 		provinces_to_highlight = {
 			OR = {
-				area = finland_area
-				area = bothnia_area
-				area = laponia_area
+				area = finland_proper_area
+				area = ostrobothnia_area
+				area = east_laponia_area
 				area = nyland_area
-				area = inner_finland_area
+				area = tavastia_area
+				area = savonia_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			finland_area = {
+			finland_proper_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
-			bothnia_area = {
+			ostrobothnia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
-			laponia_area = {
+			east_laponia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
-			inner_finland_area = {
+			tavastia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
 			nyland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			savonia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
