@@ -85,7 +85,7 @@ basic_polders = {
 
 h_dhimmi_privilege_janissary_firearms = {
 	is_janissary_modifier = yes
-	fire_damage = 0.10
+	infantry_fire = 0.25
 	reinforce_cost_modifier = 0.5
 }
 
