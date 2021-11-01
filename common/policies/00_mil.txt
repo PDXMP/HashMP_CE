@@ -12,8 +12,8 @@ privy_council_establishment_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	shock_damage_received = -0.05
-	fire_damage_received = -0.05
+	shock_damage_received = -0.075
+	fire_damage_received = -0.075
 	
 	ai_will_do = {
 		factor = 0.6
