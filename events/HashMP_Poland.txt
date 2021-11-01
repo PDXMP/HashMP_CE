@@ -762,7 +762,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 20
+		months = 30
 		modifier = {
 			factor = 0.8
 			has_ruler_flag = lithuanian_ruler
@@ -815,7 +815,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 14
+		months = 22
 		modifier = {
 			factor = 1.2
 			has_ruler_flag = lithuanian_ruler
@@ -871,7 +871,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 20
+		months = 30
 		modifier = {
 			factor = 0.8
 			has_ruler_flag = lithuanian_ruler
@@ -926,7 +926,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 20
+		months = 30
 		modifier = {
 			factor = 0.8
 			has_ruler_flag = polish_ruler
@@ -980,7 +980,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 14
+		months = 22
 		modifier = {
 			factor = 1.2
 			has_ruler_flag = polish_ruler
@@ -1033,7 +1033,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 20
+		months = 30
 		modifier = {
 			factor = 0.8
 			has_ruler_flag = polish_ruler
