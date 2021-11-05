@@ -460,7 +460,7 @@ h_swedish_age_of_liberty = {
 }
 
 h_swedish_falun_mine_global = {
-	land_maintenance_modifier = -0.1
+	land_maintenance_modifier = -0.05
 	reinforce_cost_modifier = -0.25
 }
 
