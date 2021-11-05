@@ -1,5 +1,10 @@
 namespace = HashMP_Poland
 
+#Balance of Power:
+#Neutral: 0
+#Sejm Purge: 10
+#Bajorais Purge: -10
+
 # Setup event for poland and lithuania
 country_event = {
 	id = HashMP_Poland.100
@@ -20,8 +25,8 @@ country_event = {
 		ai_chance = { factor = 1 }
 
 		set_variable = {
-			which = h_polandlithuania_balance_of_power
-			value = 10
+			which = h_pol_balance_of_power_variable
+			value = 0 #Neutral
 		}
 		set_country_flag = pol_setup
 		set_ruler_flag = compromise_ruler
@@ -45,7 +50,6 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.101.a
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_3
 			
 		add_country_modifier = {
 			name = h_polish_invade_silesia
@@ -73,18 +77,13 @@ country_event = {
 			estate = estate_polish_nobility
 			loyalty = 10
 		}
-		
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 3
-			}
-		}
 
+		h_pol_subtract_power_balance = {
+			value = 3
+		}
 	}
 	option = {
 		name = HashMP_Poland.101.b
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_1	
 
 		add_country_modifier = {
 			name = h_polish_invade_silesia
@@ -104,11 +103,8 @@ country_event = {
 				loyalty = 10
 		}
 
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
+		h_pol_subtract_power_balance = {
+			value = 1
 		}
 	}
 }
@@ -126,7 +122,6 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.102.a
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_3	
 	
 		POL = {
 			add_country_modifier = {
@@ -154,16 +149,12 @@ country_event = {
 				loyalty = 10
 		}
 
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 3
-			}
+		h_pol_subtract_power_balance = {
+			value = 3
 		}
 	}
 	option = {
 		name = HashMP_Poland.102.b
-		custom_tooltip = HashMP_Polish_Influence_Tooltip_1
 		
 		add_country_modifier = {
 			name = h_polish_tolerant_commonwealth
@@ -189,11 +180,8 @@ country_event = {
 				loyalty = -10
 		}
 
-		hidden_effect = {
-			change_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
+		h_pol_change_power_balance = {
+			value = 1
 		}
 	}
 
@@ -206,21 +194,7 @@ country_event = {
 	desc = HashMP_Poland.103.d
 	picture = SEJM_eventPicture
 	fire_only_once = yes
-
-	trigger = {
-		tag = POL
-	
-		NOT = {
-			check_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 200
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = HashMP_Poland.103.a
@@ -243,8 +217,8 @@ country_event = {
 				}
 			}
 			spawn_rebels = {
-				type = magnate_rebels
-				size = 1
+				type = noble_rebels
+				size = 0.5
 			}
 		}
 
@@ -255,7 +229,6 @@ country_event = {
 	}
 	option = {
 		name = HashMP_Poland.103.b
-		custom_tooltip = HashMP_Polish_Influence_Tooltip_3
 	
 		add_stability = -2
 	
@@ -274,16 +247,13 @@ country_event = {
 				culture = polish
 			}
 			spawn_rebels = {
-				type = magnate_rebels
+				type = noble_rebels
 				size = 3
 			}
 		}
 
-		hidden_effect = {
-			change_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 3
-			}
+		h_pol_change_power_balance = {
+			value = 3
 		}
 	}
 }
@@ -304,7 +274,6 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.104.a
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_3
 	
 		set_estate_privilege = estate_polish_nobility_pacta_conventa
 
@@ -320,15 +289,14 @@ country_event = {
 
 		hidden_effect = {
 			set_country_flag = pol_pact_conventa_flag
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 3
-			}
+		}
+
+		h_pol_subtract_power_balance = {
+			value = 3
 		}
 	}
 	option = {
 		name = HashMP_Poland.104.b
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_2
 	
 		set_estate_privilege = estate_polish_nobility_pacta_conventa
 		set_estate_privilege = estate_lithuanian_nobility_pacta_conventa
@@ -345,10 +313,10 @@ country_event = {
 
 		hidden_effect = {
 			set_country_flag = pol_pact_conventa_shared_flag
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 2
-			}
+		}
+
+		h_pol_subtract_power_balance = {
+			value = 2
 		}
 	}
 	
@@ -385,7 +353,6 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.105.a
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_3
 
 		remove_estate_privilege = estate_polish_nobility_golden_liberty
 		set_estate_privilege = estate_polish_nobility_greater_golden_liberty
@@ -400,16 +367,12 @@ country_event = {
 			loyalty = 10
 		}
 
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 3
-			}
+		h_pol_subtract_power_balance = {
+			value = 3
 		}
 	}
 	option = {
 		name = HashMP_Poland.105.b
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_2
 
 		set_estate_privilege = estate_lithuanian_nobility_golden_liberty
 
@@ -423,11 +386,8 @@ country_event = {
 			loyalty = -5
 		}
 
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 2
-			}
+		h_pol_subtract_power_balance = {
+			value = 2
 		}
 	}
 	
@@ -459,20 +419,8 @@ country_event = {
 	title = HashMP_Poland.106.t
 	desc = HashMP_Poland.106.d
 	picture = SEJM_eventPicture
-
 	fire_only_once = yes
-
-	trigger = {
-		tag = POL
-		check_variable = {
-			which = h_polandlithuania_balance_of_power
-			value = 19
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 200
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = HashMP_Poland.106.a
@@ -484,19 +432,8 @@ country_event = {
 		}
 
 		add_estate_loyalty = {
-				estate = estate_polish_lithuania
-				loyalty = 20
-		}
-
-		every_owned_province = {
-			limit = {
-				culture = polish
-				unrest = 1
-			}
-			spawn_rebels = {
-				type = magnate_rebels
-				size = 1
-			}
+			estate = estate_polish_lithuania
+			loyalty = 20
 		}
 
 		random_owned_province = {
@@ -504,7 +441,7 @@ country_event = {
 				culture = polish
 			}
 			spawn_rebels = {
-				type = magnate_rebels
+				type = noble_rebels
 				size = 3
 			}
 		}
@@ -515,7 +452,6 @@ country_event = {
 	}
 	option = {
 		name = HashMP_Poland.106.b
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_3
 	
 		add_stability = -2
 	
@@ -524,7 +460,7 @@ country_event = {
 				culture = lithuanian
 			}
 			spawn_rebels = {
-				type = magnate_rebels
+				type = noble_rebels
 				size = 3
 			}
 		}
@@ -539,11 +475,8 @@ country_event = {
 			loyalty = 10
 		}
 
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 3
-			}
+		h_pol_subtract_power_balance = {
+			value = 3
 		}
 	}
 }
@@ -563,7 +496,6 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.107.a
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_1
 
 		trigger = { 
 			NOT = { 
@@ -587,7 +519,7 @@ country_event = {
 			}
 			hidden_effect = {
 				subtract_variable = {
-					which = h_polandlithuania_balance_of_power
+					which = h_pol_balance_of_power_variable
 					value = 1
 				}
 			}
@@ -619,6 +551,16 @@ country_event = {
 		}
 
 		hidden_effect = { set_ruler_flag = polish_ruler }
+
+		if = {
+			limit = {
+				tag = POL
+			}
+			h_pol_subtract_power_balance = {
+				value = 1
+			}
+		}
+
 	}
 	option = {
 		name = HashMP_Poland.107.b
@@ -660,7 +602,6 @@ country_event = {
 	}
 	option = {
 		name = HashMP_Poland.107.c
-		custom_tooltip =HashMP_Polish_Influence_Tooltip_1
 
 		trigger = { 
 			NOT = { 
@@ -676,18 +617,6 @@ country_event = {
 		add_estate_loyalty = {
 			estate = estate_polish_nobility
 			loyalty = -10
-		}
-
-		if = {
-			limit = {
-				tag = POL
-			}
-			hidden_effect = {
-				change_variable = {
-					which = h_polandlithuania_balance_of_power
-					value = 1
-				}
-			}
 		}
 
 		define_ruler = {
@@ -716,6 +645,15 @@ country_event = {
 		}
 
 		hidden_effect = { set_ruler_flag = lithuanian_ruler }
+
+		if = {
+			limit = {
+				tag = POL
+			}
+			h_pol_change_power_balance = {
+				value = 1
+			}
+		}
 	}
 	
 	option = {
@@ -1097,7 +1035,6 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.120.a
-		custom_tooltip =HashMP_Polish_Influence_Tooltip_1
 
 		LIT = { 
 			inherit = KIE
@@ -1118,17 +1055,13 @@ country_event = {
 			name = pol_mayor_support
 			duration = 7300
 		}
-	
-		hidden_effect = {
-			change_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
+
+		h_pol_change_power_balance = {
+			value = 1
 		}
 	}
 	option = {
 		name = HashMP_Poland.120.b
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_1
 	
 		LIT = { 
 			inherit = KIE
@@ -1151,16 +1084,12 @@ country_event = {
 			duration = 7300
 		}
 		
-		hidden_effect = {
-			subtract_variable ={
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
+		h_pol_subtract_power_balance = {
+			value = 1
 		}
 	}
 	option = {
 		name = HashMP_Poland.120.c
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_3
 	
 		inherit = KIE
 		inherit = VOL
@@ -1175,11 +1104,8 @@ country_event = {
 			loyalty = 10
 		}
 
-		hidden_effect = {
-			subtract_variable ={
-				which = h_polandlithuania_balance_of_power
-				value = 3
-			}
+		h_pol_subtract_power_balance = {
+			value = 3
 		}
 	}
 }
@@ -1201,7 +1127,6 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.121.a
-		custom_tooltip = HashMP_Polish_Influence_Tooltip_1
 	
 		change_mil = 1
 		change_dip = 1
@@ -1217,13 +1142,9 @@ country_event = {
 			loyalty = -5
 		}
 	
-		hidden_effect = {
-			change_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
+		h_pol_change_power_balance = {
+			value = 1
 		}
-
 	}
 	option = {
 		name = HashMP_Poland.121.b
@@ -1247,7 +1168,7 @@ country_event = {
 	}
 	option = {
 		name = HashMP_Poland.121.c
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_1
+
 		add_adm_power = 150
 		add_dip_power = 150
 		add_mil_power = 150
@@ -1262,11 +1183,8 @@ country_event = {
 			loyalty = 10
 		}
 
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
+		h_pol_subtract_power_balance = {
+			value = 1
 		}
 	}
 }
@@ -1288,7 +1206,7 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.122.e
-		estonia_area = {
+		estonia_ingria_area = {
 			limit = {
 				NOT = {
 					country_or_non_sovereign_subject_holds = ROOT
@@ -1334,13 +1252,13 @@ country_event = {
 			}
 			OR = {
 				PLT = {
-					OR  { 
+					OR = { 
 						is_subject_of = POL
 						is_subject_of = LIT
 					}
 				}
 				SMO = {
-					OR  { 
+					OR = { 
 						is_subject_of = POL
 						is_subject_of = LIT
 					}
@@ -1353,7 +1271,6 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.123.a
-		custom_tooltip =HashMP_Polish_Influence_Tooltip_1
 
 		SMO = {
 			add_country_modifier = {
@@ -1384,16 +1301,12 @@ country_event = {
 			loyalty = -5
 		}
 	
-		hidden_effect = {
-			change_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
+		h_pol_change_power_balance = {
+			value = 1
 		}
 	}
 	option = {
 		name = HashMP_Poland.123.b
-		custom_tooltip = HashMP_Polish_Influence_Tooltip_2
 
 		LIT = { 
 			inherit = PLT
@@ -1410,16 +1323,12 @@ country_event = {
 				loyalty = -20
 		}
 
-		hidden_effect = {
-			change_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 2
-			}
+		h_pol_change_power_balance = {
+			value = 2
 		}
 	}
 	option = {
 		name = HashMP_Poland.123.c
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_1
 
 		SMO = {
 			add_country_modifier = {
@@ -1447,11 +1356,8 @@ country_event = {
 			loyalty = 10
 		}
 
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
+		h_pol_subtract_power_balance = {
+			value = 1
 		}
 	}
 }
@@ -1479,7 +1385,6 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.124.a
-		custom_tooltip =HashMP_Polish_Influence_Tooltip_3
 
 		LIT = { 
 			inherit = CHR
@@ -1500,16 +1405,12 @@ country_event = {
 			loyalty = -15
 		}
 
-		hidden_effect = {
-			change_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 2
-			}
+		h_pol_change_power_balance = {
+			value = 2
 		}
 	}
 	option = {
 		name = HashMP_Poland.124.b
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_3
 
 		inherit = CHR
 
@@ -1525,11 +1426,8 @@ country_event = {
 			loyalty = -15
 		}
 
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 3
-			}
+		h_pol_subtract_power_balance = {
+			value = 2
 		}
 	}
 }
@@ -1554,7 +1452,6 @@ country_event = {
 	
 	option = {
 		name = HashMP_Poland.125.a
-		custom_tooltip =HashMP_Polish_Influence_Tooltip_1
 	
 		ZAZ = {
 			add_country_modifier = {
@@ -1578,11 +1475,8 @@ country_event = {
 			loyalty = -20
 		}
 
-		hidden_effect = {
-			change_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
+		h_pol_change_power_balance = {
+			value = 1
 		}
 	}
 	option = {
@@ -1604,7 +1498,6 @@ country_event = {
 	}
 	option = {
 		name = HashMP_Poland.125.c
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_1
 	
 		inherit = ZAZ
 
@@ -1618,11 +1511,8 @@ country_event = {
 			loyalty = 10
 		}
 
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
+		h_pol_subtract_power_balance = {
+			value = 1
 		}
 	}
 }
@@ -1644,7 +1534,6 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.126.a
-		custom_tooltip =HashMP_Polish_Influence_Tooltip_2
 	
 		add_manpower = -5
 		add_treasury = -250
@@ -1669,16 +1558,12 @@ country_event = {
 			days = 1095 
 		}
 
-		hidden_effect = {
-			change_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 2
-			}
+		h_pol_change_power_balance = {
+			value = 2
 		}
 	}
 	option = {
 		name = HashMP_Poland.126.b
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_1
 
 		LIT = {
 			add_manpower = -5
@@ -1692,7 +1577,7 @@ country_event = {
 
 		add_estate_loyalty = {
 			estate = estate_polish_nobility
-			loyalty = 10
+			loyalty = 5
 		}
 
 		country_event = { 
@@ -1700,16 +1585,12 @@ country_event = {
 			days = 1095 
 		}
 
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 1
-			}
+		h_pol_subtract_power_balance = {
+			value = 1
 		}
 	}
 	option = {
 		name = HashMP_Poland.126.c
-		custom_tooltip = HashMP_Lithuanian_Influence_Tooltip_2
 	
 		add_estate_loyalty = {
 			estate = estate_lithuanian_nobility
@@ -1724,11 +1605,8 @@ country_event = {
 			id = HashMP_Poland.129 days = 1095 
 		}
 
-		hidden_effect = {
-			subtract_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 2
-			}
+		h_pol_subtract_power_balance = {
+			value = 2
 		}
 	}
 }
@@ -1745,6 +1623,15 @@ country_event = {
 
 	trigger = {
 		tag = POL
+
+		ZAZ = {
+			exists = yes
+			is_subject_of = POL
+		}
+
+		CRI = {
+			exists = yes
+		}
 	}
 
 	immediate = {
@@ -1755,47 +1642,28 @@ country_event = {
 
 	option = {
 		name = HashMP_Poland.127.a
-		random_list = {
-			50 = {
-				CRI = {
-					every_owned_province = {
-						limit = {
-							OR = {
-								area = zaporizhia_area
-								area = yedisan_area
-								area = crimea_area
-							}
-						}
-						add_core = ZAZ
-						cede_province = ZAZ
-					}
+		CRI = {
+			zaporizhia_area = {
+				limit = {
+					owned_by = CRI
 				}
+				cede_province = ZAZ
 			}
-			30 = {
-				CRI = {
-					every_owned_province = {
-						limit = {
-							OR = {
-								area = zaporizhia_area
-								area = yedisan_area
-							}
-						}
-						add_core = ZAZ
-						cede_province = ZAZ
-					}
+			yedisan_area = {
+				limit = {
+					owned_by = CRI
 				}
-			} 
-			20 = {
-				CRI = {
-					every_owned_province = {
-						limit = {
-							area = zaporizhia_area
-						}
-						add_core = ZAZ
-						cede_province = ZAZ
-					}
-				}
+				cede_province = ZAZ
 			}
+		}
+		crimea_area = {
+			add_permanent_claim = ZAZ
+		}
+		zaporizhia_area = {
+			add_core = ZAZ
+		}
+		yedisan_area = {
+			add_core = ZAZ
 		}
 	}
 }
@@ -1818,36 +1686,32 @@ country_event = {
 
 	trigger = {
 		tag = POL
+
+		ZAZ = {
+			exists = yes
+			is_subject_of = POL
+		}
+
+		CRI = {
+			exists = yes
+		}
 	}
 
 	option = {
 		name = HashMP_Poland.127.a
-		random_list = {
-			50 = {
-				CRI = {
-					every_owned_province = {
-						limit = {
-							OR = {
-								area = zaporizhia_area
-								area = yedisan_area
-							}
-						}
-						add_core = ZAZ
-						cede_province = ZAZ
-					}
+		CRI = {
+			zaporizhia_area = {
+				limit = {
+					owned_by = CRI
 				}
+				cede_province = ZAZ
 			}
-			30 = {
-				CRI = {
-					every_owned_province = {
-						limit = {
-							area = zaporizhia_area
-						}
-						add_core = ZAZ
-						cede_province = ZAZ
-					}
-				}
-			}
+		}
+		zaporizhia_area = {
+			add_core = ZAZ
+		}
+		yedisan_area = {
+			add_permanent_claim = ZAZ
 		}
 	}
 }
@@ -1872,33 +1736,25 @@ country_event = {
 
 	trigger = {
 		tag = POL
+
+		ZAZ = {
+			exists = yes
+			is_subject_of = POL
+		}
 	}
 
 	option = {
 		name = HashMP_Poland.127.a
-		random_list = {
-			40 = {
-				CRI = {
-					every_owned_province = {
-						limit = {
-							area = zaporizhia_area
-						}
-						add_core = ZAZ
-						cede_province = ZAZ
-					}
+		CRI = {
+			zaporizhia_area = {
+				limit = {
+					owned_by = CRI
 				}
+				cede_province = ZAZ
 			}
-			30 = {
-				ZAZ = {
-					every_owned_province = {
-						limit = {
-							area = zaporizhia_area
-						}
-						add_core = CRI
-						cede_province = CRI
-					}
-				}
-			}
+		}
+		zaporizhia_area = {
+			add_core = ZAZ
 		}
 	}
 }
@@ -1915,6 +1771,21 @@ country_event = {
 
 	trigger = {
 		tag = POL
+
+		ZAZ = {
+			exists = yes
+			is_subject_of = POL
+		}
+
+		CRI = {
+			exists = yes
+			can_create_vassals = yes
+		}
+
+		GOL = {
+			exists = yes
+			can_create_vassals = yes
+		}
 	}
 
 	immediate = {

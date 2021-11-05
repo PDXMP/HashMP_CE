@@ -1369,7 +1369,7 @@ estate_lithuanian_nobility_conscript_troops = {
 			custom_tooltip =HashMP_Polish_Influence_Tooltip_1
 			hidden_effect = {
 				change_variable = {
-					which = h_polandlithuania_balance_of_power
+					which = h_pol_balance_of_power_variable
 					value = 1
 				}
 			}

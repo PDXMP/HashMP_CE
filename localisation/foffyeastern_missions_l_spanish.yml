@@ -1,15 +1,15 @@
 ﻿l_spanish:
-#lithuanian missions
+#Lithuanian missions
  h_polish_vytautas_reforms_title:0 "The Vytautas Reforms"
  h_polish_vytautas_reforms_desc:0 "Lithuania is ravaged by war, religious and cultural tensions. If we are to proclaim ourselves the true succesors of the rus empire, we must restart the reforms of Vytautas The Great."
  h_polish_marches_title:0 "The Northern Marches"
  h_polish_marches_desc:0 "Smolensk and Polotsk supported Švitrigaila at the start of the Lithuanian Civil War, but after its defeat they fell back in line with the rest. They have been loyal to the current Great Duke and already declared him their Hospodar. It's in our choice to further integrate them, or to expand their power to defend against the upstart Muscovite nation."
  h_polish_develop_ruthenia_title:0 "Develop Ruthenia"
- h_polish_develop_ruthenia_desc:0 "Ruthenia is an undeveloped region with great potential, thus far stifled by the ever-present threat of war and raiding. We should bring stability to the region and begin to restore its productivit.y"
+ h_polish_develop_ruthenia_desc:0 "Ruthenia is an undeveloped region with great potential, thus far stifled by the ever-present threat of war and raiding. We should bring stability to the region and begin to restore its productivity."
  h_polish_restore_kiev_title:0 "Restore Kiev"
  h_polish_restore_kiev_desc:0 "Kiev was once a proud city, capital of all the Rus. It has since fallen into decay, and should be restored."
  h_polish_sluck_shashes_title:0 "Sluck Sashes"
- h_polish_sluck_shashes_desc:0 "The nobility have taken to wearing fine cloth sashes to gird their robes, and there are none finer than those produced in Sluck. We must ensure that the province is able to produce enough of these sashes to meet the growing demands of the nobility."
+ h_polish_sluck_shashes_desc:0 "The Nobility have taken to wearing fine cloth sashes to gird their robes, and there are none finer than those produced in Sluck. We must ensure that the province is able to produce enough of these sashes to meet the growing demands of the Nobility."
  h_polish_lithuanian_succession_title:0 "The Succesion of Švitrigaila"
  h_polish_lithuanian_succession_desc:0 "The Lithuanian civil war saw brother against brother and duchy against duchy. Now, its finally over, but it has left lithuania fractured and wounded. If we gain the support of Švitrigaila, the deposed Gran Duke, we will be able to bring back to the fold his holdings in Kiev and Volhynia"
  h_polish_reign_chernigov_title:0 "Reign Chernigov"
@@ -21,7 +21,7 @@
  h_polish_invade_crimea_title:0 "Conquer the Crimea"
  h_polish_invade_crimea_desc:0 "Now that the Zaphorozhian Cossacks are loyal to the Gran Duke, it is time to reward them with new holdings. Crimea would help us expand the Zaphorozhian influence and bind them closer to ours "
  h_polish_rights_and_privileges_title:0 "Rights and Privileges"
- h_polish_rights_and_privileges_desc:0 "With the Sejm put in place, we can deal with the disunity between the Sejm and the Bajorais. The Bajorais are demanding that they should have the same rights and privileges as the Slayzta, the nobility of the Sejm, since both Poland and Lithuania should be treated as equals. While granting the golden liberty to the Bajorais would be great help in the future the Sejm would consider this an attack on its own rights."
+ h_polish_rights_and_privileges_desc:0 "With the Sejm put in place, we can deal with the disunity between the Sejm and the Bajorais. The Bajorais are demanding that they should have the same rights and privileges as the Slayzta, the Nobility of the Sejm, since both Poland and Lithuania should be treated as equals. While granting the golden liberty to the Bajorais would be great help in the future the Sejm would consider this an attack on its own rights."
  h_polish_a_matter_of_faiths_title:0 "A Matter of Faiths"
  h_polish_a_matter_of_faiths_desc:0 "Both Poland and Lithuania. while united in a personal union as equals, are completely differents in matters of religion, the catholic Sejm and the Orthodox Bajorais, both factions pushing to expand the influence of their religion throrought the Commonwealth."
  #########################
@@ -50,4 +50,4 @@
  h_plc_increase_trade_title:0 "Secure Baltic Trade"
  h_plc_increase_trade_desc:0 "While we own part of the baltic coast we dont have much of trading tradition in the region. Its time we change that."
  h_plc_populate_steppes_title:0 "Populate the Steppes"
- h_plc_populate_steppes_desc:0 "With our region completely secure, our population in the homeland is booming. We should give people incentive to move and start working those lands"
+ h_plc_populate_steppes_desc:0 "With our region completely secure, our population in the homeland is booming. We should give people incentive to move and start working those lands."

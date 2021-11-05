@@ -1,4 +1,8 @@
 ﻿l_english:
+ h_pol_purge_sejm_title:0 "Purge the Sejm Estate"
+ h_pol_purge_sejm_desc:0 "The Bajorais estate has steadily seized power and now holds complete control over the country. This now raises the concern regarding if the Sejm estate is needed anymore."
+ h_pol_purge_bajorais_title:0 "Purge the Bajorais Estate"
+ h_pol_purge_bajorais_desc:0 "The Sejm estate has steadily seized power and now holds complete control over the country. This now raises the concern regarding if the Bajorais estate is needed anymore."
  h_tun_rush_the_med:0 "Seize the Mediterranean"
  h_tun_rush_the_strait:0 "Seize the Maghreb"
  h_tun_religious_warriors:0 "Holy Warriors"

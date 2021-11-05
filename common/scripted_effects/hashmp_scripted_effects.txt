@@ -1,3 +1,42 @@
+#Decreases power variable, aka favour Sejm.
+h_pol_subtract_power_balance = {
+	if = {
+		limit = {
+			NOT = { has_country_flag = purged_sejm }
+			NOT = { has_country_flag = purged_bajorais }
+		}
+
+		custom_tooltip = h_pol_change_power_space
+		custom_tooltip = h_pol_current_power_tooltip
+
+		subtract_variable = {
+			which = h_pol_balance_of_power_variable
+			value = $value$
+		}
+
+		custom_tooltip = h_pol_subtract_power_tooltip
+	}
+}
+
+#Increase power variable, aka favour Bajorais.
+h_pol_change_power_balance = {
+	if = {
+		limit = {
+			NOT = { has_country_flag = purged_sejm }
+			NOT = { has_country_flag = purged_bajorais }
+		}
+		custom_tooltip = h_pol_change_power_space
+		custom_tooltip = h_pol_current_power_tooltip
+
+		change_variable = {
+			which = h_pol_balance_of_power_variable
+			value = $value$
+		}
+
+		custom_tooltip = h_pol_change_power_tooltip
+	}
+}
+
 h_remove_estate_privilege_rein_in_estates_effect = {
 	hidden_effect = {
 		if = {

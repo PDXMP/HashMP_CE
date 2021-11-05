@@ -5,6 +5,68 @@
 ########################################
 
 country_decisions = {
+	h_pol_purge_sejm = {
+		major = yes
+		potential = {
+			TAG = POL
+			NOT = { has_country_flag = purged_sejm }
+			NOT = { has_country_flag = purge_sejm_decision }
+			NOT = { has_country_flag = purged_bajorais }
+			NOT = { has_country_flag = purge_bajorais_decision }
+			check_variable = {
+				which = h_pol_balance_of_power_variable
+				value = 10
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			check_variable = {
+				which = h_pol_balance_of_power_variable
+				value = 10
+			}
+		}
+		effect = {
+			set_country_flag = purge_sejm_decision
+			country_event = {
+				id = HashMP_Poland.106
+			}
+		}
+	}
+	h_pol_purge_bajorais = {
+		major = yes
+		potential = {
+			TAG = POL
+			NOT = { has_country_flag = purged_bajorais }
+			NOT = { has_country_flag = purge_bajorais_decision }
+			NOT = { has_country_flag = purged_sejm }
+			NOT = { has_country_flag = purge_sejm_decision }
+			NOT = {
+				check_variable = {
+					which = h_pol_balance_of_power_variable
+					value = -9
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			NOT = {
+				check_variable = {
+					which = h_pol_balance_of_power_variable
+					value = -9
+				}
+			}
+		}
+		effect = {
+			set_country_flag = purge_bajorais_decision
+			country_event = {
+				id = HashMP_Poland.103
+			}
+		}
+	}
 	#Credit to PR
 	h_critical_events = {
 		major = yes

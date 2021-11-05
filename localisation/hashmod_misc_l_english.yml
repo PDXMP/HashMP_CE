@@ -1,4 +1,8 @@
 ﻿l_english:
+ h_pol_change_power_space:0 " "
+ h_pol_change_power_tooltip:0 "This will increase the power of the §YBajorais§! estate. Should the §Y[Root.h_pol_balance_of_power_variable.GetName]§! reach §Y10§!, the §YSejm§! estate can be purged."
+ h_pol_subtract_power_tooltip:0 "This will increase the power of the §YSejm§! estate. Should the §Y[Root.h_pol_balance_of_power_variable.GetName]§! reach §Y-10§!, the §YBajorais§! estate can be purged."
+ h_pol_current_power_tooltip:0 "The §Y[Root.h_pol_balance_of_power_variable.GetName]§! is currently §Y[Root.h_pol_balance_of_power_variable.GetValue]§!."
  h_pol_purged_bajorais_tooltip:0 "Has purged the §YBajorais§! estate."
  h_swe_dalarna_expiration_tooltip:0 "§YInvestments in Dalarna§! will expire in §Y5 years§!."
  h_bur_subjects_tooltip:0 "All subjects have less than §Y20.00%§! Liberty Desire."

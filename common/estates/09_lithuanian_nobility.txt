@@ -67,14 +67,14 @@ estate_lithuanian_nobility =
 			has_country_flag = pol_setup
 			NOT = {
 				check_variable = {
-					which = h_polandlithuania_balance_of_power
-					value = 2
+					which = h_pol_balance_of_power_variable
+					value = 9
 				}
 			}
-				check_variable = {
-					which = h_polandlithuania_balance_of_power
-					value = 7
-				}			
+			check_variable = {
+				which = h_pol_balance_of_power_variable
+				value = 5
+			}			
 		}
 		influence = -10
 	}
@@ -83,11 +83,9 @@ estate_lithuanian_nobility =
 		desc = bajorais_level_2
 		trigger = {
 			has_country_flag = pol_setup
-			NOT = {
-				check_variable = {
-					which = h_polandlithuania_balance_of_power
-					value = 3
-				}
+			check_variable = {
+				which = h_pol_balance_of_power_variable
+				value = 9
 			}		
 		}
 		influence = -20
@@ -97,16 +95,11 @@ estate_lithuanian_nobility =
 		desc = bajorais_level_3
 		trigger = {
 			has_country_flag = pol_setup
-			check_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 14
-			}
 			NOT = {
 				check_variable = {
-					which = h_polandlithuania_balance_of_power
-					value = 18
-				}
-			
+					which = h_pol_balance_of_power_variable
+					value = -5
+				}	
 			}
 		}	
 		influence = 10
@@ -116,9 +109,11 @@ estate_lithuanian_nobility =
 		desc = bajorais_level_4
 		trigger = {
 			has_country_flag = pol_setup
-			check_variable = {
-				which = h_polandlithuania_balance_of_power
-				value = 17
+			NOT = {
+				check_variable = {
+					which = h_pol_balance_of_power_variable
+					value = -8
+				}	
 			}
 		}	
 		influence = 20

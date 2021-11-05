@@ -1,5 +1,5 @@
 ﻿l_spanish:
- h_polandlithuania_balance_of_power:0 "Balance of Power in Poland"
+ h_pol_balance_of_power_variable:0 "Balance of Power"
  HashMP_Lithuanian_Influence_Tooltip_3:0 "§RThis will greatly disminish the influence of the Lithuanian Nobility.§!"
  HashMP_Lithuanian_Influence_Tooltip_2:0 "§RThis will disminish the influence of the Lithuanian Nobility.§!"
  HashMP_Lithuanian_Influence_Tooltip_1:0 "§RThis will slighly disminish the influence of the Lithuanian Nobility.§!"
@@ -7,7 +7,7 @@
  HashMP_Polish_Influence_Tooltip_2:0 "§RThis will disminish the influence of our own Polish Nobility.§!"
  HashMP_Polish_Influence_Tooltip_1:0 "§RThis will slighly disminish the influence of our own Polish Nobility.§!"
  HashMP_Poland.120.t:0 "The Succesion of Svitrigaila"
- HashMP_Poland.120.d:0 "Svitrigaila, the deposed Grand Duke, has died of old age. He has bequeated both of his duchies, Kiev and Galicia-Volhynia to lithuania. We could dispute this action, demanding that galicia-volhynia is given to Poland for a more direct control, or even force the integration of Kiev even if that angers the lithuanian nobility."
+ HashMP_Poland.120.d:0 "Svitrigaila, the deposed Grand Duke, has died of old age. He has bequeated both of his duchies, Kiev and Galicia-Volhynia to lithuania. We could dispute this action, demanding that Galicia-Volhynia is given to Poland for a more direct control, or even force the integration of Kiev even if that angers the Lithuanian Nobility."
  HashMP_Poland.120.a:0 "Respect the wishes of Svitrigaila"
  HashMP_Poland.120.b:0 "Negotiate with the Lithuanian Nobility"
  HashMP_Poland.120.c:0 "Demand both Kiev and Galicia-Volhynia"
@@ -23,7 +23,7 @@
  HashMP_Poland.122.c:0 "The Sejm will control them" 
  HashMP_Poland.122.e:0 "We will recover the Knights lands!"
  HashMP_Poland.123.t:0 "The Northern Marches"
- HashMP_Poland.123.d:0 "While the duchies of Polotsk and Smolensk initially supported Svitrigaila, they left the Polish-Lithuanian civil war early to prepare their duchies against a posible Muscovite offensive. They are gladly offering us their troops and services if we agree to keep to support the march status of these duchies. Otherwise, we could force them to integrate faster into either Lithuania or Poland even if this action would leave those duchies weaker against an enemy invasion"
+ HashMP_Poland.123.d:0 "While the duchies of Polotsk and Smolensk initially supported Svitrigaila, they left the Polish-Lithuanian civil war early to prepare their duchies against a posible Muscovite offensive. They are gladly offering us their troops and services if we agree to keep to support the march status of these duchies. Otherwise, we could force them to integrate faster into either Lithuania or Poland even if this action would leave those duchies weaker against an enemy invasion."
  HashMP_Poland.123.a:0 "They shall remain vigilant against muscovite aggresion"
  HashMP_Poland.123.b:0 "Integrate them into Lithuania"
  HashMP_Poland.123.c:0 "They will respond to the Sejm now" 
@@ -51,16 +51,51 @@
  HashMP_Poland.130.a:0 "And Poland will answer, muster the Hussars"
  HashMP_Poland.130.b:0 "They are not worth the effort..."
  
- #polish lithuanian civil war events
+ #Polish Lithuanian civil war events
  HashMP_Poland_Disaster.1.a:0 "The Commonwealth will survive"
  HashMP_Poland_Disaster.1.t:0 "Civil War between the Sejm and the Bajorais"
- HashMP_Poland_Disaster.1.d:0 "The tensions between the Polish Sejm and the Lithuanian Bajorais have reached a breaking point. Both factions have called their banners and for the time being, refuse to try any negotiations. While this conflict is on-going we will have great problems to consolidate our subjects, we must force both factions to stand down and bow to [Root.GetName].
+ HashMP_Poland_Disaster.1.d:0 "The tensions between the Polish Sejm and the Lithuanian Bajorais have reached a breaking point. Both factions have called their banners and for the time being, refuse to try any negotiations. While this conflict is on-going we will have great problems to consolidate our subjects, we must force both factions to stand down and bow to [Root.GetName]."
  
  HashMP_Poland_Disaster.2.a:0 "The Nobility has been reigned in"
  HashMP_Poland_Disaster.2.t:0 "End of the Civil War"
- HashMP_Poland_Disaster.2.d:0 "While the Polish and the Lithuanian nobilities fought, [Root.GetName] managed to raise enough loyal troops and support to defeat both factions, that have seen their influence curtailed for the time being. Even if this civil war is behind us now, the Commonwealth has suffered enough loses to be set back for the time being. Will we ever leave the cycles of hatred between Polish and Lithuanians behind? 
+ HashMP_Poland_Disaster.2.d:0 "While the Polish and the Lithuanian nobilities fought, [Root.GetName] managed to raise enough loyal troops and support to defeat both factions, that have seen their influence curtailed for the time being. Even if this civil war is behind us now, the Commonwealth has suffered enough loses to be set back for the time being. Will we ever leave the cycles of hatred between Polish and Lithuanians behind?"
 
- #polish events
+ HashMP_Poland_Disaster.4.t:0 "Kiev demands representation"
+ HashMP_Poland_Disaster.4.d:0 "In periods of strife, smaller nobles would use the opportunity to push for demands in exchange of their services and loyalty. Today, the Nobility from Kiev are offering us their support on the civil war, if only we would give them more representation on the court"
+ HashMP_Poland_Disaster.4.a:0 "Traitors, arrest them!"
+ HashMP_Poland_Disaster.4.b:0 "Chaos is a ladder"
+ HashMP_Poland_Disaster.4.c:0 "We shall meet their demands"
+   
+ HashMP_Poland_Disaster.5.t:0 "Smolensk demands representation"
+ HashMP_Poland_Disaster.5.d:0 "In periods of strife, smaller nobles would use the opportunity to push for demands in exchange of their services and loyalty. Today, the Nobility from Smolensk are offering us their support on the civil war, if only we would give them more representation on the court" 
+ HashMP_Poland_Disaster.5.a:0 "Traitors, arrest them!"
+ HashMP_Poland_Disaster.5.b:0 "Chaos is a ladder"
+ HashMP_Poland_Disaster.5.c:0 "We shall meet their demands"
+ 
+ HashMP_Poland_Disaster.6.t:0 "Chernigov demands representation"
+ HashMP_Poland_Disaster.6.d:0 "In periods of strife, smaller nobles would use the opportunity to push for demands in exchange of their services and loyalty. Today, the Nobility from Chernigov are offering us their support on the civil war, if only we would give them more representation on the court"
+ HashMP_Poland_Disaster.6.a:0 "Traitors, arrest them!"
+ HashMP_Poland_Disaster.6.b:0 "Chaos is a ladder"
+ HashMP_Poland_Disaster.6.c:0 "We shall meet their demands"
+ 
+ HashMP_Poland_Disaster.7.t:0 "Zaphorozie demands representation"
+ HashMP_Poland_Disaster.7.d:0 "In periods of strife, smaller nobles would use the opportunity to push for demands in exchange of their services and loyalty. Today, the Nobility from Zaphorozie are offering us their support on the civil war, if only we would give them more representation on the court"
+ HashMP_Poland_Disaster.7.a:0 "Traitors, arrest them!"
+ HashMP_Poland_Disaster.7.b:0 "Chaos is a ladder"
+ HashMP_Poland_Disaster.7.c:0 "We shall meet their demands"
+ 
+ HashMP_Poland_Disaster.8.t:0 "Polostk demands representation"
+ HashMP_Poland_Disaster.8.d:0 "In periods of strife, smaller nobles would use the opportunity to push for demands in exchange of their services and loyalty. Today, the Nobility from Polostk are offering us their support on the civil war, if only we would give them more representation on the court"
+ HashMP_Poland_Disaster.8.a:0 "Traitors, arrest them!"
+ HashMP_Poland_Disaster.8.b:0 "Chaos is a ladder"
+ HashMP_Poland_Disaster.8.c:0 "We shall meet their demands"
+ 
+ HashMP_Poland_Disaster.8.t:0 "Lithuania declares an ultimatum"
+ HashMP_Poland_Disaster.8.d:0 "The Bajorais have made an ultimatum. Unless their rights, religion and culture is respected they will secede from the commonwealth and forge their own path, should we refuse their ultimatum, the civil war in Poland-Lithuania will escalate into full grown violence. Although... we can always accept, for now."
+ HashMP_Poland_Disaster.8.a:0 "Et tu, brute?"
+ HashMP_Poland_Disaster.8.b:0 "We accept responsability"
+
+ #Polish events
  HashMP_Poland.101.t:0 "The Sejm Proposes the Invasion of Silesia"
  HashMP_Poland.101.d:0 "While the Commonwealth its in a period of inestability that makes offensive wars dangerous, the Sejm has proposed [Root.GetName] to initiate an invasion of Silesia now that the kingdom of Bohemia has been weakened after the hussite wars. It's certain that having the Sejm support will easy this conquest, but they also demand a price for it."
  HashMP_Poland.101.a:0 "Accept the proposal of the Sejm"
@@ -76,12 +111,12 @@
  HashMP_Poland.104.b:0 "Extend the Pacta Conventa to the Bajorais."
  HashMP_Poland.104.c:0 "Reject the proposal"
  HashMP_Poland.105.t:0 "A Question of Rights and Privileges"
- HashMP_Poland.105.d:0 "With the slow integration of the lithuanian Bajorais into Poland, the Sejm has been slowly displaced in its power, although they are in no way threathened yet, they are demanding [Root.GetName] for assurances that they will retain their privileges and to limit the power of the Bajorais."
+ HashMP_Poland.105.d:0 "With the slow integration of the Lithuanian Bajorais into Poland, the Sejm has been slowly displaced in its power, although they are in no way threathened yet, they are demanding [Root.GetName] for assurances that they will retain their privileges and to limit the power of the Bajorais."
  HashMP_Poland.105.a:0 "The Sejm will have its guarantees"
  HashMP_Poland.105.b:0 "All the nobles should have equal rights..."
  HashMP_Poland.105.c:0 "All the nobles should have equal rights... None!"
  HashMP_Poland.107.t:0 "Royal Elections"
- HashMP_Poland.107.d:0 "With the death of our late ruler, a convocation sejm has been called to screen the candidates, one of which will be chosen to become the leader of the commonwealth"
+ HashMP_Poland.107.d:0 "With the death of our late ruler, a convocation Sejm has been called to screen the candidates, one of which will be chosen to become the leader of the commonwealth"
  HashMP_Poland.107.a:0 "The Polish candidate shall be selected"
  HashMP_Poland.107.b:0 "Try to seek a compromise"
  HashMP_Poland.107.c:0 "The Lithuanian candidate shall be selected"
@@ -91,7 +126,7 @@
  HashMP_Poland.103.a:0 "\"It's treason then...\""
  HashMP_Poland.103.b:0 "Agree and grant them concessions"
  HashMP_Poland.106.t:0 "The Sejm Coup"
- HashMP_Poland.106.d:0 "It's late at night, but yet [Root.GetName] is working without stopping at its residence. Without warming, four Slaytza nobles, members of the sejm interrupt [Root.GetName]. \"My liege, our rights, lands and our own people have been opressed too long in favour of the lithuanian Bajorais, we demand you must act up and protect us, your loyal subjects, or we will consider this a breach of the Commonwealth.\""
+ HashMP_Poland.106.d:0 "It's late at night, but yet [Root.GetName] is working without stopping at its residence. Without warming, four Slaytza nobles, members of the Sejm interrupt [Root.GetName]. \"My liege, our rights, lands and our own people have been opressed too long in favour of the Lithuanian Bajorais, we demand you must act up and protect us, your loyal subjects, or we will consider this a breach of the Commonwealth.\""
  HashMP_Poland.106.a:0 "\"It's treason then...\""
  HashMP_Poland.106.b:0 "They are right, its Poland first and always"
  

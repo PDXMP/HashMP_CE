@@ -542,12 +542,27 @@ h_polish_internal_branch = {
 							value = 150
 						}
 					}
+					LIT = {
+						exists = no
+					}
 				}				
 			}
 		}
 		effect = {
 			set_country_flag = pol_liv_vytautas_mission
-			country_event = { id = HashMP_Poland.121 }
+			if = {
+				limit = {
+					LIT = {
+						exists = no
+					}
+				}
+				add_mil_power = 100
+				add_adm_power = 100
+				add_dip_power = 100
+			}
+			else = {
+				country_event = { id = HashMP_Poland.121 }
+			}
 		}
 	}
 	##Mission End
