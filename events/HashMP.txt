@@ -97,7 +97,11 @@ country_event = {
 			modifier = h_dutch_minors_defiant
 		}
 		reverse_add_opinion = {
-			who = SIL
+			who = GLG
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = OPL
 			modifier = h_dutch_minors_defiant
 		}
 	}
