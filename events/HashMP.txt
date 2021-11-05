@@ -1305,18 +1305,6 @@ country_event = {
 			claim = 80
 		}
 		
-		define_consort = {
-			name = "Birgitta"
-			dynasty = "Sture"
-			culture = ROOT
-			religion = ROOT
-			age = 19
-			adm = 3
-			dip = 3
-			mil = 3
-			female = yes
-		}
-		
 		custom_tooltip = h_swedish_missions_event_tooltip_1
 		
 		hidden_effect = {
@@ -1344,9 +1332,9 @@ country_event = {
 			culture = ROOT
 			religion = ROOT
 			age = 19
-			adm = 3
-			dip = 3
-			mil = 3
+			adm = 2
+			dip = 2
+			mil = 2
 			female = yes
 		}
 		
@@ -1355,6 +1343,17 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = gustavking
 			add_ruler_personality = strict_personality
+			define_consort = {
+				name = "Birgitta"
+				dynasty = "Sture"
+				culture = ROOT
+				religion = ROOT
+				age = 19
+				adm = 2
+				dip = 2
+				mil = 2
+				female = yes
+			}
 		}
 	}
 }
