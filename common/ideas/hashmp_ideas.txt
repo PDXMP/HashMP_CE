@@ -1964,12 +1964,12 @@ DSA_ideas = { #South Africa
 
 TTS_ideas = { #By Xaime
 	start = {
-		manpower_recovery_speed = 0.20 ##Replacing max MP, intention to encourage more aggressive behaviour and benefits plus cut down scaling potential.
+		global_manpower_modifier = 0.2
 		land_morale = 0.10
 	}
 	
 	bonus = {
-		cavalry_shock = 0.5 ##Legacy of Norman Doctrine
+		shock_damage = 0.15 ##Legacy of Norman Doctrine
 	}
 	
 	trigger = {
@@ -1984,8 +1984,8 @@ TTS_ideas = { #By Xaime
 	}
 	tts_two = { ##sic_grand_navy // Changed Naval Morale to the bonuses below as I feel it actually fits the idea of a 'Grand Navy'. Also Marines is a cool niche for a nation that is prone to fight on islands.
 		allowed_marine_fraction = 0.10
-		naval_forcelimit_modifier = 0.25
-		global_sailors_modifier = 0.25
+		naval_forcelimit_modifier = 0.20
+		global_sailors_modifier = 0.20
 	}
 	tts_three = { ##academia_pontaniana // Carried over technology cost for consistency.
 		technology_cost = -0.05

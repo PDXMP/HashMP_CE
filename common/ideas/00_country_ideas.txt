@@ -1562,7 +1562,7 @@ NAP_ideas = {
 	}
 	city_of_artists = {
 		prestige = 1
-		development_cost = -0.05
+		#development_cost = -0.05
 	}
 	lazzaroni_support = {
 		legitimacy = 1
