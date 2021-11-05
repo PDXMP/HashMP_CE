@@ -138,12 +138,12 @@ emperor_landfriede = {
 	province = {
 		local_institution_spread = 0.1
 	}
-	on_effect = {
-		internal_hre_cb = no
-	}
-	off_effect = {
-		internal_hre_cb = yes
-	}
+	#on_effect = {
+	#	internal_hre_cb = no
+	#}
+	#off_effect = {
+	#	internal_hre_cb = yes
+	#}
 	required_reform = emperor_landsknechtswesen
 	gui_container = mainline
 }
@@ -226,9 +226,9 @@ emperor_reichskrieg = {
 		custom_tooltip = REICHSKRIEG_DEFENSE_OF_REALM_MODIFIER
 	}
 
-	off_effect = {
-		enable_imperial_realm_war = no
-	}
+	#off_effect = {
+	#	enable_imperial_realm_war = no
+	#}
 }
 
 emperor_hofgericht = { 
