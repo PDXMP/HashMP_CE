@@ -567,10 +567,6 @@ swedish_naval_reforms = {
 	naval_morale = 0.10
 }
 
-wallon_immigrants = {
-	trade_goods_size_modifier = 0.10
-}
-
 stora_kopparberget_modifier = { #Great Copper Mountain
 	trade_goods_size_modifier = 0.10
 	trade_goods_size = 3
