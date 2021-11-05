@@ -836,7 +836,7 @@ emperor = {
 	advisor_pool = 1
 	diplomatic_upkeep = 1
 	free_leader_pool = 1
-	prestige = 1
+	prestige = 0.5
 	diplomats = 1
 	heir_chance = 0.50
 }
@@ -919,7 +919,7 @@ horde_unity = {
 devotion = {
 	papal_influence = 2
 	church_power_modifier = 0.25
-	prestige = 2
+	prestige = 1
 	global_tax_modifier = 0.50
 	church_loyalty_modifier = 0.05
 	brahmins_hindu_loyalty_modifier = 0.05
@@ -1085,7 +1085,7 @@ inverse_republican_tradition = {
 
 curia_controller = {
 	diplomats = 1							#1 extra diplomat as curia controller
-	prestige = 1							#1% extra prestige yearly
+	prestige = 0.5							#1% extra prestige yearly
 	stability_cost_modifier = -0.1			#10% cheaper stability
 	advisor_pool = 2
 	advisor_cost = -0.2
@@ -1174,7 +1174,6 @@ liberty_desire = {
 }
 
 is_great_power = {						#Only works with Rights of Man DLC enabled
-	prestige_decay = -0.01
 	max_absolutism = 5
 }
 
