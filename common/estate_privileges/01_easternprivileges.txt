@@ -594,7 +594,7 @@ estate_polish_nobility_golden_liberty = {
 	penalties = {
 	}
 	benefits = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.10
 		discipline = 0.025
 	}
 	mechanics = {
@@ -685,7 +685,7 @@ estate_polish_nobility_greater_golden_liberty = {
 	penalties = {
 	}
 	benefits = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.15
 		discipline = 0.05
 	}
 	mechanics = {
@@ -921,8 +921,8 @@ estate_lithuanian_nobility_levies = {
 		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	modifier_by_land_ownership = {
-		global_tax_modifier = -0.25
-		global_manpower_modifier = 0.75
+		global_tax_modifier = -0.10
+		global_manpower_modifier = 0.5
 	}
 	penalties = {
 	}
@@ -1195,7 +1195,7 @@ estate_lithuanian_nobility_golden_liberty = {
 	penalties = {
 	}
 	benefits = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.10
 		reinforce_speed = 0.10
 	}
 	mechanics = {
