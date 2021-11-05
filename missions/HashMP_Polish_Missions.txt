@@ -649,12 +649,9 @@ h_polish_internal_branch = {
 					liberty_desire = 1
 				}	
 			}
-			custom_trigger_tooltip = {
-				tooltip = allow_unification
-				tag = POL
-			}
 		}
 		effect = {
+			custom_tooltip = h_pol_allow_unification_tooltip
 			set_country_flag = pol_end_mission
 			add_adm_power = 100
 			add_dip_power = 100

@@ -33,7 +33,7 @@
  removal_polish:0 "This will remove the Polish estate completely"
  h_polish_sejm_ascendant:0 "The Bajorais have replaced the Sejm as main governing body."
  must_finish_pol_missions:0 "For the Commonwealth to truly form, we must finish \"The commonwealth\" mission"
- allow_unification:0 "Completing this mission will allow Poland and Lithuania to unite"
+ h_pol_allow_unification_tooltip:0 "The §YCommonwealth§! can now be formed."
  sejm_level_1:0 "The Sejm has more influence than the Bajorais: §Y -10%§!"
  sejm_level_2:0 "The Sejm has almost displaced the Bajorais: §Y -20%§!"
  sejm_level_3:0 "The Bajorais have more influence than the Sejm: §Y 10%§!"

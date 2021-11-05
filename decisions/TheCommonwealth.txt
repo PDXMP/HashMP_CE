@@ -34,15 +34,12 @@ country_decisions = {
 			owns_core_province = 257				# Warszawa
 			senior_union_with = LIT
 			MAZ = { exists = no }
-			custom_trigger_tooltip = {
-				tooltip = must_finish_pol_missions
-				has_country_flag = pol_end_mission
-			}
+			mission_completed = vassalize_lithuania
 		}
 		effect = {
 			change_tag = PLC
 			inherit = LIT
-			swap_non_generic_missions = no
+			swap_non_generic_missions = yes
 			if = {
 				limit = { NOT = { accepted_culture = lithuanian } }
 				add_accepted_culture = lithuanian
@@ -287,31 +284,42 @@ country_decisions = {
 			}
 		}
 		allow = {
-			is_free_or_tributary_trigger = yes
+			is_subject = no
 			is_nomad = no
 			stability = 1
 			is_at_war = no
-			has_country_flag = purged_bajorais
 			owns_core_province = 289				# Chernigov
 			owns_core_province = 280				# Kiev
 			owns_core_province = 262				# Krakow
 			owns_core_province = 257				# Warszawa
 			MAZ = { exists = no }
+			mission_completed = vassalize_lithuania
+			custom_trigger_tooltip = {
+				tooltip = h_pol_purged_bajorais_tooltip
+				has_country_flag = purged_bajorais
+			}
 		}
 		effect = {
 			change_tag = PLC
+			if = {
+				limit = {
+					senior_union_with = LIT
+				}
+				inherit = LIT
+			}
 			swap_non_generic_missions = yes
+			if = {
+				limit = { NOT = { accepted_culture = lithuanian } }
+				add_accepted_culture = lithuanian
+			}
+			if = {
+				limit = { NOT = { accepted_culture = ruthenian } }
+				add_accepted_culture = ruthenian
+			}
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 2 } }
 				set_government_rank = 2
-			}
-			if = {
-				limit = {
-					NOT = { primary_culture = polish }
-					NOT = { accepted_culture = polish }
-				}
-				add_accepted_culture = polish
 			}
 			if = {
 				limit = {
@@ -361,8 +369,18 @@ country_decisions = {
 					add_permanent_claim = PLC
 				}
 			}
+			if = {
+				limit = {
+					has_country_modifier = h_polish_cossack_training
+				}
+				remove_country_modifier = h_polish_cossack_training 
+				add_country_modifier = {
+					name = h_polish_cossack_support
+					duration = -1
+				}
+			}
 			random_owned_province = {
-				limit = { has_owner_culture = yes }
+				limit = { culture = polish }
 				add_base_tax = 1
 			}
 			set_country_flag = formed_plc_flag
