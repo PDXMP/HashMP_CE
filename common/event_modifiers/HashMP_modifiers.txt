@@ -17,6 +17,11 @@ bur_king_of_franks = {
 
 #
 
+h_ita_norman_legacy = {
+	cav_to_inf_ratio = 0.20
+	cavalry_cost = -0.10
+}
+
 h_fra_united = {
 	fire_damage = 0.15
 }
