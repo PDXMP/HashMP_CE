@@ -465,20 +465,18 @@ h_reform_elective_monarchy = {
 	lock_level_when_selected = yes
 	heir = no
 	modifiers = {
-		vassal_income = 0.33
+		vassal_income = 0.25
 		diplomatic_upkeep = 2
 		global_unrest = -1
 		max_absolutism = -30
 		governing_capacity = 100
-		church_loyalty_modifier = 0.05
-		burghers_loyalty_modifier = 0.05
-		polish_nobility_loyalty_modifier = 0.1
-		lithuanian_nobility_loyalty_modifier = 0.1
+		polish_nobility_loyalty_modifier = 0.05
+		lithuanian_nobility_loyalty_modifier = 0.05
 	}
 
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
-		foreign_slave_rulers = yes
+		foreign_slave_rulers = yes	
 	}
 }
 
