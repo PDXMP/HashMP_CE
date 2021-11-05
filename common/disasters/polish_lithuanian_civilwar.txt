@@ -133,7 +133,7 @@ polish_lithuanian_civilwar = {
         }
 		
         modifier = {
-			factor = -2
+			factor = -1
 			estate_loyalty = {
 				estate = estate_lithuanian_nobility
 				loyalty = 70
@@ -141,7 +141,7 @@ polish_lithuanian_civilwar = {
         }
 		
         modifier = {
-			factor = -2
+			factor = -1
 			estate_loyalty = {
 				estate = estate_polish_nobility
 				loyalty = 70
@@ -149,7 +149,7 @@ polish_lithuanian_civilwar = {
         }
 		
         modifier = {
-			factor = -1
+			factor = -0.5
 			estate_loyalty = {
 				estate = estate_lithuanian_nobility
 				loyalty = 60
@@ -157,39 +157,22 @@ polish_lithuanian_civilwar = {
         }
 		
         modifier = {
-			factor = -1
+			factor = -0.5
 			estate_loyalty = {
 				estate = estate_polish_nobility
 				loyalty = 60
-			}
-        }
-		
-        modifier = {
-			factor = -0.5
-			estate_loyalty = {
-				estate = estate_lithuanian_nobility
-				loyalty = 50
-			}
-        }
-		
-        modifier = {
-			factor = -0.5
-			estate_loyalty = {
-				estate = estate_polish_nobility
-				loyalty = 50
 			}
         }
 		
 		modifier = {
 			factor = 2
 			is_in_war = {
-				attacker_leader = ROOT
-			}
-			
+				attacker_leader = POL
+			}		
         }
 		
 		modifier = {
-			factor = 2
+			factor = 3
 			any_country = {
 				defensive_war_with = POL
 			}
@@ -197,18 +180,18 @@ polish_lithuanian_civilwar = {
 		
 		modifier = {
 			factor = -1
-			any_country = {
-				offensive_war_with = POL
+			is_in_war = {
+				defender_leader = POL
 			}
         }
 		
         modifier = {
-			factor = -0.5
+			factor = -0.25
 			has_country_flag = pol_northern_marches_mission
         }
 		
         modifier = {
-			factor = -0.5
+			factor = -0.25
 			has_country_flag = pol_zaz_integrate_mission
         }
 		
@@ -247,10 +230,10 @@ polish_lithuanian_civilwar = {
 	}
 
 	can_end = {
-			OR = {
-				had_country_flag = { flag = polish_lithuanian_cw days = 3650 }
-				TAG = PLC
-			}
+		OR = {
+			had_country_flag = { flag = polish_lithuanian_cw days = 3650 }
+			TAG = PLC
+		}
 	}
 	
 	modifier = {
