@@ -578,7 +578,7 @@ crimea={
 		}
 	}
 	members={
-		1323 1322 282 1974 2406 286 287 2413 2414 284 285 2410 2447 283 2411 2412 1756 2405 4529 4530 
+		268 1323 1322 282 1974 2406 286 287 2413 2414 284 285 2410 2447 283 2411 2412 1756 2405 4529 4530 
 	}
 }
 constantinople={
@@ -654,6 +654,9 @@ kiev={
 muscovy={
 	location=295
 	inland=yes
+	color={
+		227 195 107
+	}
 	outgoing={
 		name="novgorod"
 		path={
@@ -857,7 +860,7 @@ ragusa={
 		}
 	}
 	outgoing={
-		name="italy"
+		name="po_valley"
 		path={
 			136 1308 
 		}
@@ -1203,7 +1206,7 @@ bordeaux={
 		}
 	}
 	outgoing={
-		name="italy"
+		name="po_valley"
 		path={
 			174 4112 198 200 201 4696 
 		}
@@ -1266,7 +1269,7 @@ valencia={
 		87 70 168 
 	}
 	outgoing={
-		name="italy"
+		name="po_valley"
 		path={
 			213 1296 1297 
 		}
@@ -1306,7 +1309,7 @@ rome={
 	}
 	end=yes
 }
-italy={
+po_valley={
 	location=109
 	color={
 		79 171 102 
