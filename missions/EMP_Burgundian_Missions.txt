@@ -550,7 +550,7 @@ emp_burgundy_3 = {
 		
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = bur_subjects.tooltip
+				tooltip = h_bur_subjects_tooltip
 				NOT = {
 					any_subject_country = {
 						liberty_desire = 20
@@ -1246,7 +1246,7 @@ emp_burgundy_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_king_of_franks
-				duration = 7300
+				duration = -1
 			}
 
 			if = {

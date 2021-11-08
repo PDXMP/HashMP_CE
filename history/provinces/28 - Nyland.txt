@@ -1,4 +1,4 @@
-#Nyland, incl. Raseborg, BorgÂ, Helsingfors.
+#Nyland, incl. Raseborg, Borgù, Helsingfors.
 
 owner = SWE
 controller = SWE
@@ -31,7 +31,7 @@ discovered_by = eastern
 1713.5.30 = { controller = RUS } # The Great Nordic War-Captured by Apraksin
 1721.8.30 = { controller = SWE } # The Peace of Nystad
 1742.8.24 = { controller = RUS } # The War of the Hats-Captured by Russians
-1743.8.7 = { controller = SWE } # The Peace of ≈bo
+1743.8.7 = { controller = SWE } # The Peace of ùbo
 1808.5.3 = { controller = RUS } # Sveaborg surrenders
 1809.9.17 = {
 	owner = RUS

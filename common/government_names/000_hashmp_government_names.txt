@@ -206,29 +206,29 @@ gov_citystate = {
 		has_reform = h_reform_citystate
 	}
 }
-gov_protectorate = {
-	rank = {
-		1 = H_PROTECTORATE
-		2 = H_PROTECTORATE
-		3 = H_PROTECTORATE
-	}
+# gov_protectorate = {
+# 	rank = {
+# 		1 = H_PROTECTORATE
+# 		2 = H_PROTECTORATE
+# 		3 = H_PROTECTORATE
+# 	}
 	
-	ruler_male = {
-		1 = H_ProtectorateTitle
-		2 = H_ProtectorateTitle
-		3 = H_ProtectorateTitle
-	}
+# 	ruler_male = {
+# 		1 = H_ProtectorateTitle
+# 		2 = H_ProtectorateTitle
+# 		3 = H_ProtectorateTitle
+# 	}
 	
-	ruler_female = {
-		1 = H_ProtectorateTitle
-		2 = H_ProtectorateTitle
-		3 = H_ProtectorateTitle
-	}
+# 	ruler_female = {
+# 		1 = H_ProtectorateTitle
+# 		2 = H_ProtectorateTitle
+# 		3 = H_ProtectorateTitle
+# 	}
 	
-	trigger = {
-		has_reform = h_reform_protectorate
-	}
-}
+# 	trigger = {
+# 		has_reform = h_reform_protectorate
+# 	}
+# }
 gov_kdukedom = {
 	rank = {
 		1 = DUCHY

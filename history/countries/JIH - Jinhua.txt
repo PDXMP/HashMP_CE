@@ -4,5 +4,5 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = hubei #ganyu
-capital = 4848 #Jinhua
-fixed_capital = 4848
+capital = 5848 #Jinhua
+fixed_capital = 5848

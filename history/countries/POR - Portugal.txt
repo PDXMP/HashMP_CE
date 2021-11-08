@@ -69,8 +69,8 @@ national_focus = DIP
 		death_date = 1481.8.28
 		claim = 95
 		adm = 3
-		dip = 4
-		mil = 3
+		dip = 2
+		mil = 2
 	}
 }
 
@@ -87,8 +87,8 @@ national_focus = DIP
 		birth_date = 1392.1.1
 		regent = yes
 		adm = 4
-		dip = 5
-		mil = 4
+		dip = 2
+		mil = 1
 	}
 }
 
@@ -102,7 +102,7 @@ national_focus = DIP
 		claim = 95
 		adm = 3
 		dip = 5
-		mil = 3
+		mil = 2
 		leader = {	name = "Afonso V"	type = general	fire = 3	shock = 2	manuever = 3	siege = 1 }
 	}
 	clear_scripted_personalities = yes
@@ -117,7 +117,7 @@ national_focus = DIP
 		dynasty = "de Avis"
 		birth_date = 1432.1.15
 		adm = 3
-		dip = 5
+		dip = 2
 		mil = 2
 		leader = {	name = "Afonso V"	type = general	fire = 3	shock = 2	manuever = 3	siege = 1 }
 	}
@@ -724,7 +724,7 @@ add_government_reform = autocracy_reform }
 
 1777.2.23 = {
 	heir = {
-		name = "João"
+		name = "Joao"
 		monarch_name = "João VI"
 		dynasty = "de Bragança"
 		birth_date = 1767.5.13

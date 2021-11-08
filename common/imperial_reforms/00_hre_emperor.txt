@@ -138,12 +138,12 @@ emperor_landfriede = {
 	province = {
 		local_institution_spread = 0.1
 	}
-	on_effect = {
-		internal_hre_cb = no
-	}
-	off_effect = {
-		internal_hre_cb = yes
-	}
+	#on_effect = {
+	#	internal_hre_cb = no
+	#}
+	#off_effect = {
+	#	internal_hre_cb = yes
+	#}
 	required_reform = emperor_landsknechtswesen
 	gui_container = mainline
 }
@@ -226,15 +226,16 @@ emperor_reichskrieg = {
 		custom_tooltip = REICHSKRIEG_DEFENSE_OF_REALM_MODIFIER
 	}
 
-	off_effect = {
-		enable_imperial_realm_war = no
-	}
+	#off_effect = {
+	#	enable_imperial_realm_war = no
+	#}
 }
 
 emperor_hofgericht = { 
 	empire = hre
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	emperor = {
 		core_creation = -0.10
@@ -250,6 +251,7 @@ emperor_imperial_estates = {
 	gui_container = right_branch
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	emperor = {
 		imperial_authority = 0.25
@@ -260,6 +262,7 @@ emperor_erbkaisertum = {
 	empire = hre
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	emperor = {
 		imperial_authority = 0.25
@@ -286,6 +289,7 @@ emperor_privilegia_de_non_appelando = {
 	war = yes			#this may cause a war, so special AI check needed, to not lose many.
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	member = {
 		stability_cost_modifier = -0.10
@@ -319,6 +323,7 @@ emperor_renovatio = {
 	empire = hre
 	potential = {
 		has_dlc = "Emperor"
+		always = no
 	}
 	on_effect = {
 		emperor = {

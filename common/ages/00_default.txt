@@ -65,7 +65,7 @@ age_of_discovery = {
 				any_owned_province = {
 					is_core = ROOT
 					controlled_by = owner
-					development = 30
+					development_discounting_tribal = 30
 				}
 			}
 		}
@@ -216,20 +216,12 @@ age_of_discovery = {
 				tag = DAN
 			}
 			modifier = {
-				reduced_liberty_desire = 30
-				diplomatic_annexation_cost = -0.25
-				diplomatic_reputation = 2
+				land_morale = 0.10
+				vassal_forcelimit_bonus = 0.25
+				reduced_liberty_desire = 10
 			}
 			ai_will_do = {
 				factor = 100
-				modifier = {
-					factor = 0
-					NOT = {
-						any_subject_country = {
-							liberty_desire = 20
-						}
-					}
-				}
 			}
 		}
 		ab_venice_ship_trade = {
@@ -266,6 +258,7 @@ age_of_reformation = {
 				religion = protestant
 				religion = reformed
 				religion = anglican
+				religion = hussite
 			}
 		}
 		
@@ -284,7 +277,7 @@ age_of_reformation = {
 		}
 		
 		obj_colonial_empire = {
-			colony = 2
+			colony = 1
 		}
 		
 		obj_force_converted = {
@@ -298,6 +291,10 @@ age_of_reformation = {
 			OR = {
 				trading_bonus = {
 					trade_goods = spices
+					value = yes
+				}
+				trading_bonus = {
+					trade_goods = cloves
 					value = yes
 				}
 				trading_bonus = {
@@ -399,10 +396,14 @@ age_of_reformation = {
 	
 		ab_spain_tercio = {
 			allow = {
-				tag = SPA
+				OR = {
+					tag = POR
+					tag = SPA
+					tag = CAS
+				}
 			}
 			modifier = {
-				shock_damage_received = -0.15
+				shock_damage_received = -0.10
 			}
 			ai_will_do = {
 				factor = 100
@@ -450,11 +451,6 @@ age_of_reformation = {
 		}
 	
 	}
-	
-	
-	
-
-	
 }
 
 
@@ -598,7 +594,7 @@ age_of_absolutism = {
 				tag = FRA
 			}
 			modifier = {
-				fire_damage = 0.15
+				fire_damage = 0.10
 			}
 			ai_will_do = {
 				factor = 100
@@ -609,9 +605,9 @@ age_of_absolutism = {
 				tag = NED
 			}
 			modifier = {
-				ship_durability = 0.1
+				ship_durability = 0.05
 				global_ship_recruit_speed = -0.25
-				naval_maintenance_modifier = -0.5
+				naval_maintenance_modifier = -0.10
 				naval_morale = 0.1
 			}
 			ai_will_do = {
@@ -626,7 +622,7 @@ age_of_absolutism = {
 				}
 			}
 			modifier = {
-				manpower_recovery_speed = 0.33
+				manpower_recovery_speed = 0.25
 			}
 			ai_will_do = {
 				factor = 100
@@ -635,20 +631,22 @@ age_of_absolutism = {
 
 		ab_manchu_banner = {
 			allow = {
-				OR = {
-					tag = CSH
-					tag = YUE
-					tag = WUU
-					tag = QIC
-					tag = CXI
-					tag = CYI
-					tag = QNG
-					tag = MCH
-					tag = MJZ
-				}
+				technology_group = east_african
+				# OR = {
+				# 	tag = CSH
+				# 	tag = YUE
+				# 	tag = WUU
+				# 	tag = QIC
+				# 	tag = CXI
+				# 	tag = CYI
+				# 	tag = QNG
+				# 	tag = MCH
+				# 	tag = MJZ
+				# }
 			}
 			modifier = {
-				discipline = 0.05
+				hostile_attrition = 1
+				discipline = 0.03
 			}
 			ai_will_do = {
 				factor = 100
@@ -786,18 +784,9 @@ age_of_revolutions = {
 				global_supply_limit_modifier = 2
 				land_attrition = -0.2
 			}
-			#ai_will_do = {
-			#	factor = 15
-			#	modifier = {
-			#		factor = 0
-			#		NOT = {
-			#			any_subject_country = {
-			#				liberty_desire = 30
-			#				same_continent = ROOT
-			#			}
-			#		}
-			#	}
-			#}
+			ai_will_do = {
+				factor = 10
+			}
 		}
 		ab_pru_military = {
 			allow = {
@@ -818,7 +807,7 @@ age_of_revolutions = {
 				tag = GBR
 			}
 			modifier = {
-				infantry_power = 0.15
+				infantry_power = 0.10
 			}
 			ai_will_do = {
 				factor = 100
@@ -829,8 +818,8 @@ age_of_revolutions = {
 				tag = RUS
 			}
 			modifier = {
-				governing_capacity_modifier = 0.33
-				core_creation = -0.15
+				governing_capacity_modifier = 0.25
+				core_creation = -0.10
 			}
 			ai_will_do = {
 				factor = 100
@@ -844,7 +833,7 @@ age_of_revolutions = {
 				}
 			}
 			modifier = {
-				artillery_power = 0.15
+				artillery_power = 0.10
 			}
 			ai_will_do = {
 				factor = 100

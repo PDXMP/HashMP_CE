@@ -1,17 +1,17 @@
 #849 - Tlapanec
 
-owner = TLA
-controller = TLA
+owner = AZT
+controller = AZT
 culture = tlapanec
 religion = nahuatl
 capital = "Acapulco"
-trade_goods = fish
+trade_goods = gold
 hre = no
 base_tax = 4 
 base_production = 4
 base_manpower = 1
 is_city = yes
-add_core = TLA
+add_core = AZT
 discovered_by = MAY
 discovered_by = ZAP
 discovered_by = AZT
@@ -24,8 +24,8 @@ center_of_trade = 1
 	add_core = AZT
 } #Estimated; during Moctezuma II's rign
 1521.8.13 = {
-	owner = TLA
-	controller = TLA
+	owner = AZT
+	controller = AZT
 } #Tenochtitlan falls, collapse of the Aztec empire.
 1522.1.1 = {
 	discovered_by = SPA

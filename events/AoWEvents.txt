@@ -2114,6 +2114,7 @@ country_event = {
 			limit = {
 				development = 10
 				continent = europe
+				religion = catholic
 				has_cardinal = no
 			}
 			add_cardinal = yes

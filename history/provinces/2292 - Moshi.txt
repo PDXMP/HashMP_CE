@@ -1,0 +1,20 @@
+# No previous file for Moshi
+
+#owner = OYO
+#controller = OYO
+add_core = OYO
+#is_city = yes
+is_city = no
+culture = yorumba 
+religion = shamanism #Fetishism
+capital = "Bajibo"
+#trade_goods = tropical_wood
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+base_manpower = 1
+discovered_by = sub_saharan

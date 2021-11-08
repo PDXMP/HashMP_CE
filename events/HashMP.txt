@@ -17,11 +17,11 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		owns = 2212 #Zanjan
 		OR = {
 			tag = MUG
 			tag = PER
 		}
+		owns = 2212 #Zanjan
 		2212 = {
 			NOT = { trade_goods = gold }
 		}
@@ -97,7 +97,11 @@ country_event = {
 			modifier = h_dutch_minors_defiant
 		}
 		reverse_add_opinion = {
-			who = SIL
+			who = GLG
+			modifier = h_dutch_minors_defiant
+		}
+		reverse_add_opinion = {
+			who = OPL
 			modifier = h_dutch_minors_defiant
 		}
 	}
@@ -689,7 +693,11 @@ country_event = { #Invite hussites
 	trigger = {
 		is_year = 1475
 		ai = no
-		NOT = { religion = hussite }
+		NOT = {
+			any_known_country = {
+				religion = hussite
+			}
+		}
 		capital_scope = {
 			OR = {
 				region = poland_region
@@ -698,11 +706,7 @@ country_event = { #Invite hussites
 				region = carpathia_region
 			}
 		}
-		NOT = {
-			any_known_country = {
-				religion = hussite
-			}
-		}
+		NOT = { religion = hussite }
 	}
 	
 	mean_time_to_happen = {
@@ -754,41 +758,41 @@ country_event = { #Invite hussites
 	
 }
 
-country_event = { #Inca claims
-	id = hashmp.14
-	title = hashmp.14.t
-	desc = hashmp.14.d
-	picture = COURT_eventPicture
+# country_event = { #Inca claims
+# 	id = hashmp.14
+# 	title = hashmp.14.t
+# 	desc = hashmp.14.d
+# 	picture = COURT_eventPicture
 	
-	fire_only_once = yes
-	hidden = yes
+# 	fire_only_once = yes
+# 	hidden = yes
 	
-	trigger = {
-		tag = INC
-	}
+# 	trigger = {
+# 		tag = INC
+# 	}
 	
-	mean_time_to_happen = {
-		months = 1
-	}
+# 	mean_time_to_happen = {
+# 		months = 1
+# 	}
 	
-	option = {
-		name = hashmp.2.a
-		peru_region = {
-			limit = {
-				NOT = { is_core = ROOT }
-				NOT = { is_permanent_claim = ROOT }
-			}
-		add_permanent_claim = ROOT
-		}
-		upper_peru_region = {
-			limit = {
-				NOT = { is_core = ROOT }
-				NOT = { is_permanent_claim = ROOT }
-			}
-		add_permanent_claim = ROOT
-		}
-	}
-}
+# 	option = {
+# 		name = hashmp.2.a
+# 		peru_region = {
+# 			limit = {
+# 				NOT = { is_core = ROOT }
+# 				NOT = { is_permanent_claim = ROOT }
+# 			}
+# 		add_permanent_claim = ROOT
+# 		}
+# 		upper_peru_region = {
+# 			limit = {
+# 				NOT = { is_core = ROOT }
+# 				NOT = { is_permanent_claim = ROOT }
+# 			}
+# 		add_permanent_claim = ROOT
+# 		}
+# 	}
+# }
 
 country_event = {
 	id = hashmp.15
@@ -838,9 +842,9 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		is_subject = no
 		adm_tech = 10
 		owns_or_non_sovereign_subject_of = 1210 #Dawaro
+		is_subject = no
 		tigray_area = {
 			type = all
 			country_or_non_sovereign_subject_holds = ROOT
@@ -972,7 +976,7 @@ country_event = {
 						NOT = { colonial_region = colonial_the_carribean }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -990,7 +994,7 @@ country_event = {
 						NOT = { colonial_region = colonial_australia }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1008,7 +1012,7 @@ country_event = {
 						NOT = { colonial_region = colonial_brazil }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1026,7 +1030,7 @@ country_event = {
 						NOT = { colonial_region = colonial_california }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1044,7 +1048,7 @@ country_event = {
 						NOT = { colonial_region = colonial_canada }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1062,7 +1066,7 @@ country_event = {
 						NOT = { colonial_region = colonial_colombia }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1080,7 +1084,7 @@ country_event = {
 						NOT = { colonial_region = colonial_eastern_america }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1099,7 +1103,7 @@ country_event = {
 						NOT = { colonial_region = colonial_la_plata }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1117,7 +1121,7 @@ country_event = {
 						NOT = { colonial_region = colonial_louisiana }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1135,7 +1139,7 @@ country_event = {
 						NOT = { colonial_region = colonial_mexico }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 
@@ -1153,7 +1157,7 @@ country_event = {
 						NOT = { colonial_region = colonial_peru }
 					}
 
-					cede_province = XXX
+					cede_province = ---
 				}
 			}
 		}
@@ -1162,6 +1166,122 @@ country_event = {
 			id = hashmp.19
 			days = 30
 		}
+	}
+}
+
+# Choosing muslim school
+country_event = {
+    id = hashmp.20
+    title = "hashmp.20.t"
+    desc = "hashmp.20.d"
+    picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = hanafi_school
+				}
+			}
+		}
+		name = hashmp.20.a # Hanafi
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = hanafi_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = hanbali_school
+				}
+			}
+		}
+		name = hashmp.20.b # Hanbali
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = hanbali_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = maliki_school
+				}
+			}
+		}
+		name = hashmp.20.c # Maliki
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = maliki_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = shafii_school
+				}
+			}
+		}
+		name = hashmp.20.d2 # Shafii
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = shafii_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = ismaili_school
+				}
+			}
+		}
+		name = hashmp.20.e # Ismaili
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = ismaili_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = jafari_school
+				}
+			}
+		}
+		name = hashmp.20.f # Jafari
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = jafari_scholar_modifier duration = 7300 }
+	}
+	option = {
+		trigger = {
+			NOT = { 
+				religious_school = {
+					group = muslim
+					school = zaidi_school
+				}
+			}
+		}
+		name = hashmp.20.g # Zaidi
+		adm_power_cost = 50
+		clear_religious_scholar_modifiers_effect = yes
+		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+		add_country_modifier = { name = zaidi_scholar_modifier duration = 7300 }
 	}
 }
 
@@ -1189,23 +1309,22 @@ country_event = {
 			claim = 80
 		}
 		
-		define_consort = {
-			name = "Birgitta"
-			dynasty = "Sture"
-			culture = ROOT
-			religion = ROOT
-			age = 19
-			adm = 3
-			dip = 3
-			mil = 3
-			female = yes
-		}
-		
 		custom_tooltip = h_swedish_missions_event_tooltip_1
 		
 		hidden_effect = {
 			set_country_flag = johanking
 			add_ruler_personality = industrious_personality
+			define_consort = {
+				name = "Birgitta"
+				dynasty = "Sture"
+				culture = ROOT
+				religion = ROOT
+				age = 19
+				adm = 2
+				dip = 2
+				mil = 2
+				female = yes
+			}
 		}
 	}
 	
@@ -1222,23 +1341,22 @@ country_event = {
 			claim = 80
 		}
 		
-		define_consort = {
-			name = "Birgitta"
-			dynasty = "Sture"
-			culture = ROOT
-			religion = ROOT
-			age = 19
-			adm = 3
-			dip = 3
-			mil = 3
-			female = yes
-		}
-		
 		custom_tooltip = h_swedish_missions_event_tooltip_1
 		
 		hidden_effect = {
 			set_country_flag = gustavking
 			add_ruler_personality = strict_personality
+			define_consort = {
+				name = "Birgitta"
+				dynasty = "Sture"
+				culture = ROOT
+				religion = ROOT
+				age = 19
+				adm = 2
+				dip = 2
+				mil = 2
+				female = yes
+			}
 		}
 	}
 }

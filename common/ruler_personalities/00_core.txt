@@ -81,7 +81,7 @@ just_personality = {
 		chance = {
 			modifier = {
 				factor = 1
-				ADM = 6
+				heir_ADM = 6
 			}
 		}
 	}
@@ -94,7 +94,7 @@ just_personality = {
 		chance = {
 			modifier = {
 				factor = 1
-				ADM = 6
+				consort_ADM = 6
 			}
 		}
 	}
@@ -158,6 +158,9 @@ righteous_personality = {
 	
 	legitimacy = 1
 	republican_tradition = 0.2
+
+	wants_ecumenical_council = yes
+
 	nation_designer_cost = 2
 } #1 better, 1 less bad
 
@@ -167,6 +170,7 @@ tolerant_personality = {
 		allow = {
 			NOT = { ruler_has_personality = zealot_personality }
 			NOT = { ruler_has_personality = free_thinker_personality }
+			NOT = { ruler_has_personality = pious_personality }
 		}
 	}
 
@@ -174,6 +178,7 @@ tolerant_personality = {
 		allow = {
 			NOT = { heir_has_personality = zealot_personality }
 			NOT = { heir_has_personality = free_thinker_personality }
+			NOT = { heir_has_personality = pious_personality }
 		}
 	}
 	
@@ -181,6 +186,7 @@ tolerant_personality = {
 		allow = {
 			NOT = { consort_has_personality = zealot_personality }
 			NOT = { consort_has_personality = free_thinker_personality }
+			NOT = { consort_has_personality = pious_personality }
 		}
 	}
 	
@@ -210,6 +216,7 @@ tolerant_personality = {
 	
 	tolerance_heretic = 1
 	tolerance_heathen = 1
+	wants_ecumenical_council = yes
 	nation_designer_cost = 2
 }
 
@@ -773,6 +780,7 @@ zealot_personality = {
 			NOT = { ruler_has_personality = tolerant_personality }
 			NOT = { ruler_has_personality = free_thinker_personality }
 			NOT = { ruler_has_personality = drunkard_personality }
+			NOT = { ruler_has_personality = sinner_personality }
 		}
 	}
 
@@ -781,6 +789,7 @@ zealot_personality = {
 			NOT = { heir_has_personality = tolerant_personality }
 			NOT = { heir_has_personality = free_thinker_personality }
 			NOT = { heir_has_personality = drunkard_personality }
+			NOT = { heir_has_personality = sinner_personality }
 		}
 	}
 	
@@ -789,6 +798,7 @@ zealot_personality = {
 			NOT = { consort_has_personality = tolerant_personality }
 			NOT = { consort_has_personality = free_thinker_personality }
 			NOT = { consort_has_personality = drunkard_personality }
+			NOT = { consort_has_personality = sinner_personality }
 		}
 	}
 	
@@ -835,6 +845,7 @@ pious_personality = {
 		allow = {
 			NOT = { ruler_has_personality = sinner_personality }
 			NOT = { ruler_has_personality = drunkard_personality }
+			NOT = { ruler_has_personality = tolerant_personality }
 		}
 	}
 
@@ -842,6 +853,7 @@ pious_personality = {
 		allow = {
 			NOT = { heir_has_personality = sinner_personality }
 			NOT = { heir_has_personality = drunkard_personality }
+			NOT = { heir_has_personality = tolerant_personality }
 		}
 	}
 
@@ -861,6 +873,8 @@ pious_personality = {
 	heretic_ally_acceptance = -30
 	
 	devotion = 1
+	wants_ecumenical_council = yes
+
 	nation_designer_cost = 2
 } #1 Less bad
 
@@ -1293,6 +1307,10 @@ expansionist_personality = {
 	}
 	
 	chance = {
+		modifier = {
+			factor = 1
+			num_of_colonists = 1
+		}
 		modifier = {
 			factor = 1
 			OR = {
@@ -1837,8 +1855,20 @@ navigator_personality = {
 			AND = {
 				has_game_started = no
 				is_playing_custom_nation = yes
+				NOT = { technology_group = north_american }
+				NOT = { technology_group = mesoamerican }
+				NOT = { technology_group = south_american }
+				NOT = { religion = nahuatl }
+				NOT = { religion = inti }
+				NOT = { religion = mesoamerican_religion }
 			}
-			num_of_ports = 1
+			AND = {
+				num_of_ports = 1
+				navy_size = 1
+			}
+		}
+		NOT = {
+			has_reform = native_basic_reform
 		}
 	}
 	
@@ -1933,6 +1963,7 @@ babbling_buffoon_personality = {
 					ruler_has_personality = drunkard_personality
 					ruler_has_personality = infertile_personality
 					ruler_has_personality = embezzler_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -1959,6 +1990,7 @@ babbling_buffoon_personality = {
 					heir_has_personality = drunkard_personality
 					heir_has_personality = infertile_personality
 					heir_has_personality = embezzler_personality
+					heir_has_personality = petty_personality
 				}
 			}
 		}
@@ -1985,6 +2017,7 @@ babbling_buffoon_personality = {
 					consort_has_personality = drunkard_personality
 					consort_has_personality = infertile_personality
 					consort_has_personality = embezzler_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -2025,6 +2058,7 @@ embezzler_personality = {
 					ruler_has_personality = drunkard_personality
 					ruler_has_personality = infertile_personality
 					ruler_has_personality = babbling_buffoon_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -2050,6 +2084,7 @@ embezzler_personality = {
 					heir_has_personality = drunkard_personality
 					heir_has_personality = infertile_personality
 					heir_has_personality = babbling_buffoon_personality
+					heir_has_personality = petty_personality
 				}
 			}
 		}
@@ -2075,6 +2110,7 @@ embezzler_personality = {
 					consort_has_personality = drunkard_personality
 					consort_has_personality = infertile_personality
 					consort_has_personality = babbling_buffoon_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -2119,6 +2155,7 @@ infertile_personality = {
 					ruler_has_personality = drunkard_personality
 					ruler_has_personality = embezzler_personality
 					ruler_has_personality = babbling_buffoon_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -2144,6 +2181,7 @@ infertile_personality = {
 					heir_has_personality = drunkard_personality
 					heir_has_personality = embezzler_personality
 					heir_has_personality = babbling_buffoon_personality
+					heir_has_personality = petty_personality
 				}
 			}
 			modifier = {
@@ -2177,6 +2215,7 @@ infertile_personality = {
 					consort_has_personality = drunkard_personality
 					consort_has_personality = embezzler_personality
 					consort_has_personality = babbling_buffoon_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -2221,6 +2260,7 @@ drunkard_personality = {
 					ruler_has_personality = infertile_personality
 					ruler_has_personality = embezzler_personality
 					ruler_has_personality = babbling_buffoon_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -2248,6 +2288,7 @@ drunkard_personality = {
 					heir_has_personality = infertile_personality
 					heir_has_personality = embezzler_personality
 					heir_has_personality = babbling_buffoon_personality
+					heir_has_personality = petty_personality
 				}
 			}
 		}
@@ -2275,6 +2316,7 @@ drunkard_personality = {
 					consort_has_personality = infertile_personality
 					consort_has_personality = embezzler_personality
 					consort_has_personality = babbling_buffoon_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -2293,11 +2335,12 @@ drunkard_personality = {
 	trade_efficiency = -0.10
 	nation_designer_cost = -2
 } #Scandal at court more likely
-sinner_personality =  {
+sinner_personality = {
 
 	ruler_allow = {
 		allow = {
 			NOT = { ruler_has_personality = pious_personality }
+			NOT = { ruler_has_personality = zealot_personality }
 		}
 	
 		chance = {
@@ -2315,6 +2358,7 @@ sinner_personality =  {
 					ruler_has_personality = infertile_personality
 					ruler_has_personality = embezzler_personality
 					ruler_has_personality = babbling_buffoon_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -2323,6 +2367,7 @@ sinner_personality =  {
 	heir_allow = {
 		allow = {
 			NOT = { heir_has_personality = pious_personality }
+			NOT = { heir_has_personality = zealot_personality }
 		}
 	
 		chance = {
@@ -2340,6 +2385,7 @@ sinner_personality =  {
 					heir_has_personality = infertile_personality
 					heir_has_personality = embezzler_personality
 					heir_has_personality = babbling_buffoon_personality
+					heir_has_personality = petty_personality
 				}
 			}
 		}
@@ -2348,6 +2394,7 @@ sinner_personality =  {
 	consort_allow = {
 		allow = {
 			NOT = { consort_has_personality = pious_personality }
+			NOT = { consort_has_personality = zealot_personality }
 		}
 
 		chance = {
@@ -2365,6 +2412,7 @@ sinner_personality =  {
 					consort_has_personality = infertile_personality
 					consort_has_personality = embezzler_personality
 					consort_has_personality = babbling_buffoon_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -2382,6 +2430,7 @@ sinner_personality =  {
 	
 	different_religion_war_multiplier = 0.8
 	razing = yes
+	wants_to_appoint_cardinals_in_his_own_land = yes
 	
 	tolerance_own = -2
 	nation_designer_cost = -2
@@ -2407,6 +2456,7 @@ greedy_personality = {
 					ruler_has_personality = infertile_personality
 					ruler_has_personality = embezzler_personality
 					ruler_has_personality = babbling_buffoon_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -2432,6 +2482,7 @@ greedy_personality = {
 					heir_has_personality = infertile_personality
 					heir_has_personality = embezzler_personality
 					heir_has_personality = babbling_buffoon_personality
+					heir_has_personality = petty_personality
 				}
 			}
 		}
@@ -2457,6 +2508,7 @@ greedy_personality = {
 					consort_has_personality = infertile_personality
 					consort_has_personality = embezzler_personality
 					consort_has_personality = babbling_buffoon_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -2469,6 +2521,7 @@ greedy_personality = {
 	}
 	
 	wants_gold = yes
+	wants_to_appoint_cardinals_in_his_own_land = yes
 	gift_chance = -100
 	
 	war_priority = {
@@ -2529,6 +2582,7 @@ cruel_personality = {
 					ruler_has_personality = infertile_personality
 					ruler_has_personality = embezzler_personality
 					ruler_has_personality = babbling_buffoon_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -2555,6 +2609,7 @@ cruel_personality = {
 					heir_has_personality = infertile_personality
 					heir_has_personality = embezzler_personality
 					heir_has_personality = babbling_buffoon_personality
+					heir_has_personality = petty_personality
 				}
 			}
 		}
@@ -2581,6 +2636,7 @@ cruel_personality = {
 					consort_has_personality = infertile_personality
 					consort_has_personality = embezzler_personality
 					consort_has_personality = babbling_buffoon_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -2620,6 +2676,7 @@ naive_personality = {
 					ruler_has_personality = infertile_personality
 					ruler_has_personality = embezzler_personality
 					ruler_has_personality = babbling_buffoon_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -2650,6 +2707,7 @@ naive_personality = {
 					heir_has_personality = infertile_personality
 					heir_has_personality = embezzler_personality
 					heir_has_personality = babbling_buffoon_personality
+					heir_has_personality = petty_personality
 				}
 			}
 		}
@@ -2680,6 +2738,7 @@ naive_personality = {
 					consort_has_personality = infertile_personality
 					consort_has_personality = embezzler_personality
 					consort_has_personality = babbling_buffoon_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -2726,6 +2785,7 @@ craven_personality = {
 					ruler_has_personality = infertile_personality
 					ruler_has_personality = embezzler_personality
 					ruler_has_personality = babbling_buffoon_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -2756,6 +2816,7 @@ craven_personality = {
 					heir_has_personality = infertile_personality
 					heir_has_personality = embezzler_personality
 					heir_has_personality = babbling_buffoon_personality
+					heir_has_personality = petty_personality
 				}
 			}
 		}
@@ -2782,6 +2843,7 @@ craven_personality = {
 					consort_has_personality = infertile_personality
 					consort_has_personality = embezzler_personality
 					consort_has_personality = babbling_buffoon_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -2820,6 +2882,7 @@ loose_lips_personality = {
 					ruler_has_personality = infertile_personality
 					ruler_has_personality = embezzler_personality
 					ruler_has_personality = babbling_buffoon_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -2846,6 +2909,7 @@ loose_lips_personality = {
 					heir_has_personality = infertile_personality
 					heir_has_personality = embezzler_personality
 					heir_has_personality = babbling_buffoon_personality
+					heir_has_personality = petty_personality
 				}
 			}
 		}
@@ -2872,6 +2936,7 @@ loose_lips_personality = {
 					consort_has_personality = infertile_personality
 					consort_has_personality = embezzler_personality
 					consort_has_personality = babbling_buffoon_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -2909,6 +2974,7 @@ obsessive_perfectionist_personality = {
 					ruler_has_personality = infertile_personality
 					ruler_has_personality = embezzler_personality
 					ruler_has_personality = babbling_buffoon_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -2934,6 +3000,7 @@ obsessive_perfectionist_personality = {
 					heir_has_personality = infertile_personality
 					heir_has_personality = embezzler_personality
 					heir_has_personality = babbling_buffoon_personality
+					heir_has_personality = petty_personality
 				}
 			}
 		}
@@ -2959,6 +3026,7 @@ obsessive_perfectionist_personality = {
 					consort_has_personality = infertile_personality
 					consort_has_personality = embezzler_personality
 					consort_has_personality = babbling_buffoon_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -2997,6 +3065,7 @@ malevolent_personality = {
 					ruler_has_personality = infertile_personality
 					ruler_has_personality = embezzler_personality
 					ruler_has_personality = babbling_buffoon_personality
+					ruler_has_personality = petty_personality
 				}
 			}
 		}
@@ -3023,6 +3092,7 @@ malevolent_personality = {
 					heir_has_personality = infertile_personality
 					heir_has_personality = embezzler_personality
 					heir_has_personality = babbling_buffoon_personality
+					heir_has_personality = petty_personality
 				}
 			}
 		}
@@ -3049,6 +3119,7 @@ malevolent_personality = {
 					consort_has_personality = infertile_personality
 					consort_has_personality = embezzler_personality
 					consort_has_personality = babbling_buffoon_personality
+					consort_has_personality = petty_personality
 				}
 			}
 		}
@@ -3086,3 +3157,204 @@ immortal_personality = {
 	nation_designer_cost = 800
 	static = yes # Makes nation_designer_cost not scale with age etc. 
 }
+
+
+#Emperor of China Personalities
+
+humane_personality = {
+	ruler_allow = {
+		allow = {
+			NOT = { ruler_has_personality = petty_personality }
+		}
+	
+		chance = {
+			modifier = {
+				factor = 0.75
+				DIP = 6
+			}
+			modifier = {
+				factor = 0.75
+				ADM = 6
+			}
+			modifier = {
+				factor = 0.75
+				MIL = 6
+			}
+		}
+	}
+
+	heir_allow = {
+		allow = {
+			NOT = { heir_has_personality = petty_personality }
+		}
+	
+		chance = {
+			modifier = {
+				factor = 0.75
+				heir_dip = 6
+			}
+			modifier = {
+				factor = 0.75
+				heir_adm = 6
+			}
+			modifier = {
+				factor = 0.75
+				heir_mil = 6
+			}
+		}
+	}
+	
+	consort_allow = {
+		allow = {
+			NOT = { consort_has_personality = petty_personality }
+		}
+
+		chance = {
+			modifier = {
+				factor = 0.75
+				consort_dip = 6
+			}
+			modifier = {
+				factor = 0.75
+				consort_adm = 6
+			}
+			modifier = {
+				factor = 0.75
+				consort_mil = 6
+			}
+		}
+	}
+
+	allow = {
+		has_dlc = "Mandate of Heaven"
+		has_reform = celestial_empire
+	}
+
+	chance = {
+		modifier = {
+			factor = -0.33
+			NOT = {
+				meritocracy = 50
+			}
+		}
+		modifier = {
+			factor = 0.5
+			meritocracy = 90
+		}
+	}
+
+	fair_fights = yes
+	gift_chance = 30
+	alliance_acceptance = 5
+
+	imperial_mandate = 0.05
+	nation_designer_cost = 2
+}
+
+
+petty_personality = {
+	ruler_allow = {
+		allow = {
+			NOT = { ruler_has_personality = humane_personality }
+		}
+	
+		chance = {
+			modifier = {
+				factor = -0.33
+				OR = {
+					ruler_has_personality = malevolent_personality
+					ruler_has_personality = obsessive_perfectionist_personality
+					ruler_has_personality = loose_lips_personality
+					ruler_has_personality = craven_personality
+					ruler_has_personality = naive_personality
+					ruler_has_personality = cruel_personality
+					ruler_has_personality = greedy_personality
+					ruler_has_personality = sinner_personality
+					ruler_has_personality = drunkard_personality
+					ruler_has_personality = infertile_personality
+					ruler_has_personality = embezzler_personality
+					ruler_has_personality = babbling_buffoon_personality
+				}
+			}
+		}
+	}
+
+	heir_allow = {
+		allow = {
+			NOT = { heir_has_personality = humane_personality }
+		}
+	
+		chance = {
+			modifier = {
+				factor = -0.33
+				OR = {
+					heir_has_personality = malevolent_personality
+					heir_has_personality = obsessive_perfectionist_personality
+					heir_has_personality = loose_lips_personality
+					heir_has_personality = craven_personality
+					heir_has_personality = naive_personality
+					heir_has_personality = cruel_personality
+					heir_has_personality = greedy_personality
+					heir_has_personality = sinner_personality
+					heir_has_personality = drunkard_personality
+					heir_has_personality = infertile_personality
+					heir_has_personality = embezzler_personality
+					heir_has_personality = babbling_buffoon_personality
+				}
+			}
+		}
+	}
+	
+	consort_allow = {
+		allow = {
+			NOT = { consort_has_personality = humane_personality }
+		}
+
+		chance = {
+			modifier = {
+				factor = -0.33
+				OR = {
+					consort_has_personality = malevolent_personality
+					consort_has_personality = obsessive_perfectionist_personality
+					consort_has_personality = loose_lips_personality
+					consort_has_personality = craven_personality
+					consort_has_personality = naive_personality
+					consort_has_personality = cruel_personality
+					consort_has_personality = greedy_personality
+					consort_has_personality = sinner_personality
+					consort_has_personality = drunkard_personality
+					consort_has_personality = infertile_personality
+					consort_has_personality = embezzler_personality
+					consort_has_personality = babbling_buffoon_personality
+				}
+			}
+		}
+	}
+
+	allow = {
+		has_dlc = "Mandate of Heaven"
+		has_reform = celestial_empire
+	}
+
+	chance = {
+		modifier = {
+			factor = 0.5
+			NOT = {
+				meritocracy = 50
+			}
+		}
+		modifier = {
+			factor = -0.33
+			meritocracy = 90
+		}
+	}
+
+	random_insults = yes
+	wants_betray_allies = yes
+	razing = yes
+
+	imperial_mandate = -0.05
+	nation_designer_cost = -2
+}
+
+

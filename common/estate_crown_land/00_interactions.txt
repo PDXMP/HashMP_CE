@@ -10,25 +10,26 @@ interaction = {
 		hidden_trigger = { has_any_estates = yes }
     }
     effect = {
-		if = {
-			limit = { NOT = { crown_land_share = 20 } }
-			add_years_of_estate_land_income = 0.5
-		}
 		if = { 
-			limit = { crown_land_share = 20 }
-			add_years_of_estate_land_income = 0.75
+			limit = { 
+				OR = { 
+					crown_land_share = 20
+					NOT = { crown_land_share = 20 } 
+				} 
+			}
+			add_years_of_income = 0.5
 		}
 		else_if = {
 			limit = { crown_land_share = 40 }
-			add_years_of_estate_land_income = 1
+			add_years_of_income = 0.75
 		}
 		else_if = {
 			limit = { crown_land_share = 60 }
-			add_years_of_estate_land_income = 1.25
+			add_years_of_income = 1
 		}
 		else_if = {
 			limit = { crown_land_share = 80 }
-			add_years_of_estate_land_income = 1.5
+			add_years_of_income = 1.25
 		}
 
         custom_tooltip = ESTATES_SALE_OF_TITLES_DESC

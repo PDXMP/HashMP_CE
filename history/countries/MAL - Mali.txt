@@ -1,5 +1,6 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = h_reform_declining_african_empire
+government_rank = 3
 primary_culture = mali
 religion = sunni
 technology_group = sub_saharan

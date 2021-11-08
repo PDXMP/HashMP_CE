@@ -1,1 +1,0 @@
-PFI = "countries/Ferrette.txt"

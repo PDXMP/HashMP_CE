@@ -44,7 +44,6 @@ country_decisions = {
 			owns_core_province = 1816
 			owns_core_province = 1821
 			owns_core_province = 700
-			owns_core_province = 4765
 		}
 		effect = {
 			set_emperor_of_china = ROOT

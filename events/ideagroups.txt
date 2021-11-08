@@ -926,7 +926,7 @@ country_event = {
 			duration = 3650
 			hidden = yes
 		}
-		#custom_tooltip = generic_more_mercs_available_tt
+		custom_tooltip = generic_more_mercs_available_tt
 	}
 }
 
@@ -4121,7 +4121,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 		NOT = { has_country_modifier = "faster_ships" }
 		NOT = { has_country_modifier = "slower_ships" }
@@ -4150,7 +4150,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		NOT = { has_country_modifier = "faster_ships" }
 		NOT = { has_country_modifier = "slower_ships" }
 		primitives = no
@@ -4183,7 +4183,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 	}
 	
@@ -4209,7 +4209,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 	}
 
@@ -4259,7 +4259,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 		NOT = { has_country_modifier = "naval_developments" }
 		NOT = { has_country_modifier = "naval_hubris" }
@@ -4288,7 +4288,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 		NOT = { has_country_modifier = "naval_developments" }
 		NOT = { has_country_modifier = "naval_hubris" }
@@ -4321,7 +4321,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 		NOT = { has_country_modifier = "blockade_tactics" }
 		NOT = { has_country_modifier = "slipping_standards" }
@@ -4350,7 +4350,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 		NOT = { has_country_modifier = "blockade_tactics" }
 		NOT = { has_country_modifier = "slipping_standards" }
@@ -4383,7 +4383,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 		NOT = { has_country_modifier = "naval_technical_developments" }
 		NOT = { has_country_modifier = "concerned_shipwrights" }
@@ -4412,7 +4412,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 		NOT = { has_country_modifier = "naval_technical_developments" }
 		NOT = { has_country_modifier = "concerned_shipwrights" }
@@ -4445,7 +4445,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 	}
 
@@ -4469,7 +4469,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 	}
 
@@ -4497,7 +4497,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 	}
 	
@@ -4521,7 +4521,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 	}
 	
@@ -4545,7 +4545,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 	}
 	
@@ -4587,7 +4587,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		num_of_heavy_ship = 1
 	}
 
@@ -4611,7 +4611,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 		NOT = { has_country_modifier = "naval_focus" }
 		NOT = { has_country_modifier = "land_modifier" }
@@ -4649,7 +4649,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 		num_of_ports = 1
 		NOT = { navy_size_percentage = 1.1 }
@@ -4699,7 +4699,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		num_of_ports = 1
 		primitives = no
 	}
@@ -4725,7 +4725,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 	}
 
@@ -4749,7 +4749,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		num_of_heavy_ship = 1
 	}
 
@@ -4773,7 +4773,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas #has_idea_group = maritime_ideas
 		primitives = no
 	}
 
@@ -6679,7 +6679,7 @@ country_event = {
 			duration = 3650
 			hidden = yes
 		}
-		#custom_tooltip = generic_more_mercs_available_tt
+		custom_tooltip = generic_more_mercs_available_tt
 	}
 }
 
@@ -6756,7 +6756,7 @@ country_event = {
 	
 	trigger = {
 		has_idea_group = administrative_ideas
-		NOT= { stability = 3 }
+		NOT = { stability = 3 }
 	}
 
 	mean_time_to_happen = {

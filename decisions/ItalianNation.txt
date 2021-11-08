@@ -97,6 +97,16 @@ country_decisions = {
 		effect = {
 			if = {
 				limit = {
+					tag = SIC
+				}
+
+				add_country_modifier = {
+					name = h_ita_norman_legacy
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
 					is_part_of_hre = yes
 					is_elector = no
 					is_emperor = no

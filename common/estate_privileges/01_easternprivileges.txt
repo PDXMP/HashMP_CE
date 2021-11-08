@@ -15,10 +15,16 @@ estate_polish_nobility_land_rights = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
 		governing_capacity = 100
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -38,14 +44,20 @@ estate_polish_nobility_officer_corp = {
 	on_granted = {
 		add_army_tradition = -20
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
-		leader_land_shock = 1
-		leader_land_fire = 1
+		general_cost = 0.1
+		free_leader_pool = 2
 		army_tradition_decay = -0.01
 	}
 	cooldown_years = 20
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 estate_polish_nobility_advisors = {
@@ -61,11 +73,17 @@ estate_polish_nobility_advisors = {
 			}
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 		stability_cost_modifier = 0.05
 	}
 	benefits = {
 		mil_advisor_cost = -0.1
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -82,9 +100,15 @@ estate_polish_nobility_right_of_counsel = {
 			}
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -129,7 +153,7 @@ estate_polish_nobility_monopoly_of_metals = {
 	on_granted = {
 		add_mercantilism = 0.5
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 10
 			trigger = {
 				OR = {
 					trade_goods = iron
@@ -148,7 +172,7 @@ estate_polish_nobility_monopoly_of_metals = {
 					}
 				}
 				add_province_modifier = {
-					name = estate_polish_nobility_monopoly_of_metals_mod
+					name = h_estate_polish_nobility_monopoly_of_metals_mod
 					duration = -1
 				}
 			}
@@ -159,9 +183,9 @@ estate_polish_nobility_monopoly_of_metals = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+					has_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 				}
-				remove_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+				remove_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 			}
 		}
 	}
@@ -170,9 +194,9 @@ estate_polish_nobility_monopoly_of_metals = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+					has_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 				}
-				remove_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+				remove_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 			}
 		}
 	}
@@ -184,6 +208,9 @@ estate_polish_nobility_monopoly_of_metals = {
 	cooldown_years = 10
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.5 }
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -225,7 +252,7 @@ estate_polish_nobility_monopoly_of_gems = {
 	on_granted = {
 		add_mercantilism = 0.5
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 10
 			trigger = {
 				trade_goods = gems
 			}
@@ -275,6 +302,9 @@ estate_polish_nobility_monopoly_of_gems = {
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.7 }
 	}
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 estate_polish_nobility_monopoly_of_gems = {
@@ -315,7 +345,7 @@ estate_polish_nobility_monopoly_of_gems = {
 	on_granted = {
 		add_mercantilism = 0.5
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 10
 			trigger = {
 				trade_goods = gems
 			}
@@ -365,6 +395,9 @@ estate_polish_nobility_monopoly_of_gems = {
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.7 }
 	}
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 estate_polish_nobility_monopoly_of_metals = {
@@ -408,7 +441,7 @@ estate_polish_nobility_monopoly_of_metals = {
 	on_granted = {
 		add_mercantilism = 0.5
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 10
 			trigger = {
 				OR = {
 					trade_goods = iron
@@ -427,7 +460,7 @@ estate_polish_nobility_monopoly_of_metals = {
 					}
 				}
 				add_province_modifier = {
-					name = estate_polish_nobility_monopoly_of_metals_mod
+					name = h_estate_polish_nobility_monopoly_of_metals_mod
 					duration = -1
 				}
 			}
@@ -438,9 +471,9 @@ estate_polish_nobility_monopoly_of_metals = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+					has_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 				}
-				remove_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+				remove_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 			}
 		}
 	}
@@ -449,9 +482,9 @@ estate_polish_nobility_monopoly_of_metals = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+					has_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 				}
-				remove_province_modifier = estate_polish_nobility_monopoly_of_metals_mod
+				remove_province_modifier = h_estate_polish_nobility_monopoly_of_metals_mod
 			}
 		}
 	}
@@ -463,6 +496,9 @@ estate_polish_nobility_monopoly_of_metals = {
 	cooldown_years = 10
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.5 }
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -500,6 +536,98 @@ estate_polish_nobility_golden_liberty = {
 		has_regency = no
 	}
 	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+		if = {
+			limit = {
+				government = monarchy
+				has_estate = estate_polish_nobility
+			}
+			add_stability = -2
+		}
+		if = {
+			limit = {
+				OR = {
+					tag = PLC
+					AND = {
+						tag = POL
+						NOT = { exists = PLC }
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_estate_privilege = estate_polish_nobility_nieszawa_privileges
+				}
+				remove_estate_privilege = estate_polish_nobility_nieszawa_privileges
+			}
+			if = {
+				limit = {
+					has_estate_privilege = estate_polish_nobility_pacta_conventa
+				}
+				remove_estate_privilege = estate_polish_nobility_pacta_conventa
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = pol_zebrzydowski_rebellion_flag }
+					is_year = 1600
+					government = monarchy
+				}
+				set_country_flag = pol_pact_conventa_flag
+			}
+		}
+		else_if = {
+			limit = {
+				has_reform = h_reform_elective_monarchy
+				has_estate = estate_polish_nobility
+			}
+			country_event = { id = estate_privileges_and_agendas_events.1 }
+		}
+	}
+	can_select = {
+		NOT = {
+			num_of_estate_privileges = {
+			estate = estate_polish_nobility
+			value = 4
+			}
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+		global_manpower_modifier = 0.10
+		discipline = 0.025
+	}
+	mechanics = {
+		exempt_from_seize_land
+		can_give_agendas_without_interaction
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+estate_polish_nobility_greater_golden_liberty = {
+	icon = privilege_golden_liberty
+	max_absolutism = -15
+	influence = 0.2
+	loyalty = 0.1
+	is_valid = {
+		OR = {
+			has_estate_privilege = estate_polish_nobility_golden_liberty #Poland starts with it
+			has_reform = h_reform_elective_monarchy
+			has_country_flag = 'purged_bajorais'
+		}
+			NOT = { has_estate_privilege = estate_polish_nobility_golden_liberty }
+		government = monarchy
+	}
+	can_revoke = {
+		custom_trigger_tooltip = { #revoke Golden Liberty or do it via event
+			tooltip = estate_privilege_cannot_be_revoked
+			always = no
+		}
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 		if = {
 			limit = {
 				government = monarchy
@@ -558,98 +686,14 @@ estate_polish_nobility_golden_liberty = {
 	}
 	benefits = {
 		global_manpower_modifier = 0.15
-		discipline = 0.025
-	}
-	mechanics = {
-		exempt_from_seize_land
-		can_give_agendas_without_interaction
-	}
-}
-
-estate_polish_nobility_greater_golden_liberty = {
-	icon = privilege_golden_liberty
-	max_absolutism = -15
-	influence = 0.2
-	loyalty = 0.1
-	is_valid = {
-		OR = {
-			has_estate_privilege = estate_polish_nobility_golden_liberty #Poland starts with it
-			has_reform = h_reform_elective_monarchy
-			has_country_flag = 'purged_bajorais'
-		}
-			NOT = { has_estate_privilege = estate_polish_nobility_golden_liberty }
-		government = monarchy
-	}
-	can_revoke = {
-		custom_trigger_tooltip = { #revoke Golden Liberty or do it via event
-			tooltip = estate_privilege_cannot_be_revoked
-			always = no
-		}
-	}
-	on_revoked = {
-		if = {
-			limit = {
-				government = monarchy
-				has_estate = estate_polish_nobility
-			}
-			add_stability = -2
-		}
-		if = {
-			limit = {
-				OR = {
-					tag = PLC
-					AND = {
-						tag = POL
-						NOT = { exists = PLC }
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_estate_privilege = estate_polish_nobility_nieszawa_privileges
-				}
-				remove_estate_privilege = estate_polish_nobility_nieszawa_privileges
-			}
-			if = {
-				limit = {
-					has_estate_privilege = estate_polish_nobility_pacta_conventa
-				}
-				remove_estate_privilege = estate_polish_nobility_pacta_conventa
-			}
-			if = {
-				limit = {
-					NOT = { has_country_flag = pol_zebrzydowski_rebellion_flag }
-					is_year = 1600
-					government = monarchy
-				}
-				set_country_flag = pol_pact_conventa_flag
-			}
-		}
-		else_if = {
-			limit = {
-				has_reform = h_reform_elective_monarchy
-				has_estate = estate_polish_nobility
-			}
-			country_event = { id = estate_privileges_and_agendas_events.1 }
-		}
-	}
-	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_polish_nobility
-			value = 4
-			}
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-		global_manpower_modifier = 0.25
 		discipline = 0.05
 	}
 	mechanics = {
 		exempt_from_seize_land
 		can_give_agendas_without_interaction
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -668,6 +712,9 @@ estate_polish_nobility_nieszawa_privileges = {
 			always = no
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
@@ -681,6 +728,9 @@ estate_polish_nobility_nieszawa_privileges = {
 	}
 	benefits = {
 		stability_cost_modifier = -0.2
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -697,6 +747,9 @@ estate_polish_nobility_pacta_conventa = {
 			tooltip = estate_privilege_cannot_be_revoked
 			always = no
 		}
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	can_select = {
 		NOT = {
@@ -716,6 +769,9 @@ estate_polish_nobility_pacta_conventa = {
 		country_military_power = 1
 		global_unrest = -1
 	}
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 estate_polish_nobility_statutory_rights = {
@@ -731,6 +787,9 @@ estate_polish_nobility_statutory_rights = {
 			share = -30
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
@@ -745,6 +804,9 @@ estate_polish_nobility_statutory_rights = {
 	benefits = {
 	}
 	cooldown_years = 20
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 estate_polish_nobility_land_rights = {
@@ -763,10 +825,16 @@ estate_polish_nobility_land_rights = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
 		governing_capacity = 100
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 estate_polish_nobility_seize_land = {
@@ -780,7 +848,7 @@ estate_polish_nobility_seize_land = {
 				value = 4
 			}
 		}
-		OR {
+		OR = {
 			has_estate_privilege = estate_polish_nobility_golden_liberty 
 			has_estate_privilege = estate_polish_nobility_greater_golden_liberty
 		}
@@ -791,7 +859,13 @@ estate_polish_nobility_seize_land = {
 			loyalty = -20
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	cooldown_years = 5 	
+	ai_will_do = {
+		factor = 1
+	}
 }
 ##############################
 ##lithuanian estate privileges
@@ -812,10 +886,16 @@ estate_lithuanian_nobility_land_rights = {
 	}
 	on_granted = {
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
 		governing_capacity = 100
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -837,11 +917,17 @@ estate_lithuanian_nobility_levies = {
 			}
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	modifier_by_land_ownership = {
-		global_tax_modifier = -0.25
-		global_manpower_modifier = 0.75
+		global_tax_modifier = -0.10
+		global_manpower_modifier = 0.5
 	}
 	penalties = {
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -859,9 +945,15 @@ estate_lithuanian_nobility_right_of_counsel = {
 			}
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	penalties = {
 	}
 	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -903,7 +995,7 @@ estate_lithuanian_nobility_monopoly_of_livestock = {
 	on_granted = {
 		add_mercantilism = 0.5
 		add_years_of_owned_provinces_production_income = {
-			years = 8
+			years = 10
 			trigger = {
 				trade_goods = livestock
 			}
@@ -916,7 +1008,7 @@ estate_lithuanian_nobility_monopoly_of_livestock = {
 					trade_goods = livestock
 				}
 				add_province_modifier = {
-					name = estate_lithuanian_nobility_monopoly_of_livestock_mod
+					name = h_estate_lithuanian_nobility_monopoly_of_livestock_mod
 					duration = -1
 				}
 			}
@@ -927,9 +1019,9 @@ estate_lithuanian_nobility_monopoly_of_livestock = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_lithuanian_nobility_monopoly_of_livestock_mod
+					has_province_modifier = h_estate_lithuanian_nobility_monopoly_of_livestock_mod
 				}
-				remove_province_modifier = estate_lithuanian_nobility_monopoly_of_livestock_mod
+				remove_province_modifier = h_estate_lithuanian_nobility_monopoly_of_livestock_mod
 			}
 		}
 	}
@@ -938,9 +1030,9 @@ estate_lithuanian_nobility_monopoly_of_livestock = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_province_modifier = estate_lithuanian_nobility_monopoly_of_livestock_mod
+					has_province_modifier = h_estate_lithuanian_nobility_monopoly_of_livestock_mod
 				}
-				remove_province_modifier = estate_lithuanian_nobility_monopoly_of_livestock_mod
+				remove_province_modifier = h_estate_lithuanian_nobility_monopoly_of_livestock_mod
 			}
 		}
 	}
@@ -951,6 +1043,9 @@ estate_lithuanian_nobility_monopoly_of_livestock = {
 	cooldown_years = 10
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.6 }
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -1001,6 +1096,9 @@ estate_lithuanian_nobility_strong_duchies = {
 		diplomatic_upkeep = 1
 		reduced_liberty_desire = 5
 	}
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 estate_lithuanian_nobility_golden_liberty = {
@@ -1039,6 +1137,7 @@ estate_lithuanian_nobility_golden_liberty = {
 		has_regency = no
 	}
 	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 		if = {
 			limit = {
 				government = monarchy
@@ -1096,12 +1195,15 @@ estate_lithuanian_nobility_golden_liberty = {
 	penalties = {
 	}
 	benefits = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.10
 		reinforce_speed = 0.10
 	}
 	mechanics = {
 		exempt_from_seize_land
 		can_give_agendas_without_interaction
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -1119,6 +1221,9 @@ estate_lithuanian_nobility_nieszawa_privileges = {
 			always = no
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
@@ -1132,6 +1237,9 @@ estate_lithuanian_nobility_nieszawa_privileges = {
 	}
 	benefits = {
 		stability_cost_modifier = -0.2
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -1148,6 +1256,9 @@ estate_lithuanian_nobility_pacta_conventa = {
 			tooltip = estate_privilege_cannot_be_revoked
 			always = no
 		}
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	can_select = {
 		NOT = {
@@ -1166,6 +1277,9 @@ estate_lithuanian_nobility_pacta_conventa = {
 		governing_capacity  = 150
 		num_accepted_cultures = 1
 	}
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 estate_lithuanian_nobility_statutory_rights = {
@@ -1181,6 +1295,9 @@ estate_lithuanian_nobility_statutory_rights = {
 			share = -30
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
@@ -1195,6 +1312,9 @@ estate_lithuanian_nobility_statutory_rights = {
 	benefits = {
 	}
 	cooldown_years = 20
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 estate_lithuanian_nobility_land_rights = {
@@ -1211,12 +1331,18 @@ estate_lithuanian_nobility_land_rights = {
 			}
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	on_granted = {
 	}
 	penalties = {
 	}
 	benefits = {
 		governing_capacity = 100
+	}
+	ai_will_do = {
+		factor = 1
 	}
 }
 estate_lithuanian_nobility_conscript_troops = {
@@ -1231,16 +1357,19 @@ estate_lithuanian_nobility_conscript_troops = {
 			}
 		}
 	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
 	on_granted = {
 		add_yearly_manpower = 2
 		if = {
 			limit = {
 				tag = POL
 			}
-			custom_tooltip = flavor_lit.bop.plus1
+			custom_tooltip =HashMP_Polish_Influence_Tooltip_1
 			hidden_effect = {
 				change_variable = {
-					which = balanceOfPower
+					which = h_pol_balance_of_power_variable
 					value = 1
 				}
 			}
@@ -1251,7 +1380,10 @@ estate_lithuanian_nobility_conscript_troops = {
 		discipline = -0.025
 	}
 	
-	cooldown_years = 5 	
+	cooldown_years = 5 
+	ai_will_do = {
+		factor = 1
+	}
 }
 estate_lithuanian_nobility_seize_land = {
 	icon = privilege_grant_autonomy
@@ -1264,7 +1396,7 @@ estate_lithuanian_nobility_seize_land = {
 				value = 4
 			}
 		}
-		OR {
+		OR = {
 			has_estate_privilege = estate_lithuanian_nobility_golden_liberty 
 		}
 	}
@@ -1274,5 +1406,11 @@ estate_lithuanian_nobility_seize_land = {
 			loyalty = -20
 		}
 	}
-	cooldown_years = 5 	
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
+	cooldown_years = 5 
+	ai_will_do = {
+		factor = 1
+	}
 }

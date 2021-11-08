@@ -22,6 +22,7 @@ h_merc_d_1500up_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1501
 	}
 	modifier = {
@@ -34,6 +35,7 @@ h_merc_p_1500up_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 1501
 	}
@@ -47,6 +49,7 @@ h_merc_d_1500up_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1501
 	}
 	modifier = {
@@ -59,6 +62,7 @@ h_merc_d_1500up_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1501
 	}
 	modifier = {
@@ -71,6 +75,7 @@ h_merc_d_1500up_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1501
 	}
 	modifier = {
@@ -85,6 +90,7 @@ h_merc_d_1500_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1401
 		NOT = { total_development = 1501 }
 	}
@@ -98,6 +104,7 @@ h_merc_p_1500_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 1401
 		NOT = { total_development = 1501 }
@@ -112,6 +119,7 @@ h_merc_d_1500_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1401
 		NOT = { total_development = 1501 }
 	}
@@ -125,6 +133,7 @@ h_merc_d_1500_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1401
 		NOT = { total_development = 1501 }
 	}
@@ -138,6 +147,7 @@ h_merc_d_1500_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1401
 		NOT = { total_development = 1501 }
 	}
@@ -153,6 +163,7 @@ h_merc_d_1400_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1301
 		NOT = { total_development = 1401 }
 	}
@@ -166,6 +177,7 @@ h_merc_p_1400_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 1301
 		NOT = { total_development = 1401 }
@@ -180,6 +192,7 @@ h_merc_d_1400_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1301
 		NOT = { total_development = 1401 }
 	}
@@ -193,6 +206,7 @@ h_merc_d_1400_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1301
 		NOT = { total_development = 1401 }
 	}
@@ -206,6 +220,7 @@ h_merc_d_1400_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1301
 		NOT = { total_development = 1401 }
 	}
@@ -221,6 +236,7 @@ h_merc_d_1300_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1201
 		NOT = { total_development = 1301 }
 	}
@@ -234,6 +250,7 @@ h_merc_p_1300_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 1201
 		NOT = { total_development = 1301 }
@@ -248,6 +265,7 @@ h_merc_d_1300_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1201
 		NOT = { total_development = 1301 }
 	}
@@ -261,6 +279,7 @@ h_merc_d_1300_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1201
 		NOT = { total_development = 1301 }
 	}
@@ -274,6 +293,7 @@ h_merc_d_1300_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1201
 		NOT = { total_development = 1301 }
 	}
@@ -289,6 +309,7 @@ h_merc_d_1200_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1101
 		NOT = { total_development = 1201 }
 	}
@@ -302,6 +323,7 @@ h_merc_p_1200_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 1101
 		NOT = { total_development = 1201 }
@@ -316,6 +338,7 @@ h_merc_d_1200_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1101
 		NOT = { total_development = 1201 }
 	}
@@ -329,6 +352,7 @@ h_merc_d_1200_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1101
 		NOT = { total_development = 1201 }
 	}
@@ -342,6 +366,7 @@ h_merc_d_1200_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1101
 		NOT = { total_development = 1201 }
 	}
@@ -357,6 +382,7 @@ h_merc_d_1100_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1001
 		NOT = { total_development = 1101 }
 	}
@@ -370,6 +396,7 @@ h_merc_p_1100_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 1001
 		NOT = { total_development = 1101 }
@@ -384,6 +411,7 @@ h_merc_d_1100_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1001
 		NOT = { total_development = 1101 }
 	}
@@ -397,6 +425,7 @@ h_merc_d_1100_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1001
 		NOT = { total_development = 1101 }
 	}
@@ -410,6 +439,7 @@ h_merc_d_1100_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 1001
 		NOT = { total_development = 1101 }
 	}
@@ -425,6 +455,7 @@ h_merc_d_1000_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 901
 		NOT = { total_development = 1001 }
 	}
@@ -438,6 +469,7 @@ h_merc_p_1000_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 901
 		NOT = { total_development = 1001 }
@@ -452,6 +484,7 @@ h_merc_d_1000_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 901
 		NOT = { total_development = 1001 }
 	}
@@ -465,6 +498,7 @@ h_merc_d_1000_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 901
 		NOT = { total_development = 1001 }
 	}
@@ -478,6 +512,7 @@ h_merc_d_1000_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 901
 		NOT = { total_development = 1001 }
 	}
@@ -493,6 +528,7 @@ h_merc_d_900_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 801
 		NOT = { total_development = 901 }
 	}
@@ -506,6 +542,7 @@ h_merc_p_900_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 801
 		NOT = { total_development = 901 }
@@ -520,6 +557,7 @@ h_merc_d_900_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 801
 		NOT = { total_development = 901 }
 	}
@@ -533,6 +571,7 @@ h_merc_d_900_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 801
 		NOT = { total_development = 901 }
 	}
@@ -546,6 +585,7 @@ h_merc_d_900_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 801
 		NOT = { total_development = 901 }
 	}
@@ -561,6 +601,7 @@ h_merc_d_800_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 751
 		NOT = { total_development = 801 }
 	}
@@ -574,6 +615,7 @@ h_merc_p_800_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 751
 		NOT = { total_development = 801 }
@@ -588,6 +630,7 @@ h_merc_d_800_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 751
 		NOT = { total_development = 801 }
 	}
@@ -601,6 +644,7 @@ h_merc_d_800_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 751
 		NOT = { total_development = 801 }
 	}
@@ -614,6 +658,7 @@ h_merc_d_800_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 751
 		NOT = { total_development = 801 }
 	}
@@ -629,6 +674,7 @@ h_merc_d_750_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 701
 		NOT = { total_development = 751 }
 	}
@@ -642,6 +688,7 @@ h_merc_p_750_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 701
 		NOT = { total_development = 751 }
@@ -656,6 +703,7 @@ h_merc_d_750_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 701
 		NOT = { total_development = 751 }
 	}
@@ -669,6 +717,7 @@ h_merc_d_750_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 701
 		NOT = { total_development = 751 }
 	}
@@ -682,6 +731,7 @@ h_merc_d_750_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 701
 		NOT = { total_development = 751 }
 	}
@@ -697,6 +747,7 @@ h_merc_d_700_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 651
 		NOT = { total_development = 701 }
 	}
@@ -710,6 +761,7 @@ h_merc_p_700_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 651
 		NOT = { total_development = 701 }
@@ -724,6 +776,7 @@ h_merc_d_700_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 651
 		NOT = { total_development = 701 }
 	}
@@ -737,6 +790,7 @@ h_merc_d_700_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 651
 		NOT = { total_development = 701 }
 	}
@@ -750,6 +804,7 @@ h_merc_d_700_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 651
 		NOT = { total_development = 701 }
 	}
@@ -765,6 +820,7 @@ h_merc_d_650_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 601
 		NOT = { total_development = 651 }
 	}
@@ -778,6 +834,7 @@ h_merc_p_650_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 601
 		NOT = { total_development = 651 }
@@ -792,6 +849,7 @@ h_merc_d_650_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 601
 		NOT = { total_development = 651 }
 	}
@@ -805,6 +863,7 @@ h_merc_d_650_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 601
 		NOT = { total_development = 651 }
 	}
@@ -818,6 +877,7 @@ h_merc_d_650_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 601
 		NOT = { total_development = 651 }
 	}
@@ -833,6 +893,7 @@ h_merc_d_600_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 551
 		NOT = { total_development = 601 }
 	}
@@ -846,6 +907,7 @@ h_merc_p_600_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 551
 		NOT = { total_development = 601 }
@@ -860,6 +922,7 @@ h_merc_d_600_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 551
 		NOT = { total_development = 601 }
 	}
@@ -873,6 +936,7 @@ h_merc_d_600_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 551	
 		NOT = { total_development = 601 }
 	}
@@ -886,6 +950,7 @@ h_merc_d_600_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 551
 		NOT = { total_development = 601 }
 	}
@@ -901,6 +966,7 @@ h_merc_d_550_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 501
 		NOT = { total_development = 551 }
 	}
@@ -914,6 +980,7 @@ h_merc_p_550_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 501
 		NOT = { total_development = 551 }
@@ -928,6 +995,7 @@ h_merc_d_550_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 501
 		NOT = { total_development = 551 }
 	}
@@ -941,6 +1009,7 @@ h_merc_d_550_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 501
 		NOT = { total_development = 551 }
 	}
@@ -954,6 +1023,7 @@ h_merc_d_550_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 501
 		NOT = { total_development = 551 }
 	}
@@ -969,6 +1039,7 @@ h_merc_d_500_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 451
 		NOT = { total_development = 501 }
 	}
@@ -982,6 +1053,7 @@ h_merc_p_500_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 451
 		NOT = { total_development = 501 }
@@ -996,6 +1068,7 @@ h_merc_d_500_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 451
 		NOT = { total_development = 501 }
 	}
@@ -1009,6 +1082,7 @@ h_merc_d_500_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 451
 		NOT = { total_development = 501 }
 	}
@@ -1022,6 +1096,7 @@ h_merc_d_500_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 451
 		NOT = { total_development = 501 }
 	}
@@ -1037,6 +1112,7 @@ h_merc_d_450_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 401
 		NOT = { total_development = 451 }
 	}
@@ -1050,6 +1126,7 @@ h_merc_p_450_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 401
 		NOT = { total_development = 451 }
@@ -1064,6 +1141,7 @@ h_merc_d_450_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 401
 		NOT = { total_development = 451 }
 	}
@@ -1077,6 +1155,7 @@ h_merc_d_450_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 401
 		NOT = { total_development = 451 }
 	}
@@ -1090,6 +1169,7 @@ h_merc_d_450_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 401
 		NOT = { total_development = 451 }
 	}
@@ -1105,6 +1185,7 @@ h_merc_d_400_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 351
 		NOT = { total_development = 401 }
 	}
@@ -1118,6 +1199,7 @@ h_merc_p_400_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 351
 		NOT = { total_development = 401 }
@@ -1132,6 +1214,7 @@ h_merc_d_400_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 351
 		NOT = { total_development = 401 }
 	}
@@ -1145,6 +1228,7 @@ h_merc_d_400_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 351
 		NOT = { total_development = 401 }
 	}
@@ -1158,6 +1242,7 @@ h_merc_d_400_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 351
 		NOT = { total_development = 401 }
 	}
@@ -1173,6 +1258,7 @@ h_merc_d_350_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 301
 		NOT = { total_development = 351 }
 	}
@@ -1186,6 +1272,7 @@ h_merc_p_350_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 301
 		NOT = { total_development = 351 }
@@ -1200,6 +1287,7 @@ h_merc_d_350_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 301
 		NOT = { total_development = 351 }
 	}
@@ -1213,6 +1301,7 @@ h_merc_d_350_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 301
 		NOT = { total_development = 351 }
 	}
@@ -1226,6 +1315,7 @@ h_merc_d_350_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 301
 		NOT = { total_development = 351 }
 	}
@@ -1241,6 +1331,7 @@ h_merc_d_300_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 251
 		NOT = { total_development = 301 }
 	}
@@ -1254,6 +1345,7 @@ h_merc_p_300_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 251
 		NOT = { total_development = 301 }
@@ -1268,6 +1360,7 @@ h_merc_d_300_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 251
 		NOT = { total_development = 301 }
 	}
@@ -1281,6 +1374,7 @@ h_merc_d_300_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 251
 		NOT = { total_development = 301 }
 	}
@@ -1294,6 +1388,7 @@ h_merc_d_300_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 251
 		NOT = { total_development = 301 }
 	}
@@ -1309,6 +1404,7 @@ h_merc_d_250_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 201
 		NOT = { total_development = 251 }
 	}
@@ -1322,6 +1418,7 @@ h_merc_p_250_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 201
 		NOT = { total_development = 251 }
@@ -1336,6 +1433,7 @@ h_merc_d_250_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 201
 		NOT = { total_development = 251 }
 	}
@@ -1349,6 +1447,7 @@ h_merc_d_250_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 201
 		NOT = { total_development = 251 }
 	}
@@ -1362,6 +1461,7 @@ h_merc_d_250_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 201
 		NOT = { total_development = 251 }
 	}
@@ -1377,6 +1477,7 @@ h_merc_d_200_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 151
 		NOT = { total_development = 201 }
 	}
@@ -1390,6 +1491,7 @@ h_merc_p_200_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 151
 		NOT = { total_development = 201 }
@@ -1404,6 +1506,7 @@ h_merc_d_200_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 151
 		NOT = { total_development = 201 }
 	}
@@ -1417,6 +1520,7 @@ h_merc_d_200_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 151
 		NOT = { total_development = 201 }
 	}
@@ -1430,6 +1534,7 @@ h_merc_d_200_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 151
 		NOT = { total_development = 201 }
 	}
@@ -1445,6 +1550,7 @@ h_merc_d_150_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 101
 		NOT = { total_development = 151 }
 	}
@@ -1458,6 +1564,7 @@ h_merc_p_150_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 101
 		NOT = { total_development = 151 }
@@ -1472,6 +1579,7 @@ h_merc_d_150_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 101
 		NOT = { total_development = 151 }
 	}
@@ -1485,6 +1593,7 @@ h_merc_d_150_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 101
 		NOT = { total_development = 151 }
 	}
@@ -1498,6 +1607,7 @@ h_merc_d_150_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 101
 		NOT = { total_development = 151 }
 	}
@@ -1513,6 +1623,7 @@ h_merc_d_100_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 61
 		NOT = { total_development = 101 }
 	}
@@ -1526,6 +1637,7 @@ h_merc_p_100_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		total_development = 61
 		NOT = { total_development = 101 }
@@ -1540,6 +1652,7 @@ h_merc_d_100_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 61
 		NOT = { total_development = 101 }
 	}
@@ -1553,6 +1666,7 @@ h_merc_d_100_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 61
 		NOT = { total_development = 101 }
 	}
@@ -1566,6 +1680,7 @@ h_merc_d_100_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		total_development = 61
 		NOT = { total_development = 101 }
 	}
@@ -1581,6 +1696,7 @@ h_merc_d_60_large_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = { total_development = 61 }
 	}
 	modifier = {
@@ -1593,6 +1709,7 @@ h_merc_p_60_med_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = {	current_age = age_of_discovery }
 		NOT = { total_development = 61 }
 	}
@@ -1606,6 +1723,7 @@ h_merc_d_60_med_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = { total_development = 61 }
 	}
 	modifier = {
@@ -1618,6 +1736,7 @@ h_merc_d_60_small_2 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = { total_development = 61 }
 	}
 	modifier = {
@@ -1630,6 +1749,7 @@ h_merc_d_60_small_1 = {
 	artillery_weight = 0.0
 	cost_modifier = 1
 	trigger = {
+		NOT = { is_colonial_nation = yes }
 		NOT = { total_development = 61 }
 	}
 	modifier = {
@@ -2022,7 +2142,11 @@ h_merc_carolean = {
 	cavalry_cap = 0
 	cost_modifier = 0.75
 	trigger = {
-		tag = SWE
+		OR = {
+			tag = SWE
+			tag = SCA
+		}
+		NOT = { has_idea_group = aristocracy_ideas }
 	}
 	modifier = {
         infantry_power = 0.1
@@ -2035,7 +2159,7 @@ h_merc_cossacks = {
 	cavalry_weight = 0.5
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = RUS
 	}
@@ -2050,7 +2174,7 @@ h_merc_hussars = {
 	cavalry_weight = 1
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = PLC
 	}
@@ -2137,7 +2261,7 @@ h_merc_bluehorde = {
 	cavalry_weight = 1
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = GLH
 	}
@@ -2152,7 +2276,7 @@ h_merc_timur = {
 	cavalry_weight = 1
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = TIM
 	}
@@ -2313,7 +2437,7 @@ h_merc_jianzhou = {
 	cavalry_weight = 1
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = MCH
 	}
@@ -2328,7 +2452,7 @@ h_merc_banner = {
 	cavalry_weight = 1.0
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	trigger = {
 		tag = QNG
 	}
@@ -2472,7 +2596,7 @@ merc_knights_templar = {
 		cavalry_power = 0.15
 		shock_damage = 0.05
 	}
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 }
 
 # Pontifical Swiss Guard
@@ -3070,7 +3194,7 @@ merc_mesopotamian_mamluks = {
     #artillery_weight = 0.0
 	cavalry_cap = 40
 	#home_province = 410
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
 		tag = ILK
@@ -3261,7 +3385,7 @@ merc_bedouin_auxiliaries = {
     #artillery_weight = 0.0
 	cavalry_cap = 40
     #home_province = 383 # Tabuk
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	sprites = { dlc080_shm_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
 		tag = ARB
@@ -3278,7 +3402,7 @@ merc_kurdish_company = {
     #artillery_weight = 0.0
 	cavalry_cap = 40
     #home_province = 4293 # Arbil
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	sprites = { dlc079_hsn_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
 		tag = QAR
@@ -3387,10 +3511,11 @@ merc_finnish_company = {
     #artillery_weight = 0.0
 	cavalry_cap = 40
     #home_province = 28 # Nyland
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	sprites = { swe_base_sprite_pack westerngfx_sprite_pack }
 	trigger = {
 		tag = SCA
+		has_idea_group = aristocracy_ideas
 	}
     modifier = { 
 		cavalry_power = 0.2
@@ -3515,7 +3640,7 @@ merc_independent_cossack_host = {
 	cavalry_weight = 1.0 # lots of cavalry relative to other units
 	#artillery_weight = 0 # no artillery
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	sprites = { dlc047_zaz_sprite_pack easterngfx_sprite_pack }
 	trigger = {
 		tag = UKR
@@ -3531,7 +3656,7 @@ merc_kazakh_company = {
     #home_province = 478 # Argyn
 	cavalry_weight = 0.5
 	cavalry_cap = 40
-	cost_modifier = 0.75
+	cost_modifier = 0.30
 	sprites = { dlc048_shy_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
 		tag = SHY
@@ -3759,5 +3884,35 @@ merc_swiss_canton_mercenaries = {
 	}
 	modifier = {
 		discipline = 0.05
+	}
+}
+
+h_merc_dominion_minutemen = {
+    regiments_per_development = 0.05
+	#home_province = 165
+	cost_modifier = 0.75
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_colonial_nation = yes
+		has_reform = h_reform_dominion
+	}
+	modifier = {
+		land_attrition = -0.10
+		movement_speed = 0.10
+	}
+}
+
+h_merc_colonial_militia = {
+    regiments_per_development = 0.05
+	#home_province = 165
+	cost_modifier = 0.75
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_colonial_nation = yes
+		NOT = { has_reform = h_reform_dominion }
+	}
+	modifier = {
+		reinforce_speed = -0.10
+		recover_army_morale_speed = -0.05
 	}
 }

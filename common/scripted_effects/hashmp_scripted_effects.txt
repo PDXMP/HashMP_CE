@@ -1,3 +1,98 @@
+#Decreases power variable, aka favour Sejm.
+h_pol_subtract_power_balance = {
+	if = {
+		limit = {
+			NOT = { has_country_flag = purged_sejm }
+			NOT = { has_country_flag = purged_bajorais }
+		}
+
+		custom_tooltip = h_pol_change_power_space
+		custom_tooltip = h_pol_current_power_tooltip
+
+		subtract_variable = {
+			which = h_pol_balance_of_power_variable
+			value = $value$
+		}
+
+		custom_tooltip = h_pol_subtract_power_tooltip
+	}
+}
+
+#Increase power variable, aka favour Bajorais.
+h_pol_change_power_balance = {
+	if = {
+		limit = {
+			NOT = { has_country_flag = purged_sejm }
+			NOT = { has_country_flag = purged_bajorais }
+		}
+		custom_tooltip = h_pol_change_power_space
+		custom_tooltip = h_pol_current_power_tooltip
+
+		change_variable = {
+			which = h_pol_balance_of_power_variable
+			value = $value$
+		}
+
+		custom_tooltip = h_pol_change_power_tooltip
+	}
+}
+
+h_remove_estate_privilege_rein_in_estates_effect = {
+	hidden_effect = {
+		if = {
+			limit = {
+				has_country_modifier = h_reorganize_estates
+			}
+			remove_country_modifier = h_reorganize_estates
+		}
+	}
+}
+
+h_remove_estate_privilege = {
+	if = {
+		limit = { 
+			can_revoke_estate_privilege = $privilege$
+		}
+		hidden_effect = {
+			remove_estate_privilege = $privilege$
+		}
+		add_estate_loyalty = {
+			estate = $estate$
+			loyalty = -20
+		}
+	}
+}
+
+h_update_cossacks_modifier_on_conquest_effect = {
+	if = {
+		limit = {
+			has_reform = steppe_horde
+			has_estate_privilege = estate_nomadic_tribes_share_of_the_spoils
+			has_terrain = steppe
+			NOT = { has_province_modifier = h_horde_steppe_devcost }
+		}
+		
+		add_province_modifier = {
+			name = h_horde_steppe_devcost
+			duration = -1
+		}
+	}
+
+	if = {
+		limit = {
+			has_reform = steppe_horde
+			has_estate_privilege = estate_nomadic_tribes_chieftains_autonomy
+			unrest = 2
+			NOT = { has_province_modifier = h_horde_autonomy_grant }
+		}
+
+		add_province_modifier = {
+			name = h_horde_autonomy_grant
+			duration = -1
+		}
+	}
+}
+
 add_innovativeness_huge_effect = {
 	if = {
 		limit = { has_dlc = "Rule Britannia" }

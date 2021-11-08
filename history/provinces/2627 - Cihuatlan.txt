@@ -1,9 +1,9 @@
 # 2627 - Cihuatlan
 
 culture = tlapanec
-owner = TLA
-controller = TLA
-add_core = TLA
+owner = AZT
+controller = AZT
+add_core = AZT
 is_city = yes
 religion = nahuatl
 capital = "Cihuatlan"
@@ -24,8 +24,8 @@ discovered_by = mesoamerican
 	add_core = AZT
 }
 1521.8.13 = {
-	owner = TLA
-	controller = TLA 
+	owner = AZT
+	controller = AZT 
 }
 1522.1.1 = {
 	discovered_by = SPA

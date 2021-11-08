@@ -200,7 +200,7 @@ incident_king_in_prussia = {
 		}
 	}
 	
-	1 = { # deny
+	2 = { # deny
 		factor = 1
 		modifier = {
 			factor = 100
@@ -326,10 +326,12 @@ incident_hansa = {
 					has_reform = merchants_reform
 				}
 			}
+			HSA = { is_subject = yes }
 		}
 	}
 	
 	0 = { # do nothing
+		factor = 1
 		modifier = {
 			factor = 100
 			OR = {
@@ -362,6 +364,7 @@ incident_hansa = {
 	}
 	
 	1 = { # make free cities join
+		factor = 1
 		modifier = {
 			factor = 100
 			OR = {
@@ -379,9 +382,17 @@ incident_hansa = {
 				}
 			}
 		}
+		modifier = {
+			factor = 1000
+			OR = {
+				tag = HSA
+				is_in_trade_league_with = HSA
+			}
+		}
 	}
 	
 	2 = { # embargo
+		factor = 1
 		modifier = {
 			factor = 100
 			45 = {

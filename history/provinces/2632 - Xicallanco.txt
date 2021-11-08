@@ -1,9 +1,9 @@
 # No previous file for Xicallanco
 
 culture = chontales
-owner = YOK
-controller = YOK
-add_core = YOK
+owner = MAY
+controller = MAY
+add_core = MAY
 is_city = yes
 religion = mesoamerican_religion
 capital = "Xicallanco"
@@ -23,9 +23,9 @@ native_hostileness = 2
 discovered_by = mesoamerican
 
 1450.1.1 = { 
-	owner = ITZ
-	controller = ITZ
-	add_core = ITZ 
+	owner = MAY
+	controller = MAY
+	add_core = MAY 
 	} #Estimated: Itza trade empire. 
 1517.1.1 = { discovered_by = SPA }
 

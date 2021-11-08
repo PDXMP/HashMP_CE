@@ -25,7 +25,7 @@ christian = {
 		}
 		country = {
 			tolerance_own = 1
-			land_morale = 0.05
+			global_heathen_missionary_strength = 0.01
 		}
 		
 		country_as_secondary = {
@@ -342,6 +342,7 @@ christian = {
 	anglican = {
 		color = { 135 77 255 }
 		icon = 28
+		allow_female_defenders_of_the_faith = yes
 
 		allowed_center_conversion = {
 			catholic
@@ -966,7 +967,7 @@ muslim = {
 
 			picture = "GFX_icon_muslim_school_maliki"
 
-			development_cost = -0.1
+			development_cost = -0.05
 		}
 		shafii_school = {
 			potential_invite_scholar = {
@@ -1488,8 +1489,8 @@ pagan = {
 			local_missionary_strength = 0.02
 		}
 		
-		authority = yes
-		religious_reforms = yes
+		#authority = yes
+		#religious_reforms = yes
 		reform_tooltip = INTI_REFORM_TOOLTIP
 		
 		heretic = { INTI_HERETIC }	
@@ -1511,9 +1512,9 @@ pagan = {
 			local_missionary_strength = 0.02
 		}
 		
-		doom = yes
+		#doom = yes
 		declare_war_in_regency = yes
-		religious_reforms = yes
+		#religious_reforms = yes
 		reform_tooltip = NAHUATL_REFORM_TOOLTIP
 		
 		heretic = { NAHUATL_HERETIC }	
@@ -1535,7 +1536,7 @@ pagan = {
 			local_missionary_strength = 0.02
 		}
 		
-		religious_reforms = yes
+		#religious_reforms = yes
 		reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP
 		
 		heretic = { MESOAMERICAN_HERETIC }	

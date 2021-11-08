@@ -1,4 +1,4 @@
-#Östergötland, contains Norrköping, Linköping etc.
+#stergtland, contains Norrkping, Linkping etc.
 
 add_core = SWE
 owner = SWE
@@ -25,4 +25,4 @@ discovered_by = ottoman
 1501.8.1 = { controller = DAN } # Danish loyalists at Swedish DoW and breaking of vassalage
 1503.6.1 = { controller = SWE } # Retaken by Sweden
 1527.6.1 = { religion = protestant}
-1690.1.1 = { capital = "Norrköping" }
+1690.1.1 = { capital = "Norrkping" }

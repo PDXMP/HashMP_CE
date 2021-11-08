@@ -1,9 +1,9 @@
 # No previous file for Chiapas
 
 culture = lacandon
-owner = LAC
-controller = LAC
-add_core = LAC
+owner = MAY
+controller = MAY
+add_core = MAY
 is_city = yes
 religion = mesoamerican_religion
 capital = "Chiapas"

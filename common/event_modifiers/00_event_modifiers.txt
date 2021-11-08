@@ -1509,7 +1509,7 @@ severe_tax_reduction = {
 
 papal_blessing = {
 	prestige = 1
-	global_missionary_strength = 0.01
+	land_morale = 0.05
 	religion = yes
 }
 
@@ -1520,7 +1520,7 @@ papal_sanction_for_holy_war = {
 
 papal_legate = {
 	diplomatic_reputation = 1
-	diplomatic_upkeep = 1
+	diplomatic_annexation_cost = -0.10
 	religion = yes
 }
 
@@ -10860,11 +10860,11 @@ estate_nobles_monopoly_of_livestock_mod = {
 	local_production_efficiency = -10
 }
 
-estate_lithuanian_nobility_monopoly_of_livestock_mod = {
+h_estate_lithuanian_nobility_monopoly_of_livestock_mod = {
 	local_production_efficiency = -10
 }
 
-estate_polish_nobility_monopoly_of_metals_mod = {
+h_estate_polish_nobility_monopoly_of_metals_mod = {
 	local_production_efficiency = -10
 }
 

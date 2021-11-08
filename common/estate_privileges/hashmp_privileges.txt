@@ -1,0 +1,144 @@
+##Dhimmi Privilege -- Ottomans
+##Janissaries
+
+h_dhimmi_estate_janissary_training = {
+	icon = privilege_promote_purbias
+	max_absolutism = 0
+	land_share = 5
+	loyalty = 0
+	influence = 0.20
+	is_valid = {
+		OR = {
+			tag = TUR
+			tag = RUM
+		}
+	}
+	can_select = {
+		janissary_percentage = 0.30
+		mil = 3
+	}
+	benefits = {
+		
+	}
+	penalties = {
+		nobles_loyalty_modifier = -0.05
+	}
+	modifier_by_land_ownership = {
+		land_maintenance_modifier = 0.1
+	}
+	on_granted = {
+		add_country_modifier = {
+			name = h_dhimmi_privilege_janissary_training
+			duration = -1
+		}
+	}
+	on_revoked = {
+		remove_country_modifier = h_dhimmi_privilege_janissary_training
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
+	ai_will_do = {
+		factor = 5
+	}
+}
+
+h_dhimmi_estate_janissary_firearms = {
+	icon = privilege_promote_purbias
+	max_absolutism = 0
+	land_share = 5
+	loyalty = 0
+	influence = 0.20
+	is_valid = {
+		OR = {
+			tag = TUR
+			tag = RUM
+		}
+	}
+	can_select = {
+		janissary_percentage = 0.30
+		mil_tech = 11
+	}
+	benefits = {
+		
+	}
+	penalties = {
+		nobles_loyalty_modifier = -0.05
+	}
+	modifier_by_land_ownership = {
+		siege_ability = 0.10
+	}
+	on_granted = {
+		add_country_modifier = {
+			name = h_dhimmi_privilege_janissary_firearms
+			duration = -1
+		}
+	}
+	on_revoked = {
+		remove_country_modifier = h_dhimmi_privilege_janissary_firearms
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
+	ai_will_do = {
+		factor = 5
+	}
+}
+
+h_noble_estate_mamluk_recruitment = {
+	icon = privilege_raise_host
+	max_absolutism = 0
+	land_share = 0
+	loyalty = 0
+	influence = 0.20
+	is_valid = {
+		tag = MAM
+	}
+	can_select = {
+		mission_completed = h_mam_mission_4
+	}
+	benefits = {
+		
+	}
+	penalties = {
+
+	}
+	modifier_by_land_ownership = {
+		production_efficiency = -0.10
+		manpower_recovery_speed = 0.25
+	}
+	on_granted = {
+		add_yearly_manpower = 1.0
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
+	ai_will_do = {
+		factor = 5
+	}
+}
+
+h_church_estate_call_to_jihad = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	influence = 0.10
+	is_valid = {
+		OR = {
+			religion = sunni
+			religion = shiite
+			religion = ibadi
+		}
+	}
+	can_select = {
+		NOT = { has_estate_privilege = estate_church_clerical_ministers }
+	}
+	on_revoked = {
+		h_remove_estate_privilege_rein_in_estates_effect = yes
+	}
+	benefits = {
+		monthly_piety = -0.001
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}

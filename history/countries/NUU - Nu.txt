@@ -4,5 +4,5 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = sichuanese #ganyu
-capital = 4934 #Suining
-fixed_capital = 4934
+capital = 5934 #Suining
+fixed_capital = 5934

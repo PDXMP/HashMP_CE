@@ -4,5 +4,5 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = chihan
-capital = 4803 #Tangshan
+capital = 5803 #Tangshan
 

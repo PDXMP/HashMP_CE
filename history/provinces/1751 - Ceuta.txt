@@ -1,7 +1,7 @@
 #1751 - Ceuta
 
-owner = TUN
-controller = TUN
+owner = MOR
+controller = MOR 
 culture = moroccan
 religion = sunni
 capital = "Cebta"
@@ -12,7 +12,6 @@ base_production = 3
 base_manpower = 1
 is_city = yes
 fort_15th = yes
-add_core = TUN 
 add_core = MOR
 #add_core = GRA
 

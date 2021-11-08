@@ -5,7 +5,231 @@
 ########################################
 
 country_decisions = {
-
+	h_pol_purge_sejm = {
+		major = yes
+		potential = {
+			TAG = POL
+			NOT = { has_country_flag = purged_sejm }
+			NOT = { has_country_flag = purge_sejm_decision }
+			NOT = { has_country_flag = purged_bajorais }
+			NOT = { has_country_flag = purge_bajorais_decision }
+			check_variable = {
+				which = h_pol_balance_of_power_variable
+				value = 10
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			check_variable = {
+				which = h_pol_balance_of_power_variable
+				value = 10
+			}
+		}
+		effect = {
+			set_country_flag = purge_sejm_decision
+			country_event = {
+				id = HashMP_Poland.106
+			}
+		}
+	}
+	h_pol_purge_bajorais = {
+		major = yes
+		potential = {
+			TAG = POL
+			NOT = { has_country_flag = purged_bajorais }
+			NOT = { has_country_flag = purge_bajorais_decision }
+			NOT = { has_country_flag = purged_sejm }
+			NOT = { has_country_flag = purge_sejm_decision }
+			NOT = {
+				check_variable = {
+					which = h_pol_balance_of_power_variable
+					value = -9
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			NOT = {
+				check_variable = {
+					which = h_pol_balance_of_power_variable
+					value = -9
+				}
+			}
+		}
+		effect = {
+			set_country_flag = purge_bajorais_decision
+			country_event = {
+				id = HashMP_Poland.103
+			}
+		}
+	}
+	#Credit to PR
+	h_critical_events = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = h_military_reform_decision
+				NOT = { has_country_flag = military_reform }
+			}
+			custom_trigger_tooltip = {
+				tooltip = h_commandant_decision
+				NOT = { has_country_flag = commandant }
+			}
+			custom_trigger_tooltip = {
+				tooltip = h_grand_captain_decision
+				NOT = { has_country_flag = grand_captain }
+			}
+			hidden_trigger = {
+				always = no
+			}
+		}
+		effect = {
+		}
+	}
+	#Credit to PR
+	h_muslim_school = {
+		major = yes
+		potential = {
+			AND = { 
+				religion_group = muslim
+				ai = no
+			}
+		}
+		allow = {
+			NOT = { has_country_modifier = h_muslim_school_cooldown }
+		}
+		effect = {
+			country_event = {
+				id = hashmp.20
+			}
+			add_country_modifier = {
+				name = h_muslim_school_cooldown
+				duration = 3650
+				hidden = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	h_reorganize_estates = {
+		major = yes
+		potential = {
+			was_player = yes
+			NOT = {
+				OR = {
+					has_disaster_progress = {
+						disaster = estate_brahmins_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_burghers_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_church_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_cossacks_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_dhimmi_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_maratha_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_nobility_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_nomadic_tribes_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_rajput_disaster 
+						value = 1
+					}
+					has_disaster_progress = {
+						disaster = estate_vaisyas_disaster 
+						value = 1
+					}
+				}
+			}
+			OR = {
+				has_estate = estate_church
+				has_estate = estate_dhimmi
+				has_estate = estate_nobles
+				has_estate = estate_rajput
+				has_estate = estate_church
+				has_estate = estate_maratha
+				has_estate = estate_vaisyas
+				has_estate = estate_brahmins
+				has_estate = estate_burghers
+				has_estate = estate_cossacks
+				has_estate = estate_nomadic_tribes
+				has_estate = estate_lithuanian_nobility
+				has_estate = estate_polish_nobility
+			}
+		}
+		allow = {
+			ai = no
+			if = {
+				limit = {
+					OR = {
+						current_age = age_of_absolutism
+						current_age = age_of_revolutions
+					}
+				}
+				absolutism = 5
+			}
+			adm_power = 100
+			custom_trigger_tooltip = {
+				tooltip = h_reorganize_estates_trigger_tooltip
+				NOT = { has_country_modifier = h_reorganize_estates }
+				NOT = { has_country_modifier = h_reorganize_estates_cooldown }
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						current_age = age_of_absolutism
+						current_age = age_of_revolutions
+					}
+				}
+				add_absolutism = -5
+			}
+			add_adm_power = -100
+			custom_tooltip = h_reorganize_estates_effect_tooltip
+			hidden_effect =	{
+				add_country_modifier = {
+					name = h_reorganize_estates
+					hidden = yes
+					duration = 60
+				}
+				add_country_modifier = {
+					name = h_reorganize_estates_cooldown
+					hidden = yes
+					duration = 3650
+				}
+			}
+		}
+	}
 	h_combat_janissary_decadence = {
 		major = yes
 		potential = {
@@ -848,9 +1072,9 @@ country_decisions = {
 				has_reform = h_reform_warlord_3
 				has_reform = h_reform_warlord_4
 			}
-			owns = 4841 #Hengyang
-			is_core = 4841
-			4841 = {
+			owns = 5841 #Hengyang
+			is_core = 5841
+			5841 = {
 				NOT = { trade_goods = gold }
 			}
 		}

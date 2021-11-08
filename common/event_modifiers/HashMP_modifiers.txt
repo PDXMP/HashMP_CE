@@ -4,8 +4,106 @@
 # by Foffy123
 ########################################
 
+# Overide Modifiers
+
+the_unknown_frontier = {
+	tax_income = 48
+	colonist_placement_chance = 0.2
+}
+
+bur_king_of_franks = {
+	fire_damage = 0.15
+}
+
+#
+
+h_ita_norman_legacy = {
+	cav_to_inf_ratio = 0.20
+	cavalry_cost = -0.10
+}
+
+h_fra_united = {
+	fire_damage = 0.15
+}
+
+h_tun_rush_the_med = {
+	naval_morale = 0.10
+	ae_impact = -0.20
+}
+
+h_tun_rush_the_strait = {
+	province_warscore_cost = -0.25
+	core_creation = -0.10
+	siege_ability = 0.33
+}
+
+h_tun_religious_warriors = {
+	shock_damage = 0.15
+}
+
+h_reorganize_estates = {
+	church_influence_modifier = -1
+	dhimmi_influence_modifier = -1
+	nobles_influence_modifier = -1
+	rajput_influence_modifier = -1
+	clergy_influence_modifier = -1
+	maratha_influence_modifier = -1
+	vaisyas_influence_modifier = -1
+	brahmins_hindu_influence_modifier = -1
+	brahmins_muslim_influence_modifier = -1
+	brahmins_other_influence_modifier = -1
+	burghers_influence_modifier = -1
+	cossacks_influence_modifier = -1
+	nomadic_tribes_influence_modifier = -1
+	lithuanian_nobility_influence_modifier = -1
+	polish_nobility_influence_modifier = -1
+}
+
+h_reorganize_estates_cooldown = {
+
+}
+
+h_muslim_school_cooldown = {
+
+}
+
+h_mam_nile = {
+	local_manpower_modifier = 0.33
+	trade_goods_size_modifier = 0.10
+}
+
+h_mam_nile_development = {
+	local_development_cost = -0.50
+}
+
+h_mam_reformed_mamluks = {
+	cavalry_power = 0.05
+	cavalry_cost = -0.10
+}
+
+h_mam_great_library = {
+	technology_cost = -0.05
+}
+
+h_alte_salzstrase = {
+	trade_goods_size = 1
+}
+
 basic_polders = {
 	local_development_cost = -0.30
+}
+
+h_dhimmi_privilege_janissary_firearms = {
+	is_janissary_modifier = yes
+	infantry_fire = 0.25
+	reinforce_cost_modifier = 0.5
+}
+
+h_dhimmi_privilege_janissary_training = {
+	is_janissary_modifier = yes
+	fire_damage_received = -0.10
+	shock_damage_received = -0.10
+	reinforce_cost_modifier = 0.5
 }
 
 h_janissary_decadence = {
@@ -17,10 +115,6 @@ h_janissary_decadence = {
 h_dual_monarchy = {
 	promote_culture_cost = -0.5
 	num_accepted_cultures = 1
-}
-
-tun_med_blob = { 
-	ae_impact = -0.2
 }
 
 h_bankrupt_interest = {

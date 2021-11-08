@@ -1,7 +1,7 @@
 #844 - Zapotec
 
-owner = ZAP
-controller = ZAP
+owner = AZT
+controller = AZT
 culture = zapotek
 religion = nahuatl
 capital = "Zaachila"
@@ -11,7 +11,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = ZAP
+add_core = AZT
 
 
 

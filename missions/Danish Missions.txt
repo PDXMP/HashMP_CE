@@ -15,9 +15,9 @@ danish_missions_kalmar = {
 		completed_by = 1536.1.1
 		provinces_to_highlight = {
 			OR = {
-				area = northern_norway
-				area = eastern_norway
-				area = western_norway
+				area = nordland_area
+				area = osterdalen_area
+				area = vestlandet_area
 				area = subarctic_islands_area
 				area = iceland_area
 			}
@@ -26,15 +26,15 @@ danish_missions_kalmar = {
 			}
 		}
 		trigger = {
-			northern_norway = {
+			nordland_area = {
 				type = all
 				owned_by = ROOT
 			}
-			eastern_norway = {
+			osterdalen_area = {
 				type = all
 				owned_by = ROOT
 			}
-			western_norway = {
+			vestlandet_area = {
 				type = all
 				owned_by = ROOT
 			}

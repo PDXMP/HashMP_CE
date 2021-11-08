@@ -202,7 +202,7 @@ SWE_ideas = {
 	}
 	union_and_security_act = {
 		global_manpower_modifier = 0.10
-		mil_advisor_cost = -0.10
+		global_regiment_recruit_speed = -0.10
 	}
 }
 
@@ -335,7 +335,7 @@ SPA_ideas = {
 
 CAS_ideas = {
 	start = {
-		land_morale = 0.15
+		land_morale = 0.10
 		missionaries = 1
 	}
 	bonus = {
@@ -449,8 +449,7 @@ DAN_ideas = {
 		global_sailors_modifier = 0.20
 	}
 	klaedekammer = {
-		naval_maintenance_modifier = -0.10
-		dip_advisor_cost = -0.10
+		naval_maintenance_modifier = -0.15
 	}
 	den_danske_lov = {
 		global_unrest = -1
@@ -1008,7 +1007,7 @@ PRU_ideas = {
 	}
 	army_professionalism = {
 		land_morale = 0.15
-		drill_gain_modifier = 0.10
+		drill_gain_modifier = 0.25
 	}
 	religious_toleration = {
 		tolerance_heretic = 1
@@ -1130,26 +1129,26 @@ POL_ideas = {
 	folwark_system = {
 		production_efficiency = 0.1
 	}
-	focus_on_field_defences = {
-		land_morale = 0.15
+	winged_hussars = {
+		cavalry_power = 0.20
+		cav_to_inf_ratio = 0.2
 	}
 	nihil_novi = {
 		stability_cost_modifier = -0.1
 		war_exhaustion = -0.03
 	}
 	peichota_wybraniecka = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.20
 		infantry_power = 0.10
 	}
-	winged_hussars = {
-		cavalry_power = 0.25
-		cav_to_inf_ratio = 0.2
-	}
 	wojsko_komputoe = {
-		global_regiment_cost = -0.10
+		land_maintenance_modifier = -0.05
 	}
 	foreign_section = {
 		discipline = 0.05
+	}
+	focus_on_field_defences = {
+		land_morale = 0.10
 	}
 }
 
@@ -1563,6 +1562,7 @@ NAP_ideas = {
 	}
 	city_of_artists = {
 		prestige = 1
+		#development_cost = -0.05
 	}
 	lazzaroni_support = {
 		legitimacy = 1
@@ -2449,10 +2449,7 @@ SAV_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = SAV
-			tag = SPI
-		}
+		tag = SAV
 	}
 	free = yes		#will be added at load.
 	
@@ -2585,8 +2582,7 @@ SPI_ideas = {
 		defensiveness = 0.25
 	}
 	the_shroud_of_turin = { #effect in SAV_ideas
-#		papal_influence = 1
-#		prestige = 0.5
+#		prestige = 1
 	}
 	spi_royal_sardinian_army = {
 		discipline = 0.03
@@ -4347,8 +4343,8 @@ NAV_ideas = {
 
 AZT_ideas = {
 	start = {
-		infantry_power = 0.25
-		enemy_core_creation = 1.0
+		infantry_power = 0.1
+		idea_cost = -0.1
 	}
 
 	bonus = {
@@ -4360,27 +4356,26 @@ AZT_ideas = {
 	}
 	free = yes		#wibe added at load.
 	
-	eagles_and_jaguars = {
-		land_morale = 0.15
-		discipline = 0.05
-	}
-	telpochcalli = {
-		manpower_recovery_speed = 0.2
-	}
-	imperial_tribute = {
-		global_trade_goods_size_modifier = 0.2
-	}
 	flower_wars = {
 		war_exhaustion_cost = -0.10
 	}
 	sustaining_the_gods = {
-		global_tax_modifier = 0.2
+		legitimacy = 1
+	}
+	telpochcalli = {
+		manpower_recovery_speed = 0.1
+	}
+	eagles_and_jaguars = {
+		land_morale = 0.10
+	}
+	imperial_tribute = {
+		global_tax_modifier = 0.1
 	}
 	floating_gardens = {
 		production_efficiency = 0.1
 	}
 	pochtecayotl = {
-		spy_offence = 0.25
+		spy_offence = 0.2
 	}
 }
 
@@ -4515,7 +4510,11 @@ SIL_ideas = {
 	}
 
 	trigger = {
-		tag = SIL
+		OR = {
+			tag = SIL
+			tag = GLG
+			tag = OPL
+		}
 	}
 	free = yes
 
@@ -5584,11 +5583,11 @@ MPC_ideas = {
 
 INC_ideas = {
 	start = {
-		land_forcelimit_modifier = 0.5
-		enemy_core_creation = 1.0
+		idea_cost = -0.1
+		land_forcelimit_modifier = 0.2
 	}
 	bonus = {
-		prestige = 1
+		free_leader_pool = 1
 	}
 	trigger = {
 		OR = {
@@ -5599,17 +5598,17 @@ INC_ideas = {
 	free = yes		#will be added at load.
 		
 	machu_picchu = {
-		idea_cost = -0.25
-	}
-	drafted_hatun_runas = {
-		discipline = 0.05
-		global_manpower_modifier = 0.33
+		prestige = 1
 	}
 	mitma = { #Increased Obligations on local chiefs
-		global_tax_modifier = 0.25
+		development_cost = -0.1
 	}
 	quipu = {
-		development_cost = -0.1
+		global_tax_modifier = 0.1
+	}
+	drafted_hatun_runas = {
+		discipline = 0.025
+		global_manpower_modifier = 0.1
 	}
 	mita_system = {
 		build_cost = -0.1
@@ -5896,7 +5895,7 @@ NAX_ideas = {
 
 TUA_ideas = {
 	start = {
-		migration_cooldown = -0.2
+		migration_cost = -0.2
 		tolerance_own = 2
 	}
 	
@@ -6185,7 +6184,7 @@ GUA_ideas = {
 CUA_ideas = {
 	start = {
 		stability_cost_modifier = -0.10
-		migration_cooldown = -0.2
+		migration_cost = -0.2
 	}
 	
 	bonus = {
@@ -14183,7 +14182,7 @@ TUN_ideas = {
 	}
 	tun_caliphate = {
 		tolerance_own = 1
-		monthly_piety = 0.001
+		land_morale = 0.10
 	}
 }
 

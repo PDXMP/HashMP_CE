@@ -1,8 +1,8 @@
 # No previous file for Colima
 
-owner = CLM
-controller = CLM
-add_core = CLM
+owner = AZT
+controller = AZT
+add_core = AZT
 is_city = yes
 culture = tecos
 religion = nahuatl

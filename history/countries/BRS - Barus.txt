@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = sumatran
 religion = hinduism
 technology_group = chinese
-capital = 4811
+capital = 5811
 religious_school = shafii_school
 
 1444.1.1 = {

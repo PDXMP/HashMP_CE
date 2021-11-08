@@ -1,17 +1,17 @@
 # No previous file for Sotuta
 
-owner = COC 
-controller = COC
+owner = MAY 
+controller = MAY
 culture = yucatec
 religion = mesoamerican_religion
 capital = "Chikinchel" 
-trade_goods = fish 
+trade_goods = cocoa 
 hre = no 
 base_tax = 4 
 base_production = 4 
 base_manpower = 1 
 is_city = yes
-add_core = COC
+add_core = MAY
 
 discovered_by = mesoamerican
 

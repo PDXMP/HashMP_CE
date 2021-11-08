@@ -28,6 +28,16 @@ categories =  {
 		inland_sea = yes
 
 		movement_cost = 1.0
+		
+		terrain_override = {
+			1355 1358 1360
+			1361 1362 1363 1364 1365 1366 1367 1368 1369 1370 1371 1393 1394 1395
+			1359 1398 1399 1400
+			1356 1357 1401 1408 1409 1410
+			1348 1347 1345
+			1402 4357 1397 4358
+			1358 1353 1352 1351 1350 1354
+		}
 	}	
 
 	glacier = {
@@ -38,7 +48,7 @@ categories =  {
 		defence = 1
 		movement_cost = 1.25
 		supply_limit = 2		
-		local_development_cost = 0.4
+		local_development_cost = 0.5
 		nation_designer_cost_multiplier = 0.75		
 		
 		terrain_override = {		
@@ -59,16 +69,8 @@ categories =  {
 		nation_designer_cost_multiplier = 1.05
 		
 		terrain_override = {
-			#Sicily 
-			4737
-			4736
-			#Tunis
-			341
-			#Sardinia 
-			4735
-			
 			#Denmark
-			5004 
+			6004 
 		
 			104 109 108 1744
 			
@@ -136,11 +138,11 @@ categories =  {
 			#foffyburgundy 88 1865 97
 
 			#foffychina
-			4794 4811 4818 4819 4821 4820 4840 4850 4851 4847 4846 4854 4853 4832 4856 4831 4892 4833 4804 4882 4857 4883 4803 4834 4889 4891 4890 4829 4830 4861 4826 4860 4828 4855 4874 4859 4795 4844 4888 4793 4928 4933 4934 668 4936 4945 4943 4942 4845 4872 4953 4952 4957
+			5794 5811 5818 5819 5821 5820 5840 5850 5851 5847 5846 5854 5853 5832 5856 5831 5892 5833 5804 5882 5857 5883 5803 5834 5889 5891 5890 5829 5830 5861 5826 5860 5828 5855 5874 5859 5795 5844 5888 5793 5928 5933 5934 668 5936 5945 5943 5942 5845 5872 5953 5952 5957
 			#foffyasia
-			4231 4230 4988 4981 4977
+			4231 4230 5988 5981 5977
 			
-			5081 5082 # Mandala
+			4831 4832 # Mandala
 		}		
 	}
 	
@@ -152,14 +154,13 @@ categories =  {
 		
 		movement_cost = 1.25
 		defence = 1
-		#combat_width = -0.20
 		supply_limit = 4
 		local_development_cost = 0.2
 		nation_designer_cost_multiplier = 0.9
 		
 		terrain_override = { 
 			#Sweden
-			5025 5023 19 5030
+			6025 6023 19 6030
 		
 			4 8 9 11 18 29 30 31 315 4123 4124 # Sweden
 			309 1955 #Russia
@@ -186,13 +187,12 @@ categories =  {
 		defence = 1
 		local_defensiveness = 0.1
 		local_development_cost = 0.25
-		#combat_width = -0.25
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 5
 		
 		terrain_override = {
 			#Norway
-			5031 4143
+			6031 4143
 		
 			508 509 511 515 525 527 530 545 550 554 557 1947 2036 
 			2037 2040 2043 2056 2058 2069 2070 2071 2080 2090 2092 2097
@@ -248,16 +248,16 @@ categories =  {
 			#foffynewworld
 			2477
 			#foffychina
-			4847 4790 4849 4848 4805 4791 4792 4852 4813 4807 4841 4887 4827 4814
-			4923 4924 4925 4946 4927 4870 4843 4817 4935 4939 4946 4956 4926
+			5847 5790 5849 5848 5805 5791 5792 5852 5813 5807 5841 5887 5827 5814
+			5923 5924 5925 5946 5927 5870 5843 5817 5935 5939 5946 5956 5926
 			#foffyjapan
 			4131
 			#foffyasia 2744 733 4231 4229
-			2743 4998 732 4997 4995 4994 4992 4989 2694 4985 4984 4983
+			2743 5998 732 5997 5995 5994 5992 5989 2694 5985 5984 5983
+			1106 1108 2738 4939 # NZ
+			4840 # Mandala
 			
-			5090 # Mandala
-			
-			5106
+			4856
 		}
 	}
 
@@ -270,14 +270,13 @@ categories =  {
 
 		movement_cost = 1.10
 		defence = 1
-		#combat_width = -0.20
 		local_development_cost = 0.15
 		nation_designer_cost_multiplier = 0.9
 		supply_limit = 6
 		
 		terrain_override = {
 			#Sweden
-			5009 4164 5008 5010 2 5012 5
+			6009 4164 6008 6010 2 6012 5
 		
 			206 1851 # Spain
 			374 375 376 4118 4119 4120 4121 #Ireland
@@ -309,7 +308,8 @@ categories =  {
 			2423 306 1957 1083 1079 1972 2427 1074 2428 2433 2429 1068 1064 480 1065 
 			2432 2443 1062 1063 1060 2442 2435 1056 2446 
 			2551 2013 971 2566 2570 985 984 2569 2568 945 2521 2522 2587 912 2487 973 874 873 2482 
-			276 2304 4176
+			276 2304 2737 4176
+			2739
 		 
 			767
 			
@@ -334,7 +334,7 @@ categories =  {
 			872 2481 2484 2485 2486
 			#foffyasia
 			
-			5103 5102 5114
+			4853 4852 4864
 		}
 	}
 	
@@ -347,17 +347,18 @@ categories =  {
 		movement_cost = 1.5
 		defence = 2
 		local_defensiveness = 0.25
-		local_development_cost = 0.30
-		#combat_width = -0.30
+		local_development_cost = 0.35
 		nation_designer_cost_multiplier = 0.75
 		supply_limit = 4
 		
 		terrain_override = {
+			#Mamluks
+			365 382
 			#Tunis
-			336 2458 1751
+			336 2458
 
 			#Norway
-			5029
+			6029
 			210	226 # Spain
 			139 1831 143 138 4175  #Balkans
 			158 1952 #Hungary
@@ -414,13 +415,13 @@ categories =  {
 			#872 2481 2477 871 2484 2485 2486
 			#Roussillon
 			197
-			#foffychina 680 4867 4870 4843 4817
-			4864 4884 4825 4873 4799 4801 4796 4871 4866 4815 4869 4822 4862 4879 4802
-			4929 4932 4948 4949 4950 4951 686
+			#foffychina 680 5867 5870 5843 5817
+			5864 5884 5825 5873 5799 5801 5796 5871 5866 5815 5869 5822 5862 5879 5802
+			5929 5932 5948 5949 5950 5951 686
 			#foffyjapan 4131
-			4958
+			5958
 			#foffyasia 2743 732
-			4996 4999 5000 5001 5002 4987
+			5996 5999 6000 6001 6002 5987
 		}
 	}
 
@@ -431,7 +432,7 @@ categories =  {
 
 		movement_cost = 8.0
 		defence = 6
-		local_development_cost = 10		
+		local_development_cost = 10
 	}
 
 	grasslands = {
@@ -447,16 +448,10 @@ categories =  {
 		
 		terrain_override = {
 			#Tunis
-			2473 2455
-			
-			#Baleares 
-			333
-			
-			#Sardinia 
-			2986
-			
+			341 2473 2455
+
 			#Denmark
-			5005 5006 5007 5003 
+			6005 6006 6007 6003 
 		
 			2666 # North America
 			213 218 219 #Spain
@@ -502,15 +497,15 @@ categories =  {
 			4394 # Burma
 			1858 4760 #Germany
 			#foffychina
-			4880 4823 4905 4899 4920 4904
+			5880 5823 5905 5899 5920 5904
 			#foffySA
-			1176 4968
+			1176 5968
 			#foffyasia
-			2744 4993 733 4990 4977 4980
-						
-			5045 # Mandala
+			2744 5993 733 5990 5977 5980
+		
+			4795 # Mandala
 			
-			5108 5107 2735 1090
+			4858 4857 2735 1090
 		}
 	}
 
@@ -522,8 +517,7 @@ categories =  {
 
 		movement_cost = 1.5
 		defence = 1
-		local_development_cost = 0.30
-		#combat_width = -0.25
+		local_development_cost = 0.35
 		nation_designer_cost_multiplier = 0.8
 		supply_limit = 5
 		
@@ -551,9 +545,13 @@ categories =  {
 			4021 4024 4025 4026 #Madagascar
 			4090 4105 4109 #Central Africa
 			#foffychina
-			4897 4930 4938
+			5897 5930 5938
 			#foffySA
-			4966 4975
+			5966 5975
+			
+			4804 4799 2709 4817 # Mandala
+			
+			1085 4869 2730
 		}
 	}	
 	
@@ -566,7 +564,6 @@ categories =  {
 		movement_cost = 1.3
 		defence = 1
 		local_development_cost = 0.25
-		#combat_width = -0.25
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 5
 
@@ -600,7 +597,7 @@ categories =  {
 
 		movement_cost = 1.05
 		supply_limit = 4
-		local_development_cost = 0.30
+		local_development_cost = 0.50
 		nation_designer_cost_multiplier = 0.8
 		
 		terrain_override = {
@@ -616,7 +613,7 @@ categories =  {
 			715 2119 2120 710 711 712 2121 2123 2191 2192 706 707 701 709 720 2193 2747 
 			860 2618
 			#foffychina 698 708
-			4918 4931 4955
+			5918 5931 5955
 			#foffySA 1176
 		}
 	}
@@ -628,7 +625,7 @@ categories =  {
 		sound_type = desert
 
 		movement_cost = 1.0
-		local_development_cost = 0.30
+		local_development_cost = 0.35
 		nation_designer_cost_multiplier = 0.9		
 		supply_limit = 4
 
@@ -643,9 +640,9 @@ categories =  {
 			389 394 395 396 397 398 399 400 401 402 1099 2329 2331 2333 2340 2341 2342 2347 4269 4278 4283 4284 #Arabia
 			4286
 			#foffySA
-			4973
+			5973
 			
-			5117 5116 5115 2726 5099 5098 5097
+			4867 4866 4865 2726 4849 4848 4847
 		}	
 	}
 	
@@ -655,7 +652,7 @@ categories =  {
 		sound_type = sea
 
 		movement_cost = 1.0
-		local_development_cost = 0.2
+		local_development_cost = 0.15
 		nation_designer_cost_multiplier = 0.85		
 		supply_limit = 6 
 		
@@ -679,7 +676,7 @@ categories =  {
 			1015 4193 #Japan
 			387 4279 #Tihama al yemen
 			
-			5065 # Mandala
+			4815 # Mandala
 			
 			2728
 		}
@@ -698,9 +695,6 @@ categories =  {
 		allowed_num_of_buildings = 1
 
 		terrain_override = {
-			#Tunis 
-			4566 2954
-			
 			1749 224
 			221 1750 220 214 
 			1748 2754
@@ -726,7 +720,7 @@ categories =  {
 			4209 #Greater China
 			334 338 342 345 1110 2453 2461 2466 2469 #Maghreb
 			1089 1091 #Australia
-			379 381 382 406 412 430 431 1854 1855 2219 2314 4292 4297 4298 #Levant
+			379 381 406 412 430 431 1854 1855 2219 2314 4292 4297 4298 #Levant
 			1222 4040 #Central Africa
 			4411 4421 4435 4437 4454 4455 4456 4463 4503 4504 4505 4509 #India
 			4549 4562 4563 4564 4547 4557# new provinces 1.28
@@ -734,11 +728,11 @@ categories =  {
 			#CN Rework NA
 			#868	
 			#foffychina
-			708 4877 698 4797 4954
+			708 5877 698 5797 5954
 			#foffySA
-			4962 4963 4964 4965 4969 4974
+			5962 5963 5964 5965 5969 5974
 			
-			2736 5113 5111 5105 1094 2733
+			2736 4863 4861 4855 1094 2733
 		}
 	}
 
@@ -753,18 +747,17 @@ categories =  {
 		defence = 1
 		local_defensiveness = 0.1
 		local_development_cost = 0.2
-		#combat_width = -0.25
 		nation_designer_cost_multiplier = 0.9	
 
 		terrain_override = {
 			#Norway
-			5032
+			6032
 		
 			520 536 542 544 578 2035 2077 2079 2085 2087 2093
 			850 852 853 2018 2621 2622 2623 2626 2628 2629 2644 2646 2645 
 			588 2401 2301 324 1224 
 			2006 2019 2483 2488 2496 2501 2624
-			335 339 340 346 348 349 351 1171 1184 1185 1188 1207 1208 1211 1218 1219 1227 1882 2274 2454 2459 2462 2463 
+			335 339 340 346 348 349 351 1171 1184 1185 1188 1207 1208 1211 1218 1219 1227 1751 1882 2274 2454 2459 2462 2463 
 			2464 2465 2756 2757 2758 2762 2763 2766 2770 2771 2772 2778 2779 2781 2787 2792 2950 2951
 			326 329 332 418 1846 
 			2303
@@ -778,8 +771,8 @@ categories =  {
 			2131 2132 2133 2134 2135 2165 2167 2168 2170 2748 2183 
 			3001 4176 #Balkans
 			4199 #Greater China
-			145 365 378 2209 2235 2313 4293 4294 4295 4298 4313 #Middle East
-			1108 1090 2734 2738 5110 5109 #Australia & New Zeeland
+			145 378 2209 2235 2313 4293 4294 4295 4298 4313 #Middle East
+			2734 4860 4859 #Australia & New Zeeland
 			460 1968 #Central Asia
 			4027 4029 4030 #Madagascar
 			798 4053 4055 4056 4057 4059 4067 4073 4077 4084 4100 4101 4103 #Africa
@@ -789,19 +782,19 @@ categories =  {
 			216 228 2755 2989 #Iberia
 			323 2202 4299 4305 #Anatolia and Caucasus
 			736 1047 4228  #Korea & Manchuria
-		    4391 #Italy & France
+			2986 4391 #Italy & France
 			4406 4398 # Burma
 			4422 4436 4464 #Central India
-			4561 4553 # new provinces 1.28
+			4561 4566 4553 # new provinces 1.28
 			4669 4701 4699 4780 # 1.30 Greece and Bulgaria
 			#CN Rework NA
 			#869 2478
 			#foffychina
-			4878 4820 4812 4886 4839 4868 4816 4876 4885 680 4858 4771 4867 4937 4940 4922 4947 4893 4863 4838 4941
+			5878 5820 5812 5886 5839 5868 5816 5876 5885 680 5858 4771 5867 5937 5940 5922 5947 5893 5863 5838 5941
 			#foffySA
 			2856
 			#foffyasia
-			4981 4986 4229
+			5981 5986 4229
 		}
 	}
 
@@ -812,7 +805,7 @@ categories =  {
 
 		supply_limit = 6
 		movement_cost = 1.00
-		local_development_cost = 0.1
+		local_development_cost = 0.15
 		nation_designer_cost_multiplier = 0.95	
 		
 		terrain_override = {
@@ -823,7 +816,7 @@ categories =  {
 			2279 2280 2283 2291 
 			
 			607 2374 606 605 2378 614 2386 603 612
-			484 485 883 884 887 888 894 897 900 902 915 922 923 924 926 932 942 1008 1010 2017 2513 2514 2520
+			484 485 870 883 884 887 888 894 897 900 902 915 922 923 924 926 932 942 1008 1010 2017 2021 2513 2514 2520
 			2530 2533 2535 2538 2542 2543 2546 2596 2669 2853 2888 2891 2892 2906 2907 2911 2919 2920 
 			
 			1114 1120 1122 1124 1136 1137 1143 1145 1150 1152 1154 1160 1161
@@ -836,11 +829,9 @@ categories =  {
 			2948 4034 4035 4036 4037 4038 4039 4041 4042 4043 4044 4045 4047 4048 4058 4061 4062 4064 4065 4071 4074 4075 4076 4082 4083 4091
 			4092 4093 4094 4095 4096 4097 4099 4104 4105 4106 4107 4108 #Central Africa
 			4618 4619 #Mesoamerica 1.28
-			#CN Rework NA
-			#2021 870
-			5086 2383 5079
+			4836 2383 4829
 			
-			1092 5101 1094 5100 5096 5131
+			1092 4851 1094 4850 4846 4881
 		}		
 	}
 	
@@ -851,7 +842,7 @@ categories =  {
 		sound_type = plains
 
 		movement_cost = 1.00
-		local_development_cost = 0.15
+		local_development_cost = 0.20
 		nation_designer_cost_multiplier = 0.9	
 		supply_limit = 6
 		
@@ -892,9 +883,9 @@ categories =  {
 			# 1.29
 			4664 4665 4674 4666 4667 4673 4675 4672 4671 4668 4683
 			#foffychina
-			4902 4913 
+			5902 5913 
 			#foffySA
-			4959
+			5959
 		}	
 	}	
 }

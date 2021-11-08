@@ -87,6 +87,22 @@
 
 declarewar = {
 	condition = {
+		potential = { 
+			ROOT = { has_reform = h_reform_native_empire }
+		}
+		allow = { 
+			always = no
+		}
+	}
+	condition = {
+		potential = { 
+			ROOT = { has_reform = h_reform_declining_african_empire }
+		}
+		allow = { 
+			always = no
+		}
+	}
+	condition = {
 		tooltip = h_tooltip_commanderywar
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
@@ -200,6 +216,25 @@ royal_marriage = {
 			always = no
 		}
 	}
+	condition = {
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_declining_african_empire
+				}
+			}
+		}
+	}
+	condition = {
+		potential = {
+			ROOT = { has_reform = h_reform_declining_african_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 annexationaction = {
@@ -214,7 +249,7 @@ annexationaction = {
 			FROM = {
 				has_opinion = {
 					who = ROOT
-					value = 190
+					value = 100
 				}
 			}
 		}
@@ -345,6 +380,25 @@ guaranteeaction = {
 			always = no
 		}
 	}
+	condition = {
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_declining_african_empire
+				}
+			}
+		}
+	}
+	condition = {
+		potential = {
+			ROOT = { has_reform = h_reform_declining_african_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 warningaction = {
@@ -361,6 +415,14 @@ warningaction = {
 		tooltip = h_tooltip_nativewarn
 		potential = {
 			ROOT = { has_reform = h_reform_native_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		potential = {
+			ROOT = { has_reform = h_reform_declining_african_empire }
 		}
 		allow = {
 			always = no
@@ -480,7 +542,6 @@ allianceaction = {
 		}
 	}
 	condition = {
-		tooltip = h_tooltip_allynative
 		potential = {
 		}
 		allow = {
@@ -489,18 +550,21 @@ allianceaction = {
 					OR = {
 						tag = AZT
 						tag = INC
+						tag = MAY
+						tag = MAL
 					}
 				}
 			}
 		}
 	}
 	condition = {
-		tooltip = h_tooltip_nativeally
 		potential = {
 			ROOT = {
 				OR = {
 					tag = AZT
 					tag = INC
+					tag = MAY
+					tag = MAL
 				}
 			}
 		}
@@ -535,6 +599,40 @@ allianceaction = {
 		}
 		allow = {
 			always = no
+		}
+	}
+}
+
+request_to_join_trade_league = {
+	condition = {
+		tooltip = NOT_RELEVANT_TRADE_REGION_FROM
+		potential = {
+		}
+		allow = {
+			home_trade_node = {
+				trade_share = {
+					country = from
+					share = 1
+				}
+			}
+		}
+	}
+}
+
+invite_to_trade_league = {
+	condition = {
+		tooltip = NOT_RELEVANT_TRADE_REGION
+		potential = {
+		}
+		allow = {
+			from = {
+				home_trade_node = {
+					trade_share = {
+						country = root
+						share = 1
+					}
+				}
+			}
 		}
 	}
 }
@@ -638,6 +736,25 @@ improve_relation = {
 		tooltip = h_tooltip_nativeimprove
 		potential = {
 			ROOT = { has_reform = h_reform_native_empire }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_declining_african_empire
+				}
+			}
+		}
+	}
+	condition = {
+		potential = {
+			ROOT = { has_reform = h_reform_declining_african_empire }
 		}
 		allow = {
 			always = no
