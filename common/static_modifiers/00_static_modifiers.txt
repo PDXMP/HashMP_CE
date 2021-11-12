@@ -1704,7 +1704,6 @@ army_drill_modifier = { # Used by an entire army, is the average of all subunits
 }
 
 janissary_regiment = {
-	land_maintenance_modifier = 0.20
 	drill_gain_modifier = 1.0
 }
 
