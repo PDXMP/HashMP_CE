@@ -25,11 +25,12 @@ country_decisions = {
 							region = mongolia_region
 							is_empty = no
 						}
-						region = central_asia_region
+						area = altai_sayan_area
+						area = north_zungaria
+						area = zungaria_area
+						area = uliastai_area
+						area = tannu_uriankhai_area
 						region = crimea_region
-						province_id = 1816
-						province_id = 1821
-						province_id = 667
 					}
 					NOT = { owned_by = ROOT }
 				}
@@ -37,8 +38,6 @@ country_decisions = {
 					OR = {
 						region = khorasan_region
 						region = persia_region
-						province_id = 295
-						province_id = 280
 					}
 					NOT = {
 						country_or_non_sovereign_subject_holds = ROOT
@@ -52,17 +51,42 @@ country_decisions = {
 				tag = GLH
 				tag = ILK
 			}
-			custom_trigger_tooltip = {
-				tooltip = mongolia_decision_tooltip
-				mongolia_region = {
-					type = all
-					OR = {
-						is_empty = yes
-						owned_by = ROOT
-					}
-				}
+			# custom_trigger_tooltip = {
+			# 	tooltip = mongolia_decision_tooltip
+			# 	mongolia_region = {
+			# 		type = all
+			# 		OR = {
+			# 			is_empty = yes
+			# 			owned_by = ROOT
+			# 		}
+			# 	}
+			# }
+			# central_asia_region = {
+			# 	type = all
+			# 	owned_by = ROOT
+			# }	
+			num_of_owned_provinces_with = {
+				value = 45
+				is_core = ROOT
+				region = central_asia_region
 			}
-			central_asia_region = {
+			altai_sayan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			north_zungaria = {
+				type = all
+				owned_by = ROOT
+			}
+			zungaria_area = {
+				type = all
+				owned_by = ROOT
+			}
+			uliastai_area = {
+				type = all
+				owned_by = ROOT
+			}
+			tannu_uriankhai_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -70,7 +94,7 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 			}
-			1816 = { owned_by = ROOT } # beijing
+			#1816 = { owned_by = ROOT } # beijing
 			khorasan_region = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -83,9 +107,9 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 		}
 		effect = {
-			2190 = {
-				move_capital_effect = yes
-			}
+			#2190 = {
+			#	move_capital_effect = yes
+			#}
 			change_tag = MGE
 			if = {
 				limit = {
