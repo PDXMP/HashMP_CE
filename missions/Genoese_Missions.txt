@@ -15,7 +15,7 @@ genoa_missions_africa = {
 			OR = {
 				AND = {
 					NOT = { is_strongest_trade_power = ROOT }
-					province_id = 1298
+					province_id = 101
 				}
 				AND = {
 					NOT = { province_trade_power = 60 }
@@ -24,7 +24,7 @@ genoa_missions_africa = {
 			}
 		}
 		trigger = {
-			1298 = {
+			101 = {
 				is_strongest_trade_power = ROOT
 			}
 			101 = {

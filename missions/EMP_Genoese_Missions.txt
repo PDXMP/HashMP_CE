@@ -399,7 +399,7 @@ emp_gen_missions_western_med = {
 			}
 		}
 		effect = {
-			1298 = {
+			118 = {
 				add_trade_modifier = {
 					who = GEN
 					duration = 7300
