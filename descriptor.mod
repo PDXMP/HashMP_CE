@@ -7,4 +7,4 @@ tags={
 	"Gameplay"
 	"Policies"
 }
-supported_version="1.28.*.*"
+supported_version="1.32.*.*"
