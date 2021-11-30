@@ -112,7 +112,7 @@ anti_tax_rebels = {
  		NOT = { local_autonomy = 50 }
  	}
 	siege_won_effect = {
-		add_local_autonomy = 20
+		add_local_autonomy = 10	
 	}
 	
 	# Country scope
@@ -143,7 +143,6 @@ anti_tax_rebels = {
 				is_overseas = no
 			}
 			add_local_autonomy = 20
-			add_devastation = 20
 		}
 		if = {
 			limit = { has_disaster = peasant_war }

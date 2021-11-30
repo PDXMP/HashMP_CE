@@ -177,7 +177,7 @@ indian_sultanate_reform = {
 	legacy_equivalent = indian_sultanate_legacy
 
 	modifiers = {
-		tolerance_heathen = 4
+		tolerance_heathen = 3
 	}
 
 	conditional = {
@@ -221,6 +221,7 @@ shogunate = {
 	allow_vassal_war = yes
 	allow_vassal_alliance = yes
 	lock_level_when_selected = yes
+	can_change_primary_culture = no
 
 	modifiers = {
 		diplomats = 1
@@ -351,7 +352,7 @@ celestial_empire = {
 		church_influence_modifier = -0.1
 		nobles_influence_modifier = -0.1
 		burghers_influence_modifier = -0.1
-		governing_capacity = 300
+		governing_capacity = 470
 	}
 	
 	ai = {
@@ -801,10 +802,9 @@ mughal_government = {
 			free_leader_pool = 1
 			governing_capacity = 100
 		}
-		#byzantine = {
-		#	legitimacy = 1
-		#	governing_capacity = 100
-		#}
+		byzantine = {
+			legitimacy = 0.25
+		}
 		carpathian = {
 			mercenary_cost = -0.1
 			governing_capacity = 100
@@ -909,9 +909,6 @@ mughal_government = {
 			tolerance_heretic = 1
 			governing_capacity = 100
 		}
-#		mon_khmer = {
-#			build_cost = -0.05
-#		}
 		pacific = {
 			global_sailors_modifier = 0.33
 			governing_capacity = 100
@@ -923,6 +920,9 @@ mughal_government = {
 		scandinavian = {
 			mil_advisor_cost = -0.2
 			governing_capacity = 100
+		}
+		southeastasian_group = {
+			development_cost = -0.05
 		}
 		south_slavic = {
 			warscore_cost_vs_other_religion = -0.1
@@ -940,9 +940,8 @@ mughal_government = {
 			cavalry_cost = -0.15
 			governing_capacity = 100
 		}
-		southeastasian_group = {
-			development_cost = -0.1
-			governing_capacity = 100
+		thai_group = {
+			build_cost = -0.05
 		}
 		tibetan_group = {
 			prestige_per_development_from_conversion = 0.5

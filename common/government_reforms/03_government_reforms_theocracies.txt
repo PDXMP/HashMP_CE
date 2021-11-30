@@ -7,6 +7,7 @@ theocracy_mechanic = {
 	different_religion_group_acceptance = -50
 	religion = yes
 	heir = yes
+	can_customise_heir = no
 	basic_reform = yes # = invisible/does not take up a slot
 	valid_for_nation_designer = no
 
@@ -33,7 +34,9 @@ leading_clergy_reform = {
 }
 
 monastic_order_reform = {
-
+	potential = {
+		NOT = { tag = PAP }
+	}
 	modifiers = {
 		fort_maintenance_modifier = -0.2
 	}
@@ -141,7 +144,7 @@ combat_heresy_reform = {
 	icon = "soldiers_2"
 	allow_normal_conversion = yes
 	modifiers = {
-		land_morale = 0.075
+		land_morale = 0.1
 	}
 }
 
@@ -167,7 +170,7 @@ kingdom_of_god_reform = {
 		global_manpower_modifier = 0.1
 		prestige = 1
 		devotion = 1
-		appoint_cardinal_cost = -0.5
+		appoint_cardinal_cost = -0.3
 		papal_influence_from_cardinals = 1.0
 	}
 	allow_normal_conversion = yes
@@ -627,6 +630,8 @@ monastic_elections_reform = {
 		allow = { has_dlc = "Res Publica" }
 		heir = no
 		election_on_death = yes
+		duration = 4
+		has_term_election = yes
 		states_general_mechanic = {
 			militarists = {
 				manpower_recovery_speed = 0.1

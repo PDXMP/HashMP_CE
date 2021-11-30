@@ -138,6 +138,8 @@ prussian_republic_reform = {
 			is_playing_custom_nation = yes
 			religion = protestant
 			religion = reformed
+			religion = hussite
+			religion = anglican
 		}
 	}
 	valid_for_nation_designer = yes
@@ -262,7 +264,7 @@ venice_merchants_reform = {
 	modifiers = {
 		max_absolutism = -50
 		merchants = 1
-		yearly_corruption = -0.05
+		yearly_corruption = -0.1
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -328,7 +330,7 @@ pirate_republic_reform = {
 		max_absolutism = -50
 		naval_forcelimit_modifier = 0.5
 		capture_ship_chance = 0.33
-		governing_cost = 0.75
+		state_governing_cost = 0.75
 		#may_perform_slave_raid_on_same_religion = yes
 	}
 	trigger = {
@@ -422,8 +424,7 @@ presidential_despot_reform = {
 	legacy_equivalent = republican_dictatorship
 
 	modifiers = {
-		global_autonomy = -0.05
-		tolerance_heathen = 1
+		global_autonomy = -0.075
 		land_morale = 0.1
 	}
 
@@ -1231,6 +1232,13 @@ cossacks_reform = {
 	government_abilities = {
 		cossacks_mechanic
 	}
+
+	conditional = {
+		allow = { has_dlc = "Origins" }
+		custom_attributes = {
+			has_itinerant_capital = yes
+		}
+	}
 	valid_for_new_country = yes
 
 	nation_designer_trigger = {
@@ -1490,7 +1498,7 @@ lottery_reform = {
 		}
 	}
 	modifiers = {
-		yearly_corruption = -0.05
+		yearly_corruption = -0.1
 	}
 	custom_attributes = {
 		lottery_election = yes
@@ -1652,7 +1660,6 @@ union_of_states_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		global_trade_power = 0.1
-		yearly_corruption = -0.05
 	}
 	ai = {
 		factor = 1
@@ -1999,7 +2006,7 @@ landholders_reform = {
 		}
 	}
 	modifiers = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.2
 		global_regiment_cost = -0.1
 	}
 	ai = {
@@ -2017,7 +2024,7 @@ citizenry_reform = {
 		}
 	}
 	modifiers = {
-		land_morale = 0.075
+		land_morale = 0.1
 	}
 	ai = {
 		factor = 1.5

@@ -4647,22 +4647,32 @@ reduced_opinion_favor = {
 }
 
 refused_to_reduce_opinion_favor = {
-	opinion = -100
+	opinion = -10
+	min = -50
+	yearly_decay = 5
+}
+
+refused_to_break_alliance_favor = {
+	opinion = -10
+	min = -50
 	yearly_decay = 5
 }
 
 refused_to_give_gold_for_favors = {
-	opinion = -100
+	opinion = -10
+	min = -50
 	yearly_decay = 5
 }
 
 refused_to_give_men_for_favors = {
-	opinion = -100
+	opinion = -10
+	min = -50
 	yearly_decay = 5
 }
 
 refused_to_give_sailors_for_favors = {
-	opinion = -100
+	opinion = -10
+	min = -50
 	yearly_decay = 5
 }
 
@@ -4677,12 +4687,14 @@ opinion_iroquois_affront = {
 }
 
 refused_to_give_trust_for_favors = {
-	opinion = -100
+	opinion = -10
+	min = -50
 	yearly_decay = 5
 }
 
 refused_to_prepare_for_war_for_favors = {
-	opinion = -100
+	opinion = -10
+	min = -50
 	yearly_decay = 5
 }
 
@@ -4700,237 +4712,136 @@ opinion_trent = {
 	opinion = 25
 	years = 10
 	yearly_decay = 2
-}# Mandala opinions
+}
 
-opinion_sia_aggressive_acts = {
+sitting_in_my_tribal_land_opinion = {
+	opinion = -3
+	yearly_decay = 2
+	min = -200
+}
+
+sitting_in_my_friends_tribal_land_opinion = {
+	opinion = -2
+	yearly_decay = 2
+	min = -200
+}
+
+eth_refused_annexation = {
 	opinion = -50
 	yearly_decay = 1
 }
 
-opinion_sia_embassy_good = {
+eth_war_times_ahead = {
+	opinion = -75
+	yearly_decay = 1
+}
+
+eth_restored_contact = {
+	opinion = 125
+	yearly_decay = 1
+}
+
+eth_banned_jesuits = {
+	opinion = -100
+	yearly_decay = 1
+}
+
+mal_gold_of_mali = {
+	opinion = 100
+	yearly_decay = 1
+}
+
+mal_ivory_of_mali = {
 	opinion = 50
+	yearly_decay = 1
+}
+
+mal_invested_into_mecca = {
+	opinion = 75
+	yearly_decay = 1
+}
+
+increased_same_religion = {
+	opinion = 25
+}
+
+increased_fetishist_opinion = {
+	opinion = 40
+}
+
+increased_religion_opinion = {
+	opinion = 40
+}
+
+diplomatic_rabbi_opinion = {
+	opinion = 35
+}
+
+mal_accepted_gift = {
+	opinion = 75
 	yearly_decay = 3
 }
 
-opinion_sia_embassy_bad = {
+mal_investments_enabled = {
+	opinion = 25
+	yearly_decay = 1
+}
+
+mal_refused_gift = {
+	opinion = -25
+	yearly_decay = 1
+}
+
+zim_preferred_by_mutapa = {
+	opinion = 100
+	yearly_decay = 1
+}
+
+zim_refused_by_mutapa = {
+	opinion = -100
+	yearly_decay = 1
+}
+
+zim_exploited_merchants = {
 	opinion = -50
-	yearly_decay = 3
+	yearly_decay = 1
 }
 
-opinion_siam_antiimperialist = {
+zan_has_embassy = {
+	opinion = 20
+}
+
+zan_declined_embassy = {
+	opinion = -50
+	yearly_decay = 1
+}
+
+same_government_opinion = {
+	opinion = 100
+	yearly_decay = 2
+}
+
+zul_let_the_zulu_alone = {
 	opinion = 50
 	yearly_decay = 1
 }
 
-opinion_open_siam = {
+msi_accepts_muslims = {
 	opinion = 50
 	yearly_decay = 1
 }
 
-opinion_siam_isolationism = {
+hau_refused_to_help = {
+	opinion = -50
+	yearly_decay = 1
+}
+
+hau_military_support = {
+	opinion = 50
+	yearly_decay = 1
+}
+
+destroyed_al_aqsa_opinion = {
 	opinion = -200
-	yearly_decay = 5
-}
-
-siam_allowed_misionaries = {
-	opinion = 50
-	yearly_decay = 3
-}
-
-siam_denied_misionaries = {
-	opinion = -50
-	yearly_decay = 3
-}
-
-abandoned_mlc = {
-	opinion = -100
-	yearly_decay = 5
-}
-
-opinion_champa_islam = {
-	opinion = 50
-	yearly_decay = 2
-}
-
-opinion_champa_hindu = {
-	opinion = 50
-	yearly_decay = 2
-}
-
-opinion_malay_converted_to_islam = {
-	opinion = 50
-	yearly_decay = 2
-}
-
-opinion_malay_converted_to_islam = {
-	opinion = 50
-	yearly_decay = 2
-}
-
-lunar_new_year = {
-	opinion = 50
-	yearly_decay = 2
-}
-
-dancing_on_the_knife_good = {
-	opinion = 50
-	yearly_decay = 5
-}
-
-dancing_on_the_knife_bad = {
-	opinion = -50
-	yearly_decay = 5
-}
-
-iroquoian_iron_fist_opinion = {
-	opinion = -100
-	yearly_decay = 3
-}
-
-potlatch_good = {
-	opinion = 50
-	yearly_decay = 5
-}
-
-potlatch_nice = {
-	opinion = 25
-	yearly_decay = 5
-}
-
-potlatch_bad = {
-	opinion = -50
-	yearly_decay = 5
-}
-
-honour_pole = {
-	opinion = 50
-	yearly_decay = 5
-}
-
-che_conciliatory_views = {
-	opinion = 50
-	yearly_decay = 2
-}
-
-the_enemy_of_my_enemy = {
-	opinion = 50
-	yearly_decay = 5
-}
-
-sio_feast_of_the_dead = {
-	opinion = 50
-	yearly_decay = 2
-}
-
-opinion_naachid = {
-	opinion = 50
-	yearly_decay = 2
-}
-
-opinion_great_feast = {
-	opinion = 25
-	years = 10
-	yearly_decay = 1
-}
-
-opinion_disappointing_feast = {
-	opinion = -25
-	years = 10
-	yearly_decay = 2
-}
-
-opinion_betrayal = {
-	opinion = -50
-	yearly_decay = 1
-}
-
-concentrated_our_development = {
-	opinion = -8
-	yearly_decay = 2
-}
-
-pillaged_a_state_for_us = {
-	opinion = 8
-	yearly_decay = 2
-}
-
-opinion_tattoo_done = {
-	opinion = 50
-	yearly_decay = 2
-}
-
-opinion_tattoo_not_done = {
-	opinion = -25
-	yearly_decay = 5
-}
-
-refused_to_break_alliance = {
-	opinion = -100
-	yearly_decay = 5
-}
-
-refused_to_return_core_favor = {
-	opinion = -100
-	yearly_decay = 5
-}
-
-reduced_opinion_favor = {
-	opinion = -100
-	yearly_decay = 5
-}
-
-refused_to_reduce_opinion_favor = {
-	opinion = -100
-	yearly_decay = 5
-}
-
-refused_to_give_gold_for_favors = {
-	opinion = -100
-	yearly_decay = 5
-}
-
-refused_to_give_men_for_favors = {
-	opinion = -100
-	yearly_decay = 5
-}
-
-refused_to_give_sailors_for_favors = {
-	opinion = -100
-	yearly_decay = 5
-}
-
-refused_to_install_heir_for_favors = {
-	opinion = -100
-	yearly_decay = 5
-}
-
-opinion_iroquois_affront = {
-	opinion = -50
-	yearly_decay = 1
-}
-
-refused_to_give_trust_for_favors = {
-	opinion = -100
-	yearly_decay = 5
-}
-
-refused_to_prepare_for_war_for_favors = {
-	opinion = -100
-	yearly_decay = 5
-}
-
-sten_sture_opinion = {
-	opinion = -50
-	yearly_decay = 1
-}
-
-opinion_st_peters = {
-	opinion = 50
-	yearly_decay = 1
-}
-
-opinion_trent = {
-	opinion = 25
-	years = 10
 	yearly_decay = 2
 }

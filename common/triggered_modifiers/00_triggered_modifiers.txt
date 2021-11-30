@@ -305,6 +305,7 @@ catholic_rome = {
 		NOT = { overlord_of = PAP }
 		owns_or_vassal_of = 118 # Roma		
 		NOT = { tag = ITA }
+		NOT = { tag = HLR }
 		NOT = { tag = ROM }
 	}
 
@@ -324,6 +325,31 @@ papal_subjugation = {
 	trigger = {	
 		overlord_of = PAP
 		NOT = { tag = ITA }
+		NOT = { tag = HLR }
+		if = {
+			limit = {
+				is_emperor = yes
+				has_dlc = "Emperor"
+			}
+			OR = {
+				PAP = {
+					NOT = { is_part_of_hre = yes }	#Needs to be written like that for localization purpose
+				}
+				NOT = { hre_reform_passed = emperor_privilegia_de_non_appelando }
+			}
+		}
+		else_if = {
+			limit = {
+				is_emperor = yes
+				NOT = { has_dlc = "Emperor" }
+			}
+			OR = {
+				PAP = {
+					NOT = { is_part_of_hre = yes }	#Needs to be written like that for localization purpose
+				}
+				NOT = { hre_reform_passed = privilegia_de_non_appelando }
+			}
+		}
 	}
 
 	diplomatic_reputation = -2
@@ -450,9 +476,9 @@ reaction = {
 
 	}
 
-	prestige = 1
+	prestige = 10
 	stability_cost_modifier = -0.1
-	global_unrest = -1
+	global_unrest = -10
 }
 
 ######################################
@@ -499,7 +525,7 @@ excommunication = {
 		
 	}
 
-	prestige = -1
+	#prestige = -2
 	tolerance_own = -3
 	devotion = -5
 	papal_influence = -10
@@ -601,7 +627,7 @@ hre_dominant_catholic = {
 	legitimacy = 0.25
 	tolerance_own = 1
 	global_missionary_strength = 0.01
-	imperial_authority = 0.1
+	imperial_authority = 0.25
 }
 
 hre_dominant_protestant = {
@@ -625,7 +651,7 @@ hre_dominant_protestant = {
 	legitimacy = 0.25
 	tolerance_own = 1
 	global_missionary_strength = 0.01
-	imperial_authority = 0.1
+	imperial_authority = 0.25
 }
 
 hre_dominant_reformed = {
@@ -649,7 +675,7 @@ hre_dominant_reformed = {
 	legitimacy = 0.25
 	tolerance_own = 1
 	global_missionary_strength = 0.01
-	imperial_authority = 0.1
+	imperial_authority = 0.25
 }
 
 ######################################
@@ -737,7 +763,7 @@ pope_in_hre_triggered_modifier = {
 		religion = catholic
 		NOT = { is_part_of_hre = yes }
 	}
-	prestige = 0
+	prestige = -0.5
 }
 
 ######################################
@@ -781,20 +807,51 @@ italian_wars_triggered_modifier = {
 # Defense of the Empire
 ######################################
 
-#defense_of_the_empire_modifier = {
-#	potential = {
-#		has_dlc = "Emperor"
-#		OR = {
-#			is_emperor = yes
-#			is_elector = yes
-#		}
-#		hre_reform_passed = emperor_reichskrieg
-#	}
-#	trigger = {
-#		any_country = {
-#			war_with = ROOT
-#			NOT = { is_part_of_hre = yes }
-#		}
-#	}
-#	war_taxes_cost_modifier = -1.0
-#}
+defense_of_the_empire_modifier = {
+	potential = {
+		has_dlc = "Emperor"
+		OR = {
+			is_emperor = yes
+			is_elector = yes
+		}
+		hre_reform_passed = emperor_reichskrieg
+	}
+	trigger = {
+		any_country = {
+			war_with = ROOT
+			NOT = { is_part_of_hre = yes }
+		}
+	}
+	war_taxes_cost_modifier = -1.0
+}
+
+######################################
+# Judaism Defensive Aspect
+######################################
+
+judaism_yom_kippur_aspect_war_modifier = {
+	potential = {
+		religion = jewish
+		has_church_aspect = judaism_yom_kippur_aspect
+	}
+	trigger = {
+		is_at_war = yes
+	}
+	manpower_recovery_speed = 0.1
+	church_power_modifier = 0.05
+}
+
+judaism_yom_kippur_aspect_defensive_war_modifier = {
+	potential = {
+		religion = jewish
+		has_church_aspect = judaism_yom_kippur_aspect
+	}
+	trigger = {
+		is_at_war = yes
+		is_in_war = {
+			defenders = ROOT
+		}
+	}
+	manpower_recovery_speed = 0.1
+	church_power_modifier = 0.05
+}

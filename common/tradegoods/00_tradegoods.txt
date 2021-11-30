@@ -669,6 +669,20 @@ gold = {
 			region = peru_region
 		}
 		modifier = {
+			factor = 4.0
+			OR = {
+				province_id = 852		# Mexico
+				province_id = 853		# Huastec
+				province_id = 854		# Sayultecas
+				province_id = 2617		# Huichol
+				province_id = 856		# Zacatecas
+				province_id = 857		# Guichichil
+				province_id = 858		# Tamaulipas
+				province_id = 2615		# Guamares
+				province_id = 4781		# Transvaal (Johannesburg mines)
+			}
+		}
+		modifier = {
 			factor = 3.5
 			OR = {
 				area = minas_gerais_area
@@ -757,7 +771,7 @@ iron = {
 slaves = {
 	color = { 0.0 0.0 0.0 }
 	modifier = {
-		global_tariffs = 0.10
+		global_tariffs = 0.25
 	}
 	province = {
 		local_missionary_strength = 0.01
@@ -875,7 +889,7 @@ tea = {
 		advisor_cost = -0.10
 	}
 	province = {
-		local_manpower_modifier = 0.10
+		garrison_growth = 0.25
 	}
 	chance = {
 		factor = 15
@@ -980,7 +994,8 @@ chinaware = {
 		meritocracy = 0.1
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_autonomy = -0.1
+
 	}
 
 	chance = {
@@ -1016,7 +1031,7 @@ spices = {
 		spy_offence = 0.25
 	}
 	province = {
-		 province_trade_power_modifier = 0.10
+		local_monthly_devastation = -0.1
 	}
 	chance = {
 		factor = 25
@@ -1720,7 +1735,7 @@ paper = {
 		adm_tech_cost_modifier = -0.05
 	}
 	province = {
-		local_state_maintenance_modifier = -0.2
+		local_state_maintenance_modifier = -0.1
 	}
 	chance = {
 		factor = 5
@@ -1918,7 +1933,7 @@ coal = {
 	}
 	
 	modifier = {
-		global_trade_goods_size_modifier = 0.075
+		global_trade_goods_size_modifier = 0.05
 	}
 	
 	province = {

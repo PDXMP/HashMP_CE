@@ -38,11 +38,17 @@
 #		}
 #		is_year = 1750
 #		OR = {
-#			owns = 955		# Susquehanna
-#			owns = 963		# Mahican
-#			owns = 965		# Manhattan
-#			owns = 966		# Connecticut
-#			owns = 968		# Massachusetts
+#			owns_or_non_sovereign_subject_of = 955		# Susquehanna
+#			owns_or_non_sovereign_subject_of = 963		# Mahican
+#			owns_or_non_sovereign_subject_of = 965		# Manhattan
+#			owns_or_non_sovereign_subject_of = 966		# Connecticut
+#			owns_or_non_sovereign_subject_of = 968		# Massachusetts
+#		}
+#		any_subject_country = {
+#			is_colonial_nation_of = root
+#			capital_scope = {
+#				colonial_region = colonial_eastern_america
+#			}
 #		}
 #	}
 #	

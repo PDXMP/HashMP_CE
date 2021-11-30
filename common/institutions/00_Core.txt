@@ -15,7 +15,7 @@
 #######################################
 
 feudalism = {
-	penalty = 0.25
+
 	bonus = {
 		free_leader_pool = 1
 	}
@@ -173,8 +173,11 @@ feudalism = {
 						estate = estate_nobles
 						loyalty = 40
 					}
+					estate_territory = {
+						estate = estate_nobles
+						territory = 30
+					}
 				}
-				has_estate = estate_nobles
 			}
 		}
 		modifier = {
@@ -268,7 +271,6 @@ feudalism = {
 #######################################
 
 renaissance = {
-	penalty = 0.5
 
 	bonus = {
 		build_cost = -0.05
@@ -531,7 +533,6 @@ renaissance = {
 # Colonising is good.. mkay.-.
 #######################################
 new_world_i = {
-	penalty = 0.5
 
 	bonus = {
 		global_prov_trade_power_modifier = 0.10
@@ -826,7 +827,6 @@ new_world_i = {
 # Printing Press
 #######################################
 printing_press = {
-	penalty = 0.5
 
 	bonus = {
 		stability_cost_modifier = -0.05
@@ -997,8 +997,11 @@ printing_press = {
 						estate = estate_church
 						loyalty = 40
 					}
+					estate_territory = {
+						estate = estate_church
+						territory = 30
+					}
 				}
-				has_estate = estate_church
 			}
 		}
 		modifier = {
@@ -1161,13 +1164,12 @@ printing_press = {
 # Global Trade
 #######################################
 global_trade = {
-	penalty = 0.5
 
 	bonus = {
 		merchants = 1
 	}
 
-	trade_company_efficiency = 0.1
+	trade_company_efficiency = 0.0
 
 	historical_start_date = 1600.1.1
 	historical_start_province = 97 #Holland
@@ -1216,7 +1218,6 @@ global_trade = {
 			}
 			AND = {
 				is_year = 1700
-				is_capital = no
 				OR = {
 					region = maghreb_region
 					region = egypt_region
@@ -1227,7 +1228,6 @@ global_trade = {
 			AND = {
 				is_year = 1720
 				has_port = yes
-				is_capital = no
 				OR = {
 					superregion = india_superregion
 					superregion = persia_superregion
@@ -1237,7 +1237,6 @@ global_trade = {
 			AND = {
 				is_year = 1750
 				has_port = yes
-				is_capital = no
 				superregion = africa_superregion
 			}
 		}
@@ -1251,6 +1250,10 @@ global_trade = {
 			province_has_center_of_trade_of_level = 3
 			province_has_center_of_trade_of_level = 2
 			is_capital = yes
+			AND = {
+				is_year = 1630 #fallback
+				province_has_center_of_trade_of_level = 1
+			}
 		}
 		owner = {
 			any_active_trade_node = {
@@ -1336,8 +1339,11 @@ global_trade = {
 						estate = estate_burghers
 						loyalty = 40
 					}
+					estate_territory = {
+						estate = estate_burghers
+						territory = 30
+					}
 				}
-				has_estate = estate_burghers
 			}
 		}
 
@@ -1448,7 +1454,6 @@ global_trade = {
 # Manufactories
 #######################################
 manufactories = {
-	penalty = 0.5
 
 	bonus = {
 		discipline = 0.05
@@ -1944,7 +1949,6 @@ manufactories = {
 # Enlightenment
 #######################################
 enlightenment = {
-	penalty = 0.5
 
 	bonus = {
 		culture_conversion_cost = -0.25
@@ -2232,7 +2236,6 @@ enlightenment = {
 # Industrialisation
 #######################################
 industrialization = {
-	penalty = 0.5
 	
 	trade_company_efficiency = 2.0
 
@@ -2402,7 +2405,7 @@ industrialization = {
 		}
 		#Rule Britannia specific
 		modifier = {
-			factor = 2
+			factor = 1
 			force_potential = yes
 			potential = {
 				has_dlc = "Rule Britannia"
@@ -2417,7 +2420,7 @@ industrialization = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			force_potential = yes
 			potential = {
 				has_dlc = "Rule Britannia"
@@ -2432,7 +2435,7 @@ industrialization = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			force_potential = yes
 			potential = {
 				has_dlc = "Rule Britannia"
