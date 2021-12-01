@@ -22,7 +22,7 @@ h_polish_northern_marches = {
 
 h_polish_teachings_of_northern_marches = {
 	land_morale = 0.05
-	land_attrition = -0.005
+	land_attrition = -0.05
 }
 
 h_polish_support_central_lithuania = {
