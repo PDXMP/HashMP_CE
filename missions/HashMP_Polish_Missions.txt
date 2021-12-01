@@ -886,6 +886,7 @@ h_polish_lithuania_expansion_branch = {
 			}
 		}
 		effect = {
+			custom_tooltip = h_pol_cossack_wars_tooltip
 			set_country_flag = pol_zaz_invasion_mission
 			country_event = { id = HashMP_Poland.126 }
 		}

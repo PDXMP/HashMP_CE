@@ -1,4 +1,5 @@
-﻿l_english:
+﻿l_spanish:
+ h_pol_cossack_wars_tooltip:0 "§RThis will potentially result in a war with Crimea and the Great Horde.§!"
  h_pol_change_power_space:0 " "
  h_pol_change_power_tooltip:0 "This will increase the power of the §YBajorais§! estate. Should the §Y[Root.h_pol_balance_of_power_variable.GetName]§! reach §Y10§!, the §YSejm§! estate can be purged."
  h_pol_subtract_power_tooltip:0 "This will increase the power of the §YSejm§! estate. Should the §Y[Root.h_pol_balance_of_power_variable.GetName]§! reach §Y-10§!, the §YBajorais§! estate can be purged."
