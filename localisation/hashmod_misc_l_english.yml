@@ -1,4 +1,5 @@
 ﻿l_english:
+ h_pol_purge_effect_tooltip:0 "You will gain the following modifier if this estate is purged:"
  h_pol_cossack_wars_tooltip:0 "§RThis will potentially result in a war with Crimea and the Great Horde.§!"
  h_pol_change_power_space:0 " "
  h_pol_change_power_tooltip:0 "This will increase the power of the §YBajorais§! estate. Should the §Y[Root.h_pol_balance_of_power_variable.GetName]§! reach §Y10§!, the §YSejm§! estate can be purged."

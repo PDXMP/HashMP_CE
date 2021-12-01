@@ -25,6 +25,13 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = purge_sejm_decision
+			custom_tooltip = h_pol_purge_effect_tooltip
+			tooltip = {
+				add_country_modifier = {
+					name = h_polish_bajorais_ascendant
+					duration = -1
+				}
+			}
 			country_event = {
 				id = HashMP_Poland.106
 			}
@@ -52,6 +59,13 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = purge_bajorais_decision
+			custom_tooltip = h_pol_purge_effect_tooltip
+			tooltip = {
+				add_country_modifier = {
+					name = h_polish_sejm_ascendant
+					duration = -1
+				}
+			}
 			country_event = {
 				id = HashMP_Poland.103
 			}
