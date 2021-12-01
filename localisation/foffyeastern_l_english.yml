@@ -25,13 +25,13 @@
  desc_polish_lithuanian_civilwar:0 "The tensions between the Polish and Lithuanian factions have reached a breaking point"
  HashMP_Poland_Disaster_sejm_reigned:0 "The Sejm has been reigned"
  HashMP_Poland_Disaster_bajorais_reigned:0 "The Bajorais have been reigned"
- h_polish_invade_silesia:0 "The Sejm is supporting our war against Silesia"
- h_polish_tolerant_commonwealth:0 "We are tolerant with all branches of christianity"
- h_polish_catholic_commonwealth:0 "We are true and proven catholics, deus vult."
+ h_polish_invade_silesia:0 "Invasion of Silesia"
+ h_polish_tolerant_commonwealth:0 "Tolerant Nation"
+ h_polish_catholic_commonwealth:0 "One Faith"
  removal_bajorais:0 "The §YBajorais§! estate will be disabled."
- h_polish_sejm_ascendant:0 "The Sejm has displaced the Bajorais out of the commonwealth."
+ h_polish_sejm_ascendant:0 "Ruling Sejm"
  removal_polish:0 "The §YSejm§! estate will be disabled."
- h_polish_sejm_ascendant:0 "The Bajorais have replaced the Sejm as main governing body."
+ h_polish_bajorais_ascendant:0 "Ruling Bajorais"
  must_finish_pol_missions:0 "For the Commonwealth to truly form, we must finish \"The commonwealth\" mission"
  h_pol_allow_unification_tooltip:0 "The §YCommonwealth§! can now be formed."
  sejm_level_1:0 "The Sejm has more influence than the Bajorais: §Y -10%§!"
@@ -64,6 +64,8 @@
  #########################
  ###privileges loc
  #########################
+ estate_polish_nobility_greater_golden_liberty:0 "Greater Polish Nobility Golden Liberty"
+ estate_polish_nobility_greater_golden_liberty_desc:0 "The Sejm exercise extensive control over the [Root.GetAdjective] state and are guaranteed equal legal status irrespective of rank or economic status. The result is that governing without the consent of the Bajorais is almost impossible, and opposing its will would be unwise for a monarch not sure of his position."
  estate_polish_nobility_golden_liberty:0 "Polish Nobility Golden Liberty"
  estate_lithuanian_nobility_golden_liberty:0 "Lithuanian Nobility Golden Liberty"
  estate_polish_nobility_golden_liberty_desc:1 "The Sejm exercise extensive control over the [Root.GetAdjective] state and are guaranteed equal legal status irrespective of rank or economic status. The result is that governing without the consent of the Bajorais is almost impossible, and opposing its will would be unwise for a monarch not sure of his position."
