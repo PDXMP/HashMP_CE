@@ -1111,11 +1111,11 @@ POR_ideas = {
 POL_ideas = {
 	start = {
 		cavalry_cost = -0.1
-		num_accepted_cultures = 1
+		diplomatic_annexation_cost = -0.10
 	}
 	
 	bonus = {
-	 	tolerance_heretic = 3
+		num_accepted_cultures = 1
 	}
 	
 	trigger = {
