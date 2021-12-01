@@ -113,7 +113,18 @@ on_startup = {
 			id = hashmp.110
 		}
 	}
-
+	##Kiev Safeguard
+	if = {
+		limit = {
+			tag = KIE
+			NOT = { is_year = 1449 }
+		}
+		country_event = {
+			id = HashMP_Poland.131
+			days = 1460
+		}
+	}
+	##
 	if = {
 		limit = {
 			is_colonial_nation = yes
@@ -132,14 +143,14 @@ on_religion_change = {
 	on_religion_change_estate_privileges_effect = yes
 	judaism_on_religion_change_effect = yes
 	###removes catholic modifiers
-		remove_country_modifier = counter_reformation
-		remove_country_modifier = the_statue_in_restraint_of_appeals
-		remove_country_modifier = revocation_of_restraint_of_appeals
-		remove_country_modifier = bavarian_jesuits
-		remove_country_modifier = the_societas_jesu
-		remove_country_modifier = the_declaration_of_indulgence
-		remove_country_modifier = de_heretico_comburendo
-		remove_country_modifier = the_conventicle_act
+	remove_country_modifier = counter_reformation
+	remove_country_modifier = the_statue_in_restraint_of_appeals
+	remove_country_modifier = revocation_of_restraint_of_appeals
+	remove_country_modifier = bavarian_jesuits
+	remove_country_modifier = the_societas_jesu
+	remove_country_modifier = the_declaration_of_indulgence
+	remove_country_modifier = de_heretico_comburendo
+	remove_country_modifier = the_conventicle_act
 	if = {
 		limit = {
 			has_reform = indian_sultanate_reform

@@ -1831,3 +1831,28 @@ country_event = {
 		white_peace = CRI
 	}
 }
+
+#Kiev Ruler Death [Safeguard]
+country_event = {
+	id = HashMP_Poland.131
+	title = HashMP_Poland.131.t
+	desc = HashMP_Poland.131.d
+	picture = SEJM_eventPicture
+
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		KIE = {
+			exists = yes
+		}
+	}
+
+	option = {
+		name = HashMP_Poland.131.a	
+		KIE = {
+			kill_ruler = yes
+		}
+	}
+}
