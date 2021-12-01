@@ -302,6 +302,10 @@ country_decisions = {
 		effect = {
 			change_tag = PLC
 			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
 				limit = {
 					senior_union_with = LIT
 				}

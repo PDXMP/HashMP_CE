@@ -1119,10 +1119,7 @@ POL_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = POL
-			tag = PLC
-		}
+		tag = POL
 	}
 	free = yes		#will be added at load.
 	
@@ -1135,7 +1132,7 @@ POL_ideas = {
 	}
 	nihil_novi = {
 		stability_cost_modifier = -0.1
-		war_exhaustion = -0.03
+		war_exhaustion = -0.02
 	}
 	peichota_wybraniecka = {
 		global_manpower_modifier = 0.20
