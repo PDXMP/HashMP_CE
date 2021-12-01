@@ -19,19 +19,8 @@ polish_lithuanian_civilwar = {
 
 
 	progress = {
-        modifier = {
-                factor = 5
-                LIT = {
-					OR = {
-						is_subject = no
-						NOT = { is_subject_of = POL }
-					}     
-                }
-				exists = LIT
-        }
-		
 		modifier = {
-                factor = -3
+                factor = -5
                 POL = {
 					offensive_war_with = OPL
 					has_country_modifier = h_polish_invade_silesia
@@ -40,7 +29,7 @@ polish_lithuanian_civilwar = {
         }
 		
 		modifier = {
-                factor = 2
+                factor = 3
                 LIT = {
 					is_subject_of = POL 
 					NOT = { 
@@ -179,7 +168,7 @@ polish_lithuanian_civilwar = {
         }
 		
 		modifier = {
-			factor = -1
+			factor = -2
 			is_in_war = {
 				defender_leader = POL
 			}
