@@ -877,12 +877,7 @@ estate_lithuanian_nobility_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
+
 	}
 	on_granted = {
 	}
@@ -910,12 +905,7 @@ estate_lithuanian_nobility_levies = {
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_lithuanian_nobility_golden_liberty }
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
+
 	}
 	on_revoked = {
 		h_remove_estate_privilege_rein_in_estates_effect = yes
@@ -938,12 +928,7 @@ estate_lithuanian_nobility_right_of_counsel = {
 	loyalty = 0.1
 	influence = 0.1
 	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
+
 	}
 	on_revoked = {
 		h_remove_estate_privilege_rein_in_estates_effect = yes
@@ -985,12 +970,7 @@ estate_lithuanian_nobility_monopoly_of_livestock = {
 				}
 			}
 		}
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
+
 	}
 	on_granted = {
 		add_mercantilism = 0.5
@@ -1083,18 +1063,13 @@ estate_lithuanian_nobility_strong_duchies = {
 		else = {
 			vassal = 2
 		}
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
+
 	}
 	penalties = {
 	}
 	benefits = {
 		diplomatic_upkeep = 1
-		reduced_liberty_desire = 5
+		reduced_liberty_desire = 10
 	}
 	ai_will_do = {
 		factor = 1
@@ -1185,12 +1160,7 @@ estate_lithuanian_nobility_golden_liberty = {
 		}
 	}
 	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
+
 	}
 	penalties = {
 	}
@@ -1225,12 +1195,7 @@ estate_lithuanian_nobility_nieszawa_privileges = {
 		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
+
 	}
 	penalties = {
 		technology_cost = 0.05
@@ -1261,12 +1226,7 @@ estate_lithuanian_nobility_pacta_conventa = {
 		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
+
 	}
 	penalties = {
 		culture_conversion_cost = 0.25
@@ -1299,12 +1259,7 @@ estate_lithuanian_nobility_statutory_rights = {
 		h_remove_estate_privilege_rein_in_estates_effect = yes
 	}
 	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
+
 	}
 	penalties = {
 		min_autonomy = 25
@@ -1324,12 +1279,7 @@ estate_lithuanian_nobility_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
+
 	}
 	on_revoked = {
 		h_remove_estate_privilege_rein_in_estates_effect = yes
@@ -1350,12 +1300,7 @@ estate_lithuanian_nobility_conscript_troops = {
 	influence = 0.05
 	loyalty = -0.1
 	can_select = {
-		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_lithuanian_nobility
-			value = 4
-			}
-		}
+
 	}
 	on_revoked = {
 		h_remove_estate_privilege_rein_in_estates_effect = yes
