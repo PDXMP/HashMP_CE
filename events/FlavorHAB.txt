@@ -1315,9 +1315,7 @@ country_event = {
 				define_heir = {
 					dynasty = "von Habsburg"
 					culture = austrian
-					change_adm = 5
-					change_dip = 1
-					change_mil = 1					
+					change_adm = 4					
 					claim = 80
 				}
 				clr_country_flag = habsburg_adm_heir
@@ -1329,9 +1327,7 @@ country_event = {
 				define_heir = {
 					dynasty = "von Habsburg"
 					culture = austrian
-					change_dip = 5
-					change_adm = 1
-					change_mil = 1
+					change_dip = 4
 					claim = 80
 				}
 				clr_country_flag = habsburg_dip_heir
@@ -1343,9 +1339,7 @@ country_event = {
 				define_heir = {
 					dynasty = "von Habsburg"
 					culture = austrian
-					change_mil = 5
-					change_adm = 1
-					change_dip = 1
+					change_mil = 4
 					claim = 80
 				}
 				clr_country_flag = habsburg_mil_heir
@@ -1365,9 +1359,7 @@ country_event = {
 					dynasty = "von Habsburg"
 					female = yes
 					culture = austrian
-					change_adm = 5
-					change_dip = 1
-					change_mil = 1
+					change_adm = 4
 					claim = 80
 				}
 				clr_country_flag = habsburg_adm_heir
@@ -1380,9 +1372,7 @@ country_event = {
 					dynasty = "von Habsburg"
 					culture = austrian
 					female = yes
-					change_dip = 5
-					change_adm = 1
-					change_mil = 1
+					change_dip = 4
 					claim = 80
 				}
 				clr_country_flag = habsburg_dip_heir
@@ -1395,9 +1385,7 @@ country_event = {
 					dynasty = "von Habsburg"
 					culture = austrian
 					female = yes
-					change_mil = 5
-					change_adm = 1
-					change_dip = 1
+					change_mil = 4
 					claim = 80
 				}
 				clr_country_flag = habsburg_mil_heir

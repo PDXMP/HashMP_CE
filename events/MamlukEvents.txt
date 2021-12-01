@@ -134,9 +134,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:first_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 30
 				}
 			}
@@ -144,9 +144,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:first_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 32
 				}
 			}
@@ -154,9 +154,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:first_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 35
 				}
 			}
@@ -164,9 +164,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:first_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 40
 				}
 			}
@@ -174,9 +174,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:first_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 42
 				}
 			}
@@ -184,9 +184,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:first_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 45
 				}
 			}
@@ -194,9 +194,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:first_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 50
 				}
 			}
@@ -220,9 +220,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:second_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 30
 				}
 			}
@@ -230,9 +230,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:second_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 32
 				}
 			}
@@ -240,9 +240,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:second_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 35
 				}
 			}
@@ -250,9 +250,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:second_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 40
 				}
 			}
@@ -260,9 +260,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:second_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 42
 				}
 			}
@@ -270,9 +270,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:second_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 45
 				}
 			}
@@ -280,9 +280,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:second_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 50
 				}
 			}
@@ -307,9 +307,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:third_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 30
 				}
 			}
@@ -317,9 +317,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:third_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 32
 				}
 			}
@@ -327,9 +327,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:third_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 35
 				}
 			}
@@ -337,9 +337,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:third_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 40
 				}
 			}
@@ -347,9 +347,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:third_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 42
 				}
 			}
@@ -357,9 +357,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:third_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 45
 				}
 			}
@@ -367,9 +367,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:third_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 50
 				}
 			}
@@ -394,9 +394,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:fourth_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 30
 				}
 			}
@@ -404,9 +404,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:fourth_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 32
 				}
 			}
@@ -414,9 +414,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:fourth_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 35
 				}
 			}
@@ -424,9 +424,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:fourth_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 40
 				}
 			}
@@ -434,9 +434,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:fourth_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 42
 				}
 			}
@@ -444,9 +444,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:fourth_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 45
 				}
 			}
@@ -454,9 +454,9 @@ country_event = {
 				define_ruler = {
 					culture = event_target:fourth_ruler_alternative_province
 					#hide_skills = yes
-					change_adm = 1
-					change_dip = 1
-					change_mil = 1
+					
+					
+					
 					age = 50
 				}
 			}

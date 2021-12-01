@@ -285,10 +285,10 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 				culture = event_target:noble_province
 			}
 		}
@@ -302,10 +302,10 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 				female = yes
 				culture = event_target:noble_province
 			}
@@ -320,20 +320,20 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 				female = yes
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 			}
 		}
 		add_devotion = -5
@@ -419,24 +419,24 @@ country_event = {
 					}
 					define_heir = { 
 						dynasty = PREV 
-						change_adm = 1
-						change_dip = 1
-						change_mil = 1
+						
+						
+						
 						age = 35
 						culture = PREV
-						hidden = yes
+						#hidden=yes
 					} 
 				}
 				else = {
 					define_heir = { 
 						dynasty = PREV 
 						age = 35
-						change_adm = 1
-						change_dip = 1
-						change_mil = 1
+						
+						
+						
 						culture = PREV
 						female = yes
-						hidden = yes
+						#hidden=yes
 					} 
 				}
 			}
@@ -501,10 +501,10 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 				culture = event_target:burgher_province
 			}
 		}
@@ -518,10 +518,10 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 				female = yes
 				culture = event_target:burgher_province
 			}
@@ -535,20 +535,20 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
+				
+				
+				
 				female = yes
-				hidden = yes
+				#hidden=yes
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 			}
 		}
 		add_years_of_income = 0.35
@@ -611,10 +611,10 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 				culture = event_target:church_province
 			}
 		}
@@ -628,10 +628,10 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 				female = yes
 				culture = event_target:church_province
 			}
@@ -645,20 +645,20 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
+				
+				
+				
 				female = yes
-				hidden = yes
+				#hidden=yes
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 			}
 		}
 		add_devotion = 5
@@ -734,10 +734,10 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 				culture = event_target:church_province
 			}
 		}
@@ -751,20 +751,20 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 				culture = event_target:church_province
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 			}
 		}
 		add_devotion = 10
@@ -818,11 +818,11 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
+				
+				
+				
 				culture = event_target:papal_protoge_country
-				hidden = yes
+				#hidden=yes
 			}
 		}
 		else_if = {
@@ -835,12 +835,12 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
+				
+				
+				
 				culture = event_target:papal_protoge_country
 				female = yes
-				hidden = yes
+				#hidden=yes
 			}
 		}
 		else_if = {
@@ -853,16 +853,16 @@ country_event = {
 			define_heir = {
 				age = 35
 				female = yes
-				hidden = yes
+				#hidden=yes
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 			}
 		}
 		add_papal_influence = 10
@@ -904,19 +904,19 @@ country_event = {
 			define_heir = {
 				age = 35
 				female = yes
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 			}
 		}
 		add_devotion = 10
@@ -961,20 +961,20 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
+				
+				
+				
 				female = yes
-				hidden = yes
+				#hidden=yes
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				change_adm = 1
-				change_dip = 1
-				change_mil = 1
-				hidden = yes
+				
+				
+				
+				#hidden=yes
 			}
 		}
 		if = { 
@@ -1004,7 +1004,7 @@ country_event = {
 			define_heir = {
 				age = 35
 				female = yes
-				hidden = yes
+				#hidden=yes
 				dynasty = event_target:probably_bavaria
 				culture = event_target:probably_bavaria
 				religion = event_target:probably_bavaria
@@ -1013,7 +1013,7 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
-				hidden = yes
+				#hidden=yes
 				dynasty = event_target:probably_bavaria
 				culture = event_target:probably_bavaria
 				religion = event_target:probably_bavaria
