@@ -37,9 +37,9 @@ country_event = {
 		define_ruler = {
 			dynasty = Lancaster
 			age = 31
-			adm = 2
-			dip = 2
-			mil = 1
+			change_adm = 2
+			change_dip = 2
+			change_mil = 1
 		}
 		if = {
 			limit = {
@@ -115,9 +115,9 @@ country_event = {
 		define_ruler = {
 			dynasty = York
 			age = 31
-			adm = 1
-			dip = 1
-			mil = 3
+			change_adm = 1
+			change_dip = 1
+			change_mil = 3
 		}
 		if = {
 			limit = {

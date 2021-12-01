@@ -285,9 +285,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 				culture = event_target:noble_province
 			}
@@ -302,9 +302,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 				female = yes
 				culture = event_target:noble_province
@@ -320,9 +320,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 				female = yes
 			}
@@ -330,9 +330,9 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 			}
 		}
@@ -419,9 +419,9 @@ country_event = {
 					}
 					define_heir = { 
 						dynasty = PREV 
-						ADM = 1
-						DIP = 1
-						MIL = 1
+						change_adm = 1
+						change_dip = 1
+						change_mil = 1
 						age = 35
 						culture = PREV
 						hidden = yes
@@ -431,9 +431,9 @@ country_event = {
 					define_heir = { 
 						dynasty = PREV 
 						age = 35
-						ADM = 1
-						DIP = 1
-						MIL = 1
+						change_adm = 1
+						change_dip = 1
+						change_mil = 1
 						culture = PREV
 						female = yes
 						hidden = yes
@@ -501,9 +501,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 				culture = event_target:burgher_province
 			}
@@ -518,9 +518,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 				female = yes
 				culture = event_target:burgher_province
@@ -535,9 +535,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				female = yes
 				hidden = yes
 			}
@@ -545,9 +545,9 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 			}
 		}
@@ -611,9 +611,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 				culture = event_target:church_province
 			}
@@ -628,9 +628,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 				female = yes
 				culture = event_target:church_province
@@ -645,9 +645,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				female = yes
 				hidden = yes
 			}
@@ -655,9 +655,9 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 			}
 		}
@@ -734,9 +734,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 				culture = event_target:church_province
 			}
@@ -751,9 +751,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 				culture = event_target:church_province
 			}
@@ -761,9 +761,9 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 			}
 		}
@@ -818,9 +818,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				culture = event_target:papal_protoge_country
 				hidden = yes
 			}
@@ -835,9 +835,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				culture = event_target:papal_protoge_country
 				female = yes
 				hidden = yes
@@ -859,9 +859,9 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 			}
 		}
@@ -904,18 +904,18 @@ country_event = {
 			define_heir = {
 				age = 35
 				female = yes
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 			}
 		}
 		else = {
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 			}
 		}
@@ -961,9 +961,9 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				female = yes
 				hidden = yes
 			}
@@ -971,9 +971,9 @@ country_event = {
 		else = {
 			define_heir = {
 				age = 35
-				ADM = 1
-				DIP = 1
-				MIL = 1
+				change_adm = 1
+				change_dip = 1
+				change_mil = 1
 				hidden = yes
 			}
 		}
