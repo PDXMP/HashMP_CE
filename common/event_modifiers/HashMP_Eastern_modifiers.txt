@@ -104,17 +104,17 @@ h_polish_invade_silesia = {
 }
 
 h_polish_tolerant_commonwealth = {
-	tolerance_own = 2
-	tolerance_heretic = 4
+	tolerance_own = 1
+	tolerance_heretic = 2
 	tolerance_heathen = 1
-	global_heathen_missionary_strength = -0.02
+	global_heathen_missionary_strength = -0.03
 }
 
 h_polish_catholic_commonwealth = {
-	tolerance_own = 2
-	tolerance_heretic = -4
+	tolerance_own = 1
+	tolerance_heretic = -3
 	global_heathen_missionary_strength = 0.02
-	papal_influence = 1
+	papal_influence = 0.5
 	missionaries = 1
 }
 
