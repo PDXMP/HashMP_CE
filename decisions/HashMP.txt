@@ -13,10 +13,6 @@ country_decisions = {
 			NOT = { has_country_flag = purge_sejm_decision }
 			NOT = { has_country_flag = purged_bajorais }
 			NOT = { has_country_flag = purge_bajorais_decision }
-			check_variable = {
-				which = h_pol_balance_of_power_variable
-				value = 10
-			}
 		}
 		ai_will_do = {
 			factor = 0
@@ -42,12 +38,6 @@ country_decisions = {
 			NOT = { has_country_flag = purge_bajorais_decision }
 			NOT = { has_country_flag = purged_sejm }
 			NOT = { has_country_flag = purge_sejm_decision }
-			NOT = {
-				check_variable = {
-					which = h_pol_balance_of_power_variable
-					value = -9
-				}
-			}
 		}
 		ai_will_do = {
 			factor = 0
