@@ -233,6 +233,9 @@ country_event = {
 			who = MOL
 			modifier = loyal_voidode
 		}
+		MOL = {
+			add_liberty_desire = -100
+		}
 	}
 	option = {
 		name = flavor_mol.3.b

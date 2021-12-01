@@ -342,6 +342,9 @@ country_event = {
 			}
 			add_permanent_claim = ROOT
 		}
+		DNZ = {
+			add_liberty_desire = -100
+		}
 	}
 }
 
