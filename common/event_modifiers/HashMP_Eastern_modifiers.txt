@@ -55,34 +55,35 @@ h_polish_crimean_invasion = {
 
 pol_sejm_veto = {
 	state_maintenance_modifier = 0.1
-	technology_cost = 0.1
+	technology_cost = 0.05
 	stability_cost_modifier = 0.1
 }
 pol_sejm_comply_policies = {
-	technology_cost = -0.10
-	global_autonomy = -0.05
-	inflation_reduction = 0.1
+	technology_cost = -0.05
+	global_autonomy = -0.025
+	inflation_reduction = 0.05
 }
 
 pol_sejm_refuse_troops = {
 	land_morale = -0.05
-	army_tradition = -1
+	army_tradition = -0.25
 }
 
 pol_bajorais_veto = {
-	core_creation = 0.15
-	global_tax_modifier = -0.2
+	core_creation = 0.1
+	global_tax_modifier = -0.1
 	stability_cost_modifier = 0.1
 }
+
 pol_bajorais_comply_policies = {
-	manpower_recovery_speed = 0.20
-	global_autonomy = -0.05
-	inflation_reduction = 0.1
+	manpower_recovery_speed = 0.10
+	global_autonomy = -0.025
+	inflation_reduction = 0.05
 }
 
 pol_bajorais_refuse_troops = {
-	global_regiment_recruit_speed = 0.50
-	manpower_recovery_speed = -0.20
+	global_regiment_recruit_speed = 0.20
+	manpower_recovery_speed = -0.10
 }
 
 pol_mayor_support = {
