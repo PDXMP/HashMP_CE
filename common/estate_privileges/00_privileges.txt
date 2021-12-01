@@ -2981,7 +2981,7 @@ estate_burghers_indebted_to_burghers = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
-		NOT = { has_estate_loan = 1 }
+		has_estate_loan = no
 	}	
 	on_granted = {
 		custom_tooltip = h_estate_burghers_indebted_to_burghers_effect_tooltip
@@ -4000,7 +4000,7 @@ estate_jains_indebted_to_jains = {
 	max_absolutism = -5
 	influence = 0.05
 	can_select = {
-		NOT = { has_estate_loan = 1 }
+		has_estate_loan = no
 	}
 	on_granted = {
 		custom_tooltip = h_estate_burghers_indebted_to_burghers_effect_tooltip
