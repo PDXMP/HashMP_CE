@@ -3267,7 +3267,7 @@ SWI_ideas = {
 		stability_cost_modifier = -0.1
 	}
 	swiss_mercenaries = {
-		mercenary_discipline = 0.05
+		mercenary_discipline = 0.10
 		merc_maintenance_modifier = -0.25
 	}
 	alpine_defensiveness = {

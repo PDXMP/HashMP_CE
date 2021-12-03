@@ -210,7 +210,7 @@ h_wuu_anc2_3 = {
 }
 
 h_wuu_anc3_1 = {
-	mercenary_discipline = 0.05
+	mercenary_discipline = 0.10
 }
 
 h_wuu_anc3_2 = {

@@ -593,8 +593,8 @@ the_education_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	mercenary_discipline = 0.05
-	mercenary_manpower = 0.25
+	mercenary_discipline = 0.10
+	mercenary_manpower = 0.10
 
 	ai_will_do = {
 		factor = 0.8

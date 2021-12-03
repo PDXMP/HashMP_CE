@@ -221,7 +221,7 @@ korean_ideas = {
 WUU_ideas = { #Wu
 	start = {
 		infantry_power = 0.1
-		mercenary_discipline = 0.05
+		mercenary_discipline = 0.10
 	}
 	
 	bonus = {
@@ -1055,7 +1055,7 @@ CAL_ideas = { #California
 		global_trade_goods_size_modifier = 0.1
 	}
 	cal_3 = { #Outlaw Country
-		mercenary_discipline = 0.05
+		mercenary_discipline = 0.10
 		mercenary_manpower = 0.25
 	}
 	cal_4 = { #City of Angels
@@ -1124,7 +1124,7 @@ SNA_ideas = { #Sonora
 	}
 	free = yes      #will be added at load.
 	SNA_mercenary_republic = {
-		mercenary_discipline = 0.05
+		mercenary_discipline = 0.10
 		mercenary_manpower = 0.5
 	}
 	SNA_sale_of_script = {
@@ -1670,7 +1670,7 @@ LOU_ideas = { #Louisiana
 	}
 	lou_7 = { #Soldiers of Fortune
 		mercenary_manpower = 0.5
-		mercenary_discipline = 0.05
+		mercenary_discipline = 0.10
 	}
 }
 
@@ -1710,7 +1710,7 @@ ILI_ideas = { #Illinois - Unfinished
 	}
 	ili_7 = { #Soldiers of Fortune
 		mercenary_manpower = 0.25
-		mercenary_discipline = 0.05
+		mercenary_discipline = 0.10
 	}
 }
 
@@ -2014,7 +2014,7 @@ TTS_ideas = { #By Xaime
 LOM_ideas = {
 	start = {
 		recover_army_morale_speed = 0.05
-        mercenary_discipline = 0.05
+        mercenary_discipline = 0.10
 	}
 	
 	bonus = {

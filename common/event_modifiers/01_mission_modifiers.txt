@@ -2764,7 +2764,7 @@ naples_dotf_modifier = {
 }
 
 nap_italian_wars_modifier = {
-	mercenary_discipline = 0.05
+	mercenary_discipline = 0.10
 }
 
 nap_ragusa_trade = {
@@ -2979,7 +2979,7 @@ hun_hungary_poland = {
 }
 
 hun_supreme_black_army = {
-	mercenary_discipline = 0.05
+	mercenary_discipline = 0.10
 	core_creation = -0.1
 }
 
