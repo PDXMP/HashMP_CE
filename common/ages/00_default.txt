@@ -217,7 +217,6 @@ age_of_discovery = {
 			}
 			modifier = {
 				land_morale = 0.10
-				vassal_forcelimit_bonus = 0.25
 				reduced_liberty_desire = 10
 			}
 			ai_will_do = {
