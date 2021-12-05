@@ -168,7 +168,7 @@ beneficial_neglect = {
 		full_idea_group = innovativeness_ideas
 	}
 
-	global_colonial_growth = 10
+	global_colonial_growth = 15
 	dip_tech_cost_modifier = -0.1
 
 
@@ -207,7 +207,7 @@ beneficial_neglect = {
 }
 
 restrictions_for_colonies = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = spy_ideas
@@ -219,8 +219,8 @@ restrictions_for_colonies = {
 		full_idea_group = religious_ideas
 	}
 
-	culture_conversion_cost = -0.33
-	tolerance_own = 1
+	tax_income = 48
+	yearly_corruption = -0.10
 
 	ai_will_do = {
 		factor = 1
@@ -350,8 +350,7 @@ trade_connection_policy = {
 		full_idea_group = trade_ideas
 	}
 
-	global_foreign_trade_power = 0.10
-	merchants = 1
+	global_foreign_trade_power = 0.25
 
 	ai_will_do = {
 		factor = 0.8		
@@ -475,8 +474,8 @@ production_quota_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	production_efficiency = 0.15
-	global_regiment_cost = -0.05
+	production_efficiency = 0.1
+	global_regiment_cost = -0.1
 
 	ai_will_do = {
 		factor = 0.7
@@ -571,9 +570,8 @@ mandatory_service = {
 		full_idea_group = diplomatic_ideas
 		full_idea_group = plutocracy_ideas
 	}
-	
-	merchants = 1
-	trade_steering = 0.10
+
+	trade_steering = 0.33
 
 	ai_will_do = {
 		factor = 0
@@ -593,8 +591,7 @@ professional_diplomatic_corps = {
 		full_idea_group = quality_ideas
 	}
 	
-	infantry_cost = -0.1
-	global_regiment_recruit_speed = -0.10
+	production_efficiency = 0.15
 
 	ai_will_do = {
 		factor = 0.7
@@ -714,7 +711,7 @@ native_assimilation_act = {
 		full_idea_group = exploration_ideas
 	}	
 	
-	global_colonial_growth = 10
+	global_colonial_growth = 15
 	native_assimilation = 0.5
 	
 	ai_will_do = {
@@ -931,7 +928,7 @@ the_cooperation_act = {
 }
 
 record_keeping_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 	potential = {
 		has_idea_group = administrative_ideas
 		has_idea_group = diplomatic_ideas
@@ -942,8 +939,7 @@ record_keeping_act = {
 		full_idea_group = diplomatic_ideas
 	}
 
-	tax_income = 36
-	land_forcelimit = 5
+	global_manpower_modifier = 0.25
 
 	ai_will_do = {
 		factor = 0.6
@@ -963,7 +959,7 @@ colonial_administration_act = {
 	}
 	
 	administrative_efficiency = 0.05
-	state_maintenance_modifier = -0.10
+	state_maintenance_modifier = -0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -1017,8 +1013,7 @@ the_foreign_support_act = {
 		full_idea_group = economic_ideas
 	}
 
-	production_efficiency = 0.1
-	fort_maintenance_modifier = -0.1
+	fort_maintenance_modifier = -0.2
 	
 	ai_will_do = {
 		factor = 0
@@ -1098,8 +1093,8 @@ diplomatic_defence_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	fort_maintenance_modifier = -0.1
-	tax_income = 36
+	reinforce_speed = 0.10
+	defensiveness = 0.15
 	
 	ai_will_do = {
 		factor = 0.7
@@ -1124,8 +1119,7 @@ armed_neutrality_act = {
 		full_idea_group = trade_ideas
 	}
 	
-	trade_efficiency = 0.1
-	movement_speed = 0.1
+	caravan_power = 0.33
 
 	ai_will_do = {
 		factor = 0.6
