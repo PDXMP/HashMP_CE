@@ -813,7 +813,8 @@ weapon_quality_standards = {
 		full_idea_group = quality_ideas
 	}
 	
-	army_tradition_decay = -0.01
+	fire_damage = 0.075
+	shock_damage = 0.075
 	
 	ai_will_do = {
 		factor = 2
