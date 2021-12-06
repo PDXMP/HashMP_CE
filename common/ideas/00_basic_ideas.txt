@@ -1059,7 +1059,7 @@ administrative_ideas = {
 		monthly_reform_progress = 0.10
 	}
 	organised_mercenary_recruitment = {
-		state_maintenance_modifier = -0.25
+		state_maintenance_modifier = -0.10
 		administrative_efficiency = 0.05
 	}
 	administrative_efficiency_idea = {
@@ -1099,7 +1099,7 @@ humanist_ideas = {
 		promote_culture_cost = -0.50
 	}
 	indirect_rule = {
-		garrison_growth = 0.20
+		garrison_growth = 0.25
 		defensiveness = 0.10
 	}
 	benevolence = {
@@ -1112,7 +1112,7 @@ humanist_ideas = {
 	}
 	ecumenism = {
 		land_morale = 0.05
-		reserves_organisation = 0.20
+		reserves_organisation = 0.25
 	}
 
 	ai_will_do = {
