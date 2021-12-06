@@ -71,7 +71,7 @@ change_estate_land_share = {
 		dynasty = "Burji"
 		culture = egyptian
 		adm = 3
-		dip = 2
+		dip = 3
 		mil = 6
 	}
 	clear_scripted_personalities = yes
