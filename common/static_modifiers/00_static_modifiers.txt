@@ -357,15 +357,11 @@ territory_non_core = {
 }
 
 march_bonus = {
-	global_manpower_modifier = 0.25
-	land_forcelimit_modifier = 0.30
-	naval_forcelimit_modifier = 0.30
-	defensiveness = 0.2
-	fort_maintenance_modifier = -0.20
-	manpower_recovery_speed = 0.20
-	land_maintenance_modifier = -0.20
-	naval_maintenance_modifier = -0.20
-	diplomatic_annexation_cost = 0.33
+	land_forcelimit_modifier = 0.25
+	fort_maintenance_modifier = -0.75
+	manpower_recovery_speed = 0.25
+	land_maintenance_modifier = -0.25
+	diplomatic_annexation_cost = 0.30
 }
 
 same_culture_group = {
