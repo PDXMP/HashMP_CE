@@ -26,8 +26,8 @@ change_estate_land_share = {
 	monarch = {
 		name = "'Uthman"
 		dynasty = "Hafsid"
-		adm = 3
-		dip = 3
+		adm = 4
+		dip = 4
 		mil = 5
 	}
 }
