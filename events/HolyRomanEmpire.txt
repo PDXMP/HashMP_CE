@@ -346,13 +346,13 @@ country_event = {
 		is_emperor = yes
 	}
 	
-	immediate = {
-		hidden_effect = { add_imperial_influence = -10 }		#not scaled!
-	}
+	#immediate = {
+	#	hidden_effect = { add_imperial_influence = -10 }		#not scaled!
+	#}
 	
 	option = {
 		name = "EVTOPTA909"
-		tooltip = { add_imperial_influence = -10 }		#not scaled!
+		#tooltip = { add_imperial_influence = -10 }		#not scaled!
 	}
 }
 
