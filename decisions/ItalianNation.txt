@@ -97,7 +97,10 @@ country_decisions = {
 		effect = {
 			if = {
 				limit = {
-					tag = SIC
+					OR = {
+						tag = TTS
+						was_tag = TTS
+					}
 				}
 
 				add_country_modifier = {
