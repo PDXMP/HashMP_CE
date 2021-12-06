@@ -98,17 +98,18 @@ ENG_ideas = {
 	free = yes		#will be added at load.
 	
 	royal_navy = {
-			navy_tradition = 0.25
-			heavy_ship_power = 0.10
+		navy_tradition = 0.5
+		heavy_ship_power = 0.10
 	}
 	eltham_ordinance = {
-			production_efficiency = 0.1
-	}
-	secretaries_of_state = {
-		diplomatic_upkeep = 1
+		production_efficiency = 0.1
 	}
 	navigation_acts = {
 		light_ship_cost = -0.1
+	}
+	city_upon_a_hill = {
+		colonists = 1
+		global_colonial_growth = 10
 	}
 	eng_red_coats = {
 		discipline = 0.05
@@ -138,21 +139,23 @@ GBR_ideas = {
 	free = yes		#will be added at load.
 
 	gbr_acts_of_union = {
-		diplomatic_annexation_cost = -0.2
-		governing_capacity_modifier = 0.1
+		vassal_forcelimit_bonus = 0.20
+		governing_capacity_modifier = 0.15
 	}
-	city_upon_a_hill = {
-		global_colonial_growth = 25
+	gbr_the_royal_society = {
+		technology_cost = -0.05
 	}
 	british_merchant_navy = {
 		light_ship_cost = -0.1
 		global_ship_recruit_speed = -0.1
 	}
-	gbr_the_royal_society = {
-		technology_cost = -0.05
+	city_upon_a_hill = {
+		colonists = 1
+		global_colonial_growth = 10
 	}
 	reform_of_comission_buying = {
 		discipline = 0.05
+		army_tradition = 0.25
 	}
 	british_industrialization = {
 		global_trade_goods_size_modifier = 0.1
