@@ -1179,6 +1179,12 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
+		if = {
+			limit = {
+				NOT = { has_estate_privilege = estate_church_scholar_connections }
+			}
+			adm_power_cost = 50
+		}
 		trigger = {
 			NOT = { 
 				religious_school = {
@@ -1188,12 +1194,17 @@ country_event = {
 			}
 		}
 		name = hashmp.20.a # Hanafi
-		adm_power_cost = 50
 		clear_religious_scholar_modifiers_effect = yes
 		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 		add_country_modifier = { name = hanafi_scholar_modifier duration = 7300 }
 	}
 	option = {
+		if = {
+			limit = {
+				NOT = { has_estate_privilege = estate_church_scholar_connections }
+			}
+			adm_power_cost = 50
+		}
 		trigger = {
 			NOT = { 
 				religious_school = {
@@ -1203,12 +1214,17 @@ country_event = {
 			}
 		}
 		name = hashmp.20.b # Hanbali
-		adm_power_cost = 50
 		clear_religious_scholar_modifiers_effect = yes
 		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 		add_country_modifier = { name = hanbali_scholar_modifier duration = 7300 }
 	}
 	option = {
+		if = {
+			limit = {
+				NOT = { has_estate_privilege = estate_church_scholar_connections }
+			}
+			adm_power_cost = 50
+		}
 		trigger = {
 			NOT = { 
 				religious_school = {
@@ -1218,12 +1234,17 @@ country_event = {
 			}
 		}
 		name = hashmp.20.c # Maliki
-		adm_power_cost = 50
 		clear_religious_scholar_modifiers_effect = yes
 		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 		add_country_modifier = { name = maliki_scholar_modifier duration = 7300 }
 	}
 	option = {
+		if = {
+			limit = {
+				NOT = { has_estate_privilege = estate_church_scholar_connections }
+			}
+			adm_power_cost = 50
+		}
 		trigger = {
 			NOT = { 
 				religious_school = {
@@ -1233,12 +1254,17 @@ country_event = {
 			}
 		}
 		name = hashmp.20.d2 # Shafii
-		adm_power_cost = 50
 		clear_religious_scholar_modifiers_effect = yes
 		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 		add_country_modifier = { name = shafii_scholar_modifier duration = 7300 }
 	}
 	option = {
+		if = {
+			limit = {
+				NOT = { has_estate_privilege = estate_church_scholar_connections }
+			}
+			adm_power_cost = 50
+		}
 		trigger = {
 			NOT = { 
 				religious_school = {
@@ -1248,12 +1274,17 @@ country_event = {
 			}
 		}
 		name = hashmp.20.e # Ismaili
-		adm_power_cost = 50
 		clear_religious_scholar_modifiers_effect = yes
 		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 		add_country_modifier = { name = ismaili_scholar_modifier duration = 7300 }
 	}
 	option = {
+		if = {
+			limit = {
+				NOT = { has_estate_privilege = estate_church_scholar_connections }
+			}
+			adm_power_cost = 50
+		}
 		trigger = {
 			NOT = { 
 				religious_school = {
@@ -1263,12 +1294,17 @@ country_event = {
 			}
 		}
 		name = hashmp.20.f # Jafari
-		adm_power_cost = 50
 		clear_religious_scholar_modifiers_effect = yes
 		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 		add_country_modifier = { name = jafari_scholar_modifier duration = 7300 }
 	}
 	option = {
+		if = {
+			limit = {
+				NOT = { has_estate_privilege = estate_church_scholar_connections }
+			}
+			adm_power_cost = 50
+		}
 		trigger = {
 			NOT = { 
 				religious_school = {
@@ -1278,7 +1314,6 @@ country_event = {
 			}
 		}
 		name = hashmp.20.g # Zaidi
-		adm_power_cost = 50
 		clear_religious_scholar_modifiers_effect = yes
 		custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 		add_country_modifier = { name = zaidi_scholar_modifier duration = 7300 }
