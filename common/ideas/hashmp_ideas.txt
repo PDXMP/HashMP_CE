@@ -1969,7 +1969,7 @@ TTS_ideas = { #By Xaime
 	}
 	
 	bonus = {
-		shock_damage = 0.15 ##Legacy of Norman Doctrine
+		shock_damage = 0.20 ##Legacy of Norman Doctrine
 	}
 	
 	trigger = {
