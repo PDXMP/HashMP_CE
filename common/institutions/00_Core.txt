@@ -61,6 +61,7 @@ feudalism = {
 					culture = manchu
 					culture = songhai
 					culture = mali
+					culture = shona
 					#culture = kongolese
 					culture_group = dravidian
 					culture_group = east_asian
@@ -77,6 +78,7 @@ feudalism = {
 					province_id = 2329
 					province_id = 2331
 					province_id = 2999
+					province_id = 476
 				}
 			}
 			AND = {
