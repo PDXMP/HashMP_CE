@@ -44,9 +44,8 @@ monarchy = {
 				h_reform_warlord_3
 				h_reform_warlord_4
 				h_reform_sinicized_horde
-				#h_reform_kdukedom
+				h_reform_kdukedom
 				h_reform_elective_monarchy
-				h_reform_declining_african_empire
 			}
 		}
 		hereditary_vs_nobility = { #Noble Privileges
