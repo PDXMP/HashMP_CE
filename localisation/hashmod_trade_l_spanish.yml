@@ -1,4 +1,6 @@
 ﻿l_spanish:
+ far_east:0 "Far East"
+ the_isles:0 "The Isles"
  wend:0 "Wend"
  anatolia:0 "Anatolia"
  muscovy:0 "Moscow"
@@ -35,3 +37,9 @@
  h_trade_company_wend:0 "Wend Charter"
  h_trade_company_wend_Root_GetName:0 "[Root.Culture.GetName] Wend Company"
  h_trade_company_wend_Trade_Company:0 "Wend Trade Company"
+ h_trade_company_the_isles:0 "The Isles Charter"
+ h_trade_company_the_isles_Root_GetName:0 "[Root.Culture.GetName] Isles Company"
+ h_trade_company_the_isles_Trade_Company:0 "Isles Trade Company"
+ h_trade_company_far_east:0 "Far East Charter"
+ h_trade_company_far_east_Root_GetName:0 "[Root.Culture.GetName] Far East Company"
+ h_trade_company_far_east_Trade_Company:0 "Far East Trade Company"

@@ -1,4 +1,5 @@
 ﻿l_english:
+ far_east:0 "Far East"
  the_isles:0 "The Isles"
  wend:0 "Wend"
  anatolia:0 "Anatolia"
@@ -39,3 +40,6 @@
  h_trade_company_the_isles:0 "The Isles Charter"
  h_trade_company_the_isles_Root_GetName:0 "[Root.Culture.GetName] Isles Company"
  h_trade_company_the_isles_Trade_Company:0 "Isles Trade Company"
+ h_trade_company_far_east:0 "Far East Charter"
+ h_trade_company_far_east_Root_GetName:0 "[Root.Culture.GetName] Far East Company"
+ h_trade_company_far_east_Trade_Company:0 "Far East Trade Company"
