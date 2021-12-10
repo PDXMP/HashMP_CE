@@ -537,17 +537,11 @@ impassable = {
 	2062#Panipat.txt
 	2063#Etawah.txt
 	2064#Shekhawati.txt
-	2065#Bhattiana.txt
 	2066#Nagaur.txt
 	2067#Gorwar.txt
 	2069#Kumaon.txt
 	2070#Chaubisi Rajya.txt
 	2071#Limbuwan.txt
-	2073#Baltistan.txt
-	2074#Ladakh.txt
-	2075#Doaba.txt
-	2076#Sialkot.txt
-	2077#Margalla.txt
 	2080#Srikakulam.txt
 	2081#Lakhnor.txt
 	2082#Raipur.txt
@@ -585,8 +579,6 @@ impassable = {
 	2121#Kuqa.txt
 	2122#Hami.txt
 	2123#Qakilik.txt
-	2124#Yarkand.txt
-	2127#Yashilkul.txt
 	2128#Ngari.txt
 	2130#Nyingchi.txt
 	2131#Qamdo.txt
@@ -725,8 +717,6 @@ impassable = {
 	4204#Anding.txt
 	4205#Nagchu.txt
 	4207#Turpan.txt
-	4209#Maralbexi.txt
-	4210#Yangi Hissar.txt
 	4212#Jiazhou.txt
 	4214#Kalar.txt
 	4215#Fudali.txt
@@ -766,7 +756,6 @@ impassable = {
 	4408#Salavata.txt
 	4409#Trincomale.txt
 	4410#Kumari.txt
-	4411#Samana.txt
 	4412#Dindigul.txt
 	4413#Cannanore.txt
 	4414#Salem.txt
@@ -803,7 +792,6 @@ impassable = {
 	4446#Kalahandi.txt
 	4447#Patna.txt
 	4448#Parlakhimedi.txt
-	4449#Jammu.txt
 	4450#Mayurbhanj.txt
 	4451#Sonpur.txt
 	4452#Ratanpur.txt
@@ -817,7 +805,6 @@ impassable = {
 	4460#Handia.txt
 	4461#Ujjain.txt
 	4462#Vagad.txt
-	4463#Bhatnair.txt
 	4464#Bundi.txt
 	4465#Ranthambore.txt
 	4466#Mahoba.txt
@@ -859,10 +846,7 @@ impassable = {
 	4502#Merta.txt
 	4506#Barmer.txt
 	4507#Churu.txt
-	4510#Shorkot.txt
-	4511#Bhera.txt
 	4512#Baruch.txt
-	4513#Dipalpur.txt
 	4514#Sakya.txt
 	4515#Gyirong.txt
 	4516#Purang.txt
@@ -870,7 +854,6 @@ impassable = {
 	4518#Tsurphu.txt
 	4519#Damxung.txt
 	4520#Rutog.txt
-	4521#Skardu.txt
 	4651#Tsushima.txt
 	4652#Haicheng.txt
 	4653#Maolian.txt
@@ -953,10 +936,7 @@ impassable = {
 	4938#Vanua Levu.txt
 	4939#Te Urewera.txt
 	503#Kutch.txt
-	507#Lahore.txt
-	508#Kashmir.txt
 	509#Kangra.txt
-	510#Sirhind.txt
 	511#Garhwal.txt
 	512#Jangladesh.txt
 	513#Jaisalmer.txt
@@ -1341,7 +1321,6 @@ impassable = {
 	736#Sangju.txt
 	737#Jeonju.txt
 	738#Sakam.txt
-	739#Kashgar.txt
 	740#Chanderi.txt
 	977#Yakutat.txt
 	1084#Wadjuk.txt
@@ -1427,19 +1406,13 @@ impassable = {
 	608#Attapeu.txt
 	611#Sikhottabong.txt
 	2072#Bhakkar.txt
-	2078#Sind Sagar.txt
-	2079#Derajat.txt
-	2086#Cholistan.txt
 	2088#Umarkot.txt
 	4430#Daman.txt
 	4503#Mansura.txt
 	4504#Nasirpur.txt
 	4505#Khairpur.txt
-	4508#Bahawalpur.txt
-	4509#Karor.txt
 	504#Thatta.txt
 	505#Sehwan.txt
-	506#Multan.txt
 	2437#Seganka.txt
 	1101#Diego Garcia.txt
 	1248#Maldives.txt
