@@ -1133,7 +1133,7 @@ POL_ideas = {
 		production_efficiency = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.20
+		cavalry_power = 0.15
 		cav_to_inf_ratio = 0.2
 	}
 	nihil_novi = {
@@ -1142,7 +1142,6 @@ POL_ideas = {
 	}
 	peichota_wybraniecka = {
 		global_manpower_modifier = 0.20
-		infantry_power = 0.10
 	}
 	wojsko_komputoe = {
 		land_maintenance_modifier = -0.05

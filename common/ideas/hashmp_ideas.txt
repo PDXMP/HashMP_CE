@@ -2075,7 +2075,7 @@ PLC_ideas = {
 		production_efficiency = 0.1
 	}
 	plc_winged_hussars = {
-		cavalry_power = 0.33
+		cavalry_power = 0.20
 		cav_to_inf_ratio = 0.2
 	}
 	plc_nihil_novi = {
