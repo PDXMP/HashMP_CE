@@ -1011,22 +1011,6 @@ prestige = {
 
 	monthly_heir_claim_increase = 0.05
 
-	brahmins_hindu_loyalty_modifier = 0.05
-	brahmins_muslim_loyalty_modifier = 0.05
-	brahmins_other_loyalty_modifier = 0.05
-	church_loyalty_modifier = 0.05
-	maratha_loyalty_modifier = 0.05
-	nobles_loyalty_modifier = 0.05
-	polish_nobility_loyalty_modifier = 0.05
-	lithuanian_nobility_loyalty_modifier = 0.05
-	burghers_loyalty_modifier = 0.05
-	vaisyas_loyalty_modifier = 0.05
-	cossacks_loyalty_modifier = 0.05
-	nomadic_tribes_loyalty_modifier = 0.05
-	dhimmi_loyalty_modifier = 0.05
-	jains_loyalty_modifier = 0.05
-	rajput_loyalty_modifier = 0.05
-
 }
 
 no_debate_in_parliament = {
