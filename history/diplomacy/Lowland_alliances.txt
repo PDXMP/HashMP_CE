@@ -11,7 +11,7 @@ vassal = {
 #	start_date = 1444.1.1
 #	end_date = 1477.1.5
 #}
-union = {
+vassal = {
 	first = BUR
 	second = HOL
 	start_date = 1444.1.1
