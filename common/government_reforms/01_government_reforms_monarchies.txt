@@ -495,7 +495,7 @@ ottoman_government = {
 		unjustified_demands = -0.1
 		legitimacy = 0.5
 		max_absolutism = 5
-		governing_capacity = 150
+		governing_capacity = 250
 		governing_capacity_modifier = 0.10
 	}
 
@@ -660,6 +660,7 @@ tsardom = {
 		yearly_absolutism = 0.1
 		global_autonomy = -0.05
 		governing_capacity = 250
+		governing_capacity_modifier = 0.10
 	}
 
 	conditional = {
