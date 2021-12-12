@@ -17,6 +17,11 @@ bur_king_of_franks = {
 
 #
 
+
+h_tur_ascendance = {
+	ae_impact = -0.25
+}
+
 h_ita_norman_legacy = {
 	cav_to_inf_ratio = 0.20
 	cavalry_cost = -0.10
