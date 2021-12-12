@@ -1904,7 +1904,7 @@ iqta_legacy = {
 	allow_normal_conversion = no
 	icon = "muslim"
 	legacy_government = yes
-	queen = no
+	queen = yes
 
 	valid_for_new_country = no
 	allow_convert = no
