@@ -217,7 +217,7 @@ technology = {
 
 	
 	#Pike and Shot
-	infantry_fire		= 	0.25
+	combat_width = 1	
 	cavalry_shock		=	0.8
 
 	
@@ -247,7 +247,7 @@ technology = {
 	enable = steppe_raiders
 	enable = ha_xiuhtecuhtli_soldier
 	military_tactics 	= 	0.25
-	combat_width = 1	
+	infantry_fire		= 	0.25
 }
 
 technology = {
