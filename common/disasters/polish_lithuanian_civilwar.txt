@@ -154,14 +154,14 @@ polish_lithuanian_civilwar = {
         }
 		
 		modifier = {
-			factor = 2
+			factor = 3
 			is_in_war = {
 				attacker_leader = POL
 			}		
         }
 		
 		modifier = {
-			factor = 3
+			factor = 2
 			any_country = {
 				defensive_war_with = POL
 			}
