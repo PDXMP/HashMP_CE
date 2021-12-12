@@ -463,7 +463,7 @@ DAN_ideas = {
 
 FRA_ideas = {
 	start = {
-		diplomatic_reputation = 1
+		cavalry_cost = -0.10
 		global_manpower_modifier = 0.20
 	}
 	
@@ -478,6 +478,7 @@ FRA_ideas = {
 	
 	french_language_in_all_courts = {
 		diplomatic_upkeep = 1
+		diplomatic_reputation = 1
 	}
 	elan = {
 		land_morale = 0.20
@@ -488,13 +489,15 @@ FRA_ideas = {
 	native_trading_principles = {
 		native_uprising_chance = -0.5
 		native_assimilation = 0.5
-		heavy_ship_power = 0.10
+		colonists = 1
+		naval_maintenance_modifier = -0.2
 	}
 	vauban_fortifications = {
-		fort_maintenance_modifier = -0.2
+		defensiveness = 0.1
+		fort_maintenance_modifier = -0.1
 	}
 	the_philosophes = {
-		technology_cost = -0.1
+		technology_cost = -0.05
 	}
 	liberty_egalite_fraternity = {
 		tolerance_heathen = 2
