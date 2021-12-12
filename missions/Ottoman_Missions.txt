@@ -42,12 +42,24 @@ tur_conquerors_of_the_near_east = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			owns = 145
-			owns = 146
-			owns = 1773
-			owns = 4701
-			owns = 4699
-			owns = 4698
+			145 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			146 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1773 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4701 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4699 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4698 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		completed_by = 1460.1.1
 		effect = {

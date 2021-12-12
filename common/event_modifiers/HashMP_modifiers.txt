@@ -17,7 +17,6 @@ bur_king_of_franks = {
 
 #
 
-
 h_tur_ascendance = {
 	ae_impact = -0.25
 }
