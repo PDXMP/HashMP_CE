@@ -496,6 +496,7 @@ ottoman_government = {
 		legitimacy = 0.5
 		max_absolutism = 5
 		governing_capacity = 150
+		governing_capacity_modifier = 0.10
 	}
 
 	custom_attributes = {
