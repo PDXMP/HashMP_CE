@@ -35,10 +35,36 @@ country_event = {
 		set_country_flag = supports_house_of_lancaster
 
 		define_ruler = {
-			dynasty = Lancaster
-			age = 31
-			change_adm = 1
-			change_dip = 1
+			name = "Margaret"
+			dynasty = "d'Anjou"
+			culture = cosmopolitan_french
+			adm = 4
+			dip = 4
+			mil = 4
+			age = 18
+			female = yes
+		}
+		define_consort = {
+			name = "Henry VI"
+			dynasty = "Lancaster"
+			culture = ROOT
+			age = 26
+			adm = 1
+			dip = 1
+			mil = 1
+			male = yes
+		}
+		hidden_effect = {
+			add_queen_personality = infertile_personality
+		}
+		define_heir = {
+			name = "Edward"
+			dynasty = "Lancaster"
+			culture = ROOT
+			adm = 4
+			dip = 5
+			mil = 3
+			age = 0
 		}
 		if = {
 			limit = {
@@ -112,9 +138,20 @@ country_event = {
 		add_stability = -2
 		set_country_flag = supports_house_of_york
 		define_ruler = {
+			name = "Richard"
 			dynasty = York
-			age = 31
-			change_mil = 2
+			age = 37
+			adm = 3
+			dip = 2
+			mil = 4
+		}
+		define_heir = {
+			name = "Edward"
+			dynasty = York
+			adm = 5
+			dip = 2
+			mil = 6
+			age = 6
 		}
 		if = {
 			limit = {
@@ -144,7 +181,7 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "Edward"
+					leader = "Henry VI"
 					leader_dynasty = "Lancaster"
 					win = yes
 				}
@@ -173,7 +210,7 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "Edward"
+					leader = "Henry VI"
 					leader_dynasty = "Lancaster"
 					win = yes
 				}
