@@ -275,7 +275,7 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		culture_conversion_cost = -0.25
+		culture_conversion_cost = -0.33
 	}
 
 	deus_vult = {
@@ -310,7 +310,7 @@ religious_ideas = {
 	}
 	religious_tradition = {
 		manpower_in_true_faith_provinces = 0.20
-		warscore_cost_vs_other_religion = -0.10
+		warscore_cost_vs_other_religion = -0.15
 	}
 
 	ai_will_do = {
@@ -520,6 +520,7 @@ trade_ideas = {
 	fast_negotiations = {
 		global_ship_trade_power = 0.25
 		light_ship_cost = -0.10
+		naval_forcelimit_modifier = 0.25
 	}
 	trade_manipulation = {
 		trade_steering = 0.25
@@ -567,13 +568,14 @@ economic_ideas = {
 		inflation_action_cost = -0.10
 	}
 	centralization = {
-		reinforce_cost_modifier = -0.1
+		tax_income = 48
 	}
 	debt_and_loans = {
 		prestige_decay = -0.01
 	}
 	nationalistic_enthusiasm = {
 		land_maintenance_modifier = -0.05
+		reinforce_cost_modifier = -0.1
 	}
 	smithian_economics = {
 		production_efficiency = 0.10
@@ -1091,7 +1093,7 @@ humanist_ideas = {
 		tolerance_of_heretics_capacity = 1
 	}
 	local_traditions = {
-		global_unrest = -1
+		global_unrest = -2
 		monthly_splendor = 3
 	}
 	cultural_ties = {
@@ -1214,6 +1216,7 @@ naval_ideas = {
 	superior_seamanship = {
 		sailors_recovery_speed = 0.25
 		sailor_maintenance_modifer = -0.25
+		global_sailors_modifier = 0.25
 	}
 	naval_cadets = {
 		navy_tradition = 1
