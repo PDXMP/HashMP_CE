@@ -1308,7 +1308,7 @@ basra_area = { #4
 }
 
 luristan_area = { #4
-	413 414 2209 2210
+	413 414 2209 2210 2211
 }
 
 north_kurdistan_area = { #5
@@ -1321,7 +1321,7 @@ khuzestan_area = { #5
 
 shahrizor_area = {	#4
 	color = { 152 102 102 }
-	415 2211 4293 4294
+	415 4293 4294
 }
 
 al_jazira_area = { #5
