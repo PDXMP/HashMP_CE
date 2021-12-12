@@ -99,3 +99,24 @@ portuguese_marines =
 
 	button_gfx = 7
 }
+
+h_marines =
+{
+	can_select = {
+		is_primitive = no
+		NOT = {
+			tag = POR
+			tag = CAS
+			tag = SPA
+			tag = GBR
+			tag = ENG
+		}
+	}
+
+	country_modifier = {
+		allowed_marine_fraction = 0.10
+		global_sailors_modifier = 0.10
+	}
+
+	button_gfx = 7
+}

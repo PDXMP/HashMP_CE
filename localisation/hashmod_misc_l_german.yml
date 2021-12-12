@@ -1,4 +1,6 @@
 ﻿l_german:
+ h_marines:0 "h_marines"
+ h_marines_desc:0 "To establish a truly global empire we must be skilled at launching assaults on enemy forts from the sea."
  h_pol_purge_effect_tooltip:0 "You will gain the following modifier if this estate is purged:"
  h_pol_cossack_wars_tooltip:0 "§RThis will potentially result in a war with Crimea and the Great Horde.§!"
  h_pol_change_power_space:0 " "
