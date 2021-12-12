@@ -110,6 +110,7 @@ h_marines =
 			tag = SPA
 			tag = GBR
 			tag = ENG
+			tag = FRA
 		}
 	}
 
@@ -119,4 +120,18 @@ h_marines =
 	}
 
 	button_gfx = 7
+}
+
+h_french_fleet =
+{
+	can_select = {
+		is_primitive = no
+		tag = FRA
+	}
+
+	country_modifier = {
+		heavy_ship_power = 0.10
+	}
+
+	button_gfx = 5
 }

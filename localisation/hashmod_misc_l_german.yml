@@ -1,4 +1,6 @@
 ﻿l_german:
+ h_french_fleet:0 "French Warships"
+ h_french_fleet_desc:0 "To compete with more established naval and colonial powers, we must construct mighty warships capable of fighting their superiour fleets."
  h_marines:0 "h_marines"
  h_marines_desc:0 "To establish a truly global empire we must be skilled at launching assaults on enemy forts from the sea."
  h_pol_purge_effect_tooltip:0 "You will gain the following modifier if this estate is purged:"
