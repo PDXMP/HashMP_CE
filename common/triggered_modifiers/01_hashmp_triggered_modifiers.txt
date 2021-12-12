@@ -282,28 +282,46 @@ t_cn_navy_3 = {
 # HRE Rework
 ###########################################
 
-#t_hre_elector_1 = {
-#	potential = {
-#		is_part_of_hre = yes
-#		was_player = yes
-#	}
-#	trigger = {
-#		is_elector = yes
-#		is_emperor = no
-#		#NOT = {
-#		#	hre_reform_passed = emperor_reichsstabilitaet
-#		#}
-#		NOT = {
-#			total_development = 500
-#		}
-#	}
-#	ae_impact = -0.1
-#	manpower_recovery_speed = 0.1
-#	#land_morale = 0.05
-#	advisor_cost = -0.1
-#	global_manpower = 5
-#	global_tax_income = 12
-#}
+t_hre_elector_1 = {
+	potential = {
+		is_part_of_hre = yes
+		was_player = yes
+	}
+	trigger = {
+		is_elector = yes
+		is_emperor = no
+		NOT = {
+			total_development = 200
+		}
+	}
+
+	spy_offence = 0.20
+	fabricate_claims_cost = -0.20
+	ae_impact = -0.1
+}
+
+# t_hre_elector_1 = {
+# 	potential = {
+# 		is_part_of_hre = yes
+# 		was_player = yes
+# 	}
+# 	trigger = {
+# 		is_elector = yes
+# 		is_emperor = no
+# 		#NOT = {
+# 		#	hre_reform_passed = emperor_reichsstabilitaet
+# 		#}
+# 		NOT = {
+# 			total_development = 500
+# 		}
+# 	}
+# 	ae_impact = -0.1
+# 	manpower_recovery_speed = 0.1
+# 	#land_morale = 0.05
+# 	advisor_cost = -0.1
+# 	global_manpower = 5
+# 	global_tax_income = 12
+# }
 
 #t_hre_elector_2 = {
 #	potential = {
