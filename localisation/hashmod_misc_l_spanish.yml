@@ -1,4 +1,6 @@
 ﻿l_spanish:
+ h_critical_event_delay:0 "This would be more useful in the future."
+ h_critical_event_cooldown_tooltip:0 "This event will be able to trigger again after §Y5 years§!."
  h_french_fleet:0 "French Warships"
  h_french_fleet_desc:0 "To compete with more established naval and colonial powers, we must construct mighty warships capable of fighting their superiour fleets."
  h_marines:0 "h_marines"

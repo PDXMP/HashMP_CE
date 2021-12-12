@@ -63,6 +63,18 @@ h_reorganize_estates = {
 	polish_nobility_influence_modifier = -1
 }
 
+h_inspirational_leader_event_cooldown = {
+
+}
+
+h_grand_captain_event_cooldown = {
+
+}
+
+h_mil_reform_event_cooldown = {
+
+}
+
 h_reorganize_estates_cooldown = {
 
 }
