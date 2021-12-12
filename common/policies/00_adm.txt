@@ -223,10 +223,7 @@ the_royal_commission_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	legitimacy = 1
-	republican_tradition = 0.25
-	devotion = 0.5
-	horde_unity = 0.5
+	prestige = 0.5
 	yearly_absolutism = 1
 	
 	ai_will_do = {

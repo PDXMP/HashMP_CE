@@ -802,7 +802,7 @@ guerilla_warfare = {
 }
 
 weapon_quality_standards = {
-	monarch_power = ADM
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = economic_ideas
@@ -813,8 +813,8 @@ weapon_quality_standards = {
 		full_idea_group = quality_ideas
 	}
 	
-	fire_damage = 0.075
-	shock_damage = 0.075
+	fire_damage = 0.1
+	shock_damage = 0.1
 	
 	ai_will_do = {
 		factor = 2

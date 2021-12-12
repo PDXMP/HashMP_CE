@@ -219,8 +219,8 @@ restrictions_for_colonies = {
 		full_idea_group = religious_ideas
 	}
 
-	tax_income = 48
-	yearly_corruption = -0.10
+	all_estate_loyalty_equilibrium = 0.05
+	yearly_corruption = -0.25
 
 	ai_will_do = {
 		factor = 1
