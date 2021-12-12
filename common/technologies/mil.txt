@@ -322,6 +322,7 @@ technology = {
 	
 	supply_limit 		= 	0.5
 	military_tactics	=	0.25
+	cavalry_shock		=	0.25
 
 	enable = tofongchis_musketeer		
 	enable = ottoman_sekban		
@@ -413,7 +414,6 @@ technology = {
 	#Maurician Infantry
 	land_morale 		=	1.0
 	military_tactics	=	0.25
-	
 
 	
 	enable = irish_charge 
