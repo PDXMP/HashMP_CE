@@ -9,22 +9,7 @@ religion = catholic
 capital = 236 # London
 national_focus = DIP
 
-change_estate_land_share = {
-	estate = estate_church
-	share = -10
-}
-change_estate_land_share = {
-	estate = estate_burghers
-	share = -10
-}
-
 #1422.8.31 = { #Succession
-
-change_estate_land_share = { #compensates for lack of nobles, distributes 20 between the remaining estates
-	estate = all
-	share = 20
-}
-
 
 1429.11.6 = { #Coronation
 	monarch = {
@@ -38,10 +23,22 @@ change_estate_land_share = { #compensates for lack of nobles, distributes 20 bet
 	clear_scripted_personalities = yes
 	add_ruler_personality = infertile_personality
 }
-
+1440.10.13 = {
+	heir = {
+		name = "Edward"
+		monarch_name = "Edward of Westminster"
+		dynasty = "Westminster"
+		birth_date = 1440.10.13
+		death_date = 1483.8.30
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
 #1434.1.1 = { leader = {	name = "Richard Neville"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1460.12.31 } }
 
-1444.1.1 = { leader = {	name = "John Talbot"	type = general	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1453.7.17 } }
+1435.1.1 = { leader = {	name = "Richard Plantagenet"	type = general	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1460.12.30 } }
 
 1445.4.23 = {
 	queen = {
@@ -694,9 +691,9 @@ change_estate_land_share = { #compensates for lack of nobles, distributes 20 bet
 		name = "Oliver"
 		dynasty = "Cromwell"
 		birth_date = 1599.4.25
-		adm = 4
-		dip = 4
-		mil = 5
+		adm = 5
+		dip = 5
+		mil = 6
 		leader = { name = "Oliver Cromwell"	type = general	fire = 5	shock = 5	manuever = 4	siege = 1 }
 	}
 	
